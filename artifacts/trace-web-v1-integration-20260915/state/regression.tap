@@ -1,0 +1,844 @@
+TAP version 13
+# Subtest: fresh session has no candidates before SEARCH and explicitly uses a local demo provider
+ok 1 - fresh session has no candidates before SEARCH and explicitly uses a local demo provider
+  ---
+  duration_ms: 2.5881
+  type: 'test'
+  ...
+# Subtest: default search gives the three visual-reference fixtures, no URL or fabricated author
+ok 2 - default search gives the three visual-reference fixtures, no URL or fabricated author
+  ---
+  duration_ms: 1.7741
+  type: 'test'
+  ...
+# Subtest: search to LINK produces a request but does not change understanding or claim returned
+ok 3 - search to LINK produces a request but does not change understanding or claim returned
+  ---
+  duration_ms: 0.6113
+  type: 'test'
+  ...
+# Subtest: successful link only adds relation and material, not text/version/revision/unresolved
+ok 4 - successful link only adds relation and material, not text/version/revision/unresolved
+  ---
+  duration_ms: 1.0721
+  type: 'test'
+  ...
+# Subtest: linked candidate REJECT is blocked, preserving host, decision, and truth of notice
+ok 5 - linked candidate REJECT is blocked, preserving host, decision, and truth of notice
+  ---
+  duration_ms: 0.7721
+  type: 'test'
+  ...
+# Subtest: repeat LINK with a different request ID does not duplicate a source relation
+ok 6 - repeat LINK with a different request ID does not duplicate a source relation
+  ---
+  duration_ms: 1.1322
+  type: 'test'
+  ...
+# Subtest: explicit local editing and confirmation are mandatory before revise request
+ok 7 - explicit local editing and confirmation are mandatory before revise request
+  ---
+  duration_ms: 0.6179
+  type: 'test'
+  ...
+# Subtest: successful revise replaces only the original focus and returns an authoritative receipt
+ok 8 - successful revise replaces only the original focus and returns an authoritative receipt
+  ---
+  duration_ms: 0.7864
+  type: 'test'
+  ...
+# Subtest: host mutation alone does not change reducer; COMMIT_RESULT is the decisive UI boundary
+ok 9 - host mutation alone does not change reducer; COMMIT_RESULT is the decisive UI boundary
+  ---
+  duration_ms: 0.7786
+  type: 'test'
+  ...
+# Subtest: wrong request response cannot acknowledge a pending mutation
+ok 10 - wrong request response cannot acknowledge a pending mutation
+  ---
+  duration_ms: 0.928
+  type: 'test'
+  ...
+# Subtest: an ok flag with fake receipt or unchanged matter is not sufficient to claim updated
+ok 11 - an ok flag with fake receipt or unchanged matter is not sufficient to claim updated
+  ---
+  duration_ms: 1.2753
+  type: 'test'
+  ...
+# Subtest: failed host submission preserves local draft and never enters returned
+ok 12 - failed host submission preserves local draft and never enters returned
+  ---
+  duration_ms: 0.4125
+  type: 'test'
+  ...
+# Subtest: later host version blocks stale revise and cannot silently rebase an old draft
+ok 13 - later host version blocks stale revise and cannot silently rebase an old draft
+  ---
+  duration_ms: 0.7875
+  type: 'test'
+  ...
+# Subtest: original focus mismatch blocks even if host accidentally failed to increment version
+ok 14 - original focus mismatch blocks even if host accidentally failed to increment version
+  ---
+  duration_ms: 0.4476
+  type: 'test'
+  ...
+# Subtest: host rejects another matter, unknown source kind, empty target, and revision whitespace
+ok 15 - host rejects another matter, unknown source kind, empty target, and revision whitespace
+  ---
+  duration_ms: 0.5581
+  type: 'test'
+  ...
+# Subtest: host rejects forged broader range even when text and version are valid
+ok 16 - host rejects forged broader range even when text and version are valid
+  ---
+  duration_ms: 0.4957
+  type: 'test'
+  ...
+# Subtest: same request replay is idempotent, including after a successful undo
+ok 17 - same request replay is idempotent, including after a successful undo
+  ---
+  duration_ms: 0.9708
+  type: 'test'
+  ...
+# Subtest: request replay after later editing cannot falsely redisplay the old revised state
+ok 18 - request replay after later editing cannot falsely redisplay the old revised state
+  ---
+  duration_ms: 0.7486
+  type: 'test'
+  ...
+# Subtest: same request ID with changed content is rejected; property order alone is not changed content
+ok 19 - same request ID with changed content is rejected; property order alone is not changed content
+  ---
+  duration_ms: 0.4535
+  type: 'test'
+  ...
+# Subtest: undo only restores the focus and preserves sources, new facts, and current unresolved field
+ok 20 - undo only restores the focus and preserves sources, new facts, and current unresolved field
+  ---
+  duration_ms: 1.0384
+  type: 'test'
+  ...
+# Subtest: undo after later understanding edit conflicts, does not cover the later version
+ok 21 - undo after later understanding edit conflicts, does not cover the later version
+  ---
+  duration_ms: 0.7288
+  type: 'test'
+  ...
+# Subtest: undo cannot switch to a different focus without changing the version
+ok 22 - undo cannot switch to a different focus without changing the version
+  ---
+  duration_ms: 0.7631
+  type: 'test'
+  ...
+# Subtest: undo cannot target unknown revisions or re-undo an already reversed revision with a new ID
+ok 23 - undo cannot target unknown revisions or re-undo an already reversed revision with a new ID
+  ---
+  duration_ms: 0.8739
+  type: 'test'
+  ...
+# Subtest: candidate comparison drafts and saved notes never cross-contaminate
+ok 24 - candidate comparison drafts and saved notes never cross-contaminate
+  ---
+  duration_ms: 0.6278
+  type: 'test'
+  ...
+# Subtest: candidate switches discard open revision panel, preventing draft submission to another source
+ok 25 - candidate switches discard open revision panel, preventing draft submission to another source
+  ---
+  duration_ms: 0.3782
+  type: 'test'
+  ...
+# Subtest: reject, view, note, adjust, and cancel do not mutate the host or erase catalog material
+ok 26 - reject, view, note, adjust, and cancel do not mutate the host or erase catalog material
+  ---
+  duration_ms: 0.4361
+  type: 'test'
+  ...
+# Subtest: direction and scope are real query/provider inputs, not decorative controls
+ok 27 - direction and scope are real query/provider inputs, not decorative controls
+  ---
+  duration_ms: 0.836
+  type: 'test'
+  ...
+# Subtest: empty scopes or unsupported topic yields explicit local empty result without fake external search
+ok 28 - empty scopes or unsupported topic yields explicit local empty result without fake external search
+  ---
+  duration_ms: 0.715
+  type: 'test'
+  ...
+# Subtest: empty question, invalid query options, unknown candidate and missing selection are safe
+ok 29 - empty question, invalid query options, unknown candidate and missing selection are safe
+  ---
+  duration_ms: 0.7063
+  type: 'test'
+  ...
+# Subtest: user pasted material is explicitly user-provided; source kind and relation remain separate
+ok 30 - user pasted material is explicitly user-provided; source kind and relation remain separate
+  ---
+  duration_ms: 0.4921
+  type: 'test'
+  ...
+# Subtest: hypothetical source remains labelled hypothetical after successful link and revision
+ok 31 - hypothetical source remains labelled hypothetical after successful link and revision
+  ---
+  duration_ms: 0.7942
+  type: 'test'
+  ...
+# Subtest: blank/link-only import fails and never invents a source fetch
+ok 32 - blank/link-only import fails and never invents a source fetch
+  ---
+  duration_ms: 0.3998
+  type: 'test'
+  ...
+# Subtest: text remains literal; unsafe-looking IDs cannot poison per-candidate draft records
+ok 33 - text remains literal; unsafe-looking IDs cannot poison per-candidate draft records
+  ---
+  duration_ms: 0.8699
+  type: 'test'
+  ...
+# Subtest: duplicate clicks cannot emit a second request or change selection while awaiting commit
+ok 34 - duplicate clicks cannot emit a second request or change selection while awaiting commit
+  ---
+  duration_ms: 0.4937
+  type: 'test'
+  ...
+# Subtest: source identifier reuse cannot overwrite material already attached to the host
+ok 35 - source identifier reuse cannot overwrite material already attached to the host
+  ---
+  duration_ms: 0.5899
+  type: 'test'
+  ...
+# Subtest: model, selector and host are pure and accept frozen inputs
+ok 36 - model, selector and host are pure and accept frozen inputs
+  ---
+  duration_ms: 0.5012
+  type: 'test'
+  ...
+# Subtest: UTF-16 focus boundaries cannot split an emoji surrogate pair
+ok 37 - UTF-16 focus boundaries cannot split an emoji surrogate pair
+  ---
+  duration_ms: 0.4039
+  type: 'test'
+  ...
+# Subtest: fixtures cover all four screens; returned fixture is backed by a committed revision
+ok 38 - fixtures cover all four screens; returned fixture is backed by a committed revision
+  ---
+  duration_ms: 1.3748
+  type: 'test'
+  ...
+# Subtest: unknown action and stray completed response are inert; malformed host request fails cleanly
+ok 39 - unknown action and stray completed response are inert; malformed host request fails cleanly
+  ---
+  duration_ms: 0.142
+  type: 'test'
+  ...
+# Subtest: empty baseline has neither historical understanding nor auto-assigned sources
+ok 40 - empty baseline has neither historical understanding nor auto-assigned sources
+  ---
+  duration_ms: 2.7409
+  type: 'test'
+  ...
+# Subtest: first capture preserves exact user words and no title, summary or history is invented
+ok 41 - first capture preserves exact user words and no title, summary or history is invented
+  ---
+  duration_ms: 1.3256
+  type: 'test'
+  ...
+# Subtest: empty and whitespace-only capture refused; source-only capture succeeds
+ok 42 - empty and whitespace-only capture refused; source-only capture succeeds
+  ---
+  duration_ms: 0.5145
+  type: 'test'
+  ...
+# Subtest: excerpt and personal expression remain separate; selection alone is not capture
+ok 43 - excerpt and personal expression remain separate; selection alone is not capture
+  ---
+  duration_ms: 0.5256
+  type: 'test'
+  ...
+# Subtest: removing excerpt source removes hidden excerpt but not personal input
+ok 44 - removing excerpt source removes hidden excerpt but not personal input
+  ---
+  duration_ms: 0.502
+  type: 'test'
+  ...
+# Subtest: invalid source rejected and a later excerpt cannot mutate already captured matter
+ok 45 - invalid source rejected and a later excerpt cannot mutate already captured matter
+  ---
+  duration_ms: 0.6634
+  type: 'test'
+  ...
+# Subtest: draft, explicit save, stop, collapse and reopen form a narrow continuous loop
+ok 46 - draft, explicit save, stop, collapse and reopen form a narrow continuous loop
+  ---
+  duration_ms: 0.6485
+  type: 'test'
+  ...
+# Subtest: collapse undo restores only screen and never rolls back a later draft
+ok 47 - collapse undo restores only screen and never rolls back a later draft
+  ---
+  duration_ms: 0.3707
+  type: 'test'
+  ...
+# Subtest: navigation does not manufacture result, adoption or revisions and revised cannot be bypassed
+ok 48 - navigation does not manufacture result, adoption or revisions and revised cannot be bypassed
+  ---
+  duration_ms: 0.7112
+  type: 'test'
+  ...
+# Subtest: fresh context removes old understanding, sources and all prior conversation from provided context
+ok 49 - fresh context removes old understanding, sources and all prior conversation from provided context
+  ---
+  duration_ms: 1.8965
+  type: 'test'
+  ...
+# Subtest: a second fresh context starts a new isolated boundary, not the previous fresh conversation
+ok 50 - a second fresh context starts a new isolated boundary, not the previous fresh conversation
+  ---
+  duration_ms: 0.7542
+  type: 'test'
+  ...
+# Subtest: send keeps literal user text and valid focus, and generates no pretend model answer
+ok 51 - send keeps literal user text and valid focus, and generates no pretend model answer
+  ---
+  duration_ms: 0.374
+  type: 'test'
+  ...
+# Subtest: focus verifies real selected range, can clear, and branch keeps precise origin
+ok 52 - focus verifies real selected range, can clear, and branch keeps precise origin
+  ---
+  duration_ms: 0.5229
+  type: 'test'
+  ...
+# Subtest: selection to understanding appends a draft but does not adopt or replace the whole text
+ok 53 - selection to understanding appends a draft but does not adopt or replace the whole text
+  ---
+  duration_ms: 0.3402
+  type: 'test'
+  ...
+# Subtest: comparison link returns to its actual origin and does not adopt conclusion
+ok 54 - comparison link returns to its actual origin and does not adopt conclusion
+  ---
+  duration_ms: 0.4661
+  type: 'test'
+  ...
+# Subtest: reject comparison retains material but does not include rejected association in context
+ok 55 - reject comparison retains material but does not include rejected association in context
+  ---
+  duration_ms: 0.4016
+  type: 'test'
+  ...
+# Subtest: exact local replacement changes only one duplicate occurrence and supports safe undo
+ok 56 - exact local replacement changes only one duplicate occurrence and supports safe undo
+  ---
+  duration_ms: 0.8217
+  type: 'test'
+  ...
+# Subtest: suggestion with stale draft version cannot overwrite even when original substring still matches
+ok 57 - suggestion with stale draft version cannot overwrite even when original substring still matches
+  ---
+  duration_ms: 0.6293
+  type: 'test'
+  ...
+# Subtest: suggestion version check detects edit-away then edit-back (ABA)
+ok 58 - suggestion version check detects edit-away then edit-back (ABA)
+  ---
+  duration_ms: 0.5501
+  type: 'test'
+  ...
+# Subtest: dismiss has no content mutation; expired suggestion undo cannot overwrite later draft or save
+ok 59 - dismiss has no content mutation; expired suggestion undo cannot overwrite later draft or save
+  ---
+  duration_ms: 0.6193
+  type: 'test'
+  ...
+# Subtest: invalid selection offsets never corrupt text including surrogate pair bounds
+ok 60 - invalid selection offsets never corrupt text including surrogate pair bounds
+  ---
+  duration_ms: 0.4511
+  type: 'test'
+  ...
+# Subtest: new material can remain unrelated or saved; raw source survives and understanding does not change
+ok 61 - new material can remain unrelated or saved; raw source survives and understanding does not change
+  ---
+  duration_ms: 0.9972
+  type: 'test'
+  ...
+# Subtest: incorrect incoming link can be removed without deleting source or changing understanding
+ok 62 - incorrect incoming link can be removed without deleting source or changing understanding
+  ---
+  duration_ms: 0.4593
+  type: 'test'
+  ...
+# Subtest: handoff rejects missing destination and scope widening, supports distinct reference/trial/exclude
+ok 63 - handoff rejects missing destination and scope widening, supports distinct reference/trial/exclude
+  ---
+  duration_ms: 0.7607
+  type: 'test'
+  ...
+# Subtest: confirmed handoff is a snapshot and later understanding edits cannot silently change it
+ok 64 - confirmed handoff is a snapshot and later understanding edits cannot silently change it
+  ---
+  duration_ms: 0.4567
+  type: 'test'
+  ...
+# Subtest: an explicitly selected older handoff text is not relabeled as a newer understanding version
+ok 65 - an explicitly selected older handoff text is not relabeled as a newer understanding version
+  ---
+  duration_ms: 0.3933
+  type: 'test'
+  ...
+# Subtest: work findings preserve precise work origin and do not count as results or revisions
+ok 66 - work findings preserve precise work origin and do not count as results or revisions
+  ---
+  duration_ms: 0.3311
+  type: 'test'
+  ...
+# Subtest: no facts means no result, even when interpretation or proposed understanding exists
+ok 67 - no facts means no result, even when interpretation or proposed understanding exists
+  ---
+  duration_ms: 0.615
+  type: 'test'
+  ...
+# Subtest: KEEP_RESULT_ONLY leaves understanding, draft and stop bit-for-bit unchanged and deduplicates repeat click
+ok 68 - KEEP_RESULT_ONLY leaves understanding, draft and stop bit-for-bit unchanged and deduplicates repeat click
+  ---
+  duration_ms: 0.5945
+  type: 'test'
+  ...
+# Subtest: revision returns to the same ID, restores latest understanding and stop after reopen and next handoff
+ok 69 - revision returns to the same ID, restores latest understanding and stop after reopen and next handoff
+  ---
+  duration_ms: 0.7786
+  type: 'test'
+  ...
+# Subtest: revision undo keeps result facts and historical revision, and is one-shot
+ok 70 - revision undo keeps result facts and historical revision, and is one-shot
+  ---
+  duration_ms: 0.6506
+  type: 'test'
+  ...
+# Subtest: expired revision undo cannot overwrite later saved understanding, unsaved draft or stop
+ok 71 - expired revision undo cannot overwrite later saved understanding, unsaved draft or stop
+  ---
+  duration_ms: 1.8771
+  type: 'test'
+  ...
+# Subtest: identical proposed understanding saves only facts and does not manufacture a change
+ok 72 - identical proposed understanding saves only facts and does not manufacture a change
+  ---
+  duration_ms: 0.331
+  type: 'test'
+  ...
+# Subtest: TRY_AGAIN preserves provided facts before opening a clean handoff, but never invents them
+ok 73 - TRY_AGAIN preserves provided facts before opening a clean handoff, but never invents them
+  ---
+  duration_ms: 0.4516
+  type: 'test'
+  ...
+# Subtest: a stale proposed revision cannot overwrite subsequent edits before confirmation
+ok 74 - a stale proposed revision cannot overwrite subsequent edits before confirmation
+  ---
+  duration_ms: 0.4541
+  type: 'test'
+  ...
+# Subtest: material candidates do not leak another matter’s incoming draft/source into selected matter
+ok 75 - material candidates do not leak another matter’s incoming draft/source into selected matter
+  ---
+  duration_ms: 0.6815
+  type: 'test'
+  ...
+# Subtest: cross-matter drafts, incoming, composer, focus, handoff and results stay isolated
+ok 76 - cross-matter drafts, incoming, composer, focus, handoff and results stay isolated
+  ---
+  duration_ms: 1.6833
+  type: 'test'
+  ...
+# Subtest: unknown IDs/actions are safe and reducer/selector do not mutate their inputs
+ok 77 - unknown IDs/actions are safe and reducer/selector do not mutate their inputs
+  ---
+  duration_ms: 0.8894
+  type: 'test'
+  ...
+# Subtest: all eleven explicit demo views are deterministic and never share mutable fixture references
+ok 78 - all eleven explicit demo views are deterministic and never share mutable fixture references
+  ---
+  duration_ms: 7.6527
+  type: 'test'
+  ...
+# Subtest: closed loop calls existing chain/compare reducers: one ID, link is not adoption, receipt, exact return anchor
+ok 79 - closed loop calls existing chain/compare reducers: one ID, link is not adoption, receipt, exact return anchor
+  ---
+  duration_ms: 10.9125
+  type: 'test'
+  ...
+# Subtest: original/discussion basis is explicitly unconnected, never promoted into understanding
+ok 80 - original/discussion basis is explicitly unconnected, never promoted into understanding
+  ---
+  duration_ms: 0.4318
+  type: 'test'
+  ...
+# Subtest: empty captures/saves, duplicate IDs, missing sources, and unknown matters never mutate facts
+ok 81 - empty captures/saves, duplicate IDs, missing sources, and unknown matters never mutate facts
+  ---
+  duration_ms: 0.4929
+  type: 'test'
+  ...
+# Subtest: external matter IDs cannot collide with reducer generated creation IDs
+ok 82 - external matter IDs cannot collide with reducer generated creation IDs
+  ---
+  duration_ms: 0.3289
+  type: 'test'
+  ...
+# Subtest: source excerpts stay separate from user expression and demo fixtures never leak
+ok 83 - source excerpts stay separate from user expression and demo fixtures never leak
+  ---
+  duration_ms: 0.4696
+  type: 'test'
+  ...
+# Subtest: no fake search capability or externally readable URL
+ok 84 - no fake search capability or externally readable URL
+  ---
+  duration_ms: 0.6939
+  type: 'test'
+  ...
+# Subtest: return mismatch, stale anchor, invalid range and unsaved draft reject before opening
+ok 85 - return mismatch, stale anchor, invalid range and unsaved draft reject before opening
+  ---
+  duration_ms: 0.5171
+  type: 'test'
+  ...
+# Subtest: cancel and reject preserve pasted source without changing understanding
+ok 86 - cancel and reject preserve pasted source without changing understanding
+  ---
+  duration_ms: 1.3844
+  type: 'test'
+  ...
+# Subtest: missing or reassigned source blocks the final authoritative mutation
+ok 87 - missing or reassigned source blocks the final authoritative mutation
+  ---
+  duration_ms: 3.8194
+  type: 'test'
+  ...
+# Subtest: new saved version and ABA draft editing invalidate comparison requests
+ok 88 - new saved version and ABA draft editing invalidate comparison requests
+  ---
+  duration_ms: 2.8342
+  type: 'test'
+  ...
+# Subtest: duplicate request is idempotent; mismatched and duplicate ACKs cannot update an unrelated view
+ok 89 - duplicate request is idempotent; mismatched and duplicate ACKs cannot update an unrelated view
+  ---
+  duration_ms: 2.0382
+  type: 'test'
+  ...
+# Subtest: request ID collision with different payload is refused by real comparison host helper
+ok 90 - request ID collision with different payload is refused by real comparison host helper
+  ---
+  duration_ms: 1.272
+  type: 'test'
+  ...
+# Subtest: late success ACK cannot silently overwrite a later version or report old returned success
+ok 91 - late success ACK cannot silently overwrite a later version or report old returned success
+  ---
+  duration_ms: 1.9921
+  type: 'test'
+  ...
+# Subtest: forged view COMMIT_RESULT and forged ACK do not create success or mutate host
+ok 92 - forged view COMMIT_RESULT and forged ACK do not create success or mutate host
+  ---
+  duration_ms: 1.28
+  type: 'test'
+  ...
+# Subtest: comparison undo is monotonic, keeps materials, and old undo cannot erase later edits
+ok 93 - comparison undo is monotonic, keeps materials, and old undo cannot erase later edits
+  ---
+  duration_ms: 5.6015
+  type: 'test'
+  ...
+# Subtest: handoff snapshot remains version 1 while current canonical understanding advances to version 2
+ok 94 - handoff snapshot remains version 1 while current canonical understanding advances to version 2
+  ---
+  duration_ms: 4.0506
+  type: 'test'
+  ...
+# Subtest: existing worksite review/confirm mutates same canonical ID once and keeps fact distinct from interpretation
+ok 95 - existing worksite review/confirm mutates same canonical ID once and keeps fact distinct from interpretation
+  ---
+  duration_ms: 2.0069
+  type: 'test'
+  ...
+# Subtest: cancel review / keep result only do not adopt, missing fact does not create result
+ok 96 - cancel review / keep result only do not adopt, missing fact does not create result
+  ---
+  duration_ms: 2.1123
+  type: 'test'
+  ...
+# Subtest: later compare revision invalidates work result review instead of restoring its old understanding
+ok 97 - later compare revision invalidates work result review instead of restoring its old understanding
+  ---
+  duration_ms: 2.3543
+  type: 'test'
+  ...
+# Subtest: work review cannot overwrite a later unsaved draft, including ABA edit
+ok 98 - work review cannot overwrite a later unsaved draft, including ABA edit
+  ---
+  duration_ms: 1.2963
+  type: 'test'
+  ...
+# Subtest: work undo restores content with higher version and keeps original facts
+ok 99 - work undo restores content with higher version and keeps original facts
+  ---
+  duration_ms: 2.4762
+  type: 'test'
+  ...
+# Subtest: wrong result ownership and wrong work ID cannot mutate another matter
+ok 100 - wrong result ownership and wrong work ID cannot mutate another matter
+  ---
+  duration_ms: 0.7757
+  type: 'test'
+  ...
+# Subtest: fresh context and views use existing reducer semantics; inspecting views cannot mutate canonical data
+ok 101 - fresh context and views use existing reducer semantics; inspecting views cannot mutate canonical data
+  ---
+  duration_ms: 0.7119
+  type: 'test'
+  ...
+# Subtest: inputs are not mutated and live operations never persist or send work
+ok 102 - inputs are not mutated and live operations never persist or send work
+  ---
+  duration_ms: 1.2085
+  type: 'test'
+  ...
+# Subtest: two simultaneous comparisons preserve candidate draft isolation and reject stale second confirmation
+ok 103 - two simultaneous comparisons preserve candidate draft isolation and reject stale second confirmation
+  ---
+  duration_ms: 3.6888
+  type: 'test'
+  ...
+# Subtest: same matter in two works has isolated drafts but shared current understanding
+ok 104 - same matter in two works has isolated drafts but shared current understanding
+  ---
+  duration_ms: 3.3908
+  type: 'test'
+  ...
+# Subtest: wrong request matter ID cannot use current selection to mutate another object
+ok 105 - wrong request matter ID cannot use current selection to mutate another object
+  ---
+  duration_ms: 1.2713
+  type: 'test'
+  ...
+# Subtest: UTF-16 surrogate boundaries and unknown source toggles are validated by existing reducer
+ok 106 - UTF-16 surrogate boundaries and unknown source toggles are validated by existing reducer
+  ---
+  duration_ms: 0.6799
+  type: 'test'
+  ...
+# Subtest: empty default contains no fabricated history, intake, impact, result or receipt
+ok 107 - empty default contains no fabricated history, intake, impact, result or receipt
+  ---
+  duration_ms: 2.055
+  type: 'test'
+  ...
+# Subtest: five previews are explicit isolated demos, never receipts or saved user results
+ok 108 - five previews are explicit isolated demos, never receipts or saved user results
+  ---
+  duration_ms: 2.3748
+  type: 'test'
+  ...
+# Subtest: navigation and back do not invent findings, results, revisions or usage
+ok 109 - navigation and back do not invent findings, results, revisions or usage
+  ---
+  duration_ms: 1.2284
+  type: 'test'
+  ...
+# Subtest: unknown screens, actions, work IDs and intake IDs do not corrupt selection or drafts
+ok 110 - unknown screens, actions, work IDs and intake IDs do not corrupt selection or drafts
+  ---
+  duration_ms: 0.7119
+  type: 'test'
+  ...
+# Subtest: reference, trial, contrast have distinct selector instructions; exclusion really removes context
+ok 111 - reference, trial, contrast have distinct selector instructions; exclusion really removes context
+  ---
+  duration_ms: 1.1515
+  type: 'test'
+  ...
+# Subtest: local role/note changes preserve source snapshot and do not affect other work
+ok 112 - local role/note changes preserve source snapshot and do not affect other work
+  ---
+  duration_ms: 0.6747
+  type: 'test'
+  ...
+# Subtest: all 16 independent stage combinations require exact stage evidence, with no cascade
+ok 113 - all 16 independent stage combinations require exact stage evidence, with no cascade
+  ---
+  duration_ms: 1.5936
+  type: 'test'
+  ...
+# Subtest: stage flags with no corresponding evidence never establish delivery or effectiveness
+ok 114 - stage flags with no corresponding evidence never establish delivery or effectiveness
+  ---
+  duration_ms: 0.2383
+  type: 'test'
+  ...
+# Subtest: disputing influence preserves all original evidence and never revises understanding
+ok 115 - disputing influence preserves all original evidence and never revises understanding
+  ---
+  duration_ms: 0.7269
+  type: 'test'
+  ...
+# Subtest: composer raw text and source survive opening, refusing relation, and keeping finding
+ok 116 - composer raw text and source survive opening, refusing relation, and keeping finding
+  ---
+  duration_ms: 1.3694
+  type: 'test'
+  ...
+# Subtest: empty composer and whitespace findings cannot submit
+ok 117 - empty composer and whitespace findings cannot submit
+  ---
+  duration_ms: 0.7087
+  type: 'test'
+  ...
+# Subtest: finding relation requires valid matter but never adopts the finding as understanding
+ok 118 - finding relation requires valid matter but never adopts the finding as understanding
+  ---
+  duration_ms: 0.5767
+  type: 'test'
+  ...
+# Subtest: use finding affects only actual current-work selector and never sends a task or rule
+ok 119 - use finding affects only actual current-work selector and never sends a task or rule
+  ---
+  duration_ms: 0.5292
+  type: 'test'
+  ...
+# Subtest: keep/use finding is idempotent; editing a saved finding leaves original text intact
+ok 120 - keep/use finding is idempotent; editing a saved finding leaves original text intact
+  ---
+  duration_ms: 0.7689
+  type: 'test'
+  ...
+# Subtest: result classification and draft do not save, modify understanding or claim usage
+ok 121 - result classification and draft do not save, modify understanding or claim usage
+  ---
+  duration_ms: 1.2647
+  type: 'test'
+  ...
+# Subtest: empty results, unknown matter and invalid classification cannot produce history
+ok 122 - empty results, unknown matter and invalid classification cannot produce history
+  ---
+  duration_ms: 0.7453
+  type: 'test'
+  ...
+# Subtest: KEEP_RESULT_ONLY saves separated facts exactly once and cannot revise understanding
+ok 123 - KEEP_RESULT_ONLY saves separated facts exactly once and cannot revise understanding
+  ---
+  duration_ms: 0.5249
+  type: 'test'
+  ...
+# Subtest: OPEN and CANCEL review only display/cancel a difference and preserve the result draft
+ok 124 - OPEN and CANCEL review only display/cancel a difference and preserve the result draft
+  ---
+  duration_ms: 0.7049
+  type: 'test'
+  ...
+# Subtest: explicit confirmation updates only reviewed matter and exact after text, once
+ok 125 - explicit confirmation updates only reviewed matter and exact after text, once
+  ---
+  duration_ms: 0.89
+  type: 'test'
+  ...
+# Subtest: confirm without open review, blank after, or identical text cannot commit
+ok 126 - confirm without open review, blank after, or identical text cannot commit
+  ---
+  duration_ms: 1.4268
+  type: 'test'
+  ...
+# Subtest: editing the underlying result while review is open marks it stale and blocks confirmation
+ok 127 - editing the underlying result while review is open marks it stale and blocks confirmation
+  ---
+  duration_ms: 0.6534
+  type: 'test'
+  ...
+# Subtest: another work updating the same matter makes the earlier review stale
+ok 128 - another work updating the same matter makes the earlier review stale
+  ---
+  duration_ms: 0.7167
+  type: 'test'
+  ...
+# Subtest: reopening a stale review captures the new version and requires explicit confirmation again
+ok 129 - reopening a stale review captures the new version and requires explicit confirmation again
+  ---
+  duration_ms: 0.9809
+  type: 'test'
+  ...
+# Subtest: confirmed snapshot is never silently updated after the underlying understanding changes
+ok 130 - confirmed snapshot is never silently updated after the underlying understanding changes
+  ---
+  duration_ms: 0.6733
+  type: 'test'
+  ...
+# Subtest: undo restores content with monotonic version, retaining fact and revision history
+ok 131 - undo restores content with monotonic version, retaining fact and revision history
+  ---
+  duration_ms: 1.0936
+  type: 'test'
+  ...
+# Subtest: expired undo cannot overwrite a later same-matter change from another work
+ok 132 - expired undo cannot overwrite a later same-matter change from another work
+  ---
+  duration_ms: 0.9106
+  type: 'test'
+  ...
+# Subtest: result-only cannot relabel an already revised result or conceal the understanding mutation
+ok 133 - result-only cannot relabel an already revised result or conceal the understanding mutation
+  ---
+  duration_ms: 0.8134
+  type: 'test'
+  ...
+# Subtest: a result saved without revision can subsequently be reviewed without duplicating its fact
+ok 134 - a result saved without revision can subsequently be reviewed without duplicating its fact
+  ---
+  duration_ms: 0.6039
+  type: 'test'
+  ...
+# Subtest: editing a saved result starts a new pending record and leaves original evidence intact
+ok 135 - editing a saved result starts a new pending record and leaves original evidence intact
+  ---
+  duration_ms: 0.559
+  type: 'test'
+  ...
+# Subtest: try again preserves facts and current understanding but does not adopt a suggestion or send work
+ok 136 - try again preserves facts and current understanding but does not adopt a suggestion or send work
+  ---
+  duration_ms: 0.6252
+  type: 'test'
+  ...
+# Subtest: work selection isolates screen, composer, finding, result, review and receipt
+ok 137 - work selection isolates screen, composer, finding, result, review and receipt
+  ---
+  duration_ms: 0.9593
+  type: 'test'
+  ...
+# Subtest: pure reducer accepts deep-frozen state; selector returns detached copies
+ok 138 - pure reducer accepts deep-frozen state; selector returns detached copies
+  ---
+  duration_ms: 0.6649
+  type: 'test'
+  ...
+# Subtest: seed IDs are preserved, duplicate IDs rejected, empty work list produces a safe empty view
+ok 139 - seed IDs are preserved, duplicate IDs rejected, empty work list produces a safe empty view
+  ---
+  duration_ms: 0.8031
+  type: 'test'
+  ...
+1..139
+# tests 139
+# suites 0
+# pass 139
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 180.5792

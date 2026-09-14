@@ -1,0 +1,10 @@
+
+> dsh-trace@0.1.0 build
+> node build.mjs
+
+Built dsh-trace@0.1.0
+- D:\AGeneral Workspace\AI-powered\harness\trace-runtime\plugins\trace-harness-plugin\lib\index.js
+- D:\AGeneral Workspace\AI-powered\harness\trace-runtime\plugins\trace-harness-plugin\lib\client.js
+- D:\AGeneral Workspace\AI-powered\harness\trace-runtime\plugins\trace-harness-plugin\lib\desktop\main.mjs
+- D:\AGeneral Workspace\AI-powered\harness\trace-runtime\plugins\trace-harness-plugin\lib\desktop\renderer.js
+- D:\AGeneral Workspace\AI-powered\harness\trace-runtime\plugins\trace-harness-plugin\lib\desktop\discussion\index.html

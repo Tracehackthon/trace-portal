@@ -1,0 +1,223 @@
+Trace 工作现场 实现「从知乎留下一点」 Codex harness 当前查看的工作 切换工作 回到 Codex 工作总览 返回首页 本次会话 示例内容 尚未连接
+本次带入 允许只留下一点，不强制整理 保存材料，不等于恢复当时的触动 用于：保存入口与附言设计 用于：回看体验的判断 查看这次怎样用 这次怎样处理 附言作为可选项，不阻挡保存 先完成保存，再允许补一句自己的感受。 保存交互原型 查看实际影响 原型检查仅为示例，真实使用效果尚未确认。 仍需观察：几天后能否接回当时的想法 补一句现场发现，或带回一个结果…… 带回结果
+原来怎么想 可以先保存，不必马上补完标题、分类和理由。 查看来处 我的想法已经变了 为什么与这次有关 这次正在设计保存入口，它会影响哪些内容必须填写。 这次准备怎样用 当前：这次参考 这次参考 这次先试 这次不用 这次只作对照 仅调整本次工作，不自动修改长期理解。 也可以直接说：这次只作对照…… 本次取舍 附言可选，不阻挡保存 保留本次说明 原文快照 版本 原文和过去的影响记录仍保留，不再进入本次上下文。
+实际影响 带入的理解 本次取舍 保存交互原型 · 示例 打开对应原型 一个有触动的片段，不必立刻变成结论。 已留下 补一句我的感受（可选） 目前能确认 未填写附言，也可以完成保存。 依据：保存流程检查记录 还不能确认 几天后，是否能恢复当时为什么在意。 这条影响关系不准确 补一份实际结果 实现完成，不等于真实使用有效。 已提供 给出取舍 产物实现 真实使用 各项需独立证据 暂无可核验依据 不代表已发送给 Agent 修正这条影响关系 说明哪里不准确 保留纠错 取消 关系待核对 纠错仅保留本次说明，不抹去既有证据。
+工作中留下一点 保存很轻，但回来时可能认不出当时为什么在意。 一个待观察的想法，不是已验证的结论。 来源：Codex · harness 保存交互原型 · 查看现场 还想补一句吗？ 不用现在想完整…… 先留一下 展开想想 用于当前工作 留下后可以继续当前工作。 可能接到 收藏后为什么接不回来 上次停在：个人表达，还是原文现场？ 接到这件事 暂不关联 已关联 已选择不关联 无需现在决定。 仅用于本次工作，未发送给外部 Agent。 已留在本次会话 暂无可关联的事 原始发现会保留，不必接受建议关联。
+结果回来 上次停在 恢复当时的触动，是否需要自己的附言？ 原问题 这次实际发生 这一次没有写附言，但借助原文和前后讨论，想起了当时为什么在意。 来源：本次原型试用 · 查看现场 单次观察，不代表普遍成立 可能改变的理解 建议修改 · 尚未生效 原先的猜想：也许需要补一句自己的感受。 附言不一定每次都需要。先保留足以恢复现场的信息，再允许补充个人感受。 仍未分清 哪些情况下，只有自己的一句话才能补上缺失？ 这是待确认的解释，不是已经证明的原因。 支持 限制 挑战 暂判断 查看修改并确认 只留下结果 再试一次 仅在你确认后更新「我的理解」。 实际观察 你的解释 还不能判断的部分 候选理解 选择一件事 暂无结果，请先写下实际发生的事。
+确认修改我的理解 修改前 修改后 这次事实 仅查看差异，不会自动生效。 确认修改 取消修改 内容已变化，请取消后重新查看差异。 已确认修改 撤销这次修改 已撤销，结果仍保留 已保存结果，理解未变 再试计划已留在本次会话，不会自动创建外部任务。
+当前没有接入的工作 选择一个工作后，带入、发现和结果会分别保留。 还没有本次带入 先从一件事中选择要带去用的理解；这里不会自动选中全部内容。 暂无具体取舍 外部 Agent 尚未连接 当前只是独立交互模块，不表示已送达、已实现或已验证。 查看示例 关闭 个人区域 当前没有账户接入。 只保存本次会话，刷新后重置。 示例原型尚未连接真实产物。 此工作尚未连接外部 Agent。 来源没有可打开的链接，原文仍可在这里核对。 这件事尚未连接，可先保留现场发现。 操作暂未完成，请稍后再试。
+
+固定 fixture / notice 文案并集（2026-09-15）：
+ · 尚未连接
+ · 示例
+ · 示例内容
+,`<h2>本次原型</h2><div>${orbit(
+,`${back()}<div class="worksite-intake-heading"><p>本次带入</p><h2 data-text="intake-title"></h2><span class="worksite-role-summary" data-text="role-summary"></span></div><div class="worksite-intake-copy"><section><div class="worksite-row-heading"><h3>原来怎么想</h3>${button(
+,`当前：${ROLES[intake?.role]||
+,attrs:`data-id="${esc(item.id)}" aria-label="查看这次怎样用：${esc(item.title)}"`})}</article>`).join(
+,candidate?`上次停在：${candidate.stop||
+,matter?`原先的理解：${matter.understanding}`:
+).textContent=`回到 ${current.work?.agent||
+).textContent=`原问题：${matter?.title||
+)}" data-field="composer" rows="1" aria-label="补一句现场发现" placeholder="补一句现场发现，或带回一个结果……"></textarea><button type="submit" class="worksite-send" aria-label="展开现场发现" data-submit="capture">${icon(
+)}" data-field="finding-note" rows="2" placeholder="不用现在想完整……"></textarea></div><div class="worksite-finding-actions">${button(
+)}" data-field="finding-text" rows="2" placeholder="工作中，有什么让你停了一下？"></textarea><p>一个待观察的想法，不是已验证的结论。</p><div class="worksite-finding-source">${orbit(
+)}" data-field="result-fact" rows="4" placeholder="先写下实际发生的事，不急着解释。"></textarea><div class="worksite-fact-source">${button(
+)}" data-field="result-interpretation" rows="1" placeholder="这是待确认的解释，不是已经证明的原因。"></textarea></div><div class="worksite-result-relations" role="group" aria-label="这次结果与原理解的关系">${Object.entries(RELATIONS).map(([relation,text])=>button(
+)}" data-field="result-proposed" rows="2" placeholder="这次观察可能怎样改变你的理解？"></textarea></div><div class="worksite-result-unknown">${label(fieldId(
+)}" data-field="result-unknown" rows="1" placeholder="还有哪些情况需要再看？"></textarea>${label(fieldId(
+)}">确认修改我的理解</h2>${button(
+)}<div><h2>上次停在</h2><p data-text="matter-stop"></p></div><footer>${button(
+)}<span>本次取舍</span></div><h2 data-text="decision-short"></h2>${button(
+)}<span>工作中留下一点</span></div><div class="worksite-finding-original">${label(fieldId(
+)}<span>仅调整本次工作，不自动修改长期理解。</span></p><div class="worksite-composer worksite-intake-note">${orbit(
+)}<span>实际影响</span></div><h2 data-text="decision-short"></h2><div class="worksite-choice"><h3><i></i>本次取舍</h3><p data-text="decision-description"></p></div><div class="worksite-artifact-preview"><header><span data-text="artifact-demo-title"></span>${button(
+)}<span>一个有触动的片段，不必立刻变成结论。</span><span class="worksite-mini-saved">${icon(
+)}<span>这次怎样处理</span></div><h2 data-text="decision-title"></h2><p class="worksite-decision-description" data-text="decision-description"></p>${button(
+)}补一句我的感受（可选）</p></div></div><div class="worksite-stage-list" aria-label="影响程度与独立证据"></div></div><div class="worksite-impact-right"><section><h3>${orbit(
+)}还不能确认</h3><div class="worksite-unconfirmed"></div></section></div></div><footer class="worksite-impact-footer">${button(
+)}可能改变的理解</h2><span class="worksite-pending" data-text="revision-status"></span></header><div class="worksite-result-matter-select">${label(fieldId(
+)}可能接到</p><div class="worksite-related-matter"><h2 data-text="suggested-matter-title"></h2><p data-text="suggested-stop"></p></div><div class="worksite-relation-actions">${button(
+)}目前能确认</h3><div class="worksite-confirmed"></div><div class="worksite-evidence"></div></section><section><h3>${orbit(
+)}示例已留下</span></div><p>${icon(
+})}</div><p data-text="source-text"></p></section><section><h3>为什么与这次有关</h3><p data-text="relevance"></p></section><section><h3>这次准备怎样用</h3><p data-text="use-plan"></p><p class="worksite-context-instruction" data-text="context-instruction"></p></section></div><div class="worksite-role-options" role="group" aria-label="这条理解怎样参与本次工作">${Object.entries(ROLES).map(([role,text])=>button(
+<option value="">选择一件事</option>
+<p>当前没有接入的工作</p>
+<p>当前没有账户接入。</p><p>只保存本次会话，刷新后重置。</p>
+<p>选择一个工作后，带入、发现和结果会分别保留。</p><div class="worksite-work-list"></div><p class="worksite-panel-note">外部 Agent 尚未连接。当前只是独立交互模块，不表示已送达、已实现或已验证。</p>
+保存材料，不等于恢复当时的触动
+保存很轻，但回来时可能认不出当时为什么在意。
+保存交互原型
+保存交互原型 · 示例
+保存流程检查记录 · 示例
+保存入口取舍 · 示例
+保存时，哪些内容可以以后再补？
+保留纠错
+本次带入
+本次带入记录 · 示例
+补一份实际结果
+操作暂未完成，请稍后再试。
+查看
+查看来处
+查看实际影响
+查看现场
+查看修改并确认
+查看这次怎样用
+产物实现
+撤销这次修改
+此工作尚未连接外部 Agent。
+打开对应原型
+带回结果
+待核验
+当前工作
+当前没有接入的工作
+附言不一定每次都需要。先保留足以恢复现场的信息，再允许补充个人感受。
+附言可选；保存操作不依赖附言。
+附言作为可选项，不阻挡保存
+该结果已确认过修订；如需恢复理解，请撤销那次修订。
+该理解已有后续变化；不会用旧撤销覆盖新内容。
+个人表达，还是原文现场？
+个人区域
+各项影响需要独立证据，不能由提供内容推定。
+给出取舍
+工作总览
+关系待核对 · 查看纠错
+观察几天后的回看体验
+观察几天后能否接回当时为什么在意。
+还没有本次带入
+还想补一句吗？
+候选理解
+恢复当时的触动，是否需要自己的附言？
+回到 Codex
+几天后，是否能恢复当时为什么在意。
+建议修改 · 尚未生效
+接到这件事
+结果已留 · 理解未变
+结果已留在本次会话；当前理解没有改变。
+仅本次不使用；原理解和过去的影响记录保留。
+仅确认关联，未采用为当前理解。
+仅用于本次工作，未发送给外部 Agent。
+可以先保存，不必马上补完标题、分类和理由。
+空白发现不能保存。
+来源：本次原型试用 · 查看现场
+来源尚未连接。
+理解或本次结果已变化；请关闭并重新查看差异，不能覆盖新内容。
+理解内容已恢复，版本继续递增；结果事实与修订记录保留。
+连接工作或留下明确依据后，再核对理解怎样参与。
+两条理解作为本次任务的参考与尝试。
+留下后可以继续当前工作。
+没有找到结果要接回的事。
+没有找到要关联的事；原始发现仍保留。
+没有找到这项工作，当前内容未改变。
+哪些情况下，只有自己的一句话才能补上缺失？
+内容已变化，请取消后重新查看差异。
+你的解释
+前后内容相同，不生成修订；可以只留下结果。
+切换工作
+请先保留实际发生的事实，再决定怎样试一次。
+请先填写实际发生的事实，并明确接回哪件事。
+取消
+取消修改
+确认修改
+仍未分清
+仍需观察：几天后能否接回当时的想法
+尚未接入工作
+尚未接入工作。
+尚未连接
+尚未连接产物
+尚未设置本次用法。
+尚无关联说明。
+尚无可核验的具体取舍
+尚无现场来源。
+实际使用效果仍需观察。
+实现「从知乎留下一点」
+示例
+示例检查：未填写附言，也可以完成保存。
+示例取舍：附言作为可选项，不阻挡保存。
+示例上下文记录中包含这两条带入。
+示例依据：
+示例原型尚未连接真实产物。
+事实与修改内容都不能为空。
+收藏后为什么接不回来
+收藏后为什么接不回来 · 示例
+首页尚未连接。
+说明哪里不准确
+挑战
+外部 Agent 尚未连接，不代表已提供或已实现。
+外部 Agent 尚未连接，不会自动生成工作影响。
+未连接 Agent
+未填写附言，也可以完成保存。
+未选择项目
+我的理解 · 示例
+我的想法已经变了
+无需现在决定。
+先补充实际发生的事实，再查看修改差异。
+先从一件事中选择要带去用的理解。
+先留一下
+先完成保存，再允许补一句自己的感受。
+先写下建议怎样修改；还不会立即生效。
+先写下一点现场发现。
+现场发现
+限制
+修改后
+修正这条影响关系
+选择一件事
+也许需要补一句自己的感受。
+依据：
+已保存结果，理解未变
+已标记影响关系存疑；原始依据与四种程度没有被删改。
+已撤销，结果仍保留
+已调整本次用途；未修改长期理解。
+已关联
+已留下本次再试计划；未采用建议修改，也未自动创建或发送外部任务。
+已留在本次会话，留下后可以继续当前工作。
+已留在本次会话；原话和出处保留。
+已纳入本次工作上下文；未向 Agent 发送，也未发布为长期规则。
+已确认本次会话的理解修改；原始事实仍保留，可撤销。
+已确认修改
+已提供
+已选择不关联
+用于当前工作
+用于回看体验的判断：只留材料，之后能否接回当时的想法。
+有依据
+原始发现会保留，不必接受建议关联。
+原文和过去的影响记录仍保留，不再进入本次上下文。
+原文快照
+原问题
+原型检查仅为示例，真实使用效果尚未确认。
+允许只留下一点，不强制整理
+再试计划已留在本次会话，不会自动创建外部任务。
+再试一次
+暂不关联
+暂不关联；原话和来源仍保留。
+暂判断
+暂未选择带入内容。
+暂未选择一件事
+暂未选择一件事，可以先保留现场发现。
+暂无带入的理解
+暂无具体取舍
+暂无可关联的事
+暂无可核验依据。
+暂无其他带入
+展开想想
+这次不用
+这次参考
+这次可能是原文和前后讨论保留了足够的现场信息。
+这次实际发生
+这次先试
+这次正在设计保存入口，它会影响哪些内容必须填写。
+这次只作对照
+这份结果已经确认过修订，不会重复提交。
+这件事尚未连接，可先保留现场发现。
+这条带入不属于当前工作。
+这条影响关系不准确
+这一次没有写附言，但借助原文和前后讨论，想起了当时为什么在意。
+真实使用
+支持
+只留下结果
+只用于比较条件和差异，不据此约束当前实现。
+作为本次参考，不覆盖当前明确要求。
+作为待检验的本次尝试，不当作已经成立的结论。
+aria-label="查看本次原型"
+aria-label="关闭面板"
+aria-label="取消修改"

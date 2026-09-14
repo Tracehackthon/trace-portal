@@ -1,0 +1,379 @@
+{
+  "task": "trace-web-v1-integration-20260915",
+  "readOnly": true,
+  "fontToolsVersion": "4.63.0",
+  "manifestSha256": "982C63AE50B57E554497D5D3BA838B50F364A172064FD4DCEEF2C1CDA74B113A",
+  "fontCount": 12,
+  "fixedSubsetCmapUnionCount": 760,
+  "fonts": [
+    {
+      "key": "font.original.serif",
+      "path": "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2",
+      "sha256": "556749BA783B148FA1F48644E8883E5B9351F01ABD0D1FAAD0BA24A21185E76A",
+      "cmapCount": 30930,
+      "actualAxes": [
+        {
+          "tag": "wght",
+          "min": 250.0,
+          "default": 250.0,
+          "max": 900.0
+        }
+      ],
+      "missingFromFixedUnion": 0
+    },
+    {
+      "key": "font.original.sans",
+      "path": "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf",
+      "sha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA",
+      "cmapCount": 30890,
+      "actualAxes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 100.0,
+          "max": 900.0
+        }
+      ],
+      "missingFromFixedUnion": 0
+    },
+    {
+      "key": "font.fixed.home.serif",
+      "path": "artifacts/trace-home-v1-20260914/fonts/derived/TraceHomeSerif-fixed.woff2",
+      "sha256": "023539D77B00A8164AEE9900BD24E0DC0928C1515D4F9A00477826ABB4FFE31D",
+      "cmapCount": 319,
+      "actualAxes": [
+        {
+          "tag": "wght",
+          "min": 250.0,
+          "default": 250.0,
+          "max": 900.0
+        }
+      ],
+      "missingFromFixedUnion": 441
+    },
+    {
+      "key": "font.fixed.home.sans",
+      "path": "artifacts/trace-home-v1-20260914/fonts/derived/TraceHomeSans-fixed.woff2",
+      "sha256": "910B4E5A05FCB8C0631AB64EB51D29417D833087C487AFDF9DDABDBB0B7D1EBE",
+      "cmapCount": 319,
+      "actualAxes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 100.0,
+          "max": 900.0
+        }
+      ],
+      "missingFromFixedUnion": 441
+    },
+    {
+      "key": "font.fixed.matters.serif",
+      "path": "artifacts/trace-matters-v1-20260915/fonts/derived/TraceMattersSerif-fixed.woff2",
+      "sha256": "6B1D904266F22E080E8A3C8B63DC5F8C9153001302A73D5A3F5EEE0A103070FE",
+      "cmapCount": 474,
+      "actualAxes": [
+        {
+          "tag": "wght",
+          "min": 250.0,
+          "default": 250.0,
+          "max": 900.0
+        }
+      ],
+      "missingFromFixedUnion": 286
+    },
+    {
+      "key": "font.fixed.matters.sans",
+      "path": "artifacts/trace-matters-v1-20260915/fonts/derived/TraceMattersSans-fixed.woff2",
+      "sha256": "31F9766E8A7122291E2EC1D10E674ACDE07D2085D997AB8F6F64C794749DD085",
+      "cmapCount": 474,
+      "actualAxes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 100.0,
+          "max": 900.0
+        }
+      ],
+      "missingFromFixedUnion": 286
+    },
+    {
+      "key": "font.fixed.chain.serif",
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/derived/TraceChainSerif-fixed.woff2",
+      "sha256": "7FC2BEFC231B1F67A151AD485AC8A7C7B4ECD6C98015DA9DA9A95809A2E495CB",
+      "cmapCount": 646,
+      "actualAxes": [
+        {
+          "tag": "wght",
+          "min": 250.0,
+          "default": 250.0,
+          "max": 900.0
+        }
+      ],
+      "missingFromFixedUnion": 114
+    },
+    {
+      "key": "font.fixed.chain.sans",
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/derived/TraceChainSans-fixed.woff2",
+      "sha256": "BC982B0E334328DBD10260E3189CFCB4C6136FACE7424391DAB65E26C4204D30",
+      "cmapCount": 646,
+      "actualAxes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 100.0,
+          "max": 900.0
+        }
+      ],
+      "missingFromFixedUnion": 114
+    },
+    {
+      "key": "font.fixed.worksite.serif",
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/derived/TraceWorksiteSerif-fixed.woff2",
+      "sha256": "95C335CC8A689C6D2AFAD55B5C8FA4CDAA2F0DF554FD221578BEDFABA8C06B3D",
+      "cmapCount": 465,
+      "actualAxes": [
+        {
+          "tag": "wght",
+          "min": 250.0,
+          "default": 250.0,
+          "max": 900.0
+        }
+      ],
+      "missingFromFixedUnion": 295
+    },
+    {
+      "key": "font.fixed.worksite.sans",
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/derived/TraceWorksiteSans-fixed.woff2",
+      "sha256": "CBF26882BECA434167653D85258BF92D8D1DD5A5E1888A5E1D242C51916F112C",
+      "cmapCount": 465,
+      "actualAxes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 100.0,
+          "max": 900.0
+        }
+      ],
+      "missingFromFixedUnion": 295
+    },
+    {
+      "key": "font.fixed.compare.serif",
+      "path": "artifacts/trace-compare-v1-20260915/fonts/derived/TraceCompareSerif-fixed.woff2",
+      "sha256": "B0165BA3BF557486C4D5E8E1799D925C8CE31D6B034B25A62BA7847A47E54B48",
+      "cmapCount": 439,
+      "actualAxes": [
+        {
+          "tag": "wght",
+          "min": 250.0,
+          "default": 250.0,
+          "max": 900.0
+        }
+      ],
+      "missingFromFixedUnion": 321
+    },
+    {
+      "key": "font.fixed.compare.sans",
+      "path": "artifacts/trace-compare-v1-20260915/fonts/derived/TraceCompareSans-fixed.woff2",
+      "sha256": "3AA4BC640F39B1A168D30D9A353A0CCF0A7C2D159EAC7CC9B40B7B5670A7A178",
+      "cmapCount": 439,
+      "actualAxes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 100.0,
+          "max": 900.0
+        }
+      ],
+      "missingFromFixedUnion": 321
+    }
+  ],
+  "crossPageCoverage": [
+    {
+      "key": "font.fixed.home.serif",
+      "missingFromOtherPageCmaps": {
+        "font.fixed.home.serif": 0,
+        "font.fixed.matters.serif": 187,
+        "font.fixed.chain.serif": 343,
+        "font.fixed.worksite.serif": 198,
+        "font.fixed.compare.serif": 175
+      }
+    },
+    {
+      "key": "font.fixed.home.sans",
+      "missingFromOtherPageCmaps": {
+        "font.fixed.home.sans": 0,
+        "font.fixed.matters.sans": 187,
+        "font.fixed.chain.sans": 343,
+        "font.fixed.worksite.sans": 198,
+        "font.fixed.compare.sans": 175
+      }
+    },
+    {
+      "key": "font.fixed.matters.serif",
+      "missingFromOtherPageCmaps": {
+        "font.fixed.home.serif": 32,
+        "font.fixed.matters.serif": 0,
+        "font.fixed.chain.serif": 221,
+        "font.fixed.worksite.serif": 99,
+        "font.fixed.compare.serif": 98
+      }
+    },
+    {
+      "key": "font.fixed.matters.sans",
+      "missingFromOtherPageCmaps": {
+        "font.fixed.home.sans": 32,
+        "font.fixed.matters.sans": 0,
+        "font.fixed.chain.sans": 221,
+        "font.fixed.worksite.sans": 99,
+        "font.fixed.compare.sans": 98
+      }
+    },
+    {
+      "key": "font.fixed.chain.serif",
+      "missingFromOtherPageCmaps": {
+        "font.fixed.home.serif": 16,
+        "font.fixed.matters.serif": 49,
+        "font.fixed.chain.serif": 0,
+        "font.fixed.worksite.serif": 44,
+        "font.fixed.compare.serif": 43
+      }
+    },
+    {
+      "key": "font.fixed.chain.sans",
+      "missingFromOtherPageCmaps": {
+        "font.fixed.home.sans": 16,
+        "font.fixed.matters.sans": 49,
+        "font.fixed.chain.sans": 0,
+        "font.fixed.worksite.sans": 44,
+        "font.fixed.compare.sans": 43
+      }
+    },
+    {
+      "key": "font.fixed.worksite.serif",
+      "missingFromOtherPageCmaps": {
+        "font.fixed.home.serif": 52,
+        "font.fixed.matters.serif": 108,
+        "font.fixed.chain.serif": 225,
+        "font.fixed.worksite.serif": 0,
+        "font.fixed.compare.serif": 95
+      }
+    },
+    {
+      "key": "font.fixed.worksite.sans",
+      "missingFromOtherPageCmaps": {
+        "font.fixed.home.sans": 52,
+        "font.fixed.matters.sans": 108,
+        "font.fixed.chain.sans": 225,
+        "font.fixed.worksite.sans": 0,
+        "font.fixed.compare.sans": 95
+      }
+    },
+    {
+      "key": "font.fixed.compare.serif",
+      "missingFromOtherPageCmaps": {
+        "font.fixed.home.serif": 55,
+        "font.fixed.matters.serif": 133,
+        "font.fixed.chain.serif": 250,
+        "font.fixed.worksite.serif": 121,
+        "font.fixed.compare.serif": 0
+      }
+    },
+    {
+      "key": "font.fixed.compare.sans",
+      "missingFromOtherPageCmaps": {
+        "font.fixed.home.sans": 55,
+        "font.fixed.matters.sans": 133,
+        "font.fixed.chain.sans": 250,
+        "font.fixed.worksite.sans": 121,
+        "font.fixed.compare.sans": 0
+      }
+    }
+  ],
+  "dynamicProbe": {
+    "text": "动态输入：龘、𠮷与🙂",
+    "purpose": "Counterexample/coverage inspection only, not rendered proof",
+    "missing": {
+      "font.original.serif": [
+        "U+1F642",
+        "U+20BB7"
+      ],
+      "font.original.sans": [
+        "U+1F642",
+        "U+20BB7"
+      ],
+      "font.fixed.home.serif": [
+        "U+4E0E",
+        "U+6001",
+        "U+8F93",
+        "U+9F98",
+        "U+1F642",
+        "U+20BB7"
+      ],
+      "font.fixed.home.sans": [
+        "U+4E0E",
+        "U+6001",
+        "U+8F93",
+        "U+9F98",
+        "U+1F642",
+        "U+20BB7"
+      ],
+      "font.fixed.matters.serif": [
+        "U+6001",
+        "U+9F98",
+        "U+1F642",
+        "U+20BB7"
+      ],
+      "font.fixed.matters.sans": [
+        "U+6001",
+        "U+9F98",
+        "U+1F642",
+        "U+20BB7"
+      ],
+      "font.fixed.chain.serif": [
+        "U+9F98",
+        "U+1F642",
+        "U+20BB7"
+      ],
+      "font.fixed.chain.sans": [
+        "U+9F98",
+        "U+1F642",
+        "U+20BB7"
+      ],
+      "font.fixed.worksite.serif": [
+        "U+6001",
+        "U+8F93",
+        "U+9F98",
+        "U+1F642",
+        "U+20BB7"
+      ],
+      "font.fixed.worksite.sans": [
+        "U+6001",
+        "U+8F93",
+        "U+9F98",
+        "U+1F642",
+        "U+20BB7"
+      ],
+      "font.fixed.compare.serif": [
+        "U+3001",
+        "U+6001",
+        "U+8F93",
+        "U+9F98",
+        "U+1F642",
+        "U+20BB7"
+      ],
+      "font.fixed.compare.sans": [
+        "U+3001",
+        "U+6001",
+        "U+8F93",
+        "U+9F98",
+        "U+1F642",
+        "U+20BB7"
+      ]
+    }
+  },
+  "limits": [
+    "cmap membership only; not shaping, actual FontFace selection, line breaks or browser verification",
+    "Union is the existing subset cmap union, not all current DOM strings and not arbitrary user content",
+    "Full CN fonts are not all Unicode; platform fallback remains necessary"
+  ]
+}

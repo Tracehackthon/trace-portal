@@ -1,0 +1,176 @@
+{
+  "taskId": "trace-compare-v1-20260915",
+  "scope": "isolated native DOM module + pure fixture host; not integrated app",
+  "prefix": "release",
+  "checks": [
+    {
+      "name": "All four screens load fonts/assets without horizontal overflow or clipped buttons",
+      "ok": true
+    },
+    {
+      "name": "Search begins with no candidates; SEARCH produces exactly 3 local demos",
+      "ok": true
+    },
+    {
+      "name": "Query update preserves same input node and selection",
+      "ok": true
+    },
+    {
+      "name": "IME composition does not dispatch partial business text",
+      "ok": true
+    },
+    {
+      "name": "Direction and scope change actual session query",
+      "ok": true
+    },
+    {
+      "name": "Blank query cannot submit",
+      "ok": true
+    },
+    {
+      "name": "Unavailable local scope renders honest empty state",
+      "ok": true
+    },
+    {
+      "name": "Open candidate and inspect local context/info without external URL",
+      "ok": true
+    },
+    {
+      "name": "Candidate-specific note drafts remain separate and recover",
+      "ok": true
+    },
+    {
+      "name": "Saving user comparison is not understanding mutation",
+      "ok": true
+    },
+    {
+      "name": "Cancel revision with Escape leaves host untouched",
+      "ok": true
+    },
+    {
+      "name": "LINK opens relationship confirmation; host link preserves understanding",
+      "ok": true
+    },
+    {
+      "name": "Revision requires changed text and explicit before/after confirmation",
+      "ok": true
+    },
+    {
+      "name": "Undo only reverts revision and preserves linked material",
+      "ok": true
+    },
+    {
+      "name": "Pending host commit never renders updated screen",
+      "ok": true
+    },
+    {
+      "name": "Stale host version refuses overwrite and does not show returned",
+      "ok": true
+    },
+    {
+      "name": "User-pasted material is literal text, labelled user, no fake remote link",
+      "ok": true
+    },
+    {
+      "name": "Return/continue/all use host callbacks without changing matter",
+      "ok": true
+    },
+    {
+      "name": "Compact viewport reflows without horizontal overflow and bottom actions reachable",
+      "ok": true
+    },
+    {
+      "name": "390px viewport keeps native dialog and source actions reachable",
+      "ok": true
+    },
+    {
+      "name": "Long literal excerpts scroll rather than overlap source actions",
+      "ok": true
+    },
+    {
+      "name": "Long candidate titles scroll inside the card without clipping its action",
+      "ok": true
+    },
+    {
+      "name": "Destroy removes UI and event handlers",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "badResponses": [],
+  "screens": [
+    {
+      "screen": "search",
+      "fontSans": true,
+      "fontSerif": true,
+      "images": [
+        {
+          "src": "http://127.0.0.1:64354/artifacts/trace-compare-v1-20260915/images/ready/bird-takeoff.png",
+          "loaded": true
+        }
+      ],
+      "glass": [
+        "requested"
+      ],
+      "horizontalOverflow": false,
+      "clippedButtons": []
+    },
+    {
+      "screen": "candidates",
+      "fontSans": true,
+      "fontSerif": true,
+      "images": [
+        {
+          "src": "http://127.0.0.1:64354/artifacts/trace-compare-v1-20260915/images/ready/bird-perched.png",
+          "loaded": true
+        }
+      ],
+      "glass": [
+        "requested"
+      ],
+      "horizontalOverflow": false,
+      "clippedButtons": []
+    },
+    {
+      "screen": "compare",
+      "fontSans": true,
+      "fontSerif": true,
+      "images": [
+        {
+          "src": "http://127.0.0.1:64354/artifacts/trace-compare-v1-20260915/images/ready/bird-perched.png",
+          "loaded": true
+        }
+      ],
+      "glass": [],
+      "horizontalOverflow": false,
+      "clippedButtons": []
+    },
+    {
+      "screen": "returned",
+      "fontSans": true,
+      "fontSerif": true,
+      "images": [
+        {
+          "src": "http://127.0.0.1:64354/artifacts/trace-compare-v1-20260915/images/ready/bird-takeoff.png",
+          "loaded": true
+        }
+      ],
+      "glass": [],
+      "horizontalOverflow": false,
+      "clippedButtons": []
+    }
+  ],
+  "serverStopped": true,
+  "inputs": {
+    "comparison-screen.mjs": "8a245e8db9ff1ed8badbc93db1184aaf4351b2c76895f17c28cc62f9e1486561",
+    "comparison.css": "5d075f613c2d0282136606b095a47644b192e2f9147257c0b92b3ce2ca28a759",
+    "fixture.mjs": "c2bce49a0daa8524b9e7d46d86cbdb12dc86f73112919384828f63198067ee43",
+    "../model/comparison-model.mjs": "d29b68813d25fa3b1ea402bbd810c7ca3999fac1f63c70161841730a43f85d47",
+    "../images/ready/compare-environment.png": "23217af8b9cad4a4ff3c0a1ce99e89ed7d26e24e79bd1d9dae81155166859185",
+    "../fonts/derived/TraceCompareSans-fixed.woff2": "3aa4bc640f39b1a168d30d9a353a0ccf0a7c2d159eac7cc9b40b7b5670a7a178",
+    "../fonts/derived/TraceCompareSerif-fixed.woff2": "b0165ba3bf557486c4d5e8e1799d925c8ce31d6b034b25a62ba7847a47e54b48"
+  },
+  "port": 64354,
+  "passed": 23,
+  "total": 23
+}

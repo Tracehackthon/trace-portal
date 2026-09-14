@@ -1,0 +1,130 @@
+{
+  "inputs": {
+    "originals/liquidglassjs/packages/core/src/map-encode.ts": {
+      "bytes": 2821,
+      "imports": [],
+      "format": "esm"
+    },
+    "originals/liquidglassjs/packages/core/src/glyph-map.ts": {
+      "bytes": 15532,
+      "imports": [
+        {
+          "path": "originals/liquidglassjs/packages/core/src/map-encode.ts",
+          "kind": "import-statement",
+          "original": "./map-encode"
+        }
+      ],
+      "format": "esm"
+    },
+    "originals/liquidglassjs/packages/core/src/color.ts": {
+      "bytes": 1597,
+      "imports": [],
+      "format": "esm"
+    },
+    "originals/liquidglassjs/packages/core/src/filter-origin.ts": {
+      "bytes": 9723,
+      "imports": [],
+      "format": "esm"
+    },
+    "originals/liquidglassjs/packages/core/src/blur-quantize.ts": {
+      "bytes": 5814,
+      "imports": [],
+      "format": "esm"
+    },
+    "originals/liquidglassjs/packages/core/src/mount-alpha-glass.ts": {
+      "bytes": 13623,
+      "imports": [
+        {
+          "path": "./glyph-map",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/map-encode.ts",
+          "kind": "import-statement",
+          "original": "./map-encode"
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/color.ts",
+          "kind": "import-statement",
+          "original": "./color"
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/filter-origin.ts",
+          "kind": "import-statement",
+          "original": "./filter-origin"
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/blur-quantize.ts",
+          "kind": "import-statement",
+          "original": "./blur-quantize"
+        }
+      ],
+      "format": "esm"
+    },
+    "originals/liquidglassjs/packages/core/src/glass-shape.ts": {
+      "bytes": 5113,
+      "imports": [
+        {
+          "path": "originals/liquidglassjs/packages/core/src/glyph-map.ts",
+          "kind": "import-statement",
+          "original": "./glyph-map"
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/mount-alpha-glass.ts",
+          "kind": "import-statement",
+          "original": "./mount-alpha-glass"
+        }
+      ],
+      "format": "esm"
+    },
+    "derived/liquidglassjs/shape-entry.ts": {
+      "bytes": 179,
+      "imports": [
+        {
+          "path": "originals/liquidglassjs/packages/core/src/glass-shape.ts",
+          "kind": "import-statement",
+          "original": "../../originals/liquidglassjs/packages/core/src/glass-shape"
+        }
+      ],
+      "format": "esm"
+    }
+  },
+  "outputs": {
+    "derived/liquidglassjs/shape-only.mjs": {
+      "imports": [],
+      "exports": [
+        "GLASS_SHAPE_DEFAULTS",
+        "mountGlassShape"
+      ],
+      "entryPoint": "derived/liquidglassjs/shape-entry.ts",
+      "inputs": {
+        "originals/liquidglassjs/packages/core/src/map-encode.ts": {
+          "bytesInOutput": 472
+        },
+        "originals/liquidglassjs/packages/core/src/glyph-map.ts": {
+          "bytesInOutput": 5073
+        },
+        "originals/liquidglassjs/packages/core/src/color.ts": {
+          "bytesInOutput": 322
+        },
+        "originals/liquidglassjs/packages/core/src/filter-origin.ts": {
+          "bytesInOutput": 2106
+        },
+        "originals/liquidglassjs/packages/core/src/blur-quantize.ts": {
+          "bytesInOutput": 406
+        },
+        "originals/liquidglassjs/packages/core/src/mount-alpha-glass.ts": {
+          "bytesInOutput": 5758
+        },
+        "originals/liquidglassjs/packages/core/src/glass-shape.ts": {
+          "bytesInOutput": 2782
+        },
+        "derived/liquidglassjs/shape-entry.ts": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 17644
+    }
+  }
+}

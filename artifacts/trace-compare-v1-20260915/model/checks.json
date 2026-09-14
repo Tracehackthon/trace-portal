@@ -1,0 +1,66 @@
+{
+  "taskId": "trace-compare-v1-20260915",
+  "measuredAt": "2026-09-14T17:18:12.084Z",
+  "node": "v22.23.1",
+  "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contextPackageSha256": "B7417F6FD5E3F6FE1F699F5B9316BE15B8129DF8077EEC77D909679A9C5A61EC",
+  "command": "node --test artifacts/trace-compare-v1-20260915/model/comparison-model.test.mjs",
+  "result": {
+    "status": "passed-after-fixture-correction",
+    "tests": 39,
+    "pass": 39,
+    "fail": 0,
+    "exitCode": 0
+  },
+  "firstRun": {
+    "tests": 38,
+    "pass": 37,
+    "fail": 1,
+    "failingTest": "text remains literal; unsafe-looking IDs cannot poison per-candidate draft records",
+    "observed": "Expected the literal string but got empty string because the custom candidate was not returned for the default demo query.",
+    "correction": "Test now patches question to 收藏 with empty instructions before SEARCH; no production search matcher relaxation."
+  },
+  "views": {
+    "search": {
+      "screen": "search",
+      "candidateCount": 0,
+      "hasReceipt": false,
+      "version": 1
+    },
+    "candidates": {
+      "screen": "candidates",
+      "candidateCount": 3,
+      "hasReceipt": false,
+      "version": 1
+    },
+    "compare": {
+      "screen": "compare",
+      "candidateCount": 3,
+      "hasReceipt": false,
+      "version": 1
+    },
+    "returned": {
+      "screen": "returned",
+      "candidateCount": 3,
+      "hasReceipt": true,
+      "version": 2
+    }
+  },
+  "hashes": {
+    "comparison-model.mjs": "D29B68813D25FA3B1EA402BBD810C7CA3999FAC1F63C70161841730A43F85D47",
+    "comparison-model.test.mjs": "F311B97C951E752C265E66BF31D829D0E0DA40A47A43B2B5FD273AC3ADE96197",
+    "sample-view.json": "6E23FB4DAC5ECD7CCC9F4C61C025865D615C45775F709B2EBD6C580CFD54F01F",
+    "README.md": "AEA79FCEDDAC34837FE7DF1315E8AC80CD3D68706C9A5607CA9F5AA895CB296B"
+  },
+  "notIntegrated": [
+    "desktop app",
+    "chain host adapter",
+    "Electron Overlay",
+    "real search/model",
+    "persistence"
+  ],
+  "notVerified": [
+    "browser visual/accessibility/IME",
+    "real host atomic concurrency and draftVersion guard"
+  ]
+}

@@ -1,0 +1,817 @@
+{
+  "taskId": "trace-compare-v1-20260915",
+  "fixture": true,
+  "views": {
+    "search": {
+      "screen": "search",
+      "isDemo": true,
+      "notice": "",
+      "matter": {
+        "id": "demo-collection",
+        "title": "收藏后为什么接不回来",
+        "understanding": "收藏时必须留下自己的表达，之后才能接回来。",
+        "version": 1,
+        "focus": {
+          "start": 0,
+          "end": 21,
+          "text": "收藏时必须留下自己的表达，之后才能接回来。"
+        },
+        "unresolved": "没有持续任务时，怎样恢复当时的思考现场？"
+      },
+      "query": {
+        "question": "写下自己的表达，是以后接回来的必要条件吗？",
+        "direction": "counterexample",
+        "instructions": "找找没有写附言，却仍能重新使用内容的情况。",
+        "scopes": [
+          "prior",
+          "public"
+        ],
+        "shortQuestion": "不写附言，也能接回来吗？"
+      },
+      "search": {
+        "status": "idle",
+        "isDemo": true,
+        "provider": "local-demo",
+        "request": null
+      },
+      "candidates": [],
+      "selectedId": null,
+      "selectedCandidate": null,
+      "comparisonDraft": "",
+      "savedComparisonNote": "",
+      "comparison": null,
+      "revision": {
+        "open": false,
+        "draft": "",
+        "before": "",
+        "after": "",
+        "baseVersion": 1,
+        "canConfirm": false
+      },
+      "request": null,
+      "receipt": null,
+      "canUndo": false,
+      "pending": false,
+      "directionOptions": [
+        {
+          "value": "counterexample",
+          "label": "找个反例"
+        },
+        {
+          "value": "experience",
+          "label": "看看别人怎么做"
+        },
+        {
+          "value": "condition",
+          "label": "换一种条件"
+        }
+      ],
+      "scopeOptions": [
+        {
+          "value": "prior",
+          "label": "既往思考"
+        },
+        {
+          "value": "public",
+          "label": "知乎公开内容"
+        },
+        {
+          "value": "authorized",
+          "label": "授权资料"
+        },
+        {
+          "value": "imported",
+          "label": "已有材料"
+        }
+      ],
+      "relationOptions": [
+        {
+          "value": "limitation",
+          "label": "限制"
+        },
+        {
+          "value": "supplement",
+          "label": "补充"
+        },
+        {
+          "value": "challenge",
+          "label": "挑战"
+        },
+        {
+          "value": "possibility",
+          "label": "另一种可能"
+        },
+        {
+          "value": "branch",
+          "label": "旁支"
+        }
+      ]
+    },
+    "candidates": {
+      "screen": "candidates",
+      "isDemo": true,
+      "notice": "这些是本地演示候选，未进行外部搜索；关系仍待确认。",
+      "matter": {
+        "id": "demo-collection",
+        "title": "收藏后为什么接不回来",
+        "understanding": "收藏时必须留下自己的表达，之后才能接回来。",
+        "version": 1,
+        "focus": {
+          "start": 0,
+          "end": 21,
+          "text": "收藏时必须留下自己的表达，之后才能接回来。"
+        },
+        "unresolved": "没有持续任务时，怎样恢复当时的思考现场？"
+      },
+      "query": {
+        "question": "写下自己的表达，是以后接回来的必要条件吗？",
+        "direction": "counterexample",
+        "instructions": "找找没有写附言，却仍能重新使用内容的情况。",
+        "scopes": [
+          "prior",
+          "public"
+        ],
+        "shortQuestion": "不写附言，也能接回来吗？"
+      },
+      "search": {
+        "status": "ready",
+        "isDemo": true,
+        "provider": "local-demo",
+        "request": {
+          "question": "写下自己的表达，是以后接回来的必要条件吗？",
+          "direction": "counterexample",
+          "instructions": "找找没有写附言，却仍能重新使用内容的情况。",
+          "scopes": [
+            "prior",
+            "public"
+          ]
+        }
+      },
+      "candidates": [
+        {
+          "id": "demo-project",
+          "title": "没写附言，也能重新找回",
+          "kind": "demo",
+          "sourceType": "项目实践",
+          "excerpt": "我没有为每次收藏写附言。再次处理同一个项目时，问题和原来的阅读现场一起被想了起来。",
+          "summary": "在持续的项目中，再次使用让原来的阅读现场浮现。",
+          "context": "本地演示材料，不对应真实文章、作者或外部搜索结果。示例处境是持续推进的同一项目，重新出现的问题成为恢复阅读现场的线索。它没有提供脱离任务时仍能恢复思考的证据。",
+          "url": null,
+          "scopes": [
+            "prior",
+            "public"
+          ],
+          "relationship": {
+            "type": "limitation",
+            "target": "收藏时必须留下自己的表达，之后才能接回来。",
+            "summary": "可能限制：必须写下个人表达",
+            "reason": "可能限制“必须写下个人表达”的绝对说法；需要核对任务条件是否相同。",
+            "uncertain": "没有任务牵引时是否仍有效，尚不能说明。"
+          },
+          "comparison": {
+            "same": "都在解决收藏后怎样重新使用。",
+            "different": "对方有持续的项目任务，这里还包括日常碎片阅读。",
+            "unknown": "没有任务牵引时是否仍有效。"
+          },
+          "decision": "pending",
+          "sourceLabel": "演示材料 · 项目实践",
+          "relationLabel": "限制"
+        },
+        {
+          "id": "demo-reading",
+          "title": "写过理由，后来还是接不上",
+          "kind": "demo",
+          "sourceType": "日常阅读",
+          "excerpt": "我在收藏时写了一句“这个观点很重要”，但后来仍想不起当时具体在问什么。",
+          "summary": "留下的是一句评价，没有留下当时的问题。",
+          "context": "本地演示材料。示例中的附言只是重要性评价，并未记下疑问或个人处境；它不代表所有附言都不能帮助恢复思考。",
+          "url": null,
+          "scopes": [
+            "prior",
+            "public"
+          ],
+          "relationship": {
+            "type": "supplement",
+            "target": "收藏时必须留下自己的表达，之后才能接回来。",
+            "summary": "可能补充：表达里需要留下什么",
+            "reason": "可能补充：表达里需要留下什么，而不只是是否写过。",
+            "uncertain": "什么内容足以恢复思考，还需要具体情形。"
+          },
+          "comparison": {
+            "same": "都尝试通过附言恢复收藏时的思考。",
+            "different": "附言只评价重要性，没有保留当时的问题。",
+            "unknown": "留下问题以后是否就一定能接回。"
+          },
+          "decision": "pending",
+          "sourceLabel": "演示材料 · 日常阅读",
+          "relationLabel": "补充"
+        },
+        {
+          "id": "demo-task",
+          "title": "任务出现后，旧收藏才有了用处",
+          "kind": "demo",
+          "sourceType": "使用经历",
+          "excerpt": "等到再次遇见一个具体问题，我才开始查找旧材料；那时才知道它能参与哪一处判断。",
+          "summary": "重新遇到具体问题，才开始寻找旧材料。",
+          "context": "本地演示材料。这里描述新任务带来的重新查找，不足以证明恢复了原来的触动，也不能推断新任务出现之前材料没有价值。",
+          "url": null,
+          "scopes": [
+            "prior",
+            "public"
+          ],
+          "relationship": {
+            "type": "possibility",
+            "target": "收藏时必须留下自己的表达，之后才能接回来。",
+            "summary": "可能有关：再次出现的情境",
+            "reason": "可能有关：再次出现的情境也可能成为接续入口。",
+            "uncertain": "重新找到材料与恢复原来的思考是否相同，仍未分清。"
+          },
+          "comparison": {
+            "same": "都希望旧材料在以后继续起作用。",
+            "different": "这里由新任务启动寻找，不一定恢复旧问题。",
+            "unknown": "重新使用是否等于接回原来的思考。"
+          },
+          "decision": "pending",
+          "sourceLabel": "演示材料 · 使用经历",
+          "relationLabel": "另一种可能"
+        }
+      ],
+      "selectedId": null,
+      "selectedCandidate": null,
+      "comparisonDraft": "",
+      "savedComparisonNote": "",
+      "comparison": null,
+      "revision": {
+        "open": false,
+        "draft": "",
+        "before": "",
+        "after": "",
+        "baseVersion": 1,
+        "canConfirm": false
+      },
+      "request": null,
+      "receipt": null,
+      "canUndo": false,
+      "pending": false,
+      "directionOptions": [
+        {
+          "value": "counterexample",
+          "label": "找个反例"
+        },
+        {
+          "value": "experience",
+          "label": "看看别人怎么做"
+        },
+        {
+          "value": "condition",
+          "label": "换一种条件"
+        }
+      ],
+      "scopeOptions": [
+        {
+          "value": "prior",
+          "label": "既往思考"
+        },
+        {
+          "value": "public",
+          "label": "知乎公开内容"
+        },
+        {
+          "value": "authorized",
+          "label": "授权资料"
+        },
+        {
+          "value": "imported",
+          "label": "已有材料"
+        }
+      ],
+      "relationOptions": [
+        {
+          "value": "limitation",
+          "label": "限制"
+        },
+        {
+          "value": "supplement",
+          "label": "补充"
+        },
+        {
+          "value": "challenge",
+          "label": "挑战"
+        },
+        {
+          "value": "possibility",
+          "label": "另一种可能"
+        },
+        {
+          "value": "branch",
+          "label": "旁支"
+        }
+      ]
+    },
+    "compare": {
+      "screen": "compare",
+      "isDemo": true,
+      "notice": "",
+      "matter": {
+        "id": "demo-collection",
+        "title": "收藏后为什么接不回来",
+        "understanding": "收藏时必须留下自己的表达，之后才能接回来。",
+        "version": 1,
+        "focus": {
+          "start": 0,
+          "end": 21,
+          "text": "收藏时必须留下自己的表达，之后才能接回来。"
+        },
+        "unresolved": "没有持续任务时，怎样恢复当时的思考现场？"
+      },
+      "query": {
+        "question": "写下自己的表达，是以后接回来的必要条件吗？",
+        "direction": "counterexample",
+        "instructions": "找找没有写附言，却仍能重新使用内容的情况。",
+        "scopes": [
+          "prior",
+          "public"
+        ],
+        "shortQuestion": "不写附言，也能接回来吗？"
+      },
+      "search": {
+        "status": "ready",
+        "isDemo": true,
+        "provider": "local-demo",
+        "request": {
+          "question": "写下自己的表达，是以后接回来的必要条件吗？",
+          "direction": "counterexample",
+          "instructions": "找找没有写附言，却仍能重新使用内容的情况。",
+          "scopes": [
+            "prior",
+            "public"
+          ]
+        }
+      },
+      "candidates": [
+        {
+          "id": "demo-project",
+          "title": "没写附言，也能重新找回",
+          "kind": "demo",
+          "sourceType": "项目实践",
+          "excerpt": "我没有为每次收藏写附言。再次处理同一个项目时，问题和原来的阅读现场一起被想了起来。",
+          "summary": "在持续的项目中，再次使用让原来的阅读现场浮现。",
+          "context": "本地演示材料，不对应真实文章、作者或外部搜索结果。示例处境是持续推进的同一项目，重新出现的问题成为恢复阅读现场的线索。它没有提供脱离任务时仍能恢复思考的证据。",
+          "url": null,
+          "scopes": [
+            "prior",
+            "public"
+          ],
+          "relationship": {
+            "type": "limitation",
+            "target": "收藏时必须留下自己的表达，之后才能接回来。",
+            "summary": "可能限制：必须写下个人表达",
+            "reason": "可能限制“必须写下个人表达”的绝对说法；需要核对任务条件是否相同。",
+            "uncertain": "没有任务牵引时是否仍有效，尚不能说明。"
+          },
+          "comparison": {
+            "same": "都在解决收藏后怎样重新使用。",
+            "different": "对方有持续的项目任务，这里还包括日常碎片阅读。",
+            "unknown": "没有任务牵引时是否仍有效。"
+          },
+          "decision": "pending",
+          "sourceLabel": "演示材料 · 项目实践",
+          "relationLabel": "限制"
+        },
+        {
+          "id": "demo-reading",
+          "title": "写过理由，后来还是接不上",
+          "kind": "demo",
+          "sourceType": "日常阅读",
+          "excerpt": "我在收藏时写了一句“这个观点很重要”，但后来仍想不起当时具体在问什么。",
+          "summary": "留下的是一句评价，没有留下当时的问题。",
+          "context": "本地演示材料。示例中的附言只是重要性评价，并未记下疑问或个人处境；它不代表所有附言都不能帮助恢复思考。",
+          "url": null,
+          "scopes": [
+            "prior",
+            "public"
+          ],
+          "relationship": {
+            "type": "supplement",
+            "target": "收藏时必须留下自己的表达，之后才能接回来。",
+            "summary": "可能补充：表达里需要留下什么",
+            "reason": "可能补充：表达里需要留下什么，而不只是是否写过。",
+            "uncertain": "什么内容足以恢复思考，还需要具体情形。"
+          },
+          "comparison": {
+            "same": "都尝试通过附言恢复收藏时的思考。",
+            "different": "附言只评价重要性，没有保留当时的问题。",
+            "unknown": "留下问题以后是否就一定能接回。"
+          },
+          "decision": "pending",
+          "sourceLabel": "演示材料 · 日常阅读",
+          "relationLabel": "补充"
+        },
+        {
+          "id": "demo-task",
+          "title": "任务出现后，旧收藏才有了用处",
+          "kind": "demo",
+          "sourceType": "使用经历",
+          "excerpt": "等到再次遇见一个具体问题，我才开始查找旧材料；那时才知道它能参与哪一处判断。",
+          "summary": "重新遇到具体问题，才开始寻找旧材料。",
+          "context": "本地演示材料。这里描述新任务带来的重新查找，不足以证明恢复了原来的触动，也不能推断新任务出现之前材料没有价值。",
+          "url": null,
+          "scopes": [
+            "prior",
+            "public"
+          ],
+          "relationship": {
+            "type": "possibility",
+            "target": "收藏时必须留下自己的表达，之后才能接回来。",
+            "summary": "可能有关：再次出现的情境",
+            "reason": "可能有关：再次出现的情境也可能成为接续入口。",
+            "uncertain": "重新找到材料与恢复原来的思考是否相同，仍未分清。"
+          },
+          "comparison": {
+            "same": "都希望旧材料在以后继续起作用。",
+            "different": "这里由新任务启动寻找，不一定恢复旧问题。",
+            "unknown": "重新使用是否等于接回原来的思考。"
+          },
+          "decision": "pending",
+          "sourceLabel": "演示材料 · 使用经历",
+          "relationLabel": "另一种可能"
+        }
+      ],
+      "selectedId": "demo-project",
+      "selectedCandidate": {
+        "id": "demo-project",
+        "title": "没写附言，也能重新找回",
+        "kind": "demo",
+        "sourceType": "项目实践",
+        "excerpt": "我没有为每次收藏写附言。再次处理同一个项目时，问题和原来的阅读现场一起被想了起来。",
+        "summary": "在持续的项目中，再次使用让原来的阅读现场浮现。",
+        "context": "本地演示材料，不对应真实文章、作者或外部搜索结果。示例处境是持续推进的同一项目，重新出现的问题成为恢复阅读现场的线索。它没有提供脱离任务时仍能恢复思考的证据。",
+        "url": null,
+        "scopes": [
+          "prior",
+          "public"
+        ],
+        "relationship": {
+          "type": "limitation",
+          "target": "收藏时必须留下自己的表达，之后才能接回来。",
+          "summary": "可能限制：必须写下个人表达",
+          "reason": "可能限制“必须写下个人表达”的绝对说法；需要核对任务条件是否相同。",
+          "uncertain": "没有任务牵引时是否仍有效，尚不能说明。"
+        },
+        "comparison": {
+          "same": "都在解决收藏后怎样重新使用。",
+          "different": "对方有持续的项目任务，这里还包括日常碎片阅读。",
+          "unknown": "没有任务牵引时是否仍有效。"
+        },
+        "decision": "pending",
+        "sourceLabel": "演示材料 · 项目实践",
+        "relationLabel": "限制"
+      },
+      "comparisonDraft": "它不算直接反例，但“必须写一句”可能太绝对了。",
+      "savedComparisonNote": "",
+      "comparison": {
+        "same": "都在解决收藏后怎样重新使用。",
+        "different": "对方有持续的项目任务，这里还包括日常碎片阅读。",
+        "unknown": "没有任务牵引时是否仍有效。",
+        "confirmed": false
+      },
+      "revision": {
+        "open": false,
+        "draft": "",
+        "before": "",
+        "after": "",
+        "baseVersion": 1,
+        "canConfirm": false
+      },
+      "request": null,
+      "receipt": null,
+      "canUndo": false,
+      "pending": false,
+      "directionOptions": [
+        {
+          "value": "counterexample",
+          "label": "找个反例"
+        },
+        {
+          "value": "experience",
+          "label": "看看别人怎么做"
+        },
+        {
+          "value": "condition",
+          "label": "换一种条件"
+        }
+      ],
+      "scopeOptions": [
+        {
+          "value": "prior",
+          "label": "既往思考"
+        },
+        {
+          "value": "public",
+          "label": "知乎公开内容"
+        },
+        {
+          "value": "authorized",
+          "label": "授权资料"
+        },
+        {
+          "value": "imported",
+          "label": "已有材料"
+        }
+      ],
+      "relationOptions": [
+        {
+          "value": "limitation",
+          "label": "限制"
+        },
+        {
+          "value": "supplement",
+          "label": "补充"
+        },
+        {
+          "value": "challenge",
+          "label": "挑战"
+        },
+        {
+          "value": "possibility",
+          "label": "另一种可能"
+        },
+        {
+          "value": "branch",
+          "label": "旁支"
+        }
+      ]
+    },
+    "returned": {
+      "screen": "returned",
+      "isDemo": true,
+      "notice": "原事项已确认：只更新这一处，材料作为本次修订依据保留。",
+      "matter": {
+        "id": "demo-collection",
+        "title": "收藏后为什么接不回来",
+        "understanding": "留下自己的表达，是恢复当时思考的一种方式；如果原现场能被有效恢复，也可能重新接上。",
+        "version": 2,
+        "focus": {
+          "start": 0,
+          "end": 41,
+          "text": "留下自己的表达，是恢复当时思考的一种方式；如果原现场能被有效恢复，也可能重新接上。"
+        },
+        "unresolved": "没有持续任务时，怎样恢复当时的思考现场？"
+      },
+      "query": {
+        "question": "写下自己的表达，是以后接回来的必要条件吗？",
+        "direction": "counterexample",
+        "instructions": "找找没有写附言，却仍能重新使用内容的情况。",
+        "scopes": [
+          "prior",
+          "public"
+        ],
+        "shortQuestion": "不写附言，也能接回来吗？"
+      },
+      "search": {
+        "status": "ready",
+        "isDemo": true,
+        "provider": "local-demo",
+        "request": {
+          "question": "写下自己的表达，是以后接回来的必要条件吗？",
+          "direction": "counterexample",
+          "instructions": "找找没有写附言，却仍能重新使用内容的情况。",
+          "scopes": [
+            "prior",
+            "public"
+          ]
+        }
+      },
+      "candidates": [
+        {
+          "id": "demo-project",
+          "title": "没写附言，也能重新找回",
+          "kind": "demo",
+          "sourceType": "项目实践",
+          "excerpt": "我没有为每次收藏写附言。再次处理同一个项目时，问题和原来的阅读现场一起被想了起来。",
+          "summary": "在持续的项目中，再次使用让原来的阅读现场浮现。",
+          "context": "本地演示材料，不对应真实文章、作者或外部搜索结果。示例处境是持续推进的同一项目，重新出现的问题成为恢复阅读现场的线索。它没有提供脱离任务时仍能恢复思考的证据。",
+          "url": null,
+          "scopes": [
+            "prior",
+            "public"
+          ],
+          "relationship": {
+            "type": "limitation",
+            "target": "收藏时必须留下自己的表达，之后才能接回来。",
+            "summary": "可能限制：必须写下个人表达",
+            "reason": "可能限制“必须写下个人表达”的绝对说法；需要核对任务条件是否相同。",
+            "uncertain": "没有任务牵引时是否仍有效，尚不能说明。"
+          },
+          "comparison": {
+            "same": "都在解决收藏后怎样重新使用。",
+            "different": "对方有持续的项目任务，这里还包括日常碎片阅读。",
+            "unknown": "没有任务牵引时是否仍有效。"
+          },
+          "decision": "linked",
+          "sourceLabel": "演示材料 · 项目实践",
+          "relationLabel": "限制"
+        },
+        {
+          "id": "demo-reading",
+          "title": "写过理由，后来还是接不上",
+          "kind": "demo",
+          "sourceType": "日常阅读",
+          "excerpt": "我在收藏时写了一句“这个观点很重要”，但后来仍想不起当时具体在问什么。",
+          "summary": "留下的是一句评价，没有留下当时的问题。",
+          "context": "本地演示材料。示例中的附言只是重要性评价，并未记下疑问或个人处境；它不代表所有附言都不能帮助恢复思考。",
+          "url": null,
+          "scopes": [
+            "prior",
+            "public"
+          ],
+          "relationship": {
+            "type": "supplement",
+            "target": "收藏时必须留下自己的表达，之后才能接回来。",
+            "summary": "可能补充：表达里需要留下什么",
+            "reason": "可能补充：表达里需要留下什么，而不只是是否写过。",
+            "uncertain": "什么内容足以恢复思考，还需要具体情形。"
+          },
+          "comparison": {
+            "same": "都尝试通过附言恢复收藏时的思考。",
+            "different": "附言只评价重要性，没有保留当时的问题。",
+            "unknown": "留下问题以后是否就一定能接回。"
+          },
+          "decision": "pending",
+          "sourceLabel": "演示材料 · 日常阅读",
+          "relationLabel": "补充"
+        },
+        {
+          "id": "demo-task",
+          "title": "任务出现后，旧收藏才有了用处",
+          "kind": "demo",
+          "sourceType": "使用经历",
+          "excerpt": "等到再次遇见一个具体问题，我才开始查找旧材料；那时才知道它能参与哪一处判断。",
+          "summary": "重新遇到具体问题，才开始寻找旧材料。",
+          "context": "本地演示材料。这里描述新任务带来的重新查找，不足以证明恢复了原来的触动，也不能推断新任务出现之前材料没有价值。",
+          "url": null,
+          "scopes": [
+            "prior",
+            "public"
+          ],
+          "relationship": {
+            "type": "possibility",
+            "target": "收藏时必须留下自己的表达，之后才能接回来。",
+            "summary": "可能有关：再次出现的情境",
+            "reason": "可能有关：再次出现的情境也可能成为接续入口。",
+            "uncertain": "重新找到材料与恢复原来的思考是否相同，仍未分清。"
+          },
+          "comparison": {
+            "same": "都希望旧材料在以后继续起作用。",
+            "different": "这里由新任务启动寻找，不一定恢复旧问题。",
+            "unknown": "重新使用是否等于接回原来的思考。"
+          },
+          "decision": "pending",
+          "sourceLabel": "演示材料 · 使用经历",
+          "relationLabel": "另一种可能"
+        }
+      ],
+      "selectedId": "demo-project",
+      "selectedCandidate": {
+        "id": "demo-project",
+        "title": "没写附言，也能重新找回",
+        "kind": "demo",
+        "sourceType": "项目实践",
+        "excerpt": "我没有为每次收藏写附言。再次处理同一个项目时，问题和原来的阅读现场一起被想了起来。",
+        "summary": "在持续的项目中，再次使用让原来的阅读现场浮现。",
+        "context": "本地演示材料，不对应真实文章、作者或外部搜索结果。示例处境是持续推进的同一项目，重新出现的问题成为恢复阅读现场的线索。它没有提供脱离任务时仍能恢复思考的证据。",
+        "url": null,
+        "scopes": [
+          "prior",
+          "public"
+        ],
+        "relationship": {
+          "type": "limitation",
+          "target": "收藏时必须留下自己的表达，之后才能接回来。",
+          "summary": "可能限制：必须写下个人表达",
+          "reason": "可能限制“必须写下个人表达”的绝对说法；需要核对任务条件是否相同。",
+          "uncertain": "没有任务牵引时是否仍有效，尚不能说明。"
+        },
+        "comparison": {
+          "same": "都在解决收藏后怎样重新使用。",
+          "different": "对方有持续的项目任务，这里还包括日常碎片阅读。",
+          "unknown": "没有任务牵引时是否仍有效。"
+        },
+        "decision": "linked",
+        "sourceLabel": "演示材料 · 项目实践",
+        "relationLabel": "限制"
+      },
+      "comparisonDraft": "它不算直接反例，但“必须写一句”可能太绝对了。",
+      "savedComparisonNote": "",
+      "comparison": {
+        "same": "都在解决收藏后怎样重新使用。",
+        "different": "对方有持续的项目任务，这里还包括日常碎片阅读。",
+        "unknown": "没有任务牵引时是否仍有效。",
+        "confirmed": false
+      },
+      "revision": {
+        "open": false,
+        "draft": "留下自己的表达，是恢复当时思考的一种方式；如果原现场能被有效恢复，也可能重新接上。",
+        "before": "收藏时必须留下自己的表达，之后才能接回来。",
+        "after": "留下自己的表达，是恢复当时思考的一种方式；如果原现场能被有效恢复，也可能重新接上。",
+        "baseVersion": 1,
+        "canConfirm": false
+      },
+      "request": null,
+      "receipt": {
+        "requestId": "demo-preview:demo-collection:1:81db8827",
+        "requestFingerprint": "{\"after\":\"留下自己的表达，是恢复当时思考的一种方式；如果原现场能被有效恢复，也可能重新接上。\",\"baseVersion\":1,\"before\":\"收藏时必须留下自己的表达，之后才能接回来。\",\"kind\":\"revise\",\"matterId\":\"demo-collection\",\"note\":\"它不算直接反例，但“必须写一句”可能太绝对了。\",\"relationship\":{\"reason\":\"可能限制“必须写下个人表达”的绝对说法；需要核对任务条件是否相同。\",\"summary\":\"可能限制：必须写下个人表达\",\"target\":\"收藏时必须留下自己的表达，之后才能接回来。\",\"type\":\"limitation\",\"uncertain\":\"没有任务牵引时是否仍有效，尚不能说明。\"},\"source\":{\"context\":\"本地演示材料，不对应真实文章、作者或外部搜索结果。示例处境是持续推进的同一项目，重新出现的问题成为恢复阅读现场的线索。它没有提供脱离任务时仍能恢复思考的证据。\",\"excerpt\":\"我没有为每次收藏写附言。再次处理同一个项目时，问题和原来的阅读现场一起被想了起来。\",\"id\":\"demo-project\",\"kind\":\"demo\",\"sourceType\":\"项目实践\",\"title\":\"没写附言，也能重新找回\",\"url\":null},\"target\":{\"end\":21,\"field\":\"understanding\",\"start\":0,\"text\":\"收藏时必须留下自己的表达，之后才能接回来。\"}}",
+        "matterId": "demo-collection",
+        "kind": "revise",
+        "before": "收藏时必须留下自己的表达，之后才能接回来。",
+        "after": "留下自己的表达，是恢复当时思考的一种方式；如果原现场能被有效恢复，也可能重新接上。",
+        "target": {
+          "field": "understanding",
+          "start": 0,
+          "end": 21,
+          "text": "收藏时必须留下自己的表达，之后才能接回来。"
+        },
+        "beforeVersion": 1,
+        "afterVersion": 2,
+        "linkedSource": {
+          "id": "demo-project",
+          "title": "没写附言，也能重新找回",
+          "kind": "demo",
+          "sourceType": "项目实践",
+          "excerpt": "我没有为每次收藏写附言。再次处理同一个项目时，问题和原来的阅读现场一起被想了起来。",
+          "context": "本地演示材料，不对应真实文章、作者或外部搜索结果。示例处境是持续推进的同一项目，重新出现的问题成为恢复阅读现场的线索。它没有提供脱离任务时仍能恢复思考的证据。",
+          "url": null
+        },
+        "sourceTitle": "没写附言，也能重新找回",
+        "sourceKind": "demo",
+        "linkId": "comparison-link:demo-preview:demo-collection:1:81db8827",
+        "linkAdded": true,
+        "relationship": {
+          "type": "limitation",
+          "target": "收藏时必须留下自己的表达，之后才能接回来。",
+          "summary": "可能限制：必须写下个人表达",
+          "reason": "可能限制“必须写下个人表达”的绝对说法；需要核对任务条件是否相同。",
+          "uncertain": "没有任务牵引时是否仍有效，尚不能说明。"
+        },
+        "note": "它不算直接反例，但“必须写一句”可能太绝对了。",
+        "revisionId": "comparison-revision:demo-preview:demo-collection:1:81db8827"
+      },
+      "canUndo": true,
+      "pending": false,
+      "directionOptions": [
+        {
+          "value": "counterexample",
+          "label": "找个反例"
+        },
+        {
+          "value": "experience",
+          "label": "看看别人怎么做"
+        },
+        {
+          "value": "condition",
+          "label": "换一种条件"
+        }
+      ],
+      "scopeOptions": [
+        {
+          "value": "prior",
+          "label": "既往思考"
+        },
+        {
+          "value": "public",
+          "label": "知乎公开内容"
+        },
+        {
+          "value": "authorized",
+          "label": "授权资料"
+        },
+        {
+          "value": "imported",
+          "label": "已有材料"
+        }
+      ],
+      "relationOptions": [
+        {
+          "value": "limitation",
+          "label": "限制"
+        },
+        {
+          "value": "supplement",
+          "label": "补充"
+        },
+        {
+          "value": "challenge",
+          "label": "挑战"
+        },
+        {
+          "value": "possibility",
+          "label": "另一种可能"
+        },
+        {
+          "value": "branch",
+          "label": "旁支"
+        }
+      ]
+    }
+  }
+}

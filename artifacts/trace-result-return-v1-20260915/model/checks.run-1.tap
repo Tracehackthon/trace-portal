@@ -1,0 +1,268 @@
+TAP version 13
+# Subtest: five samples are selector output and only completed has successful revision receipt
+ok 1 - five samples are selector output and only completed has successful revision receipt
+  ---
+  duration_ms: 4.3942
+  type: 'test'
+  ...
+# Subtest: host must issue explicit stable IDs and command namespace
+ok 2 - host must issue explicit stable IDs and command namespace
+  ---
+  duration_ms: 0.4209
+  type: 'test'
+  ...
+# Subtest: empty or whitespace input neither saves nor compares nor revises
+ok 3 - empty or whitespace input neither saves nor compares nor revises
+  ---
+  duration_ms: 0.5089
+  type: 'test'
+  ...
+# Subtest: arbitrary user input never borrows demo observation, interpretation or suggestion
+ok 4 - arbitrary user input never borrows demo observation, interpretation or suggestion
+  ---
+  duration_ms: 0.228
+  type: 'test'
+  ...
+# Subtest: comparison observation, interpretation and unknown remain separate editable strings
+ok 5 - comparison observation, interpretation and unknown remain separate editable strings
+  ---
+  duration_ms: 0.699
+  type: 'test'
+  ...
+# Subtest: only explicit selected material content is accepted and duplicate/removal are local
+ok 6 - only explicit selected material content is accepted and duplicate/removal are local
+  ---
+  duration_ms: 0.3693
+  type: 'test'
+  ...
+# Subtest: unlinked result can be retained without inventing a matter or a revision
+ok 7 - unlinked result can be retained without inventing a matter or a revision
+  ---
+  duration_ms: 0.6767
+  type: 'test'
+  ...
+# Subtest: result-only save with later understanding or unsaved draft does not mutate that understanding
+ok 8 - result-only save with later understanding or unsaved draft does not mutate that understanding
+  ---
+  duration_ms: 0.3585
+  type: 'test'
+  ...
+# Subtest: saved original result cannot be edited or reassigned silently
+ok 9 - saved original result cannot be edited or reassigned silently
+  ---
+  duration_ms: 0.7746
+  type: 'test'
+  ...
+# Subtest: result-only save can later open a reviewed revision without duplicating evidence
+ok 10 - result-only save can later open a reviewed revision without duplicating evidence
+  ---
+  duration_ms: 1.1854
+  type: 'test'
+  ...
+# Subtest: fragment identity is exact text + offsets + baseVersion, stale selections rejected
+ok 11 - fragment identity is exact text + offsets + baseVersion, stale selections rejected
+  ---
+  duration_ms: 0.4649
+  type: 'test'
+  ...
+# Subtest: UTF-16 selection cannot split an emoji surrogate pair
+ok 12 - UTF-16 selection cannot split an emoji surrogate pair
+  ---
+  duration_ms: 0.1815
+  type: 'test'
+  ...
+# Subtest: separate fragments can have support and limit relations; removing selection repairs state
+ok 13 - separate fragments can have support and limit relations; removing selection repairs state
+  ---
+  duration_ms: 0.3165
+  type: 'test'
+  ...
+# Subtest: relation suggestion and revision draft do not mutate any host state
+ok 14 - relation suggestion and revision draft do not mutate any host state
+  ---
+  duration_ms: 0.4014
+  type: 'test'
+  ...
+# Subtest: draft storage is local and does not display result saved or screen five
+ok 15 - draft storage is local and does not display result saved or screen five
+  ---
+  duration_ms: 0.3347
+  type: 'test'
+  ...
+# Subtest: empty or identical revision is not submitted
+ok 16 - empty or identical revision is not submitted
+  ---
+  duration_ms: 0.9776
+  type: 'test'
+  ...
+# Subtest: confirmation creates a complete immutable command but stays in screen four until receipt
+ok 17 - confirmation creates a complete immutable command but stays in screen four until receipt
+  ---
+  duration_ms: 0.4833
+  type: 'test'
+  ...
+# Subtest: duplicate confirmation never creates a second pending command
+ok 18 - duplicate confirmation never creates a second pending command
+  ---
+  duration_ms: 0.5751
+  type: 'test'
+  ...
+# Subtest: only correctly matched host success enters completed and updates projected version
+ok 19 - only correctly matched host success enters completed and updates projected version
+  ---
+  duration_ms: 0.6081
+  type: 'test'
+  ...
+# Subtest: wrong command, operation, object, fingerprint or session receipt cannot resolve pending
+ok 20 - wrong command, operation, object, fingerprint or session receipt cannot resolve pending
+  ---
+  duration_ms: 1.0849
+  type: 'test'
+  ...
+# Subtest: forged success shape without saved result, exact after or monotonic version is rejected
+ok 21 - forged success shape without saved result, exact after or monotonic version is rejected
+  ---
+  duration_ms: 2.5459
+  type: 'test'
+  ...
+# Subtest: failed save leaves draft; retry issues new attempt ID with same operation idempotency key
+ok 22 - failed save leaves draft; retry issues new attempt ID with same operation idempotency key
+  ---
+  duration_ms: 1.1585
+  type: 'test'
+  ...
+# Subtest: late original receipt cannot resolve the newer retry attempt
+ok 23 - late original receipt cannot resolve the newer retry attempt
+  ---
+  duration_ms: 0.7864
+  type: 'test'
+  ...
+# Subtest: host committed but reply was lost: retry replays stable operation without another revision
+ok 24 - host committed but reply was lost: retry replays stable operation without another revision
+  ---
+  duration_ms: 1.3375
+  type: 'test'
+  ...
+# Subtest: duplicate successful receipt and command are read-only replays
+ok 25 - duplicate successful receipt and command are read-only replays
+  ---
+  duration_ms: 0.6
+  type: 'test'
+  ...
+# Subtest: host later version rejects pending commit atomically, retaining no partial result
+ok 26 - host later version rejects pending commit atomically, retaining no partial result
+  ---
+  duration_ms: 0.5396
+  type: 'test'
+  ...
+# Subtest: unsaved host draft blocks revision even if saved version did not change
+ok 27 - unsaved host draft blocks revision even if saved version did not change
+  ---
+  duration_ms: 0.4604
+  type: 'test'
+  ...
+# Subtest: host snapshot arriving before older receipt cannot roll local projection backward
+ok 28 - host snapshot arriving before older receipt cannot roll local projection backward
+  ---
+  duration_ms: 0.7444
+  type: 'test'
+  ...
+# Subtest: new local edits while pending survive receipt and are not falsely marked completed
+ok 29 - new local edits while pending survive receipt and are not falsely marked completed
+  ---
+  duration_ms: 0.6238
+  type: 'test'
+  ...
+# Subtest: editing after failure invalidates retry of stale snapshot
+ok 30 - editing after failure invalidates retry of stale snapshot
+  ---
+  duration_ms: 0.674
+  type: 'test'
+  ...
+# Subtest: rebase keeps user text, requires new anchors and never auto-confirms
+ok 31 - rebase keeps user text, requires new anchors and never auto-confirms
+  ---
+  duration_ms: 0.4621
+  type: 'test'
+  ...
+# Subtest: undo awaits receipt, restores old text with a higher version, keeps original result
+ok 32 - undo awaits receipt, restores old text with a higher version, keeps original result
+  ---
+  duration_ms: 1.1077
+  type: 'test'
+  ...
+# Subtest: failed undo can retry while original revised understanding and raw result remain
+ok 33 - failed undo can retry while original revised understanding and raw result remain
+  ---
+  duration_ms: 1.6914
+  type: 'test'
+  ...
+# Subtest: later version or same-version draft edit forbids stale undo
+ok 34 - later version or same-version draft edit forbids stale undo
+  ---
+  duration_ms: 1.8811
+  type: 'test'
+  ...
+# Subtest: old version viewer toggles without modifying current content
+ok 35 - old version viewer toggles without modifying current content
+  ---
+  duration_ms: 2.0166
+  type: 'test'
+  ...
+# Subtest: no original understanding permits result-only and refuses invented revision
+ok 36 - no original understanding permits result-only and refuses invented revision
+  ---
+  duration_ms: 0.7419
+  type: 'test'
+  ...
+# Subtest: different work and matter sessions keep raw, interpretation, revision and pending isolated
+ok 37 - different work and matter sessions keep raw, interpretation, revision and pending isolated
+  ---
+  duration_ms: 0.7687
+  type: 'test'
+  ...
+# Subtest: changing association selects independent draft and restores old matter draft on return
+ok 38 - changing association selects independent draft and restores old matter draft on return
+  ---
+  duration_ms: 0.2465
+  type: 'test'
+  ...
+# Subtest: retry work requires explicit target and never submits or sends work automatically
+ok 39 - retry work requires explicit target and never submits or sends work automatically
+  ---
+  duration_ms: 0.9078
+  type: 'test'
+  ...
+# Subtest: GO_SCREEN cannot bypass missing revision or host receipt
+ok 40 - GO_SCREEN cannot bypass missing revision or host receipt
+  ---
+  duration_ms: 0.3116
+  type: 'test'
+  ...
+# Subtest: selectors and reducer preserve source objects, and stale host snapshots cannot regress state
+ok 41 - selectors and reducer preserve source objects, and stale host snapshots cannot regress state
+  ---
+  duration_ms: 0.724
+  type: 'test'
+  ...
+# Subtest: host fixture rejects changed payload under original command fingerprint
+ok 42 - host fixture rejects changed payload under original command fingerprint
+  ---
+  duration_ms: 0.5289
+  type: 'test'
+  ...
+# Subtest: command fingerprints are stable for property ordering, not security signatures
+ok 43 - command fingerprints are stable for property ordering, not security signatures
+  ---
+  duration_ms: 0.0694
+  type: 'test'
+  ...
+1..43
+# tests 43
+# suites 0
+# pass 43
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 137.983

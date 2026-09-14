@@ -1,0 +1,237 @@
+{
+  "task": "trace-web-v1-integration-20260915",
+  "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contextPackageSha256": "918D75E6C80AAD8054B3F59B24810BED2CE261390AC4425CCA8E0481275C921E",
+  "checkedAt": "2026-09-14T18:28:06.377Z",
+  "checks": [
+    {
+      "name": "22 unique transition IDs",
+      "pass": true
+    },
+    {
+      "name": "T01 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T02 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T03 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T04 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T05 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T06 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T07 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T08 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T09 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T10 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T11 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T12 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T13 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T14 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T15 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T16 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T17 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T18 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T19 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T20 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T21 contract fields",
+      "pass": true
+    },
+    {
+      "name": "T22 contract fields",
+      "pass": true
+    },
+    {
+      "name": "CONTINUITY.md UTF-8 replacement characters absent",
+      "pass": true
+    },
+    {
+      "name": "CONTINUITY.md identity echoes",
+      "pass": true
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/manunl/产品功能与交互方案/核心功能与内容对象.md"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/manunl/产品界面与交互设计/整体交互形态.md"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/trace-runtime/apps/desktop/src/main.js"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/trace-runtime/apps/desktop/src/prototype-session.js"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/trace-runtime/apps/desktop/src/matters/matters-screen.mjs"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/artifacts/trace-web-v1-integration-20260915/experience/baseline-new-input.png"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/trace-runtime/apps/desktop/src/prototype-session.js"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/trace-runtime/apps/desktop/src/main.js"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/artifacts/trace-web-v1-integration-20260915/experience/baseline-reload.png"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/trace-runtime/apps/desktop/src/matters/matters-model.mjs"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/trace-runtime/apps/desktop/src/matters/matters-screen.mjs"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/artifacts/trace-compare-v1-20260915/model/comparison-model.mjs"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/trace-runtime/apps/desktop/src/matters/matters-screen.mjs"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/trace-runtime/apps/desktop/src/home.js"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/trace-runtime/apps/desktop/src/main.js"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/artifacts/trace-compare-v1-20260915/model/comparison-model.mjs"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/artifacts/trace-web-v1-integration-20260915/experience/transitions.json"
+    },
+    {
+      "name": "CONTINUITY.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/artifacts/trace-web-v1-integration-20260915/experience/baseline-observations.json"
+    },
+    {
+      "name": "acceptance.md UTF-8 replacement characters absent",
+      "pass": true
+    },
+    {
+      "name": "acceptance.md identity echoes",
+      "pass": true
+    },
+    {
+      "name": "acceptance.md local link",
+      "pass": true,
+      "details": "D:/AGeneral Workspace/AI-powered/harness/artifacts/trace-web-v1-integration-20260915/experience/baseline-observations.json"
+    },
+    {
+      "name": "baseline observations completed",
+      "pass": true
+    },
+    {
+      "name": "baseline identity matches",
+      "pass": true
+    },
+    {
+      "name": "baseline browser errors empty",
+      "pass": true
+    }
+  ],
+  "passed": 49,
+  "failed": 0,
+  "hashes": {
+    "acceptance.md": "A85EA03A358CA7A3C1A1D42E38AC1C7299F5362F89C14BCD680C2F7B9BB084CC",
+    "baseline-new-input.png": "3003D3820EB81A1F45133BBD072AFE81F68FE91DB914848E1794A72847E05269",
+    "baseline-observations.json": "FDC1FDEDFF54F045A1EA0B1BE948439B2BE9ED00760DF0EE04DCBE77A3BEDDD5",
+    "baseline-reload.png": "3D6B3AD7B361B236FB577B0744EC98DACBD52AA925855A708221E47E6F89A867",
+    "baseline-search-return.png": "EBB1F8DA89EB8C068F1FC2F68BAE1C16025652CE35118A3E05981387721D5F76",
+    "CONTINUITY.md": "61479D8BD51A7D290B04E1E9E8C3446F28B03C04AD057F78EE74055F957A6559",
+    "inspect-baseline.cjs": "B00C924AD1EA829377E312DAA752C21D58E7EC2D7B9C6840B82038391AD752A8",
+    "transitions.json": "61CD737DA40E788C94AB15DD6E5C84A8459AB0A3C4E9E84083BBE9F2A91BCFA1",
+    "validate-artifacts.mjs": "C4495751FB816ACDAF3C324D1E7A31C8BAEC66AFACC00DD9CC6BE32BE5EC1C1C"
+  },
+  "note": "Artifact/schema/link validation only; the integration acceptance scenarios have not been run."
+}

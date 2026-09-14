@@ -1,0 +1,32 @@
+/* Local fixed-copy WOFF2 subsets. Keep upstream OFL files when redistributing. */
+
+@font-face {
+  font-family: "Trace Home Serif";
+  src: url("./TraceHomeSerif-fixed.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 250 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trace Home Sans";
+  src: url("./TraceHomeSans-fixed.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+/* Example role classes only; no body/reset or application selectors are changed.
+   Full families are activated only by including font-face-full-fallback.css.
+   Without it, missing dynamic characters use platform-dependent system fonts. */
+.trace-font-display {
+  font-family: "Trace Home Serif", "Trace Home Serif Full", "Noto Serif CJK SC", "Songti SC", SimSun, serif;
+  font-weight: 600;
+  font-synthesis: none;
+}
+.trace-font-ui {
+  font-family: "Trace Home Sans", "Trace Home Sans Full", "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+}
+

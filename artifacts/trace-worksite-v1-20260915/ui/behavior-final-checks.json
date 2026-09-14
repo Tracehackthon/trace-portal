@@ -1,0 +1,117 @@
+{
+  "taskId": "trace-worksite-v1-20260915",
+  "at": "2026-09-14T17:18:38.425Z",
+  "prefix": "behavior-final",
+  "base": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/ui/fixture.html",
+  "checks": [
+    {
+      "name": "overview → intake opens selected snapshot",
+      "pass": true
+    },
+    {
+      "name": "exclude changes actual context, not merely button state",
+      "pass": true
+    },
+    {
+      "name": "contrast emits distinct instruction",
+      "pass": true
+    },
+    {
+      "name": "intake → impact keeps independent usage unconfirmed",
+      "pass": true
+    },
+    {
+      "name": "artifact does not fake external link",
+      "pass": true
+    },
+    {
+      "name": "impact correction is retained without erasing evidence",
+      "pass": true
+    },
+    {
+      "name": "capture opens real literal discovery",
+      "pass": true
+    },
+    {
+      "name": "reject association keeps original discovery and source",
+      "pass": true
+    },
+    {
+      "name": "rejected association can be explicitly reselected",
+      "pass": true
+    },
+    {
+      "name": "keep and use discovery only in this work",
+      "pass": true
+    },
+    {
+      "name": "result navigation does not fabricate facts",
+      "pass": true
+    },
+    {
+      "name": "keep result does not modify understanding",
+      "pass": true
+    },
+    {
+      "name": "review opens before/after without implicit revision",
+      "pass": true
+    },
+    {
+      "name": "explicit revision → undo retains original result",
+      "pass": true
+    },
+    {
+      "name": "switch work isolates drafts, then restores first work",
+      "pass": true
+    },
+    {
+      "name": "IME and caret survive view updates without DOM replacement",
+      "pass": true
+    },
+    {
+      "name": "Escape closes local panel and returns focus",
+      "pass": true
+    },
+    {
+      "name": "empty capture is disabled and Enter does not submit composition",
+      "pass": true
+    },
+    {
+      "name": "external Agent does not pretend integration",
+      "pass": true
+    },
+    {
+      "name": "review keyboard focus is contained and Escape cancels",
+      "pass": true
+    },
+    {
+      "name": "large text remains editable and complete",
+      "pass": true
+    },
+    {
+      "name": "interrupted bird transition finishes in final state",
+      "pass": true
+    },
+    {
+      "name": "glass surface unfolds from clicked source and interruption cleans transform",
+      "pass": true
+    },
+    {
+      "name": "narrow results retain reachable confirmation controls",
+      "pass": true
+    },
+    {
+      "name": "all requested assets and fonts loaded",
+      "pass": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "pass": true
+    }
+  ],
+  "passed": 26,
+  "total": 26,
+  "errors": [],
+  "responses": [],
+  "renders": []
+}

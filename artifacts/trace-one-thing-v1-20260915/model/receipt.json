@@ -1,0 +1,59 @@
+{
+  "taskId": "trace-one-thing-v1-20260915",
+  "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contextPackageSha256": "5419BAC2804EB001F853B968060478429AA5AFCE08F1ACECEFA14F64E4B3E562",
+  "amendment01Sha256": "38432B1AC331AD069C9056FF4347B9C7C806BFCCD6A8EBD9A626C9156B01F226",
+  "nodeVersion": "22.23.1",
+  "validation": {
+    "syntax": "passed",
+    "firstRun": {
+      "total": 36,
+      "passed": 32,
+      "failed": 4
+    },
+    "finalRerun": {
+      "total": 39,
+      "passed": 39,
+      "failed": 0
+    },
+    "browserUi": "not run by model worker",
+    "appIntegration": "not performed by model worker"
+  },
+  "files": [
+    {
+      "name": "chain-model.mjs",
+      "bytes": 34408,
+      "sha256": "3707368E9B74B584FA68585094C192FE835302BDC974F9A7A2B39BBF3A2C899C"
+    },
+    {
+      "name": "chain-model.test.mjs",
+      "bytes": 25199,
+      "sha256": "37E3A6C1DB7FA38EC9EBEC4CE9250BE224F8EEB06C13C9E07F22FA64DCB22CA6"
+    },
+    {
+      "name": "sample-view.json",
+      "bytes": 77070,
+      "sha256": "4B2FF70D650B1A583976EAF79B21A50514C35F056E68FABE34EFF3ECEA42EC57"
+    },
+    {
+      "name": "emit-sample.mjs",
+      "bytes": 460,
+      "sha256": "105CCC7F8AEB4082B885979A3317617DA582AA2FC684AC3003B2ECABB1354D8D"
+    },
+    {
+      "name": "README.md",
+      "bytes": 8554,
+      "sha256": "B18ADDDF89C62990175507C6C73D74F053854955C307CE586CDCB3AF9E2E304F"
+    },
+    {
+      "name": "test-first.log",
+      "bytes": 12955,
+      "sha256": "171DD8FE0FCB597CA5D56B24DD5772D9383B95AABB3F9BDCC99A217CD87F4586"
+    },
+    {
+      "name": "test-rerun.log",
+      "bytes": 9662,
+      "sha256": "7A23E466AF984432103044375EC501F432B8920B87B7D2120920A5894578AE94"
+    }
+  ]
+}

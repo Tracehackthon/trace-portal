@@ -1,0 +1,151 @@
+{
+  "screens": [
+    {
+      "screen": "reading",
+      "fontSerif": true,
+      "fontSans": true,
+      "buttonsOutside": [],
+      "horizontalOverflow": []
+    },
+    {
+      "screen": "resume",
+      "fontSerif": true,
+      "fontSans": true,
+      "buttonsOutside": [],
+      "horizontalOverflow": []
+    },
+    {
+      "screen": "discussion",
+      "fontSerif": true,
+      "fontSans": true,
+      "buttonsOutside": [],
+      "horizontalOverflow": []
+    },
+    {
+      "screen": "comparison",
+      "fontSerif": true,
+      "fontSans": true,
+      "buttonsOutside": [],
+      "horizontalOverflow": []
+    },
+    {
+      "screen": "understanding",
+      "fontSerif": true,
+      "fontSans": true,
+      "buttonsOutside": [],
+      "horizontalOverflow": []
+    },
+    {
+      "screen": "paused",
+      "fontSerif": true,
+      "fontSans": true,
+      "buttonsOutside": [],
+      "horizontalOverflow": []
+    },
+    {
+      "screen": "reentry",
+      "fontSerif": true,
+      "fontSans": true,
+      "buttonsOutside": [],
+      "horizontalOverflow": []
+    },
+    {
+      "screen": "handoff",
+      "fontSerif": true,
+      "fontSans": true,
+      "buttonsOutside": [],
+      "horizontalOverflow": []
+    },
+    {
+      "screen": "work",
+      "fontSerif": true,
+      "fontSans": true,
+      "buttonsOutside": [],
+      "horizontalOverflow": []
+    },
+    {
+      "screen": "results",
+      "fontSerif": true,
+      "fontSans": true,
+      "buttonsOutside": [],
+      "horizontalOverflow": []
+    },
+    {
+      "screen": "revised",
+      "fontSerif": true,
+      "fontSans": true,
+      "buttonsOutside": [],
+      "horizontalOverflow": []
+    }
+  ],
+  "checks": [
+    {
+      "name": "active understanding DOM identity and caret survive reducer updates",
+      "pass": true,
+      "value": true
+    },
+    {
+      "name": "composition Enter does not SEND",
+      "pass": true,
+      "value": true
+    },
+    {
+      "name": "empty capture disabled",
+      "pass": true,
+      "value": true
+    },
+    {
+      "name": "article selection remains separate from personal expression",
+      "pass": true,
+      "value": true
+    },
+    {
+      "name": "narrow loop capture edit save collapse reopen handoff result revision",
+      "pass": false,
+      "error": "Error: locator.click: Error: strict mode violation: locator('[data-action=\"reopen\"]') resolved to 2 elements:\n    1) <button type=\"button\" data-action=\"reopen\" class=\"chain-button chain-primary\">…</button> aka getByRole('button', { name: '从停点继续' })\n    2) <button type=\"button\" data-action=\"reopen\" data-key=\"matter-bubble\" class=\"chain-matter-bubble\">…</button> aka getByRole('button', { name: '还没有命名的这一点 刚刚停在：还有什么条件？ 个人草稿已保存于本次会话' })\n\nCall log:\n\u001b[2m  - waiting for locator('[data-action=\"reopen\"]')\u001b[22m\n"
+    },
+    {
+      "name": "local suggestion exact selection, acceptance and undo",
+      "pass": true,
+      "value": true
+    },
+    {
+      "name": "result-only never revises understanding",
+      "pass": true,
+      "value": true
+    },
+    {
+      "name": "rejected new material retained unassigned",
+      "pass": true,
+      "value": true
+    },
+    {
+      "name": "fresh context changes text not only styling",
+      "pass": true,
+      "value": true
+    },
+    {
+      "name": "HTML user text remains text",
+      "pass": true,
+      "value": true
+    },
+    {
+      "name": "comparison selects real fixture material and limit relation persists",
+      "pass": true,
+      "value": true
+    },
+    {
+      "name": "modal focus trap and Esc return focus",
+      "pass": true,
+      "value": true
+    },
+    {
+      "name": "destroy clears mount and listener scope",
+      "pass": true,
+      "value": true
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": []
+}

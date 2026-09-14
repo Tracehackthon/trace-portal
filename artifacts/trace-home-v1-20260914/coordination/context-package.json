@@ -1,0 +1,77 @@
+{
+  "task_id": "trace-home-v1-assets-20260914",
+  "scope": "Prepare generated assets, reusable component sources, and self-hosted fonts; do not modify the desktop UI yet.",
+  "owner": "root",
+  "repository": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime",
+  "baseline": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "reference_images": [
+    {
+      "sha256": "8A28B3E48A916D3C92045CE2AB34CB1EA15322C373B7CFA3FAAC6B605D972D7D",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\01-首页静默总览态.png",
+      "name": "01-首页静默总览态.png"
+    },
+    {
+      "sha256": "34BCEA097EF6DD766CEEA84E9E2A6A639D0C4DCD39DBE58E1BEE6ACD369C25A9",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\02-气泡唤醒四帧分镜.png",
+      "name": "02-气泡唤醒四帧分镜.png"
+    },
+    {
+      "sha256": "CD81A0A2ED698983B8F14F3549C25CB8DFA6580F786B5534457B49B436C54B09",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\03-思考接续态.png",
+      "name": "03-思考接续态.png"
+    },
+    {
+      "sha256": "B09408B1CEABCFE72B555A3C6F128FD7E27E5F65C0B1D50980F5E1567555771C",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\04-思考生长态.png",
+      "name": "04-思考生长态.png"
+    },
+    {
+      "sha256": "60A8F8E5045ACA75F48224DBDB7B1BD2F9D14CC9A0E5CBC7AFC9BB7D08CAAF6E",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\05-工作接续态.png",
+      "name": "05-工作接续态.png"
+    },
+    {
+      "sha256": "D60DBBD4BCDA829BD0A0FCC0AB1D8A0B6DDF06D3DADB27B536D73B108393519F",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\06-结果回流态.png",
+      "name": "06-结果回流态.png"
+    }
+  ],
+  "source_baseline": [
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\index.html",
+      "sha256": "50CE20C8068642930E6AE00234D05E471B900DAE843B93FF7C7A0FE271B02881"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\main.js",
+      "sha256": "0D9ECFDD8D779ADB47F4B545935FDC0EA1523203EABFF4FFE9A3C3891BC2F50D"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\style.css",
+      "sha256": "67BD3DBC61A825B146211C200F2D7D63D0A3F64D1E3B93A57B53AECA83819C74"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\plugins\\trace-harness-plugin\\build.mjs",
+      "sha256": "B5E46596592F47715F78B942B82F85DC3745F64ED98697F79B6511319AA445C1"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\plugins\\trace-harness-plugin\\src\\desktop\\main.mjs",
+      "sha256": "24ADFFA8CF611B5052DF2224ABEC9F34B7B225008D279FE502B42D5A98FD3370"
+    }
+  ],
+  "artifact_root": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914",
+  "writer_boundaries": {
+    "root": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination",
+    "font_component_research": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\fonts",
+    "reusable_scene_components": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\components",
+    "visual_asset_production": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images"
+  },
+  "constraints": [
+    "Six state images are the sole visual direction; ignore old standalone v1/v2 concepts.",
+    "Preserve user changes; no app/plugin/config/lockfile edits, no git commit, no global installs.",
+    "Original downloaded/generated files and derived files remain separate.",
+    "Record exact source URL, version or commit, license, SHA256, and validation limits.",
+    "Only root integrates into the current vanilla JS/CSS desktop app and native file-loading build.",
+    "Fonts/text/buttons remain real UI; imagery supplies environment, bird poses, and difficult material details."
+  ],
+  "status_record": "D:\\AGeneral Workspace\\AI-powered\\harness\\docs\\tasks\\trace-home-v1-assets.md"
+}

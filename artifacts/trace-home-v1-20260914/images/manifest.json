@@ -1,0 +1,973 @@
+{
+  "schema_version": 1,
+  "task_id": "trace-home-v1-assets-20260914",
+  "owner": "visual_asset_production",
+  "date": "2026-09-14",
+  "baseline": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "context_package_sha256": "FEC12772D27033E54E9EDB811486DE7C749DB5AFF054BF1BA3DE06628DC00CD7",
+  "scope": "只生产素材并保存验证证据，不修改应用源码。",
+  "artifact_root": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images",
+  "summary": {
+    "status": "assets_prepared_after_authorized_repair",
+    "primary_generations": 3,
+    "targeted_retries": 1,
+    "total_tool_calls": 4,
+    "ready_assets": 3,
+    "failed_outputs": 3,
+    "skipped_assets": 1,
+    "repaired_assets": 2,
+    "failed_outputs_are_historical": true
+  },
+  "reference_verification": [
+    {
+      "name": "01-首页静默总览态.png",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\01-首页静默总览态.png",
+      "expected_sha256": "8A28B3E48A916D3C92045CE2AB34CB1EA15322C373B7CFA3FAAC6B605D972D7D",
+      "actual_sha256": "8A28B3E48A916D3C92045CE2AB34CB1EA15322C373B7CFA3FAAC6B605D972D7D",
+      "match": true
+    },
+    {
+      "name": "02-气泡唤醒四帧分镜.png",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\02-气泡唤醒四帧分镜.png",
+      "expected_sha256": "34BCEA097EF6DD766CEEA84E9E2A6A639D0C4DCD39DBE58E1BEE6ACD369C25A9",
+      "actual_sha256": "34BCEA097EF6DD766CEEA84E9E2A6A639D0C4DCD39DBE58E1BEE6ACD369C25A9",
+      "match": true
+    },
+    {
+      "name": "03-思考接续态.png",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\03-思考接续态.png",
+      "expected_sha256": "CD81A0A2ED698983B8F14F3549C25CB8DFA6580F786B5534457B49B436C54B09",
+      "actual_sha256": "CD81A0A2ED698983B8F14F3549C25CB8DFA6580F786B5534457B49B436C54B09",
+      "match": true
+    },
+    {
+      "name": "04-思考生长态.png",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\04-思考生长态.png",
+      "expected_sha256": "B09408B1CEABCFE72B555A3C6F128FD7E27E5F65C0B1D50980F5E1567555771C",
+      "actual_sha256": "B09408B1CEABCFE72B555A3C6F128FD7E27E5F65C0B1D50980F5E1567555771C",
+      "match": true
+    },
+    {
+      "name": "05-工作接续态.png",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\05-工作接续态.png",
+      "expected_sha256": "60A8F8E5045ACA75F48224DBDB7B1BD2F9D14CC9A0E5CBC7AFC9BB7D08CAAF6E",
+      "actual_sha256": "60A8F8E5045ACA75F48224DBDB7B1BD2F9D14CC9A0E5CBC7AFC9BB7D08CAAF6E",
+      "match": true
+    },
+    {
+      "name": "06-结果回流态.png",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\06-结果回流态.png",
+      "expected_sha256": "D60DBBD4BCDA829BD0A0FCC0AB1D8A0B6DDF06D3DADB27B536D73B108393519F",
+      "actual_sha256": "D60DBBD4BCDA829BD0A0FCC0AB1D8A0B6DDF06D3DADB27B536D73B108393519F",
+      "match": true
+    }
+  ],
+  "reference_viewed_names": [
+    "01-首页静默总览态.png",
+    "02-气泡唤醒四帧分镜.png",
+    "03-思考接续态.png",
+    "06-结果回流态.png"
+  ],
+  "attempts": [
+    {
+      "id": "A",
+      "asset_id": "home-environment",
+      "kind": "primary",
+      "prompt_key": "promptA",
+      "prompt_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\evidence\\A-background-prompt.txt",
+      "inputs": [
+        {
+          "role": "edit target: exact approved overview scene",
+          "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\01-首页静默总览态.png",
+          "sha256": "8A28B3E48A916D3C92045CE2AB34CB1EA15322C373B7CFA3FAAC6B605D972D7D"
+        }
+      ],
+      "metadata": {
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\A-home-environment.png",
+        "bytes": 1564971,
+        "width": 1672,
+        "height": 941,
+        "pixel_format": "Format24bppRgb",
+        "png_color_type": 2,
+        "png_chunk_types": [
+          "IHDR",
+          "caBX",
+          "IDAT",
+          "IEND"
+        ],
+        "has_alpha_or_trns": false,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "alpha_evidence": "PNG color type has no alpha and no tRNS chunk: all decoded pixels are opaque.",
+        "corner_samples": [
+          {
+            "x": 0,
+            "y": 0,
+            "alpha": 255,
+            "r": 236,
+            "g": 241,
+            "b": 238
+          },
+          {
+            "x": 10,
+            "y": 10,
+            "alpha": 255,
+            "r": 239,
+            "g": 243,
+            "b": 242
+          },
+          {
+            "x": 20,
+            "y": 20,
+            "alpha": 255,
+            "r": 241,
+            "g": 244,
+            "b": 243
+          },
+          {
+            "x": 1671,
+            "y": 0,
+            "alpha": 255,
+            "r": 225,
+            "g": 239,
+            "b": 233
+          },
+          {
+            "x": 0,
+            "y": 940,
+            "alpha": 255,
+            "r": 215,
+            "g": 222,
+            "b": 221
+          },
+          {
+            "x": 1671,
+            "y": 940,
+            "alpha": 255,
+            "r": 178,
+            "g": 197,
+            "b": 197
+          }
+        ],
+        "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05"
+      },
+      "ready_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\ready\\home-environment.png",
+      "status": "candidate_ready",
+      "visual_review": {
+        "inspected": true,
+        "result": "通过素材级目视检查；未在应用验收。",
+        "observations": [
+          "未见残留文字、Logo、控件、玻璃气泡、人工连线、节点或小鸟。",
+          "左右山体、远处球体、前景两颗玻璃球、水面反光、左上树影与中央留白保留。",
+          "原先被 UI 遮挡的区域经过模型补绘，不代表存在可核验的真实无 UI 原稿。"
+        ],
+        "limitations": [
+          "实际输出 1672×941；未达到 prompt 期望的至少 2048 像素宽。",
+          "尚未在不同窗口比例和高 DPI 桌面壳中验证。"
+        ]
+      },
+      "prompt": "Use case: precise-object-edit.\nAsset type: a clean production background image for the Trace desktop home scene.\nInput image 1 is the sole EDIT TARGET, the approved static overview of this exact scene. Extract its environment, do not redesign it.\nPrimary request: remove every user-interface overlay and reconstruct only the environment that would be behind it. Remove all text including Trace, Chinese headings and labels, logos, icons, search controls, profile icon, rounded input panel, glass bubble cards, buttons, ALL thin green/gold/gray branching connector wires, ALL glowing connector dots/nodes, and the small bird. No interface remnants or ghosted lettering.\nKeep invariant: exact camera framing and approximately 16:9 wide aspect ratio; existing pale jade translucent glass-like rolling hills at left and right and in the foreground; water reflections and light caustics; misty distant center valley and soft horizon; pale off-white bright central sky; blurred tree silhouettes upper left; large translucent aqua sphere at upper right partially cropped as in reference; existing small glass sphere lower left and lower right; the delicate warm glints within the landscape. Keep their composition, lighting, relative placement, depth, palette, and realistic ethereal material style unchanged as much as possible.\nReconstruction: where panels and lines are removed, continue the surrounding hills, mist and water seamlessly. Maintain the calm open center/top-middle negative space for real application UI to be overlaid later. The existing spheres are scenery, not nodes, and must remain.\nOutput: one clean high-quality desktop landscape bitmap, preferably at least 2048 pixels wide, approx 16:9. No text, no logo, no bird, no bubbles, no panels, no wire paths, no nodes, no new objects, no border, no watermark. This is environmental cleanup of the supplied reference, not a new concept illustration.",
+      "tool": {
+        "name": "image_gen__imagegen",
+        "mode": "built-in",
+        "returned_keys": [
+          "image_url",
+          "output_hint"
+        ],
+        "output_hint": "Generated images are saved to C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8 as C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8\\exec-6bc3f9f8-8808-433f-8af5-6c5c75e8111f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "model_identity": "未暴露，具体模型与是否最新不可由返回结果核验。"
+      }
+    },
+    {
+      "id": "B",
+      "asset_id": "bird-perched",
+      "kind": "primary",
+      "prompt_key": "promptB",
+      "prompt_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\evidence\\B-bird-perched-prompt.txt",
+      "inputs": [
+        {
+          "role": "edit target: perched bird left of input",
+          "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\01-首页静默总览态.png",
+          "sha256": "8A28B3E48A916D3C92045CE2AB34CB1EA15322C373B7CFA3FAAC6B605D972D7D"
+        },
+        {
+          "role": "supporting same-bird identity reference",
+          "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\03-思考接续态.png",
+          "sha256": "CD81A0A2ED698983B8F14F3549C25CB8DFA6580F786B5534457B49B436C54B09"
+        }
+      ],
+      "metadata": {
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\B-bird-perched-initial.png",
+        "bytes": 1862394,
+        "width": 1254,
+        "height": 1254,
+        "pixel_format": "Format24bppRgb",
+        "png_color_type": 2,
+        "png_chunk_types": [
+          "IHDR",
+          "caBX",
+          "IDAT",
+          "IEND"
+        ],
+        "has_alpha_or_trns": false,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "alpha_evidence": "PNG color type has no alpha and no tRNS chunk: all decoded pixels are opaque.",
+        "corner_samples": [
+          {
+            "x": 0,
+            "y": 0,
+            "alpha": 255,
+            "r": 254,
+            "g": 254,
+            "b": 254
+          },
+          {
+            "x": 10,
+            "y": 10,
+            "alpha": 255,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          {
+            "x": 20,
+            "y": 20,
+            "alpha": 255,
+            "r": 252,
+            "g": 252,
+            "b": 252
+          },
+          {
+            "x": 1253,
+            "y": 0,
+            "alpha": 255,
+            "r": 247,
+            "g": 248,
+            "b": 247
+          },
+          {
+            "x": 0,
+            "y": 1253,
+            "alpha": 255,
+            "r": 209,
+            "g": 208,
+            "b": 209
+          },
+          {
+            "x": 1253,
+            "y": 1253,
+            "alpha": 255,
+            "r": 202,
+            "g": 202,
+            "b": 201
+          }
+        ],
+        "sha256": "EB237FE8F1627E3850CAC25EE332D4AF91733A568442AA472BD2B1CE5551C29B"
+      },
+      "ready_path": null,
+      "status": "failed_transparency",
+      "visual_review": {
+        "inspected": true,
+        "result": "形象候选；透明失败，不可直接接入。",
+        "observations": [
+          "保留右向、深绿/青色背翅、白色腹部、长尾、细足，没有节点或源 UI。",
+          "灰白棋盘格被绘入 RGB 像素，部分格子还有变形。",
+          "放大重建比参考更突出圆眼与分叉长尾，不能称为像素级抠图或已通过形象一致性验收。"
+        ],
+        "limitations": [
+          "无 alpha、无 tRNS；所有像素不透明。",
+          "不可用 mix-blend-mode、白底遮挡或仅将扩展名称为 PNG 来代替真实透明。"
+        ]
+      },
+      "prompt": "Use case: background-extraction, identity-preserve.\nAsset type: transparent PNG production cutout of the exact small bird in Trace UI, to be animated by code.\nInput image 1 (01 static overview) is the EDIT TARGET for extracting the bird immediately left of the input box. Input image 2 (03 expanded thought) is a supporting identity reference of the SAME bird.\nPrimary request: isolate and enlarge only that same perched bird into one high-quality standalone cutout. It is a small delicate realistic stylized bird, right-facing side profile, dark charcoal/deep green head and back, glossy soft teal-dark green folded wings, creamy white face/neck/belly, tiny dark eye, short fine pointed beak facing right, slender long dark tail streaming down-left, tiny warm brown feet. Preserve its exact recognizable silhouette, proportions, feather colors, calm posture, and ethereal polished visual treatment from the references. Do NOT invent a new mascot or change species/character.\nPose: perched stationary, folded wings, body angled slightly up-right, beak points right, long narrow tail points down-left. Keep entire bird, tail, beak, toes and all feather tips visible, centered with modest transparent padding, not clipped. Bird alone, no perch or support object.\nBackground: actual transparent alpha channel, no flat background, no white matte, no gray checkerboard pixels. Include only the bird's natural antialiased edge; do not include a shadow plane.\nOutput: one single bird, clean approximately square PNG preferably about 1024x1024. Remove all source scenery, interface, text, input panels, thin wires, glow, connector dot/node underneath its feet. No ground, no branch, no circle, no glowing orb, no text, no grid, no border, no labels, no additional birds. The pose is for later small-size UI rendering, not a poster.",
+      "tool": {
+        "name": "image_gen__imagegen",
+        "mode": "built-in",
+        "returned_keys": [
+          "image_url",
+          "output_hint"
+        ],
+        "output_hint": "Generated images are saved to C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8 as C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8\\exec-9e32d87e-e458-4c13-b5a9-6530b36fed41.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "model_identity": "未暴露，具体模型与是否最新不可由返回结果核验。"
+      }
+    },
+    {
+      "id": "BRetry",
+      "asset_id": "bird-perched",
+      "kind": "single_targeted_retry",
+      "prompt_key": "promptBRetry",
+      "prompt_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\evidence\\B2-bird-alpha-retry-prompt.txt",
+      "inputs": [
+        {
+          "role": "edit target: generated perched bird, remove only baked checkerboard",
+          "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\B-bird-perched-initial.png",
+          "sha256": "EB237FE8F1627E3850CAC25EE332D4AF91733A568442AA472BD2B1CE5551C29B"
+        }
+      ],
+      "metadata": {
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\B2-bird-perched-alpha-retry.png",
+        "bytes": 1517151,
+        "width": 1254,
+        "height": 1254,
+        "pixel_format": "Format24bppRgb",
+        "png_color_type": 2,
+        "png_chunk_types": [
+          "IHDR",
+          "caBX",
+          "IDAT",
+          "IEND"
+        ],
+        "has_alpha_or_trns": false,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "alpha_evidence": "PNG color type has no alpha and no tRNS chunk: all decoded pixels are opaque.",
+        "corner_samples": [
+          {
+            "x": 0,
+            "y": 0,
+            "alpha": 255,
+            "r": 253,
+            "g": 253,
+            "b": 253
+          },
+          {
+            "x": 10,
+            "y": 10,
+            "alpha": 255,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          {
+            "x": 20,
+            "y": 20,
+            "alpha": 255,
+            "r": 252,
+            "g": 252,
+            "b": 252
+          },
+          {
+            "x": 1253,
+            "y": 0,
+            "alpha": 255,
+            "r": 200,
+            "g": 201,
+            "b": 197
+          },
+          {
+            "x": 0,
+            "y": 1253,
+            "alpha": 255,
+            "r": 203,
+            "g": 200,
+            "b": 201
+          },
+          {
+            "x": 1253,
+            "y": 1253,
+            "alpha": 255,
+            "r": 254,
+            "g": 253,
+            "b": 254
+          }
+        ],
+        "sha256": "CC63D1359D2A89D6B6BE2DC45D58E61ECFF1EEAB60974B631CEB1654E3A029E1"
+      },
+      "ready_path": null,
+      "status": "retry_failed_transparency",
+      "visual_review": {
+        "inspected": true,
+        "result": "唯一针对性重试仍失败；停止重试。",
+        "observations": [
+          "鸟的形象与姿态基本保持，棋盘格变得更规则。",
+          "棋盘格依然是 RGB 背景像素，不是真透明。"
+        ],
+        "limitations": [
+          "PNG color type 2，无 tRNS；所有像素不透明。",
+          "不把此次重试称为通过。"
+        ]
+      },
+      "prompt": "Use case: background-extraction.\nAsset type: a genuine transparent PNG cutout, NOT an illustration of transparency.\nInput image 1 is the EDIT TARGET, the bird just produced. Preserve the bird exactly, without changing its pose, shape, colors, detailed feathers or eye. The only change is the background.\nPrimary request: REMOVE THE BAKED GRAY-AND-WHITE CHECKERBOARD COMPLETELY. The current checkerboard is unwanted opaque picture content, not transparency. Replace EVERY background pixel with actual alpha=0. Keep only the bird and its natural antialiased edges. There must be no gray squares, no white squares, no warped checker pattern, no solid white background, no matte, no scenery or other objects.\nTransparent background is the deliverable. The output PNG must contain a real transparency/alpha channel. Outside the bird silhouette must be fully transparent. Keep all feather tips, tail tips, toes, and beak intact. No new lighting or shadow plane, no further retouching of the bird, no text or watermark. One bird with exactly the same framing. Return the bird alone as a production-ready transparent PNG.",
+      "tool": {
+        "name": "image_gen__imagegen",
+        "mode": "built-in",
+        "returned_keys": [
+          "image_url",
+          "output_hint"
+        ],
+        "output_hint": "Generated images are saved to C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8 as C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8\\exec-fea8e600-e55a-4e0c-b172-8e9f87a8e925.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "model_identity": "未暴露，具体模型与是否最新不可由返回结果核验。"
+      }
+    },
+    {
+      "id": "C",
+      "asset_id": "bird-takeoff",
+      "kind": "primary",
+      "prompt_key": "promptC",
+      "prompt_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\evidence\\C-bird-takeoff-prompt.txt",
+      "inputs": [
+        {
+          "role": "edit target: visually inspected generated bird identity; known alpha failure",
+          "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\B2-bird-perched-alpha-retry.png",
+          "sha256": "CC63D1359D2A89D6B6BE2DC45D58E61ECFF1EEAB60974B631CEB1654E3A029E1"
+        },
+        {
+          "role": "supporting pose reference: upper-right 02 唤醒 bird only",
+          "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\02-气泡唤醒四帧分镜.png",
+          "sha256": "34BCEA097EF6DD766CEEA84E9E2A6A639D0C4DCD39DBE58E1BEE6ACD369C25A9"
+        }
+      ],
+      "metadata": {
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\C-bird-takeoff.png",
+        "bytes": 2040942,
+        "width": 1254,
+        "height": 1254,
+        "pixel_format": "Format24bppRgb",
+        "png_color_type": 2,
+        "png_chunk_types": [
+          "IHDR",
+          "caBX",
+          "IDAT",
+          "IEND"
+        ],
+        "has_alpha_or_trns": false,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "alpha_evidence": "PNG color type has no alpha and no tRNS chunk: all decoded pixels are opaque.",
+        "corner_samples": [
+          {
+            "x": 0,
+            "y": 0,
+            "alpha": 255,
+            "r": 247,
+            "g": 248,
+            "b": 247
+          },
+          {
+            "x": 10,
+            "y": 10,
+            "alpha": 255,
+            "r": 249,
+            "g": 249,
+            "b": 249
+          },
+          {
+            "x": 20,
+            "y": 20,
+            "alpha": 255,
+            "r": 247,
+            "g": 247,
+            "b": 247
+          },
+          {
+            "x": 1253,
+            "y": 0,
+            "alpha": 255,
+            "r": 249,
+            "g": 249,
+            "b": 248
+          },
+          {
+            "x": 0,
+            "y": 1253,
+            "alpha": 255,
+            "r": 195,
+            "g": 192,
+            "b": 193
+          },
+          {
+            "x": 1253,
+            "y": 1253,
+            "alpha": 255,
+            "r": 251,
+            "g": 251,
+            "b": 251
+          }
+        ],
+        "sha256": "00702ABE62D72904C57E6ADC6585EC77BDA5B03F327CC234F0CB3E5526BCE41E"
+      },
+      "ready_path": null,
+      "status": "failed_transparency_pose_candidate_only",
+      "visual_review": {
+        "inspected": true,
+        "result": "得到同鸟展翅动作候选；透明失败，不可直接接入。",
+        "observations": [
+          "右向、白腹、深青绿色羽翼和长尾保持；双翅向上张开。",
+          "没有节点、连线或源 UI；羽尖尾尖未明显截断但边缘余量较小。",
+          "灰白棋盘格仍被烘焙为 RGB 像素。"
+        ],
+        "limitations": [
+          "无 alpha、无 tRNS。",
+          "只是一张静态动作候选；未做骨架、过渡帧、动画时序或自然飞行验证。",
+          "与停驻姿态的尺寸、中心、脚点未归一化；不能声称可直接无缝切换。"
+        ]
+      },
+      "prompt": "Use case: identity-preserve.\nAsset type: one single takeoff-pose production sprite for the existing Trace UI bird; not an animation sheet.\nInput image 1 is the EDIT TARGET and exact bird identity, its colored feathers, face, beak, body proportions and tail must remain recognizable. The gray/white checkerboard behind it is unwanted old baked image content; do not copy it.\nInput image 2 is supporting POSE REFERENCE: use only the bird shown in the upper-right \"02 唤醒\" storyboard frame, which has lifted its wings to start taking off. The rest of this source interface is not part of the output.\nPrimary request: change only the bird pose from perched with folded wings to beginning takeoff, wings lifted up and open, body still directed to the right, head and small pointed beak facing right, white underside and deep teal-green wings/back preserved, feet just leaving an invisible perch, long delicate dark tail flowing to the lower-left. One anatomically coherent same bird, not a different mascot, not two superimposed poses.\nComposition: show the complete bird and every feather, wing tip, beak, tail and foot with clear modest empty padding. Approximately square output, high quality. The bird fills most of the frame but is never clipped.\nBackground: genuinely transparent with an alpha channel, outside the bird alpha=0. No visible checkerboard of any kind, no white or gray matte, no solid backdrop, no scene, no shadows on a ground plane. Keep just natural antialiased feather edges.\nAvoid: text, labels, panels, wire lines, green or gold connector nodes, circles/orbs, scenery, branches, multiple birds, motion blur, trailing duplicate wings, borders or watermarks. This is one static pose candidate to be sequenced and moved with code later, not a claim of smooth wing animation.",
+      "tool": {
+        "name": "image_gen__imagegen",
+        "mode": "built-in",
+        "returned_keys": [
+          "image_url",
+          "output_hint"
+        ],
+        "output_hint": "Generated images are saved to C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8 as C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8\\exec-e6e98705-785e-4454-87d4-1485a3e19f6b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "model_identity": "未暴露，具体模型与是否最新不可由返回结果核验。"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "id": "D",
+      "asset_id": "bubble-rim-cool",
+      "status": "not_run",
+      "reason": "A/B/C 到位前提未满足：两种鸟姿态均无真实 alpha；不继续扩大同类透明生成，不生成假透明气泡皮肤。"
+    }
+  ],
+  "ready": [
+    {
+      "asset_id": "home-environment",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\ready\\home-environment.png",
+      "bytes": 1564971,
+      "width": 1672,
+      "height": 941,
+      "pixel_format": "Format24bppRgb",
+      "png_color_type": 2,
+      "png_chunk_types": [
+        "IHDR",
+        "caBX",
+        "IDAT",
+        "IEND"
+      ],
+      "has_alpha_or_trns": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "alpha_evidence": "PNG color type has no alpha and no tRNS chunk: all decoded pixels are opaque.",
+      "corner_samples": [
+        {
+          "x": 0,
+          "y": 0,
+          "alpha": 255,
+          "r": 236,
+          "g": 241,
+          "b": 238
+        },
+        {
+          "x": 10,
+          "y": 10,
+          "alpha": 255,
+          "r": 239,
+          "g": 243,
+          "b": 242
+        },
+        {
+          "x": 20,
+          "y": 20,
+          "alpha": 255,
+          "r": 241,
+          "g": 244,
+          "b": 243
+        },
+        {
+          "x": 1671,
+          "y": 0,
+          "alpha": 255,
+          "r": 225,
+          "g": 239,
+          "b": 233
+        },
+        {
+          "x": 0,
+          "y": 940,
+          "alpha": 255,
+          "r": 215,
+          "g": 222,
+          "b": 221
+        },
+        {
+          "x": 1671,
+          "y": 940,
+          "alpha": 255,
+          "r": 178,
+          "g": 197,
+          "b": 197
+        }
+      ],
+      "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "derived_from": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\A-home-environment.png",
+      "derivation": "字节相同的 Copy-Item 副本；未做缩放、裁剪、重绘或编码转换。"
+    },
+    {
+      "asset_id": "bird-perched",
+      "status": "repaired_visual_candidate_ready",
+      "source_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\B2-bird-perched-alpha-retry.png",
+      "source_sha256": "cc63d1359d2a89d6b6be2dc45d58e61ecff1eeab60974b631ceb1654e3a029e1",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "full_rgba_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-perched-full.png",
+      "full_rgba_sha256": "b5b9c7363745531615434ae7b2a4fa012eb3d7b1e771d4c3078c98c1ade65c5b",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-perched.png",
+      "sha256": "81de590d9c88d27ad73be569385d8b1d6999f08fc269912b4b97b5d403b4efec",
+      "mode": "RGBA",
+      "size": [
+        1086,
+        839
+      ],
+      "source_alpha_bbox_ltrb_exclusive": [
+        88,
+        232,
+        1158,
+        1055
+      ],
+      "source_crop_ltrb_exclusive": [
+        80,
+        224,
+        1166,
+        1063
+      ],
+      "cropped_alpha_bbox_ltrb_exclusive": [
+        8,
+        8,
+        1078,
+        831
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 713729,
+      "semi_transparent_pixels": 12503,
+      "opaque_pixels": 184922,
+      "foot_anchor_source_xy": [
+        852,
+        812
+      ],
+      "foot_anchor_cropped_xy": [
+        772,
+        588
+      ],
+      "eye_anchor_source_xy": [
+        1045,
+        307
+      ],
+      "eye_anchor_cropped_xy": [
+        965,
+        83
+      ],
+      "anchor_note": "Manual visual registration hints, not anatomical ground truth. Apply one common source-pixel scale; do not equalize cropped image widths.",
+      "protected_foreground_samples": {
+        "white_belly": {
+          "source_xy": [
+            952,
+            518
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            249,
+            250,
+            249
+          ],
+          "rgb_output": [
+            249,
+            250,
+            249
+          ]
+        },
+        "white_neck": {
+          "source_xy": [
+            1012,
+            364
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            247,
+            245,
+            242
+          ],
+          "rgb_output": [
+            247,
+            245,
+            242
+          ]
+        },
+        "eye": {
+          "source_xy": [
+            1045,
+            307
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            1,
+            0,
+            0
+          ],
+          "rgb_output": [
+            1,
+            0,
+            0
+          ]
+        },
+        "leg": {
+          "source_xy": [
+            852,
+            774
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            149,
+            105,
+            87
+          ],
+          "rgb_output": [
+            149,
+            105,
+            87
+          ]
+        }
+      },
+      "method": {
+        "chroma_threshold": 10,
+        "dark_gray_threshold": 158,
+        "texture_window_px": 25,
+        "pale_std_max": 14,
+        "pale_gray_min": 205,
+        "closure_px": 3,
+        "edge_sigma_px": 0.55,
+        "preserved_interior_background_seeds_xy": [
+          [
+            822,
+            734
+          ]
+        ],
+        "edge_rgb_modified_pixels": 12503,
+        "opaque_core_pixels_unchanged": 184922
+      },
+      "limitations": [
+        "Original antialias matte is irrecoverably mixed with the checkerboard; nearest-interior color decontamination estimates only a narrow edge band.",
+        "Fine pale feather filaments smaller than 1–2 source pixels may be simplified.",
+        "Two still poses do not provide a natural wing-beat animation."
+      ],
+      "visual_review": {
+        "status": "passed_for_small_ui_candidate",
+        "reviewed_backgrounds": [
+          "deep green #073c31",
+          "mid gray #707477"
+        ],
+        "small_size_scales": [
+          0.075,
+          0.13
+        ],
+        "findings": [
+          "White belly, white neck, eye, legs, tail and wings remain visible.",
+          "No broad checkerboard patches remain; interior leg aperture is transparent.",
+          "Fine pale edging at high magnification remains approximate; not a perfect high-resolution matte."
+        ],
+        "ui_or_animation_acceptance": false
+      }
+    },
+    {
+      "asset_id": "bird-takeoff",
+      "status": "repaired_visual_candidate_ready",
+      "source_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\C-bird-takeoff.png",
+      "source_sha256": "00702abe62d72904c57e6adc6585ec77bda5b03f327cc234f0cb3e5526bce41e",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "full_rgba_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-takeoff-full.png",
+      "full_rgba_sha256": "63c3f2f01c2a122b9fa59910f8e8b1e022bb471d55a72b56ee463a7f7b7a8283",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-takeoff.png",
+      "sha256": "9bce1f159d48ab6a8d3230aca3f41fd4c4a114a064f59dfcc4b62f05efa7ed93",
+      "mode": "RGBA",
+      "size": [
+        1156,
+        1215
+      ],
+      "source_alpha_bbox_ltrb_exclusive": [
+        87,
+        23,
+        1227,
+        1222
+      ],
+      "source_crop_ltrb_exclusive": [
+        79,
+        15,
+        1235,
+        1230
+      ],
+      "cropped_alpha_bbox_ltrb_exclusive": [
+        8,
+        8,
+        1148,
+        1207
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 997122,
+      "semi_transparent_pixels": 20340,
+      "opaque_pixels": 387078,
+      "foot_anchor_source_xy": [
+        829,
+        970
+      ],
+      "foot_anchor_cropped_xy": [
+        750,
+        955
+      ],
+      "eye_anchor_source_xy": [
+        1112,
+        473
+      ],
+      "eye_anchor_cropped_xy": [
+        1033,
+        458
+      ],
+      "anchor_note": "Manual visual registration hints, not anatomical ground truth. Apply one common source-pixel scale; do not equalize cropped image widths.",
+      "protected_foreground_samples": {
+        "white_belly": {
+          "source_xy": [
+            999,
+            691
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            254,
+            254,
+            253
+          ],
+          "rgb_output": [
+            254,
+            254,
+            253
+          ]
+        },
+        "white_neck": {
+          "source_xy": [
+            1082,
+            532
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            253,
+            253,
+            252
+          ],
+          "rgb_output": [
+            253,
+            253,
+            252
+          ]
+        },
+        "eye": {
+          "source_xy": [
+            1112,
+            473
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            0,
+            0,
+            0
+          ],
+          "rgb_output": [
+            0,
+            0,
+            0
+          ]
+        },
+        "leg": {
+          "source_xy": [
+            827,
+            924
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            227,
+            204,
+            186
+          ],
+          "rgb_output": [
+            227,
+            204,
+            186
+          ]
+        }
+      },
+      "method": {
+        "chroma_threshold": 10,
+        "dark_gray_threshold": 158,
+        "texture_window_px": 25,
+        "pale_std_max": 14,
+        "pale_gray_min": 205,
+        "closure_px": 3,
+        "edge_sigma_px": 0.55,
+        "preserved_interior_background_seeds_xy": [
+          [
+            819,
+            868
+          ]
+        ],
+        "edge_rgb_modified_pixels": 20340,
+        "opaque_core_pixels_unchanged": 387078
+      },
+      "limitations": [
+        "Original antialias matte is irrecoverably mixed with the checkerboard; nearest-interior color decontamination estimates only a narrow edge band.",
+        "Fine pale feather filaments smaller than 1–2 source pixels may be simplified.",
+        "Two still poses do not provide a natural wing-beat animation."
+      ],
+      "visual_review": {
+        "status": "passed_for_small_ui_candidate",
+        "reviewed_backgrounds": [
+          "deep green #073c31",
+          "mid gray #707477"
+        ],
+        "small_size_scales": [
+          0.075,
+          0.13
+        ],
+        "findings": [
+          "White belly, white neck, eye, legs, tail and wings remain visible.",
+          "No broad checkerboard patches remain; interior leg aperture is transparent.",
+          "Fine pale edging at high magnification remains approximate; not a perfect high-resolution matte."
+        ],
+        "ui_or_animation_acceptance": false
+      }
+    }
+  ],
+  "validation": {
+    "metadata_script": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\evidence\\inspect-png.ps1",
+    "metadata_evidence": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\evidence\\png-metadata.json",
+    "tool_evidence": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\evidence\\tool-results.json",
+    "script_status": "首次运行因 PowerShell 数组表达式内减法未加括号失败；仅修正检查脚本后重试通过。无图像变更。",
+    "hash_copy_match": true,
+    "ui_integration": "not_run",
+    "browser_desktop_shell": "not_run",
+    "animation": "not_run",
+    "python_image_editing": false,
+    "external_image_api": false,
+    "scope": "Initial image-generation batch only; later explicitly authorized Python repair is recorded separately."
+  },
+  "next_constraints": [
+    "可接入 ready/home-environment.png 以及 repaired/bird-perched.png、repaired/bird-takeoff.png；原始三张鸟图仍不透明，不可误用。",
+    "修复脚本只针对已核验 SHA256 的两张固定输入，不是通用抠图程序。",
+    "两姿态使用相同源像素缩放倍率并按脚点/眼点注册，不能仅让裁切后宽度相等。",
+    "仍需实际页面截图、桌面壳与动作连续性验收。"
+  ],
+  "initial_generation_summary": {
+    "status": "partial_delivery",
+    "primary_generations": 3,
+    "targeted_retries": 1,
+    "total_tool_calls": 4,
+    "ready_assets": 1,
+    "failed_outputs": 3,
+    "skipped_assets": 1
+  },
+  "latest_task_id": "trace-home-v1-prototype-20260914",
+  "authorized_repair": {
+    "authorization": "用户明确允许脚本修复透明通道；只修此前停驻/起飞鸟，不重启生图，不生成新形象。",
+    "manifest_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\repair-manifest.json",
+    "script_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repair_checkerboard.py",
+    "script_sha256": "25a6f67f716c71e3144ef427a435d3477ff9f57e738f5d4d30e07f74c529cd93",
+    "status": "two_repaired_visual_candidates_ready"
+  }
+}

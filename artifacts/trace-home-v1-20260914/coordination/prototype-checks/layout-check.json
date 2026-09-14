@@ -1,0 +1,146 @@
+{
+  "checkedAt": "2026-09-14T16:04:48.166Z",
+  "results": [
+    {
+      "width": 1672,
+      "height": 941,
+      "mode": "overview",
+      "horizontalOverflow": [],
+      "detail": null,
+      "documentOverflow": false
+    },
+    {
+      "width": 1672,
+      "height": 941,
+      "mode": "thinking",
+      "horizontalOverflow": [],
+      "detail": {
+        "height": 218,
+        "scrollHeight": 218
+      },
+      "documentOverflow": false
+    },
+    {
+      "width": 1672,
+      "height": 941,
+      "mode": "growth",
+      "horizontalOverflow": [],
+      "detail": null,
+      "documentOverflow": false
+    },
+    {
+      "width": 1672,
+      "height": 941,
+      "mode": "work",
+      "horizontalOverflow": [],
+      "detail": {
+        "height": 221,
+        "scrollHeight": 221
+      },
+      "documentOverflow": false
+    },
+    {
+      "width": 1672,
+      "height": 941,
+      "mode": "return",
+      "horizontalOverflow": [],
+      "detail": null,
+      "documentOverflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "mode": "overview",
+      "horizontalOverflow": [],
+      "detail": null,
+      "documentOverflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "mode": "thinking",
+      "horizontalOverflow": [],
+      "detail": {
+        "height": 218,
+        "scrollHeight": 218
+      },
+      "documentOverflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "mode": "growth",
+      "horizontalOverflow": [],
+      "detail": null,
+      "documentOverflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "mode": "work",
+      "horizontalOverflow": [],
+      "detail": {
+        "height": 221,
+        "scrollHeight": 221
+      },
+      "documentOverflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "mode": "return",
+      "horizontalOverflow": [],
+      "detail": null,
+      "documentOverflow": false
+    },
+    {
+      "width": 880,
+      "height": 620,
+      "mode": "overview",
+      "horizontalOverflow": [],
+      "detail": null,
+      "documentOverflow": false
+    },
+    {
+      "width": 880,
+      "height": 620,
+      "mode": "thinking",
+      "horizontalOverflow": [],
+      "detail": {
+        "height": 266,
+        "scrollHeight": 274
+      },
+      "documentOverflow": false
+    },
+    {
+      "width": 880,
+      "height": 620,
+      "mode": "growth",
+      "horizontalOverflow": [],
+      "detail": null,
+      "documentOverflow": false
+    },
+    {
+      "width": 880,
+      "height": 620,
+      "mode": "work",
+      "horizontalOverflow": [],
+      "detail": {
+        "height": 248,
+        "scrollHeight": 252
+      },
+      "documentOverflow": false
+    },
+    {
+      "width": 880,
+      "height": 620,
+      "mode": "return",
+      "horizontalOverflow": [],
+      "detail": null,
+      "documentOverflow": false
+    }
+  ],
+  "limits": [
+    "Small viewport uses a scaled desktop scene, not a mobile redesign. Long user text may scroll in detail; fixed card labels may ellipsize where recorded."
+  ]
+}

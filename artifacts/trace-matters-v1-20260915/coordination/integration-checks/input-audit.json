@@ -1,0 +1,589 @@
+{
+  "task_id": "trace-matters-v1-20260915",
+  "audit": "bounded_read_only_integration_input_audit",
+  "started_at_utc": "2026-09-14T17:12:52.583660+00:00",
+  "finished_at_utc": "2026-09-14T17:12:52.732121+00:00",
+  "write_scope": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\coordination\\integration-checks\\input-audit.json",
+  "other_tasks_excluded": [
+    "one-thing",
+    "worksite",
+    "compare"
+  ],
+  "package": {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\coordination\\context-package.json",
+    "exists": true,
+    "bytes": 5028,
+    "sha256": "BDF5906EC3208A9C254499C5082E5E689971A7547BCC9A1A303BA5F28FA45068",
+    "mtime_utc": "2026-09-14T16:25:52.522242+00:00",
+    "expected_sha256": "BDF5906EC3208A9C254499C5082E5E689971A7547BCC9A1A303BA5F28FA45068",
+    "hash_match": true
+  },
+  "head": {
+    "expected": "2f4377864aa353dcecb3f60005d884b11486c84e",
+    "actual": "2f4377864aa353dcecb3f60005d884b11486c84e",
+    "match": true
+  },
+  "summary": {
+    "artifact_hash_mismatch_count": 0,
+    "font_required_codepoints": 473,
+    "font_missing_required_count": 0,
+    "current_scene_source_coverage_issue_files": 1,
+    "baseline_app_match_count": 9,
+    "baseline_app_difference_count": 1,
+    "baseline_app_changed_during_audit_count": 0,
+    "uncovered_source_character_is_comment_only": true,
+    "uncovered_noncomment_literal_lines": 0
+  },
+  "background": {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\images\\ready\\matters-environment.png",
+    "exists": true,
+    "bytes": 1943325,
+    "sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89",
+    "mtime_utc": "2026-09-14T16:29:30.205530+00:00",
+    "expected_sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89",
+    "hash_match": true,
+    "expected_bytes": 1943325,
+    "bytes_match": true,
+    "decoded_format": "PNG",
+    "decoded_mode": "RGB",
+    "decoded_size": [
+      1672,
+      941
+    ],
+    "size_matches_manifest": true
+  },
+  "fonts": {
+    "required_count_declared": 473,
+    "required_count_unique": 473,
+    "characters_count_unique": 473,
+    "required_matches_characters": true,
+    "derived": [
+      {
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\derived\\TraceMattersSerif-fixed.woff2",
+        "exists": true,
+        "bytes": 195532,
+        "sha256": "6B1D904266F22E080E8A3C8B63DC5F8C9153001302A73D5A3F5EEE0A103070FE",
+        "mtime_utc": "2026-09-14T16:50:21.911271+00:00",
+        "expected_sha256": "6B1D904266F22E080E8A3C8B63DC5F8C9153001302A73D5A3F5EEE0A103070FE",
+        "hash_match": true,
+        "expected_bytes": 195532,
+        "bytes_match": true,
+        "cmap_count": 474,
+        "required_count": 473,
+        "missing_required_codepoints": [],
+        "family_names": [
+          "Trace Matters Serif"
+        ],
+        "variable_axes": [
+          {
+            "tag": "wght",
+            "min": 250.0,
+            "default": 250.0,
+            "max": 900.0
+          }
+        ]
+      },
+      {
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\derived\\TraceMattersSans-fixed.woff2",
+        "exists": true,
+        "bytes": 146468,
+        "sha256": "31F9766E8A7122291E2EC1D10E674ACDE07D2085D997AB8F6F64C794749DD085",
+        "mtime_utc": "2026-09-14T16:50:30.816635+00:00",
+        "expected_sha256": "31F9766E8A7122291E2EC1D10E674ACDE07D2085D997AB8F6F64C794749DD085",
+        "hash_match": true,
+        "expected_bytes": 146468,
+        "bytes_match": true,
+        "cmap_count": 474,
+        "required_count": 473,
+        "missing_required_codepoints": [],
+        "family_names": [
+          "Trace Matters Sans"
+        ],
+        "variable_axes": [
+          {
+            "tag": "wght",
+            "min": 100.0,
+            "default": 100.0,
+            "max": 900.0
+          }
+        ]
+      }
+    ],
+    "manifest_supporting_checks": [
+      {
+        "section": "licenses",
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\derived\\OFL-source-han-serif-cn.txt",
+        "exists": true,
+        "bytes": 4463,
+        "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+        "mtime_utc": "2026-09-14T16:50:22.329494+00:00",
+        "expected_sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+        "hash_match": true,
+        "expected_bytes": 4463,
+        "bytes_match": true
+      },
+      {
+        "section": "licenses",
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\derived\\OFL-noto-sans-sc.txt",
+        "exists": true,
+        "bytes": 4388,
+        "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+        "mtime_utc": "2026-09-14T16:50:31.169937+00:00",
+        "expected_sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+        "hash_match": true,
+        "expected_bytes": 4388,
+        "bytes_match": true
+      },
+      {
+        "section": "supporting_files",
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\prepare_fonts.py",
+        "exists": true,
+        "bytes": 8513,
+        "sha256": "BE1905074E53924C5BCA364225844C9FCB36AD67B027DC9D5A5DF6F2B2E54310",
+        "mtime_utc": "2026-09-14T16:51:59.700027+00:00",
+        "expected_sha256": "BE1905074E53924C5BCA364225844C9FCB36AD67B027DC9D5A5DF6F2B2E54310",
+        "hash_match": true,
+        "expected_bytes": 8513,
+        "bytes_match": true
+      },
+      {
+        "section": "supporting_files",
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\FONT-USAGE.md",
+        "exists": true,
+        "bytes": 3956,
+        "sha256": "79F3D7FF625C0E5491166103ED04EA2932843132369B99A2A7682735EE673519",
+        "mtime_utc": "2026-09-14T16:51:24.267254+00:00",
+        "expected_sha256": "79F3D7FF625C0E5491166103ED04EA2932843132369B99A2A7682735EE673519",
+        "hash_match": true,
+        "expected_bytes": 3956,
+        "bytes_match": true
+      },
+      {
+        "section": "supporting_files",
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\fixed-copy.json",
+        "exists": true,
+        "bytes": 4712,
+        "sha256": "4357C72767BB40D08B5E4B514A15CFCC1A388F6BE8B8C86DA1DDDAC56645AD19",
+        "mtime_utc": "2026-09-14T16:46:48.130646+00:00",
+        "expected_sha256": "4357C72767BB40D08B5E4B514A15CFCC1A388F6BE8B8C86DA1DDDAC56645AD19",
+        "hash_match": true,
+        "expected_bytes": 4712,
+        "bytes_match": true
+      },
+      {
+        "section": "supporting_files",
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\copy-codepoints.json",
+        "exists": true,
+        "bytes": 8391,
+        "sha256": "4406D6ED62AEE01C1684869D2CCB2DEA54B03452D899B1FBE829F695BB1FD37F",
+        "mtime_utc": "2026-09-14T16:50:31.171446+00:00",
+        "expected_sha256": "4406D6ED62AEE01C1684869D2CCB2DEA54B03452D899B1FBE829F695BB1FD37F",
+        "hash_match": true,
+        "expected_bytes": 8391,
+        "bytes_match": true
+      },
+      {
+        "section": "supporting_files",
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\scene-copy-audit.json",
+        "exists": true,
+        "bytes": 802,
+        "sha256": "504712192812841312C215230D90B881E8B6A72EA47FC8D8663FDE5DCF176EE7",
+        "mtime_utc": "2026-09-14T16:50:56.340750+00:00",
+        "expected_sha256": "504712192812841312C215230D90B881E8B6A72EA47FC8D8663FDE5DCF176EE7",
+        "hash_match": true,
+        "expected_bytes": 802,
+        "bytes_match": true
+      },
+      {
+        "section": "supporting_files",
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\derived\\font-face.css",
+        "exists": true,
+        "bytes": 453,
+        "sha256": "2215CFC050BB2F071A1031217278BB0A96D00ADE3ADB4BE7503159BE21214398",
+        "mtime_utc": "2026-09-14T16:50:31.170440+00:00",
+        "expected_sha256": "2215CFC050BB2F071A1031217278BB0A96D00ADE3ADB4BE7503159BE21214398",
+        "hash_match": true,
+        "expected_bytes": 453,
+        "bytes_match": true
+      },
+      {
+        "section": "supporting_files",
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\originals\\references.json",
+        "exists": true,
+        "bytes": 7043,
+        "sha256": "7E707537C41A9C1CE5914CB3D2698306589D305A1A1AF27E3894D65A8DCDAF4C",
+        "mtime_utc": "2026-09-14T16:50:31.171446+00:00",
+        "expected_sha256": "7E707537C41A9C1CE5914CB3D2698306589D305A1A1AF27E3894D65A8DCDAF4C",
+        "hash_match": true,
+        "expected_bytes": 7043,
+        "bytes_match": true
+      },
+      {
+        "section": "corpus_inputs",
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\fixed-copy.json",
+        "exists": true,
+        "bytes": 4712,
+        "sha256": "4357C72767BB40D08B5E4B514A15CFCC1A388F6BE8B8C86DA1DDDAC56645AD19",
+        "mtime_utc": "2026-09-14T16:46:48.130646+00:00",
+        "expected_sha256": "4357C72767BB40D08B5E4B514A15CFCC1A388F6BE8B8C86DA1DDDAC56645AD19",
+        "hash_match": true
+      },
+      {
+        "section": "corpus_inputs",
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\model\\view-fixtures.json",
+        "exists": true,
+        "bytes": 101038,
+        "sha256": "9D44375190A45844F625110870C89013EADBB54AEF2B751ADEBB096C619EEA2F",
+        "mtime_utc": "2026-09-14T16:35:44.292575+00:00",
+        "expected_sha256": "9D44375190A45844F625110870C89013EADBB54AEF2B751ADEBB096C619EEA2F",
+        "hash_match": true
+      }
+    ],
+    "historical_scene_copy_audit_current_hash_checks": [
+      {
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\scene\\matters-screen.mjs",
+        "exists": true,
+        "bytes": 39615,
+        "sha256": "2CD3BC190732F771BA27CEBEAFA14EB320CA21941CF6F3467A69F38233D9023F",
+        "mtime_utc": "2026-09-14T16:53:01.820378+00:00",
+        "expected_sha256": "0B68167434AF15C9568BF5751272A7A85B0492267DDE32B3C8FEC7CABCDB9129",
+        "hash_match": false
+      },
+      {
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\scene\\matters.css",
+        "exists": true,
+        "bytes": 23753,
+        "sha256": "9DEB663CC6F2E315BD61DA4E7902313782193FBB83177370B43185668518517E",
+        "mtime_utc": "2026-09-14T16:53:01.820378+00:00",
+        "expected_sha256": "0F80E20C5D52FDE46DE364A8CC0971F50240E78A10B9011F36FE53821BB32677",
+        "hash_match": false
+      }
+    ]
+  },
+  "scene_runtime_files": [
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\scene\\matters-screen.mjs",
+      "exists": true,
+      "bytes": 39615,
+      "sha256": "2CD3BC190732F771BA27CEBEAFA14EB320CA21941CF6F3467A69F38233D9023F",
+      "mtime_utc": "2026-09-14T16:53:01.820378+00:00",
+      "expected_sha256": "2CD3BC190732F771BA27CEBEAFA14EB320CA21941CF6F3467A69F38233D9023F",
+      "hash_match": true,
+      "expected_hash_source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\scene\\README.md",
+      "conservative_current_source_font_coverage": {
+        "non_ascii_unique_count": 195,
+        "missing_from_required_list": [
+          "U+00D7"
+        ],
+        "missing_from_actual_cmaps": {
+          "derived/TraceMattersSerif-fixed.woff2": [
+            "U+00D7"
+          ],
+          "derived/TraceMattersSans-fixed.woff2": [
+            "U+00D7"
+          ]
+        },
+        "method": "All current source non-ASCII non-whitespace codepoints, including comments; not shaping/DOM text extraction."
+      },
+      "missing_codepoint_source_lines": [
+        {
+          "line": 115,
+          "text": "    // This prevents a second, differently cropped photograph appearing at 880×620.",
+          "codepoints": [
+            "U+00D7"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\scene\\matters.css",
+      "exists": true,
+      "bytes": 23753,
+      "sha256": "9DEB663CC6F2E315BD61DA4E7902313782193FBB83177370B43185668518517E",
+      "mtime_utc": "2026-09-14T16:53:01.820378+00:00",
+      "expected_sha256": "9DEB663CC6F2E315BD61DA4E7902313782193FBB83177370B43185668518517E",
+      "hash_match": true,
+      "expected_hash_source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\scene\\README.md",
+      "conservative_current_source_font_coverage": {
+        "non_ascii_unique_count": 0,
+        "missing_from_required_list": [],
+        "missing_from_actual_cmaps": {
+          "derived/TraceMattersSerif-fixed.woff2": [],
+          "derived/TraceMattersSans-fixed.woff2": []
+        },
+        "method": "All current source non-ASCII non-whitespace codepoints, including comments; not shaping/DOM text extraction."
+      },
+      "missing_codepoint_source_lines": []
+    }
+  ],
+  "model_manifest_files": [
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\model\\matters-model.mjs",
+      "exists": true,
+      "bytes": 16197,
+      "sha256": "91203DA04BE09ECA19B3B47DA82EBB21462C16867FF7743B7B9EF38AF0C44184",
+      "mtime_utc": "2026-09-14T16:43:32.311123+00:00",
+      "expected_sha256": "91203DA04BE09ECA19B3B47DA82EBB21462C16867FF7743B7B9EF38AF0C44184",
+      "hash_match": true,
+      "expected_bytes": 16197,
+      "bytes_match": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\model\\matters-model.test.mjs",
+      "exists": true,
+      "bytes": 16177,
+      "sha256": "5471643E35053880D272F24CE9D58A140757D7228FBCF247A773F82176261490",
+      "mtime_utc": "2026-09-14T16:43:32.313131+00:00",
+      "expected_sha256": "5471643E35053880D272F24CE9D58A140757D7228FBCF247A773F82176261490",
+      "hash_match": true,
+      "expected_bytes": 16177,
+      "bytes_match": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\model\\MODEL-USAGE.md",
+      "exists": true,
+      "bytes": 6063,
+      "sha256": "21F511FEE95615145095AC16A03385205F15AB78BAF5CC508BF3B319C9EFD19D",
+      "mtime_utc": "2026-09-14T16:43:32.313131+00:00",
+      "expected_sha256": "21F511FEE95615145095AC16A03385205F15AB78BAF5CC508BF3B319C9EFD19D",
+      "hash_match": true,
+      "expected_bytes": 6063,
+      "bytes_match": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\model\\node-test.tap",
+      "exists": true,
+      "bytes": 4908,
+      "sha256": "0AEB1D4F7383D7C87AC6CDF77D3A641A461A5D2CB11A1D8F89C2A56EFB19D953",
+      "mtime_utc": "2026-09-14T16:43:33.051370+00:00",
+      "expected_sha256": "0AEB1D4F7383D7C87AC6CDF77D3A641A461A5D2CB11A1D8F89C2A56EFB19D953",
+      "hash_match": true,
+      "expected_bytes": 4908,
+      "bytes_match": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\model\\view-fixtures.json",
+      "exists": true,
+      "bytes": 101038,
+      "sha256": "9D44375190A45844F625110870C89013EADBB54AEF2B751ADEBB096C619EEA2F",
+      "mtime_utc": "2026-09-14T16:35:44.292575+00:00",
+      "expected_sha256": "9D44375190A45844F625110870C89013EADBB54AEF2B751ADEBB096C619EEA2F",
+      "hash_match": true,
+      "expected_bytes": 101038,
+      "bytes_match": true
+    }
+  ],
+  "model_test_evidence_status": "Existing test report hash verified; tests not rerun in this bounded input audit.",
+  "baseline_app_files": [
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\index.html",
+      "exists": true,
+      "bytes": 687,
+      "sha256": "0EC03B7C2D7E9B65C59E4BBF8E54728ABE7DCCA8A54FBB20A6B5A5286F22A8DE",
+      "mtime_utc": "2026-09-14T16:07:45.467853+00:00",
+      "expected_sha256": "0EC03B7C2D7E9B65C59E4BBF8E54728ABE7DCCA8A54FBB20A6B5A5286F22A8DE",
+      "hash_match": true,
+      "expected_bytes": 687,
+      "bytes_match": true,
+      "stable_during_audit": true,
+      "audit_start_sha256": "0EC03B7C2D7E9B65C59E4BBF8E54728ABE7DCCA8A54FBB20A6B5A5286F22A8DE"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\package.json",
+      "exists": true,
+      "bytes": 532,
+      "sha256": "941AB3BF04543F037FFAE311E1EE8655801480D4589217790901369C3BC2833B",
+      "mtime_utc": "2026-09-14T15:51:58.250320+00:00",
+      "expected_sha256": "941AB3BF04543F037FFAE311E1EE8655801480D4589217790901369C3BC2833B",
+      "hash_match": true,
+      "expected_bytes": 532,
+      "bytes_match": true,
+      "stable_during_audit": true,
+      "audit_start_sha256": "941AB3BF04543F037FFAE311E1EE8655801480D4589217790901369C3BC2833B"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\server.mjs",
+      "exists": true,
+      "bytes": 1814,
+      "sha256": "E61D2A15C6F972289F84781D3824876AFD919600C4C39C9702F99E7C35A61A7B",
+      "mtime_utc": "2026-09-14T15:47:55.906540+00:00",
+      "expected_sha256": "E61D2A15C6F972289F84781D3824876AFD919600C4C39C9702F99E7C35A61A7B",
+      "hash_match": true,
+      "expected_bytes": 1814,
+      "bytes_match": true,
+      "stable_during_audit": true,
+      "audit_start_sha256": "E61D2A15C6F972289F84781D3824876AFD919600C4C39C9702F99E7C35A61A7B"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\main.js",
+      "exists": true,
+      "bytes": 1009,
+      "sha256": "2F8A15ACA58399623C8208E7EEA7633476AEA1E4F7E7523429DD69257C5AA994",
+      "mtime_utc": "2026-09-14T15:53:24.387956+00:00",
+      "expected_sha256": "2F8A15ACA58399623C8208E7EEA7633476AEA1E4F7E7523429DD69257C5AA994",
+      "hash_match": true,
+      "expected_bytes": 1009,
+      "bytes_match": true,
+      "stable_during_audit": true,
+      "audit_start_sha256": "2F8A15ACA58399623C8208E7EEA7633476AEA1E4F7E7523429DD69257C5AA994"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\discussion.js",
+      "exists": true,
+      "bytes": 16952,
+      "sha256": "0D9ECFDD8D779ADB47F4B545935FDC0EA1523203EABFF4FFE9A3C3891BC2F50D",
+      "mtime_utc": "2026-09-14T10:19:35.781363+00:00",
+      "expected_sha256": "0D9ECFDD8D779ADB47F4B545935FDC0EA1523203EABFF4FFE9A3C3891BC2F50D",
+      "hash_match": true,
+      "expected_bytes": 16952,
+      "bytes_match": true,
+      "stable_during_audit": true,
+      "audit_start_sha256": "0D9ECFDD8D779ADB47F4B545935FDC0EA1523203EABFF4FFE9A3C3891BC2F50D"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\style.css",
+      "exists": true,
+      "bytes": 16331,
+      "sha256": "67BD3DBC61A825B146211C200F2D7D63D0A3F64D1E3B93A57B53AECA83819C74",
+      "mtime_utc": "2026-09-14T10:05:29.520157+00:00",
+      "expected_sha256": "67BD3DBC61A825B146211C200F2D7D63D0A3F64D1E3B93A57B53AECA83819C74",
+      "hash_match": true,
+      "expected_bytes": 16331,
+      "bytes_match": true,
+      "stable_during_audit": true,
+      "audit_start_sha256": "67BD3DBC61A825B146211C200F2D7D63D0A3F64D1E3B93A57B53AECA83819C74"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home.js",
+      "exists": true,
+      "bytes": 24275,
+      "sha256": "D0CE1B9F0B9A89572668237D04FFE18084A53EC274D63F816222FC761B106044",
+      "mtime_utc": "2026-09-14T15:59:39.203371+00:00",
+      "expected_sha256": "D0CE1B9F0B9A89572668237D04FFE18084A53EC274D63F816222FC761B106044",
+      "hash_match": true,
+      "expected_bytes": 24275,
+      "bytes_match": true,
+      "stable_during_audit": true,
+      "audit_start_sha256": "D0CE1B9F0B9A89572668237D04FFE18084A53EC274D63F816222FC761B106044"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home-model.js",
+      "exists": true,
+      "bytes": 5361,
+      "sha256": "F3D1FAA0CFE33AFBB1E2E13530FCC7844F9CA52B1AF4063D2F85EC92E8CCFA4D",
+      "mtime_utc": "2026-09-14T17:12:51.863054+00:00",
+      "expected_sha256": "1B2797B1AE8294B9E4B4E98E44C6A0C09678240AB3B589C446D54E0B83848FA4",
+      "hash_match": false,
+      "expected_bytes": 5309,
+      "bytes_match": false,
+      "stable_during_audit": true,
+      "audit_start_sha256": "F3D1FAA0CFE33AFBB1E2E13530FCC7844F9CA52B1AF4063D2F85EC92E8CCFA4D"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home.css",
+      "exists": true,
+      "bytes": 19998,
+      "sha256": "9A365B708F1BFF758816D34D1922902893246F62592D232803115803792181A9",
+      "mtime_utc": "2026-09-14T15:55:30.414055+00:00",
+      "expected_sha256": "9A365B708F1BFF758816D34D1922902893246F62592D232803115803792181A9",
+      "hash_match": true,
+      "expected_bytes": 19998,
+      "bytes_match": true,
+      "stable_during_audit": true,
+      "audit_start_sha256": "9A365B708F1BFF758816D34D1922902893246F62592D232803115803792181A9"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home\\scene-glass.js",
+      "exists": true,
+      "bytes": 8287,
+      "sha256": "0DE8F99069D46021162DA35B8757C496639A70B4371A69A8AD79DBF267E3B772",
+      "mtime_utc": "2026-09-14T15:50:26.596415+00:00",
+      "expected_sha256": "0DE8F99069D46021162DA35B8757C496639A70B4371A69A8AD79DBF267E3B772",
+      "hash_match": true,
+      "expected_bytes": 8287,
+      "bytes_match": true,
+      "stable_during_audit": true,
+      "audit_start_sha256": "0DE8F99069D46021162DA35B8757C496639A70B4371A69A8AD79DBF267E3B772"
+    }
+  ],
+  "manifest_identities": [
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\images\\manifest.json",
+      "exists": true,
+      "bytes": 15809,
+      "sha256": "55E3083A227C9BFBC4362B28C56F9EA51FF5341A895218BD51284CC0A5E23CFD",
+      "mtime_utc": "2026-09-14T16:34:26.010626+00:00"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\manifest.json",
+      "exists": true,
+      "bytes": 19103,
+      "sha256": "E8F6E4B48738857BE65D9437E9A6849EC71343FC1B9276397179118C5D9581A7",
+      "mtime_utc": "2026-09-14T16:52:00.440587+00:00"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\copy-codepoints.json",
+      "exists": true,
+      "bytes": 8391,
+      "sha256": "4406D6ED62AEE01C1684869D2CCB2DEA54B03452D899B1FBE829F695BB1FD37F",
+      "mtime_utc": "2026-09-14T16:50:31.171446+00:00"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\fonts\\scene-copy-audit.json",
+      "exists": true,
+      "bytes": 802,
+      "sha256": "504712192812841312C215230D90B881E8B6A72EA47FC8D8663FDE5DCF176EE7",
+      "mtime_utc": "2026-09-14T16:50:56.340750+00:00"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\scene\\README.md",
+      "exists": true,
+      "bytes": 7996,
+      "sha256": "0F170F6D09B9EA41782C0881CFD16D4F97F7B3655C51C171C013271B9D468CEF",
+      "mtime_utc": "2026-09-14T16:57:03.473001+00:00"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\model\\manifest.json",
+      "exists": true,
+      "bytes": 1463,
+      "sha256": "720BD4113E0AA039D51E2DADE2B722DF2C28BB39063A0A356D16B1B878F65E94",
+      "mtime_utc": "2026-09-14T16:44:06.105768+00:00"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "current_scene_source_contains_uncovered_codepoints",
+      "severity": "informational",
+      "paths": [
+        "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\scene\\matters-screen.mjs"
+      ],
+      "note": "The sole uncovered literal is U+00D7 MULTIPLICATION SIGN in the source comment at matters-screen.mjs:115 (880×620). It is not rendered UI copy; do not regenerate fonts solely for this comment.",
+      "classification": "comment_only_not_visible_UI"
+    },
+    {
+      "kind": "font_scene_copy_audit_references_older_scene_revision",
+      "severity": "warning",
+      "note": "Final scene hashes match README but fonts/scene-copy-audit.json was recorded against an earlier scene revision. Current cmap coverage was independently rechecked here."
+    },
+    {
+      "kind": "app_differs_from_task_package_baseline",
+      "severity": "attention",
+      "paths": [
+        "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home-model.js"
+      ],
+      "attribution": "Hash differences do not identify author. Root is actively integrating; cannot label these as user edits or overwrite them based on this audit."
+    }
+  ],
+  "actions_not_taken": [
+    "No application/resource/other task edits",
+    "No service or browser operations",
+    "No font regeneration",
+    "No image generation or editing",
+    "No assumption that baseline differences are user-authored"
+  ],
+  "limits": [
+    "Read-only snapshot during root integration, not an atomic repository lock.",
+    "Hash/cmap/PNG structure checks do not prove page/Electron behavior or visual acceptance.",
+    "Current source codepoint scan includes comments and may conservatively over-report non-UI characters."
+  ]
+}

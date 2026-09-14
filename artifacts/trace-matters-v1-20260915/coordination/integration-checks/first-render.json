@@ -1,0 +1,261 @@
+{
+  "startedAt": "2026-09-14T17:17:49.023Z",
+  "errors": [],
+  "requests": [],
+  "screens": [
+    {
+      "name": "home",
+      "url": "http://127.0.0.1:4173/",
+      "viewport": [
+        1672,
+        941
+      ],
+      "route": "home",
+      "fonts": [
+        {
+          "family": "Trace Home Serif",
+          "status": "loaded"
+        },
+        {
+          "family": "Trace Home Sans",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false,
+      "materials": [
+        "requested",
+        "requested",
+        "requested",
+        "requested"
+      ]
+    },
+    {
+      "name": "overview",
+      "url": "http://127.0.0.1:4173/?view=matters",
+      "viewport": [
+        1672,
+        941
+      ],
+      "route": "matters",
+      "mode": "overview",
+      "fonts": [
+        {
+          "family": "matters-1-serif",
+          "status": "loaded"
+        },
+        {
+          "family": "matters-1-sans",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false,
+      "materials": [
+        "requested"
+      ]
+    },
+    {
+      "name": "hover",
+      "url": "http://127.0.0.1:4173/?view=matters",
+      "viewport": [
+        1672,
+        941
+      ],
+      "route": "matters",
+      "mode": "overview",
+      "fonts": [
+        {
+          "family": "matters-1-serif",
+          "status": "loaded"
+        },
+        {
+          "family": "matters-1-sans",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false,
+      "materials": [
+        "requested"
+      ]
+    },
+    {
+      "name": "reentry",
+      "url": "http://127.0.0.1:4173/?view=matters&matter=collection&step=reentry",
+      "viewport": [
+        1672,
+        941
+      ],
+      "route": "matters",
+      "mode": "reentry",
+      "fonts": [
+        {
+          "family": "matters-1-serif",
+          "status": "loaded"
+        },
+        {
+          "family": "matters-1-sans",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false,
+      "materials": []
+    },
+    {
+      "name": "comparison",
+      "url": "http://127.0.0.1:4173/?view=matters&matter=collection&step=deep&tab=comparison",
+      "viewport": [
+        1672,
+        941
+      ],
+      "route": "matters",
+      "mode": "deep",
+      "fonts": [
+        {
+          "family": "matters-1-serif",
+          "status": "loaded"
+        },
+        {
+          "family": "matters-1-sans",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false,
+      "materials": []
+    },
+    {
+      "name": "search",
+      "url": "http://127.0.0.1:4173/?view=matters&q=%E6%94%B6%E8%97%8F%20%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8E%A5%E4%B8%8D%E5%9B%9E%E6%9D%A5",
+      "viewport": [
+        1672,
+        941
+      ],
+      "route": "matters",
+      "mode": "search",
+      "fonts": [
+        {
+          "family": "matters-1-serif",
+          "status": "loaded"
+        },
+        {
+          "family": "matters-1-sans",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false,
+      "materials": []
+    },
+    {
+      "name": "returned",
+      "url": "http://127.0.0.1:4173/?view=matters",
+      "viewport": [
+        1672,
+        941
+      ],
+      "route": "matters",
+      "mode": "overview",
+      "fonts": [
+        {
+          "family": "matters-1-serif",
+          "status": "loaded"
+        },
+        {
+          "family": "matters-1-sans",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false,
+      "materials": [
+        "requested"
+      ]
+    },
+    {
+      "name": "880-overview",
+      "url": "http://127.0.0.1:4173/?view=matters",
+      "viewport": [
+        880,
+        620
+      ],
+      "route": "matters",
+      "mode": "overview",
+      "fonts": [
+        {
+          "family": "matters-1-serif",
+          "status": "loaded"
+        },
+        {
+          "family": "matters-1-sans",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false,
+      "materials": [
+        "requested"
+      ]
+    },
+    {
+      "name": "880-reentry",
+      "url": "http://127.0.0.1:4173/?view=matters&matter=collection&step=reentry",
+      "viewport": [
+        880,
+        620
+      ],
+      "route": "matters",
+      "mode": "reentry",
+      "fonts": [
+        {
+          "family": "matters-1-serif",
+          "status": "loaded"
+        },
+        {
+          "family": "matters-1-sans",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false,
+      "materials": []
+    },
+    {
+      "name": "880-comparison",
+      "url": "http://127.0.0.1:4173/?view=matters&matter=collection&step=deep&tab=comparison",
+      "viewport": [
+        880,
+        620
+      ],
+      "route": "matters",
+      "mode": "deep",
+      "fonts": [
+        {
+          "family": "matters-1-serif",
+          "status": "loaded"
+        },
+        {
+          "family": "matters-1-sans",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false,
+      "materials": []
+    },
+    {
+      "name": "opening",
+      "url": "http://127.0.0.1:4173/?view=matters&matter=collection&step=reentry",
+      "viewport": [
+        1672,
+        941
+      ],
+      "route": "matters",
+      "mode": "reentry",
+      "fonts": [
+        {
+          "family": "matters-1-serif",
+          "status": "loaded"
+        },
+        {
+          "family": "matters-1-sans",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false,
+      "materials": []
+    }
+  ]
+}

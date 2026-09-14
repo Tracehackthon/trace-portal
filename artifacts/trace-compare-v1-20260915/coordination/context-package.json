@@ -1,0 +1,121 @@
+{
+  "taskId": "trace-compare-v1-20260915",
+  "date": "2026-09-15",
+  "stage": "isolated-module-production",
+  "workspace": "D:\\AGeneral Workspace\\AI-powered\\harness",
+  "repository": "trace-runtime",
+  "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "references": [
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/01-从这一处找.png",
+      "sha256": "BD46461E83A1AF902DC3D17AF0C58632279FD7BE51A9C59C329814AF3499CEC7",
+      "bytes": 1427082,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/02-发现候选.png",
+      "sha256": "C7B3900780900FAF3DD68D1F44675E2138130BFE4C7536729DAB77CC96EE4DEC",
+      "bytes": 1533845,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/03-放在一起看.png",
+      "sha256": "B55FF99946F6024CCBCD226E08A6874261349FA0EE436EF9FD8109F1B2AEA31A",
+      "bytes": 1461152,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/04-接回原处.png",
+      "sha256": "EF9CA245EBAB78C2DFBEF2334BA6AFC721C44EAD9C1A455B1993B3678ED39C40",
+      "bytes": 1377578,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/generation-prompts.json",
+      "sha256": "FEED38AD6F75CAE0B9C2732DB68775DA9090996D22BD22E9F9D4E466420B442A",
+      "bytes": 19563
+    }
+  ],
+  "sources": [
+    {
+      "path": "trace-runtime/apps/desktop/src/main.js",
+      "sha256": "2F8A15ACA58399623C8208E7EEA7633476AEA1E4F7E7523429DD69257C5AA994",
+      "bytes": 1009
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/home-model.js",
+      "sha256": "1B2797B1AE8294B9E4B4E98E44C6A0C09678240AB3B589C446D54E0B83848FA4",
+      "bytes": 5309
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/home.js",
+      "sha256": "D0CE1B9F0B9A89572668237D04FFE18084A53EC274D63F816222FC761B106044",
+      "bytes": 24275
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/home.css",
+      "sha256": "9A365B708F1BFF758816D34D1922902893246F62592D232803115803792181A9",
+      "bytes": 19998
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/discussion.js",
+      "sha256": "0D9ECFDD8D779ADB47F4B545935FDC0EA1523203EABFF4FFE9A3C3891BC2F50D",
+      "bytes": 16952
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/style.css",
+      "sha256": "67BD3DBC61A825B146211C200F2D7D63D0A3F64D1E3B93A57B53AECA83819C74",
+      "bytes": 16331
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/home/scene-glass.js",
+      "sha256": "0DE8F99069D46021162DA35B8757C496639A70B4371A69A8AD79DBF267E3B772",
+      "bytes": 8287
+    },
+    {
+      "path": "trace-runtime/plugins/trace-harness-plugin/src/desktop/main.mjs",
+      "sha256": "24ADFFA8CF611B5052DF2224ABEC9F34B7B225008D279FE502B42D5A98FD3370",
+      "bytes": 5515
+    },
+    {
+      "path": "manunl/产品功能与交互方案/核心功能与内容对象.md",
+      "sha256": "7D987688EFDF16EDF81B3CA90BB1B986D4F6E8E967FDC89E7EE4FDA255C17AD6",
+      "bytes": 20819
+    }
+  ],
+  "contract": {
+    "path": "artifacts/trace-compare-v1-20260915/coordination/CONTRACT.md",
+    "sha256": "1DA01E444207D2D2101188FB8F300EBC6A735BB8A759882D71F60A0A4B8C7282",
+    "bytes": 9521
+  },
+  "owners": {
+    "compare_state": [
+      "model/"
+    ],
+    "compare_ui": [
+      "ui/"
+    ],
+    "compare_assets": [
+      "images/",
+      "fonts/"
+    ],
+    "root": [
+      "coordination/",
+      "docs/tasks/trace-compare-v1-prototype.md"
+    ]
+  },
+  "restrictions": [
+    "No app/plugin/reference/other-task/shared-doc modifications by workers",
+    "No real Zhihu search or models; all demo candidates labelled",
+    "Linking is not revising; version-checked host commit required",
+    "Prior alpha repair permission only applied to existing birds"
+  ]
+}

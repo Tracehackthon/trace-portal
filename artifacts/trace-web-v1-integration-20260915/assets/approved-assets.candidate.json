@@ -1,0 +1,3468 @@
+{
+  "schemaVersion": 1,
+  "task": "trace-web-v1-integration-20260915",
+  "status": "candidate-not-published",
+  "createdAt": "2026-09-14T18:23:11.958Z",
+  "workspaceRelativeRoot": "../../..",
+  "baseline": {
+    "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+    "contextPackage": {
+      "path": "artifacts/trace-web-v1-integration-20260915/coordination/context-package.json",
+      "sha256": "918D75E6C80AAD8054B3F59B24810BED2CE261390AC4425CCA8E0481275C921E"
+    },
+    "contractSha256": "5DAE50501DD3A3BA771681C5E46EDB280BA45062B4B9BCB15B8B38A6ADFC7EBE"
+  },
+  "scope": {
+    "owner": "web_asset_freeze",
+    "writesOnly": "artifacts/trace-web-v1-integration-20260915/assets",
+    "selectionPolicy": "Existing effective delivery candidates only. Never silently replace bytes, scene semantics or provenance. Publishing is a separate root/user decision.",
+    "noImageGeneration": true,
+    "noDownloads": true,
+    "noFontEdits": true,
+    "sourceOfTruth": "Page-specific original references, effective delivery notes, current bytes; never mtime."
+  },
+  "assets": [
+    {
+      "key": "environment.home",
+      "kind": "scene-background",
+      "sourcePath": "artifacts/trace-home-v1-20260914/images/ready/home-environment.png",
+      "lifecycle": "final-ready",
+      "pages": [
+        "home:all"
+      ],
+      "purpose": "首页玉青玻璃山水；保留大球和前景两小球",
+      "format": {
+        "width": 1672,
+        "height": 941,
+        "bitDepth": 8,
+        "colorType": 2
+      },
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/images/originals/A-home-environment.png"
+      ],
+      "transformation": "byte-identical copy of generated original; no image processing this task",
+      "authority": {
+        "manifest": "artifacts/trace-home-v1-20260914/images/manifest.json",
+        "jsonPointer": "/ready/0",
+        "declaredSha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05"
+      },
+      "license": {
+        "type": "project-generated-provenance-not-OSS-license",
+        "entries": [
+          "artifacts/trace-home-v1-20260914/images/ASSET-NOTES.md",
+          "artifacts/trace-home-v1-20260914/images/manifest.json"
+        ],
+        "note": "保留既有生成来源；不杜撰图片 MIT/OFL 许可，不声称恢复隐藏原始像素。"
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": true,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": [
+          "trace-runtime/apps/desktop/public/home/environment.png"
+        ]
+      },
+      "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "bytes": 1564971,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "visualReferencePaths": [
+        "manunl/具体页面与视觉实现/桌面端/首页/Trace首页交互状态_v1/01-首页静默总览态.png",
+        "manunl/具体页面与视觉实现/桌面端/首页/Trace首页交互状态_v1/02-气泡唤醒四帧分镜.png",
+        "manunl/具体页面与视觉实现/桌面端/首页/Trace首页交互状态_v1/03-思考接续态.png",
+        "manunl/具体页面与视觉实现/桌面端/首页/Trace首页交互状态_v1/04-思考生长态.png",
+        "manunl/具体页面与视觉实现/桌面端/首页/Trace首页交互状态_v1/05-工作接续态.png",
+        "manunl/具体页面与视觉实现/桌面端/首页/Trace首页交互状态_v1/06-结果回流态.png"
+      ],
+      "byteIdenticalPaths": [
+        "artifacts/trace-home-v1-20260914/images/originals/A-home-environment.png",
+        "trace-runtime/apps/desktop/public/home/environment.png"
+      ]
+    },
+    {
+      "key": "environment.matters",
+      "kind": "scene-background",
+      "sourcePath": "artifacts/trace-matters-v1-20260915/images/ready/matters-environment.png",
+      "lifecycle": "final-ready",
+      "pages": [
+        "matters:all"
+      ],
+      "purpose": "森林、岩石、湖景；不能改用首页波峰",
+      "format": {
+        "width": 1672,
+        "height": 941,
+        "bitDepth": 8,
+        "colorType": 2
+      },
+      "originalPaths": [
+        "artifacts/trace-matters-v1-20260915/images/originals/A-matters-environment.png"
+      ],
+      "transformation": "byte-identical copy of generated original; no image processing this task",
+      "authority": {
+        "manifest": "artifacts/trace-matters-v1-20260915/images/manifest.json",
+        "jsonPointer": "/generation/candidate",
+        "declaredSha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89"
+      },
+      "license": {
+        "type": "project-generated-provenance-not-OSS-license",
+        "entries": [
+          "artifacts/trace-matters-v1-20260915/images/ASSET-NOTES.md",
+          "artifacts/trace-matters-v1-20260915/images/manifest.json"
+        ],
+        "note": "保留既有生成来源；不杜撰图片 MIT/OFL 许可，不声称恢复隐藏原始像素。"
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": true,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": [
+          "trace-runtime/apps/desktop/public/matters/environment.png"
+        ]
+      },
+      "sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89",
+      "bytes": 1943325,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "visualReferencePaths": [
+        "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/01-静默总览态.png",
+        "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/02-悬停识别态.png",
+        "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/03-点击进入-气泡生长态.png",
+        "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/04-重新进入面.png",
+        "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/05-新的对照-深度继续态.png",
+        "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/06-搜索精确找回态.png",
+        "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/07-变化折回总览态.png"
+      ],
+      "byteIdenticalPaths": [
+        "artifacts/trace-matters-v1-20260915/images/originals/A-matters-environment.png",
+        "trace-runtime/apps/desktop/public/matters/environment.png"
+      ]
+    },
+    {
+      "key": "environment.chain.inner",
+      "kind": "scene-background",
+      "sourcePath": "artifacts/trace-one-thing-v1-20260915/images/ready/chain-environment.png",
+      "lifecycle": "final-ready",
+      "pages": [
+        "chain:02",
+        "chain:03",
+        "chain:04",
+        "chain:05",
+        "chain:07",
+        "chain:08",
+        "chain:10",
+        "chain:11"
+      ],
+      "purpose": "低丘、开阔水面、贴右月球、近景竹叶；01/09 的 Trace 承接面按需采样",
+      "format": {
+        "width": 1672,
+        "height": 941,
+        "bitDepth": 8,
+        "colorType": 2
+      },
+      "originalPaths": [
+        "artifacts/trace-one-thing-v1-20260915/images/originals/inner-environment-generated-v1.png"
+      ],
+      "transformation": "byte-identical copy of generated original; no image processing this task",
+      "authority": {
+        "manifest": "artifacts/trace-one-thing-v1-20260915/images/manifest.json",
+        "jsonPointer": "/assets/0",
+        "declaredSha256": "49A39B936545E0AC5AA65B4CA8E5D998A392728E5D6EB72033F68185ADB6ED13"
+      },
+      "license": {
+        "type": "project-generated-provenance-not-OSS-license",
+        "entries": [
+          "artifacts/trace-one-thing-v1-20260915/images/ASSET-NOTES.md",
+          "artifacts/trace-one-thing-v1-20260915/images/manifest.json"
+        ],
+        "note": "保留既有生成来源；不杜撰图片 MIT/OFL 许可，不声称恢复隐藏原始像素。"
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": false,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": []
+      },
+      "sha256": "49A39B936545E0AC5AA65B4CA8E5D998A392728E5D6EB72033F68185ADB6ED13",
+      "bytes": 1387038,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "visualReferencePaths": [
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/01-阅读现场-留下一点.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/02-气泡展开-接着这里.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/03-围绕一处-展开讨论.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/04-找个对照-接回具体位置.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/05-我的理解-局部编辑与建议.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/06-先放这里-收起后留下停点.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/07-重新拿起-带着新材料回来.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/08-带去用-确认这次怎么参与.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/09-原生工作旁-参考与新增发现.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/10-结果回来-比较并修正理解.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/11-修订落回-从新理解继续.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/图片校验.json",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/生图提示词与来源.json",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/看图说明.md"
+      ],
+      "byteIdenticalPaths": [
+        "artifacts/trace-one-thing-v1-20260915/images/originals/inner-environment-generated-v1.png"
+      ]
+    },
+    {
+      "key": "environment.chain.overview",
+      "kind": "scene-background",
+      "sourcePath": "artifacts/trace-one-thing-v1-20260915/images/ready/chain-overview-environment.png",
+      "lifecycle": "final-ready",
+      "pages": [
+        "chain:06"
+      ],
+      "purpose": "收回总览：画内月球、横向丘陵、无近景竹叶",
+      "format": {
+        "width": 1672,
+        "height": 941,
+        "bitDepth": 8,
+        "colorType": 2
+      },
+      "originalPaths": [
+        "artifacts/trace-one-thing-v1-20260915/images/originals/overview-environment-generated-v1.png"
+      ],
+      "transformation": "byte-identical copy of generated original; no image processing this task",
+      "authority": {
+        "manifest": "artifacts/trace-one-thing-v1-20260915/images/manifest.json",
+        "jsonPointer": "/assets/1",
+        "declaredSha256": "A4DDA0E97BF3FFEF2D87D48BE07C272E6C69633A236B07676A92A4DC755C6875"
+      },
+      "license": {
+        "type": "project-generated-provenance-not-OSS-license",
+        "entries": [
+          "artifacts/trace-one-thing-v1-20260915/images/ASSET-NOTES.md",
+          "artifacts/trace-one-thing-v1-20260915/images/manifest.json"
+        ],
+        "note": "保留既有生成来源；不杜撰图片 MIT/OFL 许可，不声称恢复隐藏原始像素。"
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": false,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": []
+      },
+      "sha256": "A4DDA0E97BF3FFEF2D87D48BE07C272E6C69633A236B07676A92A4DC755C6875",
+      "bytes": 1719534,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "visualReferencePaths": [
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/01-阅读现场-留下一点.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/02-气泡展开-接着这里.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/03-围绕一处-展开讨论.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/04-找个对照-接回具体位置.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/05-我的理解-局部编辑与建议.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/06-先放这里-收起后留下停点.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/07-重新拿起-带着新材料回来.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/08-带去用-确认这次怎么参与.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/09-原生工作旁-参考与新增发现.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/10-结果回来-比较并修正理解.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/11-修订落回-从新理解继续.png",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/图片校验.json",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/生图提示词与来源.json",
+        "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/看图说明.md"
+      ],
+      "byteIdenticalPaths": [
+        "artifacts/trace-one-thing-v1-20260915/images/originals/overview-environment-generated-v1.png"
+      ]
+    },
+    {
+      "key": "environment.worksite",
+      "kind": "scene-background",
+      "sourcePath": "artifacts/trace-worksite-v1-20260915/images/ready/worksite-environment.png",
+      "lifecycle": "final-ready",
+      "pages": [
+        "worksite:all"
+      ],
+      "purpose": "高留白工作现场，两侧低山与珍珠水面",
+      "format": {
+        "width": 1672,
+        "height": 941,
+        "bitDepth": 8,
+        "colorType": 2
+      },
+      "originalPaths": [
+        "artifacts/trace-worksite-v1-20260915/images/originals/worksite-environment-generated-v1.png"
+      ],
+      "transformation": "byte-identical copy of generated original; no image processing this task",
+      "authority": {
+        "manifest": "artifacts/trace-worksite-v1-20260915/images/manifest.json",
+        "jsonPointer": "/assets/0",
+        "declaredSha256": "2463A5F88546A19621FEE22F95279F7BD6523734301C1AAA92DF614BE13B24E5"
+      },
+      "license": {
+        "type": "project-generated-provenance-not-OSS-license",
+        "entries": [
+          "artifacts/trace-worksite-v1-20260915/images/ASSET-NOTES.md",
+          "artifacts/trace-worksite-v1-20260915/images/manifest.json"
+        ],
+        "note": "保留既有生成来源；不杜撰图片 MIT/OFL 许可，不声称恢复隐藏原始像素。"
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": false,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": []
+      },
+      "sha256": "2463A5F88546A19621FEE22F95279F7BD6523734301C1AAA92DF614BE13B24E5",
+      "bytes": 1406696,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "visualReferencePaths": [
+        "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/01-工作总览态.png",
+        "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/02-带入展开态.png",
+        "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/03-影响追溯态.png",
+        "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/04-发现展开态.png",
+        "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/05-结果比较态.png",
+        "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/README.md",
+        "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/生图提示词.json",
+        "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/资源清单.json"
+      ],
+      "byteIdenticalPaths": [
+        "artifacts/trace-worksite-v1-20260915/images/originals/worksite-environment-generated-v1.png"
+      ]
+    },
+    {
+      "key": "environment.compare",
+      "kind": "scene-background",
+      "sourcePath": "artifacts/trace-compare-v1-20260915/images/ready/compare-environment.png",
+      "lifecycle": "final-ready",
+      "pages": [
+        "compare:all"
+      ],
+      "purpose": "近纸白水墨周边，03/04 阅读面不能套首页强滤镜",
+      "format": {
+        "width": 1672,
+        "height": 941,
+        "bitDepth": 8,
+        "colorType": 2
+      },
+      "originalPaths": [
+        "artifacts/trace-compare-v1-20260915/images/originals/compare-environment-generated-v1.png"
+      ],
+      "transformation": "byte-identical copy of generated original; no image processing this task",
+      "authority": {
+        "manifest": "artifacts/trace-compare-v1-20260915/images/manifest.json",
+        "jsonPointer": "/assets/0",
+        "declaredSha256": "23217AF8B9CAD4A4FF3C0A1CE99E89ED7D26E24E79BD1D9DAE81155166859185"
+      },
+      "license": {
+        "type": "project-generated-provenance-not-OSS-license",
+        "entries": [
+          "artifacts/trace-compare-v1-20260915/images/ASSET-NOTES.md",
+          "artifacts/trace-compare-v1-20260915/images/manifest.json"
+        ],
+        "note": "保留既有生成来源；不杜撰图片 MIT/OFL 许可，不声称恢复隐藏原始像素。"
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": false,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": []
+      },
+      "sha256": "23217AF8B9CAD4A4FF3C0A1CE99E89ED7D26E24E79BD1D9DAE81155166859185",
+      "bytes": 1247365,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "visualReferencePaths": [
+        "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/01-从这一处找.png",
+        "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/02-发现候选.png",
+        "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/03-放在一起看.png",
+        "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/04-接回原处.png",
+        "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/generation-prompts.json"
+      ],
+      "byteIdenticalPaths": [
+        "artifacts/trace-compare-v1-20260915/images/originals/compare-environment-generated-v1.png"
+      ]
+    },
+    {
+      "key": "bird.perched",
+      "kind": "shared-bird-pose",
+      "sourcePath": "artifacts/trace-home-v1-20260914/images/repaired/bird-perched.png",
+      "lifecycle": "final-authorized-repair",
+      "pages": [
+        "home",
+        "matters",
+        "chain",
+        "worksite",
+        "compare"
+      ],
+      "purpose": "唯一共享鸟身份：perched 静态姿态",
+      "format": {
+        "width": 1086,
+        "height": 839,
+        "bitDepth": 8,
+        "colorType": 6
+      },
+      "footAnchor": [
+        772,
+        588
+      ],
+      "scaleRule": "same source-pixel scale, not equal CSS width",
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/images/originals/B2-bird-perched-alpha-retry.png"
+      ],
+      "transformation": "historical authorized alpha repair; no rerun or new editing",
+      "authority": {
+        "manifest": "artifacts/trace-home-v1-20260914/images/manifest.json",
+        "jsonPointer": "/ready/1",
+        "declaredSha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC"
+      },
+      "license": {
+        "type": "project-generated-authorized-repair-provenance-not-OSS-license",
+        "entries": [
+          "artifacts/trace-home-v1-20260914/images/ASSET-NOTES.md",
+          "artifacts/trace-home-v1-20260914/images/repaired/repair-manifest.json"
+        ],
+        "note": "两静态姿态不是自然振翅；高倍下 1–2 源像素羽缘有修复估计。"
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": true,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": [
+          "trace-runtime/apps/desktop/public/home/bird-perched.png"
+        ]
+      },
+      "sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "bytes": 428617,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": [
+        "trace-runtime/apps/desktop/public/home/bird-perched.png",
+        "artifacts/trace-one-thing-v1-20260915/images/ready/bird-perched.png",
+        "artifacts/trace-worksite-v1-20260915/images/ready/bird-perched.png",
+        "artifacts/trace-compare-v1-20260915/images/ready/bird-perched.png"
+      ]
+    },
+    {
+      "key": "bird.takeoff",
+      "kind": "shared-bird-pose",
+      "sourcePath": "artifacts/trace-home-v1-20260914/images/repaired/bird-takeoff.png",
+      "lifecycle": "final-authorized-repair",
+      "pages": [
+        "home",
+        "matters",
+        "chain",
+        "worksite",
+        "compare"
+      ],
+      "purpose": "唯一共享鸟身份：takeoff 静态姿态",
+      "format": {
+        "width": 1156,
+        "height": 1215,
+        "bitDepth": 8,
+        "colorType": 6
+      },
+      "footAnchor": [
+        750,
+        955
+      ],
+      "scaleRule": "same source-pixel scale, not equal CSS width",
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/images/originals/C-bird-takeoff.png"
+      ],
+      "transformation": "historical authorized alpha repair; no rerun or new editing",
+      "authority": {
+        "manifest": "artifacts/trace-home-v1-20260914/images/manifest.json",
+        "jsonPointer": "/ready/2",
+        "declaredSha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93"
+      },
+      "license": {
+        "type": "project-generated-authorized-repair-provenance-not-OSS-license",
+        "entries": [
+          "artifacts/trace-home-v1-20260914/images/ASSET-NOTES.md",
+          "artifacts/trace-home-v1-20260914/images/repaired/repair-manifest.json"
+        ],
+        "note": "两静态姿态不是自然振翅；高倍下 1–2 源像素羽缘有修复估计。"
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": true,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": [
+          "trace-runtime/apps/desktop/public/home/bird-takeoff.png"
+        ]
+      },
+      "sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "bytes": 858034,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": [
+        "trace-runtime/apps/desktop/public/home/bird-takeoff.png",
+        "artifacts/trace-one-thing-v1-20260915/images/ready/bird-takeoff.png",
+        "artifacts/trace-worksite-v1-20260915/images/ready/bird-takeoff.png",
+        "artifacts/trace-compare-v1-20260915/images/ready/bird-takeoff.png"
+      ]
+    },
+    {
+      "key": "font.original.serif",
+      "kind": "original-variable-font",
+      "sourcePath": "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2",
+      "lifecycle": "official-original",
+      "pages": [
+        "home",
+        "matters",
+        "chain",
+        "worksite",
+        "compare"
+      ],
+      "purpose": "标题/引文/宋体角色原件，动态中文完整 fallback 候选",
+      "family": "Source Han Serif CN VF",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 250,
+          "default": 250,
+          "max": 900
+        }
+      ],
+      "upstream": {
+        "repository": "https://github.com/adobe-fonts/source-han-serif",
+        "commit": "7889f11bf31170b5d092a083b357c8c8130f89e0",
+        "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/7889f11bf31170b5d092a083b357c8c8130f89e0/Variable/WOFF2/TTF/Subset/SourceHanSerifCN-VF.ttf.woff2",
+        "gitBlobSha1": "65a4d31a34ddda25b821b45288168e135b8ebc70",
+        "version": [
+          "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0"
+        ]
+      },
+      "originalPaths": [],
+      "transformation": "none; pinned official original",
+      "authority": {
+        "manifest": "artifacts/trace-home-v1-20260914/fonts/manifest.json",
+        "jsonPointer": "/originals/0",
+        "declaredSha256": "556749BA783B148FA1F48644E8883E5B9351F01ABD0D1FAAD0BA24A21185E76A"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "entries": [
+          "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/LICENSE.txt",
+          "artifacts/trace-home-v1-20260914/fonts/FONT-USAGE.md"
+        ],
+        "reservedFontNames": [
+          "Source"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": false,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": []
+      },
+      "sha256": "556749BA783B148FA1F48644E8883E5B9351F01ABD0D1FAAD0BA24A21185E76A",
+      "bytes": 11035128,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": [
+        "artifacts/trace-one-thing-v1-20260915/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2",
+        "artifacts/trace-worksite-v1-20260915/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2"
+      ]
+    },
+    {
+      "key": "font.original.sans",
+      "kind": "original-variable-font",
+      "sourcePath": "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf",
+      "lifecycle": "official-original",
+      "pages": [
+        "home",
+        "matters",
+        "chain",
+        "worksite",
+        "compare"
+      ],
+      "purpose": "UI/黑体角色原件，动态中文完整 fallback 候选",
+      "family": "Noto Sans SC",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100,
+          "default": 100,
+          "max": 900
+        }
+      ],
+      "upstream": {
+        "repository": "https://github.com/google/fonts",
+        "commit": "a85815a42757630ce188fdad368c2dfc444d4773",
+        "url": "https://raw.githubusercontent.com/google/fonts/a85815a42757630ce188fdad368c2dfc444d4773/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+        "gitBlobSha1": "fb0637bafbcd804fe32152370a1225990745b4bc",
+        "version": [
+          "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+        ]
+      },
+      "originalPaths": [],
+      "transformation": "none; pinned official original",
+      "authority": {
+        "manifest": "artifacts/trace-home-v1-20260914/fonts/manifest.json",
+        "jsonPointer": "/originals/1",
+        "declaredSha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "entries": [
+          "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/OFL.txt",
+          "artifacts/trace-home-v1-20260914/fonts/FONT-USAGE.md"
+        ],
+        "reservedFontNames": [
+          "Source"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": false,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": []
+      },
+      "sha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA",
+      "bytes": 17772300,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": [
+        "artifacts/trace-one-thing-v1-20260915/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf",
+        "artifacts/trace-worksite-v1-20260915/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf"
+      ]
+    },
+    {
+      "key": "font.fixed.home.serif",
+      "kind": "page-fixed-copy-subset",
+      "sourcePath": "artifacts/trace-home-v1-20260914/fonts/derived/TraceHomeSerif-fixed.woff2",
+      "lifecycle": "final-derived",
+      "pages": [
+        "home"
+      ],
+      "purpose": "标题、节标题和该页指定的引文层次",
+      "family": "Trace Home Serif",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 250,
+          "default": 250,
+          "max": 900
+        }
+      ],
+      "requiredCodepoints": 319,
+      "coverageEvidence": "Fixed-copy only; current cmap is independently inspected by audit-font-cmap.py; arbitrary dynamic Unicode not covered.",
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2"
+      ],
+      "transformation": "fixed-copy subset, WOFF2 encoding, renamed Trace family/PS/instances; upstream attribution preserved",
+      "authority": {
+        "manifest": "artifacts/trace-home-v1-20260914/fonts/manifest.json",
+        "jsonPointer": "/derived/0",
+        "declaredSha256": "023539D77B00A8164AEE9900BD24E0DC0928C1515D4F9A00477826ABB4FFE31D"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "entries": [
+          "artifacts/trace-home-v1-20260914/fonts/derived/OFL-source-han-serif-cn.txt",
+          "artifacts/trace-home-v1-20260914/fonts/FONT-USAGE.md"
+        ],
+        "reservedFontNames": [
+          "Source"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": true,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": [
+          "trace-runtime/apps/desktop/public/home/fonts/TraceHomeSerif-fixed.woff2"
+        ]
+      },
+      "sha256": "023539D77B00A8164AEE9900BD24E0DC0928C1515D4F9A00477826ABB4FFE31D",
+      "bytes": 140548,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": [
+        "trace-runtime/apps/desktop/public/home/fonts/TraceHomeSerif-fixed.woff2"
+      ]
+    },
+    {
+      "key": "font.fixed.home.sans",
+      "kind": "page-fixed-copy-subset",
+      "sourcePath": "artifacts/trace-home-v1-20260914/fonts/derived/TraceHomeSans-fixed.woff2",
+      "lifecycle": "final-derived",
+      "pages": [
+        "home"
+      ],
+      "purpose": "UI、输入、按钮、说明、元信息",
+      "family": "Trace Home Sans",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100,
+          "default": 100,
+          "max": 900
+        }
+      ],
+      "requiredCodepoints": 319,
+      "coverageEvidence": "Fixed-copy only; current cmap is independently inspected by audit-font-cmap.py; arbitrary dynamic Unicode not covered.",
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf"
+      ],
+      "transformation": "fixed-copy subset, WOFF2 encoding, renamed Trace family/PS/instances; upstream attribution preserved",
+      "authority": {
+        "manifest": "artifacts/trace-home-v1-20260914/fonts/manifest.json",
+        "jsonPointer": "/derived/1",
+        "declaredSha256": "910B4E5A05FCB8C0631AB64EB51D29417D833087C487AFDF9DDABDBB0B7D1EBE"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "entries": [
+          "artifacts/trace-home-v1-20260914/fonts/derived/OFL-noto-sans-sc.txt",
+          "artifacts/trace-home-v1-20260914/fonts/FONT-USAGE.md"
+        ],
+        "reservedFontNames": [
+          "Source"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": true,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": [
+          "trace-runtime/apps/desktop/public/home/fonts/TraceHomeSans-fixed.woff2"
+        ]
+      },
+      "sha256": "910B4E5A05FCB8C0631AB64EB51D29417D833087C487AFDF9DDABDBB0B7D1EBE",
+      "bytes": 103200,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": [
+        "trace-runtime/apps/desktop/public/home/fonts/TraceHomeSans-fixed.woff2"
+      ]
+    },
+    {
+      "key": "font.fixed.matters.serif",
+      "kind": "page-fixed-copy-subset",
+      "sourcePath": "artifacts/trace-matters-v1-20260915/fonts/derived/TraceMattersSerif-fixed.woff2",
+      "lifecycle": "final-derived",
+      "pages": [
+        "matters"
+      ],
+      "purpose": "标题、节标题和该页指定的引文层次",
+      "family": "Trace Matters Serif",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 250,
+          "default": 250,
+          "max": 900
+        }
+      ],
+      "requiredCodepoints": 473,
+      "coverageEvidence": "Fixed-copy only; current cmap is independently inspected by audit-font-cmap.py; arbitrary dynamic Unicode not covered.",
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2"
+      ],
+      "transformation": "fixed-copy subset, WOFF2 encoding, renamed Trace family/PS/instances; upstream attribution preserved",
+      "authority": {
+        "manifest": "artifacts/trace-matters-v1-20260915/fonts/manifest.json",
+        "jsonPointer": "/derived/0",
+        "declaredSha256": "6B1D904266F22E080E8A3C8B63DC5F8C9153001302A73D5A3F5EEE0A103070FE"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "entries": [
+          "artifacts/trace-matters-v1-20260915/fonts/derived/OFL-source-han-serif-cn.txt",
+          "artifacts/trace-matters-v1-20260915/fonts/FONT-USAGE.md"
+        ],
+        "reservedFontNames": [
+          "Source"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": true,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": [
+          "trace-runtime/apps/desktop/public/matters/fonts/TraceMattersSerif-fixed.woff2"
+        ]
+      },
+      "sha256": "6B1D904266F22E080E8A3C8B63DC5F8C9153001302A73D5A3F5EEE0A103070FE",
+      "bytes": 195532,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": [
+        "trace-runtime/apps/desktop/public/matters/fonts/TraceMattersSerif-fixed.woff2"
+      ]
+    },
+    {
+      "key": "font.fixed.matters.sans",
+      "kind": "page-fixed-copy-subset",
+      "sourcePath": "artifacts/trace-matters-v1-20260915/fonts/derived/TraceMattersSans-fixed.woff2",
+      "lifecycle": "final-derived",
+      "pages": [
+        "matters"
+      ],
+      "purpose": "UI、输入、按钮、说明、元信息",
+      "family": "Trace Matters Sans",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100,
+          "default": 100,
+          "max": 900
+        }
+      ],
+      "requiredCodepoints": 473,
+      "coverageEvidence": "Fixed-copy only; current cmap is independently inspected by audit-font-cmap.py; arbitrary dynamic Unicode not covered.",
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf"
+      ],
+      "transformation": "fixed-copy subset, WOFF2 encoding, renamed Trace family/PS/instances; upstream attribution preserved",
+      "authority": {
+        "manifest": "artifacts/trace-matters-v1-20260915/fonts/manifest.json",
+        "jsonPointer": "/derived/1",
+        "declaredSha256": "31F9766E8A7122291E2EC1D10E674ACDE07D2085D997AB8F6F64C794749DD085"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "entries": [
+          "artifacts/trace-matters-v1-20260915/fonts/derived/OFL-noto-sans-sc.txt",
+          "artifacts/trace-matters-v1-20260915/fonts/FONT-USAGE.md"
+        ],
+        "reservedFontNames": [
+          "Source"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": true,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": [
+          "trace-runtime/apps/desktop/public/matters/fonts/TraceMattersSans-fixed.woff2"
+        ]
+      },
+      "sha256": "31F9766E8A7122291E2EC1D10E674ACDE07D2085D997AB8F6F64C794749DD085",
+      "bytes": 146468,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": [
+        "trace-runtime/apps/desktop/public/matters/fonts/TraceMattersSans-fixed.woff2"
+      ]
+    },
+    {
+      "key": "font.fixed.chain.serif",
+      "kind": "page-fixed-copy-subset",
+      "sourcePath": "artifacts/trace-one-thing-v1-20260915/fonts/derived/TraceChainSerif-fixed.woff2",
+      "lifecycle": "final-derived",
+      "pages": [
+        "chain"
+      ],
+      "purpose": "标题、节标题和该页指定的引文层次",
+      "family": "Trace Chain Serif",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 250,
+          "default": 250,
+          "max": 900
+        }
+      ],
+      "requiredCodepoints": 646,
+      "coverageEvidence": "Fixed-copy only; current cmap is independently inspected by audit-font-cmap.py; arbitrary dynamic Unicode not covered.",
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2"
+      ],
+      "transformation": "fixed-copy subset, WOFF2 encoding, renamed Trace family/PS/instances; upstream attribution preserved",
+      "authority": {
+        "manifest": "artifacts/trace-one-thing-v1-20260915/fonts/manifest.json",
+        "jsonPointer": "/derived/0",
+        "declaredSha256": "7FC2BEFC231B1F67A151AD485AC8A7C7B4ECD6C98015DA9DA9A95809A2E495CB"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "entries": [
+          "artifacts/trace-one-thing-v1-20260915/fonts/derived/OFL-source-han-serif-cn.txt",
+          "artifacts/trace-one-thing-v1-20260915/fonts/FONT-USAGE.md"
+        ],
+        "reservedFontNames": [
+          "Source"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": false,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": []
+      },
+      "sha256": "7FC2BEFC231B1F67A151AD485AC8A7C7B4ECD6C98015DA9DA9A95809A2E495CB",
+      "bytes": 252444,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": []
+    },
+    {
+      "key": "font.fixed.chain.sans",
+      "kind": "page-fixed-copy-subset",
+      "sourcePath": "artifacts/trace-one-thing-v1-20260915/fonts/derived/TraceChainSans-fixed.woff2",
+      "lifecycle": "final-derived",
+      "pages": [
+        "chain"
+      ],
+      "purpose": "UI、输入、按钮、说明、元信息",
+      "family": "Trace Chain Sans",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100,
+          "default": 100,
+          "max": 900
+        }
+      ],
+      "requiredCodepoints": 646,
+      "coverageEvidence": "Fixed-copy only; current cmap is independently inspected by audit-font-cmap.py; arbitrary dynamic Unicode not covered.",
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf"
+      ],
+      "transformation": "fixed-copy subset, WOFF2 encoding, renamed Trace family/PS/instances; upstream attribution preserved",
+      "authority": {
+        "manifest": "artifacts/trace-one-thing-v1-20260915/fonts/manifest.json",
+        "jsonPointer": "/derived/1",
+        "declaredSha256": "BC982B0E334328DBD10260E3189CFCB4C6136FACE7424391DAB65E26C4204D30"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "entries": [
+          "artifacts/trace-one-thing-v1-20260915/fonts/derived/OFL-noto-sans-sc.txt",
+          "artifacts/trace-one-thing-v1-20260915/fonts/FONT-USAGE.md"
+        ],
+        "reservedFontNames": [
+          "Source"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": false,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": []
+      },
+      "sha256": "BC982B0E334328DBD10260E3189CFCB4C6136FACE7424391DAB65E26C4204D30",
+      "bytes": 191652,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": []
+    },
+    {
+      "key": "font.fixed.worksite.serif",
+      "kind": "page-fixed-copy-subset",
+      "sourcePath": "artifacts/trace-worksite-v1-20260915/fonts/derived/TraceWorksiteSerif-fixed.woff2",
+      "lifecycle": "final-derived",
+      "pages": [
+        "worksite"
+      ],
+      "purpose": "标题、节标题和该页指定的引文层次",
+      "family": "Trace Worksite Serif",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 250,
+          "default": 250,
+          "max": 900
+        }
+      ],
+      "requiredCodepoints": 465,
+      "coverageEvidence": "Fixed-copy only; current cmap is independently inspected by audit-font-cmap.py; arbitrary dynamic Unicode not covered.",
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2"
+      ],
+      "transformation": "fixed-copy subset, WOFF2 encoding, renamed Trace family/PS/instances; upstream attribution preserved",
+      "authority": {
+        "manifest": "artifacts/trace-worksite-v1-20260915/fonts/manifest.json",
+        "jsonPointer": "/derived/0",
+        "declaredSha256": "95C335CC8A689C6D2AFAD55B5C8FA4CDAA2F0DF554FD221578BEDFABA8C06B3D"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "entries": [
+          "artifacts/trace-worksite-v1-20260915/fonts/derived/OFL-source-han-serif-cn.txt",
+          "artifacts/trace-worksite-v1-20260915/fonts/FONT-USAGE.md"
+        ],
+        "reservedFontNames": [
+          "Source"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": false,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": []
+      },
+      "sha256": "95C335CC8A689C6D2AFAD55B5C8FA4CDAA2F0DF554FD221578BEDFABA8C06B3D",
+      "bytes": 191992,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": []
+    },
+    {
+      "key": "font.fixed.worksite.sans",
+      "kind": "page-fixed-copy-subset",
+      "sourcePath": "artifacts/trace-worksite-v1-20260915/fonts/derived/TraceWorksiteSans-fixed.woff2",
+      "lifecycle": "final-derived",
+      "pages": [
+        "worksite"
+      ],
+      "purpose": "UI、输入、按钮、说明、元信息",
+      "family": "Trace Worksite Sans",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100,
+          "default": 100,
+          "max": 900
+        }
+      ],
+      "requiredCodepoints": 465,
+      "coverageEvidence": "Fixed-copy only; current cmap is independently inspected by audit-font-cmap.py; arbitrary dynamic Unicode not covered.",
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf"
+      ],
+      "transformation": "fixed-copy subset, WOFF2 encoding, renamed Trace family/PS/instances; upstream attribution preserved",
+      "authority": {
+        "manifest": "artifacts/trace-worksite-v1-20260915/fonts/manifest.json",
+        "jsonPointer": "/derived/1",
+        "declaredSha256": "CBF26882BECA434167653D85258BF92D8D1DD5A5E1888A5E1D242C51916F112C"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "entries": [
+          "artifacts/trace-worksite-v1-20260915/fonts/derived/OFL-noto-sans-sc.txt",
+          "artifacts/trace-worksite-v1-20260915/fonts/FONT-USAGE.md"
+        ],
+        "reservedFontNames": [
+          "Source"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": false,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": []
+      },
+      "sha256": "CBF26882BECA434167653D85258BF92D8D1DD5A5E1888A5E1D242C51916F112C",
+      "bytes": 144176,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": []
+    },
+    {
+      "key": "font.fixed.compare.serif",
+      "kind": "page-fixed-copy-subset",
+      "sourcePath": "artifacts/trace-compare-v1-20260915/fonts/derived/TraceCompareSerif-fixed.woff2",
+      "lifecycle": "final-derived",
+      "pages": [
+        "compare"
+      ],
+      "purpose": "原表达、材料摘录及前后理解 Serif 引文",
+      "family": "Trace Compare Serif",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 250,
+          "max": 900,
+          "default": 250
+        }
+      ],
+      "requiredCodepoints": 439,
+      "coverageEvidence": "Fixed-copy only; current cmap is independently inspected by audit-font-cmap.py; arbitrary dynamic Unicode not covered.",
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2"
+      ],
+      "transformation": "fixed-copy subset, WOFF2 encoding, renamed Trace family/PS/instances; upstream attribution preserved",
+      "authority": {
+        "manifest": "artifacts/trace-compare-v1-20260915/fonts/manifest.json",
+        "jsonPointer": "/derived/0",
+        "declaredSha256": "B0165BA3BF557486C4D5E8E1799D925C8CE31D6B034B25A62BA7847A47E54B48"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "entries": [
+          "artifacts/trace-compare-v1-20260915/fonts/derived/OFL-source-han-serif-cn.txt",
+          "artifacts/trace-compare-v1-20260915/fonts/FONT-USAGE.md"
+        ],
+        "reservedFontNames": [
+          "Source"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": false,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": []
+      },
+      "sha256": "B0165BA3BF557486C4D5E8E1799D925C8CE31D6B034B25A62BA7847A47E54B48",
+      "bytes": 181180,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": []
+    },
+    {
+      "key": "font.fixed.compare.sans",
+      "kind": "page-fixed-copy-subset",
+      "sourcePath": "artifacts/trace-compare-v1-20260915/fonts/derived/TraceCompareSans-fixed.woff2",
+      "lifecycle": "final-derived",
+      "pages": [
+        "compare"
+      ],
+      "purpose": "主标题 Sans 700、UI/正文及修订后理解",
+      "family": "Trace Compare Sans",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100,
+          "max": 900,
+          "default": 100
+        }
+      ],
+      "requiredCodepoints": 439,
+      "coverageEvidence": "Fixed-copy only; current cmap is independently inspected by audit-font-cmap.py; arbitrary dynamic Unicode not covered.",
+      "originalPaths": [
+        "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf"
+      ],
+      "transformation": "fixed-copy subset, WOFF2 encoding, renamed Trace family/PS/instances; upstream attribution preserved",
+      "authority": {
+        "manifest": "artifacts/trace-compare-v1-20260915/fonts/manifest.json",
+        "jsonPointer": "/derived/1",
+        "declaredSha256": "3AA4BC640F39B1A168D30D9A353A0CCF0A7C2D159EAC7CC9B40B7B5670A7A178"
+      },
+      "license": {
+        "type": "OFL-1.1",
+        "entries": [
+          "artifacts/trace-compare-v1-20260915/fonts/derived/OFL-noto-sans-sc.txt",
+          "artifacts/trace-compare-v1-20260915/fonts/FONT-USAGE.md"
+        ],
+        "reservedFontNames": [
+          "Source"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": false,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": []
+      },
+      "sha256": "3AA4BC640F39B1A168D30D9A353A0CCF0A7C2D159EAC7CC9B40B7B5670A7A178",
+      "bytes": 137156,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": []
+    },
+    {
+      "key": "animation.anime",
+      "kind": "existing-runtime-vendor",
+      "sourcePath": "artifacts/trace-home-v1-20260914/components/originals/animejs/dist/bundles/anime.esm.min.js",
+      "lifecycle": "official-original",
+      "pages": [
+        "home",
+        "matters",
+        "chain",
+        "worksite",
+        "compare"
+      ],
+      "purpose": "现用 Anime 服务，app 文件名虽无 min 但实际为上游压缩版",
+      "originalPaths": [],
+      "transformation": "none; upstream minified ESM byte copy, not unminified file",
+      "authority": {
+        "manifest": "artifacts/trace-home-v1-20260914/components/manifest.json",
+        "jsonPointer": "/components/1/downloaded_files/3",
+        "declaredSha256": "A19015A1A92D52025A2FB6703B6D67EADD1CC2AEAF880770E96E04CF6AA07BE1"
+      },
+      "upstream": {
+        "repository": "juliangarnier/anime",
+        "commit": "01b81be1df6843ccfe0a71c0699a746bf740dd77",
+        "version": "4.5.0"
+      },
+      "license": {
+        "type": "MIT",
+        "entries": [
+          "artifacts/trace-home-v1-20260914/components/originals/animejs/LICENSE.md",
+          "artifacts/trace-home-v1-20260914/components/INTEGRATION.md"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": true,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": [
+          "trace-runtime/apps/desktop/src/vendor/anime.esm.js"
+        ]
+      },
+      "sha256": "A19015A1A92D52025A2FB6703B6D67EADD1CC2AEAF880770E96E04CF6AA07BE1",
+      "bytes": 118678,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": [
+        "trace-runtime/apps/desktop/src/vendor/anime.esm.js"
+      ]
+    },
+    {
+      "key": "material.glass-shape",
+      "kind": "existing-runtime-vendor",
+      "sourcePath": "artifacts/trace-home-v1-20260914/components/derived/liquidglassjs/shape-only.mjs",
+      "lifecycle": "final-derived",
+      "pages": [
+        "home",
+        "matters",
+        "chain",
+        "worksite",
+        "compare"
+      ],
+      "purpose": "既有 shape-only bundle，经 mountSceneGlass 注入，小面可用、大面降级",
+      "originalPaths": [],
+      "transformation": "existing offline shape-only bundle; no rebuild",
+      "authority": {
+        "manifest": "artifacts/trace-home-v1-20260914/components/manifest.json",
+        "jsonPointer": "/derived_files/1",
+        "declaredSha256": "30CE49881E35EC8ED8E4235CE6934A19F56761069E072DA11E77C9B6191E6D22"
+      },
+      "upstream": {
+        "repository": "Amir-Abushanab/liquid-glass-js",
+        "commit": "07ad06ea197a07269af56da83d1fc9498bca94f5",
+        "version": "0.5.2"
+      },
+      "license": {
+        "type": "MIT",
+        "entries": [
+          "artifacts/trace-home-v1-20260914/components/derived/liquidglassjs/LICENSE",
+          "artifacts/trace-home-v1-20260914/components/INTEGRATION.md"
+        ]
+      },
+      "currentAppUsage": {
+        "usedAtSnapshot": true,
+        "evidenceLevel": "local source reference plus packaged byte equality; not new browser proof",
+        "paths": [
+          "trace-runtime/apps/desktop/src/vendor/shape-only.mjs"
+        ]
+      },
+      "sha256": "30CE49881E35EC8ED8E4235CE6934A19F56761069E072DA11E77C9B6191E6D22",
+      "bytes": 17644,
+      "status": "freeze-candidate-not-published",
+      "selectionBasis": "Effective delivery record and SHA256, never mtime.",
+      "byteIdenticalPaths": [
+        "trace-runtime/apps/desktop/src/vendor/shape-only.mjs"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "artifacts/trace-compare-v1-20260915/coordination/context-package.json",
+      "sha256": "B7417F6FD5E3F6FE1F699F5B9316BE15B8129DF8077EEC77D909679A9C5A61EC",
+      "bytes": 4398,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/fonts/derived/font-face.css",
+      "sha256": "3F06D774A96129D8F8894F7C545AA7E0989EA8828CF1FE36A290B69BDCF43660",
+      "bytes": 382,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/fonts/derived/OFL-noto-sans-sc.txt",
+      "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "bytes": 4388,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/fonts/derived/OFL-source-han-serif-cn.txt",
+      "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "bytes": 4463,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/fonts/derived/TraceCompareSans-fixed.woff2",
+      "sha256": "3AA4BC640F39B1A168D30D9A353A0CCF0A7C2D159EAC7CC9B40B7B5670A7A178",
+      "bytes": 137156,
+      "category": "final-derived"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/fonts/derived/TraceCompareSerif-fixed.woff2",
+      "sha256": "B0165BA3BF557486C4D5E8E1799D925C8CE31D6B034B25A62BA7847A47E54B48",
+      "bytes": 181180,
+      "category": "final-derived"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/fonts/font-proof.png",
+      "sha256": "DEE19B6F540E04115C9988E520EDB573C215A21FC4CA2A5F0C0D5962FA3734B8",
+      "bytes": 106724,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/fonts/FONT-USAGE.md",
+      "sha256": "3B2FCE019B264806579347017803F49FB0A498A768DD94987E3A83C0519F4B09",
+      "bytes": 3962,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/fonts/manifest.json",
+      "sha256": "7B320BC4694F38C8D68CBCFED9EEB7CF9F94B4AE5722AC29040D585F3A6C2A41",
+      "bytes": 7107,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/images/ASSET-NOTES.md",
+      "sha256": "62A828A9D09008CE9503F215EACFE508F62FFFF1A0EB74FF8E8FD6EA7F577B4B",
+      "bytes": 3358,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/images/manifest.json",
+      "sha256": "7B6447D33C6455EAACBD876AA887137CD6C4AF16AB33DE875FC8FEF7371185DD",
+      "bytes": 9001,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/images/originals/compare-environment-generated-v1.png",
+      "sha256": "23217AF8B9CAD4A4FF3C0A1CE99E89ED7D26E24E79BD1D9DAE81155166859185",
+      "bytes": 1247365,
+      "category": "generated-original"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/images/ready/bird-perched.png",
+      "sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "bytes": 428617,
+      "category": "ready-byte-copy"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/images/ready/bird-takeoff.png",
+      "sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "bytes": 858034,
+      "category": "ready-byte-copy"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/images/ready/compare-environment.png",
+      "sha256": "23217AF8B9CAD4A4FF3C0A1CE99E89ED7D26E24E79BD1D9DAE81155166859185",
+      "bytes": 1247365,
+      "category": "final-ready"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/checks/final-candidates.png",
+      "sha256": "E2CD34653B00300EF019B8AF6F9C76519E67D73D586F4FC3451FAFDF1D8820B7",
+      "bytes": 1262998,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/checks/final-compact.png",
+      "sha256": "969396E1C153DDC167B128F60546E74F9BC13B7E2D21FBCA15BE099808D1E93E",
+      "bytes": 295437,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/checks/final-compare.png",
+      "sha256": "CCFBD66CB91D7847DF5E2FA7271B9CF2C4B1236A6E0C01DFBFB4BEF10BFD8C80",
+      "bytes": 1123336,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/checks/final-returned.png",
+      "sha256": "2A350DBEDBB842680D242647FC8C7D56D7DC7AC210897DD5091BFEC110AD3F53",
+      "bytes": 874788,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/checks/final-revision-confirmation.png",
+      "sha256": "DF3886666FB01F8AC22CA11BC74621A55DA3FFFE5CAB0FB9C645D46ED7F11AE9",
+      "bytes": 453249,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/checks/final-search.png",
+      "sha256": "B5218E718624B9FCF01900363E7E9BAEF5B0A72AE0CA5131235620401030EB82",
+      "bytes": 1165901,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/checks/first-candidates.png",
+      "sha256": "732D1E20B9061DDA3013B941E4F308A37EFA65AD5E4E21E18FA80AEB7948CDAB",
+      "bytes": 1270859,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/checks/first-compact.png",
+      "sha256": "7D3B7985E7A042C504B767924CE06A211495ECD993382DF5F2C0F7E6489B460F",
+      "bytes": 295437,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/checks/first-compare.png",
+      "sha256": "14169617091514729236060B4F9546AAE87755B53A8E4FA798DD0AD861506CBA",
+      "bytes": 1126639,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/checks/first-returned.png",
+      "sha256": "6761D8C6E55B0911D944D815CB3D14E0B54B77647DBE602EA7520821BF5EF132",
+      "bytes": 876990,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/checks/first-revision-confirmation.png",
+      "sha256": "62BFCF1E382FC715D74AC8C2106004875811B034A717A954373AD33141BE5A5A",
+      "bytes": 451922,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/checks/first-search.png",
+      "sha256": "93A0B378DCE8659C002A6052520781F38255052C3572A0F5A4BD836E8381AD14",
+      "bytes": 1170814,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/components/derived/liquidglassjs/LICENSE",
+      "sha256": "B4DDCA14599CE25F86F5CBFC490742D51F145BE7529D9C44513095EC53029C30",
+      "bytes": 1071,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/components/derived/liquidglassjs/shape-only.mjs",
+      "sha256": "30CE49881E35EC8ED8E4235CE6934A19F56761069E072DA11E77C9B6191E6D22",
+      "bytes": 17644,
+      "category": "final-derived"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/components/INTEGRATION.md",
+      "sha256": "DF7302BA48FE893473A5ACDD43C8172D31AA04A67F9E990D803D46FD2A04F2EA",
+      "bytes": 8450,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/components/manifest.json",
+      "sha256": "936BF9142321B39A71834F21200AE1AC8FC61A9D7F7332B35F5AACCB4C99AC46",
+      "bytes": 31949,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/components/originals/animejs/dist/bundles/anime.esm.min.js",
+      "sha256": "A19015A1A92D52025A2FB6703B6D67EADD1CC2AEAF880770E96E04CF6AA07BE1",
+      "bytes": 118678,
+      "category": "official-original"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/components/originals/animejs/LICENSE.md",
+      "sha256": "3F3E835A9952CFC2A6CA836FB95B3257C981F24FA3EF51249055ACB09931897B",
+      "bytes": 1075,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/components/originals/codrops-shape-morph-reference-only/README.md",
+      "sha256": "DF7AB7B0F0A23881F8CEC091BBF15A8A49C717F156899D6518499510A0672C9D",
+      "bytes": 1664,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/components/originals/magicui-animated-beam/LICENSE.md",
+      "sha256": "0147B84235ED916B8B4E89C1F80655351C5AFE7D211B629BE61F553A227B34BA",
+      "bytes": 1060,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/components/REFERENCE-ONLY.md",
+      "sha256": "675AF870923E97056A63250244D2CF0F35348709F2346EEF440FAB8DF4D7EC75",
+      "bytes": 1213,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/context-package.json",
+      "sha256": "FEC12772D27033E54E9EDB811486DE7C749DB5AFF054BF1BA3DE06628DC00CD7",
+      "bytes": 4681,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/final-1440.png",
+      "sha256": "A2E668C70918B7071BC660A968E35C3E5FC873FA3C13B3E6E5A296395852B22F",
+      "bytes": 1272276,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/final-880.png",
+      "sha256": "0D8F909D8878CD683FE8F0A37A09A2C11DD22DC52A58F8AE4AE775AB5A3172C7",
+      "bytes": 612148,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/final-growth.png",
+      "sha256": "91B3EACBDBCB146694DDD86C27EA21FA0CF14560A7581AAB0BC73C79A2243783",
+      "bytes": 1633629,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/final-overview.png",
+      "sha256": "65E17578D4EA3BCAB5F9FB473CFEF3BF4E36D8484CD17189012EA2F97E810C7C",
+      "bytes": 1625413,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/final-return.png",
+      "sha256": "97BC16E3A93A971F1CD9ACFAA3D401626775B25B4A45470800BA1BC357BC7B66",
+      "bytes": 1634493,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/final-thinking.png",
+      "sha256": "63B4790152FDB02CF29F954CE5495B01426E47491D38FF1FF01982AE53B2D11A",
+      "bytes": 1589373,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/final-work.png",
+      "sha256": "E019F6A3F191792EFE3B43B5CF780B11D12A841CE5C60CB6AEEC4F651E6A22B1",
+      "bytes": 1602310,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/first-1440.png",
+      "sha256": "5F67D9A0EB5DE4E4332276EC965D3C034AF3F65FC63EED8BC75C8421720DFD73",
+      "bytes": 1339552,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/first-880.png",
+      "sha256": "BCDF1A7264CCC5BB2FC0C59A9BD406AF1F679C3F532C6DE284B1F50DCC7DDCCC",
+      "bytes": 645912,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/first-growth.png",
+      "sha256": "BB6B90610F5ECAAA4552BCBA5D1C18B3FD16950DF5AC29E7D354BA84980B0486",
+      "bytes": 1665288,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/first-overview.png",
+      "sha256": "8AE3F648F8D5B7588B2CC837388B1714FF9DB45892BEADDE3211F1B17235770E",
+      "bytes": 1655749,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/first-return.png",
+      "sha256": "D3C3053860E10FDEB7E522F01F4B11E7AD7F27D044F39B928228E6A2B8021863",
+      "bytes": 1682767,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/first-thinking.png",
+      "sha256": "004AB1F2F9E4B878FBF36977F4C8BEC6917420FD98FB3174D7FDC443EF5F0435",
+      "bytes": 1697990,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/first-work.png",
+      "sha256": "E247FC683B8E5FB9578F94A259117D6E3D8B1E564F5EA47988BC4DEAF210F8E9",
+      "bytes": 1710025,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/native-overview.png",
+      "sha256": "1A2E7FB50D12AADE423C694237EA67625B6F72FF21E601578379EB9F6D90C573",
+      "bytes": 2785447,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/native-thinking.png",
+      "sha256": "469EE021CC4E5A60F846930756F550839AD4F69053ED58ECA347C6E7D218E3F2",
+      "bytes": 2767659,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/coordination/prototype-checks/native-work.png",
+      "sha256": "1263003D2201AB8F19B906323CAB7F4BE3E4550149580C72CBA16AD386F019E5",
+      "bytes": 2792856,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/derived/font-face-full-fallback.css",
+      "sha256": "8624B620D48913C4C58F8BC3C29285D89292F1EDED9C7E64F1B42328584A2C10",
+      "bytes": 544,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/derived/font-face.css",
+      "sha256": "A84BE83B3F0DD4A285A51D2EF3660D269948945C96268CDB7A949DB1297B0FB5",
+      "bytes": 1079,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/derived/OFL-noto-sans-sc.txt",
+      "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "bytes": 4388,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/derived/OFL-source-han-serif-cn.txt",
+      "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "bytes": 4463,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/derived/TraceHomeSans-fixed.woff2",
+      "sha256": "910B4E5A05FCB8C0631AB64EB51D29417D833087C487AFDF9DDABDBB0B7D1EBE",
+      "bytes": 103200,
+      "category": "final-derived"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/derived/TraceHomeSerif-fixed.woff2",
+      "sha256": "023539D77B00A8164AEE9900BD24E0DC0928C1515D4F9A00477826ABB4FFE31D",
+      "bytes": 140548,
+      "category": "final-derived"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/FONT-USAGE.md",
+      "sha256": "1DB56EF22743C216D4D0CB766F401E520BD8C30B6234262902B873DA8A7F199E",
+      "bytes": 8036,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/manifest.json",
+      "sha256": "C7478B60FC89DF5DB8FF15D4D5C6EF7BE52E6CEAF705CB864A41AAF29B817B63",
+      "bytes": 21505,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf",
+      "sha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA",
+      "bytes": 17772300,
+      "category": "official-original"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/OFL.txt",
+      "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "bytes": 4388,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/LICENSE.txt",
+      "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "bytes": 4463,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2",
+      "sha256": "556749BA783B148FA1F48644E8883E5B9351F01ABD0D1FAAD0BA24A21185E76A",
+      "bytes": 11035128,
+      "category": "official-original"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/ASSET-NOTES.md",
+      "sha256": "BDDB11D10197F7F8BFF74296CBDA5CF7B5E1FB4827A582CB3A2BC57CE6559D08",
+      "bytes": 10481,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/manifest.json",
+      "sha256": "4AD2F962AE48046375BD7F6A48FD1F1FE822035752A4AA843010D563E936536C",
+      "bytes": 41114,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/originals/A-home-environment.png",
+      "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "bytes": 1564971,
+      "category": "generated-original"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/originals/B-bird-perched-initial.png",
+      "sha256": "EB237FE8F1627E3850CAC25EE332D4AF91733A568442AA472BD2B1CE5551C29B",
+      "bytes": 1862394,
+      "category": "failed-transparent-bird-original"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/originals/B2-bird-perched-alpha-retry.png",
+      "sha256": "CC63D1359D2A89D6B6BE2DC45D58E61ECFF1EEAB60974B631CEB1654E3A029E1",
+      "bytes": 1517151,
+      "category": "failed-transparent-bird-original"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/originals/C-bird-takeoff.png",
+      "sha256": "00702ABE62D72904C57E6ADC6585EC77BDA5B03F327CC234F0CB3E5526BCE41E",
+      "bytes": 2040942,
+      "category": "failed-transparent-bird-original"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/ready/home-environment.png",
+      "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "bytes": 1564971,
+      "category": "final-ready"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-perched-alpha.png",
+      "sha256": "3AB184B213A03826CACC3A61F67684EADC60C1D13B5533B0E818520C1D98C54A",
+      "bytes": 11643,
+      "category": "repair-proof-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-perched-check-deep-green.png",
+      "sha256": "20D24462C8A4BC24A2032A237662004686F3778EC8035CD65DA8F8F5EE56A2E4",
+      "bytes": 372357,
+      "category": "repair-proof-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-perched-check-mid-gray.png",
+      "sha256": "5000CC59C01853D78741164C64E48A7E56269A03A1412EC626CE63D0B1914101",
+      "bytes": 372677,
+      "category": "repair-proof-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-perched-full.png",
+      "sha256": "B5B9C7363745531615434AE7B2A4FA012EB3D7B1E771D4C3078C98C1ADE65C5B",
+      "bytes": 434890,
+      "category": "repair-proof-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-perched.png",
+      "sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "bytes": 428617,
+      "category": "final-authorized-repair"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-small-size-check.png",
+      "sha256": "5331A644B6212842EBD024FA950E12AF1C98B202DFD9F98A212EBDA96ED4FB08",
+      "bytes": 94041,
+      "category": "repair-proof-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-takeoff-alpha.png",
+      "sha256": "645DFB4C4A752CEF0ABB038884D6450140613F3790E3E4F81A197BA3FDE2CAC5",
+      "bytes": 19917,
+      "category": "repair-proof-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-takeoff-check-deep-green.png",
+      "sha256": "5EDFE5CB1A9A1765A20B8E1D6FBAEAA4C05358615A5FF7EB0779A94397CF8799",
+      "bytes": 748460,
+      "category": "repair-proof-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-takeoff-check-mid-gray.png",
+      "sha256": "3188E108FC3E0291CEB6C6A3035F7611E17F52047BEE7F3A4292C3A8386048EF",
+      "bytes": 746541,
+      "category": "repair-proof-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-takeoff-full.png",
+      "sha256": "63C3F2F01C2A122B9FA59910F8E8B1E022BB471D55A72B56EE463A7F7B7A8283",
+      "bytes": 862381,
+      "category": "repair-proof-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-takeoff.png",
+      "sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "bytes": 858034,
+      "category": "final-authorized-repair"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-perched-color-mask.png",
+      "sha256": "BC7CA2CC9A67F6989F65EF74BAAD1CB529AE92DA55587DF602FDE1359A973437",
+      "bytes": 12180,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-perched-local-std.png",
+      "sha256": "EA6AF5BC223C494E84691BDD3E82165111C4079EA7FAC1A089FCC9CBD20ABFFB",
+      "bytes": 380462,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-perched-v0-green.png",
+      "sha256": "73097DD9C01E8F592612A5B0AFDECF944064DEEEDF32D3B45620D6872B3DBEBD",
+      "bytes": 314902,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-perched-v0.png",
+      "sha256": "451E4E8E87E926ECE5807B39DC4987277059099ED6F8708138EE6D8DCCF45FC4",
+      "bytes": 1678207,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-perched-v1-green.png",
+      "sha256": "DFC6553B139CD7ABE2F36C06323AFFBCBE72F1BE06D6133B5821A0521CF98A72",
+      "bytes": 372531,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-perched-v1-mask.png",
+      "sha256": "91F9A71ECF7BB2B96F13FF9EF5A9951998E4322D37C63E490F9B15BE2D3147FB",
+      "bytes": 8888,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-perched-v1.png",
+      "sha256": "997533749828A8B34596E7B9165D7A3DA57EEC4923EB45318D5CB6F009825D44",
+      "bytes": 1678103,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-takeoff-leg-gap.png",
+      "sha256": "FE25501654A562B4B2702E0794C85D2960AE51D6504B9A82B0E1C9B488E54EE8",
+      "bytes": 317054,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-takeoff-v0-green.png",
+      "sha256": "D6DF554C7693D5F0188B183F29D1887CEE5A7AE90AF3FAE4C658700684FB44C2",
+      "bytes": 751004,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-takeoff-v0.png",
+      "sha256": "7FC3EA989AB26978B6515B8652F5602ABFEFA7D4094F093217DBCED38784A9F3",
+      "bytes": 2252188,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-takeoff-v1-green.png",
+      "sha256": "C7F5371EF5A021AA760B91E17EA7CBA45B277C774FF6B894F1D2DE07FBBEF329",
+      "bytes": 738310,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-takeoff-v1-mask.png",
+      "sha256": "D5831D8AD8D99F545889BA00A51CEBE5638F857AD05861D155436B4E525CE618",
+      "bytes": 13753,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-takeoff-v1.png",
+      "sha256": "29878123900A635F21A63E8076381588F0AE226EE5C4DC215CA541529F92FE0A",
+      "bytes": 2253403,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-takeoff-wing-gap.png",
+      "sha256": "B26E8CE9F07B62895648A937F29565071BD32FEFDE20557140A84EB75AF86125",
+      "bytes": 668052,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/debug-wing-detail-comparison.png",
+      "sha256": "5F8398BBB56B89C825131F7F56E3307204D4C196EE3872AC6AE2FE35D874B848",
+      "bytes": 776303,
+      "category": "rejected-repair-diagnostic"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/repair-manifest.json",
+      "sha256": "9C67A53049F399920A15A367C7AF4AE8F643D228E7732B378551CCD3AAA5A951",
+      "bytes": 11957,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/context-package.json",
+      "sha256": "BDF5906EC3208A9C254499C5082E5E689971A7547BCC9A1A303BA5F28FA45068",
+      "bytes": 5028,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/final-880-comparison.png",
+      "sha256": "D8842A7A2C7E4283BB13F1F6BC969A3551241094A398A22EF0A492B066C53A51",
+      "bytes": 677253,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/final-880-overview.png",
+      "sha256": "C6836C5D5D45391DDBF2F5E39DC51B36F4F138FE3BB72F941E9C9A0D207DE1AF",
+      "bytes": 733660,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/final-880-reentry.png",
+      "sha256": "026432FB7062C9A77A25F81C3A543FD410A369F40B0BD7A7DB3535C36D9BD073",
+      "bytes": 652076,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/final-comparison.png",
+      "sha256": "129A542ABDA59F0AB753448D5B79B1E72459DA12486F097141E0558C43B4DEF2",
+      "bytes": 1784653,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/final-home.png",
+      "sha256": "03C49A5806DE4DF7A79B13EB3B500241BF5F94D5136A4612EE764B666FBBBEC1",
+      "bytes": 1626854,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/final-hover.png",
+      "sha256": "9986E8F5658BD354A97E0DFE3B18B7C070DD83FAA4D758E6116B081B07381C53",
+      "bytes": 1999760,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/final-opening.png",
+      "sha256": "93A5320AB498A333E5C8C19E26EE5B5D26695174CC50F3742EE09F16048FE3B0",
+      "bytes": 1939675,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/final-overview.png",
+      "sha256": "539AD3A431D74427E377D2C5CBF673E9C420212A37A5B1B72982DBC3AA992C89",
+      "bytes": 1994736,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/final-reentry.png",
+      "sha256": "F159FB4AEB51DD1C2E3594BA386289D54F8D5121E4ABEFD602432800EA8465F6",
+      "bytes": 1719402,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/final-returned-focus.png",
+      "sha256": "F3F74986D5F61DF85E07826F6D20420DFEAA15C8973EC4F8BF905BD3563608AC",
+      "bytes": 2008088,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/final-returned.png",
+      "sha256": "6EDAD47D98293EC9DE6CD61497C6CCDFCF55C54967C1D4123738D23EE7EB5B3C",
+      "bytes": 2006506,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/final-search.png",
+      "sha256": "C524F295D4AD3E4BCA1334A09E29D52C95E9B75B2660F4FA7DAF0EEDA17FE24F",
+      "bytes": 1540150,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/first-880-comparison.png",
+      "sha256": "0C087C7C72BC3FC1A528567C785766FD4176FC7AFC42599CA4DBE1D79B981B78",
+      "bytes": 712013,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/first-880-overview.png",
+      "sha256": "8CC8192AE89C883D91AF518B40036C19831AF4F1D9F53399D588FB41498F1DAC",
+      "bytes": 731310,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/first-880-reentry.png",
+      "sha256": "975174073E1D8B7EB0E46EABD5D5925CBAD4C49E903CE57619228BE239560279",
+      "bytes": 693288,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/first-comparison.png",
+      "sha256": "1E16295C27717E4EAF62001112C350911625C218097D4C180409613BE4142908",
+      "bytes": 1920324,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/first-home.png",
+      "sha256": "03C49A5806DE4DF7A79B13EB3B500241BF5F94D5136A4612EE764B666FBBBEC1",
+      "bytes": 1626854,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/first-hover.png",
+      "sha256": "3BA1AE9AC4CCE0A4D68F2148881292EF8897E0847E490325DE48B37F9F45A9C6",
+      "bytes": 1995489,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/first-opening.png",
+      "sha256": "D6BF7375D3975B1A3C73660E31A03C6B4823C8F7B34AA40B471E621ED45A0C3B",
+      "bytes": 1987003,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/first-overview.png",
+      "sha256": "27893C2A8C9B22418D807C93BB70930C798DC46E5B5FAC54D8556B92419B578E",
+      "bytes": 1990257,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/first-reentry.png",
+      "sha256": "3560228FCA7F5CDCA7E4E8584971BF1207F24385F0790DFE9FAF31754F307BA8",
+      "bytes": 1885937,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/first-returned.png",
+      "sha256": "3C8B3AA85920EE64ADD4519F56F0830578285F18E2260F9E62DA1401E9545531",
+      "bytes": 2003453,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/first-search.png",
+      "sha256": "3CAE19699C78D59E98410D7E92B8AD7BFAB6959F3E54C5429756BD4C1CE511A4",
+      "bytes": 1540387,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/native-overview.png",
+      "sha256": "F7559AC72A5BAD09EC3C666857D97F15E4000BD7FA02F90BAFEC37BA40518D59",
+      "bytes": 3506511,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/verdict2-880-comparison.png",
+      "sha256": "0A8A3CCF6253998EA9D28C6F9FBC44BA66D5A4FBA28B315CBD322AADD9237C3A",
+      "bytes": 678529,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/verdict2-880-overview.png",
+      "sha256": "C6836C5D5D45391DDBF2F5E39DC51B36F4F138FE3BB72F941E9C9A0D207DE1AF",
+      "bytes": 733660,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/verdict2-880-reentry.png",
+      "sha256": "36CB78CB2768D607BA0006AE166465D39E777A5E2D0E83123A762E8D7F5D0C73",
+      "bytes": 650132,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/verdict2-comparison.png",
+      "sha256": "F3A3CABFC1FE2C2B6CB081D6B77D1783682A0E5CF73C9AFBE6CE5C492CB7600A",
+      "bytes": 1785558,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/verdict2-home.png",
+      "sha256": "03C49A5806DE4DF7A79B13EB3B500241BF5F94D5136A4612EE764B666FBBBEC1",
+      "bytes": 1626854,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/verdict2-hover.png",
+      "sha256": "9986E8F5658BD354A97E0DFE3B18B7C070DD83FAA4D758E6116B081B07381C53",
+      "bytes": 1999760,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/verdict2-opening.png",
+      "sha256": "A98A1092953D87E155BF567EAA4D9BC3B18BFA7BB7E4D2DE7F9E902D737A893A",
+      "bytes": 1937486,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/verdict2-overview.png",
+      "sha256": "539AD3A431D74427E377D2C5CBF673E9C420212A37A5B1B72982DBC3AA992C89",
+      "bytes": 1994736,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/verdict2-reentry.png",
+      "sha256": "F159FB4AEB51DD1C2E3594BA386289D54F8D5121E4ABEFD602432800EA8465F6",
+      "bytes": 1719402,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/verdict2-returned-focus.png",
+      "sha256": "53D75F6F2BE3B9C4DEFBB68A2F14EE18845F9CB3F364FCAC40F0F9CC03DC847D",
+      "bytes": 2009308,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/verdict2-returned.png",
+      "sha256": "0AC1A156168BD54E0E224F5989D44BBFBA65E8BDFDEDB5F4FA72072F361AA0B1",
+      "bytes": 2007875,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/coordination/integration-checks/verdict2-search.png",
+      "sha256": "C524F295D4AD3E4BCA1334A09E29D52C95E9B75B2660F4FA7DAF0EEDA17FE24F",
+      "bytes": 1540150,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/fonts/derived/font-face.css",
+      "sha256": "2215CFC050BB2F071A1031217278BB0A96D00ADE3ADB4BE7503159BE21214398",
+      "bytes": 453,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/fonts/derived/OFL-noto-sans-sc.txt",
+      "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "bytes": 4388,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/fonts/derived/OFL-source-han-serif-cn.txt",
+      "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "bytes": 4463,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/fonts/derived/TraceMattersSans-fixed.woff2",
+      "sha256": "31F9766E8A7122291E2EC1D10E674ACDE07D2085D997AB8F6F64C794749DD085",
+      "bytes": 146468,
+      "category": "final-derived"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/fonts/derived/TraceMattersSerif-fixed.woff2",
+      "sha256": "6B1D904266F22E080E8A3C8B63DC5F8C9153001302A73D5A3F5EEE0A103070FE",
+      "bytes": 195532,
+      "category": "final-derived"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/fonts/FONT-USAGE.md",
+      "sha256": "79F3D7FF625C0E5491166103ED04EA2932843132369B99A2A7682735EE673519",
+      "bytes": 3956,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/fonts/manifest.json",
+      "sha256": "E8F6E4B48738857BE65D9437E9A6849EC71343FC1B9276397179118C5D9581A7",
+      "bytes": 19103,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/images/ASSET-NOTES.md",
+      "sha256": "DB793E6A4725E8C1BB42C55887D768A9184FF4F7CF21262A34A3B7C1DF1A51EC",
+      "bytes": 5384,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/images/manifest.json",
+      "sha256": "55E3083A227C9BFBC4362B28C56F9EA51FF5341A895218BD51284CC0A5E23CFD",
+      "bytes": 15809,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/images/originals/A-matters-environment.png",
+      "sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89",
+      "bytes": 1943325,
+      "category": "generated-original"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/images/ready/matters-environment.png",
+      "sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89",
+      "bytes": 1943325,
+      "category": "final-ready"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-1440-deep.png",
+      "sha256": "ADA69442CFB26D07BD481B7608845BCCC48ACFEDF576E806907BFDAE62FDCA3B",
+      "bytes": 1485467,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-880-deep.png",
+      "sha256": "0B913BF35AD4AAEC53C0958ED9059D7DB1907C433412A101FC8C29B9623E3394",
+      "bytes": 697331,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-880-overview.png",
+      "sha256": "76EA29EBBEF23D3A5D46DFA82A256786212B89C8F0CC372A9971908EA8147B51",
+      "bytes": 734898,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-880-reentry.png",
+      "sha256": "9395666F474838B2DFF788200C3FF754538512D1DD17E2281F0F2DB024886C02",
+      "bytes": 690591,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-changed.png",
+      "sha256": "491422F1CBB75B6C209D01BC9223072E10B5AC1D5DD4C130E012683D79D11E90",
+      "bytes": 1991182,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-deep-comparison.png",
+      "sha256": "012B0404A85C8F9ECE007E33754AD04DC5750D04A469542B959B5A8293A9B994",
+      "bytes": 1920325,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-fresh.png",
+      "sha256": "9D510845D0C0D02F27FDD3A86E2AA7CC1D6DF67AD63C02A41870CA2757DFC375",
+      "bytes": 1899099,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-growth.png",
+      "sha256": "3DC0FC7B7EEACBD860279F82566A863C24EE7F09D6F8CED95B2057D8A2A93480",
+      "bytes": 2002746,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-hover.png",
+      "sha256": "53946286083E425E58CC031FBC6040A73D86CD4362250BDEE9003AAAB4865F9A",
+      "bytes": 1999714,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-overview.png",
+      "sha256": "F6AAB2E7E147FF291BA4DB0C6004D42E02C56EA154CFC325A666BD4AD92624E3",
+      "bytes": 1992691,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-real-glass-880.png",
+      "sha256": "1A6E252E3D516BD4FCD7519B2456635BC29A636CA857DFABF9A62035DE14E60D",
+      "bytes": 730811,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-real-glass-overview.png",
+      "sha256": "27893C2A8C9B22418D807C93BB70930C798DC46E5B5FAC54D8556B92419B578E",
+      "bytes": 1990257,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-reentry.png",
+      "sha256": "3560228FCA7F5CDCA7E4E8584971BF1207F24385F0790DFE9FAF31754F307BA8",
+      "bytes": 1885937,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/check-search.png",
+      "sha256": "0D3BECADB059FC1CB37480B1B5381EB94A0A4DFD25D05DBAE241368ECF1953DE",
+      "bytes": 1510884,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/coordination/context-package.json",
+      "sha256": "5419BAC2804EB001F853B968060478429AA5AFCE08F1ACECEFA14F64E4B3E562",
+      "bytes": 7308,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/candidates/initial-ui-only/TraceChainSans-fixed.woff2",
+      "sha256": "115E1E1051AF764D4122DC33F98B0822A5A397D9EF4140AC42ABD49BD9B20514",
+      "bytes": 179112,
+      "category": "superseded-font-subset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/candidates/initial-ui-only/TraceChainSerif-fixed.woff2",
+      "sha256": "98809B2374D1F63AD1C1DE11525FD7302915ADBF37D1469C281AA3CE88569CE7",
+      "bytes": 237164,
+      "category": "superseded-font-subset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/candidates/model-fixture-640/TraceChainSans-fixed.woff2",
+      "sha256": "611A4A2FA43E7F3B0424F8C57CA1220F50F60D503EEBF115A5A46D5E3C20E993",
+      "bytes": 189976,
+      "category": "superseded-font-subset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/candidates/model-fixture-640/TraceChainSerif-fixed.woff2",
+      "sha256": "41BFB722E35C5CB802D2ECEB9A586E77A09E0984003FFB689F61EF4F957A705B",
+      "bytes": 250592,
+      "category": "superseded-font-subset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/derived/font-face.css",
+      "sha256": "E372434B537DAEA5E2C361669E44E301222E2B93650C1D8C2ADE206595A56BC8",
+      "bytes": 460,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/derived/OFL-noto-sans-sc.txt",
+      "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "bytes": 4388,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/derived/OFL-source-han-serif-cn.txt",
+      "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "bytes": 4463,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/derived/TraceChainSans-fixed.woff2",
+      "sha256": "BC982B0E334328DBD10260E3189CFCB4C6136FACE7424391DAB65E26C4204D30",
+      "bytes": 191652,
+      "category": "final-derived"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/derived/TraceChainSerif-fixed.woff2",
+      "sha256": "7FC2BEFC231B1F67A151AD485AC8A7C7B4ECD6C98015DA9DA9A95809A2E495CB",
+      "bytes": 252444,
+      "category": "final-derived"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/FONT-USAGE.md",
+      "sha256": "EF4FF86E670A2CB4372841360C6E2A951C25C8127EE4CF7FD04A4D87382FA3DC",
+      "bytes": 5957,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/manifest.json",
+      "sha256": "025C860C473B8224799911F34B2ED0A2572539C59760A800A0A95D8C8A64D3EA",
+      "bytes": 20332,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf",
+      "sha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA",
+      "bytes": 17772300,
+      "category": "official-original-byte-copy"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/originals/noto-sans-sc/OFL.txt",
+      "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "bytes": 4388,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/originals/source-han-serif-cn/LICENSE.txt",
+      "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "bytes": 4463,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2",
+      "sha256": "556749BA783B148FA1F48644E8883E5B9351F01ABD0D1FAAD0BA24A21185E76A",
+      "bytes": 11035128,
+      "category": "official-original-byte-copy"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/images/ASSET-NOTES.md",
+      "sha256": "C13B29F2D481F0A244B7B52A06D6A8F74FFDB3863D81F1A564573BA4176C4413",
+      "bytes": 4587,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/images/manifest.json",
+      "sha256": "89F77F51BF0D2488579B86E0A6AA1105E6764134DE94985B76FCE37D524C670F",
+      "bytes": 14636,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/images/originals/inner-environment-generated-v1.png",
+      "sha256": "49A39B936545E0AC5AA65B4CA8E5D998A392728E5D6EB72033F68185ADB6ED13",
+      "bytes": 1387038,
+      "category": "generated-original"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/images/originals/overview-environment-generated-v1.png",
+      "sha256": "A4DDA0E97BF3FFEF2D87D48BE07C272E6C69633A236B07676A92A4DC755C6875",
+      "bytes": 1719534,
+      "category": "generated-original"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/images/ready/bird-perched.png",
+      "sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "bytes": 428617,
+      "category": "ready-byte-copy"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/images/ready/bird-takeoff.png",
+      "sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "bytes": 858034,
+      "category": "ready-byte-copy"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/images/ready/chain-environment.png",
+      "sha256": "49A39B936545E0AC5AA65B4CA8E5D998A392728E5D6EB72033F68185ADB6ED13",
+      "bytes": 1387038,
+      "category": "final-ready"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/images/ready/chain-overview-environment.png",
+      "sha256": "A4DDA0E97BF3FFEF2D87D48BE07C272E6C69633A236B07676A92A4DC755C6875",
+      "bytes": 1719534,
+      "category": "final-ready"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-1280.png",
+      "sha256": "D7F74D2B95C0835F1D76EA1024059D1C399D4D646DABA51ECB8B7EE22996A5E4",
+      "bytes": 826491,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-880.png",
+      "sha256": "76FA52C673704D920A678ED3DCEFCFD5736F1D3455A222D0B45DB316BF93EE1C",
+      "bytes": 471466,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-comparison.png",
+      "sha256": "98A54345ABB8EC7F4A2F7E6AD412B8BBC7ACC9A6674C644A898ADAE3C06A18C5",
+      "bytes": 1120424,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-discussion.png",
+      "sha256": "6E45BD208A1649ED151529EBE3D20A71C6F9580F72CAA35EF48EE0E8E8599082",
+      "bytes": 1334819,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-handoff.png",
+      "sha256": "89A648D51BFAE792E68678E0B9188C2853B99C209D403072A37CD94366E6AA6B",
+      "bytes": 1115445,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-paused.png",
+      "sha256": "1AE3CFA115CF43F9EDA161E974356CC03EFCC76A6A1E13AD35CDA0F0C684E27E",
+      "bytes": 1736141,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-reading.png",
+      "sha256": "D938430243D61BEC1E3997E6557B9994D51D6154B8C19F310106EB40FD7F270F",
+      "bytes": 380424,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-reentry.png",
+      "sha256": "01C51A22E9E4B3FABE24F71FDDC9D2825F69584AD3D12AB240DD23EFF7E250C0",
+      "bytes": 1349900,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-results.png",
+      "sha256": "74005174ACCF05C06FCD0912DD793133C1B32AC9866A2A0108D417F68C724988",
+      "bytes": 1143649,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-resume.png",
+      "sha256": "7BDD12205A2BAD9403EAF17F706E7A11C163749ABC677CA9B4CE30810FBA8A31",
+      "bytes": 1348081,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-revised.png",
+      "sha256": "A1387697D5650FC29DF199FC9B2C6D84A246DD1BD727ED0D522E3D78A3372E3C",
+      "bytes": 1318750,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-understanding.png",
+      "sha256": "41B897E25B549629A561C2070E50D758B6B6DE973F509986EE73FB2FDCC792E0",
+      "bytes": 1189652,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/acceptance-work.png",
+      "sha256": "23AEA56F1521B0E99503112D69F1BEE8225C8C0D79434E6AF2017D3F6E5A2E61",
+      "bytes": 571008,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-1280.png",
+      "sha256": "B871B64F83BDECCA2A9512E8A98F9C9524293EE9B7595126377F5B0564613855",
+      "bytes": 826486,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-880.png",
+      "sha256": "F68CCE3975A637C9BE8D27E35480888372E227460669527D962BA925EDA46737",
+      "bytes": 471475,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-comparison.png",
+      "sha256": "98A54345ABB8EC7F4A2F7E6AD412B8BBC7ACC9A6674C644A898ADAE3C06A18C5",
+      "bytes": 1120424,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-discussion.png",
+      "sha256": "F67C3CF8C4BE8A4C40E162ED555659F6D4B9759E0AEDCDCCB5C4CAB37601E10B",
+      "bytes": 1323939,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-handoff.png",
+      "sha256": "89A648D51BFAE792E68678E0B9188C2853B99C209D403072A37CD94366E6AA6B",
+      "bytes": 1115445,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-paused.png",
+      "sha256": "1AE3CFA115CF43F9EDA161E974356CC03EFCC76A6A1E13AD35CDA0F0C684E27E",
+      "bytes": 1736141,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-reading.png",
+      "sha256": "D938430243D61BEC1E3997E6557B9994D51D6154B8C19F310106EB40FD7F270F",
+      "bytes": 380424,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-reentry.png",
+      "sha256": "01C51A22E9E4B3FABE24F71FDDC9D2825F69584AD3D12AB240DD23EFF7E250C0",
+      "bytes": 1349900,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-results.png",
+      "sha256": "74005174ACCF05C06FCD0912DD793133C1B32AC9866A2A0108D417F68C724988",
+      "bytes": 1143649,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-resume.png",
+      "sha256": "7BDD12205A2BAD9403EAF17F706E7A11C163749ABC677CA9B4CE30810FBA8A31",
+      "bytes": 1348081,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-revised.png",
+      "sha256": "A8BFEFC9626F103A8CEB290FE5DEE90C82AAD52049B4E4D9932998C8B0855B35",
+      "bytes": 1326865,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-understanding.png",
+      "sha256": "41B897E25B549629A561C2070E50D758B6B6DE973F509986EE73FB2FDCC792E0",
+      "bytes": 1189652,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/final-work.png",
+      "sha256": "23AEA56F1521B0E99503112D69F1BEE8225C8C0D79434E6AF2017D3F6E5A2E61",
+      "bytes": 571008,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-1280.png",
+      "sha256": "8917B7FB25BEEDDCDED1D27C19C3AF46B5390351A8D183D81F2E1A84C6EF875D",
+      "bytes": 817315,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-880.png",
+      "sha256": "D30BE6EA582E891CD528ED127DA8CD233996834DD50E01975BF3F8C52FBFF3E8",
+      "bytes": 472144,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-comparison.png",
+      "sha256": "99C184EF3EFBBF3B9860594A0342894AFCB9CE5E028F5D47ACBED214D874974E",
+      "bytes": 1117708,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-discussion.png",
+      "sha256": "DE925E3AC7874F3C6D7632BB61C51834E759CFE975300EFD20764A020251B603",
+      "bytes": 1325367,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-handoff.png",
+      "sha256": "A9A5B2A9215F1D352FF48ADD7BBF0CD14E85C62FBC9370BFA507804B36BACC60",
+      "bytes": 1093541,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-paused.png",
+      "sha256": "22A39F1D70AD4602061B4FE483325CF1968B7E52CCC5E8F71EFE6983AA02F5EF",
+      "bytes": 1735496,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-reading.png",
+      "sha256": "D938430243D61BEC1E3997E6557B9994D51D6154B8C19F310106EB40FD7F270F",
+      "bytes": 380424,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-reentry.png",
+      "sha256": "DA2334E41CEDF82AC36AE77E171B67A49DC9F75B23C04F9E4EB684F3F4C54ED1",
+      "bytes": 1342215,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-results.png",
+      "sha256": "359882C5D58870B7FB2FFBA5C28E5C49C5EF58A37965F2FCD6EC6B16AFFE088C",
+      "bytes": 1125448,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-resume.png",
+      "sha256": "7BDD12205A2BAD9403EAF17F706E7A11C163749ABC677CA9B4CE30810FBA8A31",
+      "bytes": 1348081,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-revised.png",
+      "sha256": "87B38F0E1F5853A343A897806CCCC5DD543DB6F6D2E5C1EB501E4093024B12B9",
+      "bytes": 1327124,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-understanding.png",
+      "sha256": "03F330D358CCCFEBE3FCE9DAA902E480E72355EC91C3586282C8A44A697110BB",
+      "bytes": 1191267,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/first-work.png",
+      "sha256": "B51EB32832762D958C74ACAE207D59ADF45B1FC3F7FE6B2D2A993F4795E723BB",
+      "bytes": 560935,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-1280.png",
+      "sha256": "B871B64F83BDECCA2A9512E8A98F9C9524293EE9B7595126377F5B0564613855",
+      "bytes": 826486,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-880.png",
+      "sha256": "F68CCE3975A637C9BE8D27E35480888372E227460669527D962BA925EDA46737",
+      "bytes": 471475,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-comparison.png",
+      "sha256": "98A54345ABB8EC7F4A2F7E6AD412B8BBC7ACC9A6674C644A898ADAE3C06A18C5",
+      "bytes": 1120424,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-discussion.png",
+      "sha256": "6E45BD208A1649ED151529EBE3D20A71C6F9580F72CAA35EF48EE0E8E8599082",
+      "bytes": 1334819,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-handoff.png",
+      "sha256": "89A648D51BFAE792E68678E0B9188C2853B99C209D403072A37CD94366E6AA6B",
+      "bytes": 1115445,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-paused.png",
+      "sha256": "1AE3CFA115CF43F9EDA161E974356CC03EFCC76A6A1E13AD35CDA0F0C684E27E",
+      "bytes": 1736141,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-reading.png",
+      "sha256": "D938430243D61BEC1E3997E6557B9994D51D6154B8C19F310106EB40FD7F270F",
+      "bytes": 380424,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-reentry.png",
+      "sha256": "01C51A22E9E4B3FABE24F71FDDC9D2825F69584AD3D12AB240DD23EFF7E250C0",
+      "bytes": 1349900,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-results.png",
+      "sha256": "74005174ACCF05C06FCD0912DD793133C1B32AC9866A2A0108D417F68C724988",
+      "bytes": 1143649,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-resume.png",
+      "sha256": "7BDD12205A2BAD9403EAF17F706E7A11C163749ABC677CA9B4CE30810FBA8A31",
+      "bytes": 1348081,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-revised.png",
+      "sha256": "A1387697D5650FC29DF199FC9B2C6D84A246DD1BD727ED0D522E3D78A3372E3C",
+      "bytes": 1318750,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-understanding.png",
+      "sha256": "41B897E25B549629A561C2070E50D758B6B6DE973F509986EE73FB2FDCC792E0",
+      "bytes": 1189652,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/verified-work.png",
+      "sha256": "23AEA56F1521B0E99503112D69F1BEE8225C8C0D79434E6AF2017D3F6E5A2E61",
+      "bytes": 571008,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-web-v1-integration-20260915/coordination/context-package.json",
+      "sha256": "918D75E6C80AAD8054B3F59B24810BED2CE261390AC4425CCA8E0481275C921E",
+      "bytes": 17965,
+      "category": "task-contract"
+    },
+    {
+      "path": "artifacts/trace-web-v1-integration-20260915/coordination/CONTRACT.md",
+      "sha256": "5DAE50501DD3A3BA771681C5E46EDB280BA45062B4B9BCB15B8B38A6ADFC7EBE",
+      "bytes": 2936,
+      "category": "task-contract"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/coordination/context-package.json",
+      "sha256": "DD9BDA87EDB138B15C3A3E9535BD78BF5E51934DA333A4175C251BF8F7078C06",
+      "bytes": 4654,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/derived/font-face.css",
+      "sha256": "B060E3C5D72F257C5DE13B2FD2365822E3CB4910E1F0FF47C9F519A3FE91402D",
+      "bytes": 386,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/derived/OFL-noto-sans-sc.txt",
+      "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "bytes": 4388,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/derived/OFL-source-han-serif-cn.txt",
+      "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "bytes": 4463,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/derived/TraceWorksiteSans-fixed.woff2",
+      "sha256": "CBF26882BECA434167653D85258BF92D8D1DD5A5E1888A5E1D242C51916F112C",
+      "bytes": 144176,
+      "category": "final-derived"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/derived/TraceWorksiteSerif-fixed.woff2",
+      "sha256": "95C335CC8A689C6D2AFAD55B5C8FA4CDAA2F0DF554FD221578BEDFABA8C06B3D",
+      "bytes": 191992,
+      "category": "final-derived"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/font-check.png",
+      "sha256": "E51C3427293ED0ED8F4447E0C18C785A7B4A7C4D388F286C96B846F11563C314",
+      "bytes": 117932,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/FONT-USAGE.md",
+      "sha256": "9D36CE80E65796BA7BB7DD8F36E7EC325DC9B7955EFBD4D6C7C0508A95B5B548",
+      "bytes": 4061,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/manifest.json",
+      "sha256": "BEF2EE3757590652D274FF421EF25D1B2EF8AEC2774BD59F815C70105B607C6E",
+      "bytes": 10499,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf",
+      "sha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA",
+      "bytes": 17772300,
+      "category": "official-original-byte-copy"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/originals/noto-sans-sc/OFL.txt",
+      "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "bytes": 4388,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/originals/source-han-serif-cn/LICENSE.txt",
+      "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "bytes": 4463,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2",
+      "sha256": "556749BA783B148FA1F48644E8883E5B9351F01ABD0D1FAAD0BA24A21185E76A",
+      "bytes": 11035128,
+      "category": "official-original-byte-copy"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/images/ASSET-NOTES.md",
+      "sha256": "3FCA2677415B5A671B4557A058B6F57A57BFE9C75513036BAFCA81483E7B306F",
+      "bytes": 3371,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/images/manifest.json",
+      "sha256": "00751411F78CB4A90C9B3FC9F4DC968F2B1D017AFA788B68F3B8FACC8EE7E543",
+      "bytes": 12082,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/images/originals/worksite-environment-generated-v1.png",
+      "sha256": "2463A5F88546A19621FEE22F95279F7BD6523734301C1AAA92DF614BE13B24E5",
+      "bytes": 1406696,
+      "category": "generated-original"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/images/ready/bird-perched.png",
+      "sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "bytes": 428617,
+      "category": "ready-byte-copy"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/images/ready/bird-takeoff.png",
+      "sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "bytes": 858034,
+      "category": "ready-byte-copy"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/images/ready/worksite-environment.png",
+      "sha256": "2463A5F88546A19621FEE22F95279F7BD6523734301C1AAA92DF614BE13B24E5",
+      "bytes": 1406696,
+      "category": "final-ready"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/final-empty-1672.png",
+      "sha256": "CAEAF49FD8CBFE90D0655E1DF771C45B60833827A47D5E606F96B0FF41A740E6",
+      "bytes": 1386871,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/final-finding-1672.png",
+      "sha256": "D5DFAB928BAF1B93732D6386F8736E61C6806526774888BACF35783322038EA1",
+      "bytes": 1354271,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/final-finding-880.png",
+      "sha256": "415172BB4F3C6085C3A067F06D75410AE405326086D6BB15AE9633F2FFE21D13",
+      "bytes": 387078,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/final-impact-1672.png",
+      "sha256": "1C43F899664CC15BBCE18649CD40498C8C9D9AE7F60E6486A25BB715BF4E1AA3",
+      "bytes": 1295675,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/final-intake-1672.png",
+      "sha256": "6B183DFE289A0804278EF43A80A714C1704CB6C96ABF9C53AC6DAFE1CC1CC863",
+      "bytes": 1384057,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/final-overview-1672.png",
+      "sha256": "400B9752A066AC83DEEA91B71512F456845C8BBDFF7B3F1764D2E632CC43FB60",
+      "bytes": 1389722,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/final-results-1672.png",
+      "sha256": "B36876DE9E3FE9BB4B7B488740E05A7CC78B425A168C3FF8519057BE90C18F1A",
+      "bytes": 1353391,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/final-results-390.png",
+      "sha256": "4276C4D3D9B0D3093E71198C0CC8C86D12046C79B657A52DD6450C679102E86E",
+      "bytes": 268870,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/first-empty-1672.png",
+      "sha256": "DAE8990D298D4D8E6A775D4602BA241C2D82E7511056FFC5F8098B6E9A09E978",
+      "bytes": 1390033,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/first-finding-1672.png",
+      "sha256": "CCA14AA29DF5F3507032C4607E746EF0D727A6AC54450FBE798864367EE355FA",
+      "bytes": 1351638,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/first-finding-880.png",
+      "sha256": "7D618B4A45DEF5ABB9EFFC6DA1EA6C07AF29057669F40010ED687C3BCC786C30",
+      "bytes": 391032,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/first-impact-1672.png",
+      "sha256": "CAB538904E757A0D1EDCCC46FB82C3651DADE9ACBDD527058FA8A5285B568B1A",
+      "bytes": 1296223,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/first-intake-1672.png",
+      "sha256": "9F4850A265800CF7540234E1BC189CAA652329F1495FD54B17060BED920C4132",
+      "bytes": 1383172,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/first-overview-1672.png",
+      "sha256": "7139A2DC1DBDEF2851AC48C90F03C6C0F6C4D5B0834C4C0E087F90E1943F7F9B",
+      "bytes": 1390487,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/first-results-1672.png",
+      "sha256": "46A2515978D2E4896304D4543682A90215DDFEC491B0DBEDCD4EF14753ED6689",
+      "bytes": 1349296,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/first-results-390.png",
+      "sha256": "9A3744EAC0A641F50627851EB7947E374F2AC3DD8D930EABB696677F2993C832",
+      "bytes": 269441,
+      "category": "test-screenshot-not-runtime-asset"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/01-工作总览态.png",
+      "sha256": "35AA523604BD67C37C5AFDF4EC0709863B5A37170F19C3A4B04C78E738E72196",
+      "bytes": 1586726,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/02-带入展开态.png",
+      "sha256": "AB2CDB09D895B283BA9AE17ACFCD444B68C758EFE248A64274EDA67509BA9B16",
+      "bytes": 1530518,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/03-影响追溯态.png",
+      "sha256": "48EA5AA2838884161B7164F60F21266B06890A2E8886372BDE95ADAA1AC5D207",
+      "bytes": 1506326,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/04-发现展开态.png",
+      "sha256": "EFC10C455E1D9FE6C5A90E193BF5E0D5CBADE371C4173D5C4DA3212CED7E7E93",
+      "bytes": 1533787,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/05-结果比较态.png",
+      "sha256": "CDB661B0CF0F1D69F1F0F00F16D4748120C7F5BB8E1A32C12F61BF161A2C38FE",
+      "bytes": 1606099,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/生图提示词.json",
+      "sha256": "68C28CCBD6771246E41FEB8C77DBAFE41F92A28C34CB10C89E62D427F5B05865",
+      "bytes": 23298,
+      "category": "reference-metadata"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/资源清单.json",
+      "sha256": "7A878B31B500C8530FA52203F4D6575F8DFBA61736CF63E0EAA1014FB5BDBD2E",
+      "bytes": 2954,
+      "category": "reference-metadata"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/README.md",
+      "sha256": "79435E5C9B651F887ADB5239D1815F6DF1287EA3A76F2639CE704256EF997E01",
+      "bytes": 3096,
+      "category": "reference-metadata"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/01-静默总览态.png",
+      "sha256": "5B5FED812C2F9E90FD8114A0D28974931EB4924D94C4ADEAA48C4B935CEF50E9",
+      "bytes": 1868924,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/02-悬停识别态.png",
+      "sha256": "4208E685D2B6EF1A9AB0D8F2E4274909DE14D79C389F2BAA6A3287EF0A44DDB9",
+      "bytes": 1803165,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/03-点击进入-气泡生长态.png",
+      "sha256": "145F15038A06A05FA830ACA95E1CDC325D12F7131E77419CDB9DF29D63542D3C",
+      "bytes": 1799123,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/04-重新进入面.png",
+      "sha256": "B3DE9BC674B206B118B37C54CFA7054CAD7F2DBD8B0D42F79D9613A4E36E919F",
+      "bytes": 1809653,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/05-新的对照-深度继续态.png",
+      "sha256": "60C1C9122AC06CBAB13ABB3ED74093C99BF2D9F7F4E040C890AAAADD2D3B0116",
+      "bytes": 1927230,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/06-搜索精确找回态.png",
+      "sha256": "C9026AF6664D3434FE778E7E11AD331584FF419AD30A8163A5CABC90B1C66302",
+      "bytes": 1525051,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/核心功能页面/Trace在意的事完整交互链路_v1/07-变化折回总览态.png",
+      "sha256": "FE26AA8E994C06E652CB4C8C16E3569716F3A172468FD162B79E79E73762D527",
+      "bytes": 1814605,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/首页/Trace首页交互状态_v1/01-首页静默总览态.png",
+      "sha256": "8A28B3E48A916D3C92045CE2AB34CB1EA15322C373B7CFA3FAAC6B605D972D7D",
+      "bytes": 1594957,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/首页/Trace首页交互状态_v1/02-气泡唤醒四帧分镜.png",
+      "sha256": "34BCEA097EF6DD766CEEA84E9E2A6A639D0C4DCD39DBE58E1BEE6ACD369C25A9",
+      "bytes": 1880997,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/首页/Trace首页交互状态_v1/03-思考接续态.png",
+      "sha256": "CD81A0A2ED698983B8F14F3549C25CB8DFA6580F786B5534457B49B436C54B09",
+      "bytes": 1631365,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/首页/Trace首页交互状态_v1/04-思考生长态.png",
+      "sha256": "B09408B1CEABCFE72B555A3C6F128FD7E27E5F65C0B1D50980F5E1567555771C",
+      "bytes": 1590153,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/首页/Trace首页交互状态_v1/05-工作接续态.png",
+      "sha256": "60A8F8E5045ACA75F48224DBDB7B1BD2F9D14CC9A0E5CBC7AFC9BB7D08CAAF6E",
+      "bytes": 1648905,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/首页/Trace首页交互状态_v1/06-结果回流态.png",
+      "sha256": "D60DBBD4BCDA829BD0A0FCC0AB1D8A0B6DDF06D3DADB27B536D73B108393519F",
+      "bytes": 1671000,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/01-阅读现场-留下一点.png",
+      "sha256": "170CE78251FD2A7C9D89C4A1D7074C59A05EC1D39A08A96FDDE9F970E7E03A43",
+      "bytes": 1199938,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/02-气泡展开-接着这里.png",
+      "sha256": "92431DBC3340DB4FD08B16DB94DA844F2A2ACC49686A0C70B9F0D7D03AA6A1AE",
+      "bytes": 1459706,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/03-围绕一处-展开讨论.png",
+      "sha256": "D949517717F3FED0AF11FAA0C4FE9D06069555ABC988E184F2F0E0B7572BDD6E",
+      "bytes": 1483689,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/04-找个对照-接回具体位置.png",
+      "sha256": "C7B13CA578C683DF87E597DEBAEFA4B652A197ADC7F6FF1B7D24FB087936830A",
+      "bytes": 1443723,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/05-我的理解-局部编辑与建议.png",
+      "sha256": "C7241AB986417144D986D57EADFB0D95CE17B684E6ACE51BB9B7FED96A8A1A76",
+      "bytes": 1382734,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/06-先放这里-收起后留下停点.png",
+      "sha256": "16AE6819AD8B9B934B0FA8F120FD377512CC55C0D0CE66F9291EE89B0B706C98",
+      "bytes": 1691531,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/07-重新拿起-带着新材料回来.png",
+      "sha256": "0063AF1C70A9F343E2879924B96190C284F18811154B73D49EE960B8578F0644",
+      "bytes": 1489695,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/08-带去用-确认这次怎么参与.png",
+      "sha256": "C403328BE4FE8E1C58D03C45891DFD7BE082F3D9C8994EC356060984CB90BAA0",
+      "bytes": 1487858,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/09-原生工作旁-参考与新增发现.png",
+      "sha256": "384C0F0DE35BBFF91E0384202C03227E50138AA5A4A0A8B4CB621B47E2EFF342",
+      "bytes": 1172981,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/10-结果回来-比较并修正理解.png",
+      "sha256": "66198E0FD435BB070DF4DAE0B0A1921A4DEF1D556290C5066B820947E06311DC",
+      "bytes": 1525985,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/11-修订落回-从新理解继续.png",
+      "sha256": "85E72ACCB93B2B44BA8B2C9F98B9C485B70DCE3BC3FC67EEB8E889050D394E9E",
+      "bytes": 1465105,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/看图说明.md",
+      "sha256": "4DC005591C83C12AB8B0CB33EA04A578DCC56519B06B183A29E5B1F8F4AF3231",
+      "bytes": 5409,
+      "category": "reference-metadata"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/生图提示词与来源.json",
+      "sha256": "25946B375132E2834231D3450C8F09FA4C3A3A6BB80348199DC63F812A9AFB68",
+      "bytes": 29699,
+      "category": "reference-metadata"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/图片校验.json",
+      "sha256": "0759EE5517EDF6CE2BEB54AF4A2590BCC4248EFF3B25BEAC8B1104E25F536F90",
+      "bytes": 2615,
+      "category": "reference-metadata"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/01-从这一处找.png",
+      "sha256": "BD46461E83A1AF902DC3D17AF0C58632279FD7BE51A9C59C329814AF3499CEC7",
+      "bytes": 1427082,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/02-发现候选.png",
+      "sha256": "C7B3900780900FAF3DD68D1F44675E2138130BFE4C7536729DAB77CC96EE4DEC",
+      "bytes": 1533845,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/03-放在一起看.png",
+      "sha256": "B55FF99946F6024CCBCD226E08A6874261349FA0EE436EF9FD8109F1B2AEA31A",
+      "bytes": 1461152,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/04-接回原处.png",
+      "sha256": "EF9CA245EBAB78C2DFBEF2334BA6AFC721C44EAD9C1A455B1993B3678ED39C40",
+      "bytes": 1377578,
+      "category": "visual-reference-original"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/找个对照完整交互链路/Trace找个对照_UI链路_v1/generation-prompts.json",
+      "sha256": "FEED38AD6F75CAE0B9C2732DB68775DA9090996D22BD22E9F9D4E466420B442A",
+      "bytes": 19563,
+      "category": "reference-metadata"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/home/bird-perched.png",
+      "sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "bytes": 428617,
+      "category": "app-packaged-copy"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/home/bird-takeoff.png",
+      "sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "bytes": 858034,
+      "category": "app-packaged-copy"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/home/environment.png",
+      "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "bytes": 1564971,
+      "category": "app-packaged-copy"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/home/fonts/TraceHomeSans-fixed.woff2",
+      "sha256": "910B4E5A05FCB8C0631AB64EB51D29417D833087C487AFDF9DDABDBB0B7D1EBE",
+      "bytes": 103200,
+      "category": "app-packaged-copy"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/home/fonts/TraceHomeSerif-fixed.woff2",
+      "sha256": "023539D77B00A8164AEE9900BD24E0DC0928C1515D4F9A00477826ABB4FFE31D",
+      "bytes": 140548,
+      "category": "app-packaged-copy"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/home/licenses/anime-LICENSE.md",
+      "sha256": "3F3E835A9952CFC2A6CA836FB95B3257C981F24FA3EF51249055ACB09931897B",
+      "bytes": 1075,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/home/licenses/liquidglass-LICENSE.txt",
+      "sha256": "B4DDCA14599CE25F86F5CBFC490742D51F145BE7529D9C44513095EC53029C30",
+      "bytes": 1071,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/home/licenses/magicui-LICENSE.md",
+      "sha256": "0147B84235ED916B8B4E89C1F80655351C5AFE7D211B629BE61F553A227B34BA",
+      "bytes": 1060,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/home/licenses/OFL-noto-sans-sc.txt",
+      "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "bytes": 4388,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/home/licenses/OFL-source-han-serif-cn.txt",
+      "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "bytes": 4463,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/matters/environment.png",
+      "sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89",
+      "bytes": 1943325,
+      "category": "app-packaged-copy"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/matters/fonts/TraceMattersSans-fixed.woff2",
+      "sha256": "31F9766E8A7122291E2EC1D10E674ACDE07D2085D997AB8F6F64C794749DD085",
+      "bytes": 146468,
+      "category": "app-packaged-copy"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/matters/fonts/TraceMattersSerif-fixed.woff2",
+      "sha256": "6B1D904266F22E080E8A3C8B63DC5F8C9153001302A73D5A3F5EEE0A103070FE",
+      "bytes": 195532,
+      "category": "app-packaged-copy"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/matters/licenses/OFL-noto-sans-sc.txt",
+      "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "bytes": 4388,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/public/matters/licenses/OFL-source-han-serif-cn.txt",
+      "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "bytes": 4463,
+      "category": "provenance-or-license"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/vendor/anime.esm.js",
+      "sha256": "A19015A1A92D52025A2FB6703B6D67EADD1CC2AEAF880770E96E04CF6AA07BE1",
+      "bytes": 118678,
+      "category": "app-packaged-copy"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/vendor/shape-only.mjs",
+      "sha256": "30CE49881E35EC8ED8E4235CE6934A19F56761069E072DA11E77C9B6191E6D22",
+      "bytes": 17644,
+      "category": "app-packaged-copy"
+    }
+  ],
+  "sameByteGroups": [
+    {
+      "key": "environment.home",
+      "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "paths": [
+        "artifacts/trace-home-v1-20260914/images/ready/home-environment.png",
+        "artifacts/trace-home-v1-20260914/images/originals/A-home-environment.png",
+        "trace-runtime/apps/desktop/public/home/environment.png"
+      ]
+    },
+    {
+      "key": "environment.matters",
+      "sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89",
+      "paths": [
+        "artifacts/trace-matters-v1-20260915/images/ready/matters-environment.png",
+        "artifacts/trace-matters-v1-20260915/images/originals/A-matters-environment.png",
+        "trace-runtime/apps/desktop/public/matters/environment.png"
+      ]
+    },
+    {
+      "key": "environment.chain.inner",
+      "sha256": "49A39B936545E0AC5AA65B4CA8E5D998A392728E5D6EB72033F68185ADB6ED13",
+      "paths": [
+        "artifacts/trace-one-thing-v1-20260915/images/ready/chain-environment.png",
+        "artifacts/trace-one-thing-v1-20260915/images/originals/inner-environment-generated-v1.png"
+      ]
+    },
+    {
+      "key": "environment.chain.overview",
+      "sha256": "A4DDA0E97BF3FFEF2D87D48BE07C272E6C69633A236B07676A92A4DC755C6875",
+      "paths": [
+        "artifacts/trace-one-thing-v1-20260915/images/ready/chain-overview-environment.png",
+        "artifacts/trace-one-thing-v1-20260915/images/originals/overview-environment-generated-v1.png"
+      ]
+    },
+    {
+      "key": "environment.worksite",
+      "sha256": "2463A5F88546A19621FEE22F95279F7BD6523734301C1AAA92DF614BE13B24E5",
+      "paths": [
+        "artifacts/trace-worksite-v1-20260915/images/ready/worksite-environment.png",
+        "artifacts/trace-worksite-v1-20260915/images/originals/worksite-environment-generated-v1.png"
+      ]
+    },
+    {
+      "key": "environment.compare",
+      "sha256": "23217AF8B9CAD4A4FF3C0A1CE99E89ED7D26E24E79BD1D9DAE81155166859185",
+      "paths": [
+        "artifacts/trace-compare-v1-20260915/images/ready/compare-environment.png",
+        "artifacts/trace-compare-v1-20260915/images/originals/compare-environment-generated-v1.png"
+      ]
+    },
+    {
+      "key": "bird.perched",
+      "sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "paths": [
+        "artifacts/trace-home-v1-20260914/images/repaired/bird-perched.png",
+        "trace-runtime/apps/desktop/public/home/bird-perched.png",
+        "artifacts/trace-one-thing-v1-20260915/images/ready/bird-perched.png",
+        "artifacts/trace-worksite-v1-20260915/images/ready/bird-perched.png",
+        "artifacts/trace-compare-v1-20260915/images/ready/bird-perched.png"
+      ]
+    },
+    {
+      "key": "bird.takeoff",
+      "sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "paths": [
+        "artifacts/trace-home-v1-20260914/images/repaired/bird-takeoff.png",
+        "trace-runtime/apps/desktop/public/home/bird-takeoff.png",
+        "artifacts/trace-one-thing-v1-20260915/images/ready/bird-takeoff.png",
+        "artifacts/trace-worksite-v1-20260915/images/ready/bird-takeoff.png",
+        "artifacts/trace-compare-v1-20260915/images/ready/bird-takeoff.png"
+      ]
+    },
+    {
+      "key": "font.original.serif",
+      "sha256": "556749BA783B148FA1F48644E8883E5B9351F01ABD0D1FAAD0BA24A21185E76A",
+      "paths": [
+        "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2",
+        "artifacts/trace-one-thing-v1-20260915/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2",
+        "artifacts/trace-worksite-v1-20260915/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2"
+      ]
+    },
+    {
+      "key": "font.original.sans",
+      "sha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA",
+      "paths": [
+        "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf",
+        "artifacts/trace-one-thing-v1-20260915/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf",
+        "artifacts/trace-worksite-v1-20260915/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf"
+      ]
+    },
+    {
+      "key": "font.fixed.home.serif",
+      "sha256": "023539D77B00A8164AEE9900BD24E0DC0928C1515D4F9A00477826ABB4FFE31D",
+      "paths": [
+        "artifacts/trace-home-v1-20260914/fonts/derived/TraceHomeSerif-fixed.woff2",
+        "trace-runtime/apps/desktop/public/home/fonts/TraceHomeSerif-fixed.woff2"
+      ]
+    },
+    {
+      "key": "font.fixed.home.sans",
+      "sha256": "910B4E5A05FCB8C0631AB64EB51D29417D833087C487AFDF9DDABDBB0B7D1EBE",
+      "paths": [
+        "artifacts/trace-home-v1-20260914/fonts/derived/TraceHomeSans-fixed.woff2",
+        "trace-runtime/apps/desktop/public/home/fonts/TraceHomeSans-fixed.woff2"
+      ]
+    },
+    {
+      "key": "font.fixed.matters.serif",
+      "sha256": "6B1D904266F22E080E8A3C8B63DC5F8C9153001302A73D5A3F5EEE0A103070FE",
+      "paths": [
+        "artifacts/trace-matters-v1-20260915/fonts/derived/TraceMattersSerif-fixed.woff2",
+        "trace-runtime/apps/desktop/public/matters/fonts/TraceMattersSerif-fixed.woff2"
+      ]
+    },
+    {
+      "key": "font.fixed.matters.sans",
+      "sha256": "31F9766E8A7122291E2EC1D10E674ACDE07D2085D997AB8F6F64C794749DD085",
+      "paths": [
+        "artifacts/trace-matters-v1-20260915/fonts/derived/TraceMattersSans-fixed.woff2",
+        "trace-runtime/apps/desktop/public/matters/fonts/TraceMattersSans-fixed.woff2"
+      ]
+    },
+    {
+      "key": "animation.anime",
+      "sha256": "A19015A1A92D52025A2FB6703B6D67EADD1CC2AEAF880770E96E04CF6AA07BE1",
+      "paths": [
+        "artifacts/trace-home-v1-20260914/components/originals/animejs/dist/bundles/anime.esm.min.js",
+        "trace-runtime/apps/desktop/src/vendor/anime.esm.js"
+      ]
+    },
+    {
+      "key": "material.glass-shape",
+      "sha256": "30CE49881E35EC8ED8E4235CE6934A19F56761069E072DA11E77C9B6191E6D22",
+      "paths": [
+        "artifacts/trace-home-v1-20260914/components/derived/liquidglassjs/shape-only.mjs",
+        "trace-runtime/apps/desktop/src/vendor/shape-only.mjs"
+      ]
+    }
+  ],
+  "implementationSnapshots": [
+    {
+      "path": "trace-runtime/apps/desktop/src/home-icons.js",
+      "sha256": "5AB8F56A90BCD54B180D21951856EB81BE118BBFA743ABA9AF1B5FC909D20854",
+      "bytes": 1696,
+      "policy": "observe-only-root-may-integrate"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/home/scene-glass.js",
+      "sha256": "0DE8F99069D46021162DA35B8757C496639A70B4371A69A8AD79DBF267E3B772",
+      "bytes": 8287,
+      "policy": "observe-only-root-may-integrate"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/home.css",
+      "sha256": "9A365B708F1BFF758816D34D1922902893246F62592D232803115803792181A9",
+      "bytes": 19998,
+      "policy": "observe-only-root-may-integrate"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/home.js",
+      "sha256": "E8C38C8F95107C26D998916A01F4BCB8A983C5DB63C7EA8240EEADEB380D587A",
+      "bytes": 25983,
+      "policy": "observe-only-root-may-integrate"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/main.js",
+      "sha256": "F4E70518980645CBE9723035B5A34CB9A796B6E01C5BC8CB2EC5BE94BD0DD85A",
+      "bytes": 6038,
+      "policy": "observe-only-root-may-integrate"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/matters/matters.css",
+      "sha256": "4FE6ABB8163307427E97E4A9E8BECB668561A76040FEF21DFA9A990B3127408A",
+      "bytes": 26140,
+      "policy": "observe-only-root-may-integrate"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/matters/matters-screen.mjs",
+      "sha256": "D8C576DD8E2B8924B9D525BCE1EB29CFFCF80DE671C6C017B34D4DA97BB88198",
+      "bytes": 41481,
+      "policy": "observe-only-root-may-integrate"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/chain-screen.mjs",
+      "sha256": "9629B4AF37E0C68E30A01EAECA5612EDF5B9F48E21B0616FE6F4203FA167710F",
+      "bytes": 40946,
+      "policy": "immutable-existing-module"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/chain-helpers.mjs",
+      "sha256": "C37ACE8E2ECD28DF61414B1442D579FBFEC2BC709A410687E83FEE331B75DAE7",
+      "bytes": 4842,
+      "policy": "immutable-existing-module"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/chain.css",
+      "sha256": "D0796798A1245E468CF5DC21897BF4939E8A9DC6252B0F5D5854E5A2FBEA6760",
+      "bytes": 35348,
+      "policy": "immutable-existing-module"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/worksite-screen.mjs",
+      "sha256": "293AE775CC6F61F66134BFD487F7C00E5F10B6B97BAEB96EAE1427B78250F625",
+      "bytes": 43962,
+      "policy": "immutable-existing-module"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/worksite-icons.mjs",
+      "sha256": "E1BF3A562883D49F058C23C4A16DE30B08376E76510BE292BB98C9B49A50CBC8",
+      "bytes": 2031,
+      "policy": "immutable-existing-module"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/worksite.css",
+      "sha256": "C06CC8ACE52A56B7BE603C03B2941A6F33741FA7FB922E6D80627D0A2C865D9F",
+      "bytes": 46099,
+      "policy": "immutable-existing-module"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/comparison-screen.mjs",
+      "sha256": "8A245E8DB9FF1ED8BADBC93DB1184AAF4351B2C76895F17C28CC62F9E1486561",
+      "bytes": 34642,
+      "policy": "immutable-existing-module"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/comparison.css",
+      "sha256": "5D075F613C2D0282136606B095A47644B192E2F9147257C0B92B3CE2CA28A759",
+      "bytes": 39574,
+      "policy": "immutable-existing-module"
+    }
+  ],
+  "exclusionPolicy": {
+    "visual-reference-original": "原始视觉参考，不可当成整页运行资源",
+    "generated-original": "原始生成备份，ready 同字节；不移动/覆盖",
+    "failed-transparent-bird-original": "含真实棋盘格的 RGB 鸟，不能接入",
+    "superseded-font-subset": "旧 603/640 子集，不能覆盖最终 derived",
+    "test-screenshot-not-runtime-asset": "first/final/verified/acceptance/proof 只证明当时对应版本；不可当背景",
+    "repair-proof-not-runtime-asset": "alpha/full/深绿灰底检查图，不替代最终裁后 RGBA",
+    "rejected-repair-diagnostic": "中间/失败诊断，不提升为 ready"
+  },
+  "validationLimits": [
+    "Hash/path/provenance checks only, not business or visual acceptance.",
+    "Current-app use is a dated static source and byte observation, not fresh browser proof.",
+    "No dynamic Unicode, font shaping, accessibility-device, desktop package or performance acceptance.",
+    "App implementation snapshots are observe-only because root owns integration."
+  ]
+}

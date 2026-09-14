@@ -1,0 +1,113 @@
+{
+  "taskId": "trace-worksite-v1-20260915",
+  "createdAt": "2026-09-14T16:48:27.313767+00:00",
+  "repository": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime",
+  "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "references": [
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/01-工作总览态.png",
+      "size": 1586726,
+      "sha256": "35AA523604BD67C37C5AFDF4EC0709863B5A37170F19C3A4B04C78E738E72196"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/02-带入展开态.png",
+      "size": 1530518,
+      "sha256": "AB2CDB09D895B283BA9AE17ACFCD444B68C758EFE248A64274EDA67509BA9B16"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/03-影响追溯态.png",
+      "size": 1506326,
+      "sha256": "48EA5AA2838884161B7164F60F21266B06890A2E8886372BDE95ADAA1AC5D207"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/04-发现展开态.png",
+      "size": 1533787,
+      "sha256": "EFC10C455E1D9FE6C5A90E193BF5E0D5CBADE371C4173D5C4DA3212CED7E7E93"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/05-结果比较态.png",
+      "size": 1606099,
+      "sha256": "CDB661B0CF0F1D69F1F0F00F16D4748120C7F5BB8E1A32C12F61BF161A2C38FE"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/README.md",
+      "size": 3096,
+      "sha256": "79435E5C9B651F887ADB5239D1815F6DF1287EA3A76F2639CE704256EF997E01"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/生图提示词.json",
+      "size": 23298,
+      "sha256": "68C28CCBD6771246E41FEB8C77DBAFE41F92A28C34CB10C89E62D427F5B05865"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/资源清单.json",
+      "size": 2954,
+      "sha256": "7A878B31B500C8530FA52203F4D6575F8DFBA61736CF63E0EAA1014FB5BDBD2E"
+    }
+  ],
+  "appBaseline": [
+    {
+      "path": "trace-runtime/apps/desktop/src/main.js",
+      "size": 1009,
+      "sha256": "2F8A15ACA58399623C8208E7EEA7633476AEA1E4F7E7523429DD69257C5AA994"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/home.js",
+      "size": 24275,
+      "sha256": "D0CE1B9F0B9A89572668237D04FFE18084A53EC274D63F816222FC761B106044"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/home-model.js",
+      "size": 5309,
+      "sha256": "1B2797B1AE8294B9E4B4E98E44C6A0C09678240AB3B589C446D54E0B83848FA4"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/home.css",
+      "size": 19998,
+      "sha256": "9A365B708F1BFF758816D34D1922902893246F62592D232803115803792181A9"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/discussion.js",
+      "size": 16952,
+      "sha256": "0D9ECFDD8D779ADB47F4B545935FDC0EA1523203EABFF4FFE9A3C3891BC2F50D"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/style.css",
+      "size": 16331,
+      "sha256": "67BD3DBC61A825B146211C200F2D7D63D0A3F64D1E3B93A57B53AECA83819C74"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/index.html",
+      "size": 687,
+      "sha256": "0EC03B7C2D7E9B65C59E4BBF8E54728ABE7DCCA8A54FBB20A6B5A5286F22A8DE"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/package.json",
+      "size": 532,
+      "sha256": "941AB3BF04543F037FFAE311E1EE8655801480D4589217790901369C3BC2833B"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/server.mjs",
+      "size": 1814,
+      "sha256": "E61D2A15C6F972289F84781D3824876AFD919600C4C39C9702F99E7C35A61A7B"
+    }
+  ],
+  "contract": {
+    "path": "artifacts/trace-worksite-v1-20260915/coordination/CONTRACT.md",
+    "size": 9977,
+    "sha256": "F42F322AAF80A8DBA6BB28A1084CDF64B84DFDAD116CF9AB100801335B6901E8"
+  },
+  "scope": "independent artifact production; no app/plugin/other task writes",
+  "owners": {
+    "model/": "worksite_state",
+    "ui/": "worksite_ui",
+    "images/": "worksite_assets",
+    "fonts/": "worksite_assets",
+    "coordination/": "root"
+  },
+  "relatedTasks": [
+    "docs/tasks/trace-one-thing-v1-prototype.md",
+    "docs/tasks/trace-matters-v1-prototype.md",
+    "docs/tasks/trace-home-v1-assets.md"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "task": "trace-matters-v1-20260915",
+  "gitBaseline": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contextPackageSha256": "BDF5906EC3208A9C254499C5082E5E689971A7547BCC9A1A303BA5F28FA45068",
+  "runtime": "Node v24.19.0",
+  "command": "node --test --test-reporter=tap artifacts/trace-matters-v1-20260915/model/matters-model.test.mjs",
+  "result": {
+    "tests": 21,
+    "passed": 21,
+    "failed": 0
+  },
+  "files": [
+    {
+      "path": "matters-model.mjs",
+      "bytes": 16197,
+      "sha256": "91203DA04BE09ECA19B3B47DA82EBB21462C16867FF7743B7B9EF38AF0C44184"
+    },
+    {
+      "path": "matters-model.test.mjs",
+      "bytes": 16177,
+      "sha256": "5471643E35053880D272F24CE9D58A140757D7228FBCF247A773F82176261490"
+    },
+    {
+      "path": "MODEL-USAGE.md",
+      "bytes": 6063,
+      "sha256": "21F511FEE95615145095AC16A03385205F15AB78BAF5CC508BF3B319C9EFD19D"
+    },
+    {
+      "path": "node-test.tap",
+      "bytes": 4908,
+      "sha256": "0AEB1D4F7383D7C87AC6CDF77D3A641A461A5D2CB11A1D8F89C2A56EFB19D953"
+    },
+    {
+      "path": "view-fixtures.json",
+      "bytes": 101038,
+      "sha256": "9D44375190A45844F625110870C89013EADBB54AEF2B751ADEBB096C619EEA2F"
+    }
+  ],
+  "limits": [
+    "Independent artifact module only; app integration owned by root",
+    "No browser/Electron/real IME/visual or persistence acceptance",
+    "All fixture sources have null URLs and visible example metadata"
+  ]
+}

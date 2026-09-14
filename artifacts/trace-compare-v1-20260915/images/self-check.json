@@ -1,0 +1,33 @@
+{
+  "taskId": "trace-compare-v1-20260915",
+  "checks": [
+    {
+      "name": "context and five reference/provenance hashes",
+      "ok": true
+    },
+    {
+      "name": "compare-environment decode, dimensions, hash, source identity and alpha",
+      "ok": true
+    },
+    {
+      "name": "bird-perched decode, dimensions, hash, source identity and alpha",
+      "ok": true
+    },
+    {
+      "name": "bird-takeoff decode, dimensions, hash, source identity and alpha",
+      "ok": true
+    },
+    {
+      "name": "generated original equals ready background",
+      "ok": true
+    },
+    {
+      "name": "exact prompt saved",
+      "ok": true
+    }
+  ],
+  "passed": 6,
+  "failed": 0,
+  "visualReview": "manual asset review recorded separately; no automated OCR or pixel-perfect claim",
+  "UIIntegration": "not run by assets worker"
+}

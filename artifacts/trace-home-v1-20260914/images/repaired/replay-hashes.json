@@ -1,0 +1,14 @@
+[
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-perched.png",
+    "before": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+    "after": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+    "match": true
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-takeoff.png",
+    "before": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+    "after": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+    "match": true
+  }
+]

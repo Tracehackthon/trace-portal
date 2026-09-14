@@ -1,0 +1,212 @@
+
+> @trace/app-desktop@0.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: default and explicit home routes isolate legacy styles
+ok 1 - default and explicit home routes isolate legacy styles
+  ---
+  duration_ms: 0.7183
+  type: 'test'
+  ...
+# Subtest: legacy query presence and native bridge entry remain discussions
+ok 2 - legacy query presence and native bridge entry remain discussions
+  ---
+  duration_ms: 0.6895
+  type: 'test'
+  ...
+# Subtest: unknown preview state resets cleanly
+ok 3 - unknown preview state resets cleanly
+  ---
+  duration_ms: 0.1099
+  type: 'test'
+  ...
+# Subtest: empty capture never mutates state
+ok 4 - empty capture never mutates state
+  ---
+  duration_ms: 0.1203
+  type: 'test'
+  ...
+# Subtest: capture and understanding preserve literal user text
+ok 5 - capture and understanding preserve literal user text
+  ---
+  duration_ms: 0.1388
+  type: 'test'
+  ...
+# Subtest: work return does not automatically claim verification
+ok 6 - work return does not automatically claim verification
+  ---
+  duration_ms: 0.0786
+  type: 'test'
+  ...
+# Subtest: close returns to scene without erasing current-session content
+ok 7 - close returns to scene without erasing current-session content
+  ---
+  duration_ms: 0.1362
+  type: 'test'
+  ...
+# Subtest: every approved mode has complete graph coordinates
+ok 8 - every approved mode has complete graph coordinates
+  ---
+  duration_ms: 0.1575
+  type: 'test'
+  ...
+# Subtest: factory returns six independent example matters and stable view shape
+ok 9 - factory returns six independent example matters and stable view shape
+  ---
+  duration_ms: 1.769
+  type: 'test'
+  ...
+# Subtest: OPEN / CONTINUE / TAB / BACK / OVERVIEW preserve facts and do not mark change
+ok 10 - OPEN / CONTINUE / TAB / BACK / OVERVIEW preserve facts and do not mark change
+  ---
+  duration_ms: 0.5047
+  type: 'test'
+  ...
+# Subtest: judgment and understanding drafts remain isolated by matter ID
+ok 11 - judgment and understanding drafts remain isolated by matter ID
+  ---
+  duration_ms: 0.5197
+  type: 'test'
+  ...
+# Subtest: source and quote ownership never crosses when switching entries
+ok 12 - source and quote ownership never crosses when switching entries
+  ---
+  duration_ms: 1.0401
+  type: 'test'
+  ...
+# Subtest: rejecting a comparison preserves source/quotes, but removes it from selected context
+ok 13 - rejecting a comparison preserves source/quotes, but removes it from selected context
+  ---
+  duration_ms: 0.4727
+  type: 'test'
+  ...
+# Subtest: challenge is a relation decision, not adoption, judgment, or verification
+ok 14 - challenge is a relation decision, not adoption, judgment, or verification
+  ---
+  duration_ms: 0.2142
+  type: 'test'
+  ...
+# Subtest: a rejected relation can be repaired without duplicating or deleting source material
+ok 15 - a rejected relation can be repaired without duplicating or deleting source material
+  ---
+  duration_ms: 0.266
+  type: 'test'
+  ...
+# Subtest: FRESH excludes old judgment/context, preserves provenance, and isolates fresh drafts
+ok 16 - FRESH excludes old judgment/context, preserves provenance, and isolates fresh drafts
+  ---
+  duration_ms: 0.6319
+  type: 'test'
+  ...
+# Subtest: FRESH may use new explicitly saved understanding, never silently adopts old text
+ok 17 - FRESH may use new explicitly saved understanding, never silently adopts old text
+  ---
+  duration_ms: 0.4644
+  type: 'test'
+  ...
+# Subtest: SAVE_JUDGMENT updates the same stop, folds to overview, keeps text and next reopen
+ok 18 - SAVE_JUDGMENT updates the same stop, folds to overview, keeps text and next reopen
+  ---
+  duration_ms: 0.6701
+  type: 'test'
+  ...
+# Subtest: saving own understanding does not rewrite original understanding or unrelated stop
+ok 19 - saving own understanding does not rewrite original understanding or unrelated stop
+  ---
+  duration_ms: 0.2352
+  type: 'test'
+  ...
+# Subtest: search uses real related records: reference query yields actual 1 / 2 / 3
+ok 20 - search uses real related records: reference query yields actual 1 / 2 / 3
+  ---
+  duration_ms: 0.7825
+  type: 'test'
+  ...
+# Subtest: search categories have independent matching and exact empty counts
+ok 21 - search categories have independent matching and exact empty counts
+  ---
+  duration_ms: 0.9267
+  type: 'test'
+  ...
+# Subtest: search normalizes case/fullwidth/whitespace and recomputes changed user stop
+ok 22 - search normalizes case/fullwidth/whitespace and recomputes changed user stop
+  ---
+  duration_ms: 0.5042
+  type: 'test'
+  ...
+# Subtest: empty or malformed saves, invalid IDs/actions/relations/tabs are exact no-op
+ok 23 - empty or malformed saves, invalid IDs/actions/relations/tabs are exact no-op
+  ---
+  duration_ms: 0.1711
+  type: 'test'
+  ...
+# Subtest: returning and re-saving identical content never create extra change nodes or quotes
+ok 24 - returning and re-saving identical content never create extra change nodes or quotes
+  ---
+  duration_ms: 0.1348
+  type: 'test'
+  ...
+# Subtest: explicitly saving an unchanged stop still folds back without inventing another revision
+ok 25 - explicitly saving an unchanged stop still folds back without inventing another revision
+  ---
+  duration_ms: 0.1276
+  type: 'test'
+  ...
+# Subtest: fresh explicit resave of identical own understanding may enter context without duplicate revision
+ok 26 - fresh explicit resave of identical own understanding may enter context without duplicate revision
+  ---
+  duration_ms: 0.2214
+  type: 'test'
+  ...
+# Subtest: reducers and selectors are pure and view edits cannot mutate model state
+ok 27 - reducers and selectors are pure and view edits cannot mutate model state
+  ---
+  duration_ms: 0.6719
+  type: 'test'
+  ...
+# Subtest: HTML-like text remains literal in drafts, saved fields, search and quote data
+ok 28 - HTML-like text remains literal in drafts, saved fields, search and quote data
+  ---
+  duration_ms: 0.4803
+  type: 'test'
+  ...
+# Subtest: CLEAR_NOTICE does not alter facts and is idempotent
+ok 29 - CLEAR_NOTICE does not alter facts and is idempotent
+  ---
+  duration_ms: 0.1378
+  type: 'test'
+  ...
+# Subtest: one updated stop is projected to home, search and reentry
+ok 30 - one updated stop is projected to home, search and reentry
+  ---
+  duration_ms: 2.9448
+  type: 'test'
+  ...
+# Subtest: capture is new, literal, isolated, searchable and does not overwrite examples
+ok 31 - capture is new, literal, isolated, searchable and does not overwrite examples
+  ---
+  duration_ms: 2.2851
+  type: 'test'
+  ...
+# Subtest: new page session resets without mutating the previous session
+ok 32 - new page session resets without mutating the previous session
+  ---
+  duration_ms: 0.8128
+  type: 'test'
+  ...
+# Subtest: new capture without a material cannot manufacture a challenge relation
+ok 33 - new capture without a material cannot manufacture a challenge relation
+  ---
+  duration_ms: 0.5637
+  type: 'test'
+  ...
+1..33
+# tests 33
+# suites 0
+# pass 33
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 101.1226

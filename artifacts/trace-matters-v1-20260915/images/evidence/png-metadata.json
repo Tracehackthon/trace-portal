@@ -1,0 +1,140 @@
+[
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\images\\originals\\A-matters-environment.png",
+    "bytes": 1943325,
+    "width": 1672,
+    "height": 941,
+    "pixel_format": "Format24bppRgb",
+    "png_color_type": 2,
+    "png_chunk_types": [
+      "IHDR",
+      "caBX",
+      "IDAT",
+      "IEND"
+    ],
+    "has_alpha_or_trns": false,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "alpha_evidence": "PNG color type has no alpha and no tRNS chunk: all decoded pixels are opaque.",
+    "corner_samples": [
+      {
+        "x": 0,
+        "y": 0,
+        "alpha": 255,
+        "r": 245,
+        "g": 248,
+        "b": 247
+      },
+      {
+        "x": 10,
+        "y": 10,
+        "alpha": 255,
+        "r": 247,
+        "g": 250,
+        "b": 248
+      },
+      {
+        "x": 20,
+        "y": 20,
+        "alpha": 255,
+        "r": 248,
+        "g": 250,
+        "b": 248
+      },
+      {
+        "x": 1671,
+        "y": 0,
+        "alpha": 255,
+        "r": 239,
+        "g": 245,
+        "b": 241
+      },
+      {
+        "x": 0,
+        "y": 940,
+        "alpha": 255,
+        "r": 129,
+        "g": 145,
+        "b": 151
+      },
+      {
+        "x": 1671,
+        "y": 940,
+        "alpha": 255,
+        "r": 215,
+        "g": 223,
+        "b": 218
+      }
+    ],
+    "sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89"
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\images\\ready\\matters-environment.png",
+    "bytes": 1943325,
+    "width": 1672,
+    "height": 941,
+    "pixel_format": "Format24bppRgb",
+    "png_color_type": 2,
+    "png_chunk_types": [
+      "IHDR",
+      "caBX",
+      "IDAT",
+      "IEND"
+    ],
+    "has_alpha_or_trns": false,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "alpha_evidence": "PNG color type has no alpha and no tRNS chunk: all decoded pixels are opaque.",
+    "corner_samples": [
+      {
+        "x": 0,
+        "y": 0,
+        "alpha": 255,
+        "r": 245,
+        "g": 248,
+        "b": 247
+      },
+      {
+        "x": 10,
+        "y": 10,
+        "alpha": 255,
+        "r": 247,
+        "g": 250,
+        "b": 248
+      },
+      {
+        "x": 20,
+        "y": 20,
+        "alpha": 255,
+        "r": 248,
+        "g": 250,
+        "b": 248
+      },
+      {
+        "x": 1671,
+        "y": 0,
+        "alpha": 255,
+        "r": 239,
+        "g": 245,
+        "b": 241
+      },
+      {
+        "x": 0,
+        "y": 940,
+        "alpha": 255,
+        "r": 129,
+        "g": 145,
+        "b": 151
+      },
+      {
+        "x": 1671,
+        "y": 940,
+        "alpha": 255,
+        "r": 215,
+        "g": 223,
+        "b": 218
+      }
+    ],
+    "sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89"
+  }
+]

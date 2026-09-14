@@ -1,0 +1,17 @@
+/* Optional full-font fallback. Include explicitly when dynamic text needs packaged Chinese coverage. */
+
+@font-face {
+  font-family: "Trace Home Serif Full";
+  src: url("../originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 250 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trace Home Sans Full";
+  src: url("../originals/noto-sans-sc/NotoSansSC[wght].ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}

@@ -1,0 +1,50 @@
+{
+  "taskId": "trace-worksite-v1-20260915",
+  "verifiedAt": "2026-09-14T17:01:47.415Z",
+  "node": "v22.23.1",
+  "repositoryHeadBaseline": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contextPackageSHA256": "DD9BDA87EDB138B15C3A3E9535BD78BF5E51934DA333A4175C251BF8F7078C06",
+  "checks": [
+    {
+      "command": "node --check worksite-model.mjs",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "",
+      "error": null
+    },
+    {
+      "command": "node --check worksite-fixture.mjs",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "",
+      "error": null
+    },
+    {
+      "command": "node --test --test-reporter=tap worksite-model.test.mjs",
+      "exitCode": 0,
+      "stdout": "TAP version 13\n# Subtest: empty default contains no fabricated history, intake, impact, result or receipt\nok 1 - empty default contains no fabricated history, intake, impact, result or receipt\n  ---\n  duration_ms: 1.6714\n  type: 'test'\n  ...\n# Subtest: five previews are explicit isolated demos, never receipts or saved user results\nok 2 - five previews are explicit isolated demos, never receipts or saved user results\n  ---\n  duration_ms: 1.9923\n  type: 'test'\n  ...\n# Subtest: navigation and back do not invent findings, results, revisions or usage\nok 3 - navigation and back do not invent findings, results, revisions or usage\n  ---\n  duration_ms: 1.1243\n  type: 'test'\n  ...\n# Subtest: unknown screens, actions, work IDs and intake IDs do not corrupt selection or drafts\nok 4 - unknown screens, actions, work IDs and intake IDs do not corrupt selection or drafts\n  ---\n  duration_ms: 0.6371\n  type: 'test'\n  ...\n# Subtest: reference, trial, contrast have distinct selector instructions; exclusion really removes context\nok 5 - reference, trial, contrast have distinct selector instructions; exclusion really removes context\n  ---\n  duration_ms: 0.9392\n  type: 'test'\n  ...\n# Subtest: local role/note changes preserve source snapshot and do not affect other work\nok 6 - local role/note changes preserve source snapshot and do not affect other work\n  ---\n  duration_ms: 0.4583\n  type: 'test'\n  ...\n# Subtest: all 16 independent stage combinations require exact stage evidence, with no cascade\nok 7 - all 16 independent stage combinations require exact stage evidence, with no cascade\n  ---\n  duration_ms: 1.1927\n  type: 'test'\n  ...\n# Subtest: stage flags with no corresponding evidence never establish delivery or effectiveness\nok 8 - stage flags with no corresponding evidence never establish delivery or effectiveness\n  ---\n  duration_ms: 0.2104\n  type: 'test'\n  ...\n# Subtest: disputing influence preserves all original evidence and never revises understanding\nok 9 - disputing influence preserves all original evidence and never revises understanding\n  ---\n  duration_ms: 0.6169\n  type: 'test'\n  ...\n# Subtest: composer raw text and source survive opening, refusing relation, and keeping finding\nok 10 - composer raw text and source survive opening, refusing relation, and keeping finding\n  ---\n  duration_ms: 0.9692\n  type: 'test'\n  ...\n# Subtest: empty composer and whitespace findings cannot submit\nok 11 - empty composer and whitespace findings cannot submit\n  ---\n  duration_ms: 0.5535\n  type: 'test'\n  ...\n# Subtest: finding relation requires valid matter but never adopts the finding as understanding\nok 12 - finding relation requires valid matter but never adopts the finding as understanding\n  ---\n  duration_ms: 0.4993\n  type: 'test'\n  ...\n# Subtest: use finding affects only actual current-work selector and never sends a task or rule\nok 13 - use finding affects only actual current-work selector and never sends a task or rule\n  ---\n  duration_ms: 0.4502\n  type: 'test'\n  ...\n# Subtest: keep/use finding is idempotent; editing a saved finding leaves original text intact\nok 14 - keep/use finding is idempotent; editing a saved finding leaves original text intact\n  ---\n  duration_ms: 0.639\n  type: 'test'\n  ...\n# Subtest: result classification and draft do not save, modify understanding or claim usage\nok 15 - result classification and draft do not save, modify understanding or claim usage\n  ---\n  duration_ms: 1.0567\n  type: 'test'\n  ...\n# Subtest: empty results, unknown matter and invalid classification cannot produce history\nok 16 - empty results, unknown matter and invalid classification cannot produce history\n  ---\n  duration_ms: 0.5913\n  type: 'test'\n  ...\n# Subtest: KEEP_RESULT_ONLY saves separated facts exactly once and cannot revise understanding\nok 17 - KEEP_RESULT_ONLY saves separated facts exactly once and cannot revise understanding\n  ---\n  duration_ms: 0.406\n  type: 'test'\n  ...\n# Subtest: OPEN and CANCEL review only display/cancel a difference and preserve the result draft\nok 18 - OPEN and CANCEL review only display/cancel a difference and preserve the result draft\n  ---\n  duration_ms: 0.5859\n  type: 'test'\n  ...\n# Subtest: explicit confirmation updates only reviewed matter and exact after text, once\nok 19 - explicit confirmation updates only reviewed matter and exact after text, once\n  ---\n  duration_ms: 0.5061\n  type: 'test'\n  ...\n# Subtest: confirm without open review, blank after, or identical text cannot commit\nok 20 - confirm without open review, blank after, or identical text cannot commit\n  ---\n  duration_ms: 0.5522\n  type: 'test'\n  ...\n# Subtest: editing the underlying result while review is open marks it stale and blocks confirmation\nok 21 - editing the underlying result while review is open marks it stale and blocks confirmation\n  ---\n  duration_ms: 0.4421\n  type: 'test'\n  ...\n# Subtest: another work updating the same matter makes the earlier review stale\nok 22 - another work updating the same matter makes the earlier review stale\n  ---\n  duration_ms: 0.5857\n  type: 'test'\n  ...\n# Subtest: reopening a stale review captures the new version and requires explicit confirmation again\nok 23 - reopening a stale review captures the new version and requires explicit confirmation again\n  ---\n  duration_ms: 0.6699\n  type: 'test'\n  ...\n# Subtest: confirmed snapshot is never silently updated after the underlying understanding changes\nok 24 - confirmed snapshot is never silently updated after the underlying understanding changes\n  ---\n  duration_ms: 0.4362\n  type: 'test'\n  ...\n# Subtest: undo restores content with monotonic version, retaining fact and revision history\nok 25 - undo restores content with monotonic version, retaining fact and revision history\n  ---\n  duration_ms: 0.7804\n  type: 'test'\n  ...\n# Subtest: expired undo cannot overwrite a later same-matter change from another work\nok 26 - expired undo cannot overwrite a later same-matter change from another work\n  ---\n  duration_ms: 0.714\n  type: 'test'\n  ...\n# Subtest: result-only cannot relabel an already revised result or conceal the understanding mutation\nok 27 - result-only cannot relabel an already revised result or conceal the understanding mutation\n  ---\n  duration_ms: 0.5898\n  type: 'test'\n  ...\n# Subtest: a result saved without revision can subsequently be reviewed without duplicating its fact\nok 28 - a result saved without revision can subsequently be reviewed without duplicating its fact\n  ---\n  duration_ms: 0.4913\n  type: 'test'\n  ...\n# Subtest: editing a saved result starts a new pending record and leaves original evidence intact\nok 29 - editing a saved result starts a new pending record and leaves original evidence intact\n  ---\n  duration_ms: 0.4582\n  type: 'test'\n  ...\n# Subtest: try again preserves facts and current understanding but does not adopt a suggestion or send work\nok 30 - try again preserves facts and current understanding but does not adopt a suggestion or send work\n  ---\n  duration_ms: 0.4805\n  type: 'test'\n  ...\n# Subtest: work selection isolates screen, composer, finding, result, review and receipt\nok 31 - work selection isolates screen, composer, finding, result, review and receipt\n  ---\n  duration_ms: 0.7561\n  type: 'test'\n  ...\n# Subtest: pure reducer accepts deep-frozen state; selector returns detached copies\nok 32 - pure reducer accepts deep-frozen state; selector returns detached copies\n  ---\n  duration_ms: 0.5224\n  type: 'test'\n  ...\n# Subtest: seed IDs are preserved, duplicate IDs rejected, empty work list produces a safe empty view\nok 33 - seed IDs are preserved, duplicate IDs rejected, empty work list produces a safe empty view\n  ---\n  duration_ms: 0.6214\n  type: 'test'\n  ...\n1..33\n# tests 33\n# suites 0\n# pass 33\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 103.4644\n",
+      "stderr": "",
+      "error": null
+    }
+  ],
+  "passed": true,
+  "runHistory": [
+    {
+      "run": "initial-33",
+      "result": "33/33 passed",
+      "note": "首次实现自测；之后审阅增加无依据 confirmed 防护，并纳入第 8 项测试重跑。"
+    },
+    {
+      "run": "this-run",
+      "result": "passed"
+    }
+  ],
+  "notRun": [
+    "app integration",
+    "browser UI behavior",
+    "Electron file://",
+    "real Overlay",
+    "shared chain domain store",
+    "persistence or real Agent"
+  ]
+}

@@ -1,0 +1,5 @@
+Use case: background-extraction.
+Asset type: a genuine transparent PNG cutout, NOT an illustration of transparency.
+Input image 1 is the EDIT TARGET, the bird just produced. Preserve the bird exactly, without changing its pose, shape, colors, detailed feathers or eye. The only change is the background.
+Primary request: REMOVE THE BAKED GRAY-AND-WHITE CHECKERBOARD COMPLETELY. The current checkerboard is unwanted opaque picture content, not transparency. Replace EVERY background pixel with actual alpha=0. Keep only the bird and its natural antialiased edges. There must be no gray squares, no white squares, no warped checker pattern, no solid white background, no matte, no scenery or other objects.
+Transparent background is the deliverable. The output PNG must contain a real transparency/alpha channel. Outside the bird silhouette must be fully transparent. Keep all feather tips, tail tips, toes, and beak intact. No new lighting or shadow plane, no further retouching of the bird, no text or watermark. One bird with exactly the same framing. Return the bird alone as a production-ready transparent PNG.

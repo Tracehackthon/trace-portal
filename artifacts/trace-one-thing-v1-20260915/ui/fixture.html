@@ -1,0 +1,14 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Trace 连续页面 · 独立 fixture</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./chain.css"><style>html,body{margin:0;width:100%;height:100%;overflow:hidden}#fixture{width:100%;height:100%}</style><div id="fixture"></div><script type="module">
+import {mountChainScreen} from './chain-screen.mjs';
+import {createChainState,createChainDemo,reduceChain,selectChainView} from '../model/chain-model.mjs';
+import {animate,svg} from '../../../trace-runtime/apps/desktop/src/vendor/anime.esm.js';
+import {mountSceneGlass} from '../../../trace-runtime/apps/desktop/src/home/scene-glass.js';
+const path = value => new URL(value,import.meta.url).href;
+let state=createChainDemo(new URLSearchParams(location.search).get('screen')||'resume');
+const actions=[];
+const component=mountChainScreen({root:document.querySelector('#fixture'),view:selectChainView(state),
+ onAction(action){actions.push(action);state=reduceChain(state,action);component.update(selectChainView(state));},
+ onHome(){window.fixtureHome=true;},
+ assets:{background:path('../images/ready/chain-environment.png'),overviewBackground:path('../images/ready/chain-overview-environment.png'),birdPerched:path('../images/ready/bird-perched.png'),birdTakeoff:path('../images/ready/bird-takeoff.png'),serifFont:path('../fonts/derived/TraceChainSerif-fixed.woff2'),sansFont:path('../fonts/derived/TraceChainSans-fixed.woff2')},services:{animate,svg,mountSceneGlass}});
+window.fixture={get view(){return selectChainView(state)},get actions(){return actions},set(screen){state=createChainDemo(screen);component.update(selectChainView(state));},empty(){state=createChainState();component.update(selectChainView(state));},action(action){actions.push(action);state=reduceChain(state,action);component.update(selectChainView(state));},destroy(){component.destroy()}};
+</script></html>

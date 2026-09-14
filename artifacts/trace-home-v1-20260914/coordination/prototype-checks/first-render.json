@@ -1,0 +1,128 @@
+{
+  "summaries": [
+    {
+      "state": "overview",
+      "scene": "overview",
+      "visibleCards": [
+        "thought",
+        "work",
+        "fresh",
+        "handoff"
+      ],
+      "font": true,
+      "glass": [
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback"
+      ],
+      "overflow": [
+        "想重新看，不先被旧理解带走",
+        "多 Agent 交接如何保留证据"
+      ]
+    },
+    {
+      "state": "thinking",
+      "scene": "thinking",
+      "visibleCards": [
+        "thought",
+        "work",
+        "fresh",
+        "handoff"
+      ],
+      "font": true,
+      "glass": [
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback"
+      ],
+      "overflow": [
+        "想重新看，不先被旧理解带走",
+        "多 Agent 交接如何保留证据"
+      ]
+    },
+    {
+      "state": "growth",
+      "scene": "growth",
+      "visibleCards": [
+        "thought",
+        "work",
+        "fresh",
+        "handoff",
+        "insight"
+      ],
+      "font": true,
+      "glass": [
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback"
+      ],
+      "overflow": [
+        "想重新看，不先被旧理解带走",
+        "多 Agent 交接如何保留证据",
+        "再次出现的理由，可能比分类更重要。"
+      ]
+    },
+    {
+      "state": "work",
+      "scene": "work",
+      "visibleCards": [
+        "thought",
+        "fresh",
+        "handoff"
+      ],
+      "font": true,
+      "glass": [
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback"
+      ],
+      "overflow": [
+        "想重新看，不先被旧理解带走",
+        "多 Agent 交接如何保留证据"
+      ]
+    },
+    {
+      "state": "return",
+      "scene": "return",
+      "visibleCards": [
+        "thought",
+        "work",
+        "fresh",
+        "handoff",
+        "practice",
+        "result"
+      ],
+      "font": true,
+      "glass": [
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback"
+      ],
+      "overflow": [
+        "想重新看，不先被旧理解带走",
+        "多 Agent 交接如何保留证据",
+        "Codex · harness"
+      ]
+    }
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"application/octet-stream\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"application/octet-stream\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"application/octet-stream\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"application/octet-stream\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"application/octet-stream\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"application/octet-stream\". Strict MIME type checking is enforced for module scripts per HTML spec.",
+    "Failed to load module script: Expected a JavaScript-or-Wasm module script but the server responded with a MIME type of \"application/octet-stream\". Strict MIME type checking is enforced for module scripts per HTML spec."
+  ],
+  "responses": []
+}

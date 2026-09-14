@@ -1,0 +1,242 @@
+{
+  "taskId": "trace-result-return-v1-20260915",
+  "contextPackageSha256": "D314692521774A4B7F205F31634EE68551186ABEA3D2FA5FD9ABFE3A849ABC27",
+  "copy": {
+    "path": "artifacts/trace-result-return-v1-20260915/ui/copy.json",
+    "sha256": "7EC1164166D482C488DB8D25A05407913715A11A9C5FB40F61337FDCBDD9479D",
+    "requiredCodepoints": 412
+  },
+  "tool": "fontTools 4.63.0",
+  "networkRequests": 0,
+  "globalInstalls": 0,
+  "originals": [
+    {
+      "id": "source-han-serif-cn",
+      "sha256": "556749BA783B148FA1F48644E8883E5B9351F01ABD0D1FAAD0BA24A21185E76A",
+      "source_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/7889f11bf31170b5d092a083b357c8c8130f89e0/Variable/WOFF2/TTF/Subset/SourceHanSerifCN-VF.ttf.woff2",
+      "repository": "https://github.com/adobe-fonts/source-han-serif",
+      "upstream_commit": "7889f11bf31170b5d092a083b357c8c8130f89e0",
+      "git_blob_sha1": "65a4d31a34ddda25b821b45288168e135b8ebc70",
+      "license": "OFL-1.1",
+      "reserved_font_names": [
+        "Source"
+      ],
+      "path": "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2"
+    },
+    {
+      "id": "noto-sans-sc",
+      "sha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/a85815a42757630ce188fdad368c2dfc444d4773/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+      "repository": "https://github.com/google/fonts",
+      "upstream_commit": "a85815a42757630ce188fdad368c2dfc444d4773",
+      "git_blob_sha1": "fb0637bafbcd804fe32152370a1225990745b4bc",
+      "license": "OFL-1.1",
+      "reserved_font_names": [
+        "Source"
+      ],
+      "path": "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf"
+    }
+  ],
+  "selectedFonts": [
+    {
+      "path": "artifacts/trace-result-return-v1-20260915/assets/fonts/TraceResultReturnSerif-delta.woff2",
+      "sha256": "DC270902874BA4005F77F842F3D66F748BD3F69DE549BAE88FAF26AC9D214728",
+      "bytes": 13328,
+      "family": [
+        "Trace Result Return Serif Delta"
+      ],
+      "fullName": [
+        "Trace Result Return Serif Delta ExtraLight"
+      ],
+      "postscriptName": [
+        "TraceResultReturnSerifDelta-ExtraLight"
+      ],
+      "cmapSize": 27,
+      "requiredCodepoints": 27,
+      "missingCharacters": "",
+      "missingCodepoints": [],
+      "attribution": {
+        "0": [
+          "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+        ],
+        "7": [
+          "Source is a trademark of Adobe in the United States and/or other countries."
+        ],
+        "8": [
+          "Adobe"
+        ],
+        "9": [
+          "Ryoko NISHIZUKA 西塚涼子 (kana & ideographs); Frank Grießhammer (Latin, Greek & Cyrillic); Wenlong ZHANG 张文龙 (bopomofo); Sandoll Communications 산돌커뮤니케이션, Soohyun PARK 박수현, Yejin WE 위예진 & Donghoon HAN 한동훈 (hangul elements, letters & syllables)"
+        ],
+        "13": [
+          "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+        ],
+        "14": [
+          "http://scripts.sil.org/OFL"
+        ]
+      },
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 250,
+          "max": 900
+        }
+      ],
+      "base": {
+        "path": "artifacts/trace-one-thing-v1-20260915/fonts/derived/TraceChainSerif-fixed.woff2",
+        "sha256": "7FC2BEFC231B1F67A151AD485AC8A7C7B4ECD6C98015DA9DA9A95809A2E495CB",
+        "bytes": 252444,
+        "family": [
+          "Trace Chain Serif"
+        ],
+        "cmapSize": 646
+      },
+      "deltaCodepoints": [
+        "U+2013",
+        "U+2713",
+        "U+51B2",
+        "U+5219",
+        "U+52A0",
+        "U+5448",
+        "U+5473",
+        "U+54CD",
+        "U+5F02",
+        "U+5F04",
+        "U+5F71",
+        "U+5F80",
+        "U+6240",
+        "U+62DF",
+        "U+663E",
+        "U+6D4B",
+        "U+6DFB",
+        "U+72EC",
+        "U+77E5",
+        "U+79F0",
+        "U+7A81",
+        "U+7B7E",
+        "U+7EA0",
+        "U+89C4",
+        "U+8DB3",
+        "U+9053",
+        "U+FF0F"
+      ],
+      "deltaCharacters": "–✓冲则加呈味响异弄影往所拟显测添独知称突签纠规足道／",
+      "combinedFixedCopyMissing": [],
+      "decision": "reuse closest existing subset plus only missing glyphs; no duplicate full font",
+      "role": "serifDeltaUrl"
+    },
+    {
+      "path": "artifacts/trace-result-return-v1-20260915/assets/fonts/TraceResultReturnSans-delta.woff2",
+      "sha256": "69B4D678890A5E9A92C0E9BCDBB17DB1F2F1D349F3067FAACDCADF485CDE8325",
+      "bytes": 10160,
+      "family": [
+        "Trace Result Return Sans Delta"
+      ],
+      "fullName": [
+        "Trace Result Return Sans Delta Thin"
+      ],
+      "postscriptName": [
+        "TraceResultReturnSansDelta-Thin"
+      ],
+      "cmapSize": 27,
+      "requiredCodepoints": 27,
+      "missingCharacters": "",
+      "missingCodepoints": [],
+      "attribution": {
+        "0": [
+          "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+        ],
+        "7": [
+          "Source is a trademark of Adobe in the United States and/or other countries."
+        ],
+        "8": [
+          "Adobe"
+        ],
+        "9": [
+          "Ryoko NISHIZUKA 西塚涼子 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications 산돌커뮤니케이션, Soo-young JANG 장수영 & Joo-yeon KANG 강주연 (hangul elements, letters & syllables)"
+        ],
+        "13": [
+          "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL"
+        ],
+        "14": [
+          "http://scripts.sil.org/OFL"
+        ]
+      },
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100,
+          "max": 900
+        }
+      ],
+      "base": {
+        "path": "artifacts/trace-one-thing-v1-20260915/fonts/derived/TraceChainSans-fixed.woff2",
+        "sha256": "BC982B0E334328DBD10260E3189CFCB4C6136FACE7424391DAB65E26C4204D30",
+        "bytes": 191652,
+        "family": [
+          "Trace Chain Sans"
+        ],
+        "cmapSize": 646
+      },
+      "deltaCodepoints": [
+        "U+2013",
+        "U+2713",
+        "U+51B2",
+        "U+5219",
+        "U+52A0",
+        "U+5448",
+        "U+5473",
+        "U+54CD",
+        "U+5F02",
+        "U+5F04",
+        "U+5F71",
+        "U+5F80",
+        "U+6240",
+        "U+62DF",
+        "U+663E",
+        "U+6D4B",
+        "U+6DFB",
+        "U+72EC",
+        "U+77E5",
+        "U+79F0",
+        "U+7A81",
+        "U+7B7E",
+        "U+7EA0",
+        "U+89C4",
+        "U+8DB3",
+        "U+9053",
+        "U+FF0F"
+      ],
+      "deltaCharacters": "–✓冲则加呈味响异弄影往所拟显测添独知称突签纠规足道／",
+      "combinedFixedCopyMissing": [],
+      "decision": "reuse closest existing subset plus only missing glyphs; no duplicate full font",
+      "role": "sansDeltaUrl"
+    }
+  ],
+  "licenses": [
+    {
+      "path": "artifacts/trace-result-return-v1-20260915/assets/fonts/OFL-source-han-serif-cn.txt",
+      "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "license": "OFL-1.1"
+    },
+    {
+      "path": "artifacts/trace-result-return-v1-20260915/assets/fonts/OFL-noto-sans-sc.txt",
+      "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "license": "OFL-1.1"
+    }
+  ],
+  "limitations": [
+    "Fixed UI/sample copy only; arbitrary user input uses system Chinese fallback.",
+    "Exact typeface in generated reference is unknown; these are same official font families previously selected for Trace.",
+    "cmap coverage does not prove shaping, browser loading or composed readability."
+  ],
+  "validation": {
+    "cmap": "pass",
+    "sourceIntegrity": "pass",
+    "attribution": "pass",
+    "browser": "pass: isolated font fixture, 4 loaded faces and 4 CDP glyph-source probes; browser-check.json"
+  },
+  "history": [
+    "Initial full-subset preparation was interrupted before producing any font when root confirmed minimal delta strategy; no prior failed font promoted as ready."
+  ]
+}

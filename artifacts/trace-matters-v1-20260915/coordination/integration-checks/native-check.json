@@ -1,0 +1,260 @@
+{
+  "startedAt": "2026-09-14T17:41:06.265Z",
+  "cases": [
+    {
+      "id": "home-to-matters-offline-assets",
+      "status": "passed",
+      "evidence": {
+        "url": "file:///D:/AGeneral%20Workspace/AI-powered/harness/trace-runtime/plugins/trace-harness-plugin/lib/desktop/discussion/index.html?view=matters",
+        "sameDocument": "fixture",
+        "fonts": [
+          {
+            "family": "matters-1-serif",
+            "status": "loaded"
+          },
+          {
+            "family": "matters-1-sans",
+            "status": "loaded"
+          }
+        ],
+        "images": [
+          {
+            "src": "file:///D:/AGeneral%20Workspace/AI-powered/harness/trace-runtime/plugins/trace-harness-plugin/lib/desktop/discussion/public/home/bird-perched.png",
+            "loaded": true
+          }
+        ],
+        "native": "function",
+        "node": "undefined"
+      }
+    },
+    {
+      "id": "same-stop-roundtrip-file-history",
+      "status": "passed",
+      "evidence": {
+        "url": "file:///D:/AGeneral%20Workspace/AI-powered/harness/trace-runtime/plugins/trace-harness-plugin/lib/desktop/discussion/index.html?view=matters&matter=collection&step=reentry",
+        "stop": "上次真正停在原生文件里保留的最新停点",
+        "sameDocument": true
+      }
+    },
+    {
+      "id": "capture-without-overwriting-example",
+      "status": "passed",
+      "evidence": {
+        "capture": "capture-1",
+        "collectionStillSearchable": true
+      }
+    },
+    {
+      "id": "refresh-resets-and-deeplink",
+      "status": "passed",
+      "evidence": {
+        "mode": "deep",
+        "reset": true
+      }
+    },
+    {
+      "id": "legacy-real-preload-ipc",
+      "status": "passed",
+      "evidence": [
+        {
+          "type": "trace.desktop.candidate",
+          "observationId": "matters-integration-native",
+          "status": "候选中"
+        },
+        {
+          "type": "trace.desktop.candidate",
+          "observationId": "matters-integration-native",
+          "status": "待确认"
+        }
+      ]
+    },
+    {
+      "id": "no-external-requests-or-errors",
+      "status": "passed",
+      "evidence": {
+        "requests": [],
+        "versions": {
+          "node": "24.20.0",
+          "acorn": "8.18.0",
+          "ada": "4.0.0",
+          "amaro": "1.1.11",
+          "ares": "1.34.8",
+          "brotli": "1.2.0",
+          "cldr": "48.0",
+          "icu": "78.2",
+          "llhttp": "9.4.3",
+          "merve": "1.2.2",
+          "modules": "149",
+          "napi": "10",
+          "nbytes": "0.1.4",
+          "ncrypto": "0.0.1",
+          "nghttp2": "1.70.0",
+          "nghttp3": "",
+          "ngtcp2": "",
+          "openssl": "0.0.0",
+          "simdjson": "4.6.6",
+          "simdutf": "7.7.0",
+          "sqlite": "3.53.4",
+          "tz": "2025c",
+          "undici": "7.29.0",
+          "unicode": "17.0",
+          "uv": "1.52.1",
+          "uvwasi": "0.0.23",
+          "v8": "15.2.124.19-electron.0",
+          "zlib": "1.3.2.1-motley",
+          "zstd": "1.6.0",
+          "electron": "44.3.0",
+          "chrome": "152.0.7977.78"
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+    "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+    "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+    "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged."
+  ],
+  "limits": [
+    "Hidden Electron fixture with real packaged preload and isolated IPC receiver, not actual Overlay mutation acceptance.",
+    "No full GPU/performance benchmark or OS IME acceptance."
+  ],
+  "previousRuns": [
+    {
+      "startedAt": "2026-09-14T17:33:00.219Z",
+      "cases": [
+        {
+          "id": "home-to-matters-offline-assets",
+          "status": "passed",
+          "evidence": {
+            "url": "file:///D:/AGeneral%20Workspace/AI-powered/harness/trace-runtime/plugins/trace-harness-plugin/lib/desktop/discussion/index.html?view=matters",
+            "sameDocument": "fixture",
+            "fonts": [
+              {
+                "family": "matters-1-serif",
+                "status": "loaded"
+              },
+              {
+                "family": "matters-1-sans",
+                "status": "loaded"
+              }
+            ],
+            "images": [
+              {
+                "src": "file:///D:/AGeneral%20Workspace/AI-powered/harness/trace-runtime/plugins/trace-harness-plugin/lib/desktop/discussion/public/home/bird-perched.png",
+                "loaded": true
+              }
+            ],
+            "native": "function",
+            "node": "undefined"
+          }
+        },
+        {
+          "id": "same-stop-roundtrip-file-history",
+          "status": "passed",
+          "evidence": {
+            "url": "file:///D:/AGeneral%20Workspace/AI-powered/harness/trace-runtime/plugins/trace-harness-plugin/lib/desktop/discussion/index.html?view=matters&matter=collection&step=reentry",
+            "stop": "上次真正停在原生文件里保留的最新停点",
+            "sameDocument": true
+          }
+        },
+        {
+          "id": "capture-without-overwriting-example",
+          "status": "passed",
+          "evidence": {
+            "capture": "capture-1",
+            "collectionStillSearchable": true
+          }
+        },
+        {
+          "id": "refresh-resets-and-deeplink",
+          "status": "passed",
+          "evidence": {
+            "mode": "deep",
+            "reset": true
+          }
+        },
+        {
+          "id": "legacy-real-preload-ipc",
+          "status": "passed",
+          "evidence": [
+            {
+              "type": "trace.desktop.candidate",
+              "observationId": "matters-integration-native",
+              "status": "候选中"
+            },
+            {
+              "type": "trace.desktop.candidate",
+              "observationId": "matters-integration-native",
+              "status": "待确认"
+            }
+          ]
+        },
+        {
+          "id": "no-external-requests-or-errors",
+          "status": "passed",
+          "evidence": {
+            "requests": [],
+            "versions": {
+              "node": "24.20.0",
+              "acorn": "8.18.0",
+              "ada": "4.0.0",
+              "amaro": "1.1.11",
+              "ares": "1.34.8",
+              "brotli": "1.2.0",
+              "cldr": "48.0",
+              "icu": "78.2",
+              "llhttp": "9.4.3",
+              "merve": "1.2.2",
+              "modules": "149",
+              "napi": "10",
+              "nbytes": "0.1.4",
+              "ncrypto": "0.0.1",
+              "nghttp2": "1.70.0",
+              "nghttp3": "",
+              "ngtcp2": "",
+              "openssl": "0.0.0",
+              "simdjson": "4.6.6",
+              "simdutf": "7.7.0",
+              "sqlite": "3.53.4",
+              "tz": "2025c",
+              "undici": "7.29.0",
+              "unicode": "17.0",
+              "uv": "1.52.1",
+              "uvwasi": "0.0.23",
+              "v8": "15.2.124.19-electron.0",
+              "zlib": "1.3.2.1-motley",
+              "zstd": "1.6.0",
+              "electron": "44.3.0",
+              "chrome": "152.0.7977.78"
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "warnings": [
+        "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+        "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+        "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+        "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged."
+      ],
+      "limits": [
+        "Hidden Electron fixture with real packaged preload and isolated IPC receiver, not actual Overlay mutation acceptance.",
+        "No full GPU/performance benchmark or OS IME acceptance."
+      ],
+      "finishedAt": "2026-09-14T17:33:16.427Z",
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0
+      }
+    }
+  ],
+  "finishedAt": "2026-09-14T17:41:21.730Z",
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0
+  }
+}

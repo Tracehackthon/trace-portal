@@ -1,0 +1,80 @@
+{
+  "cases": [
+    {
+      "id": "reference-default-comparison-complete",
+      "status": "passed",
+      "normal": [
+        {
+          "text": "分类并不能自动恢复当时为什么在意。",
+          "clientHeight": 69,
+          "scrollHeight": 69,
+          "bottom": 569.546875,
+          "bodyBottom": 585,
+          "footerTop": 595
+        },
+        {
+          "text": "个人表达是否一定是接续的必要条件。",
+          "clientHeight": 69,
+          "scrollHeight": 69,
+          "bottom": 569.546875,
+          "bodyBottom": 585,
+          "footerTop": 595
+        }
+      ]
+    },
+    {
+      "id": "compact-column-full-line-and-scroll",
+      "status": "passed",
+      "compact": [
+        {
+          "height": 46,
+          "lineHeight": 45.885,
+          "scrollHeight": 92,
+          "scrolled": true
+        },
+        {
+          "height": 46,
+          "lineHeight": 45.885,
+          "scrollHeight": 92,
+          "scrolled": true
+        }
+      ]
+    },
+    {
+      "id": "compact-lobes-whole-lines-fixed-links",
+      "status": "passed",
+      "lobes": [
+        {
+          "name": "matters-lobe matters-lobe-care",
+          "height": 99,
+          "line": 49.3,
+          "sourceVisible": true
+        },
+        {
+          "name": "matters-lobe matters-lobe-stop",
+          "height": 100,
+          "line": 50.24,
+          "sourceVisible": true
+        },
+        {
+          "name": "matters-lobe matters-lobe-change",
+          "height": 49,
+          "line": 49.3,
+          "sourceVisible": true
+        }
+      ]
+    },
+    {
+      "id": "branch-two-complete-lines-no-overlap",
+      "status": "passed",
+      "branch": {
+        "titleHeight": 56,
+        "lineHeight": 28,
+        "titleBottom": 558,
+        "subtitleTop": 562,
+        "separated": true
+      }
+    }
+  ],
+  "errors": []
+}

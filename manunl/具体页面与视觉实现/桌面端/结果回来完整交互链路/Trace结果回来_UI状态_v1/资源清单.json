@@ -1,0 +1,59 @@
+{
+  "generated_date": "2026-09-15",
+  "tool": "built-in image_gen",
+  "model_identifier": "not exposed by tool",
+  "kind": "static UI concept references",
+  "real_test_evidence": false,
+  "items": [
+    {
+      "filename": "01-结果带入态.png",
+      "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-7fef-72c3-9828-1524fed1b584\\exec-b5d693d0-93d7-4b5f-b7ea-21282fb738fa.png",
+      "output": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\结果回来完整交互链路\\Trace结果回来_UI状态_v1\\01-结果带入态.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1678166,
+      "sha256": "5EA427A48E5BA0F66CC3ABEF4811DCB9E8BD5CC9C9216098FF1875BA25C1007F",
+      "source_hash_matches": true
+    },
+    {
+      "filename": "02-比较展开态.png",
+      "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-7fef-72c3-9828-1524fed1b584\\exec-0941b4a8-33a1-46e5-9146-6d0ef8a034ce.png",
+      "output": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\结果回来完整交互链路\\Trace结果回来_UI状态_v1\\02-比较展开态.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1730517,
+      "sha256": "2ADEDC248C4E146158D860911DD1DFA40E64DFA73D565BBC56A4F5F5B8B7DB4F",
+      "source_hash_matches": true
+    },
+    {
+      "filename": "03-影响辨认态.png",
+      "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-7fef-72c3-9828-1524fed1b584\\exec-f55ee318-4bed-4869-b0fe-174d0db26e47.png",
+      "output": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\结果回来完整交互链路\\Trace结果回来_UI状态_v1\\03-影响辨认态.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1750028,
+      "sha256": "4630CBC9EBEE075268C202105ED3D2BE7CDE8003460A504FA5A5FC9FEB644A3D",
+      "source_hash_matches": true
+    },
+    {
+      "filename": "04-修订确认态.png",
+      "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-7fef-72c3-9828-1524fed1b584\\exec-06464681-5ad9-4c36-84f7-992479c36185.png",
+      "output": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\结果回来完整交互链路\\Trace结果回来_UI状态_v1\\04-修订确认态.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1598646,
+      "sha256": "CA3AC8EB707E12A3481DB9C9D385D6EBEF3723E8BCAAFC922FBBEE23F4D80482",
+      "source_hash_matches": true
+    },
+    {
+      "filename": "05-回接完成态.png",
+      "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-7fef-72c3-9828-1524fed1b584\\exec-4dbb7db3-db28-419e-bd03-0ebb49ca0476.png",
+      "output": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\结果回来完整交互链路\\Trace结果回来_UI状态_v1\\05-回接完成态.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1812380,
+      "sha256": "8C39334D25EF3FAA1EC06B9E14FE2B1C4691D9BDF06B761208CD14B6BF665853",
+      "source_hash_matches": true
+    }
+  ]
+}

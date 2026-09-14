@@ -1,0 +1,152 @@
+{
+  "task": "trace-matters-v1-20260915",
+  "createdAt": "2026-09-14T17:44:22.216352+00:00",
+  "baselineAudit": [
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\index.html",
+      "before": "0EC03B7C2D7E9B65C59E4BBF8E54728ABE7DCCA8A54FBB20A6B5A5286F22A8DE",
+      "after": "0EC03B7C2D7E9B65C59E4BBF8E54728ABE7DCCA8A54FBB20A6B5A5286F22A8DE",
+      "same": true,
+      "reason": "Unchanged from input package"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\package.json",
+      "before": "941AB3BF04543F037FFAE311E1EE8655801480D4589217790901369C3BC2833B",
+      "after": "3466D7A399414F05E560B21938EB36548898CD8732242529861F77D80EC351C4",
+      "same": false,
+      "reason": "Root integration change"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\server.mjs",
+      "before": "E61D2A15C6F972289F84781D3824876AFD919600C4C39C9702F99E7C35A61A7B",
+      "after": "E61D2A15C6F972289F84781D3824876AFD919600C4C39C9702F99E7C35A61A7B",
+      "same": true,
+      "reason": "Unchanged from input package"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\main.js",
+      "before": "2F8A15ACA58399623C8208E7EEA7633476AEA1E4F7E7523429DD69257C5AA994",
+      "after": "F4E70518980645CBE9723035B5A34CB9A796B6E01C5BC8CB2EC5BE94BD0DD85A",
+      "same": false,
+      "reason": "Root integration change"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\discussion.js",
+      "before": "0D9ECFDD8D779ADB47F4B545935FDC0EA1523203EABFF4FFE9A3C3891BC2F50D",
+      "after": "0D9ECFDD8D779ADB47F4B545935FDC0EA1523203EABFF4FFE9A3C3891BC2F50D",
+      "same": true,
+      "reason": "Unchanged from input package"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\style.css",
+      "before": "67BD3DBC61A825B146211C200F2D7D63D0A3F64D1E3B93A57B53AECA83819C74",
+      "after": "67BD3DBC61A825B146211C200F2D7D63D0A3F64D1E3B93A57B53AECA83819C74",
+      "same": true,
+      "reason": "Unchanged from input package"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home.js",
+      "before": "D0CE1B9F0B9A89572668237D04FFE18084A53EC274D63F816222FC761B106044",
+      "after": "E8C38C8F95107C26D998916A01F4BCB8A983C5DB63C7EA8240EEADEB380D587A",
+      "same": false,
+      "reason": "Root integration change"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home-model.js",
+      "before": "1B2797B1AE8294B9E4B4E98E44C6A0C09678240AB3B589C446D54E0B83848FA4",
+      "after": "F3D1FAA0CFE33AFBB1E2E13530FCC7844F9CA52B1AF4063D2F85EC92E8CCFA4D",
+      "same": false,
+      "reason": "Root integration change"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home.css",
+      "before": "9A365B708F1BFF758816D34D1922902893246F62592D232803115803792181A9",
+      "after": "9A365B708F1BFF758816D34D1922902893246F62592D232803115803792181A9",
+      "same": true,
+      "reason": "Unchanged from input package"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home\\scene-glass.js",
+      "before": "0DE8F99069D46021162DA35B8757C496639A70B4371A69A8AD79DBF267E3B772",
+      "after": "0DE8F99069D46021162DA35B8757C496639A70B4371A69A8AD79DBF267E3B772",
+      "same": true,
+      "reason": "Unchanged from input package"
+    }
+  ],
+  "runtime": [
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\main.js",
+      "sha256": "F4E70518980645CBE9723035B5A34CB9A796B6E01C5BC8CB2EC5BE94BD0DD85A",
+      "packagedMatch": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home.js",
+      "sha256": "E8C38C8F95107C26D998916A01F4BCB8A983C5DB63C7EA8240EEADEB380D587A",
+      "packagedMatch": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home-model.js",
+      "sha256": "F3D1FAA0CFE33AFBB1E2E13530FCC7844F9CA52B1AF4063D2F85EC92E8CCFA4D",
+      "packagedMatch": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\prototype-session.js",
+      "sha256": "A06CE946FFADB8E0F4B4178DD50B6A55850D59910676EACE8EA518E4B32FE848",
+      "packagedMatch": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\matters\\matters-screen.mjs",
+      "sha256": "D8C576DD8E2B8924B9D525BCE1EB29CFFCF80DE671C6C017B34D4DA97BB88198",
+      "packagedMatch": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\matters\\matters.css",
+      "sha256": "4FE6ABB8163307427E97E4A9E8BECB668561A76040FEF21DFA9A990B3127408A",
+      "packagedMatch": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\matters\\matters-model.mjs",
+      "sha256": "3D9A248F129F23834DACD2070F3184FFADDE35870612B731CC18076E00FE0606",
+      "packagedMatch": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\package.json",
+      "sha256": "3466D7A399414F05E560B21938EB36548898CD8732242529861F77D80EC351C4",
+      "packagedMatch": null
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\matters\\environment.png",
+      "sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89",
+      "packagedMatch": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\environment.png",
+      "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "packagedMatch": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\bird-perched.png",
+      "sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "packagedMatch": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\bird-takeoff.png",
+      "sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "packagedMatch": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\matters\\fonts\\TraceMattersSerif-fixed.woff2",
+      "sha256": "6B1D904266F22E080E8A3C8B63DC5F8C9153001302A73D5A3F5EEE0A103070FE",
+      "packagedMatch": true
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\matters\\fonts\\TraceMattersSans-fixed.woff2",
+      "sha256": "31F9766E8A7122291E2EC1D10E674ACDE07D2085D997AB8F6F64C794749DD085",
+      "packagedMatch": true
+    }
+  ],
+  "inputAuditNote": "home-model.js changed during the earlier input audit because root added the approved matters route; not unexplained source drift.",
+  "limits": [
+    "Hash equality is provenance only; business evidence is in regression/native/layout checks."
+  ]
+}

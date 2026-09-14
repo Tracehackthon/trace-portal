@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "task": "trace-web-v1-integration-20260915",
+  "status": "passed-resource-evidence-only",
+  "checkedAt": "2026-09-14T18:30:00.677Z",
+  "baseline": {
+    "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+    "contextPackage": {
+      "path": "artifacts/trace-web-v1-integration-20260915/coordination/context-package.json",
+      "sha256": "918D75E6C80AAD8054B3F59B24810BED2CE261390AC4425CCA8E0481275C921E"
+    },
+    "contractSha256": "5DAE50501DD3A3BA771681C5E46EDB280BA45062B4B9BCB15B8B38A6ADFC7EBE"
+  },
+  "readOnly": true,
+  "counts": {
+    "assets": 22,
+    "files": 332,
+    "filesPassed": 332,
+    "assetsPassed": 22,
+    "byteGroupsPassed": 16,
+    "originalsAndReferencesPassed": 56,
+    "implementationSnapshots": 15
+  },
+  "failures": [],
+  "warnings": [],
+  "limits": [
+    "Hash/path/provenance checks only, not business or visual acceptance.",
+    "Current-app use is a dated static source and byte observation, not fresh browser proof.",
+    "No dynamic Unicode, font shaping, accessibility-device, desktop package or performance acceptance.",
+    "App implementation snapshots are observe-only because root owns integration."
+  ],
+  "sourceRoot": "D:\\AGeneral Workspace\\AI-powered\\harness",
+  "manifestSha256": "982C63AE50B57E554497D5D3BA838B50F364A172064FD4DCEEF2C1CDA74B113A"
+}

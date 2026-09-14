@@ -1,0 +1,99 @@
+{
+  "taskId": "trace-result-return-v1-20260915",
+  "createdAt": "2026-09-14T18:23:32.078528+00:00",
+  "workspace": "D:\\AGeneral Workspace\\AI-powered\\harness",
+  "repoHead": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "scope": "Parallel isolated result-return modules only; no app mutation, no service changes.",
+  "files": [
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/01-结果带入态.png",
+      "bytes": 1678166,
+      "sha256": "5EA427A48E5BA0F66CC3ABEF4811DCB9E8BD5CC9C9216098FF1875BA25C1007F"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/02-比较展开态.png",
+      "bytes": 1730517,
+      "sha256": "2ADEDC248C4E146158D860911DD1DFA40E64DFA73D565BBC56A4F5F5B8B7DB4F"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/03-影响辨认态.png",
+      "bytes": 1750028,
+      "sha256": "4630CBC9EBEE075268C202105ED3D2BE7CDE8003460A504FA5A5FC9FEB644A3D"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/04-修订确认态.png",
+      "bytes": 1598646,
+      "sha256": "CA3AC8EB707E12A3481DB9C9D385D6EBEF3723E8BCAAFC922FBBEE23F4D80482"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/05-回接完成态.png",
+      "bytes": 1812380,
+      "sha256": "8C39334D25EF3FAA1EC06B9E14FE2B1C4691D9BDF06B761208CD14B6BF665853"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/README.md",
+      "bytes": 4163,
+      "sha256": "83BECBA3F38F2016941052C481DFEACBB36F315AD54E40C74B968853E3BFA965"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/生图提示词.json",
+      "bytes": 23837,
+      "sha256": "5EE3EE0CDD8B0A57F00F121073D45746F9E9A59C5C83604FAFC84640534231A8"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/资源清单.json",
+      "bytes": 3201,
+      "sha256": "A0590ACF6D19D7F86F1541D53CFCC2E8C809579B6269F4CC0AB0C675DA121FDD"
+    },
+    {
+      "path": "manunl/产品功能与交互方案/核心功能与内容对象.md",
+      "bytes": 20819,
+      "sha256": "7D987688EFDF16EDF81B3CA90BB1B986D4F6E8E967FDC89E7EE4FDA255C17AD6"
+    },
+    {
+      "path": "docs/tasks/trace-web-v1-integration.md",
+      "bytes": 5320,
+      "sha256": "4B7DB734205B022B93A89C9FBE498EFC600A2FD6FACD7B4408225E62324EB915"
+    },
+    {
+      "path": "docs/tasks/trace-worksite-v1-prototype.md",
+      "bytes": 6811,
+      "sha256": "D761199788131B14B8277FC5318F83E08FEA42BDADDB3644067763782843E49D"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/main.js",
+      "bytes": 6038,
+      "sha256": "F4E70518980645CBE9723035B5A34CB9A796B6E01C5BC8CB2EC5BE94BD0DD85A"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/prototype-session.js",
+      "bytes": 2599,
+      "sha256": "A06CE946FFADB8E0F4B4178DD50B6A55850D59910676EACE8EA518E4B32FE848"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/matters/matters-model.mjs",
+      "bytes": 16266,
+      "sha256": "3D9A248F129F23834DACD2070F3184FFADDE35870612B731CC18076E00FE0606"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/model/worksite-model.mjs",
+      "bytes": 20911,
+      "sha256": "DE3497965A20B537DFFF080FC24ADC73DEA2102FEA81390A8B1A76C4AC0C961D"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/model/chain-model.mjs",
+      "bytes": 34408,
+      "sha256": "3707368E9B74B584FA68585094C192FE835302BDC974F9A7A2B39BBF3A2C899C"
+    },
+    {
+      "path": "artifacts/trace-web-v1-integration-20260915/state/bridge.mjs",
+      "bytes": 20855,
+      "sha256": "BC53A4B6BCC3F058EB70B98C830F3CF10B929AFB0550522015DEDF8A842B7CD7"
+    },
+    {
+      "path": "artifacts/trace-result-return-v1-20260915/coordination/CONTRACT.md",
+      "bytes": 5882,
+      "sha256": "60C99310F5130F6BEC270570953226C5ABE09C55F1961581E6311184E3FB6A74"
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "task": "trace-web-v1-integration-20260915",
+  "createdAt": "2026-09-14T18:12:24.683823+00:00",
+  "workspace": "D:\\AGeneral Workspace\\AI-powered\\harness",
+  "repo": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime",
+  "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contractSha256": "5DAE50501DD3A3BA771681C5E46EDB280BA45062B4B9BCB15B8B38A6ADFC7EBE",
+  "baselines": [
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\coordination\\context-package.json",
+      "sha256": "B7417F6FD5E3F6FE1F699F5B9316BE15B8129DF8077EEC77D909679A9C5A61EC",
+      "bytes": 4398
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\coordination\\CONTRACT.md",
+      "sha256": "1DA01E444207D2D2101188FB8F300EBC6A735BB8A759882D71F60A0A4B8C7282",
+      "bytes": 9521
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\fonts\\FONT-USAGE.md",
+      "sha256": "3B2FCE019B264806579347017803F49FB0A498A768DD94987E3A83C0519F4B09",
+      "bytes": 3962
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\fonts\\manifest.json",
+      "sha256": "7B320BC4694F38C8D68CBCFED9EEB7CF9F94B4AE5722AC29040D585F3A6C2A41",
+      "bytes": 7107
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\images\\ASSET-NOTES.md",
+      "sha256": "62A828A9D09008CE9503F215EACFE508F62FFFF1A0EB74FF8E8FD6EA7F577B4B",
+      "bytes": 3358
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\images\\manifest.json",
+      "sha256": "7B6447D33C6455EAACBD876AA887137CD6C4AF16AB33DE875FC8FEF7371185DD",
+      "bytes": 9001
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\model\\comparison-model.mjs",
+      "sha256": "D29B68813D25FA3B1EA402BBD810C7CA3999FAC1F63C70161841730A43F85D47",
+      "bytes": 35499
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\model\\comparison-model.test.mjs",
+      "sha256": "F311B97C951E752C265E66BF31D829D0E0DA40A47A43B2B5FD273AC3ADE96197",
+      "bytes": 26871
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\model\\README.md",
+      "sha256": "AEA79FCEDDAC34837FE7DF1315E8AC80CD3D68706C9A5607CA9F5AA895CB296B",
+      "bytes": 11165
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\ui\\comparison-screen.mjs",
+      "sha256": "8A245E8DB9FF1ED8BADBC93DB1184AAF4351B2C76895F17C28CC62F9E1486561",
+      "bytes": 34642
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\ui\\comparison.css",
+      "sha256": "5D075F613C2D0282136606B095A47644B192E2F9147257C0B92B3CE2CA28A759",
+      "bytes": 39574
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\ui\\manifest.json",
+      "sha256": "E9BC67E7120E1D38C357BCD7B3537C0AA11283607BC237A1A5C04FD2E849ED28",
+      "bytes": 1708
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\ui\\preview.mjs",
+      "sha256": "EB1A4F613E8824A72E2A93E7D1E8BA5CB2ED71E27A39F24A5ED366AF9F3FF4FB",
+      "bytes": 1257
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\ui\\README.md",
+      "sha256": "78E86407AA3E6948BD41E28146801E2F5715FD25A144110E5E3036FBB90E42C2",
+      "bytes": 10603
+    },
+    {
+      "path": "artifacts\\trace-home-v1-20260914\\coordination\\context-package.json",
+      "sha256": "FEC12772D27033E54E9EDB811486DE7C749DB5AFF054BF1BA3DE06628DC00CD7",
+      "bytes": 4681
+    },
+    {
+      "path": "artifacts\\trace-home-v1-20260914\\coordination\\discussion-review.md",
+      "sha256": "767567524890D2DAA587148D914DEAE72E96C375143E64B2B81E40D682222319",
+      "bytes": 7868
+    },
+    {
+      "path": "artifacts\\trace-home-v1-20260914\\fonts\\download-receipts.json",
+      "sha256": "E4C4A43ED1DF8033917CE194242BB4F199EE993A08E22CB5638A3D852C76934D",
+      "bytes": 2125
+    },
+    {
+      "path": "artifacts\\trace-home-v1-20260914\\fonts\\fixed-copy.json",
+      "sha256": "EE07827BEA607F53BFD68EEA64B3E04EC7B833756DC9715C1A338AA14FC714F9",
+      "bytes": 2775
+    },
+    {
+      "path": "artifacts\\trace-home-v1-20260914\\fonts\\FONT-USAGE.md",
+      "sha256": "1DB56EF22743C216D4D0CB766F401E520BD8C30B6234262902B873DA8A7F199E",
+      "bytes": 8036
+    },
+    {
+      "path": "artifacts\\trace-home-v1-20260914\\fonts\\manifest.json",
+      "sha256": "C7478B60FC89DF5DB8FF15D4D5C6EF7BE52E6CEAF705CB864A41AAF29B817B63",
+      "bytes": 21505
+    },
+    {
+      "path": "artifacts\\trace-home-v1-20260914\\images\\ASSET-NOTES.md",
+      "sha256": "BDDB11D10197F7F8BFF74296CBDA5CF7B5E1FB4827A582CB3A2BC57CE6559D08",
+      "bytes": 10481
+    },
+    {
+      "path": "artifacts\\trace-home-v1-20260914\\images\\manifest.json",
+      "sha256": "4AD2F962AE48046375BD7F6A48FD1F1FE822035752A4AA843010D563E936536C",
+      "bytes": 41114
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\coordination\\context-package.json",
+      "sha256": "BDF5906EC3208A9C254499C5082E5E689971A7547BCC9A1A303BA5F28FA45068",
+      "bytes": 5028
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\coordination\\CONTRACT.md",
+      "sha256": "CB3D4C42BC1D31425EDD405CBF12668C88E7C40CD3A4DEF9FB57499E9FF8D901",
+      "bytes": 6259
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\fonts\\copy-codepoints.json",
+      "sha256": "4406D6ED62AEE01C1684869D2CCB2DEA54B03452D899B1FBE829F695BB1FD37F",
+      "bytes": 8391
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\fonts\\fixed-copy.json",
+      "sha256": "4357C72767BB40D08B5E4B514A15CFCC1A388F6BE8B8C86DA1DDDAC56645AD19",
+      "bytes": 4712
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\fonts\\FONT-USAGE.md",
+      "sha256": "79F3D7FF625C0E5491166103ED04EA2932843132369B99A2A7682735EE673519",
+      "bytes": 3956
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\fonts\\manifest.json",
+      "sha256": "E8F6E4B48738857BE65D9437E9A6849EC71343FC1B9276397179118C5D9581A7",
+      "bytes": 19103
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\fonts\\scene-copy-audit.json",
+      "sha256": "504712192812841312C215230D90B881E8B6A72EA47FC8D8663FDE5DCF176EE7",
+      "bytes": 802
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\images\\ASSET-NOTES.md",
+      "sha256": "DB793E6A4725E8C1BB42C55887D768A9184FF4F7CF21262A34A3B7C1DF1A51EC",
+      "bytes": 5384
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\images\\manifest.json",
+      "sha256": "55E3083A227C9BFBC4362B28C56F9EA51FF5341A895218BD51284CC0A5E23CFD",
+      "bytes": 15809
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\model\\manifest.json",
+      "sha256": "720BD4113E0AA039D51E2DADE2B722DF2C28BB39063A0A356D16B1B878F65E94",
+      "bytes": 1463
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\model\\matters-model.mjs",
+      "sha256": "91203DA04BE09ECA19B3B47DA82EBB21462C16867FF7743B7B9EF38AF0C44184",
+      "bytes": 16197
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\model\\matters-model.test.mjs",
+      "sha256": "5471643E35053880D272F24CE9D58A140757D7228FBCF247A773F82176261490",
+      "bytes": 16177
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\model\\MODEL-USAGE.md",
+      "sha256": "21F511FEE95615145095AC16A03385205F15AB78BAF5CC508BF3B319C9EFD19D",
+      "bytes": 6063
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\scene\\matters-screen.mjs",
+      "sha256": "2CD3BC190732F771BA27CEBEAFA14EB320CA21941CF6F3467A69F38233D9023F",
+      "bytes": 39615
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\scene\\matters.css",
+      "sha256": "9DEB663CC6F2E315BD61DA4E7902313782193FBB83177370B43185668518517E",
+      "bytes": 23753
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\scene\\README.md",
+      "sha256": "0F170F6D09B9EA41782C0881CFD16D4F97F7B3655C51C171C013271B9D468CEF",
+      "bytes": 7996
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\scene\\smoke-first-failure.json",
+      "sha256": "191A15F32CDA02208320C8EFA2A28DC1808DDE30B112AFAE484A51AE19FE2013",
+      "bytes": 2686
+    },
+    {
+      "path": "artifacts\\trace-matters-v1-20260915\\scene\\smoke-result.json",
+      "sha256": "7E0E7A356E4AC04B0D7956D9838B94C593F1630293660FB0733A740DE1028183",
+      "bytes": 3605
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\coordination\\AMENDMENT-01.md",
+      "sha256": "38432B1AC331AD069C9056FF4347B9C7C806BFCCD6A8EBD9A626C9156B01F226",
+      "bytes": 1497
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\coordination\\context-package.json",
+      "sha256": "5419BAC2804EB001F853B968060478429AA5AFCE08F1ACECEFA14F64E4B3E562",
+      "bytes": 7308
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\coordination\\CONTRACT.md",
+      "sha256": "85DE599401E165D985E476A39849BD07CA04DCBC8E4D249AC2DC7071BF708E2C",
+      "bytes": 10748
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\fonts\\FONT-USAGE.md",
+      "sha256": "EF4FF86E670A2CB4372841360C6E2A951C25C8127EE4CF7FD04A4D87382FA3DC",
+      "bytes": 5957
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\fonts\\manifest.json",
+      "sha256": "025C860C473B8224799911F34B2ED0A2572539C59760A800A0A95D8C8A64D3EA",
+      "bytes": 20332
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\fonts\\validation-history.json",
+      "sha256": "8144CB102966318B4580A309592105DC248CAD51C72601A0A49EC42E51D0823B",
+      "bytes": 1250
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\images\\ASSET-NOTES.md",
+      "sha256": "C13B29F2D481F0A244B7B52A06D6A8F74FFDB3863D81F1A564573BA4176C4413",
+      "bytes": 4587
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\images\\manifest.json",
+      "sha256": "89F77F51BF0D2488579B86E0A6AA1105E6764134DE94985B76FCE37D524C670F",
+      "bytes": 14636
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\model\\chain-model.mjs",
+      "sha256": "3707368E9B74B584FA68585094C192FE835302BDC974F9A7A2B39BBF3A2C899C",
+      "bytes": 34408
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\model\\chain-model.test.mjs",
+      "sha256": "37E3A6C1DB7FA38EC9EBEC4CE9250BE224F8EEB06C13C9E07F22FA64DCB22CA6",
+      "bytes": 25199
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\model\\README.md",
+      "sha256": "B18ADDDF89C62990175507C6C73D74F053854955C307CE586CDCB3AF9E2E304F",
+      "bytes": 8554
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\model\\receipt.json",
+      "sha256": "2CC9E9BEFF61369A4C55E0AC82128BABA8567D4BC8D06A40A0F00676878618C6",
+      "bytes": 1751
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\ui\\chain-helpers.mjs",
+      "sha256": "C37ACE8E2ECD28DF61414B1442D579FBFEC2BC709A410687E83FEE331B75DAE7",
+      "bytes": 4842
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\ui\\chain-screen.mjs",
+      "sha256": "9629B4AF37E0C68E30A01EAECA5612EDF5B9F48E21B0616FE6F4203FA167710F",
+      "bytes": 40946
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\ui\\chain.css",
+      "sha256": "D0796798A1245E468CF5DC21897BF4939E8A9DC6252B0F5D5854E5A2FBEA6760",
+      "bytes": 35348
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\ui\\README.md",
+      "sha256": "BB184425B3C926E3168121761BA03B873CC322E41E37F3929BAA7FBD792BC831",
+      "bytes": 7094
+    },
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\ui\\ui-manifest.json",
+      "sha256": "8FEBD490C57B6E97B6CC43021F61D810669D8A7379209772EA14388976DCB179",
+      "bytes": 2253
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\coordination\\AMENDMENT-01.md",
+      "sha256": "9E5859AE392A97BCDA01E2F15922A9BF0DC1FB140FD5C21AF7EE292684775170",
+      "bytes": 912
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\coordination\\context-package.json",
+      "sha256": "DD9BDA87EDB138B15C3A3E9535BD78BF5E51934DA333A4175C251BF8F7078C06",
+      "bytes": 4654
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\coordination\\CONTRACT.md",
+      "sha256": "F42F322AAF80A8DBA6BB28A1084CDF64B84DFDAD116CF9AB100801335B6901E8",
+      "bytes": 9977
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\fonts\\FONT-USAGE.md",
+      "sha256": "9D36CE80E65796BA7BB7DD8F36E7EC325DC9B7955EFBD4D6C7C0508A95B5B548",
+      "bytes": 4061
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\fonts\\manifest.json",
+      "sha256": "BEF2EE3757590652D274FF421EF25D1B2EF8AEC2774BD59F815C70105B607C6E",
+      "bytes": 10499
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\images\\ASSET-NOTES.md",
+      "sha256": "3FCA2677415B5A671B4557A058B6F57A57BFE9C75513036BAFCA81483E7B306F",
+      "bytes": 3371
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\images\\manifest.json",
+      "sha256": "00751411F78CB4A90C9B3FC9F4DC968F2B1D017AFA788B68F3B8FACC8EE7E543",
+      "bytes": 12082
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\model\\chain-mapping.md",
+      "sha256": "F10FC84969CE415ACF67CA0E89B381A7945B682985AD8F6CBFBEA51539E8F038",
+      "bytes": 5208
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\model\\README.md",
+      "sha256": "E4BA28CC92956E2E30895075E4CEE63795F8D82DA15225802BCC838ECC9DAF00",
+      "bytes": 5650
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\model\\worksite-model.mjs",
+      "sha256": "DE3497965A20B537DFFF080FC24ADC73DEA2102FEA81390A8B1A76C4AC0C961D",
+      "bytes": 20911
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\model\\worksite-model.test.mjs",
+      "sha256": "4A8CD6773BFBCE0F3C25EB2E6A4E6312D40D361761D4A1289A5EE5AF47BA6322",
+      "bytes": 22147
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\ui\\DESIGN.md",
+      "sha256": "D1EA572D76EDF24611CB99B5804DD32AEF1FDD00A92C18BADEBFCEEF9158290B",
+      "bytes": 1579
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\ui\\PRODUCT.md",
+      "sha256": "B0359B0EBC773BE83CF7C772506C0824CE4058FCAC0BCAEF9283039F5A03FEE7",
+      "bytes": 807
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\ui\\README.md",
+      "sha256": "955C7D57DAF18D3E331B98EF737B040671C76783382D1BC7A76D440FD5000211",
+      "bytes": 10165
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\ui\\worksite-icons.mjs",
+      "sha256": "E1BF3A562883D49F058C23C4A16DE30B08376E76510BE292BB98C9B49A50CBC8",
+      "bytes": 2031
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\ui\\worksite-screen.mjs",
+      "sha256": "293AE775CC6F61F66134BFD487F7C00E5F10B6B97BAEB96EAE1427B78250F625",
+      "bytes": 43962
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\ui\\worksite.css",
+      "sha256": "C06CC8ACE52A56B7BE603C03B2941A6F33741FA7FB922E6D80627D0A2C865D9F",
+      "bytes": 46099
+    },
+    {
+      "path": "trace-runtime\\apps\\desktop\\src\\discussion.js",
+      "sha256": "0D9ECFDD8D779ADB47F4B545935FDC0EA1523203EABFF4FFE9A3C3891BC2F50D",
+      "bytes": 16952
+    },
+    {
+      "path": "trace-runtime\\apps\\desktop\\src\\home\\scene-glass.js",
+      "sha256": "0DE8F99069D46021162DA35B8757C496639A70B4371A69A8AD79DBF267E3B772",
+      "bytes": 8287
+    },
+    {
+      "path": "trace-runtime\\apps\\desktop\\src\\home-icons.js",
+      "sha256": "5AB8F56A90BCD54B180D21951856EB81BE118BBFA743ABA9AF1B5FC909D20854",
+      "bytes": 1696
+    },
+    {
+      "path": "trace-runtime\\apps\\desktop\\src\\home-model.js",
+      "sha256": "F3D1FAA0CFE33AFBB1E2E13530FCC7844F9CA52B1AF4063D2F85EC92E8CCFA4D",
+      "bytes": 5361
+    },
+    {
+      "path": "trace-runtime\\apps\\desktop\\src\\home.css",
+      "sha256": "9A365B708F1BFF758816D34D1922902893246F62592D232803115803792181A9",
+      "bytes": 19998
+    },
+    {
+      "path": "trace-runtime\\apps\\desktop\\src\\home.js",
+      "sha256": "E8C38C8F95107C26D998916A01F4BCB8A983C5DB63C7EA8240EEADEB380D587A",
+      "bytes": 25983
+    },
+    {
+      "path": "trace-runtime\\apps\\desktop\\src\\main.js",
+      "sha256": "F4E70518980645CBE9723035B5A34CB9A796B6E01C5BC8CB2EC5BE94BD0DD85A",
+      "bytes": 6038
+    },
+    {
+      "path": "trace-runtime\\apps\\desktop\\src\\matters\\matters-model.mjs",
+      "sha256": "3D9A248F129F23834DACD2070F3184FFADDE35870612B731CC18076E00FE0606",
+      "bytes": 16266
+    },
+    {
+      "path": "trace-runtime\\apps\\desktop\\src\\matters\\matters-screen.mjs",
+      "sha256": "D8C576DD8E2B8924B9D525BCE1EB29CFFCF80DE671C6C017B34D4DA97BB88198",
+      "bytes": 41481
+    },
+    {
+      "path": "trace-runtime\\apps\\desktop\\src\\matters\\matters.css",
+      "sha256": "4FE6ABB8163307427E97E4A9E8BECB668561A76040FEF21DFA9A990B3127408A",
+      "bytes": 26140
+    },
+    {
+      "path": "trace-runtime\\apps\\desktop\\src\\prototype-session.js",
+      "sha256": "A06CE946FFADB8E0F4B4178DD50B6A55850D59910676EACE8EA518E4B32FE848",
+      "bytes": 2599
+    },
+    {
+      "path": "trace-runtime\\apps\\desktop\\src\\style.css",
+      "sha256": "67BD3DBC61A825B146211C200F2D7D63D0A3F64D1E3B93A57B53AECA83819C74",
+      "bytes": 16331
+    }
+  ],
+  "sourceOfTruth": "Existing page-specific references under manunl/具体页面与视觉实现/桌面端; approved current assets, live app, module contracts and explicit user Web-first request.",
+  "owners": {
+    "experience": "web_continuity_experience",
+    "assets": "web_asset_freeze",
+    "state": "web_state_bridge",
+    "app_and_coordination": "root"
+  }
+}

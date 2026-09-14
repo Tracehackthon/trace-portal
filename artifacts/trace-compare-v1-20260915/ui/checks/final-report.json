@@ -1,0 +1,163 @@
+{
+  "taskId": "trace-compare-v1-20260915",
+  "scope": "isolated native DOM module + pure fixture host; not integrated app",
+  "prefix": "final",
+  "checks": [
+    {
+      "name": "All four screens load fonts/assets without horizontal overflow or clipped buttons",
+      "ok": true
+    },
+    {
+      "name": "Search begins with no candidates; SEARCH produces exactly 3 local demos",
+      "ok": true
+    },
+    {
+      "name": "Query update preserves same input node and selection",
+      "ok": true
+    },
+    {
+      "name": "IME composition does not dispatch partial business text",
+      "ok": true
+    },
+    {
+      "name": "Direction and scope change actual session query",
+      "ok": true
+    },
+    {
+      "name": "Blank query cannot submit",
+      "ok": true
+    },
+    {
+      "name": "Unavailable local scope renders honest empty state",
+      "ok": true
+    },
+    {
+      "name": "Open candidate and inspect local context/info without external URL",
+      "ok": true
+    },
+    {
+      "name": "Candidate-specific note drafts remain separate and recover",
+      "ok": true
+    },
+    {
+      "name": "Saving user comparison is not understanding mutation",
+      "ok": true
+    },
+    {
+      "name": "Cancel revision with Escape leaves host untouched",
+      "ok": true
+    },
+    {
+      "name": "LINK opens relationship confirmation; host link preserves understanding",
+      "ok": true
+    },
+    {
+      "name": "Revision requires changed text and explicit before/after confirmation",
+      "ok": true
+    },
+    {
+      "name": "Undo only reverts revision and preserves linked material",
+      "ok": true
+    },
+    {
+      "name": "Pending host commit never renders updated screen",
+      "ok": true
+    },
+    {
+      "name": "Stale host version refuses overwrite and does not show returned",
+      "ok": true
+    },
+    {
+      "name": "User-pasted material is literal text, labelled user, no fake remote link",
+      "ok": true
+    },
+    {
+      "name": "Return/continue/all use host callbacks without changing matter",
+      "ok": true
+    },
+    {
+      "name": "Compact viewport reflows without horizontal overflow and bottom actions reachable",
+      "ok": true
+    },
+    {
+      "name": "390px viewport keeps native dialog and source actions reachable",
+      "ok": true
+    },
+    {
+      "name": "Long literal excerpts scroll rather than overlap source actions",
+      "ok": true
+    },
+    {
+      "name": "Destroy removes UI and event handlers",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "badResponses": [],
+  "screens": [
+    {
+      "screen": "search",
+      "fontSans": true,
+      "fontSerif": true,
+      "images": [
+        {
+          "src": "http://127.0.0.1:62118/artifacts/trace-compare-v1-20260915/images/ready/bird-takeoff.png",
+          "loaded": true
+        }
+      ],
+      "glass": [
+        "requested"
+      ],
+      "horizontalOverflow": false,
+      "clippedButtons": []
+    },
+    {
+      "screen": "candidates",
+      "fontSans": true,
+      "fontSerif": true,
+      "images": [
+        {
+          "src": "http://127.0.0.1:62118/artifacts/trace-compare-v1-20260915/images/ready/bird-perched.png",
+          "loaded": true
+        }
+      ],
+      "glass": [
+        "requested"
+      ],
+      "horizontalOverflow": false,
+      "clippedButtons": []
+    },
+    {
+      "screen": "compare",
+      "fontSans": true,
+      "fontSerif": true,
+      "images": [
+        {
+          "src": "http://127.0.0.1:62118/artifacts/trace-compare-v1-20260915/images/ready/bird-perched.png",
+          "loaded": true
+        }
+      ],
+      "glass": [],
+      "horizontalOverflow": false,
+      "clippedButtons": []
+    },
+    {
+      "screen": "returned",
+      "fontSans": true,
+      "fontSerif": true,
+      "images": [
+        {
+          "src": "http://127.0.0.1:62118/artifacts/trace-compare-v1-20260915/images/ready/bird-takeoff.png",
+          "loaded": true
+        }
+      ],
+      "glass": [],
+      "horizontalOverflow": false,
+      "clippedButtons": []
+    }
+  ],
+  "serverStopped": true,
+  "port": 62118,
+  "passed": 22,
+  "total": 22
+}

@@ -1,0 +1,37 @@
+{
+  "task_id": "trace-home-v1-prototype-20260914",
+  "writer_scope": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\components\\derived\\trace-adapter",
+  "syntax_check": "node --input-type=module --check PASS",
+  "tests": "node --test scene-glass.test.mjs: 4 passed, 0 failed",
+  "tested_scope": [
+    "global cover background geometry",
+    "whole-scene scaling and translation",
+    "centered cover crop",
+    "zero/invalid size fallback"
+  ],
+  "not_run": [
+    "DOM mount/destroy",
+    "actual optional vendor import",
+    "SVG rendering",
+    "Electron file://",
+    "animation/performance",
+    "visual comparison"
+  ],
+  "files": [
+    {
+      "path": "scene-glass.js",
+      "bytes": 8242,
+      "sha256": "9F1B5A0042F14910A590F20B101BEBCB3031F77911FAADF539B393688C41184D"
+    },
+    {
+      "path": "scene-glass.test.mjs",
+      "bytes": 1936,
+      "sha256": "F3C9D98F7A99A5ACE3A29BF0335F1E0783BBE05329A2910BD4B0669AC5856268"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3233,
+      "sha256": "E5606C5C3CCE8F68CBE01DA6ED22766145CD27C69EE0C1FF0334099D7ACA109D"
+    }
+  ]
+}

@@ -1,0 +1,5986 @@
+{
+  "task": "trace-home-v1-prototype-20260914",
+  "target": "http://127.0.0.1:4173",
+  "startedAt": "2026-09-14T16:00:44.744Z",
+  "browser": "Chromium headless, fresh isolated contexts; no user profile",
+  "limits": [
+    "Native candidate bridge is mocked, not real Electron IPC or Overlay mutation acceptance.",
+    "IME checks dispatch composition-aware DOM keyboard events, not a real OS IME session.",
+    "Refraction requested proves adapter/vendor mount, not that pixels were visually accepted.",
+    "No screenshots or service lifecycle changes; main Agent owns visual review and server."
+  ],
+  "cases": [
+    {
+      "id": "route:/",
+      "operation": "Navigate /; expect home",
+      "startedAt": "2026-09-14T16:00:45.318Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "route": "home"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/",
+        "scene": "overview",
+        "home": true,
+        "discussion": false,
+        "title": null,
+        "utilityHidden": true,
+        "detailHidden": true,
+        "capture": "",
+        "detail": null,
+        "visibleBubbles": [
+          {
+            "id": "thought",
+            "title": "收藏后为什么接不回来"
+          },
+          {
+            "id": "work",
+            "title": "工作 UI 如何承接"
+          },
+          {
+            "id": "fresh",
+            "title": "想重新看，不先被旧理解带走"
+          },
+          {
+            "id": "handoff",
+            "title": "多 Agent 交接如何保留证据"
+          }
+        ],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/home.css"
+        ],
+        "refraction": [
+          {
+            "entry": "thought",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "fallback",
+            "visible": true
+          }
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:45.678Z"
+    },
+    {
+      "id": "route:?view=home&from=trace-native&observationId=old-id&text=legacy&source=x&status=y",
+      "operation": "Navigate ?view=home&from=trace-native&observationId=old-id&text=legacy&source=x&status=y; expect home",
+      "startedAt": "2026-09-14T16:00:45.793Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "route": "home"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/?view=home&from=trace-native&observationId=old-id&text=legacy&source=x&status=y",
+        "scene": "overview",
+        "home": true,
+        "discussion": false,
+        "title": null,
+        "utilityHidden": true,
+        "detailHidden": true,
+        "capture": "",
+        "detail": null,
+        "visibleBubbles": [
+          {
+            "id": "thought",
+            "title": "收藏后为什么接不回来"
+          },
+          {
+            "id": "work",
+            "title": "工作 UI 如何承接"
+          },
+          {
+            "id": "fresh",
+            "title": "想重新看，不先被旧理解带走"
+          },
+          {
+            "id": "handoff",
+            "title": "多 Agent 交接如何保留证据"
+          }
+        ],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/home.css"
+        ],
+        "refraction": [
+          {
+            "entry": "thought",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "fallback",
+            "visible": true
+          }
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:45.967Z"
+    },
+    {
+      "id": "route:?view=discussion",
+      "operation": "Navigate ?view=discussion; expect discussion",
+      "startedAt": "2026-09-14T16:00:46.098Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "route": "discussion"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/?view=discussion",
+        "scene": null,
+        "home": false,
+        "discussion": true,
+        "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+        "utilityHidden": null,
+        "detailHidden": null,
+        "capture": null,
+        "detail": null,
+        "visibleBubbles": [],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/style.css"
+        ],
+        "refraction": []
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:46.285Z"
+    },
+    {
+      "id": "route:?from=trace-native",
+      "operation": "Navigate ?from=trace-native; expect discussion",
+      "startedAt": "2026-09-14T16:00:46.400Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "route": "discussion"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/?from=trace-native",
+        "scene": null,
+        "home": false,
+        "discussion": true,
+        "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+        "utilityHidden": null,
+        "detailHidden": null,
+        "capture": null,
+        "detail": null,
+        "visibleBubbles": [],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/style.css"
+        ],
+        "refraction": []
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:46.617Z"
+    },
+    {
+      "id": "route:?from=deepseek-harness",
+      "operation": "Navigate ?from=deepseek-harness; expect discussion",
+      "startedAt": "2026-09-14T16:00:46.719Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "route": "discussion"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/?from=deepseek-harness",
+        "scene": null,
+        "home": false,
+        "discussion": true,
+        "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+        "utilityHidden": null,
+        "detailHidden": null,
+        "capture": null,
+        "detail": null,
+        "visibleBubbles": [],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/style.css"
+        ],
+        "refraction": []
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:46.892Z"
+    },
+    {
+      "id": "route:?observationId=regression-id",
+      "operation": "Navigate ?observationId=regression-id; expect discussion",
+      "startedAt": "2026-09-14T16:00:47.012Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "route": "discussion"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/?observationId=regression-id",
+        "scene": null,
+        "home": false,
+        "discussion": true,
+        "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+        "utilityHidden": null,
+        "detailHidden": null,
+        "capture": null,
+        "detail": null,
+        "visibleBubbles": [],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/style.css"
+        ],
+        "refraction": []
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:47.195Z"
+    },
+    {
+      "id": "route:?observationId=",
+      "operation": "Navigate ?observationId=; expect discussion",
+      "startedAt": "2026-09-14T16:00:47.306Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "route": "discussion"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/?observationId=",
+        "scene": null,
+        "home": false,
+        "discussion": true,
+        "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+        "utilityHidden": null,
+        "detailHidden": null,
+        "capture": null,
+        "detail": null,
+        "visibleBubbles": [],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/style.css"
+        ],
+        "refraction": []
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:47.481Z"
+    },
+    {
+      "id": "route:?text=regression-text",
+      "operation": "Navigate ?text=regression-text; expect discussion",
+      "startedAt": "2026-09-14T16:00:47.596Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "route": "discussion"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/?text=regression-text",
+        "scene": null,
+        "home": false,
+        "discussion": true,
+        "title": "regression-text",
+        "utilityHidden": null,
+        "detailHidden": null,
+        "capture": null,
+        "detail": null,
+        "visibleBubbles": [],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/style.css"
+        ],
+        "refraction": []
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:47.767Z"
+    },
+    {
+      "id": "route:?text=",
+      "operation": "Navigate ?text=; expect discussion",
+      "startedAt": "2026-09-14T16:00:47.880Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "route": "discussion"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/?text=",
+        "scene": null,
+        "home": false,
+        "discussion": true,
+        "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+        "utilityHidden": null,
+        "detailHidden": null,
+        "capture": null,
+        "detail": null,
+        "visibleBubbles": [],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/style.css"
+        ],
+        "refraction": []
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:48.054Z"
+    },
+    {
+      "id": "route:?source=regression-source",
+      "operation": "Navigate ?source=regression-source; expect discussion",
+      "startedAt": "2026-09-14T16:00:48.170Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "route": "discussion"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/?source=regression-source",
+        "scene": null,
+        "home": false,
+        "discussion": true,
+        "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+        "utilityHidden": null,
+        "detailHidden": null,
+        "capture": null,
+        "detail": null,
+        "visibleBubbles": [],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/style.css"
+        ],
+        "refraction": []
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:48.357Z"
+    },
+    {
+      "id": "route:?status=待确认",
+      "operation": "Navigate ?status=待确认; expect discussion",
+      "startedAt": "2026-09-14T16:00:48.477Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "route": "discussion"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/?status=%E5%BE%85%E7%A1%AE%E8%AE%A4",
+        "scene": null,
+        "home": false,
+        "discussion": true,
+        "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+        "utilityHidden": null,
+        "detailHidden": null,
+        "capture": null,
+        "detail": null,
+        "visibleBubbles": [],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/style.css"
+        ],
+        "refraction": []
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:48.661Z"
+    },
+    {
+      "id": "route:?source=&status=",
+      "operation": "Navigate ?source=&status=; expect discussion",
+      "startedAt": "2026-09-14T16:00:48.778Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "route": "discussion"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/?source=&status=",
+        "scene": null,
+        "home": false,
+        "discussion": true,
+        "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+        "utilityHidden": null,
+        "detailHidden": null,
+        "capture": null,
+        "detail": null,
+        "visibleBubbles": [],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/style.css"
+        ],
+        "refraction": []
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:48.948Z"
+    },
+    {
+      "id": "legacy:query-and-candidate-mock",
+      "operation": "Preserve query text/status/source; click candidate twice with mocked traceNative.reportCandidate",
+      "startedAt": "2026-09-14T16:00:49.051Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "actual": [
+          {
+            "type": "trace.desktop.candidate",
+            "observationId": "regression-observation",
+            "status": "候选中"
+          },
+          {
+            "type": "trace.desktop.candidate",
+            "observationId": "regression-observation",
+            "status": "待确认"
+          }
+        ],
+        "transport": "mock traceNative callback; no Electron IPC and no real Overlay"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/?from=trace-native&observationId=regression-observation&text=%E4%B8%AD%E6%96%87+%26+%2B+%3F+%23+%3Cb+data-legacy-probe%3E%E5%BC%95%E7%94%A8%3C%2Fb%3E+%22%E5%8F%8C%E5%BC%95%E5%8F%B7%22&source=regression-source&status=%E5%BE%85%E7%A1%AE%E8%AE%A4",
+        "scene": null,
+        "home": false,
+        "discussion": true,
+        "title": "中文 & + ? # <b data-legacy-probe>引用</b> \"双引号\"",
+        "utilityHidden": null,
+        "detailHidden": null,
+        "capture": null,
+        "detail": null,
+        "visibleBubbles": [],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/style.css"
+        ],
+        "refraction": []
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:49.267Z"
+    },
+    {
+      "id": "home:empty-submit",
+      "operation": "Empty and whitespace capture cannot submit, including Enter and direct form requestSubmit()",
+      "startedAt": "2026-09-14T16:00:49.382Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {},
+      "actual": {
+        "url": "http://127.0.0.1:4173/",
+        "scene": "overview",
+        "home": true,
+        "discussion": false,
+        "title": null,
+        "utilityHidden": true,
+        "detailHidden": true,
+        "capture": " \n ",
+        "detail": null,
+        "visibleBubbles": [
+          {
+            "id": "thought",
+            "title": "收藏后为什么接不回来"
+          },
+          {
+            "id": "work",
+            "title": "工作 UI 如何承接"
+          },
+          {
+            "id": "fresh",
+            "title": "想重新看，不先被旧理解带走"
+          },
+          {
+            "id": "handoff",
+            "title": "多 Agent 交接如何保留证据"
+          }
+        ],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/home.css"
+        ],
+        "refraction": [
+          {
+            "entry": "thought",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "fallback",
+            "visible": true
+          }
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:49.631Z"
+    },
+    {
+      "id": "home:refraction-vendor",
+      "operation": "Small overview bubbles mount refraction vendor; served .mjs has JavaScript MIME (not pixel acceptance)",
+      "startedAt": "2026-09-14T16:00:49.759Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "vendorResponses": [
+          {
+            "url": "http://127.0.0.1:4173/src/vendor/shape-only.mjs",
+            "status": 200,
+            "contentType": "text/javascript; charset=utf-8"
+          }
+        ],
+        "materials": [
+          {
+            "entry": "thought",
+            "state": "requested",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "requested",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "requested",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "requested",
+            "visible": true
+          }
+        ],
+        "limitation": "data-refraction=requested is adapter mount state, not browser painted-filter verification; large detail fallback is intentional."
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/",
+        "scene": "overview",
+        "home": true,
+        "discussion": false,
+        "title": null,
+        "utilityHidden": true,
+        "detailHidden": true,
+        "capture": "",
+        "detail": null,
+        "visibleBubbles": [
+          {
+            "id": "thought",
+            "title": "收藏后为什么接不回来"
+          },
+          {
+            "id": "work",
+            "title": "工作 UI 如何承接"
+          },
+          {
+            "id": "fresh",
+            "title": "想重新看，不先被旧理解带走"
+          },
+          {
+            "id": "handoff",
+            "title": "多 Agent 交接如何保留证据"
+          }
+        ],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/home.css"
+        ],
+        "refraction": [
+          {
+            "entry": "thought",
+            "state": "requested",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "requested",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "requested",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "requested",
+            "visible": true
+          }
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:50.297Z"
+    },
+    {
+      "id": "home:capture-grow-work-return",
+      "operation": "Capture exact original, grow user insight, enter work, submit user result without automatic verification",
+      "startedAt": "2026-09-14T16:00:50.399Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "original": "回归原文：这是我自己留下的一点。",
+        "insight": "回归新理解：重新出现的现场比标签更重要。",
+        "result": "回归真实结果：只完成一次试用，尚待再次验证。",
+        "badge": "已带回 · 待再判断"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/",
+        "scene": "return",
+        "home": true,
+        "discussion": false,
+        "title": "工作 UI 如何承接",
+        "utilityHidden": true,
+        "detailHidden": true,
+        "capture": "",
+        "detail": "回归真实结果：只完成一次试用，尚待再次验证。",
+        "visibleBubbles": [
+          {
+            "id": "thought",
+            "title": "回归原文：这是我自己留下的一点。"
+          },
+          {
+            "id": "work",
+            "title": "工作 UI 如何承接"
+          },
+          {
+            "id": "fresh",
+            "title": "想重新看，不先被旧理解带走"
+          },
+          {
+            "id": "handoff",
+            "title": "多 Agent 交接如何保留证据"
+          },
+          {
+            "id": "practice",
+            "title": "Codex · harness"
+          },
+          {
+            "id": "result",
+            "title": "回归真实结果：只完成一次试用，尚待再次验证。"
+          }
+        ],
+        "resultBadge": "已带回 · 待再判断",
+        "styles": [
+          "http://127.0.0.1:4173/src/home.css"
+        ],
+        "refraction": [
+          {
+            "entry": "thought",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "insight",
+            "state": "fallback",
+            "visible": false
+          },
+          {
+            "entry": "practice",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "result",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "detail",
+            "state": "fallback",
+            "visible": false
+          }
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:50.891Z"
+    },
+    {
+      "id": "home:search-empty-and-escape",
+      "operation": "Search matching text and an absent phrase; Escape closes utility and then detail",
+      "startedAt": "2026-09-14T16:00:51.008Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {},
+      "actual": {
+        "url": "http://127.0.0.1:4173/",
+        "scene": "overview",
+        "home": true,
+        "discussion": false,
+        "title": "收藏后为什么接不回来",
+        "utilityHidden": true,
+        "detailHidden": true,
+        "capture": "",
+        "detail": "",
+        "visibleBubbles": [
+          {
+            "id": "thought",
+            "title": "收藏后为什么接不回来"
+          },
+          {
+            "id": "work",
+            "title": "工作 UI 如何承接"
+          },
+          {
+            "id": "fresh",
+            "title": "想重新看，不先被旧理解带走"
+          },
+          {
+            "id": "handoff",
+            "title": "多 Agent 交接如何保留证据"
+          }
+        ],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/home.css"
+        ],
+        "refraction": [
+          {
+            "entry": "thought",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "detail",
+            "state": "fallback",
+            "visible": false
+          }
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:51.283Z"
+    },
+    {
+      "id": "home:rapid-switch-collapse",
+      "operation": "Animation-enabled DOM click burst thought→fresh→close→work→close; no stale callback or uncaught error",
+      "startedAt": "2026-09-14T16:00:51.392Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "sequence": [
+          {
+            "selector": "[data-entry=\"thought\"]",
+            "url": "http://127.0.0.1:4173/",
+            "scene": "thinking",
+            "home": true,
+            "discussion": false,
+            "title": "收藏后为什么接不回来",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          {
+            "selector": "[data-entry=\"fresh\"]",
+            "url": "http://127.0.0.1:4173/",
+            "scene": "thinking",
+            "home": true,
+            "discussion": false,
+            "title": "想重新看，不先被旧理解带走",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          {
+            "selector": ".scene-back",
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": "想重新看，不先被旧理解带走",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          {
+            "selector": "[data-entry=\"work\"]",
+            "url": "http://127.0.0.1:4173/",
+            "scene": "work",
+            "home": true,
+            "discussion": false,
+            "title": "工作 UI 如何承接",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": false
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          {
+            "selector": ".scene-back",
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": "工作 UI 如何承接",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          }
+        ],
+        "method": "DOM click events bypassed stable-position waiting to intentionally interrupt active transitions"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/",
+        "scene": "overview",
+        "home": true,
+        "discussion": false,
+        "title": "工作 UI 如何承接",
+        "utilityHidden": true,
+        "detailHidden": true,
+        "capture": "",
+        "detail": "",
+        "visibleBubbles": [
+          {
+            "id": "thought",
+            "title": "收藏后为什么接不回来"
+          },
+          {
+            "id": "work",
+            "title": "工作 UI 如何承接"
+          },
+          {
+            "id": "fresh",
+            "title": "想重新看，不先被旧理解带走"
+          },
+          {
+            "id": "handoff",
+            "title": "多 Agent 交接如何保留证据"
+          }
+        ],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/home.css"
+        ],
+        "refraction": [
+          {
+            "entry": "thought",
+            "state": "requested",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "requested",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "requested",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "requested",
+            "visible": true
+          },
+          {
+            "entry": "detail",
+            "state": "fallback",
+            "visible": false
+          }
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:53.214Z"
+    },
+    {
+      "id": "home:ime-enter",
+      "operation": "Composition-aware Enter must not submit capture or detail; normal Enter after composition submits",
+      "startedAt": "2026-09-14T16:00:53.308Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "method": "Synthetic DOM KeyboardEvent.isComposing=true; not OS IME integration"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/",
+        "scene": "thinking",
+        "home": true,
+        "discussion": false,
+        "title": "正在输入的中文",
+        "utilityHidden": true,
+        "detailHidden": false,
+        "capture": "",
+        "detail": "还在组合输入",
+        "visibleBubbles": [
+          {
+            "id": "thought",
+            "title": "正在输入的中文"
+          },
+          {
+            "id": "work",
+            "title": "工作 UI 如何承接"
+          },
+          {
+            "id": "fresh",
+            "title": "想重新看，不先被旧理解带走"
+          },
+          {
+            "id": "handoff",
+            "title": "多 Agent 交接如何保留证据"
+          }
+        ],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/home.css"
+        ],
+        "refraction": [
+          {
+            "entry": "thought",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "detail",
+            "state": "fallback",
+            "visible": true
+          }
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:53.534Z"
+    },
+    {
+      "id": "home:literal-html",
+      "operation": "HTML-like original/insight/result remain literal text and create no probe elements",
+      "startedAt": "2026-09-14T16:00:53.642Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {},
+      "actual": {
+        "url": "http://127.0.0.1:4173/",
+        "scene": "return",
+        "home": true,
+        "discussion": false,
+        "title": "工作 UI 如何承接",
+        "utilityHidden": true,
+        "detailHidden": true,
+        "capture": "",
+        "detail": "<u data-result-probe>结果</u>",
+        "visibleBubbles": [
+          {
+            "id": "thought",
+            "title": "<b data-capture-probe>原文</b> & \"quotes\""
+          },
+          {
+            "id": "work",
+            "title": "工作 UI 如何承接"
+          },
+          {
+            "id": "fresh",
+            "title": "想重新看，不先被旧理解带走"
+          },
+          {
+            "id": "handoff",
+            "title": "多 Agent 交接如何保留证据"
+          },
+          {
+            "id": "practice",
+            "title": "Codex · harness"
+          },
+          {
+            "id": "result",
+            "title": "<u data-result-probe>结果</u>"
+          }
+        ],
+        "resultBadge": "已带回 · 待再判断",
+        "styles": [
+          "http://127.0.0.1:4173/src/home.css"
+        ],
+        "refraction": [
+          {
+            "entry": "thought",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "insight",
+            "state": "fallback",
+            "visible": false
+          },
+          {
+            "entry": "practice",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "result",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "detail",
+            "state": "fallback",
+            "visible": false
+          }
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:53.925Z"
+    },
+    {
+      "id": "home:reopen-user-insight",
+      "operation": "After user creates an insight, clicking that insight must reopen that same user title, not a template title",
+      "startedAt": "2026-09-14T16:00:54.039Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "expected": "独立回归：这是用户刚形成的唯一新理解。",
+        "actual": "独立回归：这是用户刚形成的唯一新理解。"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/",
+        "scene": "thinking",
+        "home": true,
+        "discussion": false,
+        "title": "独立回归：这是用户刚形成的唯一新理解。",
+        "utilityHidden": true,
+        "detailHidden": false,
+        "capture": "",
+        "detail": "",
+        "visibleBubbles": [
+          {
+            "id": "thought",
+            "title": "收藏后为什么接不回来"
+          },
+          {
+            "id": "work",
+            "title": "工作 UI 如何承接"
+          },
+          {
+            "id": "fresh",
+            "title": "想重新看，不先被旧理解带走"
+          },
+          {
+            "id": "handoff",
+            "title": "多 Agent 交接如何保留证据"
+          }
+        ],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/home.css"
+        ],
+        "refraction": [
+          {
+            "entry": "thought",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "insight",
+            "state": "fallback",
+            "visible": false
+          },
+          {
+            "entry": "detail",
+            "state": "fallback",
+            "visible": true
+          }
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:54.320Z"
+    },
+    {
+      "id": "home:entry-context-isolation",
+      "operation": "A captured thought must not become the original context of an unrelated existing fresh entry",
+      "startedAt": "2026-09-14T16:00:54.453Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "original": "唯一用户捕获-上下文隔离-regression",
+        "title": "想重新看，不先被旧理解带走",
+        "context": "上次停在一段新的感受刚刚出现为什么现在回来这件事还没有结束。把此刻出现的感受，接回它原来的现场。此刻的变化你可以继续补充，也可以写下一个新的理解；原型不会替你自动采用判断。",
+        "source": "一段新的感受刚刚出现"
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/",
+        "scene": "thinking",
+        "home": true,
+        "discussion": false,
+        "title": "想重新看，不先被旧理解带走",
+        "utilityHidden": false,
+        "detailHidden": false,
+        "capture": "",
+        "detail": "",
+        "visibleBubbles": [
+          {
+            "id": "thought",
+            "title": "唯一用户捕获-上下文隔离-regression"
+          },
+          {
+            "id": "work",
+            "title": "工作 UI 如何承接"
+          },
+          {
+            "id": "fresh",
+            "title": "想重新看，不先被旧理解带走"
+          },
+          {
+            "id": "handoff",
+            "title": "多 Agent 交接如何保留证据"
+          }
+        ],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/home.css"
+        ],
+        "refraction": [
+          {
+            "entry": "thought",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "detail",
+            "state": "fallback",
+            "visible": true
+          }
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:54.730Z"
+    },
+    {
+      "id": "home:draft-entry-isolation",
+      "operation": "Unsaved draft stays with its own entry instead of following every thinking-mode bubble",
+      "startedAt": "2026-09-14T16:00:54.825Z",
+      "consoleErrors": [],
+      "consoleErrorEvents": [],
+      "consoleWarnings": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "evidence": {
+        "draft": "只属于收藏问题的草稿-regression",
+        "otherDraft": ""
+      },
+      "actual": {
+        "url": "http://127.0.0.1:4173/",
+        "scene": "thinking",
+        "home": true,
+        "discussion": false,
+        "title": "收藏后为什么接不回来",
+        "utilityHidden": true,
+        "detailHidden": false,
+        "capture": "",
+        "detail": "只属于收藏问题的草稿-regression",
+        "visibleBubbles": [
+          {
+            "id": "thought",
+            "title": "收藏后为什么接不回来"
+          },
+          {
+            "id": "work",
+            "title": "工作 UI 如何承接"
+          },
+          {
+            "id": "fresh",
+            "title": "想重新看，不先被旧理解带走"
+          },
+          {
+            "id": "handoff",
+            "title": "多 Agent 交接如何保留证据"
+          }
+        ],
+        "resultBadge": null,
+        "styles": [
+          "http://127.0.0.1:4173/src/home.css"
+        ],
+        "refraction": [
+          {
+            "entry": "thought",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "work",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "fresh",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "handoff",
+            "state": "fallback",
+            "visible": true
+          },
+          {
+            "entry": "detail",
+            "state": "fallback",
+            "visible": true
+          }
+        ]
+      },
+      "status": "passed",
+      "finishedAt": "2026-09-14T16:00:55.080Z"
+    }
+  ],
+  "previousRuns": [
+    {
+      "task": "trace-home-v1-prototype-20260914",
+      "target": "http://127.0.0.1:4173",
+      "startedAt": "2026-09-14T15:50:46.402Z",
+      "browser": "Chromium headless, fresh isolated contexts; no user profile",
+      "limits": [
+        "Native candidate bridge is mocked, not real Electron IPC or Overlay mutation acceptance.",
+        "IME checks dispatch composition-aware DOM keyboard events, not a real OS IME session.",
+        "No screenshots or service lifecycle changes; main Agent owns visual review and server."
+      ],
+      "cases": [
+        {
+          "id": "route:/",
+          "operation": "Navigate /; expect home",
+          "startedAt": "2026-09-14T15:50:46.981Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "home"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": null,
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": null,
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:47.220Z"
+        },
+        {
+          "id": "route:?view=home&from=trace-native&observationId=old-id&text=legacy&source=x&status=y",
+          "operation": "Navigate ?view=home&from=trace-native&observationId=old-id&text=legacy&source=x&status=y; expect home",
+          "startedAt": "2026-09-14T15:50:47.371Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "home"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?view=home&from=trace-native&observationId=old-id&text=legacy&source=x&status=y",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": null,
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": null,
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:47.565Z"
+        },
+        {
+          "id": "route:?view=discussion",
+          "operation": "Navigate ?view=discussion; expect discussion",
+          "startedAt": "2026-09-14T15:50:47.684Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?view=discussion",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:47.882Z"
+        },
+        {
+          "id": "route:?from=trace-native",
+          "operation": "Navigate ?from=trace-native; expect discussion",
+          "startedAt": "2026-09-14T15:50:47.994Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?from=trace-native",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:48.170Z"
+        },
+        {
+          "id": "route:?from=deepseek-harness",
+          "operation": "Navigate ?from=deepseek-harness; expect discussion",
+          "startedAt": "2026-09-14T15:50:48.276Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?from=deepseek-harness",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:48.458Z"
+        },
+        {
+          "id": "route:?observationId=regression-id",
+          "operation": "Navigate ?observationId=regression-id; expect discussion",
+          "startedAt": "2026-09-14T15:50:48.572Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?observationId=regression-id",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:48.745Z"
+        },
+        {
+          "id": "route:?observationId=",
+          "operation": "Navigate ?observationId=; expect discussion",
+          "startedAt": "2026-09-14T15:50:48.855Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?observationId=",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:49.019Z"
+        },
+        {
+          "id": "route:?text=regression-text",
+          "operation": "Navigate ?text=regression-text; expect discussion",
+          "startedAt": "2026-09-14T15:50:49.144Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?text=regression-text",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "regression-text",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:49.323Z"
+        },
+        {
+          "id": "route:?text=",
+          "operation": "Navigate ?text=; expect discussion",
+          "startedAt": "2026-09-14T15:50:49.448Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?text=",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:49.610Z"
+        },
+        {
+          "id": "route:?source=regression-source",
+          "operation": "Navigate ?source=regression-source; expect discussion",
+          "startedAt": "2026-09-14T15:50:49.717Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?source=regression-source",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:49.883Z"
+        },
+        {
+          "id": "route:?status=待确认",
+          "operation": "Navigate ?status=待确认; expect discussion",
+          "startedAt": "2026-09-14T15:50:50.000Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?status=%E5%BE%85%E7%A1%AE%E8%AE%A4",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:50.155Z"
+        },
+        {
+          "id": "route:?source=&status=",
+          "operation": "Navigate ?source=&status=; expect discussion",
+          "startedAt": "2026-09-14T15:50:50.253Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?source=&status=",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:50.414Z"
+        },
+        {
+          "id": "legacy:query-and-candidate-mock",
+          "operation": "Preserve query text/status/source; click candidate twice with mocked traceNative.reportCandidate",
+          "startedAt": "2026-09-14T15:50:50.515Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "actual": [
+              {
+                "type": "trace.desktop.candidate",
+                "observationId": "regression-observation",
+                "status": "候选中"
+              },
+              {
+                "type": "trace.desktop.candidate",
+                "observationId": "regression-observation",
+                "status": "待确认"
+              }
+            ],
+            "transport": "mock traceNative callback; no Electron IPC and no real Overlay"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?from=trace-native&observationId=regression-observation&text=%E4%B8%AD%E6%96%87+%26+%2B+%3F+%23+%3Cb+data-legacy-probe%3E%E5%BC%95%E7%94%A8%3C%2Fb%3E+%22%E5%8F%8C%E5%BC%95%E5%8F%B7%22&source=regression-source&status=%E5%BE%85%E7%A1%AE%E8%AE%A4",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "中文 & + ? # <b data-legacy-probe>引用</b> \"双引号\"",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:50.734Z"
+        },
+        {
+          "id": "home:empty-submit",
+          "operation": "Empty and whitespace capture cannot submit, including Enter and direct form requestSubmit()",
+          "startedAt": "2026-09-14T15:50:50.849Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {},
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": null,
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": " \n ",
+            "detail": null,
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:51.038Z"
+        },
+        {
+          "id": "home:capture-grow-work-return",
+          "operation": "Capture exact original, grow user insight, enter work, submit user result without automatic verification",
+          "startedAt": "2026-09-14T15:50:51.140Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "original": "回归原文：这是我自己留下的一点。",
+            "insight": "回归新理解：重新出现的现场比标签更重要。",
+            "result": "回归真实结果：只完成一次试用，尚待再次验证。",
+            "badge": "已带回 · 待再判断"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "return",
+            "home": true,
+            "discussion": false,
+            "title": "工作 UI 如何承接",
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": "回归真实结果：只完成一次试用，尚待再次验证。",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "回归原文：这是我自己留下的一点。"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              },
+              {
+                "id": "practice",
+                "title": "Codex · harness"
+              },
+              {
+                "id": "result",
+                "title": "回归真实结果：只完成一次试用，尚待再次验证。"
+              }
+            ],
+            "resultBadge": "已带回 · 待再判断",
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:51.675Z"
+        },
+        {
+          "id": "home:search-empty-and-escape",
+          "operation": "Search matching text and an absent phrase; Escape closes utility and then detail",
+          "startedAt": "2026-09-14T15:50:51.774Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {},
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": "收藏后为什么接不回来",
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:52.055Z"
+        },
+        {
+          "id": "home:rapid-switch-collapse",
+          "operation": "Animation-enabled DOM click burst thought→fresh→close→work→close; no stale callback or uncaught error",
+          "startedAt": "2026-09-14T15:50:52.154Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "sequence": [
+              {
+                "selector": "[data-entry=\"thought\"]",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "thinking",
+                "home": true,
+                "discussion": false,
+                "title": "收藏后为什么接不回来",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "work",
+                    "title": "工作 UI 如何承接"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ]
+              },
+              {
+                "selector": "[data-entry=\"fresh\"]",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "thinking",
+                "home": true,
+                "discussion": false,
+                "title": "想重新看，不先被旧理解带走",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "work",
+                    "title": "工作 UI 如何承接"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ]
+              },
+              {
+                "selector": ".scene-back",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "overview",
+                "home": true,
+                "discussion": false,
+                "title": "想重新看，不先被旧理解带走",
+                "utilityHidden": true,
+                "detailHidden": true,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "work",
+                    "title": "工作 UI 如何承接"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ]
+              },
+              {
+                "selector": "[data-entry=\"work\"]",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "work",
+                "home": true,
+                "discussion": false,
+                "title": "工作 UI 如何承接",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ]
+              },
+              {
+                "selector": ".scene-back",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "overview",
+                "home": true,
+                "discussion": false,
+                "title": "工作 UI 如何承接",
+                "utilityHidden": true,
+                "detailHidden": true,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "work",
+                    "title": "工作 UI 如何承接"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ]
+              }
+            ],
+            "method": "DOM click events bypassed stable-position waiting to intentionally interrupt active transitions"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": "工作 UI 如何承接",
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:53.973Z"
+        },
+        {
+          "id": "home:ime-enter",
+          "operation": "Composition-aware Enter must not submit capture or detail; normal Enter after composition submits",
+          "startedAt": "2026-09-14T15:50:54.065Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "method": "Synthetic DOM KeyboardEvent.isComposing=true; not OS IME integration"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "thinking",
+            "home": true,
+            "discussion": false,
+            "title": "正在输入的中文",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "还在组合输入",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "正在输入的中文"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:54.293Z"
+        },
+        {
+          "id": "home:literal-html",
+          "operation": "HTML-like original/insight/result remain literal text and create no probe elements",
+          "startedAt": "2026-09-14T15:50:54.423Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {},
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "return",
+            "home": true,
+            "discussion": false,
+            "title": "工作 UI 如何承接",
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": "<u data-result-probe>结果</u>",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "<b data-capture-probe>原文</b> & \"quotes\""
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              },
+              {
+                "id": "practice",
+                "title": "Codex · harness"
+              },
+              {
+                "id": "result",
+                "title": "<u data-result-probe>结果</u>"
+              }
+            ],
+            "resultBadge": "已带回 · 待再判断",
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:50:54.705Z"
+        },
+        {
+          "id": "home:reopen-user-insight",
+          "operation": "After user creates an insight, clicking that insight must reopen that same user title, not a template title",
+          "startedAt": "2026-09-14T15:50:54.841Z",
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "expected": "独立回归：这是用户刚形成的唯一新理解。",
+            "actual": "再次出现的理由，可能比分类更重要。"
+          },
+          "status": "failed",
+          "failure": "Reopened user insight title was replaced by template content\n+ actual - expected\n\n+ '再次出现的理由，可能比分类更重要。'\n- '独立回归：这是用户刚形成的唯一新理解。'\n",
+          "stack": "AssertionError [ERR_ASSERTION]: Reopened user insight title was replaced by template content\n+ actual - expected\n\n+ '再次出现的理由，可能比分类更重要。'\n- '独立回归：这是用户刚形成的唯一新理解。'\n\n    at D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\regression.cjs:247:14\n    at async runCase (D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\regression.cjs:44:5)\n    at async D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\regression.cjs:237:5",
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "thinking",
+            "home": true,
+            "discussion": false,
+            "title": "再次出现的理由，可能比分类更重要。",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ]
+          },
+          "finishedAt": "2026-09-14T15:50:55.045Z"
+        }
+      ],
+      "finishedAt": "2026-09-14T15:50:55.052Z",
+      "summary": {
+        "total": 20,
+        "passed": 19,
+        "failed": 1
+      }
+    },
+    {
+      "task": "trace-home-v1-prototype-20260914",
+      "target": "http://127.0.0.1:4173",
+      "startedAt": "2026-09-14T15:55:52.724Z",
+      "browser": "Chromium headless, fresh isolated contexts; no user profile",
+      "limits": [
+        "Native candidate bridge is mocked, not real Electron IPC or Overlay mutation acceptance.",
+        "IME checks dispatch composition-aware DOM keyboard events, not a real OS IME session.",
+        "Refraction requested proves adapter/vendor mount, not that pixels were visually accepted.",
+        "No screenshots or service lifecycle changes; main Agent owns visual review and server."
+      ],
+      "cases": [
+        {
+          "id": "route:/",
+          "operation": "Navigate /; expect home",
+          "startedAt": "2026-09-14T15:55:53.172Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "home"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": null,
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": null,
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:53.454Z"
+        },
+        {
+          "id": "route:?view=home&from=trace-native&observationId=old-id&text=legacy&source=x&status=y",
+          "operation": "Navigate ?view=home&from=trace-native&observationId=old-id&text=legacy&source=x&status=y; expect home",
+          "startedAt": "2026-09-14T15:55:53.552Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "home"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?view=home&from=trace-native&observationId=old-id&text=legacy&source=x&status=y",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": null,
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": null,
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:53.695Z"
+        },
+        {
+          "id": "route:?view=discussion",
+          "operation": "Navigate ?view=discussion; expect discussion",
+          "startedAt": "2026-09-14T15:55:53.791Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?view=discussion",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:53.954Z"
+        },
+        {
+          "id": "route:?from=trace-native",
+          "operation": "Navigate ?from=trace-native; expect discussion",
+          "startedAt": "2026-09-14T15:55:54.043Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?from=trace-native",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:54.199Z"
+        },
+        {
+          "id": "route:?from=deepseek-harness",
+          "operation": "Navigate ?from=deepseek-harness; expect discussion",
+          "startedAt": "2026-09-14T15:55:54.303Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?from=deepseek-harness",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:54.457Z"
+        },
+        {
+          "id": "route:?observationId=regression-id",
+          "operation": "Navigate ?observationId=regression-id; expect discussion",
+          "startedAt": "2026-09-14T15:55:54.558Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?observationId=regression-id",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:54.714Z"
+        },
+        {
+          "id": "route:?observationId=",
+          "operation": "Navigate ?observationId=; expect discussion",
+          "startedAt": "2026-09-14T15:55:54.821Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?observationId=",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:54.973Z"
+        },
+        {
+          "id": "route:?text=regression-text",
+          "operation": "Navigate ?text=regression-text; expect discussion",
+          "startedAt": "2026-09-14T15:55:55.067Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?text=regression-text",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "regression-text",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:55.215Z"
+        },
+        {
+          "id": "route:?text=",
+          "operation": "Navigate ?text=; expect discussion",
+          "startedAt": "2026-09-14T15:55:55.304Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?text=",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:55.457Z"
+        },
+        {
+          "id": "route:?source=regression-source",
+          "operation": "Navigate ?source=regression-source; expect discussion",
+          "startedAt": "2026-09-14T15:55:55.548Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?source=regression-source",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:55.700Z"
+        },
+        {
+          "id": "route:?status=待确认",
+          "operation": "Navigate ?status=待确认; expect discussion",
+          "startedAt": "2026-09-14T15:55:55.822Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?status=%E5%BE%85%E7%A1%AE%E8%AE%A4",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:56.016Z"
+        },
+        {
+          "id": "route:?source=&status=",
+          "operation": "Navigate ?source=&status=; expect discussion",
+          "startedAt": "2026-09-14T15:55:56.157Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?source=&status=",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:56.321Z"
+        },
+        {
+          "id": "legacy:query-and-candidate-mock",
+          "operation": "Preserve query text/status/source; click candidate twice with mocked traceNative.reportCandidate",
+          "startedAt": "2026-09-14T15:55:56.467Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "actual": [
+              {
+                "type": "trace.desktop.candidate",
+                "observationId": "regression-observation",
+                "status": "候选中"
+              },
+              {
+                "type": "trace.desktop.candidate",
+                "observationId": "regression-observation",
+                "status": "待确认"
+              }
+            ],
+            "transport": "mock traceNative callback; no Electron IPC and no real Overlay"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?from=trace-native&observationId=regression-observation&text=%E4%B8%AD%E6%96%87+%26+%2B+%3F+%23+%3Cb+data-legacy-probe%3E%E5%BC%95%E7%94%A8%3C%2Fb%3E+%22%E5%8F%8C%E5%BC%95%E5%8F%B7%22&source=regression-source&status=%E5%BE%85%E7%A1%AE%E8%AE%A4",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "中文 & + ? # <b data-legacy-probe>引用</b> \"双引号\"",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:56.746Z"
+        },
+        {
+          "id": "home:empty-submit",
+          "operation": "Empty and whitespace capture cannot submit, including Enter and direct form requestSubmit()",
+          "startedAt": "2026-09-14T15:55:56.930Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {},
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": null,
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": " \n ",
+            "detail": null,
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:57.204Z"
+        },
+        {
+          "id": "home:refraction-vendor",
+          "operation": "Small overview bubbles mount refraction vendor; served .mjs has JavaScript MIME (not pixel acceptance)",
+          "startedAt": "2026-09-14T15:55:57.354Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "vendorResponses": [
+              {
+                "url": "http://127.0.0.1:4173/src/vendor/shape-only.mjs",
+                "status": 200,
+                "contentType": "text/javascript; charset=utf-8"
+              }
+            ],
+            "materials": [
+              {
+                "entry": "thought",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "requested",
+                "visible": true
+              }
+            ],
+            "limitation": "data-refraction=requested is adapter mount state, not browser painted-filter verification; large detail fallback is intentional."
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": null,
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": null,
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "requested",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:57.934Z"
+        },
+        {
+          "id": "home:capture-grow-work-return",
+          "operation": "Capture exact original, grow user insight, enter work, submit user result without automatic verification",
+          "startedAt": "2026-09-14T15:55:58.085Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "original": "回归原文：这是我自己留下的一点。",
+            "insight": "回归新理解：重新出现的现场比标签更重要。",
+            "result": "回归真实结果：只完成一次试用，尚待再次验证。",
+            "badge": "已带回 · 待再判断"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "return",
+            "home": true,
+            "discussion": false,
+            "title": "工作 UI 如何承接",
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": "回归真实结果：只完成一次试用，尚待再次验证。",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "回归原文：这是我自己留下的一点。"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              },
+              {
+                "id": "practice",
+                "title": "Codex · harness"
+              },
+              {
+                "id": "result",
+                "title": "回归真实结果：只完成一次试用，尚待再次验证。"
+              }
+            ],
+            "resultBadge": "已带回 · 待再判断",
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "insight",
+                "state": "fallback",
+                "visible": false
+              },
+              {
+                "entry": "practice",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "result",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": false
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:58.949Z"
+        },
+        {
+          "id": "home:search-empty-and-escape",
+          "operation": "Search matching text and an absent phrase; Escape closes utility and then detail",
+          "startedAt": "2026-09-14T15:55:59.178Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {},
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": "收藏后为什么接不回来",
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": false
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:55:59.553Z"
+        },
+        {
+          "id": "home:rapid-switch-collapse",
+          "operation": "Animation-enabled DOM click burst thought→fresh→close→work→close; no stale callback or uncaught error",
+          "startedAt": "2026-09-14T15:55:59.690Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "sequence": [
+              {
+                "selector": "[data-entry=\"thought\"]",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "thinking",
+                "home": true,
+                "discussion": false,
+                "title": "收藏后为什么接不回来",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "work",
+                    "title": "工作 UI 如何承接"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ],
+                "refraction": [
+                  {
+                    "entry": "thought",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "work",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "fresh",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "handoff",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "detail",
+                    "state": "fallback",
+                    "visible": true
+                  }
+                ]
+              },
+              {
+                "selector": "[data-entry=\"fresh\"]",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "thinking",
+                "home": true,
+                "discussion": false,
+                "title": "想重新看，不先被旧理解带走",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "work",
+                    "title": "工作 UI 如何承接"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ],
+                "refraction": [
+                  {
+                    "entry": "thought",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "work",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "fresh",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "handoff",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "detail",
+                    "state": "fallback",
+                    "visible": true
+                  }
+                ]
+              },
+              {
+                "selector": ".scene-back",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "overview",
+                "home": true,
+                "discussion": false,
+                "title": "想重新看，不先被旧理解带走",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "work",
+                    "title": "工作 UI 如何承接"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ],
+                "refraction": [
+                  {
+                    "entry": "thought",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "work",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "fresh",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "handoff",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "detail",
+                    "state": "fallback",
+                    "visible": true
+                  }
+                ]
+              },
+              {
+                "selector": "[data-entry=\"work\"]",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "work",
+                "home": true,
+                "discussion": false,
+                "title": "工作 UI 如何承接",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ],
+                "refraction": [
+                  {
+                    "entry": "thought",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "work",
+                    "state": "fallback",
+                    "visible": false
+                  },
+                  {
+                    "entry": "fresh",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "handoff",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "detail",
+                    "state": "fallback",
+                    "visible": true
+                  }
+                ]
+              },
+              {
+                "selector": ".scene-back",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "overview",
+                "home": true,
+                "discussion": false,
+                "title": "工作 UI 如何承接",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "work",
+                    "title": "工作 UI 如何承接"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ],
+                "refraction": [
+                  {
+                    "entry": "thought",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "work",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "fresh",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "handoff",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "detail",
+                    "state": "fallback",
+                    "visible": true
+                  }
+                ]
+              }
+            ],
+            "method": "DOM click events bypassed stable-position waiting to intentionally interrupt active transitions"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": "工作 UI 如何承接",
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": false
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:56:01.541Z"
+        },
+        {
+          "id": "home:ime-enter",
+          "operation": "Composition-aware Enter must not submit capture or detail; normal Enter after composition submits",
+          "startedAt": "2026-09-14T15:56:01.670Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "method": "Synthetic DOM KeyboardEvent.isComposing=true; not OS IME integration"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "thinking",
+            "home": true,
+            "discussion": false,
+            "title": "正在输入的中文",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "还在组合输入",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "正在输入的中文"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:56:01.933Z"
+        },
+        {
+          "id": "home:literal-html",
+          "operation": "HTML-like original/insight/result remain literal text and create no probe elements",
+          "startedAt": "2026-09-14T15:56:02.082Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {},
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "return",
+            "home": true,
+            "discussion": false,
+            "title": "工作 UI 如何承接",
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": "<u data-result-probe>结果</u>",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "<b data-capture-probe>原文</b> & \"quotes\""
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              },
+              {
+                "id": "practice",
+                "title": "Codex · harness"
+              },
+              {
+                "id": "result",
+                "title": "<u data-result-probe>结果</u>"
+              }
+            ],
+            "resultBadge": "已带回 · 待再判断",
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "insight",
+                "state": "fallback",
+                "visible": false
+              },
+              {
+                "entry": "practice",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "result",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": false
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:56:02.402Z"
+        },
+        {
+          "id": "home:reopen-user-insight",
+          "operation": "After user creates an insight, clicking that insight must reopen that same user title, not a template title",
+          "startedAt": "2026-09-14T15:56:02.562Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "expected": "独立回归：这是用户刚形成的唯一新理解。",
+            "actual": "独立回归：这是用户刚形成的唯一新理解。"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "thinking",
+            "home": true,
+            "discussion": false,
+            "title": "独立回归：这是用户刚形成的唯一新理解。",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "insight",
+                "state": "fallback",
+                "visible": false
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T15:56:02.905Z"
+        },
+        {
+          "id": "home:entry-context-isolation",
+          "operation": "A captured thought must not become the original context of an unrelated existing fresh entry",
+          "startedAt": "2026-09-14T15:56:03.069Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "original": "唯一用户捕获-上下文隔离-regression",
+            "title": "想重新看，不先被旧理解带走",
+            "context": "上次停在唯一用户捕获-上下文隔离-regression为什么现在回来这件事还没有结束。把此刻出现的感受，接回它原来的现场。此刻的变化你可以继续补充，也可以写下一个新的理解；原型不会替你自动采用判断。"
+          },
+          "status": "failed",
+          "failure": "Unrelated fresh entry inherited captured thought as its original context\n\ntrue !== false\n",
+          "stack": "AssertionError [ERR_ASSERTION]: Unrelated fresh entry inherited captured thought as its original context\n\ntrue !== false\n\n    at D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\regression.cjs:291:14\n    at async runCase (D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\regression.cjs:48:5)\n    at async D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\regression.cjs:279:5",
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "thinking",
+            "home": true,
+            "discussion": false,
+            "title": "想重新看，不先被旧理解带走",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "唯一用户捕获-上下文隔离-regression"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "finishedAt": "2026-09-14T15:56:03.318Z"
+        },
+        {
+          "id": "home:draft-entry-isolation",
+          "operation": "Unsaved draft stays with its own entry instead of following every thinking-mode bubble",
+          "startedAt": "2026-09-14T15:56:03.493Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "draft": "只属于收藏问题的草稿-regression",
+            "otherDraft": "只属于收藏问题的草稿-regression"
+          },
+          "status": "failed",
+          "failure": "Draft from thought appeared in unrelated fresh entry\n+ actual - expected\n\n+ '只属于收藏问题的草稿-regression'\n- ''\n",
+          "stack": "AssertionError [ERR_ASSERTION]: Draft from thought appeared in unrelated fresh entry\n+ actual - expected\n\n+ '只属于收藏问题的草稿-regression'\n- ''\n\n    at D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\regression.cjs:303:14\n    at async runCase (D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\regression.cjs:48:5)\n    at async D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\regression.cjs:294:5",
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "thinking",
+            "home": true,
+            "discussion": false,
+            "title": "想重新看，不先被旧理解带走",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "只属于收藏问题的草稿-regression",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "finishedAt": "2026-09-14T15:56:03.689Z"
+        }
+      ],
+      "finishedAt": "2026-09-14T15:56:03.701Z",
+      "summary": {
+        "total": 23,
+        "passed": 21,
+        "failed": 2
+      }
+    },
+    {
+      "task": "trace-home-v1-prototype-20260914",
+      "target": "http://127.0.0.1:4173",
+      "startedAt": "2026-09-14T16:00:21.762Z",
+      "browser": "Chromium headless, fresh isolated contexts; no user profile",
+      "limits": [
+        "Native candidate bridge is mocked, not real Electron IPC or Overlay mutation acceptance.",
+        "IME checks dispatch composition-aware DOM keyboard events, not a real OS IME session.",
+        "Refraction requested proves adapter/vendor mount, not that pixels were visually accepted.",
+        "No screenshots or service lifecycle changes; main Agent owns visual review and server."
+      ],
+      "cases": [
+        {
+          "id": "route:/",
+          "operation": "Navigate /; expect home",
+          "startedAt": "2026-09-14T16:00:22.350Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "home"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": null,
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": null,
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:22.625Z"
+        },
+        {
+          "id": "route:?view=home&from=trace-native&observationId=old-id&text=legacy&source=x&status=y",
+          "operation": "Navigate ?view=home&from=trace-native&observationId=old-id&text=legacy&source=x&status=y; expect home",
+          "startedAt": "2026-09-14T16:00:22.736Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "home"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?view=home&from=trace-native&observationId=old-id&text=legacy&source=x&status=y",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": null,
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": null,
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:22.898Z"
+        },
+        {
+          "id": "route:?view=discussion",
+          "operation": "Navigate ?view=discussion; expect discussion",
+          "startedAt": "2026-09-14T16:00:23.002Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?view=discussion",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:23.171Z"
+        },
+        {
+          "id": "route:?from=trace-native",
+          "operation": "Navigate ?from=trace-native; expect discussion",
+          "startedAt": "2026-09-14T16:00:23.273Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?from=trace-native",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:23.443Z"
+        },
+        {
+          "id": "route:?from=deepseek-harness",
+          "operation": "Navigate ?from=deepseek-harness; expect discussion",
+          "startedAt": "2026-09-14T16:00:23.545Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?from=deepseek-harness",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:23.719Z"
+        },
+        {
+          "id": "route:?observationId=regression-id",
+          "operation": "Navigate ?observationId=regression-id; expect discussion",
+          "startedAt": "2026-09-14T16:00:23.823Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?observationId=regression-id",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:23.978Z"
+        },
+        {
+          "id": "route:?observationId=",
+          "operation": "Navigate ?observationId=; expect discussion",
+          "startedAt": "2026-09-14T16:00:24.076Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?observationId=",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:24.234Z"
+        },
+        {
+          "id": "route:?text=regression-text",
+          "operation": "Navigate ?text=regression-text; expect discussion",
+          "startedAt": "2026-09-14T16:00:24.334Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?text=regression-text",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "regression-text",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:24.491Z"
+        },
+        {
+          "id": "route:?text=",
+          "operation": "Navigate ?text=; expect discussion",
+          "startedAt": "2026-09-14T16:00:24.594Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?text=",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:24.748Z"
+        },
+        {
+          "id": "route:?source=regression-source",
+          "operation": "Navigate ?source=regression-source; expect discussion",
+          "startedAt": "2026-09-14T16:00:24.843Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?source=regression-source",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:25.006Z"
+        },
+        {
+          "id": "route:?status=待确认",
+          "operation": "Navigate ?status=待确认; expect discussion",
+          "startedAt": "2026-09-14T16:00:25.126Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?status=%E5%BE%85%E7%A1%AE%E8%AE%A4",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:25.293Z"
+        },
+        {
+          "id": "route:?source=&status=",
+          "operation": "Navigate ?source=&status=; expect discussion",
+          "startedAt": "2026-09-14T16:00:25.398Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "route": "discussion"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?source=&status=",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "多 Agent 交接时，与其传递聊天摘要，不如传递带证据和待回答问题的决策卡。",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:25.568Z"
+        },
+        {
+          "id": "legacy:query-and-candidate-mock",
+          "operation": "Preserve query text/status/source; click candidate twice with mocked traceNative.reportCandidate",
+          "startedAt": "2026-09-14T16:00:25.669Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "actual": [
+              {
+                "type": "trace.desktop.candidate",
+                "observationId": "regression-observation",
+                "status": "候选中"
+              },
+              {
+                "type": "trace.desktop.candidate",
+                "observationId": "regression-observation",
+                "status": "待确认"
+              }
+            ],
+            "transport": "mock traceNative callback; no Electron IPC and no real Overlay"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/?from=trace-native&observationId=regression-observation&text=%E4%B8%AD%E6%96%87+%26+%2B+%3F+%23+%3Cb+data-legacy-probe%3E%E5%BC%95%E7%94%A8%3C%2Fb%3E+%22%E5%8F%8C%E5%BC%95%E5%8F%B7%22&source=regression-source&status=%E5%BE%85%E7%A1%AE%E8%AE%A4",
+            "scene": null,
+            "home": false,
+            "discussion": true,
+            "title": "中文 & + ? # <b data-legacy-probe>引用</b> \"双引号\"",
+            "utilityHidden": null,
+            "detailHidden": null,
+            "capture": null,
+            "detail": null,
+            "visibleBubbles": [],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/style.css"
+            ],
+            "refraction": []
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:25.856Z"
+        },
+        {
+          "id": "home:empty-submit",
+          "operation": "Empty and whitespace capture cannot submit, including Enter and direct form requestSubmit()",
+          "startedAt": "2026-09-14T16:00:25.953Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {},
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": null,
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": " \n ",
+            "detail": null,
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:26.160Z"
+        },
+        {
+          "id": "home:refraction-vendor",
+          "operation": "Small overview bubbles mount refraction vendor; served .mjs has JavaScript MIME (not pixel acceptance)",
+          "startedAt": "2026-09-14T16:00:26.256Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "vendorResponses": [
+              {
+                "url": "http://127.0.0.1:4173/src/vendor/shape-only.mjs",
+                "status": 200,
+                "contentType": "text/javascript; charset=utf-8"
+              }
+            ],
+            "materials": [
+              {
+                "entry": "thought",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "requested",
+                "visible": true
+              }
+            ],
+            "limitation": "data-refraction=requested is adapter mount state, not browser painted-filter verification; large detail fallback is intentional."
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": null,
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": null,
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "requested",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:26.785Z"
+        },
+        {
+          "id": "home:capture-grow-work-return",
+          "operation": "Capture exact original, grow user insight, enter work, submit user result without automatic verification",
+          "startedAt": "2026-09-14T16:00:26.880Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "original": "回归原文：这是我自己留下的一点。",
+            "insight": "回归新理解：重新出现的现场比标签更重要。",
+            "result": "回归真实结果：只完成一次试用，尚待再次验证。",
+            "badge": "已带回 · 待再判断"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "return",
+            "home": true,
+            "discussion": false,
+            "title": "工作 UI 如何承接",
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": "回归真实结果：只完成一次试用，尚待再次验证。",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "回归原文：这是我自己留下的一点。"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              },
+              {
+                "id": "practice",
+                "title": "Codex · harness"
+              },
+              {
+                "id": "result",
+                "title": "回归真实结果：只完成一次试用，尚待再次验证。"
+              }
+            ],
+            "resultBadge": "已带回 · 待再判断",
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "insight",
+                "state": "fallback",
+                "visible": false
+              },
+              {
+                "entry": "practice",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "result",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": false
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:27.346Z"
+        },
+        {
+          "id": "home:search-empty-and-escape",
+          "operation": "Search matching text and an absent phrase; Escape closes utility and then detail",
+          "startedAt": "2026-09-14T16:00:27.487Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {},
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": "收藏后为什么接不回来",
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": false
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:27.748Z"
+        },
+        {
+          "id": "home:rapid-switch-collapse",
+          "operation": "Animation-enabled DOM click burst thought→fresh→close→work→close; no stale callback or uncaught error",
+          "startedAt": "2026-09-14T16:00:27.852Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "sequence": [
+              {
+                "selector": "[data-entry=\"thought\"]",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "thinking",
+                "home": true,
+                "discussion": false,
+                "title": "收藏后为什么接不回来",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "work",
+                    "title": "工作 UI 如何承接"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ],
+                "refraction": [
+                  {
+                    "entry": "thought",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "work",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "fresh",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "handoff",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "detail",
+                    "state": "fallback",
+                    "visible": true
+                  }
+                ]
+              },
+              {
+                "selector": "[data-entry=\"fresh\"]",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "thinking",
+                "home": true,
+                "discussion": false,
+                "title": "想重新看，不先被旧理解带走",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "work",
+                    "title": "工作 UI 如何承接"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ],
+                "refraction": [
+                  {
+                    "entry": "thought",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "work",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "fresh",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "handoff",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "detail",
+                    "state": "fallback",
+                    "visible": true
+                  }
+                ]
+              },
+              {
+                "selector": ".scene-back",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "overview",
+                "home": true,
+                "discussion": false,
+                "title": "想重新看，不先被旧理解带走",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "work",
+                    "title": "工作 UI 如何承接"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ],
+                "refraction": [
+                  {
+                    "entry": "thought",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "work",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "fresh",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "handoff",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "detail",
+                    "state": "fallback",
+                    "visible": true
+                  }
+                ]
+              },
+              {
+                "selector": "[data-entry=\"work\"]",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "work",
+                "home": true,
+                "discussion": false,
+                "title": "工作 UI 如何承接",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ],
+                "refraction": [
+                  {
+                    "entry": "thought",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "work",
+                    "state": "fallback",
+                    "visible": false
+                  },
+                  {
+                    "entry": "fresh",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "handoff",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "detail",
+                    "state": "fallback",
+                    "visible": true
+                  }
+                ]
+              },
+              {
+                "selector": ".scene-back",
+                "url": "http://127.0.0.1:4173/",
+                "scene": "overview",
+                "home": true,
+                "discussion": false,
+                "title": "工作 UI 如何承接",
+                "utilityHidden": true,
+                "detailHidden": false,
+                "capture": "",
+                "detail": "",
+                "visibleBubbles": [
+                  {
+                    "id": "thought",
+                    "title": "收藏后为什么接不回来"
+                  },
+                  {
+                    "id": "work",
+                    "title": "工作 UI 如何承接"
+                  },
+                  {
+                    "id": "fresh",
+                    "title": "想重新看，不先被旧理解带走"
+                  },
+                  {
+                    "id": "handoff",
+                    "title": "多 Agent 交接如何保留证据"
+                  }
+                ],
+                "resultBadge": null,
+                "styles": [
+                  "http://127.0.0.1:4173/src/home.css"
+                ],
+                "refraction": [
+                  {
+                    "entry": "thought",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "work",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "fresh",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "handoff",
+                    "state": "fallback",
+                    "visible": true
+                  },
+                  {
+                    "entry": "detail",
+                    "state": "fallback",
+                    "visible": true
+                  }
+                ]
+              }
+            ],
+            "method": "DOM click events bypassed stable-position waiting to intentionally interrupt active transitions"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "overview",
+            "home": true,
+            "discussion": false,
+            "title": "工作 UI 如何承接",
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "requested",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": false
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:29.641Z"
+        },
+        {
+          "id": "home:ime-enter",
+          "operation": "Composition-aware Enter must not submit capture or detail; normal Enter after composition submits",
+          "startedAt": "2026-09-14T16:00:29.761Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "method": "Synthetic DOM KeyboardEvent.isComposing=true; not OS IME integration"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "thinking",
+            "home": true,
+            "discussion": false,
+            "title": "正在输入的中文",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "还在组合输入",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "正在输入的中文"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:30.017Z"
+        },
+        {
+          "id": "home:literal-html",
+          "operation": "HTML-like original/insight/result remain literal text and create no probe elements",
+          "startedAt": "2026-09-14T16:00:30.169Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {},
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "return",
+            "home": true,
+            "discussion": false,
+            "title": "工作 UI 如何承接",
+            "utilityHidden": true,
+            "detailHidden": true,
+            "capture": "",
+            "detail": "<u data-result-probe>结果</u>",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "<b data-capture-probe>原文</b> & \"quotes\""
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              },
+              {
+                "id": "practice",
+                "title": "Codex · harness"
+              },
+              {
+                "id": "result",
+                "title": "<u data-result-probe>结果</u>"
+              }
+            ],
+            "resultBadge": "已带回 · 待再判断",
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "insight",
+                "state": "fallback",
+                "visible": false
+              },
+              {
+                "entry": "practice",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "result",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": false
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:30.502Z"
+        },
+        {
+          "id": "home:reopen-user-insight",
+          "operation": "After user creates an insight, clicking that insight must reopen that same user title, not a template title",
+          "startedAt": "2026-09-14T16:00:30.643Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "expected": "独立回归：这是用户刚形成的唯一新理解。",
+            "actual": "独立回归：这是用户刚形成的唯一新理解。"
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "thinking",
+            "home": true,
+            "discussion": false,
+            "title": "独立回归：这是用户刚形成的唯一新理解。",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "insight",
+                "state": "fallback",
+                "visible": false
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:30.910Z"
+        },
+        {
+          "id": "home:entry-context-isolation",
+          "operation": "A captured thought must not become the original context of an unrelated existing fresh entry",
+          "startedAt": "2026-09-14T16:00:31.014Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {},
+          "status": "failed",
+          "failure": "locator.click: Error: strict mode violation: locator('[data-action=\"source\"]') resolved to 2 elements:\n    1) <button type=\"button\" data-action=\"source\">…</button> aka getByText('知乎原文')\n    2) <button type=\"button\" data-action=\"source\">…</button> aka getByRole('button', { name: '查看原现场' })\n\nCall log:\n\u001b[2m  - waiting for locator('[data-action=\"source\"]')\u001b[22m\n",
+          "stack": "locator.click: Error: strict mode violation: locator('[data-action=\"source\"]') resolved to 2 elements:\n    1) <button type=\"button\" data-action=\"source\">…</button> aka getByText('知乎原文')\n    2) <button type=\"button\" data-action=\"source\">…</button> aka getByRole('button', { name: '查看原现场' })\n\nCall log:\n\u001b[2m  - waiting for locator('[data-action=\"source\"]')\u001b[22m\n\n    at D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\regression.cjs:289:52\n    at async runCase (D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\regression.cjs:48:5)\n    at async D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\regression.cjs:279:5",
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "thinking",
+            "home": true,
+            "discussion": false,
+            "title": "想重新看，不先被旧理解带走",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "唯一用户捕获-上下文隔离-regression"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "finishedAt": "2026-09-14T16:00:31.229Z"
+        },
+        {
+          "id": "home:draft-entry-isolation",
+          "operation": "Unsaved draft stays with its own entry instead of following every thinking-mode bubble",
+          "startedAt": "2026-09-14T16:00:31.332Z",
+          "consoleErrors": [],
+          "consoleErrorEvents": [],
+          "consoleWarnings": [],
+          "pageErrors": [],
+          "failedRequests": [],
+          "httpErrors": [],
+          "evidence": {
+            "draft": "只属于收藏问题的草稿-regression",
+            "otherDraft": ""
+          },
+          "actual": {
+            "url": "http://127.0.0.1:4173/",
+            "scene": "thinking",
+            "home": true,
+            "discussion": false,
+            "title": "收藏后为什么接不回来",
+            "utilityHidden": true,
+            "detailHidden": false,
+            "capture": "",
+            "detail": "只属于收藏问题的草稿-regression",
+            "visibleBubbles": [
+              {
+                "id": "thought",
+                "title": "收藏后为什么接不回来"
+              },
+              {
+                "id": "work",
+                "title": "工作 UI 如何承接"
+              },
+              {
+                "id": "fresh",
+                "title": "想重新看，不先被旧理解带走"
+              },
+              {
+                "id": "handoff",
+                "title": "多 Agent 交接如何保留证据"
+              }
+            ],
+            "resultBadge": null,
+            "styles": [
+              "http://127.0.0.1:4173/src/home.css"
+            ],
+            "refraction": [
+              {
+                "entry": "thought",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "work",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "fresh",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "handoff",
+                "state": "fallback",
+                "visible": true
+              },
+              {
+                "entry": "detail",
+                "state": "fallback",
+                "visible": true
+              }
+            ]
+          },
+          "status": "passed",
+          "finishedAt": "2026-09-14T16:00:31.592Z"
+        }
+      ],
+      "finishedAt": "2026-09-14T16:00:31.605Z",
+      "summary": {
+        "total": 23,
+        "passed": 22,
+        "failed": 1
+      }
+    }
+  ],
+  "finishedAt": "2026-09-14T16:00:55.090Z",
+  "summary": {
+    "total": 23,
+    "passed": 23,
+    "failed": 0
+  }
+}

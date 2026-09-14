@@ -1,0 +1,44 @@
+[
+  {
+    "name": "01-首页静默总览态.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\01-首页静默总览态.png",
+    "expected_sha256": "8A28B3E48A916D3C92045CE2AB34CB1EA15322C373B7CFA3FAAC6B605D972D7D",
+    "actual_sha256": "8A28B3E48A916D3C92045CE2AB34CB1EA15322C373B7CFA3FAAC6B605D972D7D",
+    "match": true
+  },
+  {
+    "name": "02-气泡唤醒四帧分镜.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\02-气泡唤醒四帧分镜.png",
+    "expected_sha256": "34BCEA097EF6DD766CEEA84E9E2A6A639D0C4DCD39DBE58E1BEE6ACD369C25A9",
+    "actual_sha256": "34BCEA097EF6DD766CEEA84E9E2A6A639D0C4DCD39DBE58E1BEE6ACD369C25A9",
+    "match": true
+  },
+  {
+    "name": "03-思考接续态.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\03-思考接续态.png",
+    "expected_sha256": "CD81A0A2ED698983B8F14F3549C25CB8DFA6580F786B5534457B49B436C54B09",
+    "actual_sha256": "CD81A0A2ED698983B8F14F3549C25CB8DFA6580F786B5534457B49B436C54B09",
+    "match": true
+  },
+  {
+    "name": "04-思考生长态.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\04-思考生长态.png",
+    "expected_sha256": "B09408B1CEABCFE72B555A3C6F128FD7E27E5F65C0B1D50980F5E1567555771C",
+    "actual_sha256": "B09408B1CEABCFE72B555A3C6F128FD7E27E5F65C0B1D50980F5E1567555771C",
+    "match": true
+  },
+  {
+    "name": "05-工作接续态.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\05-工作接续态.png",
+    "expected_sha256": "60A8F8E5045ACA75F48224DBDB7B1BD2F9D14CC9A0E5CBC7AFC9BB7D08CAAF6E",
+    "actual_sha256": "60A8F8E5045ACA75F48224DBDB7B1BD2F9D14CC9A0E5CBC7AFC9BB7D08CAAF6E",
+    "match": true
+  },
+  {
+    "name": "06-结果回流态.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\首页\\Trace首页交互状态_v1\\06-结果回流态.png",
+    "expected_sha256": "D60DBBD4BCDA829BD0A0FCC0AB1D8A0B6DDF06D3DADB27B536D73B108393519F",
+    "actual_sha256": "D60DBBD4BCDA829BD0A0FCC0AB1D8A0B6DDF06D3DADB27B536D73B108393519F",
+    "match": true
+  }
+]

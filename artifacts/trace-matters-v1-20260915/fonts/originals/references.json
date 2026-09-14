@@ -1,0 +1,166 @@
+[
+  {
+    "path": "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2",
+    "bytes": 11035128,
+    "sha256": "556749BA783B148FA1F48644E8883E5B9351F01ABD0D1FAAD0BA24A21185E76A",
+    "sfnt_version_hex": "00010000",
+    "flavor": "woff2",
+    "family_names": [
+      "Source Han Serif CN VF",
+      "思源宋体 CN VF"
+    ],
+    "typographic_family_names": [],
+    "full_names": [
+      "Source Han Serif CN VF",
+      "思源宋体 CN VF"
+    ],
+    "postscript_names": [
+      "SourceHanSerifCNVF-ExtraLight"
+    ],
+    "unique_ids": [
+      "2.003;ADBO;SourceHanSerifCNVF-ExtraLight;ADOBE"
+    ],
+    "version_strings": [
+      "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0"
+    ],
+    "font_revision": 2.0030059814453125,
+    "copyright": [
+      "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+    ],
+    "license_metadata": [
+      "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+    ],
+    "attribution_by_name_id": {
+      "0": [
+        "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "7": [
+        "Source is a trademark of Adobe in the United States and/or other countries."
+      ],
+      "8": [
+        "Adobe"
+      ],
+      "9": [
+        "Ryoko NISHIZUKA 西塚涼子 (kana & ideographs); Frank Grießhammer (Latin, Greek & Cyrillic); Wenlong ZHANG 张文龙 (bopomofo); Sandoll Communications 산돌커뮤니케이션, Soohyun PARK 박수현, Yejin WE 위예진 & Donghoon HAN 한동훈 (hangul elements, letters & syllables)"
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "license_urls": [
+      "http://scripts.sil.org/OFL"
+    ],
+    "axes": [
+      {
+        "tag": "wght",
+        "min": 250.0,
+        "default": 250.0,
+        "max": 900.0
+      }
+    ],
+    "default_os2_weight_class": 250,
+    "unicode_cmap_size": 30930,
+    "glyph_count": 31058,
+    "required_codepoint_count": 319,
+    "missing_required_codepoints": [],
+    "chinese_basic_cjk_mapped_count": 20992,
+    "validation": "fontTools parsed metadata, cmap, variable axes and TrueType glyph table; not browser shaping or visual acceptance",
+    "id": "source-han-serif-cn",
+    "source_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/7889f11bf31170b5d092a083b357c8c8130f89e0/Variable/WOFF2/TTF/Subset/SourceHanSerifCN-VF.ttf.woff2",
+    "repository": "https://github.com/adobe-fonts/source-han-serif",
+    "retrieved_via": "https://api.github.com/repos/adobe-fonts/source-han-serif/git/blobs/65a4d31a34ddda25b821b45288168e135b8ebc70",
+    "upstream_commit": "7889f11bf31170b5d092a083b357c8c8130f89e0",
+    "git_blob_sha1": "65a4d31a34ddda25b821b45288168e135b8ebc70",
+    "license": "OFL-1.1",
+    "reserved_font_names": [
+      "Source"
+    ],
+    "note": "Official original, byte-for-byte verified against pinned Git blob; no modification",
+    "metadata_validation": "Full-font parse from previous preparation reused by exact SHA256; this run parses newly built subset."
+  },
+  {
+    "path": "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf",
+    "bytes": 17772300,
+    "sha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA",
+    "sfnt_version_hex": "00010000",
+    "flavor": null,
+    "family_names": [
+      "Noto Sans SC Thin"
+    ],
+    "typographic_family_names": [
+      "Noto Sans SC"
+    ],
+    "full_names": [
+      "Noto Sans SC Thin"
+    ],
+    "postscript_names": [
+      "NotoSansSC-Thin"
+    ],
+    "unique_ids": [
+      "2.004;ADBO;NotoSansSC-Thin;ADOBE"
+    ],
+    "version_strings": [
+      "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+    ],
+    "font_revision": 2.003997802734375,
+    "copyright": [
+      "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+    ],
+    "license_metadata": [
+      "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL"
+    ],
+    "attribution_by_name_id": {
+      "0": [
+        "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "7": [
+        "Source is a trademark of Adobe in the United States and/or other countries."
+      ],
+      "8": [
+        "Adobe"
+      ],
+      "9": [
+        "Ryoko NISHIZUKA 西塚涼子 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications 산돌커뮤니케이션, Soo-young JANG 장수영 & Joo-yeon KANG 강주연 (hangul elements, letters & syllables)"
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "license_urls": [
+      "http://scripts.sil.org/OFL"
+    ],
+    "axes": [
+      {
+        "tag": "wght",
+        "min": 100.0,
+        "default": 100.0,
+        "max": 900.0
+      }
+    ],
+    "default_os2_weight_class": 100,
+    "unicode_cmap_size": 30890,
+    "glyph_count": 31036,
+    "required_codepoint_count": 319,
+    "missing_required_codepoints": [],
+    "chinese_basic_cjk_mapped_count": 20976,
+    "validation": "fontTools parsed metadata, cmap, variable axes and TrueType glyph table; not browser shaping or visual acceptance",
+    "id": "noto-sans-sc",
+    "source_url": "https://raw.githubusercontent.com/google/fonts/a85815a42757630ce188fdad368c2dfc444d4773/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+    "repository": "https://github.com/google/fonts",
+    "retrieved_via": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf?ref=a85815a42757630ce188fdad368c2dfc444d4773",
+    "upstream_commit": "a85815a42757630ce188fdad368c2dfc444d4773",
+    "git_blob_sha1": "fb0637bafbcd804fe32152370a1225990745b4bc",
+    "license": "OFL-1.1",
+    "reserved_font_names": [
+      "Source"
+    ],
+    "note": "Official original, byte-for-byte verified against pinned Git blob; no modification",
+    "metadata_validation": "Full-font parse from previous preparation reused by exact SHA256; this run parses newly built subset."
+  }
+]

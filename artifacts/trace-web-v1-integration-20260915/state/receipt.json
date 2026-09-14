@@ -1,0 +1,76 @@
+{
+  "task": "trace-web-v1-integration-20260915",
+  "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contextPackageSHA256": "918D75E6C80AAD8054B3F59B24810BED2CE261390AC4425CCA8E0481275C921E",
+  "status": "candidate-not-integrated",
+  "canonicalOwner": "chain.matters; worksite matters projected and discarded",
+  "inputChecks": [
+    {
+      "path": "artifacts\\trace-one-thing-v1-20260915\\model\\chain-model.mjs",
+      "expected": "3707368E9B74B584FA68585094C192FE835302BDC974F9A7A2B39BBF3A2C899C",
+      "actual": "3707368E9B74B584FA68585094C192FE835302BDC974F9A7A2B39BBF3A2C899C",
+      "matched": true
+    },
+    {
+      "path": "artifacts\\trace-compare-v1-20260915\\model\\comparison-model.mjs",
+      "expected": "D29B68813D25FA3B1EA402BBD810C7CA3999FAC1F63C70161841730A43F85D47",
+      "actual": "D29B68813D25FA3B1EA402BBD810C7CA3999FAC1F63C70161841730A43F85D47",
+      "matched": true
+    },
+    {
+      "path": "artifacts\\trace-worksite-v1-20260915\\model\\worksite-model.mjs",
+      "expected": "DE3497965A20B537DFFF080FC24ADC73DEA2102FEA81390A8B1A76C4AC0C961D",
+      "actual": "DE3497965A20B537DFFF080FC24ADC73DEA2102FEA81390A8B1A76C4AC0C961D",
+      "matched": true
+    }
+  ],
+  "verification": {
+    "syntax": "passed",
+    "originalExpressionComparison": "unsupported_basis; required extension documented, not implemented",
+    "browser": "not run",
+    "io": "none in bridge/reducer tests",
+    "combinedOriginalAndBridgeTests": {
+      "pass": 139,
+      "fail": 0
+    },
+    "finalBridgeTests": {
+      "pass": 28,
+      "fail": 0
+    },
+    "initialBridgeTests": {
+      "pass": 24,
+      "fail": 0
+    },
+    "persistence": "not implemented"
+  },
+  "outputs": [
+    {
+      "name": "BASIS-EXTENSION.md",
+      "sha256": "20AA251EB047BE15B89ED6CC550F8524B0060031865C30AFF4F065E8A75FFE72"
+    },
+    {
+      "name": "BRIDGE-DESIGN.md",
+      "sha256": "91931191694B2B73F71739D80963C06257018F0830C6885476C8B549C19AA2D0"
+    },
+    {
+      "name": "bridge.mjs",
+      "sha256": "86946D880D7F2E4DF8585E3242CDE8D2E9FD9190E6C1BDC9D038B2462D8A4C6C"
+    },
+    {
+      "name": "bridge.test.mjs",
+      "sha256": "5204527AAA9BD91A21B1E423F3BAD0D2D788673B9CCC8BF3629CFC6562850C21"
+    },
+    {
+      "name": "regression.tap",
+      "sha256": "24BB6C790A38A0480B1D0F82A9E9C49CA58034D5268DAE951C0754D263AFE240"
+    },
+    {
+      "name": "test-final.tap",
+      "sha256": "3FCE2C3278B89EE0CDC86A211B86CE1FF0CA6C62032657D7AD2A02511C1C61DF"
+    },
+    {
+      "name": "test-first.tap",
+      "sha256": "0C9B3DE4571B0AFD35860CD78525739E15D78899B4E5734968BB7D7C26EB9C98"
+    }
+  ]
+}

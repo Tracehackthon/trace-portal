@@ -1,0 +1,23 @@
+{
+  "kind": "supplemental-final-font-load",
+  "glyphs": "况命址多物返",
+  "errors": [],
+  "fonts": [
+    {
+      "family": "\"Trace Chain Serif\"",
+      "status": "loaded"
+    },
+    {
+      "family": "\"Trace Chain Sans\"",
+      "status": "loaded"
+    }
+  ],
+  "checks": {
+    "serif": true,
+    "sans": true
+  },
+  "sha256": {
+    "TraceChainSerif-fixed.woff2": "7fc2befc231b1f67a151ad485ac8a7c7b4ecd6c98015da9da9a95809a2e495cb",
+    "TraceChainSans-fixed.woff2": "bc982b0e334328dbd10260e3189cfcb4c6136face7424391dab65e26c4204d30"
+  }
+}

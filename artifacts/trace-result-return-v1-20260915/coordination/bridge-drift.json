@@ -1,0 +1,7 @@
+{
+  "source": "artifacts/trace-web-v1-integration-20260915/state/bridge.mjs",
+  "snapshot": "artifacts/trace-result-return-v1-20260915/coordination/snapshots/web-bridge-reference-only.mjs",
+  "sha256": "86946D880D7F2E4DF8585E3242CDE8D2E9FD9190E6C1BDC9D038B2462D8A4C6C",
+  "capturedAt": "2026-09-14T18:29:35.897425+00:00",
+  "usage": "Read-only mapping reference. Other task is editing source; do not import moving file or execute this relocated snapshot. Original context-package remains unchanged."
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "pure reducer and explicit in-memory host fixture; no app, network or persistence validation",
+  "history": [
+    {
+      "run": 1,
+      "at": "2026-09-14T18:40:16.407Z",
+      "command": "node --test result-return-model.test.mjs",
+      "exitCode": 0,
+      "tests": 43,
+      "pass": 43,
+      "fail": 0,
+      "failedNames": [],
+      "evidence": "checks.run-1.tap"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "taskId": "trace-result-return-v1-20260915",
+  "packageSha256": "D314692521774A4B7F205F31634EE68551186ABEA3D2FA5FD9ABFE3A849ABC27",
+  "changedBaselineFiles": [
+    "artifacts/trace-web-v1-integration-20260915/state/bridge.mjs"
+  ],
+  "missingLinks": [],
+  "references": [
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/01-结果带入态.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/02-比较展开态.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/03-影响辨认态.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/04-修订确认态.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/05-回接完成态.png",
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "stage": "Dispatched only; not app implementation acceptance."
+}

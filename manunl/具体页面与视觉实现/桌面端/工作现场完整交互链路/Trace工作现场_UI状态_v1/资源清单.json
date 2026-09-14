@@ -1,0 +1,50 @@
+{
+  "directory": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\工作现场完整交互链路\\Trace工作现场_UI状态_v1",
+  "images": [
+    {
+      "file": "01-工作总览态.png",
+      "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a0a9-341b-7432-8f2f-0f014a08eaf0\\exec-886390b9-8079-41c6-8c9d-49027f023bf4.png",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\工作现场完整交互链路\\Trace工作现场_UI状态_v1\\01-工作总览态.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "35AA523604BD67C37C5AFDF4EC0709863B5A37170F19C3A4B04C78E738E72196",
+      "copy_verified": true
+    },
+    {
+      "file": "02-带入展开态.png",
+      "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a0a9-341b-7432-8f2f-0f014a08eaf0\\exec-8c34aa5b-c900-4309-952d-18c8b094598c.png",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\工作现场完整交互链路\\Trace工作现场_UI状态_v1\\02-带入展开态.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "AB2CDB09D895B283BA9AE17ACFCD444B68C758EFE248A64274EDA67509BA9B16",
+      "copy_verified": true
+    },
+    {
+      "file": "03-影响追溯态.png",
+      "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a0a9-341b-7432-8f2f-0f014a08eaf0\\exec-1e4d3aaf-2fa2-432f-ad76-bf1e2a7440a7.png",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\工作现场完整交互链路\\Trace工作现场_UI状态_v1\\03-影响追溯态.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "48EA5AA2838884161B7164F60F21266B06890A2E8886372BDE95ADAA1AC5D207",
+      "copy_verified": true
+    },
+    {
+      "file": "04-发现展开态.png",
+      "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a0a9-341b-7432-8f2f-0f014a08eaf0\\exec-15bcd6b5-b144-4061-852c-143ed7113d49.png",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\工作现场完整交互链路\\Trace工作现场_UI状态_v1\\04-发现展开态.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "EFC10C455E1D9FE6C5A90E193BF5E0D5CBADE371C4173D5C4DA3212CED7E7E93",
+      "copy_verified": true
+    },
+    {
+      "file": "05-结果比较态.png",
+      "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a0a9-341b-7432-8f2f-0f014a08eaf0\\exec-7a3e9e56-972f-467c-b5f4-03be7db91a37.png",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\工作现场完整交互链路\\Trace工作现场_UI状态_v1\\05-结果比较态.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "CDB661B0CF0F1D69F1F0F00F16D4748120C7F5BB8E1A32C12F61BF161A2C38FE",
+      "copy_verified": true
+    }
+  ]
+}

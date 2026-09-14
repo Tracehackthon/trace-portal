@@ -1,0 +1,50 @@
+[
+  {
+    "id": "A",
+    "tool": "image_gen__imagegen",
+    "mode": "built-in",
+    "returned_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "returned_mime": "image/png",
+    "output_hint": "Generated images are saved to C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8 as C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8\\exec-6bc3f9f8-8808-433f-8af5-6c5c75e8111f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "model_identity": "未暴露；工具结果仅有 image_url 与 output_hint，未核验具体模型版本。"
+  },
+  {
+    "id": "B",
+    "tool": "image_gen__imagegen",
+    "mode": "built-in",
+    "returned_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "returned_mime": "image/png",
+    "output_hint": "Generated images are saved to C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8 as C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8\\exec-9e32d87e-e458-4c13-b5a9-6530b36fed41.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "model_identity": "未暴露；工具结果仅有 image_url 与 output_hint，未核验具体模型版本。"
+  },
+  {
+    "id": "BRetry",
+    "tool": "image_gen__imagegen",
+    "mode": "built-in",
+    "returned_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "returned_mime": "image/png",
+    "output_hint": "Generated images are saved to C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8 as C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8\\exec-fea8e600-e55a-4e0c-b172-8e9f87a8e925.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "model_identity": "未暴露；工具结果仅有 image_url 与 output_hint，未核验具体模型版本。"
+  },
+  {
+    "id": "C",
+    "tool": "image_gen__imagegen",
+    "mode": "built-in",
+    "returned_keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "returned_mime": "image/png",
+    "output_hint": "Generated images are saved to C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8 as C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a02c-f4b2-7312-92c2-2ce424e308b8\\exec-e6e98705-785e-4454-87d4-1485a3e19f6b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "model_identity": "未暴露；工具结果仅有 image_url 与 output_hint，未核验具体模型版本。"
+  }
+]

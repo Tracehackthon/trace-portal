@@ -1,0 +1,347 @@
+[
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\A-home-environment.png",
+    "bytes": 1564971,
+    "width": 1672,
+    "height": 941,
+    "pixel_format": "Format24bppRgb",
+    "png_color_type": 2,
+    "png_chunk_types": [
+      "IHDR",
+      "caBX",
+      "IDAT",
+      "IEND"
+    ],
+    "has_alpha_or_trns": false,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "alpha_evidence": "PNG color type has no alpha and no tRNS chunk: all decoded pixels are opaque.",
+    "corner_samples": [
+      {
+        "x": 0,
+        "y": 0,
+        "alpha": 255,
+        "r": 236,
+        "g": 241,
+        "b": 238
+      },
+      {
+        "x": 10,
+        "y": 10,
+        "alpha": 255,
+        "r": 239,
+        "g": 243,
+        "b": 242
+      },
+      {
+        "x": 20,
+        "y": 20,
+        "alpha": 255,
+        "r": 241,
+        "g": 244,
+        "b": 243
+      },
+      {
+        "x": 1671,
+        "y": 0,
+        "alpha": 255,
+        "r": 225,
+        "g": 239,
+        "b": 233
+      },
+      {
+        "x": 0,
+        "y": 940,
+        "alpha": 255,
+        "r": 215,
+        "g": 222,
+        "b": 221
+      },
+      {
+        "x": 1671,
+        "y": 940,
+        "alpha": 255,
+        "r": 178,
+        "g": 197,
+        "b": 197
+      }
+    ],
+    "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05"
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\B-bird-perched-initial.png",
+    "bytes": 1862394,
+    "width": 1254,
+    "height": 1254,
+    "pixel_format": "Format24bppRgb",
+    "png_color_type": 2,
+    "png_chunk_types": [
+      "IHDR",
+      "caBX",
+      "IDAT",
+      "IEND"
+    ],
+    "has_alpha_or_trns": false,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "alpha_evidence": "PNG color type has no alpha and no tRNS chunk: all decoded pixels are opaque.",
+    "corner_samples": [
+      {
+        "x": 0,
+        "y": 0,
+        "alpha": 255,
+        "r": 254,
+        "g": 254,
+        "b": 254
+      },
+      {
+        "x": 10,
+        "y": 10,
+        "alpha": 255,
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      {
+        "x": 20,
+        "y": 20,
+        "alpha": 255,
+        "r": 252,
+        "g": 252,
+        "b": 252
+      },
+      {
+        "x": 1253,
+        "y": 0,
+        "alpha": 255,
+        "r": 247,
+        "g": 248,
+        "b": 247
+      },
+      {
+        "x": 0,
+        "y": 1253,
+        "alpha": 255,
+        "r": 209,
+        "g": 208,
+        "b": 209
+      },
+      {
+        "x": 1253,
+        "y": 1253,
+        "alpha": 255,
+        "r": 202,
+        "g": 202,
+        "b": 201
+      }
+    ],
+    "sha256": "EB237FE8F1627E3850CAC25EE332D4AF91733A568442AA472BD2B1CE5551C29B"
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\B2-bird-perched-alpha-retry.png",
+    "bytes": 1517151,
+    "width": 1254,
+    "height": 1254,
+    "pixel_format": "Format24bppRgb",
+    "png_color_type": 2,
+    "png_chunk_types": [
+      "IHDR",
+      "caBX",
+      "IDAT",
+      "IEND"
+    ],
+    "has_alpha_or_trns": false,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "alpha_evidence": "PNG color type has no alpha and no tRNS chunk: all decoded pixels are opaque.",
+    "corner_samples": [
+      {
+        "x": 0,
+        "y": 0,
+        "alpha": 255,
+        "r": 253,
+        "g": 253,
+        "b": 253
+      },
+      {
+        "x": 10,
+        "y": 10,
+        "alpha": 255,
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      {
+        "x": 20,
+        "y": 20,
+        "alpha": 255,
+        "r": 252,
+        "g": 252,
+        "b": 252
+      },
+      {
+        "x": 1253,
+        "y": 0,
+        "alpha": 255,
+        "r": 200,
+        "g": 201,
+        "b": 197
+      },
+      {
+        "x": 0,
+        "y": 1253,
+        "alpha": 255,
+        "r": 203,
+        "g": 200,
+        "b": 201
+      },
+      {
+        "x": 1253,
+        "y": 1253,
+        "alpha": 255,
+        "r": 254,
+        "g": 253,
+        "b": 254
+      }
+    ],
+    "sha256": "CC63D1359D2A89D6B6BE2DC45D58E61ECFF1EEAB60974B631CEB1654E3A029E1"
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\C-bird-takeoff.png",
+    "bytes": 2040942,
+    "width": 1254,
+    "height": 1254,
+    "pixel_format": "Format24bppRgb",
+    "png_color_type": 2,
+    "png_chunk_types": [
+      "IHDR",
+      "caBX",
+      "IDAT",
+      "IEND"
+    ],
+    "has_alpha_or_trns": false,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "alpha_evidence": "PNG color type has no alpha and no tRNS chunk: all decoded pixels are opaque.",
+    "corner_samples": [
+      {
+        "x": 0,
+        "y": 0,
+        "alpha": 255,
+        "r": 247,
+        "g": 248,
+        "b": 247
+      },
+      {
+        "x": 10,
+        "y": 10,
+        "alpha": 255,
+        "r": 249,
+        "g": 249,
+        "b": 249
+      },
+      {
+        "x": 20,
+        "y": 20,
+        "alpha": 255,
+        "r": 247,
+        "g": 247,
+        "b": 247
+      },
+      {
+        "x": 1253,
+        "y": 0,
+        "alpha": 255,
+        "r": 249,
+        "g": 249,
+        "b": 248
+      },
+      {
+        "x": 0,
+        "y": 1253,
+        "alpha": 255,
+        "r": 195,
+        "g": 192,
+        "b": 193
+      },
+      {
+        "x": 1253,
+        "y": 1253,
+        "alpha": 255,
+        "r": 251,
+        "g": 251,
+        "b": 251
+      }
+    ],
+    "sha256": "00702ABE62D72904C57E6ADC6585EC77BDA5B03F327CC234F0CB3E5526BCE41E"
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\ready\\home-environment.png",
+    "bytes": 1564971,
+    "width": 1672,
+    "height": 941,
+    "pixel_format": "Format24bppRgb",
+    "png_color_type": 2,
+    "png_chunk_types": [
+      "IHDR",
+      "caBX",
+      "IDAT",
+      "IEND"
+    ],
+    "has_alpha_or_trns": false,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "alpha_evidence": "PNG color type has no alpha and no tRNS chunk: all decoded pixels are opaque.",
+    "corner_samples": [
+      {
+        "x": 0,
+        "y": 0,
+        "alpha": 255,
+        "r": 236,
+        "g": 241,
+        "b": 238
+      },
+      {
+        "x": 10,
+        "y": 10,
+        "alpha": 255,
+        "r": 239,
+        "g": 243,
+        "b": 242
+      },
+      {
+        "x": 20,
+        "y": 20,
+        "alpha": 255,
+        "r": 241,
+        "g": 244,
+        "b": 243
+      },
+      {
+        "x": 1671,
+        "y": 0,
+        "alpha": 255,
+        "r": 225,
+        "g": 239,
+        "b": 233
+      },
+      {
+        "x": 0,
+        "y": 940,
+        "alpha": 255,
+        "r": 215,
+        "g": 222,
+        "b": 221
+      },
+      {
+        "x": 1671,
+        "y": 940,
+        "alpha": 255,
+        "r": 178,
+        "g": 197,
+        "b": 197
+      }
+    ],
+    "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05"
+  }
+]

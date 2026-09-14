@@ -1,0 +1,200 @@
+{
+  "startedAt": "2026-09-14T16:03:20.618Z",
+  "cases": [
+    {
+      "id": "offline-home-assets",
+      "status": "passed",
+      "evidence": {
+        "url": "file:///D:/AGeneral%20Workspace/AI-powered/harness/trace-runtime/plugins/trace-harness-plugin/lib/desktop/discussion/index.html",
+        "images": [
+          {
+            "src": "file:///D:/AGeneral%20Workspace/AI-powered/harness/trace-runtime/plugins/trace-harness-plugin/lib/desktop/discussion/public/home/bird-perched.png",
+            "loaded": true
+          },
+          {
+            "src": "file:///D:/AGeneral%20Workspace/AI-powered/harness/trace-runtime/plugins/trace-harness-plugin/lib/desktop/discussion/public/home/bird-takeoff.png",
+            "loaded": true
+          }
+        ],
+        "fonts": [
+          {
+            "family": "Trace Home Serif",
+            "status": "loaded"
+          },
+          {
+            "family": "Trace Home Sans",
+            "status": "loaded"
+          }
+        ],
+        "native": "function",
+        "unsafeNode": "undefined",
+        "viewport": [
+          1672,
+          944
+        ]
+      }
+    },
+    {
+      "id": "detail-layout-thinking",
+      "status": "passed",
+      "evidence": {
+        "clientHeight": 220,
+        "scrollHeight": 220,
+        "rows": [
+          {
+            "bottom": 529.9895858764648,
+            "visibleBottom": 687.8333435058594,
+            "text": "上次停在我还无法判断，自己想保留的是个人表达，还是文章中的原始现场。"
+          },
+          {
+            "bottom": 604.8854598999023,
+            "visibleBottom": 687.8333435058594,
+            "text": "为什么现在回来你刚刚收藏了一篇相关回答，其中再次出现了收藏之后很少重新使用的问题。"
+          },
+          {
+            "bottom": 679.7812728881836,
+            "visibleBottom": 687.8333435058594,
+            "text": "此刻的变化之前关注的是怎样保存，现在可能真正的问题是：什么情形会让它重新出现。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "detail-layout-work",
+      "status": "passed",
+      "evidence": {
+        "clientHeight": 223,
+        "scrollHeight": 223,
+        "rows": [
+          {
+            "bottom": 593.3541870117188,
+            "visibleBottom": 733.1666870117188,
+            "text": "带入工作的判断工作界面不应该复制一个新的 Agent，而应该显示原生 Agent 当前工作的区域，以及被带入工作的沉淀内容。"
+          },
+          {
+            "bottom": 661.4479370117188,
+            "visibleBottom": 733.1666870117188,
+            "text": "工作中发生了什么新的首页方案已经形成，但还没有表现一条思考如何被重新拿起。"
+          },
+          {
+            "bottom": 729.5416870117188,
+            "visibleBottom": 733.1666870117188,
+            "text": "尚未做出的判断气泡应该原位展开，还是进入独立的详情空间？"
+          }
+        ]
+      }
+    },
+    {
+      "id": "native-input-to-result",
+      "status": "passed",
+      "evidence": "带回的结果本地验证结果，尚未自动采用实践中的新发现，已经回到这件事里。已带回 · 待再判断原判断 → 带去工作 → 实践结果 → 更新理解"
+    },
+    {
+      "id": "actual-preload-candidate-ipc",
+      "status": "passed",
+      "evidence": {
+        "transport": "packaged preload → ipcRenderer.send → isolated fixture ipcMain listener",
+        "payloads": [
+          {
+            "type": "trace.desktop.candidate",
+            "observationId": "native-fixture-observation",
+            "status": "候选中"
+          },
+          {
+            "type": "trace.desktop.candidate",
+            "observationId": "native-fixture-observation",
+            "status": "待确认"
+          }
+        ]
+      }
+    },
+    {
+      "id": "offline-and-clean-errors",
+      "status": "passed",
+      "evidence": {
+        "externalRequests": [],
+        "pageErrors": [],
+        "versions": {
+          "node": "24.20.0",
+          "acorn": "8.18.0",
+          "ada": "4.0.0",
+          "amaro": "1.1.11",
+          "ares": "1.34.8",
+          "brotli": "1.2.0",
+          "cldr": "48.0",
+          "icu": "78.2",
+          "llhttp": "9.4.3",
+          "merve": "1.2.2",
+          "modules": "149",
+          "napi": "10",
+          "nbytes": "0.1.4",
+          "ncrypto": "0.0.1",
+          "nghttp2": "1.70.0",
+          "nghttp3": "",
+          "ngtcp2": "",
+          "openssl": "0.0.0",
+          "simdjson": "4.6.6",
+          "simdutf": "7.7.0",
+          "sqlite": "3.53.4",
+          "tz": "2025c",
+          "undici": "7.29.0",
+          "unicode": "17.0",
+          "uv": "1.52.1",
+          "uvwasi": "0.0.23",
+          "v8": "15.2.124.19-electron.0",
+          "zlib": "1.3.2.1-motley",
+          "zstd": "1.6.0",
+          "electron": "44.3.0",
+          "chrome": "152.0.7977.78"
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+    "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+    "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+    "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+    "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+    "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged."
+  ],
+  "limits": [
+    "Hidden isolated Electron fixture with actual packaged preload, not the real Overlay consumer.",
+    "No full GPU performance benchmark or OS IME acceptance."
+  ],
+  "previousRuns": [
+    {
+      "startedAt": "2026-09-14T16:02:01.831Z",
+      "cases": [
+        {
+          "id": "offline-home-assets",
+          "status": "failed",
+          "error": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+        }
+      ],
+      "errors": [],
+      "warnings": [
+        "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+        "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged."
+      ],
+      "limits": [
+        "Hidden isolated Electron fixture with actual packaged preload, not the real Overlay consumer.",
+        "No full GPU performance benchmark or OS IME acceptance."
+      ],
+      "fatal": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n    at D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\native-check.cjs:26:16\n    at async run (D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\native-check.cjs:8:61)\n    at async D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\prototype-checks\\native-check.cjs:21:3",
+      "finishedAt": "2026-09-14T16:02:34.909Z",
+      "summary": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1
+      }
+    }
+  ],
+  "finishedAt": "2026-09-14T16:03:31.318Z",
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0
+  }
+}

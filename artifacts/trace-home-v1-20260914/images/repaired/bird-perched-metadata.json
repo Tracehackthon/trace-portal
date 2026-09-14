@@ -1,0 +1,168 @@
+{
+  "asset_id": "bird-perched",
+  "status": "repaired_visual_candidate_ready",
+  "source_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\B2-bird-perched-alpha-retry.png",
+  "source_sha256": "cc63d1359d2a89d6b6be2dc45d58e61ecff1eeab60974b631ceb1654e3a029e1",
+  "source_size": [
+    1254,
+    1254
+  ],
+  "full_rgba_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-perched-full.png",
+  "full_rgba_sha256": "b5b9c7363745531615434ae7b2a4fa012eb3d7b1e771d4c3078c98c1ade65c5b",
+  "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-perched.png",
+  "sha256": "81de590d9c88d27ad73be569385d8b1d6999f08fc269912b4b97b5d403b4efec",
+  "mode": "RGBA",
+  "size": [
+    1086,
+    839
+  ],
+  "source_alpha_bbox_ltrb_exclusive": [
+    88,
+    232,
+    1158,
+    1055
+  ],
+  "source_crop_ltrb_exclusive": [
+    80,
+    224,
+    1166,
+    1063
+  ],
+  "cropped_alpha_bbox_ltrb_exclusive": [
+    8,
+    8,
+    1078,
+    831
+  ],
+  "alpha_min": 0,
+  "alpha_max": 255,
+  "transparent_pixels": 713729,
+  "semi_transparent_pixels": 12503,
+  "opaque_pixels": 184922,
+  "foot_anchor_source_xy": [
+    852,
+    812
+  ],
+  "foot_anchor_cropped_xy": [
+    772,
+    588
+  ],
+  "eye_anchor_source_xy": [
+    1045,
+    307
+  ],
+  "eye_anchor_cropped_xy": [
+    965,
+    83
+  ],
+  "anchor_note": "Manual visual registration hints, not anatomical ground truth. Apply one common source-pixel scale; do not equalize cropped image widths.",
+  "protected_foreground_samples": {
+    "white_belly": {
+      "source_xy": [
+        952,
+        518
+      ],
+      "alpha": 255,
+      "rgb_original": [
+        249,
+        250,
+        249
+      ],
+      "rgb_output": [
+        249,
+        250,
+        249
+      ]
+    },
+    "white_neck": {
+      "source_xy": [
+        1012,
+        364
+      ],
+      "alpha": 255,
+      "rgb_original": [
+        247,
+        245,
+        242
+      ],
+      "rgb_output": [
+        247,
+        245,
+        242
+      ]
+    },
+    "eye": {
+      "source_xy": [
+        1045,
+        307
+      ],
+      "alpha": 255,
+      "rgb_original": [
+        1,
+        0,
+        0
+      ],
+      "rgb_output": [
+        1,
+        0,
+        0
+      ]
+    },
+    "leg": {
+      "source_xy": [
+        852,
+        774
+      ],
+      "alpha": 255,
+      "rgb_original": [
+        149,
+        105,
+        87
+      ],
+      "rgb_output": [
+        149,
+        105,
+        87
+      ]
+    }
+  },
+  "method": {
+    "chroma_threshold": 10,
+    "dark_gray_threshold": 158,
+    "texture_window_px": 25,
+    "pale_std_max": 14,
+    "pale_gray_min": 205,
+    "closure_px": 3,
+    "edge_sigma_px": 0.55,
+    "preserved_interior_background_seeds_xy": [
+      [
+        822,
+        734
+      ]
+    ],
+    "edge_rgb_modified_pixels": 12503,
+    "opaque_core_pixels_unchanged": 184922
+  },
+  "limitations": [
+    "Original antialias matte is irrecoverably mixed with the checkerboard; nearest-interior color decontamination estimates only a narrow edge band.",
+    "Fine pale feather filaments smaller than 1–2 source pixels may be simplified.",
+    "Two still poses do not provide a natural wing-beat animation."
+  ],
+  "visual_review": {
+    "status": "passed_for_small_ui_candidate",
+    "reviewed_backgrounds": [
+      "deep green #073c31",
+      "mid gray #707477"
+    ],
+    "small_size_scales": [
+      0.075,
+      0.13
+    ],
+    "findings": [
+      "White belly, white neck, eye, legs, tail and wings remain visible.",
+      "No broad checkerboard patches remain; interior leg aperture is transparent.",
+      "Fine pale edging at high magnification remains approximate; not a perfect high-resolution matte."
+    ],
+    "ui_or_animation_acceptance": false
+  }
+}

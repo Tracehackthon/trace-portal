@@ -1,0 +1,1810 @@
+Trace
+在意的事
+看看来路
+收起
+收藏后为什么接不回来
+接着这里
+当时为什么在意
+上次停在这里
+原文片段
+查看原现场
+拿两个情形比一比
+我想先自己写
+这次先不带入旧理解
+恢复原来的上下文
+写下现在想到的，或带来一份新材料……
+粘贴材料摘录
+原型只支持文字摘录，不会上传附件。
+换个情形，自己判断
+假设情形 · 不是实际案例
+围绕这句问
+接到我的理解
+先留个旁支
+一种可能
+正在围绕
+取消选区
+这是示例启发，不是模型实时回复。
+当前没有讨论。写下自己的问题即可开始。
+正在分清
+找个对照
+回到刚才
+可能挑战这一处
+这是推断
+还不能说明
+准备接为
+挑战
+补充
+限制
+旁支
+接到这里
+这次无关
+查看原文
+关系确认不等于采纳材料结论。
+我的理解
+个人草稿
+已保存于本次会话
+草稿尚未保存
+尚未作为工作要求
+纯文本编辑
+选中一句，提出局部修改
+建议修改 · 只改这一处
+原句
+替换为
+生成示例建议
+接受这一处
+自己改
+放弃建议
+撤销局部修改
+局部建议已过期，请重新选择。
+保存草稿
+带去用
+未决停点
+还没分清什么？留一句给下次。
+保存草稿不自动成为工作要求。
+把此刻的一点，带到以后。
+留下一段触动、一个问题或工作中的发现；继续想，带去用，再让结果回来。
+写一句，贴一段，或带回一个结果……
+刚刚停在
+个人草稿已保存于本次会话
+尚未整理成理解
+已收起，草稿和停点都在本次会话里。
+撤销收起
+带着新材料回来
+回到首页
+全部事项
+这次带来 · 我的观察
+用户补充
+待核对
+沿着这里比较
+这次不是这件事
+先只留下
+新材料保留，不强行关联。
+带去这次工作
+目的地
+Agent
+项目
+任务
+选中的内容
+来源
+我希望这次
+这次准备试
+作为参考
+这次不用
+补充说明（可选）
+范围
+仅本次任务
+试一次，不变成长期需求。
+带到本次工作
+先不带入
+示例工作宿主 · 未连接真实 Agent
+工作主场在原生 Agent
+这里仅演示 Trace 如何在工作旁承接，不创建第二个工作聊天。
+本次带入
+已确认 · 仅本次任务
+尚未带入本次工作
+真实使用结果尚未回来
+查看依据
+工作中新增
+写下本次工作里的新发现……
+先留一下
+展开想想
+带回结果
+结果回来
+把这次实际发生的、你的解释和仍不确定的地方分开。
+上次准备试
+这次实际发生
+事实
+解释
+未确认
+准备怎样改我的理解
+原来的理解
+这次修订为
+保留这次修订
+只留下结果
+再试一次
+修改后可撤销
+仍在这件事里
+看看这次改了哪里
+查看使用经历
+已补上这次经历的条件，未写成通用结论。
+继续写，或带来下一次经历……
+这次修订已保存于本次会话。
+撤销修订
+没有自动生成使用反馈。
+原文与来路
+原话
+来源材料
+对照关系
+留下的旁支
+理解修订
+暂无来源。可以粘贴一段材料。
+暂无修订。
+关闭
+示例阅读页
+示例文章
+为什么收藏之后，很少再回来？
+约四分钟阅读
+这是用于原型的示例文章，不是当前浏览器内容。
+我们每个人都会收藏一些内容。也许是一篇文章、一个网页，或者一段话。当时觉得很重要，担心以后找不到，就先保存下来。
+但一段时间后再回头看，收藏夹里已经堆满了各种内容。真正能想起来为什么收藏的，却寥寥无几。
+这并不是因为我们不够自律，而是人的记忆在当下和未来之间，本就存在落差。保存一段内容，不一定保存了当时为什么在意。重新读到时，我们可能认得这些文字，却想不起自己的问题。
+也许我们需要的，不只是一个收藏的动作，而是在收藏的同时，留下一点当时的想法，哪怕只是一句话。
+选中文章中的一段，再留下一点自己的想法。
+选中片段与此刻想法
+不用起标题，也可以先不整理。
+展开聊聊
+留一下
+打开 Trace 留下一点
+原文来源
+原文片段 · 已带入
+取消来源
+选择一段文字后再操作。
+输入仅留在本次会话，刷新会清空。
+交互原型 · 示例内容 · 仅本次会话
+对照位置
+建议替换文字
+材料摘录
+把原文粘贴在这里……
+将摘录带入新材料
+暂无已保存的理解，可以直接写。
+尚未留下停点。
+本次未带入旧理解；来源和原话仍可按需查看。
+示例建议由你确认后才改写选中的文字。
+操作已取消
+
+# Trace｜一件事的连续 UI 页面 v1
+
+> 一件事持续存在，界面随当前动作展开。这里是一组静态交互概念，不是 11 个互不相关的功能模块。
+
+## 本套内容
+
+2026-09-15，使用内置 `image_gen` 工具生成。围绕同一示例「收藏后为什么接不回来」，先生成 10 张关键状态，再补第 11 张修订真正落回后的状态。全部为 1672 × 941 PNG。
+
+可以按 01—11 顺序看故事，但真实用户不必依次完成，可以在任意处停下、直接写或先去尝试。第 02 张演示已有停点的恢复态，不是要求第一次输入就必须拥有一段历史。
+
+## 页面与动作
+
+| 图 | 当前状态 | 从哪里进入 | 主要动作 | 操作应产生的变化 |
+| --- | --- | --- | --- | --- |
+| [01](01-阅读现场-留下一点.png) | 阅读现场 | 交进选中片段与一句话 | 留一下；或展开聊聊 | 来源与原话保留，未形成结论 |
+| [02](02-气泡展开-接着这里.png) | 气泡展开 | 从已有气泡回到这件事 | 围绕停点继续，或先自己写 | 恢复问题，而非默认重读全部聊天 |
+| [03](03-围绕一处-展开讨论.png) | 围绕一处 | 选择一个具体句子继续讨论 | 围绕这句问；接到理解；留下旁支 | 明确当前输入针对哪一处，可以取消 |
+| [04](04-找个对照-接回具体位置.png) | 找个对照 | 打开与当前问题有关的材料 | 核对关系后接到这里；也能拒绝 | 对照落到具体问题，不等于自动采纳 |
+| [05](05-我的理解-局部编辑与建议.png) | 我的理解 | 自己写，或查看局部改写建议 | 接受一处；自己改；放弃建议 | 草稿保存不自动变成工作要求 |
+| [06](06-先放这里-收起后留下停点.png) | 先放这里 | 收起当前工作面 | 离开；撤销收起；以后点击气泡 | 气泡保留停点与草稿，不制造待办 |
+| [07](07-重新拿起-带着新材料回来.png) | 重新拿起 | 带着新观察回来 | 沿着比较；这次不是这件事；先只留下 | 新内容优先，关联允许拒绝 |
+| [08](08-带去用-确认这次怎么参与.png) | 带去用 | 让设想进入具体工作 | 核对 Agent、项目、任务、作用与范围 | 仅一次尝试，不等于长期采用 |
+| [09](09-原生工作旁-参考与新增发现.png) | 原生工作旁 | 原生 Agent 继续执行 | 查看依据；留下新发现；带回结果 | 区分原型实现与真实使用反馈 |
+| [10](10-结果回来-比较并修正理解.png) | 结果回来 | 比较计划与实际经历 | 保留修订；只留结果；再试一次 | 事实、解释与未确认分开 |
+| [11](11-修订落回-从新理解继续.png) | 修订落回 | 保留修订之后 | 看变化；看依据；继续或离开 | 更新内容落回同一件事，下次从这里继续 |
+
+## 怎样串起来看
+
+- **最短思考闭环：**01 留一点 → 02 找回停点 → 03 围绕一处 → 05 自己写 → 06 收起 → 07 再拿起。
+- **需要外部依据时：**从 03 或 05 打开 04，接回当前具体位置后回到原工作面，不另开一套内容仓库。
+- **进入实践时：**05 或 07 → 08 带去本次工作 → 09 在原生 Agent 旁边承接 → 10 比较结果 → 11 修订落回。
+- **只留下结果：**10 的「只留结果」不进入理解修订；原来的理解不自动改变。
+- **看看来路：**仍然是按需的追溯入口，不用完整轨迹图代替默认操作界面；本组没有重新绘制全历史视图。
+
+## 本套保留的设计判断
+
+- Trace 的名字、水墨支流、轻玻璃面、深松绿、少量琥珀色和单只飞鸟延续既有视觉方向。
+- 不设置固定侧边栏；同一件事的身份由顶部位置与内容关系保持。
+- 来源、建议解释、自己的草稿、一次工作尝试、真实经历之间保持区分。
+- 原生 Agent 是工作主场，Trace 不复制另一个工作聊天。
+- 第 11 张明确展示修订后状态：不是停在确认按钮，也不只新增一份孤立总结。
+
+## 已完成的检查与修正
+
+- 逐张查看生成结果；对 01、04、08、10 做了一次针对性修正：外部阅读场景、重复飞鸟、带去工作时的最新背景、修订前后的内容连续性。
+- 最终 11 张均已复制到本目录；尺寸与 SHA-256 来源一致性验证见 [图片校验](图片校验.json)。源生成图未删除，旧的六张功能概念图与首页图未覆盖。
+- 提示词、初始来源、修正提示词与最终选用来源见 [生图提示词与来源](生图提示词与来源.json)。工具没有暴露精确模型版本号，未自行推定。
+
+## 仍然是概念，而非已验证交互
+
+- 图片中的文章、引用、观察、工作与使用结果均为示例，不是已经发生的真实用户研究或实际接入记录。第 09 张的原生 Agent 界面为示意，不是当前 Codex 的运行截图。
+- 尚未实现点击、动态布局、键盘操作、焦点恢复、真实保存与撤销、原生宿主接入或跨端同步。没有把图片和哈希验证当成业务验收。
+- 生图中的小字、字形、局部建议与原句逐字对应、组件尺寸和操作文案仍需在原型实现时校准；静态图不替代正式功能定义。
+- 分支迁移、错误关联修复、长内容、空状态、资料失效与失败重试仍需继续做交互状态设计，本套未分别生成它们的完整页面。
+
+
+reading
+resume
+
+
+
+
+
+
+
+
+是不是收藏的时候，应该补一句自己的感受？
+source-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-article
+
+
+
+
+
+
+
+
+pending
+Codex
+harness
+收藏入口原型
+
+trial
+
+current-task
+none
+
+
+
+
+pending
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-comparison
+示例材料 · 原文片段
+example-comparison
+我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。
+resume
+matter-saved
+resume
+
+matter-saved
+收藏后为什么接不回来
+还没分清：是缺少自己的表达，还是原文现场不够？
+matter-saved
+收藏后为什么接不回来
+保存了内容，却恢复不了当时的想法。
+还没分清：是缺少自己的表达，还是原文现场不够？
+还没分清：是缺少自己的表达，还是原文现场不够？
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+
+
+
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+case-data
+留下一段以后要引用的数据。
+case-experience
+留下一句话，因为它让你想起某段经历。
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+留下一段以后要引用的数据。
+
+留下一句话，因为它让你想起某段经历。
+
+第二种好像更需要我自己写点什么。
+
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+保存了内容，却恢复不了当时的想法。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+还没分清：是缺少自己的表达，还是原文现场不够？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+
+
+pending
+Codex
+harness
+收藏入口原型
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+trial
+
+current-task
+none
+
+
+
+
+pending
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-comparison
+示例材料 · 原文片段
+example-comparison
+我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。
+discussion
+matter-saved
+resume
+
+matter-saved
+收藏后为什么接不回来
+还没分清：是缺少自己的表达，还是原文现场不够？
+matter-saved
+收藏后为什么接不回来
+保存了内容，却恢复不了当时的想法。
+还没分清：是缺少自己的表达，还是原文现场不够？
+还没分清：是缺少自己的表达，还是原文现场不够？
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+
+
+但原文能不能也帮我想起来？
+discussion
+第二种好像更需要我自己写点什么。
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+case-data
+留下一段以后要引用的数据。
+case-experience
+留下一句话，因为它让你想起某段经历。
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+留下一段以后要引用的数据。
+
+留下一句话，因为它让你想起某段经历。
+
+第二种好像更需要我自己写点什么。
+
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+保存了内容，却恢复不了当时的想法。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+还没分清：是缺少自己的表达，还是原文现场不够？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+
+
+pending
+Codex
+harness
+收藏入口原型
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+trial
+
+current-task
+none
+
+
+
+
+pending
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-comparison
+示例材料 · 原文片段
+example-comparison
+我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。
+comparison
+matter-saved
+resume
+
+matter-saved
+收藏后为什么接不回来
+还没分清：是缺少自己的表达，还是原文现场不够？
+matter-saved
+收藏后为什么接不回来
+保存了内容，却恢复不了当时的想法。
+还没分清：是缺少自己的表达，还是原文现场不够？
+还没分清：是缺少自己的表达，还是原文现场不够？
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+
+
+
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+case-data
+留下一段以后要引用的数据。
+case-experience
+留下一句话，因为它让你想起某段经历。
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+留下一段以后要引用的数据。
+
+留下一句话，因为它让你想起某段经历。
+
+第二种好像更需要我自己写点什么。
+
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+保存了内容，却恢复不了当时的想法。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+还没分清：是缺少自己的表达，还是原文现场不够？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+
+source-comparison
+还没分清：是缺少自己的表达，还是原文现场不够？
+challenge
+它让“每次都要写附言”变得不那么确定。
+还不能说明：个人表达没有价值。
+pending
+
+pending
+Codex
+harness
+收藏入口原型
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+trial
+
+current-task
+none
+
+
+
+
+pending
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-comparison
+示例材料 · 原文片段
+example-comparison
+我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。
+understanding
+matter-saved
+resume
+
+matter-saved
+收藏后为什么接不回来
+还没分清：是缺少自己的表达，还是原文现场不够？
+matter-saved
+收藏后为什么接不回来
+保存了内容，却恢复不了当时的想法。
+还没分清：是缺少自己的表达，还是原文现场不够？
+还没分清：是缺少自己的表达，还是原文现场不够？
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+
+
+
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+case-data
+留下一段以后要引用的数据。
+case-experience
+留下一句话，因为它让你想起某段经历。
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+留下一段以后要引用的数据。
+
+留下一句话，因为它让你想起某段经历。
+
+第二种好像更需要我自己写点什么。
+
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+保存了内容，却恢复不了当时的想法。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+还没分清：是缺少自己的表达，还是原文现场不够？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+
+我自己的表达可能帮助后者。
+自己的表达可能帮助后者，但不是每次都需要。
+pending
+example-suggestion
+
+pending
+Codex
+harness
+收藏入口原型
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+trial
+
+current-task
+none
+
+
+
+
+pending
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-comparison
+示例材料 · 原文片段
+example-comparison
+我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。
+paused
+matter-saved
+resume
+已收起，草稿和停点留在本次会话。
+matter-saved
+收藏后为什么接不回来
+哪些个人触动无法只靠原文恢复？
+matter-saved
+收藏后为什么接不回来
+保存了内容，却恢复不了当时的想法。
+哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+
+
+
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+case-data
+留下一段以后要引用的数据。
+case-experience
+留下一句话，因为它让你想起某段经历。
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+留下一段以后要引用的数据。
+
+留下一句话，因为它让你想起某段经历。
+
+第二种好像更需要我自己写点什么。
+
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+保存了内容，却恢复不了当时的想法。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+
+
+pending
+Codex
+harness
+收藏入口原型
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+trial
+
+current-task
+none
+
+
+
+
+pending
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-comparison
+示例材料 · 原文片段
+example-comparison
+我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。
+reentry
+matter-saved
+resume
+
+matter-saved
+收藏后为什么接不回来
+哪些个人触动无法只靠原文恢复？
+matter-saved
+收藏后为什么接不回来
+保存了内容，却恢复不了当时的想法。
+哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+
+
+
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+case-data
+留下一段以后要引用的数据。
+case-experience
+留下一句话，因为它让你想起某段经历。
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+留下一段以后要引用的数据。
+
+留下一句话，因为它让你想起某段经历。
+
+第二种好像更需要我自己写点什么。
+
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+保存了内容，却恢复不了当时的想法。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+今天看回一段没写附言的收藏，我想起了当时的问题。
+今天看回一段没写附言的收藏，我想起了当时的问题。
+pending
+Codex
+harness
+收藏入口原型
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+trial
+
+current-task
+none
+
+
+
+
+pending
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-comparison
+示例材料 · 原文片段
+example-comparison
+我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。
+handoff
+matter-saved
+resume
+
+matter-saved
+收藏后为什么接不回来
+哪些个人触动无法只靠原文恢复？
+matter-saved
+收藏后为什么接不回来
+保存了内容，却恢复不了当时的想法。
+哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+
+
+
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+case-data
+留下一段以后要引用的数据。
+case-experience
+留下一句话，因为它让你想起某段经历。
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+留下一段以后要引用的数据。
+
+留下一句话，因为它让你想起某段经历。
+
+第二种好像更需要我自己写点什么。
+
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+保存了内容，却恢复不了当时的想法。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+今天看回一段没写附言的收藏，我想起了当时的问题。
+今天看回一段没写附言的收藏，我想起了当时的问题。
+pending
+Codex
+harness
+收藏入口原型
+保留完整原文，附言可选。
+trial
+想观察：不强制附言，回来时还能否认出当时的问题？
+current-task
+none
+
+
+
+
+pending
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-comparison
+示例材料 · 原文片段
+example-comparison
+我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。
+work
+matter-saved
+resume
+
+matter-saved
+收藏后为什么接不回来
+哪些个人触动无法只靠原文恢复？
+matter-saved
+收藏后为什么接不回来
+保存了内容，却恢复不了当时的想法。
+哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+observation-4
+这个交互很轻，但回来时可能还认不出来。
+source-3
+unjudged
+matter-saved
+handoff-1
+Codex
+harness
+收藏入口原型
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-3
+本次工作发现
+work-finding
+这个交互很轻，但回来时可能还认不出来。
+
+
+
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+case-data
+留下一段以后要引用的数据。
+case-experience
+留下一句话，因为它让你想起某段经历。
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+留下一段以后要引用的数据。
+
+留下一句话，因为它让你想起某段经历。
+
+第二种好像更需要我自己写点什么。
+
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+保存了内容，却恢复不了当时的想法。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-3
+本次工作发现
+work-finding
+这个交互很轻，但回来时可能还认不出来。
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+今天看回一段没写附言的收藏，我想起了当时的问题。
+今天看回一段没写附言的收藏，我想起了当时的问题。
+pending
+Codex
+harness
+收藏入口原型
+保留完整原文，附言可选。
+trial
+想观察：不强制附言，回来时还能否认出当时的问题？
+current-task
+artifact-demo
+handoff-1
+matter-saved
+Codex
+harness
+收藏入口原型
+保留完整原文，附言可选。
+trial
+想观察：不强制附言，回来时还能否认出当时的问题？
+current-task
+artifact-demo
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+example
+handoff-1
+matter-saved
+Codex
+harness
+收藏入口原型
+保留完整原文，附言可选。
+trial
+想观察：不强制附言，回来时还能否认出当时的问题？
+current-task
+none
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+example
+
+
+
+
+pending
+finding-2
+这个交互很轻，但回来时可能还认不出来。
+matter-saved
+handoff-1
+Codex
+harness
+收藏入口原型
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-comparison
+示例材料 · 原文片段
+example-comparison
+我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。
+source-3
+本次工作发现
+work-finding
+这个交互很轻，但回来时可能还认不出来。
+results
+matter-saved
+resume
+
+matter-saved
+收藏后为什么接不回来
+哪些个人触动无法只靠原文恢复？
+matter-saved
+收藏后为什么接不回来
+保存了内容，却恢复不了当时的想法。
+哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+observation-4
+这个交互很轻，但回来时可能还认不出来。
+source-3
+unjudged
+matter-saved
+handoff-1
+Codex
+harness
+收藏入口原型
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-3
+本次工作发现
+work-finding
+这个交互很轻，但回来时可能还认不出来。
+
+
+
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+case-data
+留下一段以后要引用的数据。
+case-experience
+留下一句话，因为它让你想起某段经历。
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+留下一段以后要引用的数据。
+
+留下一句话，因为它让你想起某段经历。
+
+第二种好像更需要我自己写点什么。
+
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+保存了内容，却恢复不了当时的想法。
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-3
+本次工作发现
+work-finding
+这个交互很轻，但回来时可能还认不出来。
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+今天看回一段没写附言的收藏，我想起了当时的问题。
+今天看回一段没写附言的收藏，我想起了当时的问题。
+pending
+Codex
+harness
+收藏入口原型
+保留完整原文，附言可选。
+trial
+想观察：不强制附言，回来时还能否认出当时的问题？
+current-task
+artifact-demo
+handoff-1
+matter-saved
+Codex
+harness
+收藏入口原型
+保留完整原文，附言可选。
+trial
+想观察：不强制附言，回来时还能否认出当时的问题？
+current-task
+artifact-demo
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+example
+handoff-1
+matter-saved
+Codex
+harness
+收藏入口原型
+保留完整原文，附言可选。
+trial
+想观察：不强制附言，回来时还能否认出当时的问题？
+current-task
+none
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+example
+这次没有写附言，也接回了当时的问题。
+可能与原文和当时问题一起保留有关。
+哪些个人触动需要额外表达？
+原文与当时的问题一起保留时，可能不写附言也能接回；
+哪些个人触动需要额外表达，仍要分情形看。
+pending
+finding-2
+这个交互很轻，但回来时可能还认不出来。
+matter-saved
+handoff-1
+Codex
+harness
+收藏入口原型
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-comparison
+示例材料 · 原文片段
+example-comparison
+我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。
+source-3
+本次工作发现
+work-finding
+这个交互很轻，但回来时可能还认不出来。
+revised
+matter-saved
+resume
+修订已落回同一件事；仅保存在本次会话，不自动成为工作要求。
+matter-saved
+收藏后为什么接不回来
+哪些个人触动需要额外表达？
+matter-saved
+收藏后为什么接不回来
+保存了内容，却恢复不了当时的想法。
+哪些个人触动需要额外表达？
+哪些个人触动需要额外表达？
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+原文与当时的问题一起保留时，可能不写附言也能接回；
+哪些个人触动需要额外表达，仍要分情形看。
+原文与当时的问题一起保留时，可能不写附言也能接回；
+哪些个人触动需要额外表达，仍要分情形看。
+observation-4
+这个交互很轻，但回来时可能还认不出来。
+source-3
+unjudged
+matter-saved
+handoff-1
+Codex
+harness
+收藏入口原型
+revision-6
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+原文与当时的问题一起保留时，可能不写附言也能接回；
+哪些个人触动需要额外表达，仍要分情形看。
+result-5
+哪些个人触动无法只靠原文恢复？
+哪些个人触动需要额外表达？
+result-5
+这次没有写附言，也接回了当时的问题。
+可能与原文和当时问题一起保留有关。
+哪些个人触动需要额外表达？
+handoff-1
+example
+revised
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-3
+本次工作发现
+work-finding
+这个交互很轻，但回来时可能还认不出来。
+
+
+
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+case-data
+留下一段以后要引用的数据。
+case-experience
+留下一句话，因为它让你想起某段经历。
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+留下一段以后要引用的数据。
+
+留下一句话，因为它让你想起某段经历。
+
+第二种好像更需要我自己写点什么。
+
+一种可能：以后需要找回的是内容，还是你当时的个人触动。
+保存了内容，却恢复不了当时的想法。
+原文与当时的问题一起保留时，可能不写附言也能接回；
+哪些个人触动需要额外表达，仍要分情形看。
+哪些个人触动需要额外表达？
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-3
+本次工作发现
+work-finding
+这个交互很轻，但回来时可能还认不出来。
+message-example
+user
+第二种好像更需要我自己写点什么。
+resume
+今天看回一段没写附言的收藏，我想起了当时的问题。
+今天看回一段没写附言的收藏，我想起了当时的问题。
+pending
+Codex
+harness
+收藏入口原型
+保留完整原文，附言可选。
+trial
+想观察：不强制附言，回来时还能否认出当时的问题？
+current-task
+artifact-demo
+handoff-1
+matter-saved
+Codex
+harness
+收藏入口原型
+保留完整原文，附言可选。
+trial
+想观察：不强制附言，回来时还能否认出当时的问题？
+current-task
+artifact-demo
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+example
+handoff-1
+matter-saved
+Codex
+harness
+收藏入口原型
+保留完整原文，附言可选。
+trial
+想观察：不强制附言，回来时还能否认出当时的问题？
+current-task
+none
+我现在觉得，要区分恢复材料内容和恢复个人触动。
+
+原文可能帮助前者，我自己的表达可能帮助后者。
+
+还没分清：哪些个人触动无法只靠原文恢复？
+哪些个人触动无法只靠原文恢复？
+example
+这次没有写附言，也接回了当时的问题。
+可能与原文和当时问题一起保留有关。
+哪些个人触动需要额外表达？
+原文与当时的问题一起保留时，可能不写附言也能接回；
+哪些个人触动需要额外表达，仍要分情形看。
+revised
+result-5
+finding-2
+这个交互很轻，但回来时可能还认不出来。
+matter-saved
+handoff-1
+Codex
+harness
+收藏入口原型
+source-article
+为什么收藏之后，很少再回来？
+example-article
+重新读到时，我们可能认得这些文字，却想不起自己的问题。
+source-comparison
+示例材料 · 原文片段
+example-comparison
+我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。
+source-3
+本次工作发现
+work-finding
+这个交互很轻，但回来时可能还认不出来。
+/** Pure, session-only prototype state. No storage, network, or model calls. */
+export const SCREENS = Object.freeze(['reading', 'resume', 'discussion', 'comparison', 'understanding', 'paused', 'reentry', 'handoff', 'work', 'results', 'revised']);
+const RELATIONS = ['challenge', 'supplement', 'limitation', 'branch'];
+const ROLES = ['trial', 'reference', 'exclude'];
+const EXAMPLE_SOURCES = [
+  { id: 'source-article', title: '为什么收藏之后，很少再回来？', kind: 'example-article', excerpt: '重新读到时，我们可能认得这些文字，却想不起自己的问题。', url: null },
+  { id: 'source-comparison', title: '示例材料 · 原文片段', kind: 'example-comparison', excerpt: '我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。', url: null },
+];
+const DEMO_UNDERSTANDING = '我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？';
+const DEMO_REVISION = '原文与当时的问题一起保留时，可能不写附言也能接回；\n哪些个人触动需要额外表达，仍要分情形看。';
+const copy = (value) => structuredClone(value);
+const string = (value) => typeof value === 'string' ? value : '';
+const nonempty = (value) => string(value).trim().length > 0;
+const unique = (values) => [...new Set(values)];
+
+function blankMatter(id = null) {
+  return { id, title: '', whyCare: '', stop: '', stopDraft: '', stopVersion: 0, originalText: '', understanding: '', understandingDraft: '', understandingVersion: 0, understandingDraftVersion: 0, sourceIds: [], branches: [], observations: [], revisions: [], results: [] };
+}
+function blankHandoff() {
+  return { destination: { agent: 'Codex', project: 'harness', task: '收藏入口原型' }, selectedText: '', selectionEdited: false, role: 'trial', note: '', scope: 'current-task', confirmed: false, understandingVersion: 0, evidenceLevel: 'none' };
+}
+function blankResult() {
+  return { fact: '', interpretation: '', unconfirmed: '', proposedUnderstanding: '', decision: 'pending', savedId: null };
+}
+function blankSession() {
+  return { contextMode: 'resume', composer: { text: '' }, focus: null, discussion: { messages: [], cases: [], possibility: '' }, comparison: null, suggestion: null, incoming: { text: '', sourceId: null, decision: 'pending' }, handoff: blankHandoff(), handoffSnapshot: null, handoffHistory: [], result: blankResult(), workFindings: [], suggestionUndo: null, revisionUndo: null, backStack: [] };
+}
+function current(state) { return state.matters.find((matter) => matter.id === state.selectedId); }
+function session(state) { return state.sessions[state.selectedId]; }
+function nextId(state, prefix) { return `${prefix}-${state.nextId++}`; }
+function inform(state, notice) { state.notice = notice; return state; }
+function sourceById(state, id) { return state.sources.find((source) => source.id === id); }
+function discussionText(s) {
+  return [...s.discussion.cases.map((entry) => entry.text), ...s.discussion.messages.map((entry) => entry.text), s.discussion.possibility].filter(Boolean).join('\n\n');
+}
+function selectHandoff(m, s) {
+  const h = copy(s.handoff);
+  if (!h.confirmed && !h.selectionEdited) {
+    h.selectedText = m.understanding;
+    h.understandingVersion = m.understandingVersion;
+  }
+  return h;
+}
+function addSource(state, m, source) {
+  state.sources.push(source);
+  if (m) m.sourceIds = unique([...m.sourceIds, source.id]);
+  return source.id;
+}
+function editDraft(m, s, text) {
+  if (m.understandingDraft === text) return;
+  m.understandingDraft = text;
+  m.understandingDraftVersion++;
+  if (s.suggestion?.status === 'pending') s.suggestion.status = 'stale';
+}
+function validFocus(m, s, focus) {
+  if (!focus || !['discussion', 'understanding'].includes(focus.field)) return false;
+  const text = focus.field === 'understanding' ? m.understandingDraft : discussionText(s);
+  return Number.isInteger(focus.start) && Number.isInteger(focus.end) && focus.start >= 0 && focus.end > focus.start && focus.end <= text.length && text.slice(focus.start, focus.end) === focus.text;
+}
+function saveResult(state, m, s) {
+  if (s.result.savedId) return s.result.savedId;
+  const id = nextId(state, 'result');
+  m.results.push({ id, fact: s.result.fact, interpretation: s.result.interpretation, unconfirmed: s.result.unconfirmed, handoffId: s.handoffSnapshot?.id ?? null, understandingVersion: m.understandingVersion, origin: state.isDemo ? 'example' : 'user-provided', decision: 'result-only' });
+  s.result.savedId = id;
+  return id;
+}
+function canUndoRevision(m, s) {
+  const u = s.revisionUndo;
+  return !!u && m.understandingVersion === u.afterVersion && m.understandingDraftVersion === u.afterDraftVersion && m.stopVersion === u.afterStopVersion;
+}
+function canUndoSuggestion(m, s) {
+  const u = s.suggestionUndo;
+  return !!u && m.understandingDraftVersion === u.afterDraftVersion && m.understandingVersion === u.savedVersion && m.understandingDraft.slice(u.start, u.start + u.replacement.length) === u.replacement;
+}
+function navigate(state, target) {
+  if (!SCREENS.includes(target)) return inform(state, '未识别的页面，当前内容没有改变。');
+  const m = current(state);
+  if (target !== 'reading' && !m) return inform(state, '先留下一点，或明确打开一件已有的事。');
+  if (target === 'revised' && !m.revisions.some((entry) => !entry.undone)) return inform(state, '还没有保留理解修订；查看页面不会自动产生变化。');
+  if (target === 'work' && !session(state).handoffSnapshot) return inform(state, '先确认本次带入；打开工作页不代表已经送达。');
+  if (['comparison', 'handoff'].includes(target) && state.screen !== target) session(state).backStack.push(state.screen);
+  state.screen = target;
+  state.notice = '';
+  return state;
+}
+
+export function createChainState(options = {}) {
+  const state = { schemaVersion: 1, nextId: 1, screen: 'reading', selectedId: null, isDemo: false, notice: '', matters: [], sessions: {}, sources: copy(EXAMPLE_SOURCES), unassignedMaterials: [], capture: { text: '', sourceIds: [], excerpt: '', excerptSourceId: null }, collapseUndo: null };
+  if (options.fixture === 'saved') {
+    const m = blankMatter('matter-saved');
+    Object.assign(m, { title: '收藏后为什么接不回来', whyCare: '保存了内容，却恢复不了当时的想法。', stop: '还没分清：是缺少自己的表达，还是原文现场不够？', stopDraft: '还没分清：是缺少自己的表达，还是原文现场不够？', originalText: EXAMPLE_SOURCES[0].excerpt, understanding: DEMO_UNDERSTANDING, understandingDraft: DEMO_UNDERSTANDING, understandingVersion: 1, understandingDraftVersion: 1, sourceIds: ['source-article'] });
+    state.matters.push(m);
+    state.sessions[m.id] = blankSession();
+    state.selectedId = m.id;
+    state.screen = 'resume';
+    state.isDemo = true;
+  }
+  if (options.selectedId && state.matters.some((m) => m.id === options.selectedId)) state.selectedId = options.selectedId;
+  return state;
+}
+
+export function reduceChain(previous, action = {}) {
+  if (!previous || typeof action.type !== 'string') return previous;
+  const known = ['OPEN', 'NAVIGATE', 'BACK', 'CAPTURE_DRAFT', 'CAPTURE_EXCERPT', 'TOGGLE_SOURCE', 'CAPTURE', 'COMPOSER_DRAFT', 'SEND', 'FOCUS', 'CLEAR_FOCUS', 'BRANCH', 'FOCUS_TO_UNDERSTANDING', 'FRESH_CONTEXT', 'RESUME_CONTEXT', 'OPEN_COMPARISON', 'RELATION_DRAFT', 'LINK_COMPARISON', 'REJECT_COMPARISON', 'UNDERSTANDING_DRAFT', 'SAVE_UNDERSTANDING', 'SUGGEST', 'ACCEPT_SUGGESTION', 'DISMISS_SUGGESTION', 'UNDO_SUGGESTION', 'STOP_DRAFT', 'COLLAPSE', 'UNDO_COLLAPSE', 'REOPEN', 'INCOMING_DRAFT', 'INCOMING_DECISION', 'HANDOFF_DRAFT', 'CONFIRM_HANDOFF', 'EXCLUDE_HANDOFF', 'WORK_FINDING', 'RESULT_DRAFT', 'KEEP_RESULT_ONLY', 'COMMIT_REVISION', 'UNDO_REVISION', 'TRY_AGAIN', 'CLEAR_NOTICE'];
+  if (!known.includes(action.type)) return previous;
+  const state = copy(previous);
+  let m = current(state);
+  let s = session(state);
+  if (action.type === 'CLEAR_NOTICE') return inform(state, '');
+  if (action.type === 'NAVIGATE') return navigate(state, action.screen);
+  if (action.type === 'OPEN') {
+    if (!state.matters.some((entry) => entry.id === action.id)) return inform(state, '没有找到这件事，当前草稿仍保留。');
+    state.selectedId = action.id;
+    state.collapseUndo = null;
+    return navigate(state, action.screen || 'resume');
+  }
+  if (action.type === 'CAPTURE_DRAFT') { state.capture.text = string(action.text); return state; }
+  if (action.type === 'CAPTURE_EXCERPT') {
+    if (!sourceById(state, action.sourceId)) return inform(state, '未找到选段来源。');
+    state.capture.excerpt = string(action.text);
+    state.capture.excerptSourceId = nonempty(action.text) ? action.sourceId : null;
+    if (nonempty(action.text)) state.capture.sourceIds = unique([...state.capture.sourceIds, action.sourceId]);
+    return state;
+  }
+  if (action.type === 'TOGGLE_SOURCE') {
+    if (!sourceById(state, action.id)) return inform(state, '未找到这份来源。');
+    const has = state.capture.sourceIds.includes(action.id);
+    state.capture.sourceIds = has ? state.capture.sourceIds.filter((id) => id !== action.id) : [...state.capture.sourceIds, action.id];
+    if (has && state.capture.excerptSourceId === action.id) { state.capture.excerpt = ''; state.capture.excerptSourceId = null; }
+    return state;
+  }
+  if (action.type === 'CAPTURE') {
+    if (!nonempty(state.capture.text) && !state.capture.sourceIds.length && !nonempty(state.capture.excerpt)) return inform(state, '留一段文字或一份来源即可，不必起标题。');
+    const id = nextId(state, 'matter');
+    m = blankMatter(id);
+    m.whyCare = state.capture.text;
+    m.originalText = state.capture.excerpt || state.capture.text || '';
+    m.sourceIds = [...state.capture.sourceIds];
+    state.matters.push(m);
+    state.sessions[id] = blankSession();
+    state.selectedId = id;
+    state.capture = { text: '', sourceIds: [], excerpt: '', excerptSourceId: null };
+    state.collapseUndo = null;
+    state.screen = action.intent === 'discuss' ? 'resume' : 'paused';
+    return inform(state, '已留在本次会话；还没有替你形成理解或历史停点。');
+  }
+  if (!m || !s) return inform(state, '先留下一点，当前没有可修改的事。');
+
+  switch (action.type) {
+    case 'BACK': {
+      const target = s.backStack.pop() || 'resume';
+      state.screen = SCREENS.includes(target) ? target : 'resume';
+      return inform(state, '');
+    }
+    case 'COMPOSER_DRAFT': s.composer.text = string(action.text); return state;
+    case 'SEND': {
+      if (!nonempty(s.composer.text)) return inform(state, '先写一点再继续。');
+      const focus = validFocus(m, s, s.focus) ? copy(s.focus) : null;
+      s.discussion.messages.push({ id: nextId(state, 'message'), role: 'user', text: s.composer.text, focus, contextMode: s.contextMode });
+      s.composer.text = '';
+      state.screen = 'discussion';
+      return inform(state, '你的表达已留在本次会话；原型不会伪造模型回复。');
+    }
+    case 'FOCUS': {
+      const focus = { field: action.field, start: action.start, end: action.end, text: string(action.text) };
+      if (!validFocus(m, s, focus)) return inform(state, '选区已变化，请重新选择原文。');
+      s.focus = focus; return inform(state, '');
+    }
+    case 'CLEAR_FOCUS': s.focus = null; return state;
+    case 'BRANCH': {
+      if (!validFocus(m, s, s.focus)) return inform(state, '先选择仍有效的一处内容。');
+      m.branches.push({ id: nextId(state, 'branch'), text: s.focus.text, origin: { matterId: m.id, ...copy(s.focus), understandingVersion: m.understandingVersion } });
+      return inform(state, '旁支已保留来处，主线没有被替换。');
+    }
+    case 'FOCUS_TO_UNDERSTANDING': {
+      if (!validFocus(m, s, s.focus)) return inform(state, '先选择仍有效的一处内容。');
+      const text = s.focus.text;
+      editDraft(m, s, `${m.understandingDraft}${m.understandingDraft ? '\n\n' : ''}${text}`);
+      s.focus = null;
+      state.screen = 'understanding';
+      return inform(state, '已接到个人草稿，尚未保存为当前理解。');
+    }
+    case 'FRESH_CONTEXT': s.contextMode = 'fresh'; s.focus = null; return inform(state, '本次上下文不带入旧理解、停点、来源或旧讨论；原记录保留。');
+    case 'RESUME_CONTEXT': s.contextMode = 'resume'; return inform(state, '已恢复当前这件事的上下文。');
+    case 'OPEN_COMPARISON': {
+      if (!sourceById(state, action.sourceId)) return inform(state, '找不到这份对照材料。');
+      const target = validFocus(m, s, s.focus) ? s.focus.text : m.stop || m.understanding || m.whyCare;
+      s.comparison = { sourceId: action.sourceId, target, relation: 'challenge', reason: state.isDemo ? '它让“每次都要写附言”变得不那么确定。' : '请核对材料与当前具体位置的关系；这里尚未采用材料结论。', uncertain: state.isDemo ? '还不能说明：个人表达没有价值。' : '材料结论是否适用于这里，仍待判断。', decision: 'pending' };
+      return navigate(state, 'comparison');
+    }
+    case 'RELATION_DRAFT': {
+      if (!s.comparison) return state;
+      if (action.relation !== undefined && !RELATIONS.includes(action.relation)) return inform(state, '请选择挑战、补充、限制或旁支。');
+      if (action.relation !== undefined) s.comparison.relation = action.relation;
+      if (action.target !== undefined) s.comparison.target = string(action.target);
+      s.comparison.decision = 'pending'; return state;
+    }
+    case 'LINK_COMPARISON': {
+      const c = s.comparison;
+      if (!c || !sourceById(state, c.sourceId) || !nonempty(c.target)) return inform(state, '先核对具体接到哪一处。');
+      m.sourceIds = unique([...m.sourceIds, c.sourceId]);
+      const observation = { id: c.observationId || nextId(state, 'observation'), text: sourceById(state, c.sourceId).excerpt, sourceId: c.sourceId, relation: c.relation, target: c.target };
+      m.observations = m.observations.filter((entry) => entry.id !== observation.id);
+      m.observations.push(observation);
+      c.observationId = observation.id;
+      c.decision = 'linked';
+      state.screen = s.backStack.pop() || 'discussion';
+      return inform(state, '关系已接回具体位置；没有自动采用材料结论。');
+    }
+    case 'REJECT_COMPARISON': {
+      if (!s.comparison) return state;
+      const c = s.comparison;
+      if (c.observationId) m.observations = m.observations.filter((entry) => entry.id !== c.observationId);
+      c.decision = 'rejected';
+      state.screen = s.backStack.pop() || 'discussion';
+      return inform(state, '这次不关联，原始材料仍保留。');
+    }
+    case 'UNDERSTANDING_DRAFT': editDraft(m, s, string(action.text)); return state;
+    case 'SAVE_UNDERSTANDING': {
+      if (m.understanding !== m.understandingDraft) { m.understanding = m.understandingDraft; m.understandingVersion++; }
+      return inform(state, '个人草稿已保存在本次会话；不自动成为工作要求。');
+    }
+    case 'SUGGEST': {
+      const start = action.start, end = action.end;
+      if (!Number.isInteger(start) || !Number.isInteger(end) || start < 0 || end <= start || end > m.understandingDraft.length || typeof action.replacement !== 'string') return inform(state, '请选择草稿中的准确范围，再请求这一处的示例建议。');
+      s.suggestion = { start, end, original: m.understandingDraft.slice(start, end), replacement: action.replacement, baseVersion: m.understandingVersion, baseDraftVersion: m.understandingDraftVersion, status: 'pending', origin: 'example-suggestion' };
+      s.suggestionUndo = null;
+      return inform(state, '这是原型的示例建议，只处理选中的一处。');
+    }
+    case 'ACCEPT_SUGGESTION': {
+      const p = s.suggestion;
+      if (!p || !['pending', 'stale'].includes(p.status)) return state;
+      if (p.status === 'stale' || p.baseVersion !== m.understandingVersion || p.baseDraftVersion !== m.understandingDraftVersion || m.understandingDraft.slice(p.start, p.end) !== p.original) {
+        p.status = 'stale'; return inform(state, '原文或版本已变化，建议没有覆盖你的新编辑。请重新选择。');
+      }
+      editDraft(m, s, m.understandingDraft.slice(0, p.start) + p.replacement + m.understandingDraft.slice(p.end));
+      p.status = 'accepted';
+      s.suggestionUndo = { start: p.start, original: p.original, replacement: p.replacement, afterDraftVersion: m.understandingDraftVersion, savedVersion: m.understandingVersion };
+      return inform(state, '只修改了选中范围，尚未替你保存或带去工作。');
+    }
+    case 'DISMISS_SUGGESTION': if (s.suggestion) s.suggestion.status = 'dismissed'; return inform(state, '建议已放弃，自己的内容没有改动。');
+    case 'UNDO_SUGGESTION': {
+      if (!canUndoSuggestion(m, s)) return inform(state, '这处内容后来已编辑或保存；旧撤销不会覆盖新版本。');
+      const u = s.suggestionUndo;
+      editDraft(m, s, m.understandingDraft.slice(0, u.start) + u.original + m.understandingDraft.slice(u.start + u.replacement.length));
+      s.suggestionUndo = null;
+      if (s.suggestion) s.suggestion.status = 'dismissed';
+      return inform(state, '这一处已恢复，其他内容未改变。');
+    }
+    case 'STOP_DRAFT': {
+      const text = string(action.text);
+      if (text !== m.stopDraft) { m.stopDraft = text; m.stop = text; m.stopVersion++; }
+      return state;
+    }
+    case 'COLLAPSE': {
+      if (state.screen !== 'paused') state.collapseUndo = { matterId: m.id, screen: state.screen };
+      state.screen = 'paused'; return inform(state, '已收起，草稿和停点留在本次会话。');
+    }
+    case 'UNDO_COLLAPSE': {
+      if (!state.collapseUndo || state.collapseUndo.matterId !== m.id) return state;
+      state.screen = state.collapseUndo.screen;
+      state.collapseUndo = null;
+      return inform(state, '只恢复工作面，不回滚内容编辑。');
+    }
+    case 'REOPEN': state.screen = 'reentry'; return inform(state, '');
+    case 'INCOMING_DRAFT': {
+      const text = string(action.text);
+      if (s.incoming.text === text) return state;
+      s.incoming = { text, sourceId: null, decision: 'pending' }; return state;
+    }
+    case 'INCOMING_DECISION': {
+      if (!['linked', 'unrelated', 'saved'].includes(action.decision)) return state;
+      if (!nonempty(s.incoming.text)) return inform(state, '先带来一段新材料，再决定是否关联。');
+      if (!s.incoming.sourceId) {
+        s.incoming.sourceId = addSource(state, null, { id: nextId(state, 'source'), title: '本次带来的观察', kind: state.isDemo ? 'example-observation' : 'user-observation', excerpt: s.incoming.text, url: null });
+      }
+      const id = s.incoming.sourceId;
+      m.observations = m.observations.filter((entry) => !(entry.sourceId === id && entry.origin === 'incoming'));
+      state.unassignedMaterials = state.unassignedMaterials.filter((entry) => entry.sourceId !== id);
+      if (action.decision === 'linked') {
+        m.sourceIds = unique([...m.sourceIds, id]);
+        m.observations.push({ id: nextId(state, 'observation'), text: s.incoming.text, sourceId: id, relation: 'pending-comparison', origin: 'incoming' });
+      } else {
+        m.sourceIds = m.sourceIds.filter((entry) => entry !== id);
+        state.unassignedMaterials.push({ sourceId: id, text: s.incoming.text, decision: action.decision, originMatterId: m.id });
+      }
+      s.incoming.decision = action.decision;
+      return inform(state, action.decision === 'linked' ? '新观察已接回，具体关系仍待比较。' : '材料已保留，没有强行关联或改写理解。');
+    }
+    case 'HANDOFF_DRAFT': {
+      const patch = action.patch || {};
+      const h = s.handoff;
+      if (patch.scope !== undefined && patch.scope !== 'current-task') return inform(state, '这个原型只支持本次任务，不会扩大为长期要求。');
+      if (patch.role !== undefined && !ROLES.includes(patch.role)) return inform(state, '请选择本次尝试、参考或排除。');
+      if (patch.destination && typeof patch.destination === 'object') {
+        for (const key of ['agent', 'project', 'task']) if (patch.destination[key] !== undefined) h.destination[key] = string(patch.destination[key]);
+      }
+      for (const key of ['selectedText', 'note', 'role']) if (patch[key] !== undefined) h[key] = string(patch[key]);
+      if (patch.selectedText !== undefined) h.selectionEdited = true;
+      h.scope = 'current-task';
+      h.confirmed = false;
+      h.evidenceLevel = 'none';
+      return state;
+    }
+    case 'CONFIRM_HANDOFF': {
+      const h = selectHandoff(m, s);
+      if (h.role === 'exclude') return reduceChain(state, { type: 'EXCLUDE_HANDOFF' });
+      if (!Object.values(h.destination).every(nonempty) || !nonempty(h.selectedText)) return inform(state, '请确认 Agent、项目、任务及本次选中的内容。');
+      if (s.handoff.confirmed && s.handoffSnapshot) { state.screen = 'work'; return state; }
+      h.confirmed = true;
+      h.understandingVersion = m.understandingVersion;
+      // This is an in-prototype handoff, not proof of native Agent delivery.
+      h.evidenceLevel = 'none';
+      s.handoff = h;
+      s.handoffSnapshot = { id: nextId(state, 'handoff'), matterId: m.id, ...copy(h), capturedUnderstanding: m.understanding, stop: m.stop, origin: state.isDemo ? 'example' : 'prototype-confirmation', actualDelivery: false };
+      s.handoffHistory.push(copy(s.handoffSnapshot));
+      state.screen = 'work';
+      return inform(state, '本次带入快照已确认；尚未向真实 Agent 发送。');
+    }
+    case 'EXCLUDE_HANDOFF': {
+      s.handoff.role = 'exclude'; s.handoff.confirmed = false; s.handoff.evidenceLevel = 'none';
+      if (s.handoffSnapshot) {
+        const old = s.handoffHistory.find((entry) => entry.id === s.handoffSnapshot.id);
+        if (old) old.excluded = true;
+        s.handoffSnapshot = null;
+      }
+      return inform(state, '这次不使用；个人理解和已留事实仍保留。');
+    }
+    case 'WORK_FINDING': {
+      if (!nonempty(action.text)) return inform(state, '先写下真实的新发现。');
+      if (!s.handoffSnapshot) return inform(state, '先确认本次工作来处，再记录工作发现。');
+      const finding = { id: nextId(state, 'finding'), text: action.text, origin: { matterId: m.id, handoffId: s.handoffSnapshot.id, destination: copy(s.handoffSnapshot.destination) } };
+      s.workFindings.push(finding);
+      const sourceId = addSource(state, m, { id: nextId(state, 'source'), title: '本次工作发现', kind: 'work-finding', excerpt: action.text, url: null });
+      m.observations.push({ id: nextId(state, 'observation'), text: action.text, sourceId, relation: 'unjudged', origin: copy(finding.origin) });
+      return inform(state, '发现已带着工作来处保留，不自动修订理解。');
+    }
+    case 'RESULT_DRAFT': {
+      const patch = action.patch || {};
+      let changed = false;
+      for (const key of ['fact', 'interpretation', 'unconfirmed', 'proposedUnderstanding']) if (patch[key] !== undefined && s.result[key] !== string(patch[key])) { s.result[key] = string(patch[key]); changed = true; }
+      if (changed) { s.result.decision = 'pending'; s.result.savedId = null; }
+      return state;
+    }
+    case 'KEEP_RESULT_ONLY': {
+      if (!nonempty(s.result.fact)) return inform(state, '还没有用户带回的事实，不制造结果。');
+      saveResult(state, m, s);
+      s.result.decision = 'result-only';
+      return inform(state, '只保留结果；当前理解、草稿和停点均未改变。');
+    }
+    case 'COMMIT_REVISION': {
+      if (!nonempty(s.result.fact) || !nonempty(s.result.proposedUnderstanding)) return inform(state, '需要实际带回的事实和你愿意留下的理解，才能修订。');
+      if (s.result.decision === 'revised') return state;
+      const resultId = saveResult(state, m, s);
+      if (m.understanding === s.result.proposedUnderstanding) { s.result.decision = 'result-only'; return inform(state, '与当前理解相同；结果已保留，没有制造一次变化。'); }
+      const before = { understanding: m.understanding, draft: m.understandingDraft, stop: m.stop, stopDraft: m.stopDraft };
+      const revision = { id: nextId(state, 'revision'), before: m.understanding, after: s.result.proposedUnderstanding, resultId, beforeVersion: m.understandingVersion, beforeStop: m.stop, afterStop: s.result.unconfirmed, undone: false };
+      m.understanding = s.result.proposedUnderstanding;
+      m.understandingDraft = m.understanding;
+      m.understandingVersion++;
+      m.understandingDraftVersion++;
+      m.stop = s.result.unconfirmed;
+      m.stopDraft = m.stop;
+      m.stopVersion++;
+      revision.afterVersion = m.understandingVersion;
+      m.revisions.push(revision);
+      m.results.find((entry) => entry.id === resultId).decision = 'revised';
+      s.result.decision = 'revised';
+      s.revisionUndo = { revisionId: revision.id, before, afterVersion: m.understandingVersion, afterDraftVersion: m.understandingDraftVersion, afterStopVersion: m.stopVersion };
+      if (s.suggestion?.status === 'pending') s.suggestion.status = 'stale';
+      state.screen = 'revised';
+      return inform(state, '修订已落回同一件事；仅保存在本次会话，不自动成为工作要求。');
+    }
+    case 'UNDO_REVISION': {
+      if (!canUndoRevision(m, s)) return inform(state, '修订之后已有更新；旧撤销不会覆盖后来的编辑或停点。');
+      const u = s.revisionUndo;
+      m.understanding = u.before.understanding;
+      m.understandingDraft = u.before.draft;
+      m.stop = u.before.stop;
+      m.stopDraft = u.before.stopDraft;
+      m.understandingVersion++;
+      m.understandingDraftVersion++;
+      m.stopVersion++;
+      m.revisions.find((entry) => entry.id === u.revisionId).undone = true;
+      s.revisionUndo = null;
+      s.result.decision = 'result-only';
+      state.screen = 'results';
+      return inform(state, '理解已恢复此前版本；结果事实与修订来路仍保留。');
+    }
+    case 'TRY_AGAIN': {
+      const destination = copy(s.handoff.destination);
+      s.handoff = { ...blankHandoff(), destination };
+      s.handoffSnapshot = null;
+      s.result = blankResult();
+      return navigate(state, 'handoff');
+    }
+    default: return state;
+  }
+}
+
+export function selectChainView(state) {
+  const m = current(state) || blankMatter();
+  const s = session(state) || blankSession();
+  const sources = m.sourceIds.map((id) => sourceById(state, id)).filter(Boolean);
+  const context = s.contextMode === 'fresh'
+    ? { whyCare: '', understanding: '', stop: '', sources: [], messages: s.discussion.messages.filter((entry) => entry.contextMode === 'fresh'), newMaterial: s.incoming.decision === 'pending' ? s.incoming.text : '' }
+    : { whyCare: m.whyCare, understanding: m.understanding, stop: m.stop, sources, messages: s.discussion.messages, newMaterial: s.incoming.decision === 'pending' || s.incoming.decision === 'linked' ? s.incoming.text : '' };
+  const { sourceIds, ...matter } = m;
+  return copy({ screen: state.screen, selectedId: state.selectedId, contextMode: s.contextMode, notice: state.notice, isDemo: state.isDemo, matters: state.matters.map((entry) => ({ id: entry.id, title: entry.title, stop: entry.stop, hasDraft: nonempty(entry.understandingDraft), hasUnsavedDraft: entry.understanding !== entry.understandingDraft })), matter: { ...matter, sources }, capture: state.capture, composer: s.composer, focus: s.focus, discussion: { ...s.discussion, text: discussionText(s) }, context, comparison: s.comparison, suggestion: s.suggestion, incoming: s.incoming, handoff: selectHandoff(m, s), handoffSnapshot: s.handoffSnapshot, handoffHistory: s.handoffHistory, result: s.result, workFindings: s.workFindings, availableSources: state.sources, unassignedMaterials: state.unassignedMaterials.filter((entry) => entry.originMatterId === state.selectedId), undo: { collapse: state.collapseUndo?.matterId === m.id, revision: canUndoRevision(m, s), suggestion: canUndoSuggestion(m, s) } });
+}
+
+/** Explicit preview fixture only. Never called by NAVIGATE or user mutations. */
+export function createChainDemo(screen = 'resume') {
+  if (!SCREENS.includes(screen)) screen = 'resume';
+  if (screen === 'reading') {
+    let state = createChainState(); state.isDemo = true;
+    state = reduceChain(state, { type: 'CAPTURE_EXCERPT', sourceId: 'source-article', text: EXAMPLE_SOURCES[0].excerpt });
+    return reduceChain(state, { type: 'CAPTURE_DRAFT', text: '是不是收藏的时候，应该补一句自己的感受？' });
+  }
+  let state = createChainState({ fixture: 'saved' });
+  const s = session(state);
+  s.discussion.cases = [{ id: 'case-data', text: '留下一段以后要引用的数据。' }, { id: 'case-experience', text: '留下一句话，因为它让你想起某段经历。' }];
+  s.discussion.messages = [{ id: 'message-example', role: 'user', text: '第二种好像更需要我自己写点什么。', focus: null, contextMode: 'resume' }];
+  s.discussion.possibility = '一种可能：以后需要找回的是内容，还是你当时的个人触动。';
+  if (screen === 'discussion') {
+    const text = discussionText(s), selected = s.discussion.messages[0].text;
+    state = reduceChain(state, { type: 'FOCUS', field: 'discussion', start: text.indexOf(selected), end: text.indexOf(selected) + selected.length, text: selected });
+    state = reduceChain(state, { type: 'COMPOSER_DRAFT', text: '但原文能不能也帮我想起来？' });
+  }
+  if (screen === 'comparison') state = reduceChain(state, { type: 'OPEN_COMPARISON', sourceId: 'source-comparison' });
+  if (screen === 'understanding') {
+    const original = '我自己的表达可能帮助后者。', start = current(state).understandingDraft.indexOf(original);
+    state = reduceChain(state, { type: 'SUGGEST', start, end: start + original.length, replacement: '自己的表达可能帮助后者，但不是每次都需要。' });
+  }
+  if (['paused', 'reentry', 'handoff', 'work', 'results', 'revised'].includes(screen)) state = reduceChain(state, { type: 'STOP_DRAFT', text: '哪些个人触动无法只靠原文恢复？' });
+  if (['reentry', 'handoff', 'work', 'results', 'revised'].includes(screen)) state = reduceChain(state, { type: 'INCOMING_DRAFT', text: '今天看回一段没写附言的收藏，我想起了当时的问题。' });
+  if (['handoff', 'work', 'results', 'revised'].includes(screen)) state = reduceChain(state, { type: 'HANDOFF_DRAFT', patch: { selectedText: '保留完整原文，附言可选。', note: '想观察：不强制附言，回来时还能否认出当时的问题？' } });
+  if (['work', 'results', 'revised'].includes(screen)) {
+    state = reduceChain(state, { type: 'CONFIRM_HANDOFF' });
+    session(state).handoff.evidenceLevel = 'artifact-demo';
+    session(state).handoffSnapshot.evidenceLevel = 'artifact-demo';
+    state = reduceChain(state, { type: 'WORK_FINDING', text: '这个交互很轻，但回来时可能还认不出来。' });
+  }
+  if (['results', 'revised'].includes(screen)) state = reduceChain(state, { type: 'RESULT_DRAFT', patch: { fact: '这次没有写附言，也接回了当时的问题。', interpretation: '可能与原文和当时问题一起保留有关。', unconfirmed: '哪些个人触动需要额外表达？', proposedUnderstanding: DEMO_REVISION } });
+  if (screen === 'revised') state = reduceChain(state, { type: 'COMMIT_REVISION' });
+  if (screen === 'paused') state = reduceChain(state, { type: 'COLLAPSE' });
+  state.screen = screen;
+  if (screen !== 'revised' && screen !== 'paused') state.notice = '';
+  return state;
+}
+
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ 　，。；：？！、“”‘’（）《》【】…—·←→↑↓

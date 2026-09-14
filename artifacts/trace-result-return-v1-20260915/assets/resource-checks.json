@@ -1,0 +1,15 @@
+{
+  "taskId": "trace-result-return-v1-20260915",
+  "pass": true,
+  "referenceImages": 5,
+  "backgroundsDecoded": 6,
+  "birdChecks": 2,
+  "componentFilesHashed": 9,
+  "imagesModified": 0,
+  "warnings": [
+    "Chosen background is closest existing scenery, not exact recovery of pixels hidden by reference panels.",
+    "No generated bubble skin; use interactive CSS/SVG surfaces.",
+    "Two bird poses are not a natural wingbeat sequence.",
+    "Project-local code has no detected root distribution license; internal reuse only, not an asserted external open-source grant."
+  ]
+}

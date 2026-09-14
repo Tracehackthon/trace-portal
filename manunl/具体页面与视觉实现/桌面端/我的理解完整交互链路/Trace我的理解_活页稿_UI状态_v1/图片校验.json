@@ -1,0 +1,92 @@
+[
+  {
+    "id": "01",
+    "file": "01-初次落笔-不必先聊天.png",
+    "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-3c49-7653-811b-30982689b104\\exec-65fb923d-2005-4eff-94a1-a960a8a5cc44.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\我的理解完整交互链路\\Trace我的理解_活页稿_UI状态_v1\\01-初次落笔-不必先聊天.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "982174B430CCB7FA325BD96F85B2A695493E08FA2DC7AC39A691F1F89D0599D5",
+    "source_matches": true
+  },
+  {
+    "id": "02",
+    "file": "02-日常书写-围绕一处操作.png",
+    "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-3c49-7653-811b-30982689b104\\exec-7d372ff2-5dcd-42c1-b99f-60610734460a.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\我的理解完整交互链路\\Trace我的理解_活页稿_UI状态_v1\\02-日常书写-围绕一处操作.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "924EF6D594350BF2A0D91F2A08DDDEC976201D9E1F6CAA9D4B5D33375A09AB28",
+    "source_matches": true
+  },
+  {
+    "id": "03",
+    "file": "03-片段接入-尚未写入正文.png",
+    "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-3c49-7653-811b-30982689b104\\exec-afb0a27b-46f6-42e0-9034-5b3d0ea1b2dd.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\我的理解完整交互链路\\Trace我的理解_活页稿_UI状态_v1\\03-片段接入-尚未写入正文.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "629226DCADD181269C03BC78E854DB0095B4EB1A2C72234B8889AD77217286B4",
+    "source_matches": true
+  },
+  {
+    "id": "04",
+    "file": "04-局部讨论-建议尚未采纳.png",
+    "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-3c49-7653-811b-30982689b104\\exec-2c99edb8-38a4-480a-994a-de051994ec1a.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\我的理解完整交互链路\\Trace我的理解_活页稿_UI状态_v1\\04-局部讨论-建议尚未采纳.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "89D3D626A2654F751F3BF0FB3DB024B1A2D235674C61E94597E4E1FFF895E368",
+    "source_matches": true
+  },
+  {
+    "id": "05",
+    "file": "05-来源与冲突-保留另一种解释.png",
+    "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-3c49-7653-811b-30982689b104\\exec-7a116683-72be-42a8-b4a1-ca2ba850cea8.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\我的理解完整交互链路\\Trace我的理解_活页稿_UI状态_v1\\05-来源与冲突-保留另一种解释.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "4F6FFF30E743C0D990E0768F1844BAB72D1B4A4366ECCDF9506D8D469DFADAB7",
+    "source_matches": true
+  },
+  {
+    "id": "06",
+    "file": "06-重新拿起-恢复真实停点.png",
+    "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-3c49-7653-811b-30982689b104\\exec-0d3c306f-a3dd-4236-b83e-435d722a1b96.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\我的理解完整交互链路\\Trace我的理解_活页稿_UI状态_v1\\06-重新拿起-恢复真实停点.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "BA2538CE78BC4DBB078CBC092B4C8D0791B6D35C433DDDBCEFD252D3BC3830ED",
+    "source_matches": true
+  },
+  {
+    "id": "07",
+    "file": "07-带去使用-限定本次角色与范围.png",
+    "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-3c49-7653-811b-30982689b104\\exec-c854a830-de65-4536-a96a-b6edab1893a4.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\我的理解完整交互链路\\Trace我的理解_活页稿_UI状态_v1\\07-带去使用-限定本次角色与范围.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "DFF9FF87E9B5A313E2155451A65179C9ACB5AA78DD0D3D09B15754C9BF5CFECD",
+    "source_matches": true
+  },
+  {
+    "id": "08",
+    "file": "08-结果比较-文稿尚未修改.png",
+    "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-3c49-7653-811b-30982689b104\\exec-fa8cf2ab-d765-4695-a236-6af53180845b.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\我的理解完整交互链路\\Trace我的理解_活页稿_UI状态_v1\\08-结果比较-文稿尚未修改.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "E5A9578D4AABED2096D637DEAD297DC793252159DAB02B0FE6DFA357C9637BED",
+    "source_matches": true
+  },
+  {
+    "id": "09",
+    "file": "09-修订落回-从新表达继续.png",
+    "source": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a114-3c49-7653-811b-30982689b104\\exec-441b1c30-d044-4a74-91fe-e8cbe9ac00e9.png",
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\我的理解完整交互链路\\Trace我的理解_活页稿_UI状态_v1\\09-修订落回-从新表达继续.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "441C1D3C99F29AD204206AE15B4F4F4DDB281C3F0F14EE7211733A8532139691",
+    "source_matches": true
+  }
+]

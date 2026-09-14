@@ -1,0 +1,16 @@
+/* Offline fixed-copy subsets; keep both OFL files when packaging. */
+@font-face {
+  font-family: "Trace Matters Serif";
+  src: url("./TraceMattersSerif-fixed.woff2") format("woff2");
+  font-weight: 250 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trace Matters Sans";
+  src: url("./TraceMattersSans-fixed.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

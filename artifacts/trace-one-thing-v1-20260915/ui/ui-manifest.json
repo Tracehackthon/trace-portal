@@ -1,0 +1,69 @@
+{
+  "taskId": "trace-one-thing-v1-20260915",
+  "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contextPackageSHA256": "5419BAC2804EB001F853B968060478429AA5AFCE08F1ACECEFA14F64E4B3E562",
+  "amendment01SHA256": "38432B1AC331AD069C9056FF4347B9C7C806BFCCD6A8EBD9A626C9156B01F226",
+  "status": "standalone-ui-verified-not-integrated",
+  "tests": {
+    "uiPassed": 15,
+    "uiTotal": 15,
+    "renderedScreens": 11,
+    "pageErrors": 0,
+    "consoleErrors": 0,
+    "failedRequests": 0
+  },
+  "files": [
+    {
+      "path": "chain-screen.mjs",
+      "bytes": 40946,
+      "sha256": "9629b4af37e0c68e30a01eaeca5612edf5b9f48e21b0616fe6f4203fa167710f"
+    },
+    {
+      "path": "chain-helpers.mjs",
+      "bytes": 4842,
+      "sha256": "c37ace8e2ecd28df61414b1442d579fbfec2bc709a410687e83fee331b75dae7"
+    },
+    {
+      "path": "chain.css",
+      "bytes": 35348,
+      "sha256": "d0796798a1245e468cf5dc21897bf4939e8a9dc6252b0f5d5854e5a2fbea6760"
+    },
+    {
+      "path": "copy.txt",
+      "bytes": 10637,
+      "sha256": "7128fff698023d0d12b5af7ff7886a919821f29dae98e15c29b554da74a51bf4"
+    },
+    {
+      "path": "fixture.html",
+      "bytes": 1981,
+      "sha256": "b52cca3e8d956b0e8859c81958dea63e96c9e4461a5b59438db36771015b20ff"
+    },
+    {
+      "path": "check-fixture.cjs",
+      "bytes": 11835,
+      "sha256": "e3a991c43dcb19bd7bdf5c00ca20a02d18dcfbb5307bedc003fb9d1d413513e6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7094,
+      "sha256": "bb184425b3c926e3168121761ba03b873cc322e41e37f3929baa7fbd792bc831"
+    },
+    {
+      "path": "acceptance-checks.json",
+      "bytes": 3504,
+      "sha256": "459a6dcfde2b60d5d08a04921770460e3505883a51be4a768a9617805b170fc7"
+    },
+    {
+      "path": "font-browser-check.json",
+      "bytes": 546,
+      "sha256": "b39cb6161919175eb955220d824a938413941dc555c4b3cc478a4b427294f8aa"
+    }
+  ],
+  "limits": [
+    "Not integrated into apps/desktop or Electron",
+    "No real Agent/Overlay/model/storage/upload",
+    "880px viewport scales small; not readable narrow-screen acceptance",
+    "No pixel-perfect or performance acceptance"
+  ],
+  "finalFontLoad": "both loaded; 646-codepoint subset; supplemental check passed"
+}

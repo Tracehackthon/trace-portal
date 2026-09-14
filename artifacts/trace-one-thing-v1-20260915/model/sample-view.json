@@ -1,0 +1,2068 @@
+{
+  "reading": {
+    "screen": "reading",
+    "selectedId": null,
+    "contextMode": "resume",
+    "notice": "",
+    "isDemo": true,
+    "matters": [],
+    "matter": {
+      "id": null,
+      "title": "",
+      "whyCare": "",
+      "stop": "",
+      "stopDraft": "",
+      "stopVersion": 0,
+      "originalText": "",
+      "understanding": "",
+      "understandingDraft": "",
+      "understandingVersion": 0,
+      "understandingDraftVersion": 0,
+      "captureSourceIds": [],
+      "branches": [],
+      "observations": [],
+      "revisions": [],
+      "results": [],
+      "sources": []
+    },
+    "capture": {
+      "text": "是不是收藏的时候，应该补一句自己的感受？",
+      "sourceIds": [
+        "source-article"
+      ],
+      "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+      "excerptSourceId": "source-article"
+    },
+    "composer": {
+      "text": ""
+    },
+    "focus": null,
+    "discussion": {
+      "messages": [],
+      "cases": [],
+      "possibility": "",
+      "text": ""
+    },
+    "context": {
+      "whyCare": "",
+      "understanding": "",
+      "stop": "",
+      "sources": [],
+      "messages": [],
+      "newMaterial": ""
+    },
+    "comparison": null,
+    "suggestion": null,
+    "incoming": {
+      "text": "",
+      "sourceId": null,
+      "decision": "pending"
+    },
+    "handoff": {
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "",
+      "selectionEdited": false,
+      "role": "trial",
+      "note": "",
+      "scope": "current-task",
+      "confirmed": false,
+      "understandingVersion": 0,
+      "evidenceLevel": "none",
+      "selectionBasisUnderstanding": ""
+    },
+    "handoffSnapshot": null,
+    "handoffHistory": [],
+    "result": {
+      "fact": "",
+      "interpretation": "",
+      "unconfirmed": "",
+      "proposedUnderstanding": "",
+      "decision": "pending",
+      "savedId": null,
+      "baseVersion": null,
+      "baseDraftVersion": null,
+      "baseStopVersion": null
+    },
+    "workFindings": [],
+    "availableSources": [
+      {
+        "id": "source-article",
+        "title": "为什么收藏之后，很少再回来？",
+        "kind": "example-article",
+        "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+        "url": null
+      },
+      {
+        "id": "source-comparison",
+        "title": "示例材料 · 原文片段",
+        "kind": "example-comparison",
+        "excerpt": "我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。",
+        "url": null
+      }
+    ],
+    "unassignedMaterials": [],
+    "undo": {
+      "collapse": false,
+      "revision": false,
+      "suggestion": false
+    }
+  },
+  "resume": {
+    "screen": "resume",
+    "selectedId": "matter-saved",
+    "contextMode": "resume",
+    "notice": "",
+    "isDemo": true,
+    "matters": [
+      {
+        "id": "matter-saved",
+        "title": "收藏后为什么接不回来",
+        "stop": "还没分清：是缺少自己的表达，还是原文现场不够？",
+        "hasDraft": true,
+        "hasUnsavedDraft": false
+      }
+    ],
+    "matter": {
+      "id": "matter-saved",
+      "title": "收藏后为什么接不回来",
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "stop": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "stopDraft": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "stopVersion": 0,
+      "originalText": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingDraft": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingVersion": 1,
+      "understandingDraftVersion": 1,
+      "captureSourceIds": [
+        "source-article"
+      ],
+      "branches": [],
+      "observations": [],
+      "revisions": [],
+      "results": [],
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ]
+    },
+    "capture": {
+      "text": "",
+      "sourceIds": [],
+      "excerpt": "",
+      "excerptSourceId": null
+    },
+    "composer": {
+      "text": ""
+    },
+    "focus": null,
+    "discussion": {
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "cases": [
+        {
+          "id": "case-data",
+          "text": "留下一段以后要引用的数据。"
+        },
+        {
+          "id": "case-experience",
+          "text": "留下一句话，因为它让你想起某段经历。"
+        }
+      ],
+      "possibility": "一种可能：以后需要找回的是内容，还是你当时的个人触动。",
+      "text": "留下一段以后要引用的数据。\n\n留下一句话，因为它让你想起某段经历。\n\n第二种好像更需要我自己写点什么。\n\n一种可能：以后需要找回的是内容，还是你当时的个人触动。"
+    },
+    "context": {
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "stop": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ],
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "newMaterial": ""
+    },
+    "comparison": null,
+    "suggestion": null,
+    "incoming": {
+      "text": "",
+      "sourceId": null,
+      "decision": "pending"
+    },
+    "handoff": {
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "selectionEdited": false,
+      "role": "trial",
+      "note": "",
+      "scope": "current-task",
+      "confirmed": false,
+      "understandingVersion": 1,
+      "evidenceLevel": "none",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？"
+    },
+    "handoffSnapshot": null,
+    "handoffHistory": [],
+    "result": {
+      "fact": "",
+      "interpretation": "",
+      "unconfirmed": "",
+      "proposedUnderstanding": "",
+      "decision": "pending",
+      "savedId": null,
+      "baseVersion": null,
+      "baseDraftVersion": null,
+      "baseStopVersion": null
+    },
+    "workFindings": [],
+    "availableSources": [
+      {
+        "id": "source-article",
+        "title": "为什么收藏之后，很少再回来？",
+        "kind": "example-article",
+        "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+        "url": null
+      },
+      {
+        "id": "source-comparison",
+        "title": "示例材料 · 原文片段",
+        "kind": "example-comparison",
+        "excerpt": "我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。",
+        "url": null
+      }
+    ],
+    "unassignedMaterials": [],
+    "undo": {
+      "collapse": false,
+      "revision": false,
+      "suggestion": false
+    }
+  },
+  "discussion": {
+    "screen": "discussion",
+    "selectedId": "matter-saved",
+    "contextMode": "resume",
+    "notice": "",
+    "isDemo": true,
+    "matters": [
+      {
+        "id": "matter-saved",
+        "title": "收藏后为什么接不回来",
+        "stop": "还没分清：是缺少自己的表达，还是原文现场不够？",
+        "hasDraft": true,
+        "hasUnsavedDraft": false
+      }
+    ],
+    "matter": {
+      "id": "matter-saved",
+      "title": "收藏后为什么接不回来",
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "stop": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "stopDraft": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "stopVersion": 0,
+      "originalText": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingDraft": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingVersion": 1,
+      "understandingDraftVersion": 1,
+      "captureSourceIds": [
+        "source-article"
+      ],
+      "branches": [],
+      "observations": [],
+      "revisions": [],
+      "results": [],
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ]
+    },
+    "capture": {
+      "text": "",
+      "sourceIds": [],
+      "excerpt": "",
+      "excerptSourceId": null
+    },
+    "composer": {
+      "text": "但原文能不能也帮我想起来？"
+    },
+    "focus": {
+      "field": "discussion",
+      "start": 35,
+      "end": 51,
+      "text": "第二种好像更需要我自己写点什么。"
+    },
+    "discussion": {
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "cases": [
+        {
+          "id": "case-data",
+          "text": "留下一段以后要引用的数据。"
+        },
+        {
+          "id": "case-experience",
+          "text": "留下一句话，因为它让你想起某段经历。"
+        }
+      ],
+      "possibility": "一种可能：以后需要找回的是内容，还是你当时的个人触动。",
+      "text": "留下一段以后要引用的数据。\n\n留下一句话，因为它让你想起某段经历。\n\n第二种好像更需要我自己写点什么。\n\n一种可能：以后需要找回的是内容，还是你当时的个人触动。"
+    },
+    "context": {
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "stop": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ],
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "newMaterial": ""
+    },
+    "comparison": null,
+    "suggestion": null,
+    "incoming": {
+      "text": "",
+      "sourceId": null,
+      "decision": "pending"
+    },
+    "handoff": {
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "selectionEdited": false,
+      "role": "trial",
+      "note": "",
+      "scope": "current-task",
+      "confirmed": false,
+      "understandingVersion": 1,
+      "evidenceLevel": "none",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？"
+    },
+    "handoffSnapshot": null,
+    "handoffHistory": [],
+    "result": {
+      "fact": "",
+      "interpretation": "",
+      "unconfirmed": "",
+      "proposedUnderstanding": "",
+      "decision": "pending",
+      "savedId": null,
+      "baseVersion": null,
+      "baseDraftVersion": null,
+      "baseStopVersion": null
+    },
+    "workFindings": [],
+    "availableSources": [
+      {
+        "id": "source-article",
+        "title": "为什么收藏之后，很少再回来？",
+        "kind": "example-article",
+        "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+        "url": null
+      },
+      {
+        "id": "source-comparison",
+        "title": "示例材料 · 原文片段",
+        "kind": "example-comparison",
+        "excerpt": "我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。",
+        "url": null
+      }
+    ],
+    "unassignedMaterials": [],
+    "undo": {
+      "collapse": false,
+      "revision": false,
+      "suggestion": false
+    }
+  },
+  "comparison": {
+    "screen": "comparison",
+    "selectedId": "matter-saved",
+    "contextMode": "resume",
+    "notice": "",
+    "isDemo": true,
+    "matters": [
+      {
+        "id": "matter-saved",
+        "title": "收藏后为什么接不回来",
+        "stop": "还没分清：是缺少自己的表达，还是原文现场不够？",
+        "hasDraft": true,
+        "hasUnsavedDraft": false
+      }
+    ],
+    "matter": {
+      "id": "matter-saved",
+      "title": "收藏后为什么接不回来",
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "stop": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "stopDraft": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "stopVersion": 0,
+      "originalText": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingDraft": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingVersion": 1,
+      "understandingDraftVersion": 1,
+      "captureSourceIds": [
+        "source-article"
+      ],
+      "branches": [],
+      "observations": [],
+      "revisions": [],
+      "results": [],
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ]
+    },
+    "capture": {
+      "text": "",
+      "sourceIds": [],
+      "excerpt": "",
+      "excerptSourceId": null
+    },
+    "composer": {
+      "text": ""
+    },
+    "focus": null,
+    "discussion": {
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "cases": [
+        {
+          "id": "case-data",
+          "text": "留下一段以后要引用的数据。"
+        },
+        {
+          "id": "case-experience",
+          "text": "留下一句话，因为它让你想起某段经历。"
+        }
+      ],
+      "possibility": "一种可能：以后需要找回的是内容，还是你当时的个人触动。",
+      "text": "留下一段以后要引用的数据。\n\n留下一句话，因为它让你想起某段经历。\n\n第二种好像更需要我自己写点什么。\n\n一种可能：以后需要找回的是内容，还是你当时的个人触动。"
+    },
+    "context": {
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "stop": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ],
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "newMaterial": ""
+    },
+    "comparison": {
+      "sourceId": "source-comparison",
+      "target": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "relation": "challenge",
+      "reason": "它让“每次都要写附言”变得不那么确定。",
+      "uncertain": "还不能说明：个人表达没有价值。",
+      "decision": "pending"
+    },
+    "suggestion": null,
+    "incoming": {
+      "text": "",
+      "sourceId": null,
+      "decision": "pending"
+    },
+    "handoff": {
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "selectionEdited": false,
+      "role": "trial",
+      "note": "",
+      "scope": "current-task",
+      "confirmed": false,
+      "understandingVersion": 1,
+      "evidenceLevel": "none",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？"
+    },
+    "handoffSnapshot": null,
+    "handoffHistory": [],
+    "result": {
+      "fact": "",
+      "interpretation": "",
+      "unconfirmed": "",
+      "proposedUnderstanding": "",
+      "decision": "pending",
+      "savedId": null,
+      "baseVersion": null,
+      "baseDraftVersion": null,
+      "baseStopVersion": null
+    },
+    "workFindings": [],
+    "availableSources": [
+      {
+        "id": "source-article",
+        "title": "为什么收藏之后，很少再回来？",
+        "kind": "example-article",
+        "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+        "url": null
+      },
+      {
+        "id": "source-comparison",
+        "title": "示例材料 · 原文片段",
+        "kind": "example-comparison",
+        "excerpt": "我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。",
+        "url": null
+      }
+    ],
+    "unassignedMaterials": [],
+    "undo": {
+      "collapse": false,
+      "revision": false,
+      "suggestion": false
+    }
+  },
+  "understanding": {
+    "screen": "understanding",
+    "selectedId": "matter-saved",
+    "contextMode": "resume",
+    "notice": "",
+    "isDemo": true,
+    "matters": [
+      {
+        "id": "matter-saved",
+        "title": "收藏后为什么接不回来",
+        "stop": "还没分清：是缺少自己的表达，还是原文现场不够？",
+        "hasDraft": true,
+        "hasUnsavedDraft": false
+      }
+    ],
+    "matter": {
+      "id": "matter-saved",
+      "title": "收藏后为什么接不回来",
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "stop": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "stopDraft": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "stopVersion": 0,
+      "originalText": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingDraft": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingVersion": 1,
+      "understandingDraftVersion": 1,
+      "captureSourceIds": [
+        "source-article"
+      ],
+      "branches": [],
+      "observations": [],
+      "revisions": [],
+      "results": [],
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ]
+    },
+    "capture": {
+      "text": "",
+      "sourceIds": [],
+      "excerpt": "",
+      "excerptSourceId": null
+    },
+    "composer": {
+      "text": ""
+    },
+    "focus": null,
+    "discussion": {
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "cases": [
+        {
+          "id": "case-data",
+          "text": "留下一段以后要引用的数据。"
+        },
+        {
+          "id": "case-experience",
+          "text": "留下一句话，因为它让你想起某段经历。"
+        }
+      ],
+      "possibility": "一种可能：以后需要找回的是内容，还是你当时的个人触动。",
+      "text": "留下一段以后要引用的数据。\n\n留下一句话，因为它让你想起某段经历。\n\n第二种好像更需要我自己写点什么。\n\n一种可能：以后需要找回的是内容，还是你当时的个人触动。"
+    },
+    "context": {
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "stop": "还没分清：是缺少自己的表达，还是原文现场不够？",
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ],
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "newMaterial": ""
+    },
+    "comparison": null,
+    "suggestion": {
+      "start": 34,
+      "end": 47,
+      "original": "我自己的表达可能帮助后者。",
+      "replacement": "自己的表达可能帮助后者，但不是每次都需要。",
+      "baseVersion": 1,
+      "baseDraftVersion": 1,
+      "status": "pending",
+      "origin": "example-suggestion"
+    },
+    "incoming": {
+      "text": "",
+      "sourceId": null,
+      "decision": "pending"
+    },
+    "handoff": {
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "selectionEdited": false,
+      "role": "trial",
+      "note": "",
+      "scope": "current-task",
+      "confirmed": false,
+      "understandingVersion": 1,
+      "evidenceLevel": "none",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？"
+    },
+    "handoffSnapshot": null,
+    "handoffHistory": [],
+    "result": {
+      "fact": "",
+      "interpretation": "",
+      "unconfirmed": "",
+      "proposedUnderstanding": "",
+      "decision": "pending",
+      "savedId": null,
+      "baseVersion": null,
+      "baseDraftVersion": null,
+      "baseStopVersion": null
+    },
+    "workFindings": [],
+    "availableSources": [
+      {
+        "id": "source-article",
+        "title": "为什么收藏之后，很少再回来？",
+        "kind": "example-article",
+        "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+        "url": null
+      },
+      {
+        "id": "source-comparison",
+        "title": "示例材料 · 原文片段",
+        "kind": "example-comparison",
+        "excerpt": "我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。",
+        "url": null
+      }
+    ],
+    "unassignedMaterials": [],
+    "undo": {
+      "collapse": false,
+      "revision": false,
+      "suggestion": false
+    }
+  },
+  "paused": {
+    "screen": "paused",
+    "selectedId": "matter-saved",
+    "contextMode": "resume",
+    "notice": "已收起，草稿和停点留在本次会话。",
+    "isDemo": true,
+    "matters": [
+      {
+        "id": "matter-saved",
+        "title": "收藏后为什么接不回来",
+        "stop": "哪些个人触动无法只靠原文恢复？",
+        "hasDraft": true,
+        "hasUnsavedDraft": false
+      }
+    ],
+    "matter": {
+      "id": "matter-saved",
+      "title": "收藏后为什么接不回来",
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "stopDraft": "哪些个人触动无法只靠原文恢复？",
+      "stopVersion": 1,
+      "originalText": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingDraft": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingVersion": 1,
+      "understandingDraftVersion": 1,
+      "captureSourceIds": [
+        "source-article"
+      ],
+      "branches": [],
+      "observations": [],
+      "revisions": [],
+      "results": [],
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ]
+    },
+    "capture": {
+      "text": "",
+      "sourceIds": [],
+      "excerpt": "",
+      "excerptSourceId": null
+    },
+    "composer": {
+      "text": ""
+    },
+    "focus": null,
+    "discussion": {
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "cases": [
+        {
+          "id": "case-data",
+          "text": "留下一段以后要引用的数据。"
+        },
+        {
+          "id": "case-experience",
+          "text": "留下一句话，因为它让你想起某段经历。"
+        }
+      ],
+      "possibility": "一种可能：以后需要找回的是内容，还是你当时的个人触动。",
+      "text": "留下一段以后要引用的数据。\n\n留下一句话，因为它让你想起某段经历。\n\n第二种好像更需要我自己写点什么。\n\n一种可能：以后需要找回的是内容，还是你当时的个人触动。"
+    },
+    "context": {
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ],
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "newMaterial": ""
+    },
+    "comparison": null,
+    "suggestion": null,
+    "incoming": {
+      "text": "",
+      "sourceId": null,
+      "decision": "pending"
+    },
+    "handoff": {
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "selectionEdited": false,
+      "role": "trial",
+      "note": "",
+      "scope": "current-task",
+      "confirmed": false,
+      "understandingVersion": 1,
+      "evidenceLevel": "none",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？"
+    },
+    "handoffSnapshot": null,
+    "handoffHistory": [],
+    "result": {
+      "fact": "",
+      "interpretation": "",
+      "unconfirmed": "",
+      "proposedUnderstanding": "",
+      "decision": "pending",
+      "savedId": null,
+      "baseVersion": null,
+      "baseDraftVersion": null,
+      "baseStopVersion": null
+    },
+    "workFindings": [],
+    "availableSources": [
+      {
+        "id": "source-article",
+        "title": "为什么收藏之后，很少再回来？",
+        "kind": "example-article",
+        "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+        "url": null
+      },
+      {
+        "id": "source-comparison",
+        "title": "示例材料 · 原文片段",
+        "kind": "example-comparison",
+        "excerpt": "我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。",
+        "url": null
+      }
+    ],
+    "unassignedMaterials": [],
+    "undo": {
+      "collapse": true,
+      "revision": false,
+      "suggestion": false
+    }
+  },
+  "reentry": {
+    "screen": "reentry",
+    "selectedId": "matter-saved",
+    "contextMode": "resume",
+    "notice": "",
+    "isDemo": true,
+    "matters": [
+      {
+        "id": "matter-saved",
+        "title": "收藏后为什么接不回来",
+        "stop": "哪些个人触动无法只靠原文恢复？",
+        "hasDraft": true,
+        "hasUnsavedDraft": false
+      }
+    ],
+    "matter": {
+      "id": "matter-saved",
+      "title": "收藏后为什么接不回来",
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "stopDraft": "哪些个人触动无法只靠原文恢复？",
+      "stopVersion": 1,
+      "originalText": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingDraft": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingVersion": 1,
+      "understandingDraftVersion": 1,
+      "captureSourceIds": [
+        "source-article"
+      ],
+      "branches": [],
+      "observations": [],
+      "revisions": [],
+      "results": [],
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ]
+    },
+    "capture": {
+      "text": "",
+      "sourceIds": [],
+      "excerpt": "",
+      "excerptSourceId": null
+    },
+    "composer": {
+      "text": ""
+    },
+    "focus": null,
+    "discussion": {
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "cases": [
+        {
+          "id": "case-data",
+          "text": "留下一段以后要引用的数据。"
+        },
+        {
+          "id": "case-experience",
+          "text": "留下一句话，因为它让你想起某段经历。"
+        }
+      ],
+      "possibility": "一种可能：以后需要找回的是内容，还是你当时的个人触动。",
+      "text": "留下一段以后要引用的数据。\n\n留下一句话，因为它让你想起某段经历。\n\n第二种好像更需要我自己写点什么。\n\n一种可能：以后需要找回的是内容，还是你当时的个人触动。"
+    },
+    "context": {
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ],
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "newMaterial": "今天看回一段没写附言的收藏，我想起了当时的问题。"
+    },
+    "comparison": null,
+    "suggestion": null,
+    "incoming": {
+      "text": "今天看回一段没写附言的收藏，我想起了当时的问题。",
+      "sourceId": null,
+      "decision": "pending"
+    },
+    "handoff": {
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "selectionEdited": false,
+      "role": "trial",
+      "note": "",
+      "scope": "current-task",
+      "confirmed": false,
+      "understandingVersion": 1,
+      "evidenceLevel": "none",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？"
+    },
+    "handoffSnapshot": null,
+    "handoffHistory": [],
+    "result": {
+      "fact": "",
+      "interpretation": "",
+      "unconfirmed": "",
+      "proposedUnderstanding": "",
+      "decision": "pending",
+      "savedId": null,
+      "baseVersion": null,
+      "baseDraftVersion": null,
+      "baseStopVersion": null
+    },
+    "workFindings": [],
+    "availableSources": [
+      {
+        "id": "source-article",
+        "title": "为什么收藏之后，很少再回来？",
+        "kind": "example-article",
+        "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+        "url": null
+      },
+      {
+        "id": "source-comparison",
+        "title": "示例材料 · 原文片段",
+        "kind": "example-comparison",
+        "excerpt": "我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。",
+        "url": null
+      }
+    ],
+    "unassignedMaterials": [],
+    "undo": {
+      "collapse": false,
+      "revision": false,
+      "suggestion": false
+    }
+  },
+  "handoff": {
+    "screen": "handoff",
+    "selectedId": "matter-saved",
+    "contextMode": "resume",
+    "notice": "",
+    "isDemo": true,
+    "matters": [
+      {
+        "id": "matter-saved",
+        "title": "收藏后为什么接不回来",
+        "stop": "哪些个人触动无法只靠原文恢复？",
+        "hasDraft": true,
+        "hasUnsavedDraft": false
+      }
+    ],
+    "matter": {
+      "id": "matter-saved",
+      "title": "收藏后为什么接不回来",
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "stopDraft": "哪些个人触动无法只靠原文恢复？",
+      "stopVersion": 1,
+      "originalText": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingDraft": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingVersion": 1,
+      "understandingDraftVersion": 1,
+      "captureSourceIds": [
+        "source-article"
+      ],
+      "branches": [],
+      "observations": [],
+      "revisions": [],
+      "results": [],
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ]
+    },
+    "capture": {
+      "text": "",
+      "sourceIds": [],
+      "excerpt": "",
+      "excerptSourceId": null
+    },
+    "composer": {
+      "text": ""
+    },
+    "focus": null,
+    "discussion": {
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "cases": [
+        {
+          "id": "case-data",
+          "text": "留下一段以后要引用的数据。"
+        },
+        {
+          "id": "case-experience",
+          "text": "留下一句话，因为它让你想起某段经历。"
+        }
+      ],
+      "possibility": "一种可能：以后需要找回的是内容，还是你当时的个人触动。",
+      "text": "留下一段以后要引用的数据。\n\n留下一句话，因为它让你想起某段经历。\n\n第二种好像更需要我自己写点什么。\n\n一种可能：以后需要找回的是内容，还是你当时的个人触动。"
+    },
+    "context": {
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        }
+      ],
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "newMaterial": "今天看回一段没写附言的收藏，我想起了当时的问题。"
+    },
+    "comparison": null,
+    "suggestion": null,
+    "incoming": {
+      "text": "今天看回一段没写附言的收藏，我想起了当时的问题。",
+      "sourceId": null,
+      "decision": "pending"
+    },
+    "handoff": {
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "保留完整原文，附言可选。",
+      "selectionEdited": true,
+      "role": "trial",
+      "note": "想观察：不强制附言，回来时还能否认出当时的问题？",
+      "scope": "current-task",
+      "confirmed": false,
+      "understandingVersion": 1,
+      "evidenceLevel": "none",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？"
+    },
+    "handoffSnapshot": null,
+    "handoffHistory": [],
+    "result": {
+      "fact": "",
+      "interpretation": "",
+      "unconfirmed": "",
+      "proposedUnderstanding": "",
+      "decision": "pending",
+      "savedId": null,
+      "baseVersion": null,
+      "baseDraftVersion": null,
+      "baseStopVersion": null
+    },
+    "workFindings": [],
+    "availableSources": [
+      {
+        "id": "source-article",
+        "title": "为什么收藏之后，很少再回来？",
+        "kind": "example-article",
+        "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+        "url": null
+      },
+      {
+        "id": "source-comparison",
+        "title": "示例材料 · 原文片段",
+        "kind": "example-comparison",
+        "excerpt": "我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。",
+        "url": null
+      }
+    ],
+    "unassignedMaterials": [],
+    "undo": {
+      "collapse": false,
+      "revision": false,
+      "suggestion": false
+    }
+  },
+  "work": {
+    "screen": "work",
+    "selectedId": "matter-saved",
+    "contextMode": "resume",
+    "notice": "",
+    "isDemo": true,
+    "matters": [
+      {
+        "id": "matter-saved",
+        "title": "收藏后为什么接不回来",
+        "stop": "哪些个人触动无法只靠原文恢复？",
+        "hasDraft": true,
+        "hasUnsavedDraft": false
+      }
+    ],
+    "matter": {
+      "id": "matter-saved",
+      "title": "收藏后为什么接不回来",
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "stopDraft": "哪些个人触动无法只靠原文恢复？",
+      "stopVersion": 1,
+      "originalText": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingDraft": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingVersion": 1,
+      "understandingDraftVersion": 1,
+      "captureSourceIds": [
+        "source-article"
+      ],
+      "branches": [],
+      "observations": [
+        {
+          "id": "observation-4",
+          "text": "这个交互很轻，但回来时可能还认不出来。",
+          "sourceId": "source-3",
+          "relation": "unjudged",
+          "origin": {
+            "matterId": "matter-saved",
+            "handoffId": "handoff-1",
+            "destination": {
+              "agent": "Codex",
+              "project": "harness",
+              "task": "收藏入口原型"
+            }
+          }
+        }
+      ],
+      "revisions": [],
+      "results": [],
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        },
+        {
+          "id": "source-3",
+          "title": "本次工作发现",
+          "kind": "work-finding",
+          "excerpt": "这个交互很轻，但回来时可能还认不出来。",
+          "url": null,
+          "ownerMatterId": "matter-saved"
+        }
+      ]
+    },
+    "capture": {
+      "text": "",
+      "sourceIds": [],
+      "excerpt": "",
+      "excerptSourceId": null
+    },
+    "composer": {
+      "text": ""
+    },
+    "focus": null,
+    "discussion": {
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "cases": [
+        {
+          "id": "case-data",
+          "text": "留下一段以后要引用的数据。"
+        },
+        {
+          "id": "case-experience",
+          "text": "留下一句话，因为它让你想起某段经历。"
+        }
+      ],
+      "possibility": "一种可能：以后需要找回的是内容，还是你当时的个人触动。",
+      "text": "留下一段以后要引用的数据。\n\n留下一句话，因为它让你想起某段经历。\n\n第二种好像更需要我自己写点什么。\n\n一种可能：以后需要找回的是内容，还是你当时的个人触动。"
+    },
+    "context": {
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        },
+        {
+          "id": "source-3",
+          "title": "本次工作发现",
+          "kind": "work-finding",
+          "excerpt": "这个交互很轻，但回来时可能还认不出来。",
+          "url": null,
+          "ownerMatterId": "matter-saved"
+        }
+      ],
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "newMaterial": "今天看回一段没写附言的收藏，我想起了当时的问题。"
+    },
+    "comparison": null,
+    "suggestion": null,
+    "incoming": {
+      "text": "今天看回一段没写附言的收藏，我想起了当时的问题。",
+      "sourceId": null,
+      "decision": "pending"
+    },
+    "handoff": {
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "保留完整原文，附言可选。",
+      "selectionEdited": true,
+      "role": "trial",
+      "note": "想观察：不强制附言，回来时还能否认出当时的问题？",
+      "scope": "current-task",
+      "confirmed": true,
+      "understandingVersion": 1,
+      "evidenceLevel": "artifact-demo",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？"
+    },
+    "handoffSnapshot": {
+      "id": "handoff-1",
+      "matterId": "matter-saved",
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "保留完整原文，附言可选。",
+      "selectionEdited": true,
+      "role": "trial",
+      "note": "想观察：不强制附言，回来时还能否认出当时的问题？",
+      "scope": "current-task",
+      "confirmed": true,
+      "understandingVersion": 1,
+      "evidenceLevel": "artifact-demo",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "capturedUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "currentVersionAtConfirmation": 1,
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "origin": "example",
+      "actualDelivery": false
+    },
+    "handoffHistory": [
+      {
+        "id": "handoff-1",
+        "matterId": "matter-saved",
+        "destination": {
+          "agent": "Codex",
+          "project": "harness",
+          "task": "收藏入口原型"
+        },
+        "selectedText": "保留完整原文，附言可选。",
+        "selectionEdited": true,
+        "role": "trial",
+        "note": "想观察：不强制附言，回来时还能否认出当时的问题？",
+        "scope": "current-task",
+        "confirmed": true,
+        "understandingVersion": 1,
+        "evidenceLevel": "none",
+        "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+        "capturedUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+        "currentVersionAtConfirmation": 1,
+        "stop": "哪些个人触动无法只靠原文恢复？",
+        "origin": "example",
+        "actualDelivery": false
+      }
+    ],
+    "result": {
+      "fact": "",
+      "interpretation": "",
+      "unconfirmed": "",
+      "proposedUnderstanding": "",
+      "decision": "pending",
+      "savedId": null,
+      "baseVersion": null,
+      "baseDraftVersion": null,
+      "baseStopVersion": null
+    },
+    "workFindings": [
+      {
+        "id": "finding-2",
+        "text": "这个交互很轻，但回来时可能还认不出来。",
+        "origin": {
+          "matterId": "matter-saved",
+          "handoffId": "handoff-1",
+          "destination": {
+            "agent": "Codex",
+            "project": "harness",
+            "task": "收藏入口原型"
+          }
+        }
+      }
+    ],
+    "availableSources": [
+      {
+        "id": "source-article",
+        "title": "为什么收藏之后，很少再回来？",
+        "kind": "example-article",
+        "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+        "url": null
+      },
+      {
+        "id": "source-comparison",
+        "title": "示例材料 · 原文片段",
+        "kind": "example-comparison",
+        "excerpt": "我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。",
+        "url": null
+      },
+      {
+        "id": "source-3",
+        "title": "本次工作发现",
+        "kind": "work-finding",
+        "excerpt": "这个交互很轻，但回来时可能还认不出来。",
+        "url": null,
+        "ownerMatterId": "matter-saved"
+      }
+    ],
+    "unassignedMaterials": [],
+    "undo": {
+      "collapse": false,
+      "revision": false,
+      "suggestion": false
+    }
+  },
+  "results": {
+    "screen": "results",
+    "selectedId": "matter-saved",
+    "contextMode": "resume",
+    "notice": "",
+    "isDemo": true,
+    "matters": [
+      {
+        "id": "matter-saved",
+        "title": "收藏后为什么接不回来",
+        "stop": "哪些个人触动无法只靠原文恢复？",
+        "hasDraft": true,
+        "hasUnsavedDraft": false
+      }
+    ],
+    "matter": {
+      "id": "matter-saved",
+      "title": "收藏后为什么接不回来",
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "stopDraft": "哪些个人触动无法只靠原文恢复？",
+      "stopVersion": 1,
+      "originalText": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingDraft": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "understandingVersion": 1,
+      "understandingDraftVersion": 1,
+      "captureSourceIds": [
+        "source-article"
+      ],
+      "branches": [],
+      "observations": [
+        {
+          "id": "observation-4",
+          "text": "这个交互很轻，但回来时可能还认不出来。",
+          "sourceId": "source-3",
+          "relation": "unjudged",
+          "origin": {
+            "matterId": "matter-saved",
+            "handoffId": "handoff-1",
+            "destination": {
+              "agent": "Codex",
+              "project": "harness",
+              "task": "收藏入口原型"
+            }
+          }
+        }
+      ],
+      "revisions": [],
+      "results": [],
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        },
+        {
+          "id": "source-3",
+          "title": "本次工作发现",
+          "kind": "work-finding",
+          "excerpt": "这个交互很轻，但回来时可能还认不出来。",
+          "url": null,
+          "ownerMatterId": "matter-saved"
+        }
+      ]
+    },
+    "capture": {
+      "text": "",
+      "sourceIds": [],
+      "excerpt": "",
+      "excerptSourceId": null
+    },
+    "composer": {
+      "text": ""
+    },
+    "focus": null,
+    "discussion": {
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "cases": [
+        {
+          "id": "case-data",
+          "text": "留下一段以后要引用的数据。"
+        },
+        {
+          "id": "case-experience",
+          "text": "留下一句话，因为它让你想起某段经历。"
+        }
+      ],
+      "possibility": "一种可能：以后需要找回的是内容，还是你当时的个人触动。",
+      "text": "留下一段以后要引用的数据。\n\n留下一句话，因为它让你想起某段经历。\n\n第二种好像更需要我自己写点什么。\n\n一种可能：以后需要找回的是内容，还是你当时的个人触动。"
+    },
+    "context": {
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "understanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        },
+        {
+          "id": "source-3",
+          "title": "本次工作发现",
+          "kind": "work-finding",
+          "excerpt": "这个交互很轻，但回来时可能还认不出来。",
+          "url": null,
+          "ownerMatterId": "matter-saved"
+        }
+      ],
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "newMaterial": "今天看回一段没写附言的收藏，我想起了当时的问题。"
+    },
+    "comparison": null,
+    "suggestion": null,
+    "incoming": {
+      "text": "今天看回一段没写附言的收藏，我想起了当时的问题。",
+      "sourceId": null,
+      "decision": "pending"
+    },
+    "handoff": {
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "保留完整原文，附言可选。",
+      "selectionEdited": true,
+      "role": "trial",
+      "note": "想观察：不强制附言，回来时还能否认出当时的问题？",
+      "scope": "current-task",
+      "confirmed": true,
+      "understandingVersion": 1,
+      "evidenceLevel": "artifact-demo",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？"
+    },
+    "handoffSnapshot": {
+      "id": "handoff-1",
+      "matterId": "matter-saved",
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "保留完整原文，附言可选。",
+      "selectionEdited": true,
+      "role": "trial",
+      "note": "想观察：不强制附言，回来时还能否认出当时的问题？",
+      "scope": "current-task",
+      "confirmed": true,
+      "understandingVersion": 1,
+      "evidenceLevel": "artifact-demo",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "capturedUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "currentVersionAtConfirmation": 1,
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "origin": "example",
+      "actualDelivery": false
+    },
+    "handoffHistory": [
+      {
+        "id": "handoff-1",
+        "matterId": "matter-saved",
+        "destination": {
+          "agent": "Codex",
+          "project": "harness",
+          "task": "收藏入口原型"
+        },
+        "selectedText": "保留完整原文，附言可选。",
+        "selectionEdited": true,
+        "role": "trial",
+        "note": "想观察：不强制附言，回来时还能否认出当时的问题？",
+        "scope": "current-task",
+        "confirmed": true,
+        "understandingVersion": 1,
+        "evidenceLevel": "none",
+        "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+        "capturedUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+        "currentVersionAtConfirmation": 1,
+        "stop": "哪些个人触动无法只靠原文恢复？",
+        "origin": "example",
+        "actualDelivery": false
+      }
+    ],
+    "result": {
+      "fact": "这次没有写附言，也接回了当时的问题。",
+      "interpretation": "可能与原文和当时问题一起保留有关。",
+      "unconfirmed": "哪些个人触动需要额外表达？",
+      "proposedUnderstanding": "原文与当时的问题一起保留时，可能不写附言也能接回；\n哪些个人触动需要额外表达，仍要分情形看。",
+      "decision": "pending",
+      "savedId": null,
+      "baseVersion": 1,
+      "baseDraftVersion": 1,
+      "baseStopVersion": 1
+    },
+    "workFindings": [
+      {
+        "id": "finding-2",
+        "text": "这个交互很轻，但回来时可能还认不出来。",
+        "origin": {
+          "matterId": "matter-saved",
+          "handoffId": "handoff-1",
+          "destination": {
+            "agent": "Codex",
+            "project": "harness",
+            "task": "收藏入口原型"
+          }
+        }
+      }
+    ],
+    "availableSources": [
+      {
+        "id": "source-article",
+        "title": "为什么收藏之后，很少再回来？",
+        "kind": "example-article",
+        "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+        "url": null
+      },
+      {
+        "id": "source-comparison",
+        "title": "示例材料 · 原文片段",
+        "kind": "example-comparison",
+        "excerpt": "我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。",
+        "url": null
+      },
+      {
+        "id": "source-3",
+        "title": "本次工作发现",
+        "kind": "work-finding",
+        "excerpt": "这个交互很轻，但回来时可能还认不出来。",
+        "url": null,
+        "ownerMatterId": "matter-saved"
+      }
+    ],
+    "unassignedMaterials": [],
+    "undo": {
+      "collapse": false,
+      "revision": false,
+      "suggestion": false
+    }
+  },
+  "revised": {
+    "screen": "revised",
+    "selectedId": "matter-saved",
+    "contextMode": "resume",
+    "notice": "修订已落回同一件事；仅保存在本次会话，不自动成为工作要求。",
+    "isDemo": true,
+    "matters": [
+      {
+        "id": "matter-saved",
+        "title": "收藏后为什么接不回来",
+        "stop": "哪些个人触动需要额外表达？",
+        "hasDraft": true,
+        "hasUnsavedDraft": false
+      }
+    ],
+    "matter": {
+      "id": "matter-saved",
+      "title": "收藏后为什么接不回来",
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "stop": "哪些个人触动需要额外表达？",
+      "stopDraft": "哪些个人触动需要额外表达？",
+      "stopVersion": 2,
+      "originalText": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+      "understanding": "原文与当时的问题一起保留时，可能不写附言也能接回；\n哪些个人触动需要额外表达，仍要分情形看。",
+      "understandingDraft": "原文与当时的问题一起保留时，可能不写附言也能接回；\n哪些个人触动需要额外表达，仍要分情形看。",
+      "understandingVersion": 2,
+      "understandingDraftVersion": 2,
+      "captureSourceIds": [
+        "source-article"
+      ],
+      "branches": [],
+      "observations": [
+        {
+          "id": "observation-4",
+          "text": "这个交互很轻，但回来时可能还认不出来。",
+          "sourceId": "source-3",
+          "relation": "unjudged",
+          "origin": {
+            "matterId": "matter-saved",
+            "handoffId": "handoff-1",
+            "destination": {
+              "agent": "Codex",
+              "project": "harness",
+              "task": "收藏入口原型"
+            }
+          }
+        }
+      ],
+      "revisions": [
+        {
+          "id": "revision-6",
+          "before": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+          "after": "原文与当时的问题一起保留时，可能不写附言也能接回；\n哪些个人触动需要额外表达，仍要分情形看。",
+          "resultId": "result-5",
+          "beforeVersion": 1,
+          "beforeStop": "哪些个人触动无法只靠原文恢复？",
+          "afterStop": "哪些个人触动需要额外表达？",
+          "undone": false,
+          "afterVersion": 2
+        }
+      ],
+      "results": [
+        {
+          "id": "result-5",
+          "fact": "这次没有写附言，也接回了当时的问题。",
+          "interpretation": "可能与原文和当时问题一起保留有关。",
+          "unconfirmed": "哪些个人触动需要额外表达？",
+          "handoffId": "handoff-1",
+          "understandingVersion": 1,
+          "origin": "example",
+          "decision": "revised"
+        }
+      ],
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        },
+        {
+          "id": "source-3",
+          "title": "本次工作发现",
+          "kind": "work-finding",
+          "excerpt": "这个交互很轻，但回来时可能还认不出来。",
+          "url": null,
+          "ownerMatterId": "matter-saved"
+        }
+      ]
+    },
+    "capture": {
+      "text": "",
+      "sourceIds": [],
+      "excerpt": "",
+      "excerptSourceId": null
+    },
+    "composer": {
+      "text": ""
+    },
+    "focus": null,
+    "discussion": {
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "cases": [
+        {
+          "id": "case-data",
+          "text": "留下一段以后要引用的数据。"
+        },
+        {
+          "id": "case-experience",
+          "text": "留下一句话，因为它让你想起某段经历。"
+        }
+      ],
+      "possibility": "一种可能：以后需要找回的是内容，还是你当时的个人触动。",
+      "text": "留下一段以后要引用的数据。\n\n留下一句话，因为它让你想起某段经历。\n\n第二种好像更需要我自己写点什么。\n\n一种可能：以后需要找回的是内容，还是你当时的个人触动。"
+    },
+    "context": {
+      "whyCare": "保存了内容，却恢复不了当时的想法。",
+      "understanding": "原文与当时的问题一起保留时，可能不写附言也能接回；\n哪些个人触动需要额外表达，仍要分情形看。",
+      "stop": "哪些个人触动需要额外表达？",
+      "sources": [
+        {
+          "id": "source-article",
+          "title": "为什么收藏之后，很少再回来？",
+          "kind": "example-article",
+          "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+          "url": null
+        },
+        {
+          "id": "source-3",
+          "title": "本次工作发现",
+          "kind": "work-finding",
+          "excerpt": "这个交互很轻，但回来时可能还认不出来。",
+          "url": null,
+          "ownerMatterId": "matter-saved"
+        }
+      ],
+      "messages": [
+        {
+          "id": "message-example",
+          "role": "user",
+          "text": "第二种好像更需要我自己写点什么。",
+          "focus": null,
+          "contextMode": "resume"
+        }
+      ],
+      "newMaterial": "今天看回一段没写附言的收藏，我想起了当时的问题。"
+    },
+    "comparison": null,
+    "suggestion": null,
+    "incoming": {
+      "text": "今天看回一段没写附言的收藏，我想起了当时的问题。",
+      "sourceId": null,
+      "decision": "pending"
+    },
+    "handoff": {
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "保留完整原文，附言可选。",
+      "selectionEdited": true,
+      "role": "trial",
+      "note": "想观察：不强制附言，回来时还能否认出当时的问题？",
+      "scope": "current-task",
+      "confirmed": true,
+      "understandingVersion": 1,
+      "evidenceLevel": "artifact-demo",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？"
+    },
+    "handoffSnapshot": {
+      "id": "handoff-1",
+      "matterId": "matter-saved",
+      "destination": {
+        "agent": "Codex",
+        "project": "harness",
+        "task": "收藏入口原型"
+      },
+      "selectedText": "保留完整原文，附言可选。",
+      "selectionEdited": true,
+      "role": "trial",
+      "note": "想观察：不强制附言，回来时还能否认出当时的问题？",
+      "scope": "current-task",
+      "confirmed": true,
+      "understandingVersion": 1,
+      "evidenceLevel": "artifact-demo",
+      "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "capturedUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+      "currentVersionAtConfirmation": 1,
+      "stop": "哪些个人触动无法只靠原文恢复？",
+      "origin": "example",
+      "actualDelivery": false
+    },
+    "handoffHistory": [
+      {
+        "id": "handoff-1",
+        "matterId": "matter-saved",
+        "destination": {
+          "agent": "Codex",
+          "project": "harness",
+          "task": "收藏入口原型"
+        },
+        "selectedText": "保留完整原文，附言可选。",
+        "selectionEdited": true,
+        "role": "trial",
+        "note": "想观察：不强制附言，回来时还能否认出当时的问题？",
+        "scope": "current-task",
+        "confirmed": true,
+        "understandingVersion": 1,
+        "evidenceLevel": "none",
+        "selectionBasisUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+        "capturedUnderstanding": "我现在觉得，要区分恢复材料内容和恢复个人触动。\n\n原文可能帮助前者，我自己的表达可能帮助后者。\n\n还没分清：哪些个人触动无法只靠原文恢复？",
+        "currentVersionAtConfirmation": 1,
+        "stop": "哪些个人触动无法只靠原文恢复？",
+        "origin": "example",
+        "actualDelivery": false
+      }
+    ],
+    "result": {
+      "fact": "这次没有写附言，也接回了当时的问题。",
+      "interpretation": "可能与原文和当时问题一起保留有关。",
+      "unconfirmed": "哪些个人触动需要额外表达？",
+      "proposedUnderstanding": "原文与当时的问题一起保留时，可能不写附言也能接回；\n哪些个人触动需要额外表达，仍要分情形看。",
+      "decision": "revised",
+      "savedId": "result-5",
+      "baseVersion": 1,
+      "baseDraftVersion": 1,
+      "baseStopVersion": 1
+    },
+    "workFindings": [
+      {
+        "id": "finding-2",
+        "text": "这个交互很轻，但回来时可能还认不出来。",
+        "origin": {
+          "matterId": "matter-saved",
+          "handoffId": "handoff-1",
+          "destination": {
+            "agent": "Codex",
+            "project": "harness",
+            "task": "收藏入口原型"
+          }
+        }
+      }
+    ],
+    "availableSources": [
+      {
+        "id": "source-article",
+        "title": "为什么收藏之后，很少再回来？",
+        "kind": "example-article",
+        "excerpt": "重新读到时，我们可能认得这些文字，却想不起自己的问题。",
+        "url": null
+      },
+      {
+        "id": "source-comparison",
+        "title": "示例材料 · 原文片段",
+        "kind": "example-comparison",
+        "excerpt": "我没有给每次收藏写备注。后来做同类问题时，沿原文和之前的问题，也能想起为什么存它。",
+        "url": null
+      },
+      {
+        "id": "source-3",
+        "title": "本次工作发现",
+        "kind": "work-finding",
+        "excerpt": "这个交互很轻，但回来时可能还认不出来。",
+        "url": null,
+        "ownerMatterId": "matter-saved"
+      }
+    ],
+    "unassignedMaterials": [],
+    "undo": {
+      "collapse": false,
+      "revision": true,
+      "suggestion": false
+    }
+  }
+}

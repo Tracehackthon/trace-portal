@@ -1,0 +1,183 @@
+{
+  "taskId": "trace-worksite-v1-20260915",
+  "owner": "worksite_ui",
+  "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contextPackageSha256": "DD9BDA87EDB138B15C3A3E9535BD78BF5E51934DA333A4175C251BF8F7078C06",
+  "timestamp": "2026-09-14T17:19:00.7100048Z",
+  "scope": "Independent ui/ only; no app/plugin/other task writes",
+  "validation": {
+    "syntax": "pass",
+    "firstBrowser": "19/20; contrast wording test false-negative retained",
+    "finalVisualBrowser": "24/24; console/pageerror/4xx 0",
+    "finalBehaviorBrowser": "26/26; no third visual round",
+    "fontAndImageLoads": "pass",
+    "desktop1672Narrow880390HorizontalOverflow": "none",
+    "mechanicalDetector": "one run; 2 injected-image-src warnings and existing Arial brand warning reviewed",
+    "service": "own fixture 64335 stopped, listener released"
+  },
+  "notRun": [
+    "Electron/file:// UI",
+    "real Overlay/Agent/Artifact",
+    "shared domain store",
+    "persistence",
+    "full performance or physical IME device acceptance"
+  ],
+  "knownConstraints": [
+    "unassociated result-only remains model-gated by matterId; no fake save",
+    "two bird poses, not natural flapping",
+    "large glass adapter surfaces intentionally fallback",
+    "other modules not integrated"
+  ],
+  "files": [
+    {
+      "path": "behavior-final-checks.json",
+      "bytes": 2834,
+      "sha256": "EDC31988FA800E1C1AA0A36A597C3528AC581777BB486CE2277900B0904AE48B"
+    },
+    {
+      "path": "browser-checks.cjs",
+      "bytes": 14354,
+      "sha256": "3AA7CE0FE2CF76F107A74F668B1F1CE8A551A2999328A95A834C5EAE7FBA3395"
+    },
+    {
+      "path": "copy.txt",
+      "bytes": 15518,
+      "sha256": "6F696241FF8CE31FC7752D6BDD294D1EFE89111A9B3DDA73C856DBFE7A2529D5"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 1579,
+      "sha256": "D1EA572D76EDF24611CB99B5804DD32AEF1FDD00A92C18BADEBFCEEF9158290B"
+    },
+    {
+      "path": "final-checks.json",
+      "bytes": 19163,
+      "sha256": "052B857494F7EC4758112E00F0CA2BDFDB8C29898B1E41C749005C4B4CAF5272"
+    },
+    {
+      "path": "final-empty-1672.png",
+      "bytes": 1386871,
+      "sha256": "CAEAF49FD8CBFE90D0655E1DF771C45B60833827A47D5E606F96B0FF41A740E6"
+    },
+    {
+      "path": "final-finding-1672.png",
+      "bytes": 1354271,
+      "sha256": "D5DFAB928BAF1B93732D6386F8736E61C6806526774888BACF35783322038EA1"
+    },
+    {
+      "path": "final-finding-880.png",
+      "bytes": 387078,
+      "sha256": "415172BB4F3C6085C3A067F06D75410AE405326086D6BB15AE9633F2FFE21D13"
+    },
+    {
+      "path": "final-impact-1672.png",
+      "bytes": 1295675,
+      "sha256": "1C43F899664CC15BBCE18649CD40498C8C9D9AE7F60E6486A25BB715BF4E1AA3"
+    },
+    {
+      "path": "final-intake-1672.png",
+      "bytes": 1384057,
+      "sha256": "6B183DFE289A0804278EF43A80A714C1704CB6C96ABF9C53AC6DAFE1CC1CC863"
+    },
+    {
+      "path": "final-overview-1672.png",
+      "bytes": 1389722,
+      "sha256": "400B9752A066AC83DEEA91B71512F456845C8BBDFF7B3F1764D2E632CC43FB60"
+    },
+    {
+      "path": "final-results-1672.png",
+      "bytes": 1353391,
+      "sha256": "B36876DE9E3FE9BB4B7B488740E05A7CC78B425A168C3FF8519057BE90C18F1A"
+    },
+    {
+      "path": "final-results-390.png",
+      "bytes": 268870,
+      "sha256": "4276C4D3D9B0D3093E71198C0CC8C86D12046C79B657A52DD6450C679102E86E"
+    },
+    {
+      "path": "first-checks.json",
+      "bytes": 19034,
+      "sha256": "31FFF045D4C30B37EC4C84BE57BC8AC975C5E0396E585C4AD2FAC16B29C0E9E0"
+    },
+    {
+      "path": "first-empty-1672.png",
+      "bytes": 1390033,
+      "sha256": "DAE8990D298D4D8E6A775D4602BA241C2D82E7511056FFC5F8098B6E9A09E978"
+    },
+    {
+      "path": "first-finding-1672.png",
+      "bytes": 1351638,
+      "sha256": "CCA14AA29DF5F3507032C4607E746EF0D727A6AC54450FBE798864367EE355FA"
+    },
+    {
+      "path": "first-finding-880.png",
+      "bytes": 391032,
+      "sha256": "7D618B4A45DEF5ABB9EFFC6DA1EA6C07AF29057669F40010ED687C3BCC786C30"
+    },
+    {
+      "path": "first-impact-1672.png",
+      "bytes": 1296223,
+      "sha256": "CAB538904E757A0D1EDCCC46FB82C3651DADE9ACBDD527058FA8A5285B568B1A"
+    },
+    {
+      "path": "first-intake-1672.png",
+      "bytes": 1383172,
+      "sha256": "9F4850A265800CF7540234E1BC189CAA652329F1495FD54B17060BED920C4132"
+    },
+    {
+      "path": "first-overview-1672.png",
+      "bytes": 1390487,
+      "sha256": "7139A2DC1DBDEF2851AC48C90F03C6C0F6C4D5B0834C4C0E087F90E1943F7F9B"
+    },
+    {
+      "path": "first-results-1672.png",
+      "bytes": 1349296,
+      "sha256": "46A2515978D2E4896304D4543682A90215DDFEC491B0DBEDCD4EF14753ED6689"
+    },
+    {
+      "path": "first-results-390.png",
+      "bytes": 269441,
+      "sha256": "9A3744EAC0A641F50627851EB7947E374F2AC3DD8D930EABB696677F2993C832"
+    },
+    {
+      "path": "fixture-server.mjs",
+      "bytes": 1246,
+      "sha256": "2CB1617F3FF453BC8384BBB0BE4B1B139E060B5651418D3479E0966CDB98FF09"
+    },
+    {
+      "path": "fixture.html",
+      "bytes": 644,
+      "sha256": "E52136EA7BE0403D493F852A71D1C6162B30D3268AC72B9209C422BDD0447656"
+    },
+    {
+      "path": "fixture.mjs",
+      "bytes": 1737,
+      "sha256": "E7EC46450AE7B0086459B56886522B11408873CFEC0321D670FB79D7CCB86F1D"
+    },
+    {
+      "path": "PRODUCT.md",
+      "bytes": 807,
+      "sha256": "B0359B0EBC773BE83CF7C772506C0824CE4058FCAC0BCAEF9283039F5A03FEE7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10165,
+      "sha256": "955C7D57DAF18D3E331B98EF737B040671C76783382D1BC7A76D440FD5000211"
+    },
+    {
+      "path": "worksite-icons.mjs",
+      "bytes": 2031,
+      "sha256": "E1BF3A562883D49F058C23C4A16DE30B08376E76510BE292BB98C9B49A50CBC8"
+    },
+    {
+      "path": "worksite-screen.mjs",
+      "bytes": 43962,
+      "sha256": "293AE775CC6F61F66134BFD487F7C00E5F10B6B97BAEB96EAE1427B78250F625"
+    },
+    {
+      "path": "worksite.css",
+      "bytes": 46099,
+      "sha256": "C06CC8ACE52A56B7BE603C03B2941A6F33741FA7FB922E6D80627D0A2C865D9F"
+    }
+  ]
+}

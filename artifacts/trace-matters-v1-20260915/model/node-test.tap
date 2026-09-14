@@ -1,0 +1,136 @@
+TAP version 13
+# Subtest: factory returns six independent example matters and stable view shape
+ok 1 - factory returns six independent example matters and stable view shape
+  ---
+  duration_ms: 1.4771
+  type: 'test'
+  ...
+# Subtest: OPEN / CONTINUE / TAB / BACK / OVERVIEW preserve facts and do not mark change
+ok 2 - OPEN / CONTINUE / TAB / BACK / OVERVIEW preserve facts and do not mark change
+  ---
+  duration_ms: 0.385
+  type: 'test'
+  ...
+# Subtest: judgment and understanding drafts remain isolated by matter ID
+ok 3 - judgment and understanding drafts remain isolated by matter ID
+  ---
+  duration_ms: 0.3824
+  type: 'test'
+  ...
+# Subtest: source and quote ownership never crosses when switching entries
+ok 4 - source and quote ownership never crosses when switching entries
+  ---
+  duration_ms: 0.3307
+  type: 'test'
+  ...
+# Subtest: rejecting a comparison preserves source/quotes, but removes it from selected context
+ok 5 - rejecting a comparison preserves source/quotes, but removes it from selected context
+  ---
+  duration_ms: 1.2191
+  type: 'test'
+  ...
+# Subtest: challenge is a relation decision, not adoption, judgment, or verification
+ok 6 - challenge is a relation decision, not adoption, judgment, or verification
+  ---
+  duration_ms: 0.1853
+  type: 'test'
+  ...
+# Subtest: a rejected relation can be repaired without duplicating or deleting source material
+ok 7 - a rejected relation can be repaired without duplicating or deleting source material
+  ---
+  duration_ms: 0.1902
+  type: 'test'
+  ...
+# Subtest: FRESH excludes old judgment/context, preserves provenance, and isolates fresh drafts
+ok 8 - FRESH excludes old judgment/context, preserves provenance, and isolates fresh drafts
+  ---
+  duration_ms: 0.4403
+  type: 'test'
+  ...
+# Subtest: FRESH may use new explicitly saved understanding, never silently adopts old text
+ok 9 - FRESH may use new explicitly saved understanding, never silently adopts old text
+  ---
+  duration_ms: 0.4519
+  type: 'test'
+  ...
+# Subtest: SAVE_JUDGMENT updates the same stop, folds to overview, keeps text and next reopen
+ok 10 - SAVE_JUDGMENT updates the same stop, folds to overview, keeps text and next reopen
+  ---
+  duration_ms: 0.4373
+  type: 'test'
+  ...
+# Subtest: saving own understanding does not rewrite original understanding or unrelated stop
+ok 11 - saving own understanding does not rewrite original understanding or unrelated stop
+  ---
+  duration_ms: 0.1841
+  type: 'test'
+  ...
+# Subtest: search uses real related records: reference query yields actual 1 / 2 / 3
+ok 12 - search uses real related records: reference query yields actual 1 / 2 / 3
+  ---
+  duration_ms: 0.5601
+  type: 'test'
+  ...
+# Subtest: search categories have independent matching and exact empty counts
+ok 13 - search categories have independent matching and exact empty counts
+  ---
+  duration_ms: 0.3786
+  type: 'test'
+  ...
+# Subtest: search normalizes case/fullwidth/whitespace and recomputes changed user stop
+ok 14 - search normalizes case/fullwidth/whitespace and recomputes changed user stop
+  ---
+  duration_ms: 0.3994
+  type: 'test'
+  ...
+# Subtest: empty or malformed saves, invalid IDs/actions/relations/tabs are exact no-op
+ok 15 - empty or malformed saves, invalid IDs/actions/relations/tabs are exact no-op
+  ---
+  duration_ms: 0.1381
+  type: 'test'
+  ...
+# Subtest: returning and re-saving identical content never create extra change nodes or quotes
+ok 16 - returning and re-saving identical content never create extra change nodes or quotes
+  ---
+  duration_ms: 0.1144
+  type: 'test'
+  ...
+# Subtest: explicitly saving an unchanged stop still folds back without inventing another revision
+ok 17 - explicitly saving an unchanged stop still folds back without inventing another revision
+  ---
+  duration_ms: 0.1013
+  type: 'test'
+  ...
+# Subtest: fresh explicit resave of identical own understanding may enter context without duplicate revision
+ok 18 - fresh explicit resave of identical own understanding may enter context without duplicate revision
+  ---
+  duration_ms: 0.1641
+  type: 'test'
+  ...
+# Subtest: reducers and selectors are pure and view edits cannot mutate model state
+ok 19 - reducers and selectors are pure and view edits cannot mutate model state
+  ---
+  duration_ms: 0.5881
+  type: 'test'
+  ...
+# Subtest: HTML-like text remains literal in drafts, saved fields, search and quote data
+ok 20 - HTML-like text remains literal in drafts, saved fields, search and quote data
+  ---
+  duration_ms: 0.4307
+  type: 'test'
+  ...
+# Subtest: CLEAR_NOTICE does not alter facts and is idempotent
+ok 21 - CLEAR_NOTICE does not alter facts and is idempotent
+  ---
+  duration_ms: 0.1201
+  type: 'test'
+  ...
+1..21
+# tests 21
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 82.109

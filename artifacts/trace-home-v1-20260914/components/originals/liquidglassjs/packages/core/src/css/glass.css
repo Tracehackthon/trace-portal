@@ -1,0 +1,243 @@
+/* @liquidglassjs/core — the .ps-glass* chrome styles.
+ *
+ * Import once per app: `import '@liquidglassjs/core/css'`.
+ *
+ * De-themed: instead of app tokens, this reads namespaced vars with sane
+ * fallbacks, so it works standalone. Override per surface or globally:
+ *   --glass-paper : base "paper" colour behind tint + SVG-clone   (default #fff)
+ *   --glass-ink   : rim ink colour                                (default #000)
+ *   --glass-frost-bg : frosted-fallback background (set in JS)    (default: 55% of --glass-paper)
+ *   --glass-backdrop : default CSS background for the SVG-clone path (consumer-supplied)
+ * e.g.  .ps-glass { --glass-paper: var(--paper); --glass-ink: var(--ink); }
+ */
+
+/* :where() so these are DEFAULTS, not decisions — the class lands on the root from JS,
+   alongside whatever the consumer already put there, and nothing here needs to win
+   that argument.
+   `position` is deliberately NOT here. The layers make it unwinnable from a
+   stylesheet: Tailwind puts its utilities in `@layer utilities`, unlayered CSS beats
+   any layer whatever its specificity, and this sheet is unlayered — so `.ps-glass`
+   overrode a consumer's `absolute` even at zero specificity. mountGlass sets it from
+   script instead, and only when the element is still `static`. */
+:where(.ps-glass) {
+  border-radius: var(--g-radius);
+  overflow: hidden;
+  isolation: isolate;
+}
+.ps-glass__surface,
+.ps-glass__tint,
+.ps-glass__rim {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.ps-glass__tint {
+  background: color-mix(in srgb, var(--glass-paper, #fff) calc(var(--g-tint) * 1%), transparent);
+}
+.ps-glass__rim {
+  box-shadow:
+    inset 0 0 0 1px color-mix(in srgb, var(--glass-ink, #000) 10%, transparent),
+    inset 0 1px 1px color-mix(in srgb, white 55%, transparent),
+    inset 0 -1px 1px color-mix(in srgb, var(--glass-ink, #000) 12%, transparent),
+    0 14px 38px -14px rgb(0 0 0 / 30%);
+}
+/* refract layer: the live DOM the filter bends. Outer is inset by the bleed
+   margin (filter region + map size); inner sits back at the glass rect so the
+   content lands where the lens does. Stays interactive — the glass chrome above
+   is pointer-transparent, matching Aave (selectable text, clickable links). */
+.ps-glass__refract {
+  position: absolute;
+  inset: calc(-1 * var(--g-margin, 28px));
+  border-radius: inherit;
+}
+.ps-glass__refract-inner {
+  position: absolute;
+  inset: var(--g-margin, 28px);
+}
+.ps-glass__content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+.ps-glass:has(> .ps-glass__refract) .ps-glass__content {
+  pointer-events: none;
+}
+
+/* ── Morphing surfaces: mountGlassButton (.gm-btn) + mountGlassDropdown (.gm-dd).
+   Only the structure the JS depends on and the label crossfade travel here;
+   sizing, colour, and the refracted scene are the consumer's. See README. ── */
+.gm-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+/* the refracted pane — the JS applies filter:url() here and sets its background */
+.gm-btn__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+}
+/* the crisp label; in-flow so it drives the button width the JS animates */
+.gm-btn__label {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  pointer-events: none;
+}
+/* Held invisible (delay + `both` fill) until the outgoing label has cleared, so
+   the two never cross-dissolve on top of each other — the old lifts out, then
+   the new rises in. */
+.gm-btn__label--in {
+  animation: gm-label-in 300ms cubic-bezier(0.165, 0.84, 0.44, 1) 130ms both;
+}
+/* the outgoing label clone, overlaid + centered while it lifts away first */
+.gm-btn__label--out {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.gm-btn__label--out.is-gone {
+  opacity: 0;
+  transform: translateY(-62%);
+  transition:
+    opacity 130ms ease,
+    transform 240ms cubic-bezier(0.4, 0, 1, 1);
+}
+@keyframes gm-label-in {
+  from {
+    opacity: 0;
+    transform: translateY(60%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.gm-dd {
+  position: relative;
+  display: inline-block;
+}
+/* The menu carries the shadow + opacity; keep it UN-clipped so its box-shadow
+   isn't clipped by the open reveal. mountGlassDropdown auto-wraps the content in
+   .gm-dd__panel and runs the clip-path reveal there instead. */
+.gm-dd__menu {
+  position: absolute;
+  isolation: isolate;
+}
+.gm-dd__menu[hidden] {
+  display: none;
+}
+.gm-dd__panel {
+  position: relative;
+  border-radius: inherit;
+  overflow: hidden;
+  isolation: isolate;
+}
+/* the refracted pane; point its background at a fixed-attachment clone of the
+   scene behind the menu and the panel bends the real page */
+.gm-dd__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+}
+.gm-dd__items {
+  position: relative;
+  z-index: 2;
+}
+/* ── Magnifying loupe: mountGlassLoupe (.ps-loupe). The JS sets the structural
+   styles inline (fixed placement, capsule size, clipping, bleed ring) because the
+   effect is broken without them; only the *look* travels here — the capsule's
+   shadow and rim, and the iOS-style pop on open. The loupe renders in the top
+   layer via `popover`, so `.is-open` is only the fallback path's hook. ── */
+.ps-loupe {
+  scale: 0.42;
+  opacity: 0;
+  /* Grow out of the point being magnified, below the capsule — as iOS does. */
+  transform-origin: 50% 150%;
+  transition:
+    opacity 0.12s ease,
+    scale 0.18s cubic-bezier(0.22, 1.2, 0.36, 1),
+    overlay 0.18s allow-discrete,
+    display 0.18s allow-discrete;
+}
+.ps-loupe:popover-open,
+.ps-loupe.is-open {
+  scale: 1;
+  opacity: 1;
+}
+/* Entry needs a from-state; without @starting-style the loupe would pop in at
+   full size (a browser can't transition out of `display: none`). */
+@starting-style {
+  .ps-loupe:popover-open {
+    scale: 0.42;
+    opacity: 0;
+  }
+}
+.ps-loupe__box {
+  box-shadow:
+    0 2px 4px -2px rgb(0 0 0 / 25%),
+    0 10px 24px -8px rgb(0 0 0 / 35%);
+}
+.ps-loupe__rim {
+  box-shadow:
+    inset 0 0 0 1px color-mix(in srgb, var(--glass-ink, #000) 14%, transparent),
+    inset 0 1px 1px color-mix(in srgb, white 60%, transparent),
+    inset 0 -1px 1px color-mix(in srgb, var(--glass-ink, #000) 14%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gm-btn__label--in {
+    animation: none;
+  }
+  .gm-btn__label--out.is-gone {
+    transition: none;
+  }
+  /* The loupe still appears and still tracks the finger — it just stops zooming
+     out of the page, which is the part that reads as motion. */
+  .ps-loupe {
+    transition: opacity 0.12s ease;
+    scale: 1;
+  }
+}
+
+/* ── Legibility tiers. Glass text sits on a variable backdrop, which is exactly
+   what WCAG contrast can't guarantee — so the OS toggles get real answers, not
+   a hidden effect. Two queries because support is disjoint: Safari has never
+   shipped `prefers-reduced-transparency` (its own setting!) and Apple's
+   guidance is to key off `prefers-contrast` there; Chromium ships both. ── */
+
+/* Frostier: keep the glass look, obscure more of what's behind it. */
+@media (prefers-reduced-transparency: reduce) {
+  .ps-glass__tint {
+    background: color-mix(in srgb, var(--glass-paper, #fff) 80%, transparent);
+  }
+}
+
+/* Predominantly solid + a declared edge (Apple: "predominantly black or white,
+   highlighted with a contrasting border"). Later in the file than the base
+   rules, so equal specificity resolves this way at equal media weight. */
+@media (prefers-contrast: more) {
+  .ps-glass__tint {
+    background: color-mix(in srgb, var(--glass-paper, #fff) 92%, transparent);
+  }
+  .ps-glass__rim {
+    box-shadow:
+      inset 0 0 0 1.5px color-mix(in srgb, var(--glass-ink, #000) 70%, transparent),
+      0 14px 38px -14px rgb(0 0 0 / 30%);
+  }
+}

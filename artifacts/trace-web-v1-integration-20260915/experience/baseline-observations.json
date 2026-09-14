@@ -1,0 +1,46 @@
+{
+  "task": "trace-web-v1-integration-20260915",
+  "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contextPackageSha256": "918D75E6C80AAD8054B3F59B24810BED2CE261390AC4425CCA8E0481275C921E",
+  "base": "http://127.0.0.1:4173/",
+  "startedAt": "2026-09-14T18:17:08.392Z",
+  "observations": [
+    {
+      "id": "new-input-route",
+      "url": "http://127.0.0.1:4173/?view=matters&matter=capture-1&step=reentry",
+      "route": "matters",
+      "originalTextVisible": true
+    },
+    {
+      "id": "quote-ui-back",
+      "url": "http://127.0.0.1:4173/?view=matters",
+      "query": "",
+      "searchResultsVisible": 0
+    },
+    {
+      "id": "all-traces",
+      "beforeUrl": "http://127.0.0.1:4173/?view=matters",
+      "afterUrl": "http://127.0.0.1:4173/?view=matters",
+      "heading": "在意的事。",
+      "traceIndexCount": 0
+    },
+    {
+      "id": "profile",
+      "title": "关于这个原型",
+      "content": "关于这个原型\n留下一点，让它继续变化。\n\n当前为可交互的桌面原型。输入与状态仅存在本次页面会话；刷新后重置，不写入长期状态，也不调用真实模型。\n\n需要继续讨论时，会进入项目原有的 Mock Agent 讨论界面。\n\n查看六态演示"
+    },
+    {
+      "id": "reload-new-matter",
+      "url": "http://127.0.0.1:4173/?view=matters&matter=capture-1&step=reentry",
+      "originalTextVisible": false,
+      "unknownMatterWarning": false
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "servedMainSha256": "F4E70518980645CBE9723035B5A34CB9A796B6E01C5BC8CB2EC5BE94BD0DD85A",
+  "captureUrl": "http://127.0.0.1:4173/?view=matters&matter=capture-1&step=reentry",
+  "searchUrl": "http://127.0.0.1:4173/?view=matters&q=%E4%BD%93%E9%AA%8C%E6%A0%B8%E9%AA%8C+20260915",
+  "completed": true,
+  "finishedAt": "2026-09-14T18:17:12.076Z"
+}

@@ -1,0 +1,328 @@
+{
+  "task_id": "trace-home-v1-prototype-20260914",
+  "check_id": "resource-integration",
+  "checked_at_utc": "2026-09-14T16:03:57.748325+00:00",
+  "mode": "read-only audit; only this JSON report written; no builds or service operations",
+  "overall_status": "pass-with-runtime-limitations",
+  "resource_identity": [
+    {
+      "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\vendor\\shape-only.mjs",
+      "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\components\\derived\\liquidglassjs\\shape-only.mjs",
+      "role": "material-vendor",
+      "bytes": 17644,
+      "target_sha256": "30CE49881E35EC8ED8E4235CE6934A19F56761069E072DA11E77C9B6191E6D22",
+      "source_sha256": "30CE49881E35EC8ED8E4235CE6934A19F56761069E072DA11E77C9B6191E6D22",
+      "expected_source_sha256": "30CE49881E35EC8ED8E4235CE6934A19F56761069E072DA11E77C9B6191E6D22",
+      "bytes_equal": true,
+      "source_matches_manifest": true,
+      "status": "pass"
+    },
+    {
+      "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\environment.png",
+      "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\ready\\home-environment.png",
+      "role": "generated-environment",
+      "bytes": 1564971,
+      "target_sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "source_sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "expected_source_sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "bytes_equal": true,
+      "source_matches_manifest": true,
+      "status": "pass"
+    },
+    {
+      "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\bird-perched.png",
+      "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-perched.png",
+      "role": "repaired-pose",
+      "bytes": 428617,
+      "target_sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "source_sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "expected_source_sha256": "81de590d9c88d27ad73be569385d8b1d6999f08fc269912b4b97b5d403b4efec",
+      "bytes_equal": true,
+      "source_matches_manifest": true,
+      "status": "pass"
+    },
+    {
+      "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\bird-takeoff.png",
+      "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-takeoff.png",
+      "role": "repaired-pose",
+      "bytes": 858034,
+      "target_sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "source_sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "expected_source_sha256": "9bce1f159d48ab6a8d3230aca3f41fd4c4a114a064f59dfcc4b62f05efa7ed93",
+      "bytes_equal": true,
+      "source_matches_manifest": true,
+      "status": "pass"
+    },
+    {
+      "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\fonts\\TraceHomeSans-fixed.woff2",
+      "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\fonts\\derived\\TraceHomeSans-fixed.woff2",
+      "role": "fixed-copy-font",
+      "bytes": 103200,
+      "target_sha256": "910B4E5A05FCB8C0631AB64EB51D29417D833087C487AFDF9DDABDBB0B7D1EBE",
+      "source_sha256": "910B4E5A05FCB8C0631AB64EB51D29417D833087C487AFDF9DDABDBB0B7D1EBE",
+      "expected_source_sha256": "910B4E5A05FCB8C0631AB64EB51D29417D833087C487AFDF9DDABDBB0B7D1EBE",
+      "bytes_equal": true,
+      "source_matches_manifest": true,
+      "status": "pass"
+    },
+    {
+      "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\fonts\\TraceHomeSerif-fixed.woff2",
+      "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\fonts\\derived\\TraceHomeSerif-fixed.woff2",
+      "role": "fixed-copy-font",
+      "bytes": 140548,
+      "target_sha256": "023539D77B00A8164AEE9900BD24E0DC0928C1515D4F9A00477826ABB4FFE31D",
+      "source_sha256": "023539D77B00A8164AEE9900BD24E0DC0928C1515D4F9A00477826ABB4FFE31D",
+      "expected_source_sha256": "023539D77B00A8164AEE9900BD24E0DC0928C1515D4F9A00477826ABB4FFE31D",
+      "bytes_equal": true,
+      "source_matches_manifest": true,
+      "status": "pass"
+    },
+    {
+      "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\licenses\\anime-LICENSE.md",
+      "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\components\\originals\\animejs\\LICENSE.md",
+      "role": "license",
+      "bytes": 1075,
+      "target_sha256": "3F3E835A9952CFC2A6CA836FB95B3257C981F24FA3EF51249055ACB09931897B",
+      "source_sha256": "3F3E835A9952CFC2A6CA836FB95B3257C981F24FA3EF51249055ACB09931897B",
+      "expected_source_sha256": "3F3E835A9952CFC2A6CA836FB95B3257C981F24FA3EF51249055ACB09931897B",
+      "bytes_equal": true,
+      "source_matches_manifest": true,
+      "status": "pass"
+    },
+    {
+      "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\licenses\\liquidglass-LICENSE.txt",
+      "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\components\\derived\\liquidglassjs\\LICENSE",
+      "role": "license",
+      "bytes": 1071,
+      "target_sha256": "B4DDCA14599CE25F86F5CBFC490742D51F145BE7529D9C44513095EC53029C30",
+      "source_sha256": "B4DDCA14599CE25F86F5CBFC490742D51F145BE7529D9C44513095EC53029C30",
+      "expected_source_sha256": "B4DDCA14599CE25F86F5CBFC490742D51F145BE7529D9C44513095EC53029C30",
+      "bytes_equal": true,
+      "source_matches_manifest": true,
+      "status": "pass"
+    },
+    {
+      "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\licenses\\magicui-LICENSE.md",
+      "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\components\\originals\\magicui-animated-beam\\LICENSE.md",
+      "role": "license",
+      "bytes": 1060,
+      "target_sha256": "0147B84235ED916B8B4E89C1F80655351C5AFE7D211B629BE61F553A227B34BA",
+      "source_sha256": "0147B84235ED916B8B4E89C1F80655351C5AFE7D211B629BE61F553A227B34BA",
+      "expected_source_sha256": "0147B84235ED916B8B4E89C1F80655351C5AFE7D211B629BE61F553A227B34BA",
+      "bytes_equal": true,
+      "source_matches_manifest": true,
+      "status": "pass"
+    },
+    {
+      "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\licenses\\OFL-noto-sans-sc.txt",
+      "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\fonts\\derived\\OFL-noto-sans-sc.txt",
+      "role": "license",
+      "bytes": 4388,
+      "target_sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "source_sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "expected_source_sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "bytes_equal": true,
+      "source_matches_manifest": true,
+      "status": "pass"
+    },
+    {
+      "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\licenses\\OFL-source-han-serif-cn.txt",
+      "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\fonts\\derived\\OFL-source-han-serif-cn.txt",
+      "role": "license",
+      "bytes": 4463,
+      "target_sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "source_sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "expected_source_sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "bytes_equal": true,
+      "source_matches_manifest": true,
+      "status": "pass"
+    },
+    {
+      "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\vendor\\anime.esm.js",
+      "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\components\\originals\\animejs\\dist\\bundles\\anime.esm.min.js",
+      "role": "animation-vendor",
+      "bytes": 118678,
+      "target_sha256": "A19015A1A92D52025A2FB6703B6D67EADD1CC2AEAF880770E96E04CF6AA07BE1",
+      "source_sha256": "A19015A1A92D52025A2FB6703B6D67EADD1CC2AEAF880770E96E04CF6AA07BE1",
+      "expected_source_sha256": "A19015A1A92D52025A2FB6703B6D67EADD1CC2AEAF880770E96E04CF6AA07BE1",
+      "bytes_equal": true,
+      "source_matches_manifest": true,
+      "status": "pass"
+    }
+  ],
+  "adapter_identity": {
+    "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home\\scene-glass.js",
+    "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\components\\derived\\trace-adapter\\scene-glass.js",
+    "role": "locally-authored-adapter",
+    "bytes": 8287,
+    "target_sha256": "0DE8F99069D46021162DA35B8757C496639A70B4371A69A8AD79DBF267E3B772",
+    "source_sha256": "9F1B5A0042F14910A590F20B101BEBCB3031F77911FAADF539B393688C41184D",
+    "expected_source_sha256": null,
+    "bytes_equal": false,
+    "source_matches_manifest": null,
+    "status": "observed-local-visual-modifications-not-byte-identical",
+    "difference_summary": [
+      "Added samplingImage.style.filter = blur(10px).",
+      "Warm gradient opacity changed from .82/.44/.68 to .90/.73/.86.",
+      "Cool gradient opacity changed from .78/.34/.62 to .86/.69/.80."
+    ],
+    "scope_note": "The locally authored adapter is not a downloaded vendor. All 12 requested vendor/public-home artifacts still match their prepared sources. These app-only visual parameter changes are recorded, not claimed byte-identical or visually accepted.",
+    "unified_diff": "--- prepared-adapter\n+++ app-adapter\n@@ -58,6 +58,7 @@\n   defs.appendChild(clip);\n   sample.appendChild(defs);\n   const samplingImage = svgElement('image', { preserveAspectRatio: 'none', 'clip-path': `url(#${id}-clip)`, opacity: '.8' });\n+  samplingImage.style.filter = 'blur(10px)';\n   if (backgroundUrl) samplingImage.setAttribute('href', String(backgroundUrl));\n   sample.appendChild(samplingImage);\n   wrap.appendChild(sample);\n@@ -68,8 +69,8 @@\n   const skinDefs = svgElement('defs');\n   const fill = svgElement('linearGradient', { id: `${id}-fill`, x1: '0%', y1: '0%', x2: '35%', y2: '100%' });\n   for (const [offset, color, opacity] of warm\n-    ? [['0%', '#fffdf2', '.82'], ['55%', '#fffbed', '.44'], ['100%', '#fffefa', '.68']]\n-    : [['0%', '#ffffff', '.78'], ['55%', '#edf9f7', '.34'], ['100%', '#ffffff', '.62']]) {\n+    ? [['0%', '#fffdf2', '.90'], ['55%', '#fffbed', '.73'], ['100%', '#fffefa', '.86']]\n+    : [['0%', '#ffffff', '.86'], ['55%', '#edf9f7', '.69'], ['100%', '#ffffff', '.80']]) {\n     fill.appendChild(svgElement('stop', { offset, 'stop-color': color, 'stop-opacity': opacity }));\n   }\n   skinDefs.appendChild(fill);\n"
+  },
+  "original_discussion_preservation": {
+    "target": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\discussion.js",
+    "source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\coordination\\implementation-baseline\\main.js",
+    "role": "preserved-original-main",
+    "bytes": 16952,
+    "target_sha256": "0D9ECFDD8D779ADB47F4B545935FDC0EA1523203EABFF4FFE9A3C3891BC2F50D",
+    "source_sha256": "0D9ECFDD8D779ADB47F4B545935FDC0EA1523203EABFF4FFE9A3C3891BC2F50D",
+    "expected_source_sha256": null,
+    "bytes_equal": true,
+    "source_matches_manifest": null,
+    "status": "pass"
+  },
+  "original_style_preservation": {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\style.css",
+    "sha256": "67BD3DBC61A825B146211C200F2D7D63D0A3F64D1E3B93A57B53AECA83819C74",
+    "expected_sha256": "67BD3DBC61A825B146211C200F2D7D63D0A3F64D1E3B93A57B53AECA83819C74",
+    "status": "pass"
+  },
+  "source_reference_checks": [
+    {
+      "resource": "src/vendor/anime.esm.js",
+      "evidence": "home.js imports ./vendor/anime.esm.js",
+      "present": true
+    },
+    {
+      "resource": "src/vendor/shape-only.mjs",
+      "evidence": "home/scene-glass.js dynamic-imports ../vendor/shape-only.mjs",
+      "present": true
+    },
+    {
+      "resource": "public/home/environment.png",
+      "evidence": "home.js constructs local URL; home.css uses local background URL",
+      "present": true
+    },
+    {
+      "resource": "public/home/bird-perched.png",
+      "evidence": "home.js img src",
+      "present": true
+    },
+    {
+      "resource": "public/home/bird-takeoff.png",
+      "evidence": "home.js img src",
+      "present": true
+    },
+    {
+      "resource": "src/home.css",
+      "evidence": "main.js selects home.css for home route",
+      "present": true
+    }
+  ],
+  "codrops_reference_only": {
+    "status": "pass-no-inclusion-evidence",
+    "scope": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src; D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public; index.html",
+    "exact_reference_file_copies": [],
+    "source_marker_matches": [],
+    "excluded_explicit_no_inclusion_comments": [
+      {
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\home\\scene-glass.js",
+        "line": 1,
+        "marker": "codrops",
+        "excerpt": "// Trace scene adapter, authored locally. No Codrops source is included."
+      }
+    ],
+    "limitation": "No exact reference bytes, paths, imports or distinctive identifiers were found. This is not an exhaustive semantic plagiarism analysis of rewritten snippets."
+  },
+  "self_hosted_fonts": {
+    "status": "pass",
+    "font_face_declarations": [
+      {
+        "declaration": "font-family:\"Trace Home Serif\";src:url('../public/home/fonts/TraceHomeSerif-fixed.woff2') format('woff2');font-weight:250 900;font-display:swap",
+        "urls": [
+          "../public/home/fonts/TraceHomeSerif-fixed.woff2"
+        ],
+        "local_urls_only": true,
+        "resolved_paths": [
+          "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\fonts\\TraceHomeSerif-fixed.woff2"
+        ]
+      },
+      {
+        "declaration": "font-family:\"Trace Home Sans\";src:url('../public/home/fonts/TraceHomeSans-fixed.woff2') format('woff2');font-weight:100 900;font-display:swap",
+        "urls": [
+          "../public/home/fonts/TraceHomeSans-fixed.woff2"
+        ],
+        "local_urls_only": true,
+        "resolved_paths": [
+          "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\fonts\\TraceHomeSans-fixed.woff2"
+        ]
+      }
+    ],
+    "shipped_font_files": [
+      {
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\fonts\\TraceHomeSans-fixed.woff2",
+        "sha256": "910B4E5A05FCB8C0631AB64EB51D29417D833087C487AFDF9DDABDBB0B7D1EBE",
+        "family_names": [
+          "Trace Home Sans"
+        ],
+        "unicode_cmap_size": 319,
+        "glyph_count": 699,
+        "flavor": "woff2",
+        "axes": [
+          {
+            "tag": "wght",
+            "min": 100.0,
+            "max": 900.0
+          }
+        ]
+      },
+      {
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\public\\home\\fonts\\TraceHomeSerif-fixed.woff2",
+        "sha256": "023539D77B00A8164AEE9900BD24E0DC0928C1515D4F9A00477826ABB4FFE31D",
+        "family_names": [
+          "Trace Home Serif"
+        ],
+        "unicode_cmap_size": 319,
+        "glyph_count": 699,
+        "flavor": "woff2",
+        "axes": [
+          {
+            "tag": "wght",
+            "min": 250.0,
+            "max": 900.0
+          }
+        ]
+      }
+    ],
+    "only_fixed_copy_subsets_shipped": true,
+    "system_fallbacks_declared": [
+      "Songti SC",
+      "SimSun",
+      "Microsoft YaHei",
+      "PingFang SC"
+    ],
+    "full_original_fonts_copied": false,
+    "limitation": "Both subsets have 319 cmap codepoints. Arbitrary new user text depends on system fallback; this audit does not prove every glyph rendered or every active font network request."
+  },
+  "licenses": {
+    "status": "pass",
+    "note": "Five app license files match prepared upstream/derived license text byte-for-byte. Image provenance is generated/repaired rather than a downloaded third-party library license. License presence is not a legal clearance of all possible downstream uses."
+  },
+  "limits": [
+    "Source references and byte identity checked; no fresh browser/network/font-load observation performed.",
+    "Existing final-render.json has empty responses and errors arrays; it does not provide a font request trace for this audit.",
+    "No build, Electron packaging, service start/stop, screenshot capture or visual acceptance was performed.",
+    "A copied material vendor and source import do not prove SVG refraction actually paints in every state.",
+    "No app file was edited; only resource-integration.json was written."
+  ],
+  "audit_history": [
+    "Initial console readback encountered GBK encoding failure; repeated read with UTF-8 stdout succeeded. No file was altered by the failed read."
+  ],
+  "findings": [
+    {
+      "severity": "informational",
+      "subject": "adapter identity",
+      "summary": "The application adapter has three visible source-line changes relative to the prepared candidate; underlying vendor bytes match."
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "task_id": "trace-home-v1-assets-20260914",
+  "context_package_sha256": "FEC12772D27033E54E9EDB811486DE7C749DB5AFF054BF1BA3DE06628DC00CD7",
+  "git_baseline": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "checked_at_utc": "2026-09-14T13:53:50.593Z",
+  "tools": {
+    "node": "v22.23.1",
+    "esbuild": "0.25.9",
+    "esbuild_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\plugins\\trace-harness-plugin\\node_modules\\esbuild\\lib\\main.js"
+  },
+  "scope_baseline_checks": [
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\index.html",
+      "sha256": "50CE20C8068642930E6AE00234D05E471B900DAE843B93FF7C7A0FE271B02881",
+      "status": "unchanged-from-context-package"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\main.js",
+      "sha256": "0D9ECFDD8D779ADB47F4B545935FDC0EA1523203EABFF4FFE9A3C3891BC2F50D",
+      "status": "unchanged-from-context-package"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\apps\\desktop\\src\\style.css",
+      "sha256": "67BD3DBC61A825B146211C200F2D7D63D0A3F64D1E3B93A57B53AECA83819C74",
+      "status": "unchanged-from-context-package"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\plugins\\trace-harness-plugin\\build.mjs",
+      "sha256": "B5E46596592F47715F78B942B82F85DC3745F64ED98697F79B6511319AA445C1",
+      "status": "unchanged-from-context-package"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\trace-runtime\\plugins\\trace-harness-plugin\\src\\desktop\\main.mjs",
+      "sha256": "24ADFFA8CF611B5052DF2224ABEC9F34B7B225008D279FE502B42D5A98FD3370",
+      "status": "unchanged-from-context-package"
+    }
+  ],
+  "downloaded_file_count": 44,
+  "checks": [
+    {
+      "path": "originals/liquidglassjs/LICENSE",
+      "original_sha256": "pass",
+      "bytes": 1071
+    },
+    {
+      "path": "originals/liquidglassjs/README.md",
+      "original_sha256": "pass",
+      "bytes": 16877
+    },
+    {
+      "path": "originals/liquidglassjs/docs/GOTCHAS.md",
+      "original_sha256": "pass",
+      "bytes": 11005
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/package.json",
+      "original_sha256": "pass",
+      "bytes": 2695,
+      "syntax": "json-parse-pass"
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/blur-quantize.ts",
+      "original_sha256": "pass",
+      "bytes": 5814,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/color.ts",
+      "original_sha256": "pass",
+      "bytes": 1597,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/css/glass.css",
+      "original_sha256": "pass",
+      "bytes": 8011
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/css/glass.css.d.ts",
+      "original_sha256": "pass",
+      "bytes": 335
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/displacement.ts",
+      "original_sha256": "pass",
+      "bytes": 9984,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/dynamics.ts",
+      "original_sha256": "pass",
+      "bytes": 3883,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/filter-origin.ts",
+      "original_sha256": "pass",
+      "bytes": 9723,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/glass-group.ts",
+      "original_sha256": "pass",
+      "bytes": 8240,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/glass-lens.ts",
+      "original_sha256": "pass",
+      "bytes": 13863,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/glass-loupe.ts",
+      "original_sha256": "pass",
+      "bytes": 32763,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/glass-morph.ts",
+      "original_sha256": "pass",
+      "bytes": 32000,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/glass-shape.ts",
+      "original_sha256": "pass",
+      "bytes": 5113,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/glass-text.ts",
+      "original_sha256": "pass",
+      "bytes": 9655,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/glass-tween.ts",
+      "original_sha256": "pass",
+      "bytes": 4379,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/glyph-map.ts",
+      "original_sha256": "pass",
+      "bytes": 15532,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/group-map.ts",
+      "original_sha256": "pass",
+      "bytes": 9194,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/index.ts",
+      "original_sha256": "pass",
+      "bytes": 3836,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/map-encode.ts",
+      "original_sha256": "pass",
+      "bytes": 2821,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/mount-alpha-glass.ts",
+      "original_sha256": "pass",
+      "bytes": 13623,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/mount.ts",
+      "original_sha256": "pass",
+      "bytes": 37674,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/moz-backdrop.ts",
+      "original_sha256": "pass",
+      "bytes": 7135,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/svg-ripple.ts",
+      "original_sha256": "pass",
+      "bytes": 8327,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/liquidglassjs/packages/core/src/webgl.ts",
+      "original_sha256": "pass",
+      "bytes": 12381,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/animejs/LICENSE.md",
+      "original_sha256": "pass",
+      "bytes": 1075
+    },
+    {
+      "path": "originals/animejs/README.md",
+      "original_sha256": "pass",
+      "bytes": 5337
+    },
+    {
+      "path": "originals/animejs/dist/bundles/anime.esm.js",
+      "original_sha256": "pass",
+      "bytes": 408414,
+      "syntax": "node-esm-parse-pass"
+    },
+    {
+      "path": "originals/animejs/dist/bundles/anime.esm.min.js",
+      "original_sha256": "pass",
+      "bytes": 118678,
+      "syntax": "node-esm-parse-pass"
+    },
+    {
+      "path": "originals/animejs/package.json",
+      "original_sha256": "pass",
+      "bytes": 8344,
+      "syntax": "json-parse-pass"
+    },
+    {
+      "path": "originals/magicui-animated-beam/LICENSE.md",
+      "original_sha256": "pass",
+      "bytes": 1060
+    },
+    {
+      "path": "originals/magicui-animated-beam/apps/www/registry/example/animated-beam-multiple-inputs.tsx",
+      "original_sha256": "pass",
+      "bytes": 27208,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/magicui-animated-beam/apps/www/registry/example/animated-beam-multiple-outputs.tsx",
+      "original_sha256": "pass",
+      "bytes": 27348,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/magicui-animated-beam/apps/www/registry/magicui/animated-beam.tsx",
+      "original_sha256": "pass",
+      "bytes": 4986,
+      "syntax": "esbuild-static-parse-pass-not-typecheck",
+      "warnings": []
+    },
+    {
+      "path": "originals/codrops-shape-morph-reference-only/README.md",
+      "original_sha256": "pass",
+      "bytes": 1664
+    },
+    {
+      "path": "originals/codrops-shape-morph-reference-only/css/demo5.css",
+      "original_sha256": "pass",
+      "bytes": 3721
+    },
+    {
+      "path": "originals/codrops-shape-morph-reference-only/index5.html",
+      "original_sha256": "pass",
+      "bytes": 20977
+    },
+    {
+      "path": "originals/codrops-shape-morph-reference-only/js/demo5.js",
+      "original_sha256": "pass",
+      "bytes": 7185,
+      "syntax": "node-esm-parse-pass"
+    },
+    {
+      "path": "originals/rizzy-liquid-glass/LICENSE",
+      "original_sha256": "pass",
+      "bytes": 1065
+    },
+    {
+      "path": "originals/rizzy-liquid-glass/README.md",
+      "original_sha256": "pass",
+      "bytes": 8692
+    },
+    {
+      "path": "originals/rizzy-liquid-glass/core/liquid-glass.js",
+      "original_sha256": "pass",
+      "bytes": 7867,
+      "syntax": "node-esm-parse-pass"
+    },
+    {
+      "path": "originals/rizzy-liquid-glass/package.json",
+      "original_sha256": "pass",
+      "bytes": 372,
+      "syntax": "json-parse-pass"
+    }
+  ],
+  "build": {
+    "status": "pass",
+    "output": "derived/liquidglassjs/shape-only.mjs",
+    "warnings": [],
+    "inputs": [
+      "originals/liquidglassjs/packages/core/src/map-encode.ts",
+      "originals/liquidglassjs/packages/core/src/glyph-map.ts",
+      "originals/liquidglassjs/packages/core/src/color.ts",
+      "originals/liquidglassjs/packages/core/src/filter-origin.ts",
+      "originals/liquidglassjs/packages/core/src/blur-quantize.ts",
+      "originals/liquidglassjs/packages/core/src/mount-alpha-glass.ts",
+      "originals/liquidglassjs/packages/core/src/glass-shape.ts",
+      "derived/liquidglassjs/shape-entry.ts"
+    ],
+    "remaining_imports": [],
+    "syntax": "node-mjs-parse-pass",
+    "application_modules_executed": false
+  },
+  "not_run": [
+    "TypeScript semantic typecheck",
+    "DOM initialization",
+    "file:// import in actual Electron shell",
+    "SVG displacement rendering",
+    "60 fps animation/performance",
+    "six-image visual acceptance",
+    "source shape updates during morph"
+  ],
+  "constraints": [
+    "No upstream scripts, npm installs, lifecycle commands or project dependency edits ran.",
+    "Codrops remains reference-only and is absent from the derived bundle.",
+    "React AnimatedBeam is source-only; static parse does not satisfy dependency resolution or runtime validation."
+  ]
+}

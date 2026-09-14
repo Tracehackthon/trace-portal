@@ -1,0 +1,2581 @@
+{
+  "overview": {
+    "mode": "overview",
+    "selectedId": "collection",
+    "query": "",
+    "deepTab": "care",
+    "contextMode": "resume",
+    "matters": [
+      {
+        "id": "collection",
+        "title": "收藏后为什么接不回来",
+        "lastStop": "重新出现的理由，可能比分类更重要",
+        "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+        "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+        "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+        "laterChange": "出现了一篇与你当前理解相反的文章。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+          "challenges": "分类并不能自动恢复当时为什么在意。",
+          "uncertain": "个人表达是否一定是接续的必要条件。",
+          "sourceId": "collection-comparison"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "collection-quote-1",
+            "matterId": "collection",
+            "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+            "example": true
+          },
+          {
+            "id": "collection-quote-2",
+            "matterId": "collection",
+            "text": "重新出现的理由，可能比分类更重要。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "collection-original",
+            "matterId": "collection",
+            "title": "知乎原文 · 为什么收藏总会被遗忘",
+            "kind": "示例原文",
+            "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+            "url": null,
+            "example": true
+          },
+          {
+            "id": "collection-workplace",
+            "matterId": "collection",
+            "title": "Codex · harness · 首页设计讨论",
+            "kind": "示例工作现场",
+            "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+            "url": null,
+            "example": true
+          },
+          {
+            "id": "collection-comparison",
+            "matterId": "collection",
+            "title": "新的对照 · 重新进入的情境",
+            "kind": "示例对照",
+            "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": true
+      },
+      {
+        "id": "work",
+        "title": "工作 UI 如何承接",
+        "lastStop": "等待实际使用结果",
+        "contextHint": "你当时在 Codex · harness 的首页原型里留下它。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "工作界面需要承接正在做的事，而不是复制一个新的 Agent。",
+        "originalUnderstanding": "带入、参与做法、落实产物与得到使用结果不是同一程度。",
+        "unresolved": "等待实际使用结果，才能判断接续是否有帮助。",
+        "laterChange": "示例原型已经可操作，实际使用反馈仍未带回。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "实现完成不等于实际使用有效",
+          "challenges": "一个可运行的原型，不能直接证明真实用户能够顺利接续。",
+          "uncertain": "仍需要观察具体工作中的使用结果。",
+          "sourceId": "work-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "work-quote-1",
+            "matterId": "work",
+            "text": "工作实现完成，不能自动写成想法已经验证。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "work-original",
+            "matterId": "work",
+            "title": "Codex · harness · 工作接续原型",
+            "kind": "示例工作现场",
+            "excerpt": "在原生 Agent 当前工作旁边，呈现被带入的少量相关内容。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "fresh",
+        "title": "想重新看，不先被旧理解带走",
+        "lastStop": "一段新的感受刚刚出现",
+        "contextHint": "你想先重新阅读，留下这一次真实出现的感受。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "能接回历史，也需要允许历史暂时不带路。",
+        "originalUnderstanding": "先恢复旧理解可以帮助继续，但不是每次都适用。",
+        "unresolved": "这次想先看见什么，再决定是否与过去比较？",
+        "laterChange": "一段新的感受刚刚出现，还没有整理成结论。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "先表达这次感受，再决定是否比较历史",
+          "challenges": "旧理解存在，不代表这次必须沿着旧方向继续。",
+          "uncertain": "什么时候适合重新带回旧理解，仍由你判断。",
+          "sourceId": "fresh-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "fresh-quote-1",
+            "matterId": "fresh",
+            "text": "这不只是隐藏历史界面，而是改变本次使用的上下文。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "fresh-original",
+            "matterId": "fresh",
+            "title": "重新阅读 · 当下感受",
+            "kind": "示例个人现场",
+            "excerpt": "先不让旧理解带路，留出重新感受和判断的位置。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "handoff",
+        "title": "多 Agent 交接如何保留证据",
+        "lastStop": "需要和可追溯现场不是一回事",
+        "contextHint": "你在讨论多 Agent 交接时，区分了摘要与可回到的证据。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "交接需要能够重新核验现场，而不只是相信上一段摘要。",
+        "originalUnderstanding": "摘要可以导航，不能代替真实输入、产物和验证。",
+        "unresolved": "需要和可追溯现场不是一回事，下一位怎样确认当前事实？",
+        "laterChange": "示例交接里仍有一处待回答的问题。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "摘要完整，也可能无法重放关键判断",
+          "challenges": "交接内容多，不等于下一位能定位证据。",
+          "uncertain": "哪些证据是完成当前接续所需的最小集合？",
+          "sourceId": "handoff-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "handoff-quote-1",
+            "matterId": "handoff",
+            "text": "把待回答问题和实际证据一起交接。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "handoff-original",
+            "matterId": "handoff",
+            "title": "多 Agent 交接 · 证据与停点",
+            "kind": "示例讨论现场",
+            "excerpt": "摘要只作导航，原始输入与实际检查用于核验。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "ideas",
+        "title": "一些想法",
+        "lastStop": "还不够成熟",
+        "contextHint": "只是一些刚留下的想法，还不需要现在整理。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "有一点东西先别丢，也不要急着整理成结论。",
+        "originalUnderstanding": "还没有形成自己的判断。",
+        "unresolved": "还不够成熟，可以先收着。",
+        "laterChange": "尚无新的材料或结果。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "暂时不整理，也是一种有效停点",
+          "challenges": "模糊触动不一定要马上被加工成结论。",
+          "uncertain": "是否值得继续，可以等新的现场出现后再看。",
+          "sourceId": "ideas-original"
+        },
+        "branch": null,
+        "quotes": [],
+        "sources": [
+          {
+            "id": "ideas-original",
+            "matterId": "ideas",
+            "title": "留下一点 · 模糊想法",
+            "kind": "示例个人现场",
+            "excerpt": "先保留一点，不强制标题、分类和结论。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "team",
+        "title": "团队方法怎样从实践中修订",
+        "lastStop": "个人修改不能静默变成团队规则",
+        "contextHint": "你在一次方法修订讨论里，留下了修改范围的问题。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "个人试用发现需要保留范围，不应直接变成所有人的要求。",
+        "originalUnderstanding": "个人修改、项目采用和团队发布需要分别确认。",
+        "unresolved": "怎样让实践发现参与修订，同时保留采用范围？",
+        "laterChange": "示例中有一条个人发现，还没有经过团队采用。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "一次局部成功不能自动泛化为团队规则",
+          "challenges": "发现有用不等于已经适用于所有场景。",
+          "uncertain": "适用条件、验证范围与采用决定仍未确认。",
+          "sourceId": "team-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "team-quote-1",
+            "matterId": "team",
+            "text": "个人修改不能静默扩大为项目或团队规则。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "team-original",
+            "matterId": "team",
+            "title": "团队方法 · 实践修订讨论",
+            "kind": "示例讨论现场",
+            "excerpt": "将发现、验证、采用和发布分别保留为明确决定。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      }
+    ],
+    "selected": {
+      "id": "collection",
+      "title": "收藏后为什么接不回来",
+      "lastStop": "重新出现的理由，可能比分类更重要",
+      "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+      "changed": false,
+      "relation": "unreviewed",
+      "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+      "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+      "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+      "laterChange": "出现了一篇与你当前理解相反的文章。",
+      "currentJudgment": "",
+      "understanding": "",
+      "draft": "",
+      "understandingDraft": "",
+      "freshDraft": "",
+      "freshUnderstandingDraft": "",
+      "comparison": {
+        "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+        "challenges": "分类并不能自动恢复当时为什么在意。",
+        "uncertain": "个人表达是否一定是接续的必要条件。",
+        "sourceId": "collection-comparison"
+      },
+      "branch": null,
+      "quotes": [
+        {
+          "id": "collection-quote-1",
+          "matterId": "collection",
+          "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+          "example": true
+        },
+        {
+          "id": "collection-quote-2",
+          "matterId": "collection",
+          "text": "重新出现的理由，可能比分类更重要。",
+          "example": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "collection-original",
+          "matterId": "collection",
+          "title": "知乎原文 · 为什么收藏总会被遗忘",
+          "kind": "示例原文",
+          "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+          "url": null,
+          "example": true
+        },
+        {
+          "id": "collection-workplace",
+          "matterId": "collection",
+          "title": "Codex · harness · 首页设计讨论",
+          "kind": "示例工作现场",
+          "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+          "url": null,
+          "example": true
+        },
+        {
+          "id": "collection-comparison",
+          "matterId": "collection",
+          "title": "新的对照 · 重新进入的情境",
+          "kind": "示例对照",
+          "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+          "url": null,
+          "example": true
+        }
+      ],
+      "example": true,
+      "hasComparison": true
+    },
+    "search": {
+      "matters": [],
+      "quotes": [],
+      "sources": [],
+      "counts": {
+        "matters": 0,
+        "quotes": 0,
+        "sources": 0
+      }
+    },
+    "notice": "",
+    "context": {
+      "matterId": "collection",
+      "mode": "resume",
+      "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+      "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+      "currentUnderstanding": null,
+      "currentJudgment": null,
+      "lastStop": "重新出现的理由，可能比分类更重要",
+      "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+      "sourceIds": [
+        "collection-original",
+        "collection-workplace",
+        "collection-comparison"
+      ],
+      "comparison": {
+        "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+        "challenges": "分类并不能自动恢复当时为什么在意。",
+        "uncertain": "个人表达是否一定是接续的必要条件。",
+        "sourceId": "collection-comparison"
+      },
+      "comparisonRelation": "unreviewed",
+      "comparisonAdopted": false
+    },
+    "example": true
+  },
+  "reentry": {
+    "mode": "reentry",
+    "selectedId": "collection",
+    "query": "",
+    "deepTab": "care",
+    "contextMode": "resume",
+    "matters": [
+      {
+        "id": "collection",
+        "title": "收藏后为什么接不回来",
+        "lastStop": "重新出现的理由，可能比分类更重要",
+        "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+        "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+        "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+        "laterChange": "出现了一篇与你当前理解相反的文章。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+          "challenges": "分类并不能自动恢复当时为什么在意。",
+          "uncertain": "个人表达是否一定是接续的必要条件。",
+          "sourceId": "collection-comparison"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "collection-quote-1",
+            "matterId": "collection",
+            "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+            "example": true
+          },
+          {
+            "id": "collection-quote-2",
+            "matterId": "collection",
+            "text": "重新出现的理由，可能比分类更重要。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "collection-original",
+            "matterId": "collection",
+            "title": "知乎原文 · 为什么收藏总会被遗忘",
+            "kind": "示例原文",
+            "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+            "url": null,
+            "example": true
+          },
+          {
+            "id": "collection-workplace",
+            "matterId": "collection",
+            "title": "Codex · harness · 首页设计讨论",
+            "kind": "示例工作现场",
+            "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+            "url": null,
+            "example": true
+          },
+          {
+            "id": "collection-comparison",
+            "matterId": "collection",
+            "title": "新的对照 · 重新进入的情境",
+            "kind": "示例对照",
+            "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": true
+      },
+      {
+        "id": "work",
+        "title": "工作 UI 如何承接",
+        "lastStop": "等待实际使用结果",
+        "contextHint": "你当时在 Codex · harness 的首页原型里留下它。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "工作界面需要承接正在做的事，而不是复制一个新的 Agent。",
+        "originalUnderstanding": "带入、参与做法、落实产物与得到使用结果不是同一程度。",
+        "unresolved": "等待实际使用结果，才能判断接续是否有帮助。",
+        "laterChange": "示例原型已经可操作，实际使用反馈仍未带回。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "实现完成不等于实际使用有效",
+          "challenges": "一个可运行的原型，不能直接证明真实用户能够顺利接续。",
+          "uncertain": "仍需要观察具体工作中的使用结果。",
+          "sourceId": "work-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "work-quote-1",
+            "matterId": "work",
+            "text": "工作实现完成，不能自动写成想法已经验证。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "work-original",
+            "matterId": "work",
+            "title": "Codex · harness · 工作接续原型",
+            "kind": "示例工作现场",
+            "excerpt": "在原生 Agent 当前工作旁边，呈现被带入的少量相关内容。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "fresh",
+        "title": "想重新看，不先被旧理解带走",
+        "lastStop": "一段新的感受刚刚出现",
+        "contextHint": "你想先重新阅读，留下这一次真实出现的感受。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "能接回历史，也需要允许历史暂时不带路。",
+        "originalUnderstanding": "先恢复旧理解可以帮助继续，但不是每次都适用。",
+        "unresolved": "这次想先看见什么，再决定是否与过去比较？",
+        "laterChange": "一段新的感受刚刚出现，还没有整理成结论。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "先表达这次感受，再决定是否比较历史",
+          "challenges": "旧理解存在，不代表这次必须沿着旧方向继续。",
+          "uncertain": "什么时候适合重新带回旧理解，仍由你判断。",
+          "sourceId": "fresh-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "fresh-quote-1",
+            "matterId": "fresh",
+            "text": "这不只是隐藏历史界面，而是改变本次使用的上下文。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "fresh-original",
+            "matterId": "fresh",
+            "title": "重新阅读 · 当下感受",
+            "kind": "示例个人现场",
+            "excerpt": "先不让旧理解带路，留出重新感受和判断的位置。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "handoff",
+        "title": "多 Agent 交接如何保留证据",
+        "lastStop": "需要和可追溯现场不是一回事",
+        "contextHint": "你在讨论多 Agent 交接时，区分了摘要与可回到的证据。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "交接需要能够重新核验现场，而不只是相信上一段摘要。",
+        "originalUnderstanding": "摘要可以导航，不能代替真实输入、产物和验证。",
+        "unresolved": "需要和可追溯现场不是一回事，下一位怎样确认当前事实？",
+        "laterChange": "示例交接里仍有一处待回答的问题。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "摘要完整，也可能无法重放关键判断",
+          "challenges": "交接内容多，不等于下一位能定位证据。",
+          "uncertain": "哪些证据是完成当前接续所需的最小集合？",
+          "sourceId": "handoff-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "handoff-quote-1",
+            "matterId": "handoff",
+            "text": "把待回答问题和实际证据一起交接。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "handoff-original",
+            "matterId": "handoff",
+            "title": "多 Agent 交接 · 证据与停点",
+            "kind": "示例讨论现场",
+            "excerpt": "摘要只作导航，原始输入与实际检查用于核验。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "ideas",
+        "title": "一些想法",
+        "lastStop": "还不够成熟",
+        "contextHint": "只是一些刚留下的想法，还不需要现在整理。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "有一点东西先别丢，也不要急着整理成结论。",
+        "originalUnderstanding": "还没有形成自己的判断。",
+        "unresolved": "还不够成熟，可以先收着。",
+        "laterChange": "尚无新的材料或结果。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "暂时不整理，也是一种有效停点",
+          "challenges": "模糊触动不一定要马上被加工成结论。",
+          "uncertain": "是否值得继续，可以等新的现场出现后再看。",
+          "sourceId": "ideas-original"
+        },
+        "branch": null,
+        "quotes": [],
+        "sources": [
+          {
+            "id": "ideas-original",
+            "matterId": "ideas",
+            "title": "留下一点 · 模糊想法",
+            "kind": "示例个人现场",
+            "excerpt": "先保留一点，不强制标题、分类和结论。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "team",
+        "title": "团队方法怎样从实践中修订",
+        "lastStop": "个人修改不能静默变成团队规则",
+        "contextHint": "你在一次方法修订讨论里，留下了修改范围的问题。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "个人试用发现需要保留范围，不应直接变成所有人的要求。",
+        "originalUnderstanding": "个人修改、项目采用和团队发布需要分别确认。",
+        "unresolved": "怎样让实践发现参与修订，同时保留采用范围？",
+        "laterChange": "示例中有一条个人发现，还没有经过团队采用。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "一次局部成功不能自动泛化为团队规则",
+          "challenges": "发现有用不等于已经适用于所有场景。",
+          "uncertain": "适用条件、验证范围与采用决定仍未确认。",
+          "sourceId": "team-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "team-quote-1",
+            "matterId": "team",
+            "text": "个人修改不能静默扩大为项目或团队规则。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "team-original",
+            "matterId": "team",
+            "title": "团队方法 · 实践修订讨论",
+            "kind": "示例讨论现场",
+            "excerpt": "将发现、验证、采用和发布分别保留为明确决定。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      }
+    ],
+    "selected": {
+      "id": "collection",
+      "title": "收藏后为什么接不回来",
+      "lastStop": "重新出现的理由，可能比分类更重要",
+      "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+      "changed": false,
+      "relation": "unreviewed",
+      "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+      "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+      "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+      "laterChange": "出现了一篇与你当前理解相反的文章。",
+      "currentJudgment": "",
+      "understanding": "",
+      "draft": "",
+      "understandingDraft": "",
+      "freshDraft": "",
+      "freshUnderstandingDraft": "",
+      "comparison": {
+        "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+        "challenges": "分类并不能自动恢复当时为什么在意。",
+        "uncertain": "个人表达是否一定是接续的必要条件。",
+        "sourceId": "collection-comparison"
+      },
+      "branch": null,
+      "quotes": [
+        {
+          "id": "collection-quote-1",
+          "matterId": "collection",
+          "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+          "example": true
+        },
+        {
+          "id": "collection-quote-2",
+          "matterId": "collection",
+          "text": "重新出现的理由，可能比分类更重要。",
+          "example": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "collection-original",
+          "matterId": "collection",
+          "title": "知乎原文 · 为什么收藏总会被遗忘",
+          "kind": "示例原文",
+          "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+          "url": null,
+          "example": true
+        },
+        {
+          "id": "collection-workplace",
+          "matterId": "collection",
+          "title": "Codex · harness · 首页设计讨论",
+          "kind": "示例工作现场",
+          "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+          "url": null,
+          "example": true
+        },
+        {
+          "id": "collection-comparison",
+          "matterId": "collection",
+          "title": "新的对照 · 重新进入的情境",
+          "kind": "示例对照",
+          "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+          "url": null,
+          "example": true
+        }
+      ],
+      "example": true,
+      "hasComparison": true
+    },
+    "search": {
+      "matters": [],
+      "quotes": [],
+      "sources": [],
+      "counts": {
+        "matters": 0,
+        "quotes": 0,
+        "sources": 0
+      }
+    },
+    "notice": "",
+    "context": {
+      "matterId": "collection",
+      "mode": "resume",
+      "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+      "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+      "currentUnderstanding": null,
+      "currentJudgment": null,
+      "lastStop": "重新出现的理由，可能比分类更重要",
+      "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+      "sourceIds": [
+        "collection-original",
+        "collection-workplace",
+        "collection-comparison"
+      ],
+      "comparison": {
+        "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+        "challenges": "分类并不能自动恢复当时为什么在意。",
+        "uncertain": "个人表达是否一定是接续的必要条件。",
+        "sourceId": "collection-comparison"
+      },
+      "comparisonRelation": "unreviewed",
+      "comparisonAdopted": false
+    },
+    "example": true
+  },
+  "search": {
+    "mode": "search",
+    "selectedId": "collection",
+    "query": "收藏 为什么接不回来",
+    "deepTab": "care",
+    "contextMode": "resume",
+    "matters": [
+      {
+        "id": "collection",
+        "title": "收藏后为什么接不回来",
+        "lastStop": "重新出现的理由，可能比分类更重要",
+        "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+        "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+        "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+        "laterChange": "出现了一篇与你当前理解相反的文章。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+          "challenges": "分类并不能自动恢复当时为什么在意。",
+          "uncertain": "个人表达是否一定是接续的必要条件。",
+          "sourceId": "collection-comparison"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "collection-quote-1",
+            "matterId": "collection",
+            "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+            "example": true
+          },
+          {
+            "id": "collection-quote-2",
+            "matterId": "collection",
+            "text": "重新出现的理由，可能比分类更重要。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "collection-original",
+            "matterId": "collection",
+            "title": "知乎原文 · 为什么收藏总会被遗忘",
+            "kind": "示例原文",
+            "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+            "url": null,
+            "example": true
+          },
+          {
+            "id": "collection-workplace",
+            "matterId": "collection",
+            "title": "Codex · harness · 首页设计讨论",
+            "kind": "示例工作现场",
+            "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+            "url": null,
+            "example": true
+          },
+          {
+            "id": "collection-comparison",
+            "matterId": "collection",
+            "title": "新的对照 · 重新进入的情境",
+            "kind": "示例对照",
+            "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": true
+      },
+      {
+        "id": "work",
+        "title": "工作 UI 如何承接",
+        "lastStop": "等待实际使用结果",
+        "contextHint": "你当时在 Codex · harness 的首页原型里留下它。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "工作界面需要承接正在做的事，而不是复制一个新的 Agent。",
+        "originalUnderstanding": "带入、参与做法、落实产物与得到使用结果不是同一程度。",
+        "unresolved": "等待实际使用结果，才能判断接续是否有帮助。",
+        "laterChange": "示例原型已经可操作，实际使用反馈仍未带回。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "实现完成不等于实际使用有效",
+          "challenges": "一个可运行的原型，不能直接证明真实用户能够顺利接续。",
+          "uncertain": "仍需要观察具体工作中的使用结果。",
+          "sourceId": "work-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "work-quote-1",
+            "matterId": "work",
+            "text": "工作实现完成，不能自动写成想法已经验证。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "work-original",
+            "matterId": "work",
+            "title": "Codex · harness · 工作接续原型",
+            "kind": "示例工作现场",
+            "excerpt": "在原生 Agent 当前工作旁边，呈现被带入的少量相关内容。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "fresh",
+        "title": "想重新看，不先被旧理解带走",
+        "lastStop": "一段新的感受刚刚出现",
+        "contextHint": "你想先重新阅读，留下这一次真实出现的感受。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "能接回历史，也需要允许历史暂时不带路。",
+        "originalUnderstanding": "先恢复旧理解可以帮助继续，但不是每次都适用。",
+        "unresolved": "这次想先看见什么，再决定是否与过去比较？",
+        "laterChange": "一段新的感受刚刚出现，还没有整理成结论。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "先表达这次感受，再决定是否比较历史",
+          "challenges": "旧理解存在，不代表这次必须沿着旧方向继续。",
+          "uncertain": "什么时候适合重新带回旧理解，仍由你判断。",
+          "sourceId": "fresh-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "fresh-quote-1",
+            "matterId": "fresh",
+            "text": "这不只是隐藏历史界面，而是改变本次使用的上下文。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "fresh-original",
+            "matterId": "fresh",
+            "title": "重新阅读 · 当下感受",
+            "kind": "示例个人现场",
+            "excerpt": "先不让旧理解带路，留出重新感受和判断的位置。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "handoff",
+        "title": "多 Agent 交接如何保留证据",
+        "lastStop": "需要和可追溯现场不是一回事",
+        "contextHint": "你在讨论多 Agent 交接时，区分了摘要与可回到的证据。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "交接需要能够重新核验现场，而不只是相信上一段摘要。",
+        "originalUnderstanding": "摘要可以导航，不能代替真实输入、产物和验证。",
+        "unresolved": "需要和可追溯现场不是一回事，下一位怎样确认当前事实？",
+        "laterChange": "示例交接里仍有一处待回答的问题。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "摘要完整，也可能无法重放关键判断",
+          "challenges": "交接内容多，不等于下一位能定位证据。",
+          "uncertain": "哪些证据是完成当前接续所需的最小集合？",
+          "sourceId": "handoff-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "handoff-quote-1",
+            "matterId": "handoff",
+            "text": "把待回答问题和实际证据一起交接。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "handoff-original",
+            "matterId": "handoff",
+            "title": "多 Agent 交接 · 证据与停点",
+            "kind": "示例讨论现场",
+            "excerpt": "摘要只作导航，原始输入与实际检查用于核验。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "ideas",
+        "title": "一些想法",
+        "lastStop": "还不够成熟",
+        "contextHint": "只是一些刚留下的想法，还不需要现在整理。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "有一点东西先别丢，也不要急着整理成结论。",
+        "originalUnderstanding": "还没有形成自己的判断。",
+        "unresolved": "还不够成熟，可以先收着。",
+        "laterChange": "尚无新的材料或结果。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "暂时不整理，也是一种有效停点",
+          "challenges": "模糊触动不一定要马上被加工成结论。",
+          "uncertain": "是否值得继续，可以等新的现场出现后再看。",
+          "sourceId": "ideas-original"
+        },
+        "branch": null,
+        "quotes": [],
+        "sources": [
+          {
+            "id": "ideas-original",
+            "matterId": "ideas",
+            "title": "留下一点 · 模糊想法",
+            "kind": "示例个人现场",
+            "excerpt": "先保留一点，不强制标题、分类和结论。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "team",
+        "title": "团队方法怎样从实践中修订",
+        "lastStop": "个人修改不能静默变成团队规则",
+        "contextHint": "你在一次方法修订讨论里，留下了修改范围的问题。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "个人试用发现需要保留范围，不应直接变成所有人的要求。",
+        "originalUnderstanding": "个人修改、项目采用和团队发布需要分别确认。",
+        "unresolved": "怎样让实践发现参与修订，同时保留采用范围？",
+        "laterChange": "示例中有一条个人发现，还没有经过团队采用。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "一次局部成功不能自动泛化为团队规则",
+          "challenges": "发现有用不等于已经适用于所有场景。",
+          "uncertain": "适用条件、验证范围与采用决定仍未确认。",
+          "sourceId": "team-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "team-quote-1",
+            "matterId": "team",
+            "text": "个人修改不能静默扩大为项目或团队规则。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "team-original",
+            "matterId": "team",
+            "title": "团队方法 · 实践修订讨论",
+            "kind": "示例讨论现场",
+            "excerpt": "将发现、验证、采用和发布分别保留为明确决定。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      }
+    ],
+    "selected": {
+      "id": "collection",
+      "title": "收藏后为什么接不回来",
+      "lastStop": "重新出现的理由，可能比分类更重要",
+      "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+      "changed": false,
+      "relation": "unreviewed",
+      "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+      "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+      "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+      "laterChange": "出现了一篇与你当前理解相反的文章。",
+      "currentJudgment": "",
+      "understanding": "",
+      "draft": "",
+      "understandingDraft": "",
+      "freshDraft": "",
+      "freshUnderstandingDraft": "",
+      "comparison": {
+        "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+        "challenges": "分类并不能自动恢复当时为什么在意。",
+        "uncertain": "个人表达是否一定是接续的必要条件。",
+        "sourceId": "collection-comparison"
+      },
+      "branch": null,
+      "quotes": [
+        {
+          "id": "collection-quote-1",
+          "matterId": "collection",
+          "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+          "example": true
+        },
+        {
+          "id": "collection-quote-2",
+          "matterId": "collection",
+          "text": "重新出现的理由，可能比分类更重要。",
+          "example": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "collection-original",
+          "matterId": "collection",
+          "title": "知乎原文 · 为什么收藏总会被遗忘",
+          "kind": "示例原文",
+          "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+          "url": null,
+          "example": true
+        },
+        {
+          "id": "collection-workplace",
+          "matterId": "collection",
+          "title": "Codex · harness · 首页设计讨论",
+          "kind": "示例工作现场",
+          "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+          "url": null,
+          "example": true
+        },
+        {
+          "id": "collection-comparison",
+          "matterId": "collection",
+          "title": "新的对照 · 重新进入的情境",
+          "kind": "示例对照",
+          "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+          "url": null,
+          "example": true
+        }
+      ],
+      "example": true,
+      "hasComparison": true
+    },
+    "search": {
+      "matters": [
+        {
+          "id": "collection",
+          "title": "收藏后为什么接不回来",
+          "lastStop": "重新出现的理由，可能比分类更重要",
+          "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+          "changed": false,
+          "relation": "unreviewed",
+          "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+          "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+          "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+          "laterChange": "出现了一篇与你当前理解相反的文章。",
+          "currentJudgment": "",
+          "understanding": "",
+          "draft": "",
+          "understandingDraft": "",
+          "freshDraft": "",
+          "freshUnderstandingDraft": "",
+          "comparison": {
+            "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+            "challenges": "分类并不能自动恢复当时为什么在意。",
+            "uncertain": "个人表达是否一定是接续的必要条件。",
+            "sourceId": "collection-comparison"
+          },
+          "branch": null,
+          "quotes": [
+            {
+              "id": "collection-quote-1",
+              "matterId": "collection",
+              "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+              "example": true
+            },
+            {
+              "id": "collection-quote-2",
+              "matterId": "collection",
+              "text": "重新出现的理由，可能比分类更重要。",
+              "example": true
+            }
+          ],
+          "sources": [
+            {
+              "id": "collection-original",
+              "matterId": "collection",
+              "title": "知乎原文 · 为什么收藏总会被遗忘",
+              "kind": "示例原文",
+              "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+              "url": null,
+              "example": true
+            },
+            {
+              "id": "collection-workplace",
+              "matterId": "collection",
+              "title": "Codex · harness · 首页设计讨论",
+              "kind": "示例工作现场",
+              "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+              "url": null,
+              "example": true
+            },
+            {
+              "id": "collection-comparison",
+              "matterId": "collection",
+              "title": "新的对照 · 重新进入的情境",
+              "kind": "示例对照",
+              "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+              "url": null,
+              "example": true
+            }
+          ],
+          "example": true,
+          "hasComparison": true
+        }
+      ],
+      "quotes": [
+        {
+          "id": "collection-quote-1",
+          "matterId": "collection",
+          "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+          "example": true,
+          "matterTitle": "收藏后为什么接不回来"
+        },
+        {
+          "id": "collection-quote-2",
+          "matterId": "collection",
+          "text": "重新出现的理由，可能比分类更重要。",
+          "example": true,
+          "matterTitle": "收藏后为什么接不回来"
+        }
+      ],
+      "sources": [
+        {
+          "id": "collection-original",
+          "matterId": "collection",
+          "title": "知乎原文 · 为什么收藏总会被遗忘",
+          "kind": "示例原文",
+          "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+          "url": null,
+          "example": true,
+          "matterTitle": "收藏后为什么接不回来"
+        },
+        {
+          "id": "collection-workplace",
+          "matterId": "collection",
+          "title": "Codex · harness · 首页设计讨论",
+          "kind": "示例工作现场",
+          "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+          "url": null,
+          "example": true,
+          "matterTitle": "收藏后为什么接不回来"
+        },
+        {
+          "id": "collection-comparison",
+          "matterId": "collection",
+          "title": "新的对照 · 重新进入的情境",
+          "kind": "示例对照",
+          "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+          "url": null,
+          "example": true,
+          "matterTitle": "收藏后为什么接不回来"
+        }
+      ],
+      "counts": {
+        "matters": 1,
+        "quotes": 2,
+        "sources": 3
+      }
+    },
+    "notice": "",
+    "context": {
+      "matterId": "collection",
+      "mode": "resume",
+      "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+      "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+      "currentUnderstanding": null,
+      "currentJudgment": null,
+      "lastStop": "重新出现的理由，可能比分类更重要",
+      "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+      "sourceIds": [
+        "collection-original",
+        "collection-workplace",
+        "collection-comparison"
+      ],
+      "comparison": {
+        "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+        "challenges": "分类并不能自动恢复当时为什么在意。",
+        "uncertain": "个人表达是否一定是接续的必要条件。",
+        "sourceId": "collection-comparison"
+      },
+      "comparisonRelation": "unreviewed",
+      "comparisonAdopted": false
+    },
+    "example": true
+  },
+  "deep": {
+    "mode": "deep",
+    "selectedId": "collection",
+    "query": "",
+    "deepTab": "comparison",
+    "contextMode": "resume",
+    "matters": [
+      {
+        "id": "collection",
+        "title": "收藏后为什么接不回来",
+        "lastStop": "重新出现的理由，可能比分类更重要",
+        "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+        "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+        "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+        "laterChange": "出现了一篇与你当前理解相反的文章。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+          "challenges": "分类并不能自动恢复当时为什么在意。",
+          "uncertain": "个人表达是否一定是接续的必要条件。",
+          "sourceId": "collection-comparison"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "collection-quote-1",
+            "matterId": "collection",
+            "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+            "example": true
+          },
+          {
+            "id": "collection-quote-2",
+            "matterId": "collection",
+            "text": "重新出现的理由，可能比分类更重要。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "collection-original",
+            "matterId": "collection",
+            "title": "知乎原文 · 为什么收藏总会被遗忘",
+            "kind": "示例原文",
+            "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+            "url": null,
+            "example": true
+          },
+          {
+            "id": "collection-workplace",
+            "matterId": "collection",
+            "title": "Codex · harness · 首页设计讨论",
+            "kind": "示例工作现场",
+            "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+            "url": null,
+            "example": true
+          },
+          {
+            "id": "collection-comparison",
+            "matterId": "collection",
+            "title": "新的对照 · 重新进入的情境",
+            "kind": "示例对照",
+            "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": true
+      },
+      {
+        "id": "work",
+        "title": "工作 UI 如何承接",
+        "lastStop": "等待实际使用结果",
+        "contextHint": "你当时在 Codex · harness 的首页原型里留下它。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "工作界面需要承接正在做的事，而不是复制一个新的 Agent。",
+        "originalUnderstanding": "带入、参与做法、落实产物与得到使用结果不是同一程度。",
+        "unresolved": "等待实际使用结果，才能判断接续是否有帮助。",
+        "laterChange": "示例原型已经可操作，实际使用反馈仍未带回。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "实现完成不等于实际使用有效",
+          "challenges": "一个可运行的原型，不能直接证明真实用户能够顺利接续。",
+          "uncertain": "仍需要观察具体工作中的使用结果。",
+          "sourceId": "work-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "work-quote-1",
+            "matterId": "work",
+            "text": "工作实现完成，不能自动写成想法已经验证。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "work-original",
+            "matterId": "work",
+            "title": "Codex · harness · 工作接续原型",
+            "kind": "示例工作现场",
+            "excerpt": "在原生 Agent 当前工作旁边，呈现被带入的少量相关内容。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "fresh",
+        "title": "想重新看，不先被旧理解带走",
+        "lastStop": "一段新的感受刚刚出现",
+        "contextHint": "你想先重新阅读，留下这一次真实出现的感受。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "能接回历史，也需要允许历史暂时不带路。",
+        "originalUnderstanding": "先恢复旧理解可以帮助继续，但不是每次都适用。",
+        "unresolved": "这次想先看见什么，再决定是否与过去比较？",
+        "laterChange": "一段新的感受刚刚出现，还没有整理成结论。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "先表达这次感受，再决定是否比较历史",
+          "challenges": "旧理解存在，不代表这次必须沿着旧方向继续。",
+          "uncertain": "什么时候适合重新带回旧理解，仍由你判断。",
+          "sourceId": "fresh-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "fresh-quote-1",
+            "matterId": "fresh",
+            "text": "这不只是隐藏历史界面，而是改变本次使用的上下文。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "fresh-original",
+            "matterId": "fresh",
+            "title": "重新阅读 · 当下感受",
+            "kind": "示例个人现场",
+            "excerpt": "先不让旧理解带路，留出重新感受和判断的位置。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "handoff",
+        "title": "多 Agent 交接如何保留证据",
+        "lastStop": "需要和可追溯现场不是一回事",
+        "contextHint": "你在讨论多 Agent 交接时，区分了摘要与可回到的证据。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "交接需要能够重新核验现场，而不只是相信上一段摘要。",
+        "originalUnderstanding": "摘要可以导航，不能代替真实输入、产物和验证。",
+        "unresolved": "需要和可追溯现场不是一回事，下一位怎样确认当前事实？",
+        "laterChange": "示例交接里仍有一处待回答的问题。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "摘要完整，也可能无法重放关键判断",
+          "challenges": "交接内容多，不等于下一位能定位证据。",
+          "uncertain": "哪些证据是完成当前接续所需的最小集合？",
+          "sourceId": "handoff-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "handoff-quote-1",
+            "matterId": "handoff",
+            "text": "把待回答问题和实际证据一起交接。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "handoff-original",
+            "matterId": "handoff",
+            "title": "多 Agent 交接 · 证据与停点",
+            "kind": "示例讨论现场",
+            "excerpt": "摘要只作导航，原始输入与实际检查用于核验。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "ideas",
+        "title": "一些想法",
+        "lastStop": "还不够成熟",
+        "contextHint": "只是一些刚留下的想法，还不需要现在整理。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "有一点东西先别丢，也不要急着整理成结论。",
+        "originalUnderstanding": "还没有形成自己的判断。",
+        "unresolved": "还不够成熟，可以先收着。",
+        "laterChange": "尚无新的材料或结果。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "暂时不整理，也是一种有效停点",
+          "challenges": "模糊触动不一定要马上被加工成结论。",
+          "uncertain": "是否值得继续，可以等新的现场出现后再看。",
+          "sourceId": "ideas-original"
+        },
+        "branch": null,
+        "quotes": [],
+        "sources": [
+          {
+            "id": "ideas-original",
+            "matterId": "ideas",
+            "title": "留下一点 · 模糊想法",
+            "kind": "示例个人现场",
+            "excerpt": "先保留一点，不强制标题、分类和结论。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "team",
+        "title": "团队方法怎样从实践中修订",
+        "lastStop": "个人修改不能静默变成团队规则",
+        "contextHint": "你在一次方法修订讨论里，留下了修改范围的问题。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "个人试用发现需要保留范围，不应直接变成所有人的要求。",
+        "originalUnderstanding": "个人修改、项目采用和团队发布需要分别确认。",
+        "unresolved": "怎样让实践发现参与修订，同时保留采用范围？",
+        "laterChange": "示例中有一条个人发现，还没有经过团队采用。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "一次局部成功不能自动泛化为团队规则",
+          "challenges": "发现有用不等于已经适用于所有场景。",
+          "uncertain": "适用条件、验证范围与采用决定仍未确认。",
+          "sourceId": "team-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "team-quote-1",
+            "matterId": "team",
+            "text": "个人修改不能静默扩大为项目或团队规则。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "team-original",
+            "matterId": "team",
+            "title": "团队方法 · 实践修订讨论",
+            "kind": "示例讨论现场",
+            "excerpt": "将发现、验证、采用和发布分别保留为明确决定。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      }
+    ],
+    "selected": {
+      "id": "collection",
+      "title": "收藏后为什么接不回来",
+      "lastStop": "重新出现的理由，可能比分类更重要",
+      "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+      "changed": false,
+      "relation": "unreviewed",
+      "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+      "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+      "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+      "laterChange": "出现了一篇与你当前理解相反的文章。",
+      "currentJudgment": "",
+      "understanding": "",
+      "draft": "",
+      "understandingDraft": "",
+      "freshDraft": "",
+      "freshUnderstandingDraft": "",
+      "comparison": {
+        "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+        "challenges": "分类并不能自动恢复当时为什么在意。",
+        "uncertain": "个人表达是否一定是接续的必要条件。",
+        "sourceId": "collection-comparison"
+      },
+      "branch": null,
+      "quotes": [
+        {
+          "id": "collection-quote-1",
+          "matterId": "collection",
+          "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+          "example": true
+        },
+        {
+          "id": "collection-quote-2",
+          "matterId": "collection",
+          "text": "重新出现的理由，可能比分类更重要。",
+          "example": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "collection-original",
+          "matterId": "collection",
+          "title": "知乎原文 · 为什么收藏总会被遗忘",
+          "kind": "示例原文",
+          "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+          "url": null,
+          "example": true
+        },
+        {
+          "id": "collection-workplace",
+          "matterId": "collection",
+          "title": "Codex · harness · 首页设计讨论",
+          "kind": "示例工作现场",
+          "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+          "url": null,
+          "example": true
+        },
+        {
+          "id": "collection-comparison",
+          "matterId": "collection",
+          "title": "新的对照 · 重新进入的情境",
+          "kind": "示例对照",
+          "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+          "url": null,
+          "example": true
+        }
+      ],
+      "example": true,
+      "hasComparison": true
+    },
+    "search": {
+      "matters": [],
+      "quotes": [],
+      "sources": [],
+      "counts": {
+        "matters": 0,
+        "quotes": 0,
+        "sources": 0
+      }
+    },
+    "notice": "",
+    "context": {
+      "matterId": "collection",
+      "mode": "resume",
+      "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+      "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+      "currentUnderstanding": null,
+      "currentJudgment": null,
+      "lastStop": "重新出现的理由，可能比分类更重要",
+      "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+      "sourceIds": [
+        "collection-original",
+        "collection-workplace",
+        "collection-comparison"
+      ],
+      "comparison": {
+        "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+        "challenges": "分类并不能自动恢复当时为什么在意。",
+        "uncertain": "个人表达是否一定是接续的必要条件。",
+        "sourceId": "collection-comparison"
+      },
+      "comparisonRelation": "unreviewed",
+      "comparisonAdopted": false
+    },
+    "example": true
+  },
+  "fresh": {
+    "mode": "deep",
+    "selectedId": "collection",
+    "query": "",
+    "deepTab": "care",
+    "contextMode": "fresh",
+    "matters": [
+      {
+        "id": "collection",
+        "title": "收藏后为什么接不回来",
+        "lastStop": "",
+        "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+        "originalUnderstanding": "",
+        "unresolved": "",
+        "laterChange": "出现了一篇与你当前理解相反的文章。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+          "challenges": "分类并不能自动恢复当时为什么在意。",
+          "uncertain": "个人表达是否一定是接续的必要条件。",
+          "sourceId": "collection-comparison"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "collection-quote-1",
+            "matterId": "collection",
+            "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+            "example": true
+          },
+          {
+            "id": "collection-quote-2",
+            "matterId": "collection",
+            "text": "重新出现的理由，可能比分类更重要。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "collection-original",
+            "matterId": "collection",
+            "title": "知乎原文 · 为什么收藏总会被遗忘",
+            "kind": "示例原文",
+            "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+            "url": null,
+            "example": true
+          },
+          {
+            "id": "collection-workplace",
+            "matterId": "collection",
+            "title": "Codex · harness · 首页设计讨论",
+            "kind": "示例工作现场",
+            "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+            "url": null,
+            "example": true
+          },
+          {
+            "id": "collection-comparison",
+            "matterId": "collection",
+            "title": "新的对照 · 重新进入的情境",
+            "kind": "示例对照",
+            "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": true
+      },
+      {
+        "id": "work",
+        "title": "工作 UI 如何承接",
+        "lastStop": "等待实际使用结果",
+        "contextHint": "你当时在 Codex · harness 的首页原型里留下它。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "工作界面需要承接正在做的事，而不是复制一个新的 Agent。",
+        "originalUnderstanding": "带入、参与做法、落实产物与得到使用结果不是同一程度。",
+        "unresolved": "等待实际使用结果，才能判断接续是否有帮助。",
+        "laterChange": "示例原型已经可操作，实际使用反馈仍未带回。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "实现完成不等于实际使用有效",
+          "challenges": "一个可运行的原型，不能直接证明真实用户能够顺利接续。",
+          "uncertain": "仍需要观察具体工作中的使用结果。",
+          "sourceId": "work-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "work-quote-1",
+            "matterId": "work",
+            "text": "工作实现完成，不能自动写成想法已经验证。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "work-original",
+            "matterId": "work",
+            "title": "Codex · harness · 工作接续原型",
+            "kind": "示例工作现场",
+            "excerpt": "在原生 Agent 当前工作旁边，呈现被带入的少量相关内容。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "fresh",
+        "title": "想重新看，不先被旧理解带走",
+        "lastStop": "一段新的感受刚刚出现",
+        "contextHint": "你想先重新阅读，留下这一次真实出现的感受。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "能接回历史，也需要允许历史暂时不带路。",
+        "originalUnderstanding": "先恢复旧理解可以帮助继续，但不是每次都适用。",
+        "unresolved": "这次想先看见什么，再决定是否与过去比较？",
+        "laterChange": "一段新的感受刚刚出现，还没有整理成结论。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "先表达这次感受，再决定是否比较历史",
+          "challenges": "旧理解存在，不代表这次必须沿着旧方向继续。",
+          "uncertain": "什么时候适合重新带回旧理解，仍由你判断。",
+          "sourceId": "fresh-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "fresh-quote-1",
+            "matterId": "fresh",
+            "text": "这不只是隐藏历史界面，而是改变本次使用的上下文。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "fresh-original",
+            "matterId": "fresh",
+            "title": "重新阅读 · 当下感受",
+            "kind": "示例个人现场",
+            "excerpt": "先不让旧理解带路，留出重新感受和判断的位置。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "handoff",
+        "title": "多 Agent 交接如何保留证据",
+        "lastStop": "需要和可追溯现场不是一回事",
+        "contextHint": "你在讨论多 Agent 交接时，区分了摘要与可回到的证据。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "交接需要能够重新核验现场，而不只是相信上一段摘要。",
+        "originalUnderstanding": "摘要可以导航，不能代替真实输入、产物和验证。",
+        "unresolved": "需要和可追溯现场不是一回事，下一位怎样确认当前事实？",
+        "laterChange": "示例交接里仍有一处待回答的问题。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "摘要完整，也可能无法重放关键判断",
+          "challenges": "交接内容多，不等于下一位能定位证据。",
+          "uncertain": "哪些证据是完成当前接续所需的最小集合？",
+          "sourceId": "handoff-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "handoff-quote-1",
+            "matterId": "handoff",
+            "text": "把待回答问题和实际证据一起交接。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "handoff-original",
+            "matterId": "handoff",
+            "title": "多 Agent 交接 · 证据与停点",
+            "kind": "示例讨论现场",
+            "excerpt": "摘要只作导航，原始输入与实际检查用于核验。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "ideas",
+        "title": "一些想法",
+        "lastStop": "还不够成熟",
+        "contextHint": "只是一些刚留下的想法，还不需要现在整理。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "有一点东西先别丢，也不要急着整理成结论。",
+        "originalUnderstanding": "还没有形成自己的判断。",
+        "unresolved": "还不够成熟，可以先收着。",
+        "laterChange": "尚无新的材料或结果。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "暂时不整理，也是一种有效停点",
+          "challenges": "模糊触动不一定要马上被加工成结论。",
+          "uncertain": "是否值得继续，可以等新的现场出现后再看。",
+          "sourceId": "ideas-original"
+        },
+        "branch": null,
+        "quotes": [],
+        "sources": [
+          {
+            "id": "ideas-original",
+            "matterId": "ideas",
+            "title": "留下一点 · 模糊想法",
+            "kind": "示例个人现场",
+            "excerpt": "先保留一点，不强制标题、分类和结论。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "team",
+        "title": "团队方法怎样从实践中修订",
+        "lastStop": "个人修改不能静默变成团队规则",
+        "contextHint": "你在一次方法修订讨论里，留下了修改范围的问题。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "个人试用发现需要保留范围，不应直接变成所有人的要求。",
+        "originalUnderstanding": "个人修改、项目采用和团队发布需要分别确认。",
+        "unresolved": "怎样让实践发现参与修订，同时保留采用范围？",
+        "laterChange": "示例中有一条个人发现，还没有经过团队采用。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "一次局部成功不能自动泛化为团队规则",
+          "challenges": "发现有用不等于已经适用于所有场景。",
+          "uncertain": "适用条件、验证范围与采用决定仍未确认。",
+          "sourceId": "team-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "team-quote-1",
+            "matterId": "team",
+            "text": "个人修改不能静默扩大为项目或团队规则。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "team-original",
+            "matterId": "team",
+            "title": "团队方法 · 实践修订讨论",
+            "kind": "示例讨论现场",
+            "excerpt": "将发现、验证、采用和发布分别保留为明确决定。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      }
+    ],
+    "selected": {
+      "id": "collection",
+      "title": "收藏后为什么接不回来",
+      "lastStop": "",
+      "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+      "changed": false,
+      "relation": "unreviewed",
+      "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+      "originalUnderstanding": "",
+      "unresolved": "",
+      "laterChange": "出现了一篇与你当前理解相反的文章。",
+      "currentJudgment": "",
+      "understanding": "",
+      "draft": "",
+      "understandingDraft": "",
+      "freshDraft": "",
+      "freshUnderstandingDraft": "",
+      "comparison": {
+        "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+        "challenges": "分类并不能自动恢复当时为什么在意。",
+        "uncertain": "个人表达是否一定是接续的必要条件。",
+        "sourceId": "collection-comparison"
+      },
+      "branch": null,
+      "quotes": [
+        {
+          "id": "collection-quote-1",
+          "matterId": "collection",
+          "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+          "example": true
+        },
+        {
+          "id": "collection-quote-2",
+          "matterId": "collection",
+          "text": "重新出现的理由，可能比分类更重要。",
+          "example": true
+        }
+      ],
+      "sources": [
+        {
+          "id": "collection-original",
+          "matterId": "collection",
+          "title": "知乎原文 · 为什么收藏总会被遗忘",
+          "kind": "示例原文",
+          "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+          "url": null,
+          "example": true
+        },
+        {
+          "id": "collection-workplace",
+          "matterId": "collection",
+          "title": "Codex · harness · 首页设计讨论",
+          "kind": "示例工作现场",
+          "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+          "url": null,
+          "example": true
+        },
+        {
+          "id": "collection-comparison",
+          "matterId": "collection",
+          "title": "新的对照 · 重新进入的情境",
+          "kind": "示例对照",
+          "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+          "url": null,
+          "example": true
+        }
+      ],
+      "example": true,
+      "hasComparison": true
+    },
+    "search": {
+      "matters": [],
+      "quotes": [],
+      "sources": [],
+      "counts": {
+        "matters": 0,
+        "quotes": 0,
+        "sources": 0
+      }
+    },
+    "notice": "这次先不带回旧理解；原记录仍然保留。",
+    "context": {
+      "matterId": "collection",
+      "mode": "fresh",
+      "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+      "originalUnderstanding": null,
+      "currentUnderstanding": null,
+      "currentJudgment": null,
+      "lastStop": null,
+      "unresolved": null,
+      "sourceIds": [
+        "collection-original",
+        "collection-workplace",
+        "collection-comparison"
+      ],
+      "comparison": {
+        "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+        "challenges": "分类并不能自动恢复当时为什么在意。",
+        "uncertain": "个人表达是否一定是接续的必要条件。",
+        "sourceId": "collection-comparison"
+      },
+      "comparisonRelation": "unreviewed",
+      "comparisonAdopted": false
+    },
+    "example": true
+  },
+  "changed": {
+    "mode": "overview",
+    "selectedId": "collection",
+    "query": "",
+    "deepTab": "comparison",
+    "contextMode": "resume",
+    "matters": [
+      {
+        "id": "collection",
+        "title": "收藏后为什么接不回来",
+        "lastStop": "还需验证，个人表达是不是接续的必要条件",
+        "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+        "changed": true,
+        "relation": "unreviewed",
+        "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+        "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+        "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+        "laterChange": "出现了一篇与你当前理解相反的文章。",
+        "currentJudgment": "还需验证，个人表达是不是接续的必要条件",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+          "challenges": "分类并不能自动恢复当时为什么在意。",
+          "uncertain": "个人表达是否一定是接续的必要条件。",
+          "sourceId": "collection-comparison"
+        },
+        "branch": {
+          "title": "还需验证，个人表达是不是接续的必要条件",
+          "subtitle": "你刚留下的判断 · 仍可继续修改"
+        },
+        "quotes": [
+          {
+            "id": "collection-quote-1",
+            "matterId": "collection",
+            "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+            "example": true
+          },
+          {
+            "id": "collection-quote-2",
+            "matterId": "collection",
+            "text": "重新出现的理由，可能比分类更重要。",
+            "example": true
+          },
+          {
+            "id": "collection-judgment-1",
+            "matterId": "collection",
+            "text": "还需验证，个人表达是不是接续的必要条件",
+            "example": false,
+            "kind": "judgment"
+          }
+        ],
+        "sources": [
+          {
+            "id": "collection-original",
+            "matterId": "collection",
+            "title": "知乎原文 · 为什么收藏总会被遗忘",
+            "kind": "示例原文",
+            "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+            "url": null,
+            "example": true
+          },
+          {
+            "id": "collection-workplace",
+            "matterId": "collection",
+            "title": "Codex · harness · 首页设计讨论",
+            "kind": "示例工作现场",
+            "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+            "url": null,
+            "example": true
+          },
+          {
+            "id": "collection-comparison",
+            "matterId": "collection",
+            "title": "新的对照 · 重新进入的情境",
+            "kind": "示例对照",
+            "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": true
+      },
+      {
+        "id": "work",
+        "title": "工作 UI 如何承接",
+        "lastStop": "等待实际使用结果",
+        "contextHint": "你当时在 Codex · harness 的首页原型里留下它。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "工作界面需要承接正在做的事，而不是复制一个新的 Agent。",
+        "originalUnderstanding": "带入、参与做法、落实产物与得到使用结果不是同一程度。",
+        "unresolved": "等待实际使用结果，才能判断接续是否有帮助。",
+        "laterChange": "示例原型已经可操作，实际使用反馈仍未带回。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "实现完成不等于实际使用有效",
+          "challenges": "一个可运行的原型，不能直接证明真实用户能够顺利接续。",
+          "uncertain": "仍需要观察具体工作中的使用结果。",
+          "sourceId": "work-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "work-quote-1",
+            "matterId": "work",
+            "text": "工作实现完成，不能自动写成想法已经验证。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "work-original",
+            "matterId": "work",
+            "title": "Codex · harness · 工作接续原型",
+            "kind": "示例工作现场",
+            "excerpt": "在原生 Agent 当前工作旁边，呈现被带入的少量相关内容。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "fresh",
+        "title": "想重新看，不先被旧理解带走",
+        "lastStop": "一段新的感受刚刚出现",
+        "contextHint": "你想先重新阅读，留下这一次真实出现的感受。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "能接回历史，也需要允许历史暂时不带路。",
+        "originalUnderstanding": "先恢复旧理解可以帮助继续，但不是每次都适用。",
+        "unresolved": "这次想先看见什么，再决定是否与过去比较？",
+        "laterChange": "一段新的感受刚刚出现，还没有整理成结论。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "先表达这次感受，再决定是否比较历史",
+          "challenges": "旧理解存在，不代表这次必须沿着旧方向继续。",
+          "uncertain": "什么时候适合重新带回旧理解，仍由你判断。",
+          "sourceId": "fresh-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "fresh-quote-1",
+            "matterId": "fresh",
+            "text": "这不只是隐藏历史界面，而是改变本次使用的上下文。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "fresh-original",
+            "matterId": "fresh",
+            "title": "重新阅读 · 当下感受",
+            "kind": "示例个人现场",
+            "excerpt": "先不让旧理解带路，留出重新感受和判断的位置。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "handoff",
+        "title": "多 Agent 交接如何保留证据",
+        "lastStop": "需要和可追溯现场不是一回事",
+        "contextHint": "你在讨论多 Agent 交接时，区分了摘要与可回到的证据。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "交接需要能够重新核验现场，而不只是相信上一段摘要。",
+        "originalUnderstanding": "摘要可以导航，不能代替真实输入、产物和验证。",
+        "unresolved": "需要和可追溯现场不是一回事，下一位怎样确认当前事实？",
+        "laterChange": "示例交接里仍有一处待回答的问题。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "摘要完整，也可能无法重放关键判断",
+          "challenges": "交接内容多，不等于下一位能定位证据。",
+          "uncertain": "哪些证据是完成当前接续所需的最小集合？",
+          "sourceId": "handoff-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "handoff-quote-1",
+            "matterId": "handoff",
+            "text": "把待回答问题和实际证据一起交接。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "handoff-original",
+            "matterId": "handoff",
+            "title": "多 Agent 交接 · 证据与停点",
+            "kind": "示例讨论现场",
+            "excerpt": "摘要只作导航，原始输入与实际检查用于核验。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "ideas",
+        "title": "一些想法",
+        "lastStop": "还不够成熟",
+        "contextHint": "只是一些刚留下的想法，还不需要现在整理。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "有一点东西先别丢，也不要急着整理成结论。",
+        "originalUnderstanding": "还没有形成自己的判断。",
+        "unresolved": "还不够成熟，可以先收着。",
+        "laterChange": "尚无新的材料或结果。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "暂时不整理，也是一种有效停点",
+          "challenges": "模糊触动不一定要马上被加工成结论。",
+          "uncertain": "是否值得继续，可以等新的现场出现后再看。",
+          "sourceId": "ideas-original"
+        },
+        "branch": null,
+        "quotes": [],
+        "sources": [
+          {
+            "id": "ideas-original",
+            "matterId": "ideas",
+            "title": "留下一点 · 模糊想法",
+            "kind": "示例个人现场",
+            "excerpt": "先保留一点，不强制标题、分类和结论。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      },
+      {
+        "id": "team",
+        "title": "团队方法怎样从实践中修订",
+        "lastStop": "个人修改不能静默变成团队规则",
+        "contextHint": "你在一次方法修订讨论里，留下了修改范围的问题。",
+        "changed": false,
+        "relation": "unreviewed",
+        "whyCare": "个人试用发现需要保留范围，不应直接变成所有人的要求。",
+        "originalUnderstanding": "个人修改、项目采用和团队发布需要分别确认。",
+        "unresolved": "怎样让实践发现参与修订，同时保留采用范围？",
+        "laterChange": "示例中有一条个人发现，还没有经过团队采用。",
+        "currentJudgment": "",
+        "understanding": "",
+        "draft": "",
+        "understandingDraft": "",
+        "freshDraft": "",
+        "freshUnderstandingDraft": "",
+        "comparison": {
+          "title": "一次局部成功不能自动泛化为团队规则",
+          "challenges": "发现有用不等于已经适用于所有场景。",
+          "uncertain": "适用条件、验证范围与采用决定仍未确认。",
+          "sourceId": "team-original"
+        },
+        "branch": null,
+        "quotes": [
+          {
+            "id": "team-quote-1",
+            "matterId": "team",
+            "text": "个人修改不能静默扩大为项目或团队规则。",
+            "example": true
+          }
+        ],
+        "sources": [
+          {
+            "id": "team-original",
+            "matterId": "team",
+            "title": "团队方法 · 实践修订讨论",
+            "kind": "示例讨论现场",
+            "excerpt": "将发现、验证、采用和发布分别保留为明确决定。",
+            "url": null,
+            "example": true
+          }
+        ],
+        "example": true,
+        "hasComparison": false
+      }
+    ],
+    "selected": {
+      "id": "collection",
+      "title": "收藏后为什么接不回来",
+      "lastStop": "还需验证，个人表达是不是接续的必要条件",
+      "contextHint": "你当时是在重新设计桌面首页时留下它的。",
+      "changed": true,
+      "relation": "unreviewed",
+      "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+      "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+      "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+      "laterChange": "出现了一篇与你当前理解相反的文章。",
+      "currentJudgment": "还需验证，个人表达是不是接续的必要条件",
+      "understanding": "",
+      "draft": "",
+      "understandingDraft": "",
+      "freshDraft": "",
+      "freshUnderstandingDraft": "",
+      "comparison": {
+        "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+        "challenges": "分类并不能自动恢复当时为什么在意。",
+        "uncertain": "个人表达是否一定是接续的必要条件。",
+        "sourceId": "collection-comparison"
+      },
+      "branch": {
+        "title": "还需验证，个人表达是不是接续的必要条件",
+        "subtitle": "你刚留下的判断 · 仍可继续修改"
+      },
+      "quotes": [
+        {
+          "id": "collection-quote-1",
+          "matterId": "collection",
+          "text": "如果只是保存了文章，却没有留下当时为什么在意……",
+          "example": true
+        },
+        {
+          "id": "collection-quote-2",
+          "matterId": "collection",
+          "text": "重新出现的理由，可能比分类更重要。",
+          "example": true
+        },
+        {
+          "id": "collection-judgment-1",
+          "matterId": "collection",
+          "text": "还需验证，个人表达是不是接续的必要条件",
+          "example": false,
+          "kind": "judgment"
+        }
+      ],
+      "sources": [
+        {
+          "id": "collection-original",
+          "matterId": "collection",
+          "title": "知乎原文 · 为什么收藏总会被遗忘",
+          "kind": "示例原文",
+          "excerpt": "收藏留下了文章，却没有留下当时为什么在意。",
+          "url": null,
+          "example": true
+        },
+        {
+          "id": "collection-workplace",
+          "matterId": "collection",
+          "title": "Codex · harness · 首页设计讨论",
+          "kind": "示例工作现场",
+          "excerpt": "重新设计桌面首页时，讨论怎样从真实停点重新进入一件事。",
+          "url": null,
+          "example": true
+        },
+        {
+          "id": "collection-comparison",
+          "matterId": "collection",
+          "title": "新的对照 · 重新进入的情境",
+          "kind": "示例对照",
+          "excerpt": "真正的问题不是收藏太多，而是缺少重新进入的情境。它仍不能确认个人表达是否是必要条件。",
+          "url": null,
+          "example": true
+        }
+      ],
+      "example": true,
+      "hasComparison": true
+    },
+    "search": {
+      "matters": [],
+      "quotes": [],
+      "sources": [],
+      "counts": {
+        "matters": 0,
+        "quotes": 0,
+        "sources": 0
+      }
+    },
+    "notice": "当前停点已更新；下次从这里接着。",
+    "context": {
+      "matterId": "collection",
+      "mode": "resume",
+      "whyCare": "收藏留下了文章，却没有留下当时为什么在意。",
+      "originalUnderstanding": "重新出现的理由，可能比分类更重要。",
+      "currentUnderstanding": null,
+      "currentJudgment": "还需验证，个人表达是不是接续的必要条件",
+      "lastStop": "还需验证，个人表达是不是接续的必要条件",
+      "unresolved": "还没分清：是缺少个人表达，还是原文现场不足？",
+      "sourceIds": [
+        "collection-original",
+        "collection-workplace",
+        "collection-comparison"
+      ],
+      "comparison": {
+        "title": "真正的问题不是收藏太多，而是缺少重新进入的情境",
+        "challenges": "分类并不能自动恢复当时为什么在意。",
+        "uncertain": "个人表达是否一定是接续的必要条件。",
+        "sourceId": "collection-comparison"
+      },
+      "comparisonRelation": "unreviewed",
+      "comparisonAdopted": false
+    },
+    "example": true
+  }
+}

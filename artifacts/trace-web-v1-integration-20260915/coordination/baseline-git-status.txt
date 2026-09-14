@@ -1,0 +1,28 @@
+ M apps/desktop/README.md
+ M apps/desktop/index.html
+ M apps/desktop/package.json
+ M apps/desktop/server.mjs
+ M apps/desktop/src/main.js
+ M plugins/trace-harness-plugin/README.md
+ M plugins/trace-harness-plugin/build.mjs
+ M plugins/trace-harness-plugin/package-lock.json
+ M plugins/trace-harness-plugin/package.json
+ M plugins/trace-harness-plugin/src/client/TraceOverlay.tsx
+ M plugins/trace-harness-plugin/src/client/TracePanel.tsx
+?? apps/desktop/.impeccable/
+?? apps/desktop/DESIGN.md
+?? apps/desktop/PRODUCT.md
+?? apps/desktop/public/home/
+?? apps/desktop/public/matters/
+?? apps/desktop/src/discussion.js
+?? apps/desktop/src/home-icons.js
+?? apps/desktop/src/home-model.js
+?? apps/desktop/src/home.css
+?? apps/desktop/src/home.js
+?? apps/desktop/src/home/
+?? apps/desktop/src/matters/
+?? apps/desktop/src/prototype-session.js
+?? apps/desktop/src/vendor/
+?? apps/desktop/tests/
+?? plugins/trace-harness-plugin/src/assets.d.ts
+?? plugins/trace-harness-plugin/src/desktop/

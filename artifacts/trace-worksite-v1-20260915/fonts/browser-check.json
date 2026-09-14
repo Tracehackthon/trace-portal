@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-09-14T17:11:08.802Z",
+  "scope": "Isolated font sample on file://, not worksite UI or native integration",
+  "url": "file:///D:/AGeneral%20Workspace/AI-powered/harness/artifacts/trace-worksite-v1-20260915/fonts/font-check.html",
+  "faces": [
+    {
+      "family": "Trace Worksite Serif",
+      "status": "loaded",
+      "weight": "250 900"
+    },
+    {
+      "family": "Trace Worksite Sans",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "serif": true,
+  "sans": true,
+  "errors": [],
+  "requests": [
+    "file:///D:/AGeneral%20Workspace/AI-powered/harness/artifacts/trace-worksite-v1-20260915/fonts/font-check.html",
+    "file:///D:/AGeneral%20Workspace/AI-powered/harness/artifacts/trace-worksite-v1-20260915/fonts/derived/font-face.css",
+    "file:///D:/AGeneral%20Workspace/AI-powered/harness/artifacts/trace-worksite-v1-20260915/fonts/derived/TraceWorksiteSerif-fixed.woff2",
+    "file:///D:/AGeneral%20Workspace/AI-powered/harness/artifacts/trace-worksite-v1-20260915/fonts/derived/TraceWorksiteSans-fixed.woff2"
+  ],
+  "fontHashes": {
+    "serif": "95c335cc8a689c6d2afad55b5c8fa4cdaa2f0df554fd221578bedfaba8c06b3d",
+    "sans": "cbf26882beca434167653d85258bf92d8d1dd5a5e1888a5e1d242c51916f112c"
+  },
+  "screenshot": "font-check.png"
+}

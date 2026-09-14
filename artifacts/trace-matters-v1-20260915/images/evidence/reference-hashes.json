@@ -1,0 +1,72 @@
+[
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\01-静默总览态.png",
+    "expected_sha256": "5B5FED812C2F9E90FD8114A0D28974931EB4924D94C4ADEAA48C4B935CEF50E9",
+    "actual_sha256": "5B5FED812C2F9E90FD8114A0D28974931EB4924D94C4ADEAA48C4B935CEF50E9",
+    "match": true,
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\02-悬停识别态.png",
+    "expected_sha256": "4208E685D2B6EF1A9AB0D8F2E4274909DE14D79C389F2BAA6A3287EF0A44DDB9",
+    "actual_sha256": "4208E685D2B6EF1A9AB0D8F2E4274909DE14D79C389F2BAA6A3287EF0A44DDB9",
+    "match": true,
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\03-点击进入-气泡生长态.png",
+    "expected_sha256": "145F15038A06A05FA830ACA95E1CDC325D12F7131E77419CDB9DF29D63542D3C",
+    "actual_sha256": "145F15038A06A05FA830ACA95E1CDC325D12F7131E77419CDB9DF29D63542D3C",
+    "match": true,
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\04-重新进入面.png",
+    "expected_sha256": "B3DE9BC674B206B118B37C54CFA7054CAD7F2DBD8B0D42F79D9613A4E36E919F",
+    "actual_sha256": "B3DE9BC674B206B118B37C54CFA7054CAD7F2DBD8B0D42F79D9613A4E36E919F",
+    "match": true,
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\05-新的对照-深度继续态.png",
+    "expected_sha256": "60C1C9122AC06CBAB13ABB3ED74093C99BF2D9F7F4E040C890AAAADD2D3B0116",
+    "actual_sha256": "60C1C9122AC06CBAB13ABB3ED74093C99BF2D9F7F4E040C890AAAADD2D3B0116",
+    "match": true,
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\06-搜索精确找回态.png",
+    "expected_sha256": "C9026AF6664D3434FE778E7E11AD331584FF419AD30A8163A5CABC90B1C66302",
+    "actual_sha256": "C9026AF6664D3434FE778E7E11AD331584FF419AD30A8163A5CABC90B1C66302",
+    "match": true,
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\07-变化折回总览态.png",
+    "expected_sha256": "FE26AA8E994C06E652CB4C8C16E3569716F3A172468FD162B79E79E73762D527",
+    "actual_sha256": "FE26AA8E994C06E652CB4C8C16E3569716F3A172468FD162B79E79E73762D527",
+    "match": true,
+    "size": [
+      1672,
+      941
+    ]
+  }
+]

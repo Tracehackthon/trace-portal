@@ -1,0 +1,93 @@
+{
+  "name": "@liquidglassjs/core",
+  "version": "0.5.2",
+  "description": "SVG-first liquid glass for the web (feDisplacementMap on live DOM), with WebGL + QR escape hatches. Recreated from the technique described in Aave's \"Building Glass for the Web\".",
+  "keywords": [
+    "astro",
+    "astro-component",
+    "displacement-map",
+    "fedisplacementmap",
+    "glass",
+    "glassmorphism",
+    "liquid-glass",
+    "refraction",
+    "svg-filter",
+    "tanstack-intent",
+    "webgl",
+    "withastro"
+  ],
+  "homepage": "https://github.com/amir-abushanab/liquid-glass-js/tree/main/packages/core#readme",
+  "bugs": "https://github.com/amir-abushanab/liquid-glass-js/issues",
+  "license": "MIT",
+  "author": "Amir Abushanab",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amir-Abushanab/liquid-glass-js.git",
+    "directory": "packages/core"
+  },
+  "files": [
+    "dist",
+    "src/css",
+    "adapters",
+    "skills"
+  ],
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./webgl": "./src/webgl.ts",
+    "./css": {
+      "types": "./src/css/glass.css.d.ts",
+      "default": "./src/css/glass.css"
+    },
+    "./astro/LiquidGlass.astro": "./adapters/astro/LiquidGlass.astro",
+    "./astro/LiquidGlassFont.astro": "./adapters/astro/LiquidGlassFont.astro"
+  },
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.js"
+      },
+      "./webgl": {
+        "types": "./dist/webgl.d.ts",
+        "import": "./dist/webgl.js"
+      },
+      "./css": {
+        "types": "./src/css/glass.css.d.ts",
+        "default": "./src/css/glass.css"
+      },
+      "./astro/LiquidGlass.astro": {
+        "types": "./adapters/astro/LiquidGlass.astro.d.ts",
+        "default": "./adapters/astro/LiquidGlass.astro"
+      },
+      "./astro/LiquidGlassFont.astro": {
+        "types": "./adapters/astro/LiquidGlassFont.astro.d.ts",
+        "default": "./adapters/astro/LiquidGlassFont.astro"
+      }
+    },
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepack": "node ../../scripts/sync-license.mjs",
+    "skill:stale": "intent stale skills",
+    "skill:validate": "intent validate skills",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@tanstack/intent": "^0.3.6"
+  },
+  "peerDependencies": {
+    "astro": ">=4"
+  },
+  "peerDependenciesMeta": {
+    "astro": {
+      "optional": true
+    }
+  },
+  "comment:exports": "Dev (workspace) resolves raw src/*.ts, so no build is needed to consume core. publishConfig.exports swaps `.`/webgl/qr to built dist at publish; css + .astro ship as source either way."
+}

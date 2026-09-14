@@ -1,0 +1,34 @@
+{
+  "originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2": {
+    "retrieved_via": "https://api.github.com/repos/adobe-fonts/source-han-serif/git/blobs/65a4d31a34ddda25b821b45288168e135b8ebc70",
+    "accept_header": "application/vnd.github+json",
+    "bytes": 11035128,
+    "note": "Initial successful original download; SHA256 is recorded in manifest after font inspection."
+  },
+  "originals/source-han-serif-cn/LICENSE.txt": {
+    "retrieved_via": "https://api.github.com/repos/adobe-fonts/source-han-serif/contents/LICENSE.txt?ref=7889f11bf31170b5d092a083b357c8c8130f89e0",
+    "accept_header": "application/vnd.github+json",
+    "bytes": 4463
+  },
+  "failed-downloads/NotoSansSC-incomplete-13830638.bin": {
+    "retrieved_via": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf?ref=a85815a42757630ce188fdad368c2dfc444d4773",
+    "accept_header": "application/vnd.github.raw+json",
+    "sha256": "9A2ADB856CF1F9923059F82409EC386A1B846A3FA8EA96021B4BB5C0141FE31C",
+    "bytes": 13830638,
+    "validation": "FAILED: truncated raw transfer; not an official original",
+    "note": "Diagnostic record only: partial prefix was moved to .part, completed by HTTP Range, and full official Git blob identity passed; no failed font remains installed."
+  },
+  "originals/noto-sans-sc/NotoSansSC[wght].ttf": {
+    "retrieved_via": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf?ref=a85815a42757630ce188fdad368c2dfc444d4773",
+    "accept_header": "application/vnd.github.raw+json",
+    "sha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA",
+    "bytes": 17772300
+  },
+  "originals/noto-sans-sc/OFL.txt": {
+    "retrieved_via": "https://api.github.com/repos/google/fonts/git/blobs/1c9f43281b8f216c5461fe9ac729afbade7724e4",
+    "accept_header": "application/vnd.github+json",
+    "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+    "bytes": 4388,
+    "note": "Contents API attempt had transient TLS EOF; Git Blob API retry passed pinned blob hash."
+  }
+}

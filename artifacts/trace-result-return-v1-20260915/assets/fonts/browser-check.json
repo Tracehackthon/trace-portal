@@ -1,0 +1,96 @@
+{
+  "taskId": "trace-result-return-v1-20260915",
+  "copySha256": "7EC1164166D482C488DB8D25A05407913715A11A9C5FB40F61337FDCBDD9479D",
+  "fontHashes": [
+    {
+      "delta": "DC270902874BA4005F77F842F3D66F748BD3F69DE549BAE88FAF26AC9D214728",
+      "base": "7FC2BEFC231B1F67A151AD485AC8A7C7B4ECD6C98015DA9DA9A95809A2E495CB"
+    },
+    {
+      "delta": "69B4D678890A5E9A92C0E9BCDBB17DB1F2F1D349F3067FAACDCADF485CDE8325",
+      "base": "BC982B0E334328DBD10260E3189CFCB4C6136FACE7424391DAB65E26C4204D30"
+    }
+  ],
+  "pass": true,
+  "isolatedPort": 49342,
+  "fixture": "font-only; local dynamic port; own headless browser",
+  "fontFaces": [
+    {
+      "family": "Trace Result Return Serif",
+      "status": "loaded",
+      "weight": "250 900"
+    },
+    {
+      "family": "Trace Result Return Serif Delta",
+      "status": "loaded",
+      "weight": "250 900"
+    },
+    {
+      "family": "Trace Result Return Sans",
+      "status": "loaded",
+      "weight": "100 900"
+    },
+    {
+      "family": "Trace Result Return Sans Delta",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "probes": [
+    {
+      "id": "base-serif",
+      "pass": true,
+      "fonts": [
+        {
+          "familyName": "Trace Chain Serif",
+          "postScriptName": "TraceChainSerif-Medium",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ]
+    },
+    {
+      "id": "base-sans",
+      "pass": true,
+      "fonts": [
+        {
+          "familyName": "Trace Chain Sans",
+          "postScriptName": "TraceChainSans-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 11
+        }
+      ]
+    },
+    {
+      "id": "delta-serif",
+      "pass": true,
+      "fonts": [
+        {
+          "familyName": "Trace Result Return Serif Delta",
+          "postScriptName": "TraceResultReturnSerifDelta-Medium",
+          "isCustomFont": true,
+          "glyphCount": 27
+        }
+      ]
+    },
+    {
+      "id": "delta-sans",
+      "pass": true,
+      "fonts": [
+        {
+          "familyName": "Trace Result Return Sans Delta",
+          "postScriptName": "TraceResultReturnSansDelta-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 27
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "responses": [],
+  "limits": [
+    "Not final UI or app integration.",
+    "Only fixed corpus coverage is checked separately by cmap script.",
+    "Does not guarantee arbitrary dynamic text or all browsers."
+  ]
+}

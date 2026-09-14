@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>在意的事 · 隔离场景检查</title><link rel="stylesheet" href="/scene/matters.css"><style>html,body,#preview{margin:0;width:100%;height:100%;overflow:hidden}</style></head>
+<body><div id="preview"></div><script type="module">
+import { mountMattersScreen } from '/scene/matters-screen.mjs';
+import { createMattersState, reduceMatters, selectMattersView } from '/model/matters-model.mjs';
+import { animate, svg } from '/vendor/anime.esm.js';
+import { mountSceneGlass } from '/adapter/scene-glass.js';
+let state = createMattersState();
+const params = new URLSearchParams(location.search);
+const services = params.has('static') ? {} : {animate,svg};
+if (params.has('glass')) services.mountSceneGlass = mountSceneGlass;
+if (params.has('glass-failure')) services.mountSceneGlass = () => {throw new Error('deliberate decorative failure')};
+const screen = mountMattersScreen({root:document.querySelector('#preview'),view:selectMattersView(state),onAction:action=>{state=reduceMatters(state,action);screen.update(selectMattersView(state));},onHome:()=>{window.homeCalls=(window.homeCalls||0)+1;},assets:{background:'/images/matters-environment.png',birdPerched:'/home/bird-perched.png',birdTakeoff:'/home/bird-takeoff.png',serifFont:'/fonts/TraceMattersSerif-fixed.woff2',sansFont:'/fonts/TraceMattersSans-fixed.woff2'},services});
+window.sceneTest={screen,get state(){return state},action(action){state=reduceMatters(state,action);screen.update(selectMattersView(state));},reset(){state=createMattersState();screen.update(selectMattersView(state));}};
+</script></body></html>

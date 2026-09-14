@@ -1,0 +1,154 @@
+TAP version 13
+# Subtest: closed loop calls existing chain/compare reducers: one ID, link is not adoption, receipt, exact return anchor
+ok 1 - closed loop calls existing chain/compare reducers: one ID, link is not adoption, receipt, exact return anchor
+  ---
+  duration_ms: 8.1998
+  type: 'test'
+  ...
+# Subtest: original/discussion basis is explicitly unconnected, never promoted into understanding
+ok 2 - original/discussion basis is explicitly unconnected, never promoted into understanding
+  ---
+  duration_ms: 0.3529
+  type: 'test'
+  ...
+# Subtest: empty captures/saves, duplicate IDs, missing sources, and unknown matters never mutate facts
+ok 3 - empty captures/saves, duplicate IDs, missing sources, and unknown matters never mutate facts
+  ---
+  duration_ms: 0.4417
+  type: 'test'
+  ...
+# Subtest: external matter IDs cannot collide with reducer generated creation IDs
+ok 4 - external matter IDs cannot collide with reducer generated creation IDs
+  ---
+  duration_ms: 0.3164
+  type: 'test'
+  ...
+# Subtest: source excerpts stay separate from user expression and demo fixtures never leak
+ok 5 - source excerpts stay separate from user expression and demo fixtures never leak
+  ---
+  duration_ms: 0.4221
+  type: 'test'
+  ...
+# Subtest: no fake search capability or externally readable URL
+ok 6 - no fake search capability or externally readable URL
+  ---
+  duration_ms: 0.668
+  type: 'test'
+  ...
+# Subtest: return mismatch, stale anchor, invalid range and unsaved draft reject before opening
+ok 7 - return mismatch, stale anchor, invalid range and unsaved draft reject before opening
+  ---
+  duration_ms: 0.4821
+  type: 'test'
+  ...
+# Subtest: cancel and reject preserve pasted source without changing understanding
+ok 8 - cancel and reject preserve pasted source without changing understanding
+  ---
+  duration_ms: 1.3889
+  type: 'test'
+  ...
+# Subtest: missing or reassigned source blocks the final authoritative mutation
+ok 9 - missing or reassigned source blocks the final authoritative mutation
+  ---
+  duration_ms: 3.2302
+  type: 'test'
+  ...
+# Subtest: new saved version and ABA draft editing invalidate comparison requests
+ok 10 - new saved version and ABA draft editing invalidate comparison requests
+  ---
+  duration_ms: 2.6557
+  type: 'test'
+  ...
+# Subtest: duplicate request is idempotent; mismatched and duplicate ACKs cannot update an unrelated view
+ok 11 - duplicate request is idempotent; mismatched and duplicate ACKs cannot update an unrelated view
+  ---
+  duration_ms: 1.7867
+  type: 'test'
+  ...
+# Subtest: request ID collision with different payload is refused by real comparison host helper
+ok 12 - request ID collision with different payload is refused by real comparison host helper
+  ---
+  duration_ms: 1.1105
+  type: 'test'
+  ...
+# Subtest: late success ACK cannot silently overwrite a later version or report old returned success
+ok 13 - late success ACK cannot silently overwrite a later version or report old returned success
+  ---
+  duration_ms: 1.6291
+  type: 'test'
+  ...
+# Subtest: forged view COMMIT_RESULT and forged ACK do not create success or mutate host
+ok 14 - forged view COMMIT_RESULT and forged ACK do not create success or mutate host
+  ---
+  duration_ms: 1.0608
+  type: 'test'
+  ...
+# Subtest: comparison undo is monotonic, keeps materials, and old undo cannot erase later edits
+ok 15 - comparison undo is monotonic, keeps materials, and old undo cannot erase later edits
+  ---
+  duration_ms: 4.9092
+  type: 'test'
+  ...
+# Subtest: handoff snapshot remains version 1 while current canonical understanding advances to version 2
+ok 16 - handoff snapshot remains version 1 while current canonical understanding advances to version 2
+  ---
+  duration_ms: 3.4357
+  type: 'test'
+  ...
+# Subtest: existing worksite review/confirm mutates same canonical ID once and keeps fact distinct from interpretation
+ok 17 - existing worksite review/confirm mutates same canonical ID once and keeps fact distinct from interpretation
+  ---
+  duration_ms: 1.8643
+  type: 'test'
+  ...
+# Subtest: cancel review / keep result only do not adopt, missing fact does not create result
+ok 18 - cancel review / keep result only do not adopt, missing fact does not create result
+  ---
+  duration_ms: 1.4184
+  type: 'test'
+  ...
+# Subtest: later compare revision invalidates work result review instead of restoring its old understanding
+ok 19 - later compare revision invalidates work result review instead of restoring its old understanding
+  ---
+  duration_ms: 1.872
+  type: 'test'
+  ...
+# Subtest: work review cannot overwrite a later unsaved draft, including ABA edit
+ok 20 - work review cannot overwrite a later unsaved draft, including ABA edit
+  ---
+  duration_ms: 0.8351
+  type: 'test'
+  ...
+# Subtest: work undo restores content with higher version and keeps original facts
+ok 21 - work undo restores content with higher version and keeps original facts
+  ---
+  duration_ms: 1.178
+  type: 'test'
+  ...
+# Subtest: wrong result ownership and wrong work ID cannot mutate another matter
+ok 22 - wrong result ownership and wrong work ID cannot mutate another matter
+  ---
+  duration_ms: 0.5557
+  type: 'test'
+  ...
+# Subtest: fresh context and views use existing reducer semantics; inspecting views cannot mutate canonical data
+ok 23 - fresh context and views use existing reducer semantics; inspecting views cannot mutate canonical data
+  ---
+  duration_ms: 0.5612
+  type: 'test'
+  ...
+# Subtest: inputs are not mutated and live operations never persist or send work
+ok 24 - inputs are not mutated and live operations never persist or send work
+  ---
+  duration_ms: 0.9457
+  type: 'test'
+  ...
+1..24
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 126.0105

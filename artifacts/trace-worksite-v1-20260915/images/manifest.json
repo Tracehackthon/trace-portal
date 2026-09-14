@@ -1,0 +1,238 @@
+{
+  "taskId": "trace-worksite-v1-20260915",
+  "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "context_package_sha256": "DD9BDA87EDB138B15C3A3E9535BD78BF5E51934DA333A4175C251BF8F7078C06",
+  "checkedAt": "2026-09-14T17:11:09.692946+00:00",
+  "owner": "worksite_assets",
+  "reference_verification": [
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/01-工作总览态.png",
+      "sha256": "35AA523604BD67C37C5AFDF4EC0709863B5A37170F19C3A4B04C78E738E72196",
+      "match": true
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/02-带入展开态.png",
+      "sha256": "AB2CDB09D895B283BA9AE17ACFCD444B68C758EFE248A64274EDA67509BA9B16",
+      "match": true
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/03-影响追溯态.png",
+      "sha256": "48EA5AA2838884161B7164F60F21266B06890A2E8886372BDE95ADAA1AC5D207",
+      "match": true
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/04-发现展开态.png",
+      "sha256": "EFC10C455E1D9FE6C5A90E193BF5E0D5CBADE371C4173D5C4DA3212CED7E7E93",
+      "match": true
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/05-结果比较态.png",
+      "sha256": "CDB661B0CF0F1D69F1F0F00F16D4748120C7F5BB8E1A32C12F61BF161A2C38FE",
+      "match": true
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/README.md",
+      "sha256": "79435E5C9B651F887ADB5239D1815F6DF1287EA3A76F2639CE704256EF997E01",
+      "match": true
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/生图提示词.json",
+      "sha256": "68C28CCBD6771246E41FEB8C77DBAFE41F92A28C34CB10C89E62D427F5B05865",
+      "match": true
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/资源清单.json",
+      "sha256": "7A878B31B500C8530FA52203F4D6575F8DFBA61736CF63E0EAA1014FB5BDBD2E",
+      "match": true
+    }
+  ],
+  "reference_images_visually_seen": [
+    "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/01-工作总览态.png",
+    "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/02-带入展开态.png",
+    "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/03-影响追溯态.png",
+    "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/04-发现展开态.png",
+    "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/05-结果比较态.png"
+  ],
+  "alternative_comparison": [
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\ready\\home-environment.png",
+      "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "visual_assessment": "rejected: middle mountain mass and extra spheres conflict with high whitespace worksite"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\images\\ready\\matters-environment.png",
+      "sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89",
+      "visual_assessment": "rejected: dense mountain texture and upper-left foliage"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-one-thing-v1-20260915\\images\\ready\\chain-environment.png",
+      "sha256": "49A39B936545E0AC5AA65B4CA8E5D998A392728E5D6EB72033F68185ADB6ED13",
+      "visual_assessment": "rejected: foreground lower-right leaves and upper-left branch, inner-lake composition differs"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-one-thing-v1-20260915\\images\\ready\\chain-overview-environment.png",
+      "sha256": "A4DDA0E97BF3FFEF2D87D48BE07C272E6C69633A236B07676A92A4DC755C6875",
+      "visual_assessment": "rejected: denser centered mountain mass and upper-left foliage"
+    }
+  ],
+  "production": {
+    "tool": "built-in image_gen",
+    "model_id": null,
+    "model_identity_status": "tool did not expose model ID; no latest/version claim",
+    "calls": 1,
+    "failed_calls": 0,
+    "targeted_retries": 0,
+    "generated_backgrounds": 1,
+    "prompt_path": "prompt-v1.txt",
+    "prompt_sha256": "6661FB5922C9EDAF1D0A731CCED5D97F47989759681434C292D1D597B8BB35B7",
+    "edit_input": {
+      "path": "manunl/具体页面与视觉实现/桌面端/工作现场完整交互链路/Trace工作现场_UI状态_v1/01-工作总览态.png",
+      "sha256": "35AA523604BD67C37C5AFDF4EC0709863B5A37170F19C3A4B04C78E738E72196",
+      "match": true
+    },
+    "second_background": "not generated: five states share same spatial direction; minor terrain differences do not justify a second environment"
+  },
+  "assets": [
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-worksite-v1-20260915\\images\\ready\\worksite-environment.png",
+      "sha256": "2463A5F88546A19621FEE22F95279F7BD6523734301C1AAA92DF614BE13B24E5",
+      "bytes": 1406696,
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "id": "worksite-environment",
+      "type": "generated_clean_environment",
+      "source": {
+        "path": "C:\\Users\\HoSheil\\.codex\\generated_images\\01a0a0d2-a390-7673-b7da-5548534b597c\\exec-a127d700-75ed-4813-884e-dec43720fc46.png",
+        "sha256": "2463A5F88546A19621FEE22F95279F7BD6523734301C1AAA92DF614BE13B24E5",
+        "bytes": 1406696,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "preserved_original": {
+        "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-worksite-v1-20260915\\images\\originals\\worksite-environment-generated-v1.png",
+        "sha256": "2463A5F88546A19621FEE22F95279F7BD6523734301C1AAA92DF614BE13B24E5",
+        "bytes": 1406696,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "postprocessing": "none; ready is byte-identical copy, no crop/resize/alpha repair",
+      "visual_review": "passed: high-key central whitespace, two-side mountain framing, upper-right cropped moon, no visible UI/text/cards/nodes/lines/bird",
+      "pixel_exact_to_reference": false
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-worksite-v1-20260915\\images\\ready\\bird-perched.png",
+      "sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "bytes": 428617,
+      "size": [
+        1086,
+        839
+      ],
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        8,
+        8,
+        1078,
+        831
+      ],
+      "transparent_pixels": 713729,
+      "opaque_pixels": 184922,
+      "semitransparent_pixels": 12503,
+      "id": "bird-perched",
+      "type": "reused_authorized_alpha_repair",
+      "reused_from": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-perched.png",
+      "reused_sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "generation_source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\B2-bird-perched-alpha-retry.png",
+      "generation_source_sha256": "cc63d1359d2a89d6b6be2dc45d58e61ecff1eeab60974b631ceb1654e3a029e1",
+      "prior_repair_manifest": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\repair-manifest.json",
+      "prior_repair_manifest_sha256": "9C67A53049F399920A15A367C7AF4AE8F643D228E7732B378551CCD3AAA5A951",
+      "foot_anchor": [
+        772,
+        588
+      ],
+      "common_source_pixel_scale": 0.09,
+      "postprocessing_this_task": "none; byte-identical copy",
+      "visual_review": "previous dark/gray small-size check inspected; repaired black/teal/white bird suitable for small worksite focal marker",
+      "limits": "Two poses, not physically continuous flapping. Prior repair has 1–2px edge uncertainty at high magnification; no new repair authorized or performed."
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-worksite-v1-20260915\\images\\ready\\bird-takeoff.png",
+      "sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "bytes": 858034,
+      "size": [
+        1156,
+        1215
+      ],
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        8,
+        8,
+        1148,
+        1207
+      ],
+      "transparent_pixels": 997122,
+      "opaque_pixels": 387078,
+      "semitransparent_pixels": 20340,
+      "id": "bird-takeoff",
+      "type": "reused_authorized_alpha_repair",
+      "reused_from": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-takeoff.png",
+      "reused_sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "generation_source": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\C-bird-takeoff.png",
+      "generation_source_sha256": "00702abe62d72904c57e6adc6585ec77bda5b03f327cc234f0cb3e5526bce41e",
+      "prior_repair_manifest": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\repair-manifest.json",
+      "prior_repair_manifest_sha256": "9C67A53049F399920A15A367C7AF4AE8F643D228E7732B378551CCD3AAA5A951",
+      "foot_anchor": [
+        750,
+        955
+      ],
+      "common_source_pixel_scale": 0.09,
+      "postprocessing_this_task": "none; byte-identical copy",
+      "visual_review": "previous dark/gray small-size check inspected; repaired black/teal/white bird suitable for small worksite focal marker",
+      "limits": "Two poses, not physically continuous flapping. Prior repair has 1–2px edge uncertainty at high magnification; no new repair authorized or performed."
+    }
+  ],
+  "rights_and_attribution": {
+    "environment": "Generated project visual from user-provided reference. No third-party component license assigned; preserve generation provenance.",
+    "birds": "Reused project-generated assets, earlier user-authorized local alpha repair; preserve original and repair provenance.",
+    "third_party_image_downloads": 0
+  },
+  "validation": {
+    "png_decode": "passed all three",
+    "reference_hashes": "passed seven",
+    "copy_hash_identity": "passed all three",
+    "true_bird_alpha": "passed both",
+    "visual_asset_inspection": "passed, static asset level only",
+    "new_image_transforms": "none",
+    "new_transparent_generation": "none",
+    "browser_loading": "not run by assets owner",
+    "ui_readability_overlay": "not run by assets owner",
+    "app_or_native_integration": "not performed"
+  },
+  "limitations": [
+    "Background is a generated reconstruction, not pixel-exact removal.",
+    "Acceptance is asset-level, not screenshot parity or interaction acceptance.",
+    "Bird scale should remain consistent across poses; do not give both equal CSS widths.",
+    "Original references and all older task assets remain unchanged."
+  ]
+}

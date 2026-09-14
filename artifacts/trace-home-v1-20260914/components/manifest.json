@@ -1,0 +1,618 @@
+{
+  "task_id": "trace-home-v1-assets-20260914",
+  "context_package_sha256": "FEC12772D27033E54E9EDB811486DE7C749DB5AFF054BF1BA3DE06628DC00CD7",
+  "git_baseline": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "created_at_utc": "2026-09-14T13:49:37.459740+00:00",
+  "writer_root": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\components",
+  "policy": "Source preparation only; no upstream script execution or UI integration",
+  "components": [
+    {
+      "id": "liquidglassjs",
+      "repo": "Amir-Abushanab/liquid-glass-js",
+      "commit": "07ad06ea197a07269af56da83d1fc9498bca94f5",
+      "license": "MIT",
+      "status": "material-candidate-not-runtime-verified",
+      "demo": "https://amir-abushanab.github.io/liquid-glass-js/",
+      "functions": [
+        "mountGlassShape",
+        "buildAlphaDisplacementMap",
+        "mountAlphaGlass",
+        "createGlassSurface"
+      ],
+      "constraints": [
+        "Filters the target's SourceGraphic, not arbitrary content behind it; supply aligned scene pixels and keep text separate.",
+        "Shape, geometry and material-map changes require displacement-map regeneration; do not regenerate per frame.",
+        "Upstream TypeScript needs a local build; no page framework migration is implied."
+      ],
+      "source_tree_url": "https://api.github.com/repos/Amir-Abushanab/liquid-glass-js/git/trees/07ad06ea197a07269af56da83d1fc9498bca94f5?recursive=1",
+      "source_tree_retries": [],
+      "downloaded_files": [
+        {
+          "path": "originals/liquidglassjs/LICENSE",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/LICENSE",
+          "upstream_path": "LICENSE",
+          "bytes": 1071,
+          "sha256": "B4DDCA14599CE25F86F5CBFC490742D51F145BE7529D9C44513095EC53029C30",
+          "git_blob_sha1": "eb8f2a9665b7fba6f6a3b6fd6721b9720561c422",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/README.md",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/README.md",
+          "upstream_path": "README.md",
+          "bytes": 16877,
+          "sha256": "DD0986CCE6E62CFA5706E47CBAF127B17B46968AF476F08E4DB1E3BF5E7F4645",
+          "git_blob_sha1": "6d92a2d64b3f33e97cf2808f6fff03186767dd94",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/docs/GOTCHAS.md",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/docs/GOTCHAS.md",
+          "upstream_path": "docs/GOTCHAS.md",
+          "bytes": 11005,
+          "sha256": "1EE50628D7B3BD5C7BA7F86AC3214848E53C7210D631DA8EAD18744517C938C1",
+          "git_blob_sha1": "16498ca546d8bb23441a58141a399c6269c61f26",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/package.json",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/package.json",
+          "upstream_path": "packages/core/package.json",
+          "bytes": 2695,
+          "sha256": "26BBF30B80805866F4525F7A18286509EEC78E31DE6AE680F210351B6CB2BE2D",
+          "git_blob_sha1": "a4d456ee9c14d22291c064acf51b92b149a07a6c",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/blur-quantize.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/blur-quantize.ts",
+          "upstream_path": "packages/core/src/blur-quantize.ts",
+          "bytes": 5814,
+          "sha256": "355787C7FCD52B606DFA892501DD6FE9F461EB9D25EF84F4ED93FCC4E0BD2784",
+          "git_blob_sha1": "543ae70af475e27964581f52f0bae4361af17a5f",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/color.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/color.ts",
+          "upstream_path": "packages/core/src/color.ts",
+          "bytes": 1597,
+          "sha256": "6126132A61FF234A4F40AA3F8D05D9DECD30FFC33E70E869CF91091E3C0E9249",
+          "git_blob_sha1": "1929486fc0c2f24cf265f602e8ca0a32606c8419",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/css/glass.css",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/css/glass.css",
+          "upstream_path": "packages/core/src/css/glass.css",
+          "bytes": 8011,
+          "sha256": "E2E7AA6C77F84544DD48511F54D85985A59B3B4BCD8B39467328C284DCF18DF0",
+          "git_blob_sha1": "2c3913132ce19acb7b0cb8ca3d917e3836aad87e",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/css/glass.css.d.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/css/glass.css.d.ts",
+          "upstream_path": "packages/core/src/css/glass.css.d.ts",
+          "bytes": 335,
+          "sha256": "75C1C4A4F474F4281DF5AE9E33AED382B58249F1664B1DA460929658D9CF45E3",
+          "git_blob_sha1": "f7b6c13f7823bb82223a06bc65e7376f1051ef3c",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/displacement.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/displacement.ts",
+          "upstream_path": "packages/core/src/displacement.ts",
+          "bytes": 9984,
+          "sha256": "9B5FF1649C0F4FFB255ACF8D4F619826CDFC59A739C29D3CE5A594FB2BB35254",
+          "git_blob_sha1": "4f7202c3ad3acd77ae08ecffbf515d93d463efc1",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/dynamics.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/dynamics.ts",
+          "upstream_path": "packages/core/src/dynamics.ts",
+          "bytes": 3883,
+          "sha256": "57CB2E8158149BC4695FA5A9E0AABA6FD79C9232D3BCD97CE45433EFCA101CFA",
+          "git_blob_sha1": "3df0cc53550e8e605fb45480b0008bd7b819a9f4",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/filter-origin.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/filter-origin.ts",
+          "upstream_path": "packages/core/src/filter-origin.ts",
+          "bytes": 9723,
+          "sha256": "B2376D8A4DD44D5F1302BF329B0E78028343EB2FC39C01D0FC839C825DE4389D",
+          "git_blob_sha1": "9b057ed0f1df1051200a4d12d4648c7f1dda092c",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/glass-group.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/glass-group.ts",
+          "upstream_path": "packages/core/src/glass-group.ts",
+          "bytes": 8240,
+          "sha256": "D0C47DA82365DB60132BBBF89402D2D4B6F614D90C071D071234B06650B17DEE",
+          "git_blob_sha1": "bff9447c3eed7b3b1f30f4bb35689c99aafaf9dc",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/glass-lens.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/glass-lens.ts",
+          "upstream_path": "packages/core/src/glass-lens.ts",
+          "bytes": 13863,
+          "sha256": "CC6BC6736DF90DF4792349EF750DD03ED0A39951AA87303D5FB60FAAD33BC919",
+          "git_blob_sha1": "7dfcf3302bdace909644728aefc8238f147ab05e",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/glass-loupe.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/glass-loupe.ts",
+          "upstream_path": "packages/core/src/glass-loupe.ts",
+          "bytes": 32763,
+          "sha256": "FA988AB5B7B6D3D45200FB39CF186476FA530457E352CD269E74F7609CB0F4AC",
+          "git_blob_sha1": "5056d484e063c3c57ddd36b4b975c3a54a40baef",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/glass-morph.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/glass-morph.ts",
+          "upstream_path": "packages/core/src/glass-morph.ts",
+          "bytes": 32000,
+          "sha256": "0C55119AB72BC322D99647C3F1A9D118EC27084B8168E6614DCA3E641BF76EF9",
+          "git_blob_sha1": "44fd0b4e2daa9a7b5fbe299803ede8fcc9a2a280",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/glass-shape.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/glass-shape.ts",
+          "upstream_path": "packages/core/src/glass-shape.ts",
+          "bytes": 5113,
+          "sha256": "D0EF0259CB4FFB846825BE87F390E18A559CBDCDE91CA50582AAD5768FD549D0",
+          "git_blob_sha1": "09e1a822cb1c2af809bc8cf28ec88bd5d6783680",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/glass-text.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/glass-text.ts",
+          "upstream_path": "packages/core/src/glass-text.ts",
+          "bytes": 9655,
+          "sha256": "04C10086BCF20C6ABD44A65BA1FA355375A0E9EEBE8E24DA43E5BE0E4D91AC85",
+          "git_blob_sha1": "b4ce82e52426da3035249c4e18501018ea6b6fc1",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/glass-tween.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/glass-tween.ts",
+          "upstream_path": "packages/core/src/glass-tween.ts",
+          "bytes": 4379,
+          "sha256": "7E8195501D525EE465AA7AE3CA3A20A58554828C9DA16F4A813534AC8E21E242",
+          "git_blob_sha1": "678f0e6eb36e8e99a8815c6815e0bfdc11640bf2",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/glyph-map.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/glyph-map.ts",
+          "upstream_path": "packages/core/src/glyph-map.ts",
+          "bytes": 15532,
+          "sha256": "E7F1E07D6E78B47B1BF047BD98CFCF93A016F204B5B0878B03DD9146776DA4E5",
+          "git_blob_sha1": "e5b50f6008897176ab30fc4e3652e040c0793adf",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/group-map.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/group-map.ts",
+          "upstream_path": "packages/core/src/group-map.ts",
+          "bytes": 9194,
+          "sha256": "0C36612367A2948C91AD54E38D84DAC936C0319C7414BEDB808A4ED0AF053C19",
+          "git_blob_sha1": "6b3c75b79fe213afcb36f70e7d3f6f5d69d9fc91",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/index.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/index.ts",
+          "upstream_path": "packages/core/src/index.ts",
+          "bytes": 3836,
+          "sha256": "024F671CCCFE64B5A5DA50F112B20F3EDF4D616123DE1B1E1967B210FFD869F5",
+          "git_blob_sha1": "42828eac6786b0404b1450f90283f9636a0c51eb",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/map-encode.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/map-encode.ts",
+          "upstream_path": "packages/core/src/map-encode.ts",
+          "bytes": 2821,
+          "sha256": "C67A69A9BDD2DF10FE44D308B7768E8903705C96C12BDBFE644FD81F33B88F10",
+          "git_blob_sha1": "103c6123b6a764d72b18564d41c7edb74d9f591e",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/mount-alpha-glass.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/mount-alpha-glass.ts",
+          "upstream_path": "packages/core/src/mount-alpha-glass.ts",
+          "bytes": 13623,
+          "sha256": "9945416C40622D18CAF78D233339B42AA060EA3FBF9942B5BE9739917BC194C0",
+          "git_blob_sha1": "25cb974f431314de6243953891bb0d58b52ce23b",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/mount.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/mount.ts",
+          "upstream_path": "packages/core/src/mount.ts",
+          "bytes": 37674,
+          "sha256": "9A2C76224D9E410D96C1064CCE30C86D1E09E420888687FA88102CB75A17016F",
+          "git_blob_sha1": "96ac208da212ba88f05b0e72a3530e02e9bc1bd1",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/moz-backdrop.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/moz-backdrop.ts",
+          "upstream_path": "packages/core/src/moz-backdrop.ts",
+          "bytes": 7135,
+          "sha256": "3867E59184EFFCFFC50A2A47DD3C3AC4E692D55A02BB30D143DDD168EDC2CF81",
+          "git_blob_sha1": "e59073877e6ef9248286f6579356ddee1845d6a6",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/svg-ripple.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/svg-ripple.ts",
+          "upstream_path": "packages/core/src/svg-ripple.ts",
+          "bytes": 8327,
+          "sha256": "9F614B5100A2362E6BEF3E11F75ECF1E3931D11EC54587295C4AC1CA5B84C2F1",
+          "git_blob_sha1": "49fcb659ce755cc98e0fed7f6afedf103a88dbea",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/liquidglassjs/packages/core/src/webgl.ts",
+          "source_url": "https://raw.githubusercontent.com/Amir-Abushanab/liquid-glass-js/07ad06ea197a07269af56da83d1fc9498bca94f5/packages/core/src/webgl.ts",
+          "upstream_path": "packages/core/src/webgl.ts",
+          "bytes": 12381,
+          "sha256": "91751664CBB75604C6F5C59750BAB955918879B9F0D5E61CDC35188872E1E014",
+          "git_blob_sha1": "a64b79c2843a3bc3c8e73aa6264e693e6cc4af11",
+          "git_blob_verified": true,
+          "retries": []
+        }
+      ],
+      "version": "0.5.2",
+      "preparation_only": true,
+      "can_bulk_copy_to_app": false,
+      "reference_only": false
+    },
+    {
+      "id": "animejs",
+      "repo": "juliangarnier/anime",
+      "commit": "01b81be1df6843ccfe0a71c0699a746bf740dd77",
+      "license": "MIT",
+      "status": "offline-esm-vendor-candidate",
+      "demo": "https://animejs.com/documentation/svg/",
+      "functions": [
+        "morphTo",
+        "createMotionPath",
+        "createDrawable",
+        "createTimeline"
+      ],
+      "constraints": [
+        "Animation engine only; not glass material or bird artwork.",
+        "No Trace runtime, DOM animation or performance acceptance has run."
+      ],
+      "source_tree_url": "https://api.github.com/repos/juliangarnier/anime/git/trees/01b81be1df6843ccfe0a71c0699a746bf740dd77?recursive=1",
+      "source_tree_retries": [],
+      "downloaded_files": [
+        {
+          "path": "originals/animejs/LICENSE.md",
+          "source_url": "https://raw.githubusercontent.com/juliangarnier/anime/01b81be1df6843ccfe0a71c0699a746bf740dd77/LICENSE.md",
+          "upstream_path": "LICENSE.md",
+          "bytes": 1075,
+          "sha256": "3F3E835A9952CFC2A6CA836FB95B3257C981F24FA3EF51249055ACB09931897B",
+          "git_blob_sha1": "f999fa58ebdda6d8d0f3ae581ebdfe821f09603a",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/animejs/README.md",
+          "source_url": "https://raw.githubusercontent.com/juliangarnier/anime/01b81be1df6843ccfe0a71c0699a746bf740dd77/README.md",
+          "upstream_path": "README.md",
+          "bytes": 5337,
+          "sha256": "254B88321537A666B4D37AEB77DBA01F630B0DA0DC642FB3FEC9BBB7BF9AB7FA",
+          "git_blob_sha1": "14403f081e2ba79daaaa68b09fc4bcf04e0ee5f0",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/animejs/dist/bundles/anime.esm.js",
+          "source_url": "https://raw.githubusercontent.com/juliangarnier/anime/01b81be1df6843ccfe0a71c0699a746bf740dd77/dist/bundles/anime.esm.js",
+          "upstream_path": "dist/bundles/anime.esm.js",
+          "bytes": 408414,
+          "sha256": "A88EBFB5BD290F25215692EDCE71A74C0FC37BDB9E0FF70BD17135C5C3EF33B6",
+          "git_blob_sha1": "3d9a44513c15beb33348bead47a2ae012559b89f",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/animejs/dist/bundles/anime.esm.min.js",
+          "source_url": "https://raw.githubusercontent.com/juliangarnier/anime/01b81be1df6843ccfe0a71c0699a746bf740dd77/dist/bundles/anime.esm.min.js",
+          "upstream_path": "dist/bundles/anime.esm.min.js",
+          "bytes": 118678,
+          "sha256": "A19015A1A92D52025A2FB6703B6D67EADD1CC2AEAF880770E96E04CF6AA07BE1",
+          "git_blob_sha1": "c278b15616623e2b32ef499bbb1020b181324d59",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/animejs/package.json",
+          "source_url": "https://raw.githubusercontent.com/juliangarnier/anime/01b81be1df6843ccfe0a71c0699a746bf740dd77/package.json",
+          "upstream_path": "package.json",
+          "bytes": 8344,
+          "sha256": "01C6664D7D2B324EADA8E2D32DCF6B0377C4343331A90271AA222FB7009AD585",
+          "git_blob_sha1": "7ebe3997b3620aeb7757c1d24b568d461ceb967d",
+          "git_blob_verified": true,
+          "retries": []
+        }
+      ],
+      "version": "4.5.0",
+      "preparation_only": true,
+      "can_bulk_copy_to_app": false,
+      "reference_only": false
+    },
+    {
+      "id": "magicui-animated-beam",
+      "repo": "magicuidesign/magicui",
+      "commit": "52bc69354621e5cd7c9bc84a0e42b42f2d0c07b1",
+      "license": "MIT",
+      "status": "react-source-requires-port",
+      "demo": "https://magicui.design/docs/components/animated-beam",
+      "functions": [
+        "AnimatedBeam",
+        "updatePath (component-local)"
+      ],
+      "constraints": [
+        "Depends on React, motion/react and a project-local cn helper; not directly runnable in vanilla desktop.",
+        "Container ResizeObserver does not track every animated node position.",
+        "Port coordinate measurement and paired path/gradient structure, not the entire UI framework."
+      ],
+      "source_tree_url": "https://api.github.com/repos/magicuidesign/magicui/git/trees/52bc69354621e5cd7c9bc84a0e42b42f2d0c07b1?recursive=1",
+      "source_tree_retries": [],
+      "downloaded_files": [
+        {
+          "path": "originals/magicui-animated-beam/LICENSE.md",
+          "source_url": "https://raw.githubusercontent.com/magicuidesign/magicui/52bc69354621e5cd7c9bc84a0e42b42f2d0c07b1/LICENSE.md",
+          "upstream_path": "LICENSE.md",
+          "bytes": 1060,
+          "sha256": "0147B84235ED916B8B4E89C1F80655351C5AFE7D211B629BE61F553A227B34BA",
+          "git_blob_sha1": "30efc351ba9c469535dc012930ba6ee30c23f957",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/magicui-animated-beam/apps/www/registry/example/animated-beam-multiple-inputs.tsx",
+          "source_url": "https://raw.githubusercontent.com/magicuidesign/magicui/52bc69354621e5cd7c9bc84a0e42b42f2d0c07b1/apps/www/registry/example/animated-beam-multiple-inputs.tsx",
+          "upstream_path": "apps/www/registry/example/animated-beam-multiple-inputs.tsx",
+          "bytes": 27208,
+          "sha256": "973A39DB555D7718368E353A18A83C77A5F9EE17BD6F16F8EAEF975C7C86172E",
+          "git_blob_sha1": "0443b05caa56d690d007f03ddf9998bea3a31b21",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/magicui-animated-beam/apps/www/registry/example/animated-beam-multiple-outputs.tsx",
+          "source_url": "https://raw.githubusercontent.com/magicuidesign/magicui/52bc69354621e5cd7c9bc84a0e42b42f2d0c07b1/apps/www/registry/example/animated-beam-multiple-outputs.tsx",
+          "upstream_path": "apps/www/registry/example/animated-beam-multiple-outputs.tsx",
+          "bytes": 27348,
+          "sha256": "E8203047BD2FE441CC0AA278E53A037B8883BB82B8F2E5D7AA9630A83DDD33D7",
+          "git_blob_sha1": "dcb77844841b5b8291ff933a9e292dd9713ba6e0",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/magicui-animated-beam/apps/www/registry/magicui/animated-beam.tsx",
+          "source_url": "https://raw.githubusercontent.com/magicuidesign/magicui/52bc69354621e5cd7c9bc84a0e42b42f2d0c07b1/apps/www/registry/magicui/animated-beam.tsx",
+          "upstream_path": "apps/www/registry/magicui/animated-beam.tsx",
+          "bytes": 4986,
+          "sha256": "6AFA2EE1D01694A428EB8517D48DEEBE5C6B532DC0EE871800BB9D92AAE43E79",
+          "git_blob_sha1": "3b2e9cb5363398f63a529ae5c2d8a2c1ecf4a55f",
+          "git_blob_verified": true,
+          "retries": []
+        }
+      ],
+      "version": "commit-snapshot",
+      "preparation_only": true,
+      "can_bulk_copy_to_app": false,
+      "reference_only": false
+    },
+    {
+      "id": "codrops-shape-morph-reference-only",
+      "repo": "codrops/ShapeMorphIdeas",
+      "commit": "eeb7a4f4d7cf580bf8f0b8fb921f1af10f5ffce7",
+      "license": "RESOURCE-TERMS-REVIEW-REQUIRED; demo5.js header says MIT",
+      "status": "reference-only-do-not-distribute",
+      "demo": "https://tympanus.net/Development/ShapeMorphIdeas/index5.html",
+      "functions": [
+        "Blob.reveal",
+        "Blob.unreveal",
+        "MorphingBG.initEvents"
+      ],
+      "constraints": [
+        "README resource terms restrict as-is redistribution and pluginized versions; JS header MIT does not resolve resource-wide scope.",
+        "Do not import, bundle or distribute this reference until licensing scope is resolved.",
+        "Original hides other shapes and reveals fullscreen; Trace needs scene-local expansion and persistent context."
+      ],
+      "source_tree_url": "https://api.github.com/repos/codrops/ShapeMorphIdeas/git/trees/eeb7a4f4d7cf580bf8f0b8fb921f1af10f5ffce7?recursive=1",
+      "source_tree_retries": [],
+      "downloaded_files": [
+        {
+          "path": "originals/codrops-shape-morph-reference-only/README.md",
+          "source_url": "https://raw.githubusercontent.com/codrops/ShapeMorphIdeas/eeb7a4f4d7cf580bf8f0b8fb921f1af10f5ffce7/README.md",
+          "upstream_path": "README.md",
+          "bytes": 1664,
+          "sha256": "DF7AB7B0F0A23881F8CEC091BBF15A8A49C717F156899D6518499510A0672C9D",
+          "git_blob_sha1": "2edbfe5d479f43d64804bd933ee02a126cc8d070",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/codrops-shape-morph-reference-only/css/demo5.css",
+          "source_url": "https://raw.githubusercontent.com/codrops/ShapeMorphIdeas/eeb7a4f4d7cf580bf8f0b8fb921f1af10f5ffce7/css/demo5.css",
+          "upstream_path": "css/demo5.css",
+          "bytes": 3721,
+          "sha256": "E2384DA158F968D013330C441B770B67182812C52A99F4B94588FCE8F53D091D",
+          "git_blob_sha1": "8642d750401c0846bbf87ace05e03bce7dbe78c0",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/codrops-shape-morph-reference-only/index5.html",
+          "source_url": "https://raw.githubusercontent.com/codrops/ShapeMorphIdeas/eeb7a4f4d7cf580bf8f0b8fb921f1af10f5ffce7/index5.html",
+          "upstream_path": "index5.html",
+          "bytes": 20977,
+          "sha256": "D399D7C09F4C13A060A6A0CE25B788D081E39E36E172D2D5FC618F68F3DE9A58",
+          "git_blob_sha1": "6d872a408b64217813ca735b2e3b1aea9bd82266",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/codrops-shape-morph-reference-only/js/demo5.js",
+          "source_url": "https://raw.githubusercontent.com/codrops/ShapeMorphIdeas/eeb7a4f4d7cf580bf8f0b8fb921f1af10f5ffce7/js/demo5.js",
+          "upstream_path": "js/demo5.js",
+          "bytes": 7185,
+          "sha256": "D3F48151629046BFD0D6685F4A0EB8FF92B08053EAB41F37A0099B30244453BB",
+          "git_blob_sha1": "a507dfae1654937c7ec36c8e8061adf576c39d09",
+          "git_blob_verified": true,
+          "retries": []
+        }
+      ],
+      "version": "commit-snapshot",
+      "preparation_only": true,
+      "can_bulk_copy_to_app": false,
+      "reference_only": true,
+      "distribution_authorization": "unresolved-do-not-import-bundle-or-distribute"
+    },
+    {
+      "id": "rizzy-liquid-glass",
+      "repo": "rizzytoday/liquid-glass",
+      "commit": "841af14fb3eb9653d24aacf4eb049c9f389db1ef",
+      "license": "MIT",
+      "status": "lightweight-rounded-rect-fallback",
+      "demo": "https://rizzy.today/liquid-glass/",
+      "functions": [
+        "createLiquidGlass",
+        "buildDisplacementMap",
+        "createFilterSVG"
+      ],
+      "constraints": [
+        "Full refraction requires Chromium backdrop-filter SVG support; UA detection is not a Trace shell acceptance test.",
+        "Map geometry is roundRect; clip-path alone does not make organic-rim refraction.",
+        "Large surfaces, parent opacity and resize map-cache growth require performance testing."
+      ],
+      "source_tree_url": "https://api.github.com/repos/rizzytoday/liquid-glass/git/trees/841af14fb3eb9653d24aacf4eb049c9f389db1ef?recursive=1",
+      "source_tree_retries": [],
+      "downloaded_files": [
+        {
+          "path": "originals/rizzy-liquid-glass/LICENSE",
+          "source_url": "https://raw.githubusercontent.com/rizzytoday/liquid-glass/841af14fb3eb9653d24aacf4eb049c9f389db1ef/LICENSE",
+          "upstream_path": "LICENSE",
+          "bytes": 1065,
+          "sha256": "62D298EF9DAB08EE1CEB20877AA4AD38C3BB71AA0CB779A8738ECFA652160052",
+          "git_blob_sha1": "c410e224e558e6660d275119f054df46b421e80c",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/rizzy-liquid-glass/README.md",
+          "source_url": "https://raw.githubusercontent.com/rizzytoday/liquid-glass/841af14fb3eb9653d24aacf4eb049c9f389db1ef/README.md",
+          "upstream_path": "README.md",
+          "bytes": 8692,
+          "sha256": "A430EAE0B17E5F0F68D8720DA10CA7254948C184C5DC67FC8B1481A359DC2191",
+          "git_blob_sha1": "688cc199aa588f310e7d5597876e979311251409",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/rizzy-liquid-glass/core/liquid-glass.js",
+          "source_url": "https://raw.githubusercontent.com/rizzytoday/liquid-glass/841af14fb3eb9653d24aacf4eb049c9f389db1ef/core/liquid-glass.js",
+          "upstream_path": "core/liquid-glass.js",
+          "bytes": 7867,
+          "sha256": "FE4E6CA8C82B8253DD53EC99604E26A8B39375B818839F96517BC47E9082BE9C",
+          "git_blob_sha1": "7577806af6229eed7f8ec90075753244cb3406cf",
+          "git_blob_verified": true,
+          "retries": []
+        },
+        {
+          "path": "originals/rizzy-liquid-glass/package.json",
+          "source_url": "https://raw.githubusercontent.com/rizzytoday/liquid-glass/841af14fb3eb9653d24aacf4eb049c9f389db1ef/package.json",
+          "upstream_path": "package.json",
+          "bytes": 372,
+          "sha256": "F4387B1AECE4AEC6697301ACC609C31C0A32C10CD4DFFE87E4C4484B1C56D94E",
+          "git_blob_sha1": "7509fb14fde1c69843cc84eb2003b8ab49a0c180",
+          "git_blob_verified": true,
+          "retries": []
+        }
+      ],
+      "version": "0.1.0",
+      "preparation_only": true,
+      "can_bulk_copy_to_app": false,
+      "reference_only": false
+    }
+  ],
+  "validation": {
+    "source_integrity": "all-fixed-commit-git-blobs-and-sha256-pass",
+    "downloaded_file_count": 44,
+    "javascript_syntax": "pass",
+    "typescript_static_parse": "pass-not-semantic-typecheck",
+    "shape_bundle": "pass-no-external-imports",
+    "report": "validation.json",
+    "runtime_rendering": "not-run",
+    "visual_acceptance": "not-run",
+    "file_protocol_integration": "not-run"
+  },
+  "derived_files": [
+    {
+      "path": "derived/liquidglassjs/shape-entry.ts",
+      "bytes": 179,
+      "sha256": "A614CBE63A01E85BDF94E708B956C85AC07D33E7EDF95C43B810B20A9E53B4DE",
+      "provenance": "liquidglassjs@07ad06ea197a07269af56da83d1fc9498bca94f5; local export selection and esbuild compilation"
+    },
+    {
+      "path": "derived/liquidglassjs/shape-only.mjs",
+      "bytes": 17644,
+      "sha256": "30CE49881E35EC8ED8E4235CE6934A19F56761069E072DA11E77C9B6191E6D22",
+      "provenance": "liquidglassjs@07ad06ea197a07269af56da83d1fc9498bca94f5; local export selection and esbuild compilation"
+    },
+    {
+      "path": "derived/liquidglassjs/LICENSE",
+      "bytes": 1071,
+      "sha256": "B4DDCA14599CE25F86F5CBFC490742D51F145BE7529D9C44513095EC53029C30",
+      "provenance": "liquidglassjs@07ad06ea197a07269af56da83d1fc9498bca94f5; local export selection and esbuild compilation"
+    },
+    {
+      "path": "derived/liquidglassjs/build-metafile.json",
+      "bytes": 3853,
+      "sha256": "DE4F16C6F1E3D3F540CFE488F55A7CF2802BBA2F714F52E784292BC74E5E2D46",
+      "provenance": "liquidglassjs@07ad06ea197a07269af56da83d1fc9498bca94f5; local export selection and esbuild compilation"
+    }
+  ]
+}

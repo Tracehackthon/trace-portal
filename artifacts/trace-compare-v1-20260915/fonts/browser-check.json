@@ -1,0 +1,28 @@
+{
+  "taskId": "trace-compare-v1-20260915",
+  "protocol": "file:",
+  "isolatedHeadless": true,
+  "fonts": [
+    {
+      "family": "Trace Compare Sans",
+      "status": "loaded",
+      "weight": "100 900"
+    },
+    {
+      "family": "Trace Compare Serif",
+      "status": "loaded",
+      "weight": "250 900"
+    }
+  ],
+  "sansLoaded": true,
+  "serifLoaded": true,
+  "horizontalOverflow": false,
+  "errors": [],
+  "screenshot": "font-proof.png",
+  "screenshotSha256": "DEE19B6F540E04115C9988E520EDB573C215A21FC4CA2A5F0C0D5962FA3734B8",
+  "fontHashes": {
+    "sans": "B9DDA3CE5EC6B9036FB0AFC9CE4CAA17A79176AA16349DD6B5D7CEB6732FB25A",
+    "serif": "D6954A63138BCAD3D0B9ECCB29F3C1C5023D5440653F663EB3693501F79998DD"
+  },
+  "scope": "Standalone font proof only; not comparison UI acceptance"
+}

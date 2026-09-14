@@ -1,0 +1,244 @@
+TAP version 13
+# Subtest: empty baseline has neither historical understanding nor auto-assigned sources
+ok 1 - empty baseline has neither historical understanding nor auto-assigned sources
+  ---
+  duration_ms: 2.0656
+  type: 'test'
+  ...
+# Subtest: first capture preserves exact user words and no title, summary or history is invented
+ok 2 - first capture preserves exact user words and no title, summary or history is invented
+  ---
+  duration_ms: 1.9026
+  type: 'test'
+  ...
+# Subtest: empty and whitespace-only capture refused; source-only capture succeeds
+ok 3 - empty and whitespace-only capture refused; source-only capture succeeds
+  ---
+  duration_ms: 0.4878
+  type: 'test'
+  ...
+# Subtest: excerpt and personal expression remain separate; selection alone is not capture
+ok 4 - excerpt and personal expression remain separate; selection alone is not capture
+  ---
+  duration_ms: 0.4875
+  type: 'test'
+  ...
+# Subtest: removing excerpt source removes hidden excerpt but not personal input
+ok 5 - removing excerpt source removes hidden excerpt but not personal input
+  ---
+  duration_ms: 0.41
+  type: 'test'
+  ...
+# Subtest: invalid source rejected and a later excerpt cannot mutate already captured matter
+ok 6 - invalid source rejected and a later excerpt cannot mutate already captured matter
+  ---
+  duration_ms: 0.4952
+  type: 'test'
+  ...
+# Subtest: draft, explicit save, stop, collapse and reopen form a narrow continuous loop
+ok 7 - draft, explicit save, stop, collapse and reopen form a narrow continuous loop
+  ---
+  duration_ms: 0.6104
+  type: 'test'
+  ...
+# Subtest: collapse undo restores only screen and never rolls back a later draft
+ok 8 - collapse undo restores only screen and never rolls back a later draft
+  ---
+  duration_ms: 0.372
+  type: 'test'
+  ...
+# Subtest: navigation does not manufacture result, adoption or revisions and revised cannot be bypassed
+ok 9 - navigation does not manufacture result, adoption or revisions and revised cannot be bypassed
+  ---
+  duration_ms: 0.7141
+  type: 'test'
+  ...
+# Subtest: fresh context removes old understanding, sources and all prior conversation from provided context
+ok 10 - fresh context removes old understanding, sources and all prior conversation from provided context
+  ---
+  duration_ms: 1.8139
+  type: 'test'
+  ...
+# Subtest: a second fresh context starts a new isolated boundary, not the previous fresh conversation
+ok 11 - a second fresh context starts a new isolated boundary, not the previous fresh conversation
+  ---
+  duration_ms: 0.7496
+  type: 'test'
+  ...
+# Subtest: send keeps literal user text and valid focus, and generates no pretend model answer
+ok 12 - send keeps literal user text and valid focus, and generates no pretend model answer
+  ---
+  duration_ms: 0.3664
+  type: 'test'
+  ...
+# Subtest: focus verifies real selected range, can clear, and branch keeps precise origin
+ok 13 - focus verifies real selected range, can clear, and branch keeps precise origin
+  ---
+  duration_ms: 0.5148
+  type: 'test'
+  ...
+# Subtest: selection to understanding appends a draft but does not adopt or replace the whole text
+ok 14 - selection to understanding appends a draft but does not adopt or replace the whole text
+  ---
+  duration_ms: 0.3222
+  type: 'test'
+  ...
+# Subtest: comparison link returns to its actual origin and does not adopt conclusion
+ok 15 - comparison link returns to its actual origin and does not adopt conclusion
+  ---
+  duration_ms: 0.4726
+  type: 'test'
+  ...
+# Subtest: reject comparison retains material but does not include rejected association in context
+ok 16 - reject comparison retains material but does not include rejected association in context
+  ---
+  duration_ms: 0.4229
+  type: 'test'
+  ...
+# Subtest: exact local replacement changes only one duplicate occurrence and supports safe undo
+ok 17 - exact local replacement changes only one duplicate occurrence and supports safe undo
+  ---
+  duration_ms: 0.4485
+  type: 'test'
+  ...
+# Subtest: suggestion with stale draft version cannot overwrite even when original substring still matches
+ok 18 - suggestion with stale draft version cannot overwrite even when original substring still matches
+  ---
+  duration_ms: 0.2932
+  type: 'test'
+  ...
+# Subtest: suggestion version check detects edit-away then edit-back (ABA)
+ok 19 - suggestion version check detects edit-away then edit-back (ABA)
+  ---
+  duration_ms: 0.2901
+  type: 'test'
+  ...
+# Subtest: dismiss has no content mutation; expired suggestion undo cannot overwrite later draft or save
+ok 20 - dismiss has no content mutation; expired suggestion undo cannot overwrite later draft or save
+  ---
+  duration_ms: 0.3767
+  type: 'test'
+  ...
+# Subtest: invalid selection offsets never corrupt text including surrogate pair bounds
+ok 21 - invalid selection offsets never corrupt text including surrogate pair bounds
+  ---
+  duration_ms: 0.4288
+  type: 'test'
+  ...
+# Subtest: new material can remain unrelated or saved; raw source survives and understanding does not change
+ok 22 - new material can remain unrelated or saved; raw source survives and understanding does not change
+  ---
+  duration_ms: 1.0157
+  type: 'test'
+  ...
+# Subtest: incorrect incoming link can be removed without deleting source or changing understanding
+ok 23 - incorrect incoming link can be removed without deleting source or changing understanding
+  ---
+  duration_ms: 0.4512
+  type: 'test'
+  ...
+# Subtest: handoff rejects missing destination and scope widening, supports distinct reference/trial/exclude
+ok 24 - handoff rejects missing destination and scope widening, supports distinct reference/trial/exclude
+  ---
+  duration_ms: 0.8232
+  type: 'test'
+  ...
+# Subtest: confirmed handoff is a snapshot and later understanding edits cannot silently change it
+ok 25 - confirmed handoff is a snapshot and later understanding edits cannot silently change it
+  ---
+  duration_ms: 0.4242
+  type: 'test'
+  ...
+# Subtest: an explicitly selected older handoff text is not relabeled as a newer understanding version
+ok 26 - an explicitly selected older handoff text is not relabeled as a newer understanding version
+  ---
+  duration_ms: 0.4025
+  type: 'test'
+  ...
+# Subtest: work findings preserve precise work origin and do not count as results or revisions
+ok 27 - work findings preserve precise work origin and do not count as results or revisions
+  ---
+  duration_ms: 0.31
+  type: 'test'
+  ...
+# Subtest: no facts means no result, even when interpretation or proposed understanding exists
+ok 28 - no facts means no result, even when interpretation or proposed understanding exists
+  ---
+  duration_ms: 0.3532
+  type: 'test'
+  ...
+# Subtest: KEEP_RESULT_ONLY leaves understanding, draft and stop bit-for-bit unchanged and deduplicates repeat click
+ok 29 - KEEP_RESULT_ONLY leaves understanding, draft and stop bit-for-bit unchanged and deduplicates repeat click
+  ---
+  duration_ms: 0.6747
+  type: 'test'
+  ...
+# Subtest: revision returns to the same ID, restores latest understanding and stop after reopen and next handoff
+ok 30 - revision returns to the same ID, restores latest understanding and stop after reopen and next handoff
+  ---
+  duration_ms: 0.8067
+  type: 'test'
+  ...
+# Subtest: revision undo keeps result facts and historical revision, and is one-shot
+ok 31 - revision undo keeps result facts and historical revision, and is one-shot
+  ---
+  duration_ms: 0.6031
+  type: 'test'
+  ...
+# Subtest: expired revision undo cannot overwrite later saved understanding, unsaved draft or stop
+ok 32 - expired revision undo cannot overwrite later saved understanding, unsaved draft or stop
+  ---
+  duration_ms: 1.5378
+  type: 'test'
+  ...
+# Subtest: identical proposed understanding saves only facts and does not manufacture a change
+ok 33 - identical proposed understanding saves only facts and does not manufacture a change
+  ---
+  duration_ms: 0.3188
+  type: 'test'
+  ...
+# Subtest: TRY_AGAIN preserves provided facts before opening a clean handoff, but never invents them
+ok 34 - TRY_AGAIN preserves provided facts before opening a clean handoff, but never invents them
+  ---
+  duration_ms: 0.4863
+  type: 'test'
+  ...
+# Subtest: a stale proposed revision cannot overwrite subsequent edits before confirmation
+ok 35 - a stale proposed revision cannot overwrite subsequent edits before confirmation
+  ---
+  duration_ms: 0.4641
+  type: 'test'
+  ...
+# Subtest: material candidates do not leak another matter’s incoming draft/source into selected matter
+ok 36 - material candidates do not leak another matter’s incoming draft/source into selected matter
+  ---
+  duration_ms: 0.5442
+  type: 'test'
+  ...
+# Subtest: cross-matter drafts, incoming, composer, focus, handoff and results stay isolated
+ok 37 - cross-matter drafts, incoming, composer, focus, handoff and results stay isolated
+  ---
+  duration_ms: 1.3354
+  type: 'test'
+  ...
+# Subtest: unknown IDs/actions are safe and reducer/selector do not mutate their inputs
+ok 38 - unknown IDs/actions are safe and reducer/selector do not mutate their inputs
+  ---
+  duration_ms: 0.4977
+  type: 'test'
+  ...
+# Subtest: all eleven explicit demo views are deterministic and never share mutable fixture references
+ok 39 - all eleven explicit demo views are deterministic and never share mutable fixture references
+  ---
+  duration_ms: 7.4911
+  type: 'test'
+  ...
+1..39
+# tests 39
+# suites 0
+# pass 39
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 133.4575

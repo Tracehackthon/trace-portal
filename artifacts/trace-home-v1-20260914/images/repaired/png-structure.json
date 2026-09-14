@@ -1,0 +1,138 @@
+[
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-perched.png",
+    "bytes": 428617,
+    "width": 1086,
+    "height": 839,
+    "pixel_format": "Format32bppArgb",
+    "png_color_type": 6,
+    "png_chunk_types": [
+      "IHDR",
+      "IDAT",
+      "IEND"
+    ],
+    "has_alpha_or_trns": true,
+    "alpha_min": null,
+    "alpha_max": null,
+    "alpha_evidence": "Alpha channel/tRNS present; full pixel scan required to determine transparency.",
+    "corner_samples": [
+      {
+        "x": 0,
+        "y": 0,
+        "alpha": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      {
+        "x": 10,
+        "y": 10,
+        "alpha": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      {
+        "x": 20,
+        "y": 20,
+        "alpha": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      {
+        "x": 1085,
+        "y": 0,
+        "alpha": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      {
+        "x": 0,
+        "y": 838,
+        "alpha": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      {
+        "x": 1085,
+        "y": 838,
+        "alpha": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    ],
+    "sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC"
+  },
+  {
+    "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-takeoff.png",
+    "bytes": 858034,
+    "width": 1156,
+    "height": 1215,
+    "pixel_format": "Format32bppArgb",
+    "png_color_type": 6,
+    "png_chunk_types": [
+      "IHDR",
+      "IDAT",
+      "IEND"
+    ],
+    "has_alpha_or_trns": true,
+    "alpha_min": null,
+    "alpha_max": null,
+    "alpha_evidence": "Alpha channel/tRNS present; full pixel scan required to determine transparency.",
+    "corner_samples": [
+      {
+        "x": 0,
+        "y": 0,
+        "alpha": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      {
+        "x": 10,
+        "y": 10,
+        "alpha": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      {
+        "x": 20,
+        "y": 20,
+        "alpha": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      {
+        "x": 1155,
+        "y": 0,
+        "alpha": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      {
+        "x": 0,
+        "y": 1214,
+        "alpha": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      {
+        "x": 1155,
+        "y": 1214,
+        "alpha": 0,
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    ],
+    "sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "task": "trace-matters-v1-20260915",
+  "method": "Conservative codepoint check over the full current scene source, including static UI and accessible labels; not shaping or visual acceptance.",
+  "required_codepoints": 473,
+  "checks": [
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/matters-screen.mjs",
+      "sha256": "0B68167434AF15C9568BF5751272A7A85B0492267DDE32B3C8FEC7CABCDB9129",
+      "missing_non_ascii_characters": []
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/scene/matters.css",
+      "sha256": "0F80E20C5D52FDE46DE364A8CC0971F50240E78A10B9011F36FE53821BB32677",
+      "missing_non_ascii_characters": []
+    }
+  ],
+  "dynamic_user_text_covered": false,
+  "build_history_codepoint_counts": [
+    458,
+    471,
+    473
+  ]
+}

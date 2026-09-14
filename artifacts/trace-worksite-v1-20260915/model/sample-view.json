@@ -1,0 +1,235 @@
+{
+  "screen": "overview",
+  "isDemo": true,
+  "notice": "",
+  "selectedWorkId": "demo-worksite-save",
+  "selectedIntakeId": "demo-intake-light-capture",
+  "works": [
+    {
+      "id": "demo-worksite-save",
+      "title": "实现「从知乎留下一点」",
+      "agent": "Codex",
+      "project": "harness"
+    },
+    {
+      "id": "demo-worksite-return",
+      "title": "观察几天后的回看体验",
+      "agent": "Codex",
+      "project": "harness"
+    }
+  ],
+  "work": {
+    "id": "demo-worksite-save",
+    "title": "实现「从知乎留下一点」",
+    "agent": "Codex",
+    "project": "harness",
+    "scope": "current-task",
+    "connected": false
+  },
+  "matters": [
+    {
+      "id": "demo-worksite-recall",
+      "title": "收藏后为什么接不回来",
+      "stop": "恢复当时的触动，是否需要自己的附言？",
+      "understanding": "也许需要补一句自己的感受。",
+      "version": 1
+    },
+    {
+      "id": "demo-worksite-light-capture",
+      "title": "允许只留下一点，不强制整理",
+      "stop": "保存时，哪些内容可以以后再补？",
+      "understanding": "可以先保存，不必马上补完标题、分类和理由。",
+      "version": 1
+    }
+  ],
+  "intake": [
+    {
+      "id": "demo-intake-light-capture",
+      "matterId": "demo-worksite-light-capture",
+      "title": "允许只留下一点，不强制整理",
+      "sourceText": "可以先保存，不必马上补完标题、分类和理由。",
+      "sourceVersion": 1,
+      "source": {
+        "title": "我的理解 · 示例",
+        "excerpt": "可以先保存，不必马上补完标题、分类和理由。",
+        "url": null
+      },
+      "relevance": "这次正在设计保存入口，它会影响哪些内容必须填写。",
+      "usePlan": "先完成保存，再允许补一句自己的感受。",
+      "role": "reference",
+      "note": ""
+    },
+    {
+      "id": "demo-intake-recall",
+      "matterId": "demo-worksite-recall",
+      "title": "保存材料，不等于恢复当时的触动",
+      "sourceText": "也许需要补一句自己的感受。",
+      "sourceVersion": 1,
+      "source": {
+        "title": "收藏后为什么接不回来 · 示例",
+        "excerpt": "个人表达，还是原文现场？",
+        "url": null
+      },
+      "relevance": "用于回看体验的判断：只留材料，之后能否接回当时的想法。",
+      "usePlan": "观察几天后能否接回当时为什么在意。",
+      "role": "trial",
+      "note": ""
+    }
+  ],
+  "contextIntakeIds": [
+    "demo-intake-light-capture",
+    "demo-intake-recall"
+  ],
+  "context": [
+    {
+      "id": "demo-intake-light-capture",
+      "matterId": "demo-worksite-light-capture",
+      "text": "可以先保存，不必马上补完标题、分类和理由。",
+      "sourceVersion": 1,
+      "role": "reference",
+      "instruction": "作为本次参考，不覆盖当前明确要求。",
+      "note": ""
+    },
+    {
+      "id": "demo-intake-recall",
+      "matterId": "demo-worksite-recall",
+      "text": "也许需要补一句自己的感受。",
+      "sourceVersion": 1,
+      "role": "trial",
+      "instruction": "作为待检验的本次尝试，不当作已经成立的结论。",
+      "note": ""
+    }
+  ],
+  "contextSummary": {
+    "reference": 1,
+    "trial": 1,
+    "contrast": 0,
+    "exclude": 0,
+    "included": 2,
+    "findings": 0
+  },
+  "contextFindings": [],
+  "selectedIntake": {
+    "id": "demo-intake-light-capture",
+    "matterId": "demo-worksite-light-capture",
+    "title": "允许只留下一点，不强制整理",
+    "sourceText": "可以先保存，不必马上补完标题、分类和理由。",
+    "sourceVersion": 1,
+    "source": {
+      "title": "我的理解 · 示例",
+      "excerpt": "可以先保存，不必马上补完标题、分类和理由。",
+      "url": null
+    },
+    "relevance": "这次正在设计保存入口，它会影响哪些内容必须填写。",
+    "usePlan": "先完成保存，再允许补一句自己的感受。",
+    "role": "reference",
+    "note": ""
+  },
+  "decision": {
+    "id": "demo-decision-optional-note",
+    "title": "附言作为可选项，不阻挡保存",
+    "description": "先完成保存，再允许补一句自己的感受。",
+    "artifact": {
+      "title": "保存交互原型 · 示例",
+      "url": null,
+      "isDemo": true
+    },
+    "intakeIds": [
+      "demo-intake-light-capture",
+      "demo-intake-recall"
+    ]
+  },
+  "impact": {
+    "relation": "proposed",
+    "stages": {
+      "provided": true,
+      "decision": true,
+      "artifact": true,
+      "usage": false
+    },
+    "confirmed": [
+      "未填写附言，也可以完成保存。"
+    ],
+    "unconfirmed": [
+      "几天后，是否能恢复当时为什么在意。"
+    ],
+    "evidence": [
+      {
+        "id": "demo-evidence-provided",
+        "stage": "provided",
+        "text": "示例上下文记录中包含这两条带入。",
+        "source": {
+          "title": "本次带入记录 · 示例",
+          "excerpt": "两条理解作为本次任务的参考与尝试。",
+          "url": null
+        },
+        "isDemo": true
+      },
+      {
+        "id": "demo-evidence-decision",
+        "stage": "decision",
+        "text": "示例取舍：附言作为可选项，不阻挡保存。",
+        "source": {
+          "title": "保存入口取舍 · 示例",
+          "excerpt": "先完成保存，再允许补一句自己的感受。",
+          "url": null
+        },
+        "isDemo": true
+      },
+      {
+        "id": "demo-evidence-artifact",
+        "stage": "artifact",
+        "text": "示例检查：未填写附言，也可以完成保存。",
+        "source": {
+          "title": "保存流程检查记录 · 示例",
+          "excerpt": "附言可选；保存操作不依赖附言。",
+          "url": null
+        },
+        "isDemo": true
+      }
+    ],
+    "correction": ""
+  },
+  "composer": {
+    "text": ""
+  },
+  "finding": {
+    "id": null,
+    "text": "",
+    "note": "",
+    "source": {
+      "title": "Codex · harness",
+      "excerpt": "实现「从知乎留下一点」",
+      "url": null
+    },
+    "suggestedMatterId": null,
+    "relation": "pending",
+    "saved": false,
+    "useInCurrentWork": false
+  },
+  "findings": [],
+  "result": {
+    "id": null,
+    "matterId": "demo-worksite-recall",
+    "fact": "",
+    "interpretation": "",
+    "unconfirmed": "",
+    "proposedUnderstanding": "",
+    "relation": "unknown",
+    "decision": "pending"
+  },
+  "results": [],
+  "review": {
+    "open": false,
+    "matterId": null,
+    "baseVersion": 0,
+    "before": "",
+    "after": "",
+    "stale": false
+  },
+  "receipt": null,
+  "undo": {
+    "revision": false
+  },
+  "retry": null
+}

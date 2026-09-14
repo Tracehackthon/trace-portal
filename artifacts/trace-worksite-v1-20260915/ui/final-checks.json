@@ -1,0 +1,591 @@
+{
+  "taskId": "trace-worksite-v1-20260915",
+  "at": "2026-09-14T17:12:17.667Z",
+  "prefix": "final",
+  "base": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/ui/fixture.html",
+  "checks": [
+    {
+      "name": "overview → intake opens selected snapshot",
+      "pass": true
+    },
+    {
+      "name": "exclude changes actual context, not merely button state",
+      "pass": true
+    },
+    {
+      "name": "contrast emits distinct instruction",
+      "pass": true
+    },
+    {
+      "name": "intake → impact keeps independent usage unconfirmed",
+      "pass": true
+    },
+    {
+      "name": "artifact does not fake external link",
+      "pass": true
+    },
+    {
+      "name": "impact correction is retained without erasing evidence",
+      "pass": true
+    },
+    {
+      "name": "capture opens real literal discovery",
+      "pass": true
+    },
+    {
+      "name": "reject association keeps original discovery and source",
+      "pass": true
+    },
+    {
+      "name": "keep and use discovery only in this work",
+      "pass": true
+    },
+    {
+      "name": "result navigation does not fabricate facts",
+      "pass": true
+    },
+    {
+      "name": "keep result does not modify understanding",
+      "pass": true
+    },
+    {
+      "name": "review opens before/after without implicit revision",
+      "pass": true
+    },
+    {
+      "name": "explicit revision → undo retains original result",
+      "pass": true
+    },
+    {
+      "name": "switch work isolates drafts, then restores first work",
+      "pass": true
+    },
+    {
+      "name": "IME and caret survive view updates without DOM replacement",
+      "pass": true
+    },
+    {
+      "name": "Escape closes local panel and returns focus",
+      "pass": true
+    },
+    {
+      "name": "empty capture is disabled and Enter does not submit composition",
+      "pass": true
+    },
+    {
+      "name": "external Agent does not pretend integration",
+      "pass": true
+    },
+    {
+      "name": "review keyboard focus is contained and Escape cancels",
+      "pass": true
+    },
+    {
+      "name": "large text remains editable and complete",
+      "pass": true
+    },
+    {
+      "name": "interrupted bird transition finishes in final state",
+      "pass": true
+    },
+    {
+      "name": "narrow results retain reachable confirmation controls",
+      "pass": true
+    },
+    {
+      "name": "all requested assets and fonts loaded",
+      "pass": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "pass": true
+    }
+  ],
+  "passed": 24,
+  "total": 24,
+  "errors": [],
+  "responses": [],
+  "renders": [
+    {
+      "screen": "overview",
+      "width": 1672,
+      "height": 941,
+      "file": "final-overview-1672.png",
+      "fonts": [
+        {
+          "family": "\"Trace Worksite serif worksite-1\"",
+          "status": "loaded"
+        },
+        {
+          "family": "\"Trace Worksite sans worksite-1\"",
+          "status": "loaded"
+        }
+      ],
+      "images": [
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-perched.png",
+          "complete": true,
+          "width": 1086
+        },
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-takeoff.png",
+          "complete": true,
+          "width": 1156
+        }
+      ],
+      "horizontalOverflow": false,
+      "material": [
+        "requested",
+        "requested",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback"
+      ],
+      "panels": [
+        {
+          "name": "intake-list",
+          "clientHeight": 298,
+          "scrollHeight": 300
+        },
+        {
+          "name": "decision",
+          "clientHeight": 416,
+          "scrollHeight": 418
+        }
+      ],
+      "visibleText": "本次带入 · 2\n允许只留下一点，不强制整理\n\n这次正在设计保存入口，它会影响哪些内容必须填写。\n\n查看这次怎样用\n保存材料，不等于恢复当时的触动\n\n用于回看体验的判断：只留材料，之后能否接回当时的想法。\n\n查看\n这次怎样处理\n附言作为可选项，不阻挡保存\n\n先完成保存，再允许补一句自己的感受。\n\n保存交互原型 · 示例\n查看实际影响\n\n原型检查仅为示例，真实使用效果尚未确认。\n\n几天后，是否能恢复当时为什么在意。\n带回结果"
+    },
+    {
+      "screen": "intake",
+      "width": 1672,
+      "height": 941,
+      "file": "final-intake-1672.png",
+      "fonts": [
+        {
+          "family": "\"Trace Worksite serif worksite-1\"",
+          "status": "loaded"
+        },
+        {
+          "family": "\"Trace Worksite sans worksite-1\"",
+          "status": "loaded"
+        }
+      ],
+      "images": [
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-perched.png",
+          "complete": true,
+          "width": 1086
+        },
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-takeoff.png",
+          "complete": true,
+          "width": 1156
+        }
+      ],
+      "horizontalOverflow": false,
+      "material": [
+        "fallback",
+        "fallback",
+        "fallback",
+        "requested",
+        "requested",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback"
+      ],
+      "panels": [
+        {
+          "name": "intake-detail",
+          "clientHeight": 685,
+          "scrollHeight": 687
+        },
+        {
+          "name": "intake-decision",
+          "clientHeight": 210,
+          "scrollHeight": 212
+        },
+        {
+          "name": "intake-other",
+          "clientHeight": 112,
+          "scrollHeight": 114
+        }
+      ],
+      "visibleText": "工作总览\n\n本次带入\n\n允许只留下一点，不强制整理\n当前：这次参考\n原来怎么想\n查看来处\n我的想法已经变了\n\n可以先保存，不必马上补完标题、分类和理由。\n\n为什么与这次有关\n\n这次正在设计保存入口，它会影响哪些内容必须填写。\n\n这次准备怎样用\n\n先完成保存，再允许补一句自己的感受。\n\n作为本次参考，不覆盖当前明确要求。\n\n这次参考\n这次先试\n这次只作对照\n这次不用\n\n仅调整本次工作，不自动修改长期理解。\n\n本次取舍\n附言作为可选项，不阻挡保存\n查看实际影响\n保存材料，不等于恢复当时的触动\n用于回看体验的判断：只留材料，之后能否接回当时的想法。"
+    },
+    {
+      "screen": "impact",
+      "width": 1672,
+      "height": 941,
+      "file": "final-impact-1672.png",
+      "fonts": [
+        {
+          "family": "\"Trace Worksite serif worksite-1\"",
+          "status": "loaded"
+        },
+        {
+          "family": "\"Trace Worksite sans worksite-1\"",
+          "status": "loaded"
+        }
+      ],
+      "images": [
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-perched.png",
+          "complete": true,
+          "width": 1086
+        },
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-takeoff.png",
+          "complete": true,
+          "width": 1156
+        }
+      ],
+      "horizontalOverflow": false,
+      "material": [
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "requested",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback"
+      ],
+      "panels": [
+        {
+          "name": "impact-intake",
+          "clientHeight": 165,
+          "scrollHeight": 167
+        },
+        {
+          "name": "impact",
+          "clientHeight": 624,
+          "scrollHeight": 626
+        }
+      ],
+      "visibleText": "带入的理解\n\n允许只留下一点，不强制整理\n这次正在设计保存入口，它会影响哪些内容必须填写。\n工作总览\n实际影响\n附言作为可选项，不阻挡保存\n本次取舍\n\n先完成保存，再允许补一句自己的感受。\n\n保存交互原型 · 示例\n打开对应原型\n一个有触动的片段，不必立刻变成结论。\n示例已留下\n\n补一句我的感受（可选）\n\n已提供 · 示例\n给出取舍 · 示例\n产物实现 · 示例\n真实使用 · 待核验\n目前能确认\n\n未填写附言，也可以完成保存。\n\n示例依据：示例上下文记录中包含这两条带入。\n\n示例依据：示例取舍：附言作为可选项，不阻挡保存。\n\n示例依据：示例检查：未填写附言，也可以完成保存。\n\n还不能确认\n\n几天后，是否能恢复当时为什么在意。\n\n这条影响关系不准确\n补一份实际结果\n\n实现完成，不等于真实使用有效。"
+    },
+    {
+      "screen": "finding",
+      "width": 1672,
+      "height": 941,
+      "file": "final-finding-1672.png",
+      "fonts": [
+        {
+          "family": "\"Trace Worksite serif worksite-1\"",
+          "status": "loaded"
+        },
+        {
+          "family": "\"Trace Worksite sans worksite-1\"",
+          "status": "loaded"
+        }
+      ],
+      "images": [
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-perched.png",
+          "complete": true,
+          "width": 1086
+        },
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-takeoff.png",
+          "complete": true,
+          "width": 1156
+        }
+      ],
+      "horizontalOverflow": false,
+      "material": [
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "requested",
+        "fallback",
+        "requested",
+        "fallback",
+        "fallback",
+        "fallback"
+      ],
+      "panels": [
+        {
+          "name": "finding-artifact",
+          "clientHeight": 139,
+          "scrollHeight": 141
+        },
+        {
+          "name": "finding",
+          "clientHeight": 622,
+          "scrollHeight": 624
+        },
+        {
+          "name": "finding-relation",
+          "clientHeight": 281,
+          "scrollHeight": 283
+        }
+      ],
+      "visibleText": "工作总览\n本次原型\n\n附言作为可选项，不阻挡保存\n\n工作中留下一点\n现场发现\n\n一个待观察的想法，不是已验证的结论。\n\nCodex · harness\n查看现场\n还想补一句吗？\n先留一下\n展开想想\n用于当前工作\n\n留下后可以继续当前工作。\n\n可能接到\n\n收藏后为什么接不回来\n\n上次停在：恢复当时的触动，是否需要自己的附言？\n\n接到这件事\n暂不关联\n\n无需现在决定。"
+    },
+    {
+      "screen": "results",
+      "width": 1672,
+      "height": 941,
+      "file": "final-results-1672.png",
+      "fonts": [
+        {
+          "family": "\"Trace Worksite serif worksite-1\"",
+          "status": "loaded"
+        },
+        {
+          "family": "\"Trace Worksite sans worksite-1\"",
+          "status": "loaded"
+        }
+      ],
+      "images": [
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-perched.png",
+          "complete": true,
+          "width": 1086
+        },
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-takeoff.png",
+          "complete": true,
+          "width": 1156
+        }
+      ],
+      "horizontalOverflow": false,
+      "material": [
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "requested",
+        "requested",
+        "fallback"
+      ],
+      "panels": [
+        {
+          "name": "result-stop",
+          "clientHeight": 219,
+          "scrollHeight": 221
+        },
+        {
+          "name": "result-fact",
+          "clientHeight": 293,
+          "scrollHeight": 295
+        },
+        {
+          "name": "result-understanding",
+          "clientHeight": 522,
+          "scrollHeight": 524
+        }
+      ],
+      "visibleText": "工作总览\n结果回来\n上次停在\n\n恢复当时的触动，是否需要自己的附言？\n\n原问题：收藏后为什么接不回来\n这次实际发生\n来源：本次原型试用 · 查看现场\n\n单次观察，不代表普遍成立\n\n可能改变的理解\n建议修改 · 尚未生效\n选择一件事\n选择一件事\n收藏后为什么接不回来\n允许只留下一点，不强制整理\n原先的理解：也许需要补一句自己的感受。\n候选理解\n仍未分清\n你的解释\n支持\n限制\n挑战\n暂判断\n查看修改并确认\n只留下结果\n再试一次\n\n仅在你确认后更新「我的理解」。"
+    },
+    {
+      "screen": "finding",
+      "width": 880,
+      "height": 720,
+      "file": "final-finding-880.png",
+      "fonts": [
+        {
+          "family": "\"Trace Worksite serif worksite-1\"",
+          "status": "loaded"
+        },
+        {
+          "family": "\"Trace Worksite sans worksite-1\"",
+          "status": "loaded"
+        }
+      ],
+      "images": [
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-perched.png",
+          "complete": true,
+          "width": 1086
+        },
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-takeoff.png",
+          "complete": true,
+          "width": 1156
+        }
+      ],
+      "horizontalOverflow": false,
+      "material": [
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "requested",
+        "fallback",
+        "requested",
+        "fallback",
+        "fallback",
+        "fallback"
+      ],
+      "panels": [
+        {
+          "name": "finding-artifact",
+          "clientHeight": 145,
+          "scrollHeight": 147
+        },
+        {
+          "name": "finding",
+          "clientHeight": 586,
+          "scrollHeight": 588
+        },
+        {
+          "name": "finding-relation",
+          "clientHeight": 261,
+          "scrollHeight": 263
+        }
+      ],
+      "visibleText": "工作总览\n本次原型\n\n附言作为可选项，不阻挡保存\n\n工作中留下一点\n现场发现\n\n一个待观察的想法，不是已验证的结论。\n\nCodex · harness\n查看现场\n还想补一句吗？\n先留一下\n展开想想\n用于当前工作\n\n留下后可以继续当前工作。\n\n可能接到\n\n收藏后为什么接不回来\n\n上次停在：恢复当时的触动，是否需要自己的附言？\n\n接到这件事\n暂不关联\n\n无需现在决定。"
+    },
+    {
+      "screen": "results",
+      "width": 390,
+      "height": 844,
+      "file": "final-results-390.png",
+      "fonts": [
+        {
+          "family": "\"Trace Worksite serif worksite-1\"",
+          "status": "loaded"
+        },
+        {
+          "family": "\"Trace Worksite sans worksite-1\"",
+          "status": "loaded"
+        }
+      ],
+      "images": [
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-perched.png",
+          "complete": true,
+          "width": 1086
+        },
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-takeoff.png",
+          "complete": true,
+          "width": 1156
+        }
+      ],
+      "horizontalOverflow": false,
+      "material": [
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "requested",
+        "requested",
+        "requested"
+      ],
+      "panels": [
+        {
+          "name": "result-stop",
+          "clientHeight": 210,
+          "scrollHeight": 212
+        },
+        {
+          "name": "result-fact",
+          "clientHeight": 304,
+          "scrollHeight": 306
+        },
+        {
+          "name": "result-understanding",
+          "clientHeight": 655,
+          "scrollHeight": 657
+        }
+      ],
+      "visibleText": "工作总览\n结果回来\n上次停在\n\n恢复当时的触动，是否需要自己的附言？\n\n原问题：收藏后为什么接不回来\n这次实际发生\n来源：本次原型试用 · 查看现场\n\n单次观察，不代表普遍成立\n\n可能改变的理解\n建议修改 · 尚未生效\n选择一件事\n选择一件事\n收藏后为什么接不回来\n允许只留下一点，不强制整理\n原先的理解：也许需要补一句自己的感受。\n候选理解\n仍未分清\n你的解释\n支持\n限制\n挑战\n暂判断\n查看修改并确认\n只留下结果\n再试一次\n\n仅在你确认后更新「我的理解」。"
+    },
+    {
+      "screen": "empty",
+      "width": 1672,
+      "height": 941,
+      "file": "final-empty-1672.png",
+      "fonts": [
+        {
+          "family": "\"Trace Worksite serif worksite-1\"",
+          "status": "loaded"
+        },
+        {
+          "family": "\"Trace Worksite sans worksite-1\"",
+          "status": "loaded"
+        }
+      ],
+      "images": [
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-perched.png",
+          "complete": true,
+          "width": 1086
+        },
+        {
+          "source": "http://127.0.0.1:64335/artifacts/trace-worksite-v1-20260915/images/ready/bird-takeoff.png",
+          "complete": true,
+          "width": 1156
+        }
+      ],
+      "horizontalOverflow": false,
+      "material": [
+        "requested",
+        "requested",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback",
+        "fallback"
+      ],
+      "panels": [
+        {
+          "name": "intake-list",
+          "clientHeight": 298,
+          "scrollHeight": 300
+        },
+        {
+          "name": "decision",
+          "clientHeight": 416,
+          "scrollHeight": 418
+        }
+      ],
+      "visibleText": "本次带入 · 0\n还没有本次带入\n\n先从一件事中选择要带去用的理解；这里不会自动选中全部内容。\n\n这次怎样处理\n尚无可核验的具体取舍\n\n连接工作或留下明确依据后，再核对理解怎样参与。\n\n查看实际影响\n\n外部 Agent 尚未连接，不代表已提供或已实现。\n\n带回结果"
+    }
+  ]
+}

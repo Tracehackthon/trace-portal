@@ -1,0 +1,374 @@
+{
+  "task_id": "trace-home-v1-prototype-20260914",
+  "parent_asset_task_id": "trace-home-v1-assets-20260914",
+  "date": "2026-09-14",
+  "authorization": "用户明确允许脚本修复透明通道；只修此前停驻/起飞鸟，不重启生图，不生成新形象。",
+  "status": "two_repaired_visual_candidates_ready",
+  "script_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repair_checkerboard.py",
+  "script_sha256": "25a6f67f716c71e3144ef427a435d3477ff9f57e738f5d4d30e07f74c529cd93",
+  "dependencies": {
+    "Pillow": "12.2.0",
+    "numpy": "2.3.5",
+    "OpenCV": "4.10.0",
+    "scipy": "1.17.1"
+  },
+  "dependency_changes": "None; used already-installed packages.",
+  "method": "Color/dark foreground + smooth pale texture seeds; connected-component filtering; boundary-connected background and enclosed-hole recovery; image-observed interior background seed between legs; 0.55 px antialias and narrow-edge color decontamination from nearest eroded foreground. No geometric silhouette clipping, no global removal of light pixels.",
+  "outputs": [
+    {
+      "asset_id": "bird-perched",
+      "status": "repaired_visual_candidate_ready",
+      "source_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\B2-bird-perched-alpha-retry.png",
+      "source_sha256": "cc63d1359d2a89d6b6be2dc45d58e61ecff1eeab60974b631ceb1654e3a029e1",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "full_rgba_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-perched-full.png",
+      "full_rgba_sha256": "b5b9c7363745531615434ae7b2a4fa012eb3d7b1e771d4c3078c98c1ade65c5b",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-perched.png",
+      "sha256": "81de590d9c88d27ad73be569385d8b1d6999f08fc269912b4b97b5d403b4efec",
+      "mode": "RGBA",
+      "size": [
+        1086,
+        839
+      ],
+      "source_alpha_bbox_ltrb_exclusive": [
+        88,
+        232,
+        1158,
+        1055
+      ],
+      "source_crop_ltrb_exclusive": [
+        80,
+        224,
+        1166,
+        1063
+      ],
+      "cropped_alpha_bbox_ltrb_exclusive": [
+        8,
+        8,
+        1078,
+        831
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 713729,
+      "semi_transparent_pixels": 12503,
+      "opaque_pixels": 184922,
+      "foot_anchor_source_xy": [
+        852,
+        812
+      ],
+      "foot_anchor_cropped_xy": [
+        772,
+        588
+      ],
+      "eye_anchor_source_xy": [
+        1045,
+        307
+      ],
+      "eye_anchor_cropped_xy": [
+        965,
+        83
+      ],
+      "anchor_note": "Manual visual registration hints, not anatomical ground truth. Apply one common source-pixel scale; do not equalize cropped image widths.",
+      "protected_foreground_samples": {
+        "white_belly": {
+          "source_xy": [
+            952,
+            518
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            249,
+            250,
+            249
+          ],
+          "rgb_output": [
+            249,
+            250,
+            249
+          ]
+        },
+        "white_neck": {
+          "source_xy": [
+            1012,
+            364
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            247,
+            245,
+            242
+          ],
+          "rgb_output": [
+            247,
+            245,
+            242
+          ]
+        },
+        "eye": {
+          "source_xy": [
+            1045,
+            307
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            1,
+            0,
+            0
+          ],
+          "rgb_output": [
+            1,
+            0,
+            0
+          ]
+        },
+        "leg": {
+          "source_xy": [
+            852,
+            774
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            149,
+            105,
+            87
+          ],
+          "rgb_output": [
+            149,
+            105,
+            87
+          ]
+        }
+      },
+      "method": {
+        "chroma_threshold": 10,
+        "dark_gray_threshold": 158,
+        "texture_window_px": 25,
+        "pale_std_max": 14,
+        "pale_gray_min": 205,
+        "closure_px": 3,
+        "edge_sigma_px": 0.55,
+        "preserved_interior_background_seeds_xy": [
+          [
+            822,
+            734
+          ]
+        ],
+        "edge_rgb_modified_pixels": 12503,
+        "opaque_core_pixels_unchanged": 184922
+      },
+      "limitations": [
+        "Original antialias matte is irrecoverably mixed with the checkerboard; nearest-interior color decontamination estimates only a narrow edge band.",
+        "Fine pale feather filaments smaller than 1–2 source pixels may be simplified.",
+        "Two still poses do not provide a natural wing-beat animation."
+      ],
+      "visual_review": {
+        "status": "passed_for_small_ui_candidate",
+        "reviewed_backgrounds": [
+          "deep green #073c31",
+          "mid gray #707477"
+        ],
+        "small_size_scales": [
+          0.075,
+          0.13
+        ],
+        "findings": [
+          "White belly, white neck, eye, legs, tail and wings remain visible.",
+          "No broad checkerboard patches remain; interior leg aperture is transparent.",
+          "Fine pale edging at high magnification remains approximate; not a perfect high-resolution matte."
+        ],
+        "ui_or_animation_acceptance": false
+      }
+    },
+    {
+      "asset_id": "bird-takeoff",
+      "status": "repaired_visual_candidate_ready",
+      "source_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\C-bird-takeoff.png",
+      "source_sha256": "00702abe62d72904c57e6adc6585ec77bda5b03f327cc234f0cb3e5526bce41e",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "full_rgba_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-takeoff-full.png",
+      "full_rgba_sha256": "63c3f2f01c2a122b9fa59910f8e8b1e022bb471d55a72b56ee463a7f7b7a8283",
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-takeoff.png",
+      "sha256": "9bce1f159d48ab6a8d3230aca3f41fd4c4a114a064f59dfcc4b62f05efa7ed93",
+      "mode": "RGBA",
+      "size": [
+        1156,
+        1215
+      ],
+      "source_alpha_bbox_ltrb_exclusive": [
+        87,
+        23,
+        1227,
+        1222
+      ],
+      "source_crop_ltrb_exclusive": [
+        79,
+        15,
+        1235,
+        1230
+      ],
+      "cropped_alpha_bbox_ltrb_exclusive": [
+        8,
+        8,
+        1148,
+        1207
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_pixels": 997122,
+      "semi_transparent_pixels": 20340,
+      "opaque_pixels": 387078,
+      "foot_anchor_source_xy": [
+        829,
+        970
+      ],
+      "foot_anchor_cropped_xy": [
+        750,
+        955
+      ],
+      "eye_anchor_source_xy": [
+        1112,
+        473
+      ],
+      "eye_anchor_cropped_xy": [
+        1033,
+        458
+      ],
+      "anchor_note": "Manual visual registration hints, not anatomical ground truth. Apply one common source-pixel scale; do not equalize cropped image widths.",
+      "protected_foreground_samples": {
+        "white_belly": {
+          "source_xy": [
+            999,
+            691
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            254,
+            254,
+            253
+          ],
+          "rgb_output": [
+            254,
+            254,
+            253
+          ]
+        },
+        "white_neck": {
+          "source_xy": [
+            1082,
+            532
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            253,
+            253,
+            252
+          ],
+          "rgb_output": [
+            253,
+            253,
+            252
+          ]
+        },
+        "eye": {
+          "source_xy": [
+            1112,
+            473
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            0,
+            0,
+            0
+          ],
+          "rgb_output": [
+            0,
+            0,
+            0
+          ]
+        },
+        "leg": {
+          "source_xy": [
+            827,
+            924
+          ],
+          "alpha": 255,
+          "rgb_original": [
+            227,
+            204,
+            186
+          ],
+          "rgb_output": [
+            227,
+            204,
+            186
+          ]
+        }
+      },
+      "method": {
+        "chroma_threshold": 10,
+        "dark_gray_threshold": 158,
+        "texture_window_px": 25,
+        "pale_std_max": 14,
+        "pale_gray_min": 205,
+        "closure_px": 3,
+        "edge_sigma_px": 0.55,
+        "preserved_interior_background_seeds_xy": [
+          [
+            819,
+            868
+          ]
+        ],
+        "edge_rgb_modified_pixels": 20340,
+        "opaque_core_pixels_unchanged": 387078
+      },
+      "limitations": [
+        "Original antialias matte is irrecoverably mixed with the checkerboard; nearest-interior color decontamination estimates only a narrow edge band.",
+        "Fine pale feather filaments smaller than 1–2 source pixels may be simplified.",
+        "Two still poses do not provide a natural wing-beat animation."
+      ],
+      "visual_review": {
+        "status": "passed_for_small_ui_candidate",
+        "reviewed_backgrounds": [
+          "deep green #073c31",
+          "mid gray #707477"
+        ],
+        "small_size_scales": [
+          0.075,
+          0.13
+        ],
+        "findings": [
+          "White belly, white neck, eye, legs, tail and wings remain visible.",
+          "No broad checkerboard patches remain; interior leg aperture is transparent.",
+          "Fine pale edging at high magnification remains approximate; not a perfect high-resolution matte."
+        ],
+        "ui_or_animation_acceptance": false
+      }
+    }
+  ],
+  "replay_evidence_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\replay-hashes.json",
+  "png_structure_evidence_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\png-structure.json",
+  "small_size_check_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-small-size-check.png",
+  "history": [
+    "Initial color-only diagnostic lost white belly and was rejected.",
+    "Texture-assisted diagnostic restored belly but left internal plumage holes; it was rejected.",
+    "Final boundary/hole-aware repair preserves plumage and explicit real leg aperture.",
+    "Both final PNGs regenerated with identical SHA256 hashes."
+  ],
+  "source_integrity": {
+    "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\B2-bird-perched-alpha-retry.png": true,
+    "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\originals\\C-bird-takeoff.png": true
+  },
+  "limits": [
+    "Two static pose candidates, not smooth wing-beat animation.",
+    "Individual 1–2 px pale filaments and original antialias mixed with checkerboard cannot be recovered exactly.",
+    "Manual foot/eye registration coordinates are visual hints, not ground-truth anatomical tracking.",
+    "No app/browser/desktop integration performed by this worker."
+  ]
+}

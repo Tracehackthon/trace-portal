@@ -1,0 +1,116 @@
+{
+  "testKind": "isolated scene, no app routing or Electron/preload check",
+  "baseline": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contextPackageSha256": "BDF5906EC3208A9C254499C5082E5E689971A7547BCC9A1A303BA5F28FA45068",
+  "tests": [
+    {
+      "name": "six actual object buttons, initial no changes",
+      "passed": true
+    },
+    {
+      "name": "hover then click enters same object; reduced motion has no growth",
+      "passed": true
+    },
+    {
+      "name": "original source dialog and Escape returns",
+      "passed": true
+    },
+    {
+      "name": "relation is explicit and does not change stop",
+      "passed": true
+    },
+    {
+      "name": "draft remains focused and saves literal HTML-like input, branch uses latest stop",
+      "passed": true
+    },
+    {
+      "name": "search keeps input focus and real group counts, source points to same matter",
+      "passed": true
+    },
+    {
+      "name": "source result opens local material and same object",
+      "passed": true
+    },
+    {
+      "name": "fresh suppresses historical judgment",
+      "passed": true
+    },
+    {
+      "name": "draft isolation per matter, BACK no false change",
+      "passed": true
+    },
+    {
+      "name": "all four tabs are operable; understanding save does not replace history",
+      "passed": true
+    },
+    {
+      "name": "actual Anime entry is interruptible with Escape",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 'reentry'\n- 'overview'\n"
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "measurements": [
+    {
+      "name": "overview",
+      "mode": "overview",
+      "overflow": [],
+      "fonts": "loaded"
+    },
+    {
+      "name": "hover",
+      "mode": "overview",
+      "overflow": [],
+      "fonts": "loaded"
+    },
+    {
+      "name": "reentry",
+      "mode": "reentry",
+      "overflow": [],
+      "fonts": "loaded"
+    },
+    {
+      "name": "deep-comparison",
+      "mode": "deep",
+      "overflow": [],
+      "fonts": "loaded"
+    },
+    {
+      "name": "changed",
+      "mode": "overview",
+      "overflow": [],
+      "fonts": "loaded"
+    },
+    {
+      "name": "search",
+      "mode": "search",
+      "overflow": [],
+      "fonts": "loaded"
+    },
+    {
+      "name": "fresh",
+      "mode": "deep",
+      "overflow": [],
+      "fonts": "loaded"
+    },
+    {
+      "name": "880-deep",
+      "mode": "deep",
+      "overflow": [],
+      "fonts": "loaded"
+    },
+    {
+      "name": "880-overview",
+      "mode": "overview",
+      "overflow": [],
+      "fonts": "loaded"
+    },
+    {
+      "name": "880-reentry",
+      "mode": "reentry",
+      "overflow": [],
+      "fonts": "loaded"
+    }
+  ]
+}

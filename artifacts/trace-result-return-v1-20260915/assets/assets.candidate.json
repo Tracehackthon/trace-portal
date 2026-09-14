@@ -1,0 +1,501 @@
+{
+  "taskId": "trace-result-return-v1-20260915",
+  "repoHead": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contextPackageSha256": "D314692521774A4B7F205F31634EE68551186ABEA3D2FA5FD9ABFE3A849ABC27",
+  "status": "isolated candidates, not app integration or visual acceptance",
+  "references": [
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/01-结果带入态.png",
+      "sha256": "5EA427A48E5BA0F66CC3ABEF4811DCB9E8BD5CC9C9216098FF1875BA25C1007F",
+      "bytes": 1678166,
+      "role": "visual-reference-only; never a UI background",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/02-比较展开态.png",
+      "sha256": "2ADEDC248C4E146158D860911DD1DFA40E64DFA73D565BBC56A4F5F5B8B7DB4F",
+      "bytes": 1730517,
+      "role": "visual-reference-only; never a UI background",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/03-影响辨认态.png",
+      "sha256": "4630CBC9EBEE075268C202105ED3D2BE7CDE8003460A504FA5A5FC9FEB644A3D",
+      "bytes": 1750028,
+      "role": "visual-reference-only; never a UI background",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/04-修订确认态.png",
+      "sha256": "CA3AC8EB707E12A3481DB9C9D385D6EBEF3723E8BCAAFC922FBBEE23F4D80482",
+      "bytes": 1598646,
+      "role": "visual-reference-only; never a UI background",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "manunl/具体页面与视觉实现/桌面端/结果回来完整交互链路/Trace结果回来_UI状态_v1/05-回接完成态.png",
+      "sha256": "8C39334D25EF3FAA1EC06B9E14FE2B1C4691D9BDF06B761208CD14B6BF665853",
+      "bytes": 1812380,
+      "role": "visual-reference-only; never a UI background",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "backgroundsCompared": [
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/ready/home-environment.png",
+      "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "bytes": 1564971,
+      "role": "not selected: oversized glass wave, sparse vegetation, lower orbs",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "visuallyInspected": true
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/images/ready/matters-environment.png",
+      "sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89",
+      "bytes": 1943325,
+      "role": "runner-up: matching water and trees; upper-left branch competes with title",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "visuallyInspected": true
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/images/ready/chain-environment.png",
+      "sha256": "49A39B936545E0AC5AA65B4CA8E5D998A392728E5D6EB72033F68185ADB6ED13",
+      "bytes": 1387038,
+      "role": "not selected: lower hills, edge moon and near bamboo differ",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "visuallyInspected": true
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/images/ready/chain-overview-environment.png",
+      "sha256": "A4DDA0E97BF3FFEF2D87D48BE07C272E6C69633A236B07676A92A4DC755C6875",
+      "bytes": 1719534,
+      "role": "selected: closest layered tree-covered hills, right moon, lower water and foreground rocks",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "visuallyInspected": true
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/images/ready/worksite-environment.png",
+      "sha256": "2463A5F88546A19621FEE22F95279F7BD6523734301C1AAA92DF614BE13B24E5",
+      "bytes": 1406696,
+      "role": "not selected: central region overly empty and moon clipped at right",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "visuallyInspected": true
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/images/ready/compare-environment.png",
+      "sha256": "23217AF8B9CAD4A4FF3C0A1CE99E89ED7D26E24E79BD1D9DAE81155166859185",
+      "bytes": 1247365,
+      "role": "not selected: no moon, too little water or foreground scenery",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "visuallyInspected": true
+    }
+  ],
+  "selectedAssets": [
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/images/ready/chain-overview-environment.png",
+      "sha256": "A4DDA0E97BF3FFEF2D87D48BE07C272E6C69633A236B07676A92A4DC755C6875",
+      "bytes": 1719534,
+      "role": "selected: closest layered tree-covered hills, right moon, lower water and foreground rocks",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "visuallyInspected": true,
+      "id": "result-return-environment",
+      "use": "backgroundUrl for all five screens",
+      "provenance": "artifacts/trace-one-thing-v1-20260915/images/manifest.json",
+      "license": "Project generated asset; no third-party stock license asserted",
+      "modifications": "none; reference the existing bytes"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-perched.png",
+      "sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "bytes": 428617,
+      "role": "attention marker, perched pose",
+      "size": [
+        1086,
+        839
+      ],
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 713729,
+        "opaquePixels": 184922,
+        "partialPixels": 12503
+      },
+      "id": "bird-perched",
+      "footAnchor": [
+        772,
+        588
+      ],
+      "sourcePixelScale": 0.09,
+      "cssWidth": 97.74,
+      "cssOriginRelativeToFoot": [
+        -69.48,
+        -52.92
+      ],
+      "provenance": "artifacts/trace-home-v1-20260914/images/repaired/repair-manifest.json",
+      "license": "Project generated and user-approved alpha repair; no stock license asserted",
+      "modifications": "none in this task"
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/images/repaired/bird-takeoff.png",
+      "sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "bytes": 858034,
+      "role": "attention marker, takeoff pose",
+      "size": [
+        1156,
+        1215
+      ],
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparentPixels": 997122,
+        "opaquePixels": 387078,
+        "partialPixels": 20340
+      },
+      "id": "bird-takeoff",
+      "footAnchor": [
+        750,
+        955
+      ],
+      "sourcePixelScale": 0.09,
+      "cssWidth": 104.03999999999999,
+      "cssOriginRelativeToFoot": [
+        -67.5,
+        -85.95
+      ],
+      "provenance": "artifacts/trace-home-v1-20260914/images/repaired/repair-manifest.json",
+      "license": "Project generated and user-approved alpha repair; no stock license asserted",
+      "modifications": "none in this task"
+    }
+  ],
+  "componentSources": [
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/chain-helpers.mjs",
+      "sha256": "C37ACE8E2ECD28DF61414B1442D579FBFEC2BC709A410687E83FEE331B75DAE7",
+      "bytes": 4842,
+      "role": "selectedRange, patchDOM and local SVG icons"
+    },
+    {
+      "path": "artifacts/trace-one-thing-v1-20260915/ui/chain-screen.mjs",
+      "sha256": "9629B4AF37E0C68E30A01EAECA5612EDF5B9F48E21B0616FE6F4203FA167710F",
+      "bytes": 40946,
+      "role": "results/revised visual structures and selection event mapping; adapt not whole-model reuse"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/comparison-screen.mjs",
+      "sha256": "8A245E8DB9FF1ED8BADBC93DB1184AAF4351B2C76895F17C28CC62F9E1486561",
+      "bytes": 34642,
+      "role": "before/after receipt, source import, focus-preserving fields and modal patterns"
+    },
+    {
+      "path": "artifacts/trace-compare-v1-20260915/ui/comparison.css",
+      "sha256": "5D075F613C2D0282136606B095A47644B192E2F9147257C0B92B3CE2CA28A759",
+      "bytes": 39574,
+      "role": "before/after, source meta, receipt styles; re-namespace selectors"
+    },
+    {
+      "path": "artifacts/trace-worksite-v1-20260915/ui/worksite-screen.mjs",
+      "sha256": "293AE775CC6F61F66134BFD487F7C00E5F10B6B97BAEB96EAE1427B78250F625",
+      "bytes": 43962,
+      "role": "work identity/source trail/material controls and pending/result-only/undo receipt patterns"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/home/scene-glass.js",
+      "sha256": "0DE8F99069D46021162DA35B8757C496639A70B4371A69A8AD79DBF267E3B772",
+      "bytes": 8287,
+      "role": "mountSceneGlass material adapter, optional small shape use"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/vendor/shape-only.mjs",
+      "sha256": "30CE49881E35EC8ED8E4235CE6934A19F56761069E072DA11E77C9B6191E6D22",
+      "bytes": 17644,
+      "role": "alpha-shape glass sourcegraphic filter, MIT"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/vendor/anime.esm.js",
+      "sha256": "A19015A1A92D52025A2FB6703B6D67EADD1CC2AEAF880770E96E04CF6AA07BE1",
+      "bytes": 118678,
+      "role": "motion-path engine, MIT"
+    },
+    {
+      "path": "trace-runtime/apps/desktop/src/home-icons.js",
+      "sha256": "5AB8F56A90BCD54B180D21951856EB81BE118BBFA743ABA9AF1B5FC909D20854",
+      "bytes": 1696,
+      "role": "Trace local stroke icon language"
+    }
+  ],
+  "licenses": [
+    {
+      "path": "licenses/MIT-animejs.txt",
+      "source": "artifacts/trace-home-v1-20260914/components/originals/animejs/LICENSE.md",
+      "sha256": "3F3E835A9952CFC2A6CA836FB95B3257C981F24FA3EF51249055ACB09931897B",
+      "license": "MIT"
+    },
+    {
+      "path": "licenses/MIT-liquidglassjs.txt",
+      "source": "artifacts/trace-home-v1-20260914/components/derived/liquidglassjs/LICENSE",
+      "sha256": "B4DDCA14599CE25F86F5CBFC490742D51F145BE7529D9C44513095EC53029C30",
+      "license": "MIT"
+    },
+    {
+      "path": "licenses/MIT-magicui-reference.txt",
+      "source": "artifacts/trace-home-v1-20260914/components/originals/magicui-animated-beam/LICENSE.md",
+      "sha256": "0147B84235ED916B8B4E89C1F80655351C5AFE7D211B629BE61F553A227B34BA",
+      "license": "MIT"
+    }
+  ],
+  "fontManifest": "fonts/manifest.json",
+  "checks": {
+    "referenceHashes": "pass",
+    "sixBackgroundDecodes": "pass",
+    "birdAlphaAndReuse": "pass",
+    "newImageGenerations": 0,
+    "newRepositoryDownloads": 0,
+    "appWrites": 0
+  },
+  "limitations": [
+    "Chosen background is closest existing scenery, not exact recovery of pixels hidden by reference panels.",
+    "No generated bubble skin; use interactive CSS/SVG surfaces.",
+    "Two bird poses are not a natural wingbeat sequence.",
+    "Project-local code has no detected root distribution license; internal reuse only, not an asserted external open-source grant."
+  ],
+  "fontSelection": [
+    {
+      "path": "artifacts/trace-result-return-v1-20260915/assets/fonts/TraceResultReturnSerif-delta.woff2",
+      "sha256": "DC270902874BA4005F77F842F3D66F748BD3F69DE549BAE88FAF26AC9D214728",
+      "bytes": 13328,
+      "family": [
+        "Trace Result Return Serif Delta"
+      ],
+      "fullName": [
+        "Trace Result Return Serif Delta ExtraLight"
+      ],
+      "postscriptName": [
+        "TraceResultReturnSerifDelta-ExtraLight"
+      ],
+      "cmapSize": 27,
+      "requiredCodepoints": 27,
+      "missingCharacters": "",
+      "missingCodepoints": [],
+      "attribution": {
+        "0": [
+          "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+        ],
+        "7": [
+          "Source is a trademark of Adobe in the United States and/or other countries."
+        ],
+        "8": [
+          "Adobe"
+        ],
+        "9": [
+          "Ryoko NISHIZUKA 西塚涼子 (kana & ideographs); Frank Grießhammer (Latin, Greek & Cyrillic); Wenlong ZHANG 张文龙 (bopomofo); Sandoll Communications 산돌커뮤니케이션, Soohyun PARK 박수현, Yejin WE 위예진 & Donghoon HAN 한동훈 (hangul elements, letters & syllables)"
+        ],
+        "13": [
+          "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+        ],
+        "14": [
+          "http://scripts.sil.org/OFL"
+        ]
+      },
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 250,
+          "max": 900
+        }
+      ],
+      "base": {
+        "path": "artifacts/trace-one-thing-v1-20260915/fonts/derived/TraceChainSerif-fixed.woff2",
+        "sha256": "7FC2BEFC231B1F67A151AD485AC8A7C7B4ECD6C98015DA9DA9A95809A2E495CB",
+        "bytes": 252444,
+        "family": [
+          "Trace Chain Serif"
+        ],
+        "cmapSize": 646
+      },
+      "deltaCodepoints": [
+        "U+2013",
+        "U+2713",
+        "U+51B2",
+        "U+5219",
+        "U+52A0",
+        "U+5448",
+        "U+5473",
+        "U+54CD",
+        "U+5F02",
+        "U+5F04",
+        "U+5F71",
+        "U+5F80",
+        "U+6240",
+        "U+62DF",
+        "U+663E",
+        "U+6D4B",
+        "U+6DFB",
+        "U+72EC",
+        "U+77E5",
+        "U+79F0",
+        "U+7A81",
+        "U+7B7E",
+        "U+7EA0",
+        "U+89C4",
+        "U+8DB3",
+        "U+9053",
+        "U+FF0F"
+      ],
+      "deltaCharacters": "–✓冲则加呈味响异弄影往所拟显测添独知称突签纠规足道／",
+      "combinedFixedCopyMissing": [],
+      "decision": "reuse closest existing subset plus only missing glyphs; no duplicate full font",
+      "role": "serifDeltaUrl"
+    },
+    {
+      "path": "artifacts/trace-result-return-v1-20260915/assets/fonts/TraceResultReturnSans-delta.woff2",
+      "sha256": "69B4D678890A5E9A92C0E9BCDBB17DB1F2F1D349F3067FAACDCADF485CDE8325",
+      "bytes": 10160,
+      "family": [
+        "Trace Result Return Sans Delta"
+      ],
+      "fullName": [
+        "Trace Result Return Sans Delta Thin"
+      ],
+      "postscriptName": [
+        "TraceResultReturnSansDelta-Thin"
+      ],
+      "cmapSize": 27,
+      "requiredCodepoints": 27,
+      "missingCharacters": "",
+      "missingCodepoints": [],
+      "attribution": {
+        "0": [
+          "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+        ],
+        "7": [
+          "Source is a trademark of Adobe in the United States and/or other countries."
+        ],
+        "8": [
+          "Adobe"
+        ],
+        "9": [
+          "Ryoko NISHIZUKA 西塚涼子 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications 산돌커뮤니케이션, Soo-young JANG 장수영 & Joo-yeon KANG 강주연 (hangul elements, letters & syllables)"
+        ],
+        "13": [
+          "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL"
+        ],
+        "14": [
+          "http://scripts.sil.org/OFL"
+        ]
+      },
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100,
+          "max": 900
+        }
+      ],
+      "base": {
+        "path": "artifacts/trace-one-thing-v1-20260915/fonts/derived/TraceChainSans-fixed.woff2",
+        "sha256": "BC982B0E334328DBD10260E3189CFCB4C6136FACE7424391DAB65E26C4204D30",
+        "bytes": 191652,
+        "family": [
+          "Trace Chain Sans"
+        ],
+        "cmapSize": 646
+      },
+      "deltaCodepoints": [
+        "U+2013",
+        "U+2713",
+        "U+51B2",
+        "U+5219",
+        "U+52A0",
+        "U+5448",
+        "U+5473",
+        "U+54CD",
+        "U+5F02",
+        "U+5F04",
+        "U+5F71",
+        "U+5F80",
+        "U+6240",
+        "U+62DF",
+        "U+663E",
+        "U+6D4B",
+        "U+6DFB",
+        "U+72EC",
+        "U+77E5",
+        "U+79F0",
+        "U+7A81",
+        "U+7B7E",
+        "U+7EA0",
+        "U+89C4",
+        "U+8DB3",
+        "U+9053",
+        "U+FF0F"
+      ],
+      "deltaCharacters": "–✓冲则加呈味响异弄影往所拟显测添独知称突签纠规足道／",
+      "combinedFixedCopyMissing": [],
+      "decision": "reuse closest existing subset plus only missing glyphs; no duplicate full font",
+      "role": "sansDeltaUrl"
+    }
+  ],
+  "assetBindings": {
+    "backgroundUrl": "artifacts/trace-one-thing-v1-20260915/images/ready/chain-overview-environment.png",
+    "birdPerchedUrl": "artifacts/trace-home-v1-20260914/images/repaired/bird-perched.png",
+    "birdTakeoffUrl": "artifacts/trace-home-v1-20260914/images/repaired/bird-takeoff.png",
+    "serifDeltaUrl": "artifacts/trace-result-return-v1-20260915/assets/fonts/TraceResultReturnSerif-delta.woff2",
+    "serifUrl": "artifacts/trace-one-thing-v1-20260915/fonts/derived/TraceChainSerif-fixed.woff2",
+    "sansDeltaUrl": "artifacts/trace-result-return-v1-20260915/assets/fonts/TraceResultReturnSans-delta.woff2",
+    "sansUrl": "artifacts/trace-one-thing-v1-20260915/fonts/derived/TraceChainSans-fixed.woff2"
+  },
+  "assetBindingPolicy": "Values are workspace-relative source paths for root to publish as URLs; not runnable app URLs and not hardcoded local-drive paths."
+}

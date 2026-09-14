@@ -1,0 +1,461 @@
+{
+  "task": "trace-matters-v1-20260915",
+  "created_at_utc": "2026-09-14T16:50:31.172445+00:00",
+  "context_package_sha256": "BDF5906EC3208A9C254499C5082E5E689971A7547BCC9A1A303BA5F28FA45068",
+  "git_baseline": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "scope": "New subsets only; reuse previous official originals in place; no download, installation, service or application change",
+  "tools": {
+    "python": "3.11.9",
+    "fonttools": "4.63.0",
+    "pinned_helper_sha256": "CD2A304643FC80C9C1B5501204AC694B925B13EDD4B098B4B0C1EAEEA0FFF1E4"
+  },
+  "required_codepoint_count": 473,
+  "corpus_inputs": [
+    {
+      "path": "artifacts/trace-matters-v1-20260915/fonts/fixed-copy.json",
+      "sha256": "4357C72767BB40D08B5E4B514A15CFCC1A388F6BE8B8C86DA1DDDAC56645AD19"
+    },
+    {
+      "path": "artifacts/trace-matters-v1-20260915/model/view-fixtures.json",
+      "sha256": "9D44375190A45844F625110870C89013EADBB54AEF2B751ADEBB096C619EEA2F"
+    }
+  ],
+  "originals": [
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/originals/source-han-serif-cn/SourceHanSerifCN-VF.ttf.woff2",
+      "bytes": 11035128,
+      "sha256": "556749BA783B148FA1F48644E8883E5B9351F01ABD0D1FAAD0BA24A21185E76A",
+      "sfnt_version_hex": "00010000",
+      "flavor": "woff2",
+      "family_names": [
+        "Source Han Serif CN VF",
+        "思源宋体 CN VF"
+      ],
+      "typographic_family_names": [],
+      "full_names": [
+        "Source Han Serif CN VF",
+        "思源宋体 CN VF"
+      ],
+      "postscript_names": [
+        "SourceHanSerifCNVF-ExtraLight"
+      ],
+      "unique_ids": [
+        "2.003;ADBO;SourceHanSerifCNVF-ExtraLight;ADOBE"
+      ],
+      "version_strings": [
+        "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0"
+      ],
+      "font_revision": 2.0030059814453125,
+      "copyright": [
+        "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "license_metadata": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+      ],
+      "attribution_by_name_id": {
+        "0": [
+          "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+        ],
+        "7": [
+          "Source is a trademark of Adobe in the United States and/or other countries."
+        ],
+        "8": [
+          "Adobe"
+        ],
+        "9": [
+          "Ryoko NISHIZUKA 西塚涼子 (kana & ideographs); Frank Grießhammer (Latin, Greek & Cyrillic); Wenlong ZHANG 张文龙 (bopomofo); Sandoll Communications 산돌커뮤니케이션, Soohyun PARK 박수현, Yejin WE 위예진 & Donghoon HAN 한동훈 (hangul elements, letters & syllables)"
+        ],
+        "13": [
+          "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+        ],
+        "14": [
+          "http://scripts.sil.org/OFL"
+        ]
+      },
+      "license_urls": [
+        "http://scripts.sil.org/OFL"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 250.0,
+          "default": 250.0,
+          "max": 900.0
+        }
+      ],
+      "default_os2_weight_class": 250,
+      "unicode_cmap_size": 30930,
+      "glyph_count": 31058,
+      "required_codepoint_count": 319,
+      "missing_required_codepoints": [],
+      "chinese_basic_cjk_mapped_count": 20992,
+      "validation": "fontTools parsed metadata, cmap, variable axes and TrueType glyph table; not browser shaping or visual acceptance",
+      "id": "source-han-serif-cn",
+      "source_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/7889f11bf31170b5d092a083b357c8c8130f89e0/Variable/WOFF2/TTF/Subset/SourceHanSerifCN-VF.ttf.woff2",
+      "repository": "https://github.com/adobe-fonts/source-han-serif",
+      "retrieved_via": "https://api.github.com/repos/adobe-fonts/source-han-serif/git/blobs/65a4d31a34ddda25b821b45288168e135b8ebc70",
+      "upstream_commit": "7889f11bf31170b5d092a083b357c8c8130f89e0",
+      "git_blob_sha1": "65a4d31a34ddda25b821b45288168e135b8ebc70",
+      "license": "OFL-1.1",
+      "reserved_font_names": [
+        "Source"
+      ],
+      "note": "Official original, byte-for-byte verified against pinned Git blob; no modification",
+      "metadata_validation": "Full-font parse from previous preparation reused by exact SHA256; this run parses newly built subset."
+    },
+    {
+      "path": "artifacts/trace-home-v1-20260914/fonts/originals/noto-sans-sc/NotoSansSC[wght].ttf",
+      "bytes": 17772300,
+      "sha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA",
+      "sfnt_version_hex": "00010000",
+      "flavor": null,
+      "family_names": [
+        "Noto Sans SC Thin"
+      ],
+      "typographic_family_names": [
+        "Noto Sans SC"
+      ],
+      "full_names": [
+        "Noto Sans SC Thin"
+      ],
+      "postscript_names": [
+        "NotoSansSC-Thin"
+      ],
+      "unique_ids": [
+        "2.004;ADBO;NotoSansSC-Thin;ADOBE"
+      ],
+      "version_strings": [
+        "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "font_revision": 2.003997802734375,
+      "copyright": [
+        "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "license_metadata": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL"
+      ],
+      "attribution_by_name_id": {
+        "0": [
+          "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+        ],
+        "7": [
+          "Source is a trademark of Adobe in the United States and/or other countries."
+        ],
+        "8": [
+          "Adobe"
+        ],
+        "9": [
+          "Ryoko NISHIZUKA 西塚涼子 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications 산돌커뮤니케이션, Soo-young JANG 장수영 & Joo-yeon KANG 강주연 (hangul elements, letters & syllables)"
+        ],
+        "13": [
+          "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL"
+        ],
+        "14": [
+          "http://scripts.sil.org/OFL"
+        ]
+      },
+      "license_urls": [
+        "http://scripts.sil.org/OFL"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 100.0,
+          "max": 900.0
+        }
+      ],
+      "default_os2_weight_class": 100,
+      "unicode_cmap_size": 30890,
+      "glyph_count": 31036,
+      "required_codepoint_count": 319,
+      "missing_required_codepoints": [],
+      "chinese_basic_cjk_mapped_count": 20976,
+      "validation": "fontTools parsed metadata, cmap, variable axes and TrueType glyph table; not browser shaping or visual acceptance",
+      "id": "noto-sans-sc",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/a85815a42757630ce188fdad368c2dfc444d4773/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+      "repository": "https://github.com/google/fonts",
+      "retrieved_via": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf?ref=a85815a42757630ce188fdad368c2dfc444d4773",
+      "upstream_commit": "a85815a42757630ce188fdad368c2dfc444d4773",
+      "git_blob_sha1": "fb0637bafbcd804fe32152370a1225990745b4bc",
+      "license": "OFL-1.1",
+      "reserved_font_names": [
+        "Source"
+      ],
+      "note": "Official original, byte-for-byte verified against pinned Git blob; no modification",
+      "metadata_validation": "Full-font parse from previous preparation reused by exact SHA256; this run parses newly built subset."
+    }
+  ],
+  "derived": [
+    {
+      "path": "derived/TraceMattersSerif-fixed.woff2",
+      "bytes": 195532,
+      "sha256": "6B1D904266F22E080E8A3C8B63DC5F8C9153001302A73D5A3F5EEE0A103070FE",
+      "sfnt_version_hex": "00010000",
+      "flavor": "woff2",
+      "family_names": [
+        "Trace Matters Serif"
+      ],
+      "typographic_family_names": [
+        "Trace Matters Serif"
+      ],
+      "full_names": [
+        "Trace Matters Serif ExtraLight"
+      ],
+      "postscript_names": [
+        "TraceMattersSerif-ExtraLight"
+      ],
+      "unique_ids": [
+        "TraceMattersSerif-Fixed-556749BA783B"
+      ],
+      "version_strings": [
+        "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0"
+      ],
+      "font_revision": 2.0030059814453125,
+      "copyright": [
+        "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "license_metadata": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+      ],
+      "attribution_by_name_id": {
+        "0": [
+          "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+        ],
+        "7": [
+          "Source is a trademark of Adobe in the United States and/or other countries."
+        ],
+        "8": [
+          "Adobe"
+        ],
+        "9": [
+          "Ryoko NISHIZUKA 西塚涼子 (kana & ideographs); Frank Grießhammer (Latin, Greek & Cyrillic); Wenlong ZHANG 张文龙 (bopomofo); Sandoll Communications 산돌커뮤니케이션, Soohyun PARK 박수현, Yejin WE 위예진 & Donghoon HAN 한동훈 (hangul elements, letters & syllables)"
+        ],
+        "13": [
+          "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+        ],
+        "14": [
+          "http://scripts.sil.org/OFL"
+        ]
+      },
+      "license_urls": [
+        "http://scripts.sil.org/OFL"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 250.0,
+          "default": 250.0,
+          "max": 900.0
+        }
+      ],
+      "default_os2_weight_class": 250,
+      "unicode_cmap_size": 474,
+      "glyph_count": 842,
+      "required_codepoint_count": 473,
+      "missing_required_codepoints": [],
+      "chinese_basic_cjk_mapped_count": 357,
+      "validation": "fontTools parsed metadata, cmap, variable axes and TrueType glyph table; not browser shaping or visual acceptance",
+      "derived_from_sha256": "556749BA783B148FA1F48644E8883E5B9351F01ABD0D1FAAD0BA24A21185E76A"
+    },
+    {
+      "path": "derived/TraceMattersSans-fixed.woff2",
+      "bytes": 146468,
+      "sha256": "31F9766E8A7122291E2EC1D10E674ACDE07D2085D997AB8F6F64C794749DD085",
+      "sfnt_version_hex": "00010000",
+      "flavor": "woff2",
+      "family_names": [
+        "Trace Matters Sans"
+      ],
+      "typographic_family_names": [
+        "Trace Matters Sans"
+      ],
+      "full_names": [
+        "Trace Matters Sans Thin"
+      ],
+      "postscript_names": [
+        "TraceMattersSans-Thin"
+      ],
+      "unique_ids": [
+        "TraceMattersSans-Fixed-A3041811A78C"
+      ],
+      "version_strings": [
+        "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "font_revision": 2.003997802734375,
+      "copyright": [
+        "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "license_metadata": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL"
+      ],
+      "attribution_by_name_id": {
+        "0": [
+          "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+        ],
+        "7": [
+          "Source is a trademark of Adobe in the United States and/or other countries."
+        ],
+        "8": [
+          "Adobe"
+        ],
+        "9": [
+          "Ryoko NISHIZUKA 西塚涼子 (kana, bopomofo & ideographs); Paul D. Hunt (Latin, Greek & Cyrillic); Sandoll Communications 산돌커뮤니케이션, Soo-young JANG 장수영 & Joo-yeon KANG 강주연 (hangul elements, letters & syllables)"
+        ],
+        "13": [
+          "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL"
+        ],
+        "14": [
+          "http://scripts.sil.org/OFL"
+        ]
+      },
+      "license_urls": [
+        "http://scripts.sil.org/OFL"
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 100.0,
+          "max": 900.0
+        }
+      ],
+      "default_os2_weight_class": 100,
+      "unicode_cmap_size": 474,
+      "glyph_count": 842,
+      "required_codepoint_count": 473,
+      "missing_required_codepoints": [],
+      "chinese_basic_cjk_mapped_count": 357,
+      "validation": "fontTools parsed metadata, cmap, variable axes and TrueType glyph table; not browser shaping or visual acceptance",
+      "derived_from_sha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA"
+    }
+  ],
+  "licenses": [
+    {
+      "path": "derived/OFL-source-han-serif-cn.txt",
+      "source_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/7889f11bf31170b5d092a083b357c8c8130f89e0/LICENSE.txt",
+      "retrieved_via": "https://api.github.com/repos/adobe-fonts/source-han-serif/contents/LICENSE.txt?ref=7889f11bf31170b5d092a083b357c8c8130f89e0",
+      "upstream_commit": "7889f11bf31170b5d092a083b357c8c8130f89e0",
+      "bytes": 4463,
+      "sha256": "9FF5BB567E1B92C801FC1069E5FBF992FF8EFCCACB9DB94E5959A5B3BA9BB903",
+      "license": "OFL-1.1"
+    },
+    {
+      "path": "derived/OFL-noto-sans-sc.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/a85815a42757630ce188fdad368c2dfc444d4773/ofl/notosanssc/OFL.txt",
+      "retrieved_via": "https://api.github.com/repos/google/fonts/git/blobs/1c9f43281b8f216c5461fe9ac729afbade7724e4",
+      "upstream_commit": "a85815a42757630ce188fdad368c2dfc444d4773",
+      "bytes": 4388,
+      "sha256": "1C05C68C34F9708415AADA51F17E1B0092D2CEA709BF4A94CD38114F9E73D7D9",
+      "license": "OFL-1.1"
+    }
+  ],
+  "reference_images": [
+    {
+      "path": "manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\01-静默总览态.png",
+      "sha256": "5B5FED812C2F9E90FD8114A0D28974931EB4924D94C4ADEAA48C4B935CEF50E9",
+      "bytes": 1868924,
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\02-悬停识别态.png",
+      "sha256": "4208E685D2B6EF1A9AB0D8F2E4274909DE14D79C389F2BAA6A3287EF0A44DDB9",
+      "bytes": 1803165,
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\03-点击进入-气泡生长态.png",
+      "sha256": "145F15038A06A05FA830ACA95E1CDC325D12F7131E77419CDB9DF29D63542D3C",
+      "bytes": 1799123,
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\04-重新进入面.png",
+      "sha256": "B3DE9BC674B206B118B37C54CFA7054CAD7F2DBD8B0D42F79D9613A4E36E919F",
+      "bytes": 1809653,
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\05-新的对照-深度继续态.png",
+      "sha256": "60C1C9122AC06CBAB13ABB3ED74093C99BF2D9F7F4E040C890AAAADD2D3B0116",
+      "bytes": 1927230,
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\06-搜索精确找回态.png",
+      "sha256": "C9026AF6664D3434FE778E7E11AD331584FF419AD30A8163A5CABC90B1C66302",
+      "bytes": 1525051,
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "manunl\\具体页面与视觉实现\\桌面端\\核心功能页面\\Trace在意的事完整交互链路_v1\\07-变化折回总览态.png",
+      "sha256": "FE26AA8E994C06E652CB4C8C16E3569716F3A172468FD162B79E79E73762D527",
+      "bytes": 1814605,
+      "size": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "limitations": [
+    "Fixed-copy subsets are not arbitrary dynamic Chinese coverage; system fallback remains required.",
+    "Metadata/cmap/glyph parse is not browser shaping or visual acceptance.",
+    "New derivatives renamed for OFL reserved-name compliance; original attribution preserved.",
+    "Full original font bytes remain in prior artifact fonts/originals; references.json does not embed them."
+  ],
+  "supporting_files": [
+    {
+      "path": "prepare_fonts.py",
+      "bytes": 8513,
+      "sha256": "BE1905074E53924C5BCA364225844C9FCB36AD67B027DC9D5A5DF6F2B2E54310"
+    },
+    {
+      "path": "FONT-USAGE.md",
+      "bytes": 3956,
+      "sha256": "79F3D7FF625C0E5491166103ED04EA2932843132369B99A2A7682735EE673519"
+    },
+    {
+      "path": "fixed-copy.json",
+      "bytes": 4712,
+      "sha256": "4357C72767BB40D08B5E4B514A15CFCC1A388F6BE8B8C86DA1DDDAC56645AD19"
+    },
+    {
+      "path": "copy-codepoints.json",
+      "bytes": 8391,
+      "sha256": "4406D6ED62AEE01C1684869D2CCB2DEA54B03452D899B1FBE829F695BB1FD37F"
+    },
+    {
+      "path": "scene-copy-audit.json",
+      "bytes": 802,
+      "sha256": "504712192812841312C215230D90B881E8B6A72EA47FC8D8663FDE5DCF176EE7"
+    },
+    {
+      "path": "derived/font-face.css",
+      "bytes": 453,
+      "sha256": "2215CFC050BB2F071A1031217278BB0A96D00ADE3ADB4BE7503159BE21214398"
+    },
+    {
+      "path": "originals/references.json",
+      "bytes": 7043,
+      "sha256": "7E707537C41A9C1CE5914CB3D2698306589D305A1A1AF27E3894D65A8DCDAF4C"
+    }
+  ]
+}

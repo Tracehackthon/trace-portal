@@ -1,0 +1,54 @@
+{
+  "taskId": "trace-compare-v1-20260915",
+  "head": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "contextSha256": "B7417F6FD5E3F6FE1F699F5B9316BE15B8129DF8077EEC77D909679A9C5A61EC",
+  "scope": "isolated-ui-module",
+  "status": "23/23 fixture browser checks passed; not integrated into app",
+  "files": [
+    {
+      "path": "comparison-screen.mjs",
+      "sha256": "8A245E8DB9FF1ED8BADBC93DB1184AAF4351B2C76895F17C28CC62F9E1486561",
+      "bytes": 34642
+    },
+    {
+      "path": "comparison.css",
+      "sha256": "5D075F613C2D0282136606B095A47644B192E2F9147257C0B92B3CE2CA28A759",
+      "bytes": 39574
+    },
+    {
+      "path": "copy.txt",
+      "sha256": "E3C51B97E171AB9729124BD9A3F0B9FC220DE57E67D4867A3F1BE5F92D8CA1B3",
+      "bytes": 3876
+    },
+    {
+      "path": "fixture.mjs",
+      "sha256": "C2BCE49A0DAA8524B9E7D46D86CBDB12DC86F73112919384828F63198067EE43",
+      "bytes": 3098
+    },
+    {
+      "path": "fixture.html",
+      "sha256": "555952702FDDFB7519273065B025C968FD370B7FD5ED6BAC279D883C7E550591",
+      "bytes": 466
+    },
+    {
+      "path": "preview.mjs",
+      "sha256": "EB1A4F613E8824A72E2A93E7D1E8BA5CB2ED71E27A39F24A5ED366AF9F3FF4FB",
+      "bytes": 1257
+    },
+    {
+      "path": "selfcheck.cjs",
+      "sha256": "99689BDEC97156D31F08403058BEB9D3F0B276EAEAF16CE892AAD5F85EA73546",
+      "bytes": 18386
+    },
+    {
+      "path": "README.md",
+      "sha256": "78E86407AA3E6948BD41E28146801E2F5715FD25A144110E5E3036FBB90E42C2",
+      "bytes": 10603
+    },
+    {
+      "path": "checks/release-report.json",
+      "sha256": "FA47196A2DDF8B2C90AEEE984CB2903CDEA25C4565AB3C97707946FC54CEB4D1",
+      "bytes": 4978
+    }
+  ]
+}

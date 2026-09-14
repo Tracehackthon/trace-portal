@@ -1,0 +1,219 @@
+{
+  "task_id": "trace-one-thing-v1-20260915",
+  "context_package_sha256": "5419BAC2804EB001F853B968060478429AA5AFCE08F1ACECEFA14F64E4B3E562",
+  "git_baseline": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "verified_at_utc": "2026-09-14T16:45:08.561410+00:00",
+  "scope": "images only; app, other task outputs, original reference PNGs unchanged",
+  "assets": [
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-one-thing-v1-20260915\\images\\ready\\chain-environment.png",
+      "bytes": 1387038,
+      "sha256": "49A39B936545E0AC5AA65B4CA8E5D998A392728E5D6EB72033F68185ADB6ED13",
+      "format": "PNG",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alpha": false,
+      "asset_id": "chain-environment",
+      "role": "opaque environment; no UI",
+      "original_copy": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-one-thing-v1-20260915\\images\\originals\\inner-environment-generated-v1.png",
+      "original_sha256": "49A39B936545E0AC5AA65B4CA8E5D998A392728E5D6EB72033F68185ADB6ED13",
+      "source_reference": {
+        "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/02-气泡展开-接着这里.png",
+        "sha256": "92431dbc3340db4fd08b16db94da844f2a2acc49686a0c70b9f0d7d03aa6a1ae",
+        "bytes": 1459706,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_version": "unknown; tool did not expose a version field",
+        "attempt": 1,
+        "status": "success_first_attempt",
+        "actual_saved_output": "C:/Users/HoSheil/.codex/generated_images/01a0a0c8-2c49-71a0-b3e6-c73918662c31/exec-381c9dd8-362e-44e1-9e00-9af25859c12a.png",
+        "prompt_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-one-thing-v1-20260915\\images\\prompts\\01-inner-background.txt",
+        "prompt_sha256": "B559A5A536A1EB048B0057D9222DC753F9A26FE029E1F6580B1C2D3640BA6EA6",
+        "prompt": "Use case: precise-object-edit.\nAsset type: production clean full-viewport environment background for the Trace desktop app; all actual UI will be implemented separately in HTML/CSS.\nInput image: Image 1 is the exact edit target, Trace state 02. Retain its landscape composition, soft focus, perspective, lighting, and jade/ivory colors, not a new scenery interpretation.\nPrimary request: remove ALL user-interface elements from this image and reconstruct the scenery hidden behind them. Remove the header/logo/words/icons, center title, every white glass panel/card/input/button/pill, footer text/avatar, all curving thin artificial connector lines, round nodes, glows attached to nodes, and the bird. No UI remains.\nPreserve the underlying pale misty jade landscape: the large pale jade moon/sphere partially cropped against the upper RIGHT EDGE, a soft out-of-focus tree silhouette on the left upper side, low translucent rocky hills with sparse small trees on both sides, reflective calm pale water across the lower half, large jade rock foreground at bottom-left with ONE tiny glass orb on it, and the soft blurred near bamboo foliage entering from lower-left and lower-right. Keep the upper center airy and bright with ample empty white mist. Fill the central region behind the removed panels with calm subtle mist/water and distant low landscape, not dark or sharp detail. Keep tiny restrained warm light reflections on rocks and water only.\nComposition constraint: exact same framing and aspect ratio as supplied 1672 x 941 reference. Do not move the edge moon into the center, do not add extra orbs, do not turn hills into giant tall glass waves. No text, no logo, no bird, no UI, no cards, no borders, no connector lines, no fake checkerboard. Opaque RGB scenery, not transparent.\n"
+      },
+      "transformations": "No crop, resize, repaint, or alpha repair; ready copy is byte-identical to generated output",
+      "visual_review": {
+        "status": "passed_asset_review",
+        "observed": "No visible UI/text/logo/bird/colored nodes/artificial connector curves; reference edge composition retained; generated filled-in area is approximate, not pixel-identical recovery"
+      },
+      "license_note": "Project generated asset from user-provided visual reference; no third-party stock/source-repository license asserted"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-one-thing-v1-20260915\\images\\ready\\chain-overview-environment.png",
+      "bytes": 1719534,
+      "sha256": "A4DDA0E97BF3FFEF2D87D48BE07C272E6C69633A236B07676A92A4DC755C6875",
+      "format": "PNG",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alpha": false,
+      "asset_id": "chain-overview-environment",
+      "role": "opaque environment; no UI",
+      "original_copy": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-one-thing-v1-20260915\\images\\originals\\overview-environment-generated-v1.png",
+      "original_sha256": "A4DDA0E97BF3FFEF2D87D48BE07C272E6C69633A236B07676A92A4DC755C6875",
+      "source_reference": {
+        "path": "manunl/具体页面与视觉实现/桌面端/一件事完整交互链路/Trace一件事连续页面_v1/06-先放这里-收起后留下停点.png",
+        "sha256": "16ae6819ad8b9b934b0fa8f120fd377512cc55c0d0ce66f9291ee89b0b706c98",
+        "bytes": 1691531,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "generation": {
+        "tool": "built-in image_gen",
+        "model_version": "unknown; tool did not expose a version field",
+        "attempt": 1,
+        "status": "success_first_attempt",
+        "actual_saved_output": "C:/Users/HoSheil/.codex/generated_images/01a0a0c8-2c49-71a0-b3e6-c73918662c31/exec-980d1997-ff54-4dd9-8946-066397df7295.png",
+        "prompt_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-one-thing-v1-20260915\\images\\prompts\\02-overview-background.txt",
+        "prompt_sha256": "E6A8E7AEF7979826542CAE962D66137A69AF50697C506B6874AF0E36BB0C5695",
+        "prompt": "Use case: precise-object-edit.\nAsset type: production clean overview environment background for a desktop app; UI will be code, not this image.\nImage 1 is the exact edit target. Remove every user interface element and reconstruct only the scenery hidden beneath: remove all Trace logo/header text/avatar/search/footer, the large center headline, subtitle, input panel, all three bubble cards with their text/icons, bottom toast, bird, all round artificial colored nodes, and ALL artificial flowing connector lines or long glowing ribbons. Preserve the underlying natural landscape and do not change its composition.\nKeep the exact jade and pale ivory mist landscape from this frame: pale moon/sphere at upper right but mostly within the frame, defocused leafy branch upper-left, layered low rocky hills with sparse tiny tree clusters across the middle and lower scene, rocky foreground lower left and lower right, still reflective water through the bottom third, soft gold reflected points on rock/water. Keep upper middle mostly white bright cloud/mist negative space. Where bubbles and connection ribbons were, reconstruct subdued rock/mist surfaces consistent with the surroundings. Natural tiny glints on rocks can stay; no long bright manmade paths through air. No foreground bamboo crossing the sides, no giant glass wave on the right, no extra spheres.\nExact same camera, framing, aspect ratio as 1672 x 941 supplied image. Opaque RGB background. No text, logos, icons, cards, glass UI panels, birds, connector curves, nodes or checkerboard.\n"
+      },
+      "transformations": "No crop, resize, repaint, or alpha repair; ready copy is byte-identical to generated output",
+      "visual_review": {
+        "status": "passed_asset_review",
+        "observed": "No visible UI/text/logo/bird/colored nodes/artificial connector curves; reference edge composition retained; generated filled-in area is approximate, not pixel-identical recovery"
+      },
+      "license_note": "Project generated asset from user-provided visual reference; no third-party stock/source-repository license asserted"
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-one-thing-v1-20260915\\images\\ready\\bird-perched.png",
+      "bytes": 428617,
+      "sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "format": "PNG",
+      "size": [
+        1086,
+        839
+      ],
+      "mode": "RGBA",
+      "alpha": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 713729,
+      "semtransparent_pixels": 12503,
+      "opaque_pixels": 184922,
+      "alpha_bbox": [
+        8,
+        8,
+        1078,
+        831
+      ],
+      "asset_id": "bird-perched",
+      "role": "bird pose, genuine RGBA",
+      "source_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-perched.png",
+      "source_sha256": "81DE590D9C88D27AD73BE569385D8B1D6999F08FC269912B4B97B5D403B4EFEC",
+      "provenance_manifest": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\repair-manifest.json",
+      "provenance_manifest_sha256": "9C67A53049F399920A15A367C7AF4AE8F643D228E7732B378551CCD3AAA5A951",
+      "foot_anchor_xy": [
+        772,
+        588
+      ],
+      "scale_rule": "One common source-pixel scale, not equal CSS widths",
+      "transformations": "None this task. Byte-for-byte reuse of prior user-authorized transparent-channel repair.",
+      "authorization_boundary": "Prior user script approval limited to these two existing bird images; no new image script edit performed.",
+      "limitations": [
+        "Original antialias matte is irrecoverably mixed with the checkerboard; nearest-interior color decontamination estimates only a narrow edge band.",
+        "Fine pale feather filaments smaller than 1–2 source pixels may be simplified.",
+        "Two still poses do not provide a natural wing-beat animation."
+      ],
+      "visual_review": {
+        "status": "previous matte review re-read and small-size-check image personally viewed; no UI animation acceptance"
+      }
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-one-thing-v1-20260915\\images\\ready\\bird-takeoff.png",
+      "bytes": 858034,
+      "sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "format": "PNG",
+      "size": [
+        1156,
+        1215
+      ],
+      "mode": "RGBA",
+      "alpha": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 997122,
+      "semtransparent_pixels": 20340,
+      "opaque_pixels": 387078,
+      "alpha_bbox": [
+        8,
+        8,
+        1148,
+        1207
+      ],
+      "asset_id": "bird-takeoff",
+      "role": "bird pose, genuine RGBA",
+      "source_path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\bird-takeoff.png",
+      "source_sha256": "9BCE1F159D48AB6A8D3230ACA3F41FD4C4A114A064F59DFCC4B62F05EFA7ED93",
+      "provenance_manifest": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\repaired\\repair-manifest.json",
+      "provenance_manifest_sha256": "9C67A53049F399920A15A367C7AF4AE8F643D228E7732B378551CCD3AAA5A951",
+      "foot_anchor_xy": [
+        750,
+        955
+      ],
+      "scale_rule": "One common source-pixel scale, not equal CSS widths",
+      "transformations": "None this task. Byte-for-byte reuse of prior user-authorized transparent-channel repair.",
+      "authorization_boundary": "Prior user script approval limited to these two existing bird images; no new image script edit performed.",
+      "limitations": [
+        "Original antialias matte is irrecoverably mixed with the checkerboard; nearest-interior color decontamination estimates only a narrow edge band.",
+        "Fine pale feather filaments smaller than 1–2 source pixels may be simplified.",
+        "Two still poses do not provide a natural wing-beat animation."
+      ],
+      "visual_review": {
+        "status": "previous matte review re-read and small-size-check image personally viewed; no UI animation acceptance"
+      }
+    }
+  ],
+  "reuse_decisions": [
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-matters-v1-20260915\\images\\ready\\matters-environment.png",
+      "sha256": "185D0FA9FD1DA6C0C16FAD0B22830FAE275B0E9C7BB565A7564A2F2F9D731B89",
+      "decision": "not selected",
+      "reason": "Denser mid-to-upper mountains and inward moon differ from 02 low side hills/edge moon/bamboo framing."
+    },
+    {
+      "path": "D:\\AGeneral Workspace\\AI-powered\\harness\\artifacts\\trace-home-v1-20260914\\images\\ready\\home-environment.png",
+      "sha256": "16BC94CF2D00D7ECFA63FCB635C90067F650B6FA15F6738560C520E0825F1A05",
+      "decision": "not selected",
+      "reason": "Tall right glass wave, two small foreground spheres, and less arborized low landscape differ from new 02 and 06."
+    },
+    {
+      "decision": "second overview background justified",
+      "reason": "06 has central layered ridges, an inward moon and no close bamboo. Inner 02 background would change the collapsed overview framing."
+    }
+  ],
+  "history": [
+    "All eleven supplied reference PNGs and the look-at-image guide personally inspected before production.",
+    "Inner background built-in generation: first attempt succeeded; copied unchanged into workspace and inspected.",
+    "Overview background built-in generation: first attempt succeeded; copied unchanged into workspace and inspected.",
+    "No additional glass/editor/button raster assets were generated; these remain code-renderable.",
+    "No bird generation or repair rerun this task. Prior transparent generation failures/repair diagnostics remain in the linked prior provenance."
+  ],
+  "validation": {
+    "context_and_14_reference_hashes": "passed",
+    "PNG_decode_and_dimensions": "passed",
+    "RGB_background": "passed",
+    "bird_real_alpha": "passed",
+    "ready_equals_original_or_source": "passed",
+    "browser_or_native_UI": "not run by assets worker",
+    "pixel_exact_reconstruction": "not claimed"
+  }
+}

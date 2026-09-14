@@ -1,0 +1,109 @@
+{
+  "summaries": [
+    {
+      "state": "overview",
+      "scene": "overview",
+      "visibleCards": [
+        "thought",
+        "work",
+        "fresh",
+        "handoff"
+      ],
+      "font": true,
+      "glass": [
+        "requested",
+        "requested",
+        "requested",
+        "requested"
+      ],
+      "overflow": []
+    },
+    {
+      "state": "thinking",
+      "scene": "thinking",
+      "visibleCards": [
+        "thought",
+        "work",
+        "fresh",
+        "handoff"
+      ],
+      "font": true,
+      "glass": [
+        "requested",
+        "requested",
+        "requested",
+        "requested",
+        "fallback"
+      ],
+      "overflow": [
+        "多 Agent 交接如何保留证据"
+      ]
+    },
+    {
+      "state": "growth",
+      "scene": "growth",
+      "visibleCards": [
+        "thought",
+        "work",
+        "fresh",
+        "handoff",
+        "insight"
+      ],
+      "font": true,
+      "glass": [
+        "requested",
+        "requested",
+        "requested",
+        "requested",
+        "requested"
+      ],
+      "overflow": []
+    },
+    {
+      "state": "work",
+      "scene": "work",
+      "visibleCards": [
+        "thought",
+        "fresh",
+        "handoff"
+      ],
+      "font": true,
+      "glass": [
+        "requested",
+        "requested",
+        "requested",
+        "fallback"
+      ],
+      "overflow": [
+        "多 Agent 交接如何保留证据"
+      ]
+    },
+    {
+      "state": "return",
+      "scene": "return",
+      "visibleCards": [
+        "thought",
+        "work",
+        "fresh",
+        "handoff",
+        "practice",
+        "result"
+      ],
+      "font": true,
+      "glass": [
+        "requested",
+        "requested",
+        "requested",
+        "requested",
+        "requested",
+        "requested"
+      ],
+      "overflow": [
+        "想重新看，不先被旧理解带走",
+        "多 Agent 交接如何保留证据"
+      ]
+    }
+  ],
+  "errors": [],
+  "responses": []
+}

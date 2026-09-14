@@ -1,0 +1,34 @@
+[
+  {
+    "stage": "initial-ui-only",
+    "outcome": "success",
+    "visible_codepoints": 603,
+    "note": "Initial UI copy and look-at-image guide subset. Preserved under candidates/initial-ui-only."
+  },
+  {
+    "stage": "model-fixture-supplement",
+    "outcome": "success",
+    "visible_codepoints": 640,
+    "note": "UI copy, eleven sample selector views, and reducer notices covered. Refresh and verify passed for that input revision."
+  },
+  {
+    "stage": "final-copy-refresh",
+    "outcome": "failed-as-designed",
+    "missing_codepoints": [
+      "U+51B5",
+      "U+547D",
+      "U+5740",
+      "U+591A",
+      "U+7269",
+      "U+8FD4"
+    ],
+    "missing_characters": "况命址多物返",
+    "note": "UI implementation copy and model notices were subsequently extended. --refresh-copy refused to claim coverage and did not replace font files. Full subset rebuild required."
+  },
+  {
+    "stage": "final-copy-full-rebuild",
+    "outcome": "retry-passed",
+    "visible_codepoints": 646,
+    "note": "Complete originals used to rebuild both subsets after six new fixed-copy glyphs were detected. --verify-only passed against unchanged final UI/model snapshots. Serif 252444 bytes; Sans 191652 bytes."
+  }
+]

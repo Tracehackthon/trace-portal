@@ -1,0 +1,554 @@
+{
+  "intake": {
+    "screen": "intake",
+    "identity": {
+      "sessionKey": "[\"demo-session\",\"demo-result-1\",\"demo-work-harness\",\"demo-matter-recall\"]",
+      "resultId": "demo-result-1",
+      "matterId": "demo-matter-recall",
+      "workId": "demo-work-harness",
+      "sourceVersion": 3,
+      "returnAnchor": {
+        "target": "worksite",
+        "workId": "demo-work-harness",
+        "section": "results"
+      }
+    },
+    "intake": {
+      "text": "我试了原型。原位展开让我认出是哪件事，但我还是不知道接下来该想什么。",
+      "source": {
+        "title": "Codex · harness",
+        "label": "气泡展开原型",
+        "selectedText": "我的一次原型试用。"
+      },
+      "materials": [
+        {
+          "id": "demo-screenshot-note",
+          "title": "原型截图说明（示例）",
+          "text": "静态设计案例中选中的原型截图说明；不是真实测试截图。",
+          "kind": "selected-text"
+        }
+      ],
+      "matter": {
+        "id": "demo-matter-recall",
+        "title": "收藏后为什么接不回来",
+        "understanding": "原位展开能够帮助用户接续思考。",
+        "version": 3,
+        "draftVersion": 7,
+        "hasUnsavedDraft": false
+      },
+      "targets": [],
+      "trialText": "原位展开可能帮助我从原来的地方接着想。",
+      "canSave": true,
+      "canCompare": true,
+      "rawLocked": false
+    },
+    "comparison": {
+      "observation": "这次试用中，我认出了原来的事情，但不知道下一步从哪里继续。",
+      "interpretation": "原位展开可能恢复了位置，却没有恢复上次停点。",
+      "unconfirmed": "是缺少停点提示，还是原来的讨论没有留下可继续的问题？",
+      "summary": "这次，认出了位置，却没有接着想"
+    },
+    "impact": {
+      "understanding": "原位展开能够帮助用户接续思考。",
+      "baseVersion": 3,
+      "fragments": [],
+      "selectedFragmentId": null,
+      "suggestion": {
+        "title": "建议：补上边界",
+        "text": "这次没有否定原位展开的价值。它可能帮助认出位置，但不足以单独支持继续思考。",
+        "after": "原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。",
+        "origin": "explicit-demo"
+      },
+      "canReview": false
+    },
+    "revision": {
+      "before": "原位展开能够帮助用户接续思考。",
+      "after": "",
+      "unresolved": "",
+      "baseVersion": 3,
+      "scope": "matter-current-understanding",
+      "stale": false,
+      "canConfirm": false
+    },
+    "receipt": null,
+    "status": {
+      "phase": "editing",
+      "pending": null,
+      "canRetry": false,
+      "canUndo": false,
+      "error": null,
+      "resultSaved": false
+    },
+    "notice": "",
+    "isDemo": true,
+    "retry": {
+      "open": false,
+      "destination": {
+        "agent": "",
+        "project": "",
+        "task": ""
+      },
+      "sent": false,
+      "navigation": null
+    },
+    "oldVersionOpen": false
+  },
+  "comparison": {
+    "screen": "comparison",
+    "identity": {
+      "sessionKey": "[\"demo-session\",\"demo-result-1\",\"demo-work-harness\",\"demo-matter-recall\"]",
+      "resultId": "demo-result-1",
+      "matterId": "demo-matter-recall",
+      "workId": "demo-work-harness",
+      "sourceVersion": 3,
+      "returnAnchor": {
+        "target": "worksite",
+        "workId": "demo-work-harness",
+        "section": "results"
+      }
+    },
+    "intake": {
+      "text": "我试了原型。原位展开让我认出是哪件事，但我还是不知道接下来该想什么。",
+      "source": {
+        "title": "Codex · harness",
+        "label": "气泡展开原型",
+        "selectedText": "我的一次原型试用。"
+      },
+      "materials": [
+        {
+          "id": "demo-screenshot-note",
+          "title": "原型截图说明（示例）",
+          "text": "静态设计案例中选中的原型截图说明；不是真实测试截图。",
+          "kind": "selected-text"
+        }
+      ],
+      "matter": {
+        "id": "demo-matter-recall",
+        "title": "收藏后为什么接不回来",
+        "understanding": "原位展开能够帮助用户接续思考。",
+        "version": 3,
+        "draftVersion": 7,
+        "hasUnsavedDraft": false
+      },
+      "targets": [],
+      "trialText": "原位展开可能帮助我从原来的地方接着想。",
+      "canSave": true,
+      "canCompare": true,
+      "rawLocked": false
+    },
+    "comparison": {
+      "observation": "这次试用中，我认出了原来的事情，但不知道下一步从哪里继续。",
+      "interpretation": "原位展开可能恢复了位置，却没有恢复上次停点。",
+      "unconfirmed": "是缺少停点提示，还是原来的讨论没有留下可继续的问题？",
+      "summary": "这次，认出了位置，却没有接着想"
+    },
+    "impact": {
+      "understanding": "原位展开能够帮助用户接续思考。",
+      "baseVersion": 3,
+      "fragments": [],
+      "selectedFragmentId": null,
+      "suggestion": {
+        "title": "建议：补上边界",
+        "text": "这次没有否定原位展开的价值。它可能帮助认出位置，但不足以单独支持继续思考。",
+        "after": "原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。",
+        "origin": "explicit-demo"
+      },
+      "canReview": false
+    },
+    "revision": {
+      "before": "原位展开能够帮助用户接续思考。",
+      "after": "",
+      "unresolved": "",
+      "baseVersion": 3,
+      "scope": "matter-current-understanding",
+      "stale": false,
+      "canConfirm": false
+    },
+    "receipt": null,
+    "status": {
+      "phase": "editing",
+      "pending": null,
+      "canRetry": false,
+      "canUndo": false,
+      "error": null,
+      "resultSaved": false
+    },
+    "notice": "",
+    "isDemo": true,
+    "retry": {
+      "open": false,
+      "destination": {
+        "agent": "",
+        "project": "",
+        "task": ""
+      },
+      "sent": false,
+      "navigation": null
+    },
+    "oldVersionOpen": false
+  },
+  "impact": {
+    "screen": "impact",
+    "identity": {
+      "sessionKey": "[\"demo-session\",\"demo-result-1\",\"demo-work-harness\",\"demo-matter-recall\"]",
+      "resultId": "demo-result-1",
+      "matterId": "demo-matter-recall",
+      "workId": "demo-work-harness",
+      "sourceVersion": 3,
+      "returnAnchor": {
+        "target": "worksite",
+        "workId": "demo-work-harness",
+        "section": "results"
+      }
+    },
+    "intake": {
+      "text": "我试了原型。原位展开让我认出是哪件事，但我还是不知道接下来该想什么。",
+      "source": {
+        "title": "Codex · harness",
+        "label": "气泡展开原型",
+        "selectedText": "我的一次原型试用。"
+      },
+      "materials": [
+        {
+          "id": "demo-screenshot-note",
+          "title": "原型截图说明（示例）",
+          "text": "静态设计案例中选中的原型截图说明；不是真实测试截图。",
+          "kind": "selected-text"
+        }
+      ],
+      "matter": {
+        "id": "demo-matter-recall",
+        "title": "收藏后为什么接不回来",
+        "understanding": "原位展开能够帮助用户接续思考。",
+        "version": 3,
+        "draftVersion": 7,
+        "hasUnsavedDraft": false
+      },
+      "targets": [],
+      "trialText": "原位展开可能帮助我从原来的地方接着想。",
+      "canSave": true,
+      "canCompare": true,
+      "rawLocked": false
+    },
+    "comparison": {
+      "observation": "这次试用中，我认出了原来的事情，但不知道下一步从哪里继续。",
+      "interpretation": "原位展开可能恢复了位置，却没有恢复上次停点。",
+      "unconfirmed": "是缺少停点提示，还是原来的讨论没有留下可继续的问题？",
+      "summary": "这次，认出了位置，却没有接着想"
+    },
+    "impact": {
+      "understanding": "原位展开能够帮助用户接续思考。",
+      "baseVersion": 3,
+      "fragments": [
+        {
+          "start": 10,
+          "end": 14,
+          "text": "接续思考",
+          "baseVersion": 3,
+          "id": "3:10:14",
+          "relation": "limit",
+          "note": "",
+          "status": "proposed"
+        }
+      ],
+      "selectedFragmentId": "3:10:14",
+      "suggestion": {
+        "title": "建议：补上边界",
+        "text": "这次没有否定原位展开的价值。它可能帮助认出位置，但不足以单独支持继续思考。",
+        "after": "原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。",
+        "origin": "explicit-demo"
+      },
+      "canReview": true
+    },
+    "revision": {
+      "before": "原位展开能够帮助用户接续思考。",
+      "after": "",
+      "unresolved": "",
+      "baseVersion": 3,
+      "scope": "matter-current-understanding",
+      "stale": false,
+      "canConfirm": false
+    },
+    "receipt": null,
+    "status": {
+      "phase": "editing",
+      "pending": null,
+      "canRetry": false,
+      "canUndo": false,
+      "error": null,
+      "resultSaved": false
+    },
+    "notice": "",
+    "isDemo": true,
+    "retry": {
+      "open": false,
+      "destination": {
+        "agent": "",
+        "project": "",
+        "task": ""
+      },
+      "sent": false,
+      "navigation": null
+    },
+    "oldVersionOpen": false
+  },
+  "revision": {
+    "screen": "revision",
+    "identity": {
+      "sessionKey": "[\"demo-session\",\"demo-result-1\",\"demo-work-harness\",\"demo-matter-recall\"]",
+      "resultId": "demo-result-1",
+      "matterId": "demo-matter-recall",
+      "workId": "demo-work-harness",
+      "sourceVersion": 3,
+      "returnAnchor": {
+        "target": "worksite",
+        "workId": "demo-work-harness",
+        "section": "results"
+      }
+    },
+    "intake": {
+      "text": "我试了原型。原位展开让我认出是哪件事，但我还是不知道接下来该想什么。",
+      "source": {
+        "title": "Codex · harness",
+        "label": "气泡展开原型",
+        "selectedText": "我的一次原型试用。"
+      },
+      "materials": [
+        {
+          "id": "demo-screenshot-note",
+          "title": "原型截图说明（示例）",
+          "text": "静态设计案例中选中的原型截图说明；不是真实测试截图。",
+          "kind": "selected-text"
+        }
+      ],
+      "matter": {
+        "id": "demo-matter-recall",
+        "title": "收藏后为什么接不回来",
+        "understanding": "原位展开能够帮助用户接续思考。",
+        "version": 3,
+        "draftVersion": 7,
+        "hasUnsavedDraft": false
+      },
+      "targets": [],
+      "trialText": "原位展开可能帮助我从原来的地方接着想。",
+      "canSave": true,
+      "canCompare": true,
+      "rawLocked": false
+    },
+    "comparison": {
+      "observation": "这次试用中，我认出了原来的事情，但不知道下一步从哪里继续。",
+      "interpretation": "原位展开可能恢复了位置，却没有恢复上次停点。",
+      "unconfirmed": "是缺少停点提示，还是原来的讨论没有留下可继续的问题？",
+      "summary": "这次，认出了位置，却没有接着想"
+    },
+    "impact": {
+      "understanding": "原位展开能够帮助用户接续思考。",
+      "baseVersion": 3,
+      "fragments": [
+        {
+          "start": 10,
+          "end": 14,
+          "text": "接续思考",
+          "baseVersion": 3,
+          "id": "3:10:14",
+          "relation": "limit",
+          "note": "",
+          "status": "proposed"
+        }
+      ],
+      "selectedFragmentId": "3:10:14",
+      "suggestion": {
+        "title": "建议：补上边界",
+        "text": "这次没有否定原位展开的价值。它可能帮助认出位置，但不足以单独支持继续思考。",
+        "after": "原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。",
+        "origin": "explicit-demo"
+      },
+      "canReview": true
+    },
+    "revision": {
+      "matterId": "demo-matter-recall",
+      "before": "原位展开能够帮助用户接续思考。",
+      "after": "原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。",
+      "unresolved": "怎样呈现停点，才真正帮助继续？",
+      "baseVersion": 3,
+      "baseDraftVersion": 7,
+      "fragments": [
+        {
+          "start": 10,
+          "end": 14,
+          "text": "接续思考",
+          "baseVersion": 3,
+          "id": "3:10:14",
+          "relation": "limit",
+          "note": "",
+          "status": "proposed"
+        }
+      ],
+      "scope": "matter-current-understanding",
+      "stale": false,
+      "canConfirm": true
+    },
+    "receipt": null,
+    "status": {
+      "phase": "draft",
+      "pending": null,
+      "canRetry": false,
+      "canUndo": false,
+      "error": null,
+      "resultSaved": false
+    },
+    "notice": "",
+    "isDemo": true,
+    "retry": {
+      "open": false,
+      "destination": {
+        "agent": "",
+        "project": "",
+        "task": ""
+      },
+      "sent": false,
+      "navigation": null
+    },
+    "oldVersionOpen": false
+  },
+  "completed": {
+    "screen": "completed",
+    "identity": {
+      "sessionKey": "[\"demo-session\",\"demo-result-1\",\"demo-work-harness\",\"demo-matter-recall\"]",
+      "resultId": "demo-result-1",
+      "matterId": "demo-matter-recall",
+      "workId": "demo-work-harness",
+      "sourceVersion": 3,
+      "returnAnchor": {
+        "target": "worksite",
+        "workId": "demo-work-harness",
+        "section": "results"
+      }
+    },
+    "intake": {
+      "text": "我试了原型。原位展开让我认出是哪件事，但我还是不知道接下来该想什么。",
+      "source": {
+        "title": "Codex · harness",
+        "label": "气泡展开原型",
+        "selectedText": "我的一次原型试用。"
+      },
+      "materials": [
+        {
+          "id": "demo-screenshot-note",
+          "title": "原型截图说明（示例）",
+          "text": "静态设计案例中选中的原型截图说明；不是真实测试截图。",
+          "kind": "selected-text"
+        }
+      ],
+      "matter": {
+        "id": "demo-matter-recall",
+        "title": "收藏后为什么接不回来",
+        "understanding": "原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。",
+        "version": 4,
+        "draftVersion": 8,
+        "hasUnsavedDraft": false
+      },
+      "targets": [],
+      "trialText": "原位展开可能帮助我从原来的地方接着想。",
+      "canSave": true,
+      "canCompare": true,
+      "rawLocked": true
+    },
+    "comparison": {
+      "observation": "这次试用中，我认出了原来的事情，但不知道下一步从哪里继续。",
+      "interpretation": "原位展开可能恢复了位置，却没有恢复上次停点。",
+      "unconfirmed": "是缺少停点提示，还是原来的讨论没有留下可继续的问题？",
+      "summary": "这次，认出了位置，却没有接着想"
+    },
+    "impact": {
+      "understanding": "原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。",
+      "baseVersion": 4,
+      "fragments": [
+        {
+          "start": 10,
+          "end": 14,
+          "text": "接续思考",
+          "baseVersion": 3,
+          "id": "3:10:14",
+          "relation": "limit",
+          "note": "",
+          "status": "proposed"
+        }
+      ],
+      "selectedFragmentId": "3:10:14",
+      "suggestion": {
+        "title": "建议：补上边界",
+        "text": "这次没有否定原位展开的价值。它可能帮助认出位置，但不足以单独支持继续思考。",
+        "after": "原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。",
+        "origin": "explicit-demo"
+      },
+      "canReview": false
+    },
+    "revision": {
+      "matterId": "demo-matter-recall",
+      "before": "原位展开能够帮助用户接续思考。",
+      "after": "原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。",
+      "unresolved": "怎样呈现停点，才真正帮助继续？",
+      "baseVersion": 3,
+      "baseDraftVersion": 7,
+      "fragments": [
+        {
+          "start": 10,
+          "end": 14,
+          "text": "接续思考",
+          "baseVersion": 3,
+          "id": "3:10:14",
+          "relation": "limit",
+          "note": "",
+          "status": "proposed"
+        }
+      ],
+      "scope": "matter-current-understanding",
+      "stale": true,
+      "canConfirm": false
+    },
+    "receipt": {
+      "commandId": "demo-result-return:1",
+      "operationId": "demo-result-return:operation:1",
+      "operation": "revise-understanding",
+      "sessionKey": "[\"demo-session\",\"demo-result-1\",\"demo-work-harness\",\"demo-matter-recall\"]",
+      "resultId": "demo-result-1",
+      "workId": "demo-work-harness",
+      "matterId": "demo-matter-recall",
+      "expectedVersion": 3,
+      "fingerprint": "{\"commandId\":\"demo-result-return:1\",\"expectedDraftVersion\":7,\"expectedVersion\":3,\"localDraftVersion\":4,\"matterId\":\"demo-matter-recall\",\"operation\":\"revise-understanding\",\"operationId\":\"demo-result-return:operation:1\",\"resultId\":\"demo-result-1\",\"returnAnchor\":{\"section\":\"results\",\"target\":\"worksite\",\"workId\":\"demo-work-harness\"},\"scope\":\"matter-current-understanding\",\"sessionKey\":\"[\\\"demo-session\\\",\\\"demo-result-1\\\",\\\"demo-work-harness\\\",\\\"demo-matter-recall\\\"]\",\"snapshot\":{\"comparison\":{\"interpretation\":\"原位展开可能恢复了位置，却没有恢复上次停点。\",\"observation\":\"这次试用中，我认出了原来的事情，但不知道下一步从哪里继续。\",\"summary\":\"这次，认出了位置，却没有接着想\",\"unconfirmed\":\"是缺少停点提示，还是原来的讨论没有留下可继续的问题？\"},\"fragments\":[{\"baseVersion\":3,\"end\":14,\"id\":\"3:10:14\",\"note\":\"\",\"relation\":\"limit\",\"start\":10,\"status\":\"proposed\",\"text\":\"接续思考\"}],\"result\":{\"isDemo\":true,\"materials\":[{\"id\":\"demo-screenshot-note\",\"kind\":\"selected-text\",\"text\":\"静态设计案例中选中的原型截图说明；不是真实测试截图。\",\"title\":\"原型截图说明（示例）\"}],\"matterId\":\"demo-matter-recall\",\"resultId\":\"demo-result-1\",\"source\":{\"label\":\"气泡展开原型\",\"selectedText\":\"我的一次原型试用。\",\"title\":\"Codex · harness\"},\"sourceVersion\":3,\"text\":\"我试了原型。原位展开让我认出是哪件事，但我还是不知道接下来该想什么。\",\"workId\":\"demo-work-harness\"},\"revision\":{\"after\":\"原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。\",\"baseDraftVersion\":7,\"baseVersion\":3,\"before\":\"原位展开能够帮助用户接续思考。\",\"fragments\":[{\"baseVersion\":3,\"end\":14,\"id\":\"3:10:14\",\"note\":\"\",\"relation\":\"limit\",\"start\":10,\"status\":\"proposed\",\"text\":\"接续思考\"}],\"matterId\":\"demo-matter-recall\",\"scope\":\"matter-current-understanding\",\"unresolved\":\"怎样呈现停点，才真正帮助继续？\"},\"undo\":null},\"snapshotFingerprint\":\"{\\\"expectedDraftVersion\\\":7,\\\"expectedVersion\\\":3,\\\"matterId\\\":\\\"demo-matter-recall\\\",\\\"operation\\\":\\\"revise-understanding\\\",\\\"resultId\\\":\\\"demo-result-1\\\",\\\"scope\\\":\\\"matter-current-understanding\\\",\\\"snapshot\\\":{\\\"comparison\\\":{\\\"interpretation\\\":\\\"原位展开可能恢复了位置，却没有恢复上次停点。\\\",\\\"observation\\\":\\\"这次试用中，我认出了原来的事情，但不知道下一步从哪里继续。\\\",\\\"summary\\\":\\\"这次，认出了位置，却没有接着想\\\",\\\"unconfirmed\\\":\\\"是缺少停点提示，还是原来的讨论没有留下可继续的问题？\\\"},\\\"fragments\\\":[{\\\"baseVersion\\\":3,\\\"end\\\":14,\\\"id\\\":\\\"3:10:14\\\",\\\"note\\\":\\\"\\\",\\\"relation\\\":\\\"limit\\\",\\\"start\\\":10,\\\"status\\\":\\\"proposed\\\",\\\"text\\\":\\\"接续思考\\\"}],\\\"result\\\":{\\\"isDemo\\\":true,\\\"materials\\\":[{\\\"id\\\":\\\"demo-screenshot-note\\\",\\\"kind\\\":\\\"selected-text\\\",\\\"text\\\":\\\"静态设计案例中选中的原型截图说明；不是真实测试截图。\\\",\\\"title\\\":\\\"原型截图说明（示例）\\\"}],\\\"matterId\\\":\\\"demo-matter-recall\\\",\\\"resultId\\\":\\\"demo-result-1\\\",\\\"source\\\":{\\\"label\\\":\\\"气泡展开原型\\\",\\\"selectedText\\\":\\\"我的一次原型试用。\\\",\\\"title\\\":\\\"Codex · harness\\\"},\\\"sourceVersion\\\":3,\\\"text\\\":\\\"我试了原型。原位展开让我认出是哪件事，但我还是不知道接下来该想什么。\\\",\\\"workId\\\":\\\"demo-work-harness\\\"},\\\"revision\\\":{\\\"after\\\":\\\"原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。\\\",\\\"baseDraftVersion\\\":7,\\\"baseVersion\\\":3,\\\"before\\\":\\\"原位展开能够帮助用户接续思考。\\\",\\\"fragments\\\":[{\\\"baseVersion\\\":3,\\\"end\\\":14,\\\"id\\\":\\\"3:10:14\\\",\\\"note\\\":\\\"\\\",\\\"relation\\\":\\\"limit\\\",\\\"start\\\":10,\\\"status\\\":\\\"proposed\\\",\\\"text\\\":\\\"接续思考\\\"}],\\\"matterId\\\":\\\"demo-matter-recall\\\",\\\"scope\\\":\\\"matter-current-understanding\\\",\\\"unresolved\\\":\\\"怎样呈现停点，才真正帮助继续？\\\"},\\\"undo\\\":null},\\\"workId\\\":\\\"demo-work-harness\\\"}\",\"sourceVersion\":3,\"workId\":\"demo-work-harness\"}",
+      "snapshotFingerprint": "{\"expectedDraftVersion\":7,\"expectedVersion\":3,\"matterId\":\"demo-matter-recall\",\"operation\":\"revise-understanding\",\"resultId\":\"demo-result-1\",\"scope\":\"matter-current-understanding\",\"snapshot\":{\"comparison\":{\"interpretation\":\"原位展开可能恢复了位置，却没有恢复上次停点。\",\"observation\":\"这次试用中，我认出了原来的事情，但不知道下一步从哪里继续。\",\"summary\":\"这次，认出了位置，却没有接着想\",\"unconfirmed\":\"是缺少停点提示，还是原来的讨论没有留下可继续的问题？\"},\"fragments\":[{\"baseVersion\":3,\"end\":14,\"id\":\"3:10:14\",\"note\":\"\",\"relation\":\"limit\",\"start\":10,\"status\":\"proposed\",\"text\":\"接续思考\"}],\"result\":{\"isDemo\":true,\"materials\":[{\"id\":\"demo-screenshot-note\",\"kind\":\"selected-text\",\"text\":\"静态设计案例中选中的原型截图说明；不是真实测试截图。\",\"title\":\"原型截图说明（示例）\"}],\"matterId\":\"demo-matter-recall\",\"resultId\":\"demo-result-1\",\"source\":{\"label\":\"气泡展开原型\",\"selectedText\":\"我的一次原型试用。\",\"title\":\"Codex · harness\"},\"sourceVersion\":3,\"text\":\"我试了原型。原位展开让我认出是哪件事，但我还是不知道接下来该想什么。\",\"workId\":\"demo-work-harness\"},\"revision\":{\"after\":\"原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。\",\"baseDraftVersion\":7,\"baseVersion\":3,\"before\":\"原位展开能够帮助用户接续思考。\",\"fragments\":[{\"baseVersion\":3,\"end\":14,\"id\":\"3:10:14\",\"note\":\"\",\"relation\":\"limit\",\"start\":10,\"status\":\"proposed\",\"text\":\"接续思考\"}],\"matterId\":\"demo-matter-recall\",\"scope\":\"matter-current-understanding\",\"unresolved\":\"怎样呈现停点，才真正帮助继续？\"},\"undo\":null},\"workId\":\"demo-work-harness\"}",
+      "store": "fixture-memory",
+      "ok": true,
+      "resultSaved": true,
+      "resultFingerprint": "{\"isDemo\":true,\"materials\":[{\"id\":\"demo-screenshot-note\",\"kind\":\"selected-text\",\"text\":\"静态设计案例中选中的原型截图说明；不是真实测试截图。\",\"title\":\"原型截图说明（示例）\"}],\"matterId\":\"demo-matter-recall\",\"resultId\":\"demo-result-1\",\"source\":{\"label\":\"气泡展开原型\",\"selectedText\":\"我的一次原型试用。\",\"title\":\"Codex · harness\"},\"sourceVersion\":3,\"text\":\"我试了原型。原位展开让我认出是哪件事，但我还是不知道接下来该想什么。\",\"workId\":\"demo-work-harness\"}",
+      "version": 4,
+      "before": "原位展开能够帮助用户接续思考。",
+      "after": "原位展开可能帮助用户认出思考的位置；要让用户继续往下想，还需要恢复上次停点和未决问题。",
+      "draftVersion": 8,
+      "revisionId": "demo-result-return:1:revision",
+      "undone": false
+    },
+    "status": {
+      "phase": "completed",
+      "pending": null,
+      "canRetry": false,
+      "canUndo": true,
+      "error": null,
+      "resultSaved": true
+    },
+    "notice": "本次结果与已确认的理解变化已回到同一件事；不自动改动项目规则或进行中工作。",
+    "isDemo": true,
+    "retry": {
+      "open": false,
+      "destination": {
+        "agent": "",
+        "project": "",
+        "task": ""
+      },
+      "sent": false,
+      "navigation": null
+    },
+    "oldVersionOpen": false
+  }
+}
