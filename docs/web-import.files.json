@@ -1,0 +1,529 @@
+{
+  "schema": 1,
+  "date": "2026-09-15",
+  "sourceBaseCommit": "2f4377864aa353dcecb3f60005d884b11486c84e",
+  "sourceIncludesUncommittedWebChanges": true,
+  "targetBaseCommit": "b5ec5d728fdc17a334afc11bad313155abcb316d",
+  "files": [
+    {
+      "path": "apps/web/.impeccable/design.json",
+      "source": "trace-runtime/apps/desktop/.impeccable/design.json",
+      "sourceSha256": "bfd277d84fdabd3cb4daec09cee5ac6288f427e7ce39a30bf7fed60eadcf4bf0",
+      "sha256": "bfd277d84fdabd3cb4daec09cee5ac6288f427e7ce39a30bf7fed60eadcf4bf0",
+      "identical": true
+    },
+    {
+      "path": "apps/web/approved-assets.lock.json",
+      "source": "trace-runtime/apps/desktop/approved-assets.lock.json",
+      "sourceSha256": "77223fc02d7af89d8c5bc0438416214a117d0a63fd7aa89672294d78dae78c4d",
+      "sha256": "77223fc02d7af89d8c5bc0438416214a117d0a63fd7aa89672294d78dae78c4d",
+      "identical": true
+    },
+    {
+      "path": "apps/web/DESIGN.md",
+      "source": "trace-runtime/apps/desktop/DESIGN.md",
+      "sourceSha256": "adc1c643916ce47cd48f919a4d072866ab1973a0b3c113eedb3c3a24831cafc6",
+      "sha256": "ba53bc934435b13aff407881c7cd979787c7771b8b7d936c31f72c8b1a5962b5",
+      "identical": false
+    },
+    {
+      "path": "apps/web/index.html",
+      "source": "trace-runtime/apps/desktop/index.html",
+      "sourceSha256": "f5c0e9fc277d6debc0d60dee39e731cc9424a271653bfc00ce9e19baf197c766",
+      "sha256": "f5c0e9fc277d6debc0d60dee39e731cc9424a271653bfc00ce9e19baf197c766",
+      "identical": true
+    },
+    {
+      "path": "apps/web/legacy.html",
+      "source": "trace-runtime/apps/desktop/legacy.html",
+      "sourceSha256": "0ec03b7c2d7e9b65c59e4bbf8e54728abe7dcca8a54fbb20a6b5a5286f22a8de",
+      "sha256": "0ec03b7c2d7e9b65c59e4bbf8e54728abe7dcca8a54fbb20a6b5a5286f22a8de",
+      "identical": true
+    },
+    {
+      "path": "apps/web/package.json",
+      "source": "trace-runtime/apps/desktop/package.json",
+      "sourceSha256": "8f18d90bcb319ffd87edfca547293fe9e0070c97420ce583347aa21d9d7d9ac9",
+      "sha256": "f5c2ec49302e136307ecfde8c4fec7ac40946728831107b5acc7b93c5e3206ba",
+      "identical": false
+    },
+    {
+      "path": "apps/web/PRODUCT.md",
+      "source": "trace-runtime/apps/desktop/PRODUCT.md",
+      "sourceSha256": "53c0e5c6ce592a2e35f1a7f4ea7201cb19662c39530e64f050ac66cd2d701b52",
+      "sha256": "fdbc16e888304542e021517ef367c1bc0c0908d83d6ba1347730834f09be492c",
+      "identical": false
+    },
+    {
+      "path": "apps/web/public/home/bird-perched.png",
+      "source": "trace-runtime/apps/desktop/public/home/bird-perched.png",
+      "sourceSha256": "81de590d9c88d27ad73be569385d8b1d6999f08fc269912b4b97b5d403b4efec",
+      "sha256": "81de590d9c88d27ad73be569385d8b1d6999f08fc269912b4b97b5d403b4efec",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/home/bird-perched.png.json",
+      "source": "trace-runtime/apps/desktop/public/home/bird-perched.png.json",
+      "sourceSha256": "40e14277634ad26afbe03ce2f257610b2a9a479e384d57915793505256f9cecd",
+      "sha256": "40e14277634ad26afbe03ce2f257610b2a9a479e384d57915793505256f9cecd",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/home/bird-takeoff.png",
+      "source": "trace-runtime/apps/desktop/public/home/bird-takeoff.png",
+      "sourceSha256": "9bce1f159d48ab6a8d3230aca3f41fd4c4a114a064f59dfcc4b62f05efa7ed93",
+      "sha256": "9bce1f159d48ab6a8d3230aca3f41fd4c4a114a064f59dfcc4b62f05efa7ed93",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/home/bird-takeoff.png.json",
+      "source": "trace-runtime/apps/desktop/public/home/bird-takeoff.png.json",
+      "sourceSha256": "f6687146b034df8b61e04f74467e72336269ec23bf1879bfad351c686475bf29",
+      "sha256": "f6687146b034df8b61e04f74467e72336269ec23bf1879bfad351c686475bf29",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/home/environment.png",
+      "source": "trace-runtime/apps/desktop/public/home/environment.png",
+      "sourceSha256": "16bc94cf2d00d7ecfa63fcb635c90067f650b6fa15f6738560c520e0825f1a05",
+      "sha256": "16bc94cf2d00d7ecfa63fcb635c90067f650b6fa15f6738560c520e0825f1a05",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/home/environment.png.json",
+      "source": "trace-runtime/apps/desktop/public/home/environment.png.json",
+      "sourceSha256": "f4751c9db4cf986cf5a65d4736ed53df7ef1272dec74a9be381f511ab814a0d2",
+      "sha256": "f4751c9db4cf986cf5a65d4736ed53df7ef1272dec74a9be381f511ab814a0d2",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/home/fonts/TraceHomeSans-fixed.woff2",
+      "source": "trace-runtime/apps/desktop/public/home/fonts/TraceHomeSans-fixed.woff2",
+      "sourceSha256": "910b4e5a05fcb8c0631ab64eb51d29417d833087c487afdf9ddabdbb0b7d1ebe",
+      "sha256": "910b4e5a05fcb8c0631ab64eb51d29417d833087c487afdf9ddabdbb0b7d1ebe",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/home/fonts/TraceHomeSerif-fixed.woff2",
+      "source": "trace-runtime/apps/desktop/public/home/fonts/TraceHomeSerif-fixed.woff2",
+      "sourceSha256": "023539d77b00a8164aee9900bd24e0dc0928c1515d4f9a00477826abb4ffe31d",
+      "sha256": "023539d77b00a8164aee9900bd24e0dc0928c1515d4f9a00477826abb4ffe31d",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/home/licenses/anime-LICENSE.md",
+      "source": "trace-runtime/apps/desktop/public/home/licenses/anime-LICENSE.md",
+      "sourceSha256": "3f3e835a9952cfc2a6ca836fb95b3257c981f24fa3ef51249055acb09931897b",
+      "sha256": "3f3e835a9952cfc2a6ca836fb95b3257c981f24fa3ef51249055acb09931897b",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/home/licenses/liquidglass-LICENSE.txt",
+      "source": "trace-runtime/apps/desktop/public/home/licenses/liquidglass-LICENSE.txt",
+      "sourceSha256": "b4ddca14599ce25f86f5cbfc490742d51f145be7529d9c44513095ec53029c30",
+      "sha256": "b4ddca14599ce25f86f5cbfc490742d51f145be7529d9c44513095ec53029c30",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/home/licenses/magicui-LICENSE.md",
+      "source": "trace-runtime/apps/desktop/public/home/licenses/magicui-LICENSE.md",
+      "sourceSha256": "0147b84235ed916b8b4e89c1f80655351c5afe7d211b629be61f553a227b34ba",
+      "sha256": "0147b84235ed916b8b4e89c1f80655351c5afe7d211b629be61f553a227b34ba",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/home/licenses/OFL-noto-sans-sc.txt",
+      "source": "trace-runtime/apps/desktop/public/home/licenses/OFL-noto-sans-sc.txt",
+      "sourceSha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/home/licenses/OFL-source-han-serif-cn.txt",
+      "source": "trace-runtime/apps/desktop/public/home/licenses/OFL-source-han-serif-cn.txt",
+      "sourceSha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
+      "sha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/liukanshan.png",
+      "source": "trace-runtime/apps/desktop/public/liukanshan.png",
+      "sourceSha256": "4d457c9f588fe49b44d13e893d8e9e0467e8bc3d0a3af67a30b2134e198ae484",
+      "sha256": "4d457c9f588fe49b44d13e893d8e9e0467e8bc3d0a3af67a30b2134e198ae484",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/matters/environment.png",
+      "source": "trace-runtime/apps/desktop/public/matters/environment.png",
+      "sourceSha256": "185d0fa9fd1da6c0c16fad0b22830fae275b0e9c7bb565a7564a2f2f9d731b89",
+      "sha256": "185d0fa9fd1da6c0c16fad0b22830fae275b0e9c7bb565a7564a2f2f9d731b89",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/matters/environment.png.json",
+      "source": "trace-runtime/apps/desktop/public/matters/environment.png.json",
+      "sourceSha256": "e3d18146bf0e429eb85f2f60a6136f0d7d69c54670cdd59800bc872b531e0fbe",
+      "sha256": "e3d18146bf0e429eb85f2f60a6136f0d7d69c54670cdd59800bc872b531e0fbe",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/matters/fonts/TraceMattersSans-fixed.woff2",
+      "source": "trace-runtime/apps/desktop/public/matters/fonts/TraceMattersSans-fixed.woff2",
+      "sourceSha256": "31f9766e8a7122291e2ec1d10e674acde07d2085d997ab8f6f64c794749dd085",
+      "sha256": "31f9766e8a7122291e2ec1d10e674acde07d2085d997ab8f6f64c794749dd085",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/matters/fonts/TraceMattersSerif-fixed.woff2",
+      "source": "trace-runtime/apps/desktop/public/matters/fonts/TraceMattersSerif-fixed.woff2",
+      "sourceSha256": "6b1d904266f22e080e8a3c8b63dc5f8c9153001302a73d5a3f5eee0a103070fe",
+      "sha256": "6b1d904266f22e080e8a3c8b63dc5f8c9153001302a73d5a3f5eee0a103070fe",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/matters/licenses/OFL-noto-sans-sc.txt",
+      "source": "trace-runtime/apps/desktop/public/matters/licenses/OFL-noto-sans-sc.txt",
+      "sourceSha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/matters/licenses/OFL-source-han-serif-cn.txt",
+      "source": "trace-runtime/apps/desktop/public/matters/licenses/OFL-source-han-serif-cn.txt",
+      "sourceSha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
+      "sha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/product/chain-environment.png",
+      "source": "trace-runtime/apps/desktop/public/product/chain-environment.png",
+      "sourceSha256": "49a39b936545e0ac5aa65b4ca8e5d998a392728e5d6eb72033f68185adb6ed13",
+      "sha256": "49a39b936545e0ac5aa65b4ca8e5d998a392728e5d6eb72033f68185adb6ed13",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/product/chain-overview-environment.png",
+      "source": "trace-runtime/apps/desktop/public/product/chain-overview-environment.png",
+      "sourceSha256": "a4dda0e97bf3ffef2d87d48be07c272e6c69633a236b07676a92a4dc755c6875",
+      "sha256": "a4dda0e97bf3ffef2d87d48be07c272e6c69633a236b07676a92a4dc755c6875",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/product/compare-environment.png",
+      "source": "trace-runtime/apps/desktop/public/product/compare-environment.png",
+      "sourceSha256": "23217af8b9cad4a4ff3c0a1ce99e89ed7d26e24e79bd1d9dae81155166859185",
+      "sha256": "23217af8b9cad4a4ff3c0a1ce99e89ed7d26e24e79bd1d9dae81155166859185",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/product/fonts/Sans-OFL.txt",
+      "source": "trace-runtime/apps/desktop/public/product/fonts/Sans-OFL.txt",
+      "sourceSha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/product/fonts/Serif-LICENSE.txt",
+      "source": "trace-runtime/apps/desktop/public/product/fonts/Serif-LICENSE.txt",
+      "sourceSha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
+      "sha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/product/fonts/TraceSans.ttf",
+      "source": "trace-runtime/apps/desktop/public/product/fonts/TraceSans.ttf",
+      "sourceSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/product/fonts/TraceSerif.woff2",
+      "source": "trace-runtime/apps/desktop/public/product/fonts/TraceSerif.woff2",
+      "sourceSha256": "556749ba783b148fa1f48644e8883e5b9351f01abd0d1faad0ba24a21185e76a",
+      "sha256": "556749ba783b148fa1f48644e8883e5b9351f01abd0d1faad0ba24a21185e76a",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/product/worksite-environment.png",
+      "source": "trace-runtime/apps/desktop/public/product/worksite-environment.png",
+      "sourceSha256": "2463a5f88546a19621fee22f95279f7bd6523734301c1aaa92df614be13b24e5",
+      "sha256": "2463a5f88546a19621fee22f95279f7bd6523734301c1aaa92df614be13b24e5",
+      "identical": true
+    },
+    {
+      "path": "apps/web/README.md",
+      "source": "trace-runtime/apps/desktop/README.md",
+      "sourceSha256": "ffd3f587c6badf829dc9b0c11e3d698e068f89a63b22bd361ab2ff2b2b2373b5",
+      "sha256": "e327bbb51cf05eef6a850696d915f547f870d1692e2a1cc39cb6c5d0baee7e4d",
+      "identical": false
+    },
+    {
+      "path": "apps/web/server.mjs",
+      "source": "trace-runtime/apps/desktop/server.mjs",
+      "sourceSha256": "94fc2d8e7f1837d49aabf9fb0a83a6feea38877a424c3aebc27f487e8056a0c5",
+      "sha256": "647b81d4e2ab59307d08fd67f18437df7e189a6db3c896af296b2db775a721cf",
+      "identical": false
+    },
+    {
+      "path": "apps/web/src/discussion.js",
+      "source": "trace-runtime/apps/desktop/src/discussion.js",
+      "sourceSha256": "0d9ecfdd8d779adb47f4b545935fdc0ea1523203eabff4ffe9a3c3891bc2f50d",
+      "sha256": "0d9ecfdd8d779adb47f4b545935fdc0ea1523203eabff4ffe9a3c3891bc2f50d",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/home/scene-glass.js",
+      "source": "trace-runtime/apps/desktop/src/home/scene-glass.js",
+      "sourceSha256": "0de8f99069d46021162da35b8757c496639a70b4371a69a8ad79dbf267e3b772",
+      "sha256": "0de8f99069d46021162da35b8757c496639a70b4371a69a8ad79dbf267e3b772",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/home-icons.js",
+      "source": "trace-runtime/apps/desktop/src/home-icons.js",
+      "sourceSha256": "5ab8f56a90bcd54b180d21951856eb81be118bbfa743aba9af1b5fc909d20854",
+      "sha256": "5ab8f56a90bcd54b180d21951856eb81be118bbfa743aba9af1b5fc909d20854",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/home-model.js",
+      "source": "trace-runtime/apps/desktop/src/home-model.js",
+      "sourceSha256": "f3d1faa0cfe33afbb1e2e13530fcc7844f9ca52b1af4063d2f85ec92e8ccfa4d",
+      "sha256": "f3d1faa0cfe33afbb1e2e13530fcc7844f9ca52b1af4063d2f85ec92e8ccfa4d",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/home.css",
+      "source": "trace-runtime/apps/desktop/src/home.css",
+      "sourceSha256": "9a365b708f1bff758816d34d1922902893246f62592d232803115803792181a9",
+      "sha256": "9a365b708f1bff758816d34d1922902893246f62592d232803115803792181a9",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/home.js",
+      "source": "trace-runtime/apps/desktop/src/home.js",
+      "sourceSha256": "13dea26ea3ded4c47cdbf5a5676f1050ee3c6765f42e2a10ed7c46de8a2602ab",
+      "sha256": "13dea26ea3ded4c47cdbf5a5676f1050ee3c6765f42e2a10ed7c46de8a2602ab",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/main.js",
+      "source": "trace-runtime/apps/desktop/src/main.js",
+      "sourceSha256": "f4e70518980645cbe9723035b5a34cb9a796b6e01c5bc8cb2ec5be94bd0dd85a",
+      "sha256": "f4e70518980645cbe9723035b5a34cb9a796b6e01c5bc8cb2ec5be94bd0dd85a",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/matters/matters-model.mjs",
+      "source": "trace-runtime/apps/desktop/src/matters/matters-model.mjs",
+      "sourceSha256": "3d9a248f129f23834dacd2070f3184ffadde35870612b731cc18076e00fe0606",
+      "sha256": "3d9a248f129f23834dacd2070f3184ffadde35870612b731cc18076e00fe0606",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/matters/matters-screen.mjs",
+      "source": "trace-runtime/apps/desktop/src/matters/matters-screen.mjs",
+      "sourceSha256": "013a4116b66c1b2cd68c0ecdde29e7ae97a58f28c89b45a17dd49d45e32b153c",
+      "sha256": "013a4116b66c1b2cd68c0ecdde29e7ae97a58f28c89b45a17dd49d45e32b153c",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/matters/matters.css",
+      "source": "trace-runtime/apps/desktop/src/matters/matters.css",
+      "sourceSha256": "4fe6abb8163307427e97e4a9e8becb668561a76040fef21dfa9a990b3127408a",
+      "sha256": "4fe6abb8163307427e97e4a9e8becb668561a76040fef21dfa9a990b3127408a",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/assets.mjs",
+      "source": "trace-runtime/apps/desktop/src/product/assets.mjs",
+      "sourceSha256": "725f2caed348a3a477a07842dfee63b6046cd13d4917a1cdfd432f247c1ecc13",
+      "sha256": "725f2caed348a3a477a07842dfee63b6046cd13d4917a1cdfd432f247c1ecc13",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/bridge.mjs",
+      "source": "trace-runtime/apps/desktop/src/product/bridge.mjs",
+      "sourceSha256": "8c2cc20250f7095c8fc519cf88fee4dc08af60596707ff952073db08c9d8861a",
+      "sha256": "8c2cc20250f7095c8fc519cf88fee4dc08af60596707ff952073db08c9d8861a",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/chain-helpers.mjs",
+      "source": "trace-runtime/apps/desktop/src/product/chain-helpers.mjs",
+      "sourceSha256": "c37ace8e2ecd28df61414b1442d579fbfec2bc709a410687e83fee331b75dae7",
+      "sha256": "c37ace8e2ecd28df61414b1442d579fbfec2bc709a410687e83fee331b75dae7",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/chain-model.mjs",
+      "source": "trace-runtime/apps/desktop/src/product/chain-model.mjs",
+      "sourceSha256": "396d67b9653fd700b60725aa80bcc4ed59ffecfb9715588c35f637626435dc91",
+      "sha256": "396d67b9653fd700b60725aa80bcc4ed59ffecfb9715588c35f637626435dc91",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/chain-screen.mjs",
+      "source": "trace-runtime/apps/desktop/src/product/chain-screen.mjs",
+      "sourceSha256": "2bf4a2de5bd5a9ffdf0f10f4c7a6f49296b1b281ef7c9c87a4460d02db027ffb",
+      "sha256": "2bf4a2de5bd5a9ffdf0f10f4c7a6f49296b1b281ef7c9c87a4460d02db027ffb",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/chain.css",
+      "source": "trace-runtime/apps/desktop/src/product/chain.css",
+      "sourceSha256": "d0796798a1245e468cf5dc21897bf4939e8a9dc6252b0f5d5854e5a2fbea6760",
+      "sha256": "d0796798a1245e468cf5dc21897bf4939e8a9dc6252b0f5d5854e5a2fbea6760",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/comparison-model.mjs",
+      "source": "trace-runtime/apps/desktop/src/product/comparison-model.mjs",
+      "sourceSha256": "45894d83ffe80b2d6dd68ef20b04fd13e00a2f41d93b619c2a9fd4825f8b908b",
+      "sha256": "45894d83ffe80b2d6dd68ef20b04fd13e00a2f41d93b619c2a9fd4825f8b908b",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/comparison-screen.mjs",
+      "source": "trace-runtime/apps/desktop/src/product/comparison-screen.mjs",
+      "sourceSha256": "77a10685bfc435425b1b6f8ab5bcca3ba77db740fd15af4c17d4b4f955d8bf8d",
+      "sha256": "77a10685bfc435425b1b6f8ab5bcca3ba77db740fd15af4c17d4b4f955d8bf8d",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/comparison.css",
+      "source": "trace-runtime/apps/desktop/src/product/comparison.css",
+      "sourceSha256": "1d803aefa9a014d0a64124345242109ca176b0fe1df35ef03978afb366a19698",
+      "sha256": "1d803aefa9a014d0a64124345242109ca176b0fe1df35ef03978afb366a19698",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/library.mjs",
+      "source": "trace-runtime/apps/desktop/src/product/library.mjs",
+      "sourceSha256": "e2ef37366b2808bf186980e6214cb03c360d894621c844babd98f713137a8447",
+      "sha256": "e2ef37366b2808bf186980e6214cb03c360d894621c844babd98f713137a8447",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/web.css",
+      "source": "trace-runtime/apps/desktop/src/product/web.css",
+      "sourceSha256": "267d9fa3ff820944ba7f7505e90f9281811120cc054534009e8690babd7ae65f",
+      "sha256": "267d9fa3ff820944ba7f7505e90f9281811120cc054534009e8690babd7ae65f",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/worksite-icons.mjs",
+      "source": "trace-runtime/apps/desktop/src/product/worksite-icons.mjs",
+      "sourceSha256": "e1bf3a562883d49f058c23c4a16de30b08376e76510be292bb98c9b49a50cbc8",
+      "sha256": "e1bf3a562883d49f058c23c4a16de30b08376e76510be292bb98c9b49a50cbc8",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/worksite-model.mjs",
+      "source": "trace-runtime/apps/desktop/src/product/worksite-model.mjs",
+      "sourceSha256": "4bc9ea7249cfa175b6e5590abc4e143b0dd2325f27a9fb19f82ca05cd75ec7d0",
+      "sha256": "4bc9ea7249cfa175b6e5590abc4e143b0dd2325f27a9fb19f82ca05cd75ec7d0",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/worksite-screen.mjs",
+      "source": "trace-runtime/apps/desktop/src/product/worksite-screen.mjs",
+      "sourceSha256": "ace3f9cfdb0a6fc36d8d43bcc47091eb5bb546ebbe01435bb43031481c5ece2f",
+      "sha256": "ace3f9cfdb0a6fc36d8d43bcc47091eb5bb546ebbe01435bb43031481c5ece2f",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/product/worksite.css",
+      "source": "trace-runtime/apps/desktop/src/product/worksite.css",
+      "sourceSha256": "2caae86c3bd54177e0bf62a649a70c5c123c65ef2e989d576bc18d3478818e7e",
+      "sha256": "2caae86c3bd54177e0bf62a649a70c5c123c65ef2e989d576bc18d3478818e7e",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/prototype-session.js",
+      "source": "trace-runtime/apps/desktop/src/prototype-session.js",
+      "sourceSha256": "a06ce946ffadb8e0f4b4178dd50b6a55850d59910676eace8ea518e4b32fe848",
+      "sha256": "a06ce946ffadb8e0f4b4178dd50b6a55850d59910676eace8ea518e4b32fe848",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/style.css",
+      "source": "trace-runtime/apps/desktop/src/style.css",
+      "sourceSha256": "67bd3dbc61a825b146211c200f2d7d63d0a3f64d1e3b93a57b53aeca83819c74",
+      "sha256": "67bd3dbc61a825b146211c200f2d7d63d0a3f64d1e3b93a57b53aeca83819c74",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/vendor/anime.esm.js",
+      "source": "trace-runtime/apps/desktop/src/vendor/anime.esm.js",
+      "sourceSha256": "a19015a1a92d52025a2fb6703b6d67eadd1cc2aeaf880770e96e04cf6aa07be1",
+      "sha256": "a19015a1a92d52025a2fb6703b6d67eadd1cc2aeaf880770e96e04cf6aa07be1",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/vendor/shape-only.mjs",
+      "source": "trace-runtime/apps/desktop/src/vendor/shape-only.mjs",
+      "sourceSha256": "30ce49881e35ec8ed8e4235ce6934a19f56761069e072da11e77c9b6191e6d22",
+      "sha256": "30ce49881e35ec8ed8e4235ce6934a19f56761069e072da11e77c9b6191e6d22",
+      "identical": true
+    },
+    {
+      "path": "apps/web/src/web-main.js",
+      "source": "trace-runtime/apps/desktop/src/web-main.js",
+      "sourceSha256": "87412961d871b860ccde8d286c894b120ed29210fe6804caec019a4a41ee8bce",
+      "sha256": "87412961d871b860ccde8d286c894b120ed29210fe6804caec019a4a41ee8bce",
+      "identical": true,
+      "observedLaterSourceSha256": "e662e7b4c840cfd6b3a72b463af4e0d03bd4c55fb80e27d354f531ed9d61f6c3",
+      "note": "Source changed concurrently after the copy. Published file is the verified initial copy, not the later source revision."
+    },
+    {
+      "path": "apps/web/tests/home-model.test.mjs",
+      "source": "trace-runtime/apps/desktop/tests/home-model.test.mjs",
+      "sourceSha256": "0aa697bfb9b85d874f7a8a79be322ad1e9616546225f8a43c4009c95ed7a04f4",
+      "sha256": "0aa697bfb9b85d874f7a8a79be322ad1e9616546225f8a43c4009c95ed7a04f4",
+      "identical": true
+    },
+    {
+      "path": "apps/web/tests/matters-model.test.mjs",
+      "source": "trace-runtime/apps/desktop/tests/matters-model.test.mjs",
+      "sourceSha256": "9e1cbfe7de869fdcda652e3f5714306568428613f5226c7c58666725c0eb33b6",
+      "sha256": "9e1cbfe7de869fdcda652e3f5714306568428613f5226c7c58666725c0eb33b6",
+      "identical": true
+    },
+    {
+      "path": "apps/web/tests/prototype-session.test.mjs",
+      "source": "trace-runtime/apps/desktop/tests/prototype-session.test.mjs",
+      "sourceSha256": "c705253ea0663d3a23b0f8aa90e943070857e9b3b3a2f78e8eeef87d93916276",
+      "sha256": "c705253ea0663d3a23b0f8aa90e943070857e9b3b3a2f78e8eeef87d93916276",
+      "identical": true
+    },
+    {
+      "path": "apps/web/tests/web-bridge.test.mjs",
+      "source": "trace-runtime/apps/desktop/tests/web-bridge.test.mjs",
+      "sourceSha256": "6deff48bff56d17af8e2cf44cba392a957f10136759cded6770a5889b563c5ba",
+      "sha256": "6deff48bff56d17af8e2cf44cba392a957f10136759cded6770a5889b563c5ba",
+      "identical": true
+    },
+    {
+      "path": "apps/web/tests/web-library.test.mjs",
+      "source": "trace-runtime/apps/desktop/tests/web-library.test.mjs",
+      "sourceSha256": "7deddacd925db089133d30fe6ce2e27210f5fb1baa3181a0315051e17ab9de49",
+      "sha256": "7deddacd925db089133d30fe6ce2e27210f5fb1baa3181a0315051e17ab9de49",
+      "identical": true
+    },
+    {
+      "path": "apps/web/web-store.mjs",
+      "source": "trace-runtime/apps/desktop/web-store.mjs",
+      "sourceSha256": "3c4de82b0b6be337c81525056f730a15b395ad642438ba14a756994e6db76c7e",
+      "sha256": "3c4de82b0b6be337c81525056f730a15b395ad642438ba14a756994e6db76c7e",
+      "identical": true
+    },
+    {
+      "path": "apps/web/tests/web-store.test.mjs",
+      "source": "trace-runtime/tests/web-store.test.mjs",
+      "sourceSha256": "91c7a7d5d583a08dde5c4546c241a52b578b96e4eebcb5ba8bdb931b6726da3e",
+      "sha256": "53cd80dabab28d8557f3c860f7771f463a1f4008aaafaf48822d3883a85c07ef",
+      "identical": false
+    }
+  ]
+}
