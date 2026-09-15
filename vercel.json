@@ -4,7 +4,7 @@
   "installCommand": "npm ci",
   "buildCommand": "npm test && npm run build:vercel",
   "outputDirectory": "apps/web/dist-vercel",
-  "git": { "deploymentEnabled": false },
+  "git": { "deploymentEnabled": true },
   "rewrites": [
     { "source": "/((?!api/|assets/|home/|matters/|product/|legacy\\.html|.*\\.[^/]+$).*)", "destination": "/index.html" }
   ],
