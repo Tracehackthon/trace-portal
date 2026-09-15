@@ -113,6 +113,14 @@ const server = http.createServer((req, res) => {
     const isolated = await browser.newContext(); const isolatedPage = await isolated.newPage();
     await isolatedPage.goto(base); await isolatedPage.locator('#capture-input').waitFor();
     check('separate browser profile does not share data', (await state(isolatedPage)).host === null);
+    const handoffURL = base + '/?' + new URLSearchParams({ from: 'deepseek-harness', observationId: 'ci-handoff-1', text: 'CI 验证原始交接，不推断结论。', source: 'CI synthetic fixture', status: 'unconfirmed' });
+    await isolatedPage.goto(handoffURL); await isolatedPage.locator('[data-selection=originalText]').waitFor(); await saved(isolatedPage);
+    const handed = await state(isolatedPage);
+    check('upstream harness handoff preserves literal input without a conclusion', handed.host.chain.matters.length === 1 && handed.host.chain.matters[0].originalText === 'CI 验证原始交接，不推断结论。' && handed.host.chain.matters[0].understanding === '');
+    await isolatedPage.reload(); await isolatedPage.locator('[data-selection=originalText]').waitFor();
+    await isolatedPage.goto(handoffURL); await isolatedPage.locator('[data-selection=originalText]').waitFor();
+    const replayed = await state(isolatedPage);
+    check('handoff refresh and replay do not duplicate matter', replayed.host.chain.matters.length === 1 && replayed.host.chain.matters[0].id === handed.host.chain.matters[0].id && !new URL(isolatedPage.url()).searchParams.has('text'));
     await isolated.close();
     await page.reload(); await page.locator('#capture-input').waitFor();
     await page.screenshot({ path: path.join(out, 'browser-home.png') });
