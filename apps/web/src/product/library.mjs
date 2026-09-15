@@ -36,7 +36,37 @@ export function homeEntries(host) {
   return Object.fromEntries([...host.chain.matters].reverse().slice(0,4).map((m,i)=>[['thought','work','fresh','handoff'][i],{matterId:m.id,title:short(titleOf(m),40),subtitle:m.stop?`停在：${short(m.stop,35)}`:m.understanding?`我的理解 v${m.understandingVersion} · ${short(m.understanding,30)}`:'原话已保留 · 从这里接着'}]));
 }
 export function mattersView(host) {
-  return {mode:'overview',query:'',notice:'',example:false,selectedId:null,selected:null,matters:[...host.chain.matters].reverse().map(m=>({id:m.id,title:short(titleOf(m),34),whyCare:m.whyCare,lastStop:m.stop||short(m.understanding,42)||'原话已保留，还可以继续想',contextHint:m.stop?'从你自己留下的停点继续。':'继续补充、找对照，或写下自己的理解。',hasComparison:!!m.links?.length,changed:false,branch:null})),search:{counts:{matters:0,quotes:0,sources:0},matters:[],quotes:[],sources:[]}};
+  const matters = [...host.chain.matters].reverse().map(m => {
+    const linked = (m.links || []).map(link => link.sourceId);
+    const sourceIds = [...new Set([...(m.sourceIds || []), ...linked])];
+    const sources = sourceIds.map(id => host.chain.sources.find(source => source.id === id)).filter(Boolean).map(source => ({ ...source, example: false }));
+    const linkedSource = sources.find(source => linked.includes(source.id)) || sources[0] || null;
+    const latestResult = [...(m.results || [])].reverse().find(result => result?.fact || result?.interpretation || result?.unconfirmed) || null;
+    // Reentry must reflect an actual linked material/result.  Do not turn an
+    // empty local record into a made-up "later change" sentence.
+    const laterChange = latestResult?.fact || linkedSource?.excerpt || '';
+    const lastStop = m.stop || short(m.understanding, 42) || '原话已保留，还可以继续想';
+    return {
+      id: m.id,
+      title: short(titleOf(m), 34),
+      whyCare: m.whyCare || m.originalText || '',
+      lastStop,
+      contextHint: m.stop ? '从你自己留下的停点继续。' : '继续补充、找对照，或写下自己的理解。',
+      hasComparison: linked.length > 0,
+      changed: false,
+      branch: null,
+      originalUnderstanding: m.understanding || '',
+      understanding: m.understanding || '',
+      unresolved: m.stop || '',
+      currentJudgment: m.stop || '',
+      laterChange,
+      comparison: { title: linkedSource?.title || '', challenges: linkedSource?.excerpt || '', uncertain: latestResult?.unconfirmed || '', sourceId: linkedSource?.id || linked[0] || '' },
+      relation: linked.length ? 'unreviewed' : '',
+      quotes: [],
+      sources,
+    };
+  });
+  return {mode:'overview',query:'',notice:'',example:false,selectedId:null,selected:null,matters,search:{counts:{matters:0,quotes:0,sources:0},matters:[],quotes:[],sources:[]}};
 }
 export function mountLibrary({root,host,route,onNavigate,onBack,onProfile}) {
   const control=new AbortController();
@@ -44,7 +74,7 @@ export function mountLibrary({root,host,route,onNavigate,onBack,onProfile}) {
   const works=route.view==='works';
   const heading=works?'工作现场':route.view==='search'?'找回之前的那一点':'全部痕迹';
   let current={...route,kind:works?'work':route.kind||''};
-  root.innerHTML=`<section class="web-library"><header class="web-header"><button class="web-brand" data-go="home" aria-label="Trace，返回首页"><span>${mark}</span>Trace</button><nav><button data-go="matters">在意的事</button><button data-go="all">全部痕迹</button><button data-go="works">工作现场</button></nav></header><main class="web-library-main"><button class="web-back" data-back>← 返回来处</button><div class="web-library-title"><div><h1>${heading}<span>。</span></h1><p class="web-library-description">${works?'从理解出发，把实际结果带回来':'原话、材料和结果，仍有各自的来处'}</p></div><span class="web-count"></span></div>${route.matterId?`<div class="web-scope">只看「${h(short(titleOf(host.chain.matters.find(m=>m.id===route.matterId)),45))}」<button data-clear-scope>查看全部事项 ×</button></div>`:''}<form class="web-search" role="search">${icon('search')}<input type="search" aria-label="搜索全部痕迹" placeholder="搜原话、理解、材料或结果……" value="${h(route.q||'')}" autocomplete="off"><button type="submit">搜索</button></form><nav class="web-filters" aria-label="内容类型" ${works?'hidden':''}>${[['','全部'],['expression','原表达'],['understanding','我的理解'],['source','对照材料'],['result','结果'],['revision','修订'],['work','工作']].map(([kind,text])=>`<button data-kind="${kind}" aria-pressed="${current.kind===kind}">${text}</button>`).join('')}</nav><div class="web-records"></div></main><button class="web-profile" aria-label="个人与设置">${icon('user')}</button></section>`;
+  root.innerHTML=`<section class="web-library"><header class="web-header"><button class="web-brand" data-go="home" aria-label="Trace，返回首页"><span class="brand-tile">${mark}</span>Trace</button><nav><button data-go="matters">在意的事</button><button data-go="all">全部痕迹</button><button data-go="works">工作现场</button></nav></header><main class="web-library-main"><button class="web-back" data-back>← 返回来处</button><div class="web-library-title"><div><h1>${heading}<span>。</span></h1><p class="web-library-description">${works?'从理解出发，把实际结果带回来':'原话、材料和结果，仍有各自的来处'}</p></div><span class="web-count"></span></div>${route.matterId?`<div class="web-scope">只看「${h(short(titleOf(host.chain.matters.find(m=>m.id===route.matterId)),45))}」<button data-clear-scope>查看全部事项 ×</button></div>`:''}<form class="web-search" role="search">${icon('search')}<input type="search" aria-label="搜索全部痕迹" placeholder="搜原话、理解、材料或结果……" value="${h(route.q||'')}" autocomplete="off"><button type="submit">搜索</button></form><nav class="web-filters" aria-label="内容类型" ${works?'hidden':''}>${[['','全部'],['expression','原表达'],['understanding','我的理解'],['source','对照材料'],['result','结果'],['revision','修订'],['work','工作']].map(([kind,text])=>`<button data-kind="${kind}" aria-pressed="${current.kind===kind}">${text}</button>`).join('')}</nav><div class="web-records"></div></main><button class="web-profile" aria-label="个人与设置">${icon('user')}</button></section>`;
   function paint(){
     const rows=queryRecords(host,current);
     root.querySelector('.web-count').textContent=`${rows.length} 条${current.q?'匹配':''}痕迹`;

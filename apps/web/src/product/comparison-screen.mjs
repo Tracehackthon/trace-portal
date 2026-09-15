@@ -1,4 +1,5 @@
 // Runtime derivative of artifacts/trace-compare-v1-20260915/ui; original layout retained.
+import {registerFont} from './resource-cache.mjs';
 /** Trace compare UI. Native DOM; all business decisions belong to the supplied view/host. */
 const GLASS_PATH = 'M 91 14 C 280 -2 705 3 859 17 C 961 28 999 68 992 153 C 986 247 941 286 834 291 C 624 305 263 299 114 287 C 21 279 0 227 9 139 C 14 63 31 26 91 14 Z';
 // Reused and adapted from desktop/src/home-icons.js, local Trace-native icons.
@@ -73,9 +74,8 @@ export function mountComparisonScreen({root,view,onAction=()=>{},onReturn=()=>{}
   let animation = null;
   let adjustDraft = '';
   const composing = new WeakSet();
-  const fonts = [];
   root.classList.add('compare-root');
-  root.innerHTML = `<div class="compare-scene"><header class="compare-header"><div class="compare-brand"><span>${mark}</span><strong>Trace</strong></div><nav aria-label="当前位置"><span data-shell="first"></span><i>/</i><strong data-shell="last">找个对照</strong></nav><button type="button" class="compare-button compare-top-return" data-action="return">${icon('back')}<span>返回原来的事情</span></button><span class="compare-demo">演示内容</span></header><main class="compare-main"></main><button type="button" class="compare-profile" data-action="profile" aria-label="个人设置">${icon('user')}</button><div class="compare-notice" role="status" aria-live="polite" hidden><span></span><button class="compare-button" type="button" aria-label="关闭提示" data-action="clear-notice">${icon('close')}</button></div></div><dialog class="compare-dialog" aria-labelledby="compare-dialog-title"><div class="compare-dialog-heading"><h2 id="compare-dialog-title"></h2><button type="button" class="compare-button compare-icon-button" data-action="close-modal" aria-label="关闭">${icon('close')}</button></div><div class="compare-dialog-content"></div></dialog>`;
+  root.innerHTML = `<div class="compare-scene"><header class="compare-header"><div class="compare-brand"><span class="brand-tile">${mark}</span><strong>Trace</strong></div><nav aria-label="当前位置"><span data-shell="first"></span><i>/</i><strong data-shell="last">找个对照</strong></nav><button type="button" class="compare-button compare-top-return" data-action="return">${icon('back')}<span>返回原来的事情</span></button><span class="compare-demo">演示内容</span></header><main class="compare-main"></main><button type="button" class="compare-profile" data-action="profile" aria-label="个人设置">${icon('user')}</button><div class="compare-notice" role="status" aria-live="polite" hidden><span></span><button class="compare-button" type="button" aria-label="关闭提示" data-action="clear-notice">${icon('close')}</button></div></div><dialog class="compare-dialog" aria-labelledby="compare-dialog-title"><div class="compare-dialog-heading"><h2 id="compare-dialog-title"></h2><button type="button" class="compare-button compare-icon-button" data-action="close-modal" aria-label="关闭">${icon('close')}</button></div><div class="compare-dialog-content"></div></dialog>`;
   const scene = root.querySelector('.compare-scene');
   const main = root.querySelector('.compare-main');
   const dialog = root.querySelector('dialog');
@@ -85,8 +85,7 @@ export function mountComparisonScreen({root,view,onAction=()=>{},onReturn=()=>{}
   root.dataset.environment = assets.background ? 'supplied' : 'missing';
   for (const [key,name] of [['serifFont','Trace Compare Serif'],['sansFont','Trace Compare Sans']]) {
     if (!assets[key] || typeof FontFace === 'undefined') continue;
-    const face = new FontFace(name,`url(${JSON.stringify(String(assets[key]))})`,{weight:key==='serifFont'?'250 900':'100 900',display:'swap'});
-    face.load().then(loaded=>{if(!dead){document.fonts.add(loaded);fonts.push(loaded);}}).catch(()=>{if(!dead)root.dataset.fontFallback='true';});
+    registerFont({family:name,url:assets[key],weight:key==='serifFont'?'250 900':'100 900'}).catch(()=>{if(!dead)root.dataset.fontFallback='true';});
   }
   function emit(action) { if(!dead) onAction(action); }
   function candidate() { return current.selectedCandidate || current.candidates?.find(item=>item.id===current.selectedId); }
@@ -323,5 +322,5 @@ export function mountComparisonScreen({root,view,onAction=()=>{},onReturn=()=>{}
   function cancel(event){event.preventDefault();closeModal(true);}
   root.addEventListener('click',click);root.addEventListener('input',input);root.addEventListener('change',change);root.addEventListener('submit',submit);root.addEventListener('compositionstart',compositionStart);root.addEventListener('compositionend',compositionEnd);root.addEventListener('keydown',keydown);dialog.addEventListener('cancel',cancel);
   update(view);resize();
-  return {update,destroy(){if(dead)return;dead=true;observer?.disconnect();animation?.cancel?.();glass.forEach(g=>g.destroy());fonts.forEach(f=>document.fonts.delete(f));root.removeEventListener('click',click);root.removeEventListener('input',input);root.removeEventListener('change',change);root.removeEventListener('submit',submit);root.removeEventListener('compositionstart',compositionStart);root.removeEventListener('compositionend',compositionEnd);root.removeEventListener('keydown',keydown);dialog.removeEventListener('cancel',cancel);if(dialog.open)dialog.close();root.replaceChildren();root.classList.remove('compare-root','compare-compact');root.style.removeProperty('background-image');delete root.dataset.screen;delete root.dataset.environment;delete root.dataset.fontFallback;}};
+  return {update,destroy(){if(dead)return;dead=true;observer?.disconnect();animation?.cancel?.();glass.forEach(g=>g.destroy());root.removeEventListener('click',click);root.removeEventListener('input',input);root.removeEventListener('change',change);root.removeEventListener('submit',submit);root.removeEventListener('compositionstart',compositionStart);root.removeEventListener('compositionend',compositionEnd);root.removeEventListener('keydown',keydown);dialog.removeEventListener('cancel',cancel);if(dialog.open)dialog.close();root.replaceChildren();root.classList.remove('compare-root','compare-compact');root.style.removeProperty('background-image');delete root.dataset.screen;delete root.dataset.environment;delete root.dataset.fontFallback;}};
 }

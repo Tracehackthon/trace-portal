@@ -13,3 +13,6 @@ test-results/
 !.env.example
 .DS_Store
 Thumbs.db
+.vercel/
+apps/web/dist/
+apps/web/dist-vercel/

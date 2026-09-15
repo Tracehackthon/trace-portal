@@ -3,15 +3,17 @@ import { createState, transition, ENTRIES, LAYOUTS, PATHS, NODE_POSITIONS } from
 import { icon, mark } from './home-icons.js'
 import { mountSceneGlass } from './home/scene-glass.js'
 
-export function mountHome({ snapshot, entries = {}, onOpen, onAll, onSearch, onCapture, onProfile, onWorks, onMatters, onDraft, product = false } = {}) {
+export function mountHome({ root = document.querySelector('#app'), snapshot, entries = {}, onOpen, onContinue, onSource, onWork, onAll, onSearch, onCapture, onProfile, onWorks, onMatters, onDraft, product = false, assets = {}, services = {} } = {}) {
 const controller = new AbortController()
 const timers = new Set()
 const setTimeout = (callback, delay) => { const id = window.setTimeout(() => { timers.delete(id); callback() }, delay); timers.add(id); return id }
 const clearTimeout = id => { timers.delete(id); window.clearTimeout(id) }
 const listen = (target, event, callback, options = {}) => target.addEventListener(event, callback, { ...options, signal: controller.signal })
-const $ = s => document.querySelector(s)
+const mount = root || document.querySelector('#app')
+if (!mount) throw new Error('Trace 首页缺少挂载点')
+const $ = s => mount.querySelector(s)
 const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c])
-const backgroundUrl = new URL('../public/home/environment.png', import.meta.url).href
+const backgroundUrl = assets.background || new URL('/home/environment.png', document.baseURI).href
 const reduced = window.matchMedia('(prefers-reduced-motion: reduce)')
 let state = snapshot?.state || createState(new URLSearchParams(location.search).get('state'))
 let prototypePreview = !product && (snapshot?.prototypePreview ?? new URLSearchParams(location.search).has('state'))
@@ -32,7 +34,7 @@ const foot = { overview: [443,407], thinking: [521,379], growth: [867,521], work
 
 document.title = 'Trace · 把此刻的一点，带到以后'
 document.body.classList.add('home-page')
-$('#app').innerHTML = `
+mount.innerHTML = `
   <main class="home-viewport" aria-label="Trace 首页">
     <div class="scene" id="home-scene" data-state="${state.mode}">
       <header class="home-header">
@@ -54,14 +56,15 @@ $('#app').innerHTML = `
         <div class="composer-bottom"><div class="source-pills">${product?`<span class="web-capture-hint">不必先想清楚，原话会被保留。</span>`:`<button type="button" data-action="source">${icon('link')}知乎原文</button><button type="button" data-action="project">${icon('layers')}Codex · harness</button>`}</div><button type="submit" class="send-orb" aria-label="留下这段想法" disabled>${icon('arrow')}</button></div>
       </form>
       <svg class="scene-paths" viewBox="0 0 1672 941" aria-hidden="true">
-        <defs><linearGradient id="flow-color"><stop offset="0" stop-color="#fff5b0" stop-opacity="0"/><stop offset=".5" stop-color="#e9a733"/><stop offset="1" stop-color="#fff5b0" stop-opacity="0"/></linearGradient><radialGradient id="node-gold"><stop stop-color="#ffc45e"/><stop offset="1" stop-color="#e69c22"/></radialGradient><filter id="node-halo" x="-300%" y="-300%" width="700%" height="700%"><feGaussianBlur stdDeviation="10"/></filter></defs>
+        <defs><linearGradient id="flow-color"><stop offset="0" stop-color="#fff5b0" stop-opacity="0"/><stop offset=".5" stop-color="#e9a733"/><stop offset="1" stop-color="#fff5b0" stop-opacity="0"/></linearGradient><radialGradient id="node-gold"><stop stop-color="#ffc45e"/><stop offset="1" stop-color="#e69c22"/></radialGradient><filter id="node-halo" x="-300%" y="-300%" width="700%" height="700%"><feGaussianBlur stdDeviation="10"/></filter><path id="home-motion-target" d="${fullPath}"/><g id="home-path-targets">${PATHS.overview.map((d,i) => `<path id="home-path-target-${i}" d="${d}"/>`).join('')}</g></defs>
+        <g id="home-motion-layer" class="scene-motion-layer" aria-hidden="true"><path id="home-motion-thread" class="scene-motion-thread" d="M 360 545 L 360 545"/><path id="home-motion-signal" class="scene-motion-signal" d="M 360 545 L 360 545"/><g id="home-motion-surface"><path id="home-motion-shape" class="scene-motion-shape" d="${bubblePaths[0]}"/></g><circle id="home-motion-node" class="scene-motion-node" cx="360" cy="545" r="7"/></g>
         <g id="threads">${PATHS.overview.map((d,i) => `<path class="thread-path thread-${i}" data-path="${i}" d="${d}"/><path class="thread-light" data-light="${i}" d="${d}" pathLength="1"/>`).join('')}</g>
         <g id="scene-nodes">${NODE_POSITIONS.overview.map(([x,y],i) => `<g class="scene-node node-${i} ${i===2||i===3?'gold':''}" data-dot="${i}" transform="translate(${x} ${y})"><circle class="node-bloom" r="17"/><circle class="node-disc" r="${i===0?11:8}"/><circle class="node-pin" r="2.2"/></g>`).join('')}</g>
         <path id="bird-route" fill="none" stroke="none" d="M443 407 L443 407"/>
       </svg>
       <section class="thought-field" aria-label="在意的事">${Object.entries(ENTRIES).map(([id,entry],i) => `<button class="thought-bubble ${entry.warm?'warm':''}" data-entry="${id}" data-shape="${i%3}" type="button" hidden><span class="bubble-material" aria-hidden="true"></span><span class="bubble-content"><span class="bubble-icon">${icon(entry.icon)}</span><span class="bubble-copy"><strong>${escape(entry.title)}</strong><span class="bubble-subtitle">${escape(entry.subtitle)}</span></span></span></button>`).join('')}</section>
       <section class="detail-card" id="detail-card" aria-labelledby="detail-title" hidden><div class="detail-material" aria-hidden="true"></div><div id="detail-content"></div></section>
-      <div class="scene-bird" id="scene-bird" aria-hidden="true"><img class="bird-perched" src="./public/home/bird-perched.png" alt=""/><img class="bird-flying" src="./public/home/bird-takeoff.png" alt=""/></div>
+      <div class="scene-bird" id="scene-bird" aria-hidden="true"><img class="bird-perched" src="${assets.birdPerched || '/home/bird-perched.png'}" alt=""/><img class="bird-flying" src="${assets.birdTakeoff || '/home/bird-takeoff.png'}" alt=""/></div>
       <button class="profile-button" data-action="about" type="button" aria-label="${product?'个人与设置':'关于此原型'}">${icon('user')}</button>
       <button class="scene-back" data-action="home" type="button" hidden>${icon('back')}收回到首页</button>
       <button class="prototype-caption" data-action="${product?'matters':'preview'}" type="button">${product?'在意的事 · 查看脉络 →':'交互原型 · 示例内容 · 仅本次会话'}</button>
@@ -79,6 +82,101 @@ const nodeLayer=document.createElementNS('http://www.w3.org/2000/svg','svg')
 nodeLayer.setAttribute('viewBox','0 0 1672 941');nodeLayer.setAttribute('class','scene-nodes-layer');nodeLayer.setAttribute('aria-hidden','true')
 nodeLayer.append($('#scene-nodes'));scene.insertBefore(nodeLayer,bird)
 const glassPath = el => bubblePaths[Number(el.dataset.shape)||0]
+const createSceneMotion = services?.createSceneMotion
+const motionLayer = $('#home-motion-layer')
+const motionShape = $('#home-motion-shape')
+const motionTarget = $('#home-motion-target')
+const motionSurface = $('#home-motion-surface')
+const motionThread = $('#home-motion-thread')
+const motionSignal = $('#home-motion-signal')
+const motionNode = $('#home-motion-node')
+const motionNodeIndex = { thought: 0, work: 3, fresh: 4, handoff: 5, insight: 2, practice: 3, result: 3 }
+let sceneMotion = null
+let sceneMotionEntry = ''
+
+function motionNodeAt(mode, id) {
+  const index = motionNodeIndex[id] ?? 0
+  return NODE_POSITIONS[mode]?.[index] || NODE_POSITIONS.overview[index] || NODE_POSITIONS.overview[0]
+}
+function motionBox(mode, id) {
+  return LAYOUTS[mode]?.[id] || LAYOUTS.overview[id] || LAYOUTS.overview.thought
+}
+function motionGeometry(mode, id, expanded) {
+  const box = expanded
+    ? (mode === 'work' ? { x: 474, y: 350, w: 773, h: 548 } : { x: 462, y: 336, w: 805, h: 522 })
+    : motionBox('overview', id)
+  const origin = motionNodeAt('overview', id)
+  const destination = expanded ? (foot[mode] || foot.thinking) : origin
+  return { x: box[0] ?? box.x, y: box[1] ?? box.y, w: box[2] ?? box.w, h: box[3] ?? box.h, sx: origin[0], sy: origin[1], nx: destination[0], ny: destination[1] }
+}
+function drawMotionGeometry(geometry, opening) {
+  if (!motionSurface || !motionShape) return
+  const x = Number(geometry.x) || 0, y = Number(geometry.y) || 0
+  const w = Number(geometry.w) || 1, h = Number(geometry.h) || 1
+  // Only the decorative shape is transformed.  All content/form elements
+  // remain ordinary DOM siblings and therefore never scale with the glass.
+  motionSurface.setAttribute('transform', `translate(${x} ${y}) scale(${w / 1000} ${h / 300})`)
+  const sx = Number(geometry.sx) || 0, sy = Number(geometry.sy) || 0
+  const nx = Number(geometry.nx) || sx, ny = Number(geometry.ny) || sy
+  const curve = `M ${sx} ${sy} C ${sx + (nx - sx) * .35} ${sy - 42} ${nx - (nx - sx) * .22} ${ny - 26} ${nx} ${ny}`
+  motionThread?.setAttribute('d', curve)
+  motionSignal?.setAttribute('d', curve)
+  motionNode?.setAttribute('cx', String(nx)); motionNode?.setAttribute('cy', String(ny))
+  // The two locked postures share this exact scene-space anchor.  The helper
+  // flips posture at the start of a state change; no alternate identity is
+  // created and no bird is baked into the environment artwork.
+  bird.classList.toggle('flying', Boolean(opening))
+}
+function destroySceneMotion() {
+  sceneMotion?.destroy?.(); sceneMotion = null; sceneMotionEntry = ''
+  motionLayer?.removeAttribute('data-motion-active')
+}
+function mountSceneMotion(id, mode = 'thinking') {
+  if (typeof createSceneMotion !== 'function' || !motionShape || !motionTarget || !motionLayer) return null
+  if (sceneMotion && sceneMotionEntry === id) return sceneMotion
+  destroySceneMotion()
+  const shape = bubblePaths[Number(mount.querySelector(`[data-entry="${id}"]`)?.dataset.shape) || 0] || bubblePaths[0]
+  const initial = motionGeometry(mode, id, false)
+  const expanded = motionGeometry(mode, id, true)
+  sceneMotionEntry = id
+  try {
+    sceneMotion = createSceneMotion({
+      root: scene,
+      shape: motionShape,
+      targetPath: motionTarget,
+      initialPath: shape,
+      expandedPath: fullPath,
+      initial,
+      expanded,
+      reducedMotion: () => reduced.matches || document.documentElement.dataset.reduceMotion === 'true',
+      draw: drawMotionGeometry,
+      onStart: opening => { motionLayer.dataset.motionActive = opening ? 'opening' : 'closing' },
+      onSettled: opening => {
+        motionLayer.dataset.motionActive = opening ? 'open' : 'closed'
+        if (!opening) bird.classList.remove('flying')
+      },
+    })
+    return sceneMotion
+  } catch (error) {
+    console.warn('首页场景动效不可用，保留静态表面', error)
+    destroySceneMotion()
+    return null
+  }
+}
+function syncSceneMotion(oldState, nextState) {
+  const wasExpanded = ['thinking', 'work'].includes(oldState?.mode)
+  const isExpanded = ['thinking', 'work'].includes(nextState?.mode)
+  if (!isExpanded && !wasExpanded) { destroySceneMotion(); return }
+  const motionOpen = sceneMotion?.getState?.().desired === true
+  if (isExpanded && (!sceneMotion || sceneMotionEntry !== nextState.active || !motionOpen)) {
+    mountSceneMotion(nextState.active, nextState.mode)?.setExpanded(true)
+    return
+  }
+  if (sceneMotion && !isExpanded && wasExpanded) { sceneMotion.setExpanded(false); return }
+  if (sceneMotion && isExpanded && wasExpanded && sceneMotionEntry !== nextState.active) {
+    mountSceneMotion(nextState.active, nextState.mode)?.setExpanded(true)
+  }
+}
 
 function duration(ms) { return reduced.matches || document.documentElement.dataset.reduceMotion==='true' ? 0 : ms }
 function track(animation) { animations.add(animation); animation.then?.(() => animations.delete(animation)); return animation }
@@ -89,17 +187,17 @@ function ensureGlass(el, path, tone='cool') {
   if (!materials.has(el)) materials.set(el, mountSceneGlass({host,scene:$('.home-viewport'),backgroundUrl,path,tone}))
   else materials.get(el).refresh()
 }
-function selectedEntry() { return ENTRIES[state.active] || ENTRIES.thought }
+function selectedEntry() { return entries[state.active] ? { ...(ENTRIES[state.active] || {}), ...entries[state.active] } : ENTRIES[state.active] || ENTRIES.thought }
 function draftKey() { return `${state.mode}:${state.mode==='work'?'work':state.active}` }
-function originalContext() { return state.active==='thought' ? state.captured || '自己想保留的是个人表达，还是文章中的原始现场？' : selectedEntry().subtitle }
+function originalContext() { return state.active==='thought' ? state.captured || selectedEntry().subtitle || '原话已保留，还可以继续想。' : selectedEntry().subtitle }
 function currentTitle() { return state.active==='thought' && state.captured ? state.captured : state.active==='insight'&&state.insight ? state.insight : selectedEntry().title }
 function row(symbol, title, text) { return `<div class="context-row"><span class="context-icon">${icon(symbol)}</span><div><h3>${escape(title)}</h3><p>${escape(text)}</p></div></div>` }
 function detailsMarkup() {
   const work = state.mode === 'work'
-  const title = work ? ENTRIES.work.title : currentTitle()
+  const title = work ? selectedEntry().title : currentTitle()
   let rows
   if (work) rows = row('file','带入工作的判断',state.insight || '工作界面不应该复制一个新的 Agent，而应该显示原生 Agent 当前工作的区域，以及被带入工作的沉淀内容。') + row('message','工作中发生了什么','新的首页方案已经形成，但还没有表现一条思考如何被重新拿起。') + row('sprout','尚未做出的判断','气泡应该原位展开，还是进入独立的详情空间？')
-  else if (state.captured || state.active !== 'thought') rows = row('clock','上次停在',originalContext()) + row('message','为什么现在回来','这件事还没有结束。把此刻出现的感受，接回它原来的现场。') + row('sprout','此刻的变化','你可以继续补充，也可以写下一个新的理解；原型不会替你自动采用判断。')
+  else if (state.captured || state.active !== 'thought' || entries[state.active]) rows = row('clock','上次停在',originalContext()) + row('message','为什么现在回来','这件事还没有结束。把此刻出现的感受，接回它原来的现场。') + row('sprout','此刻的变化','你可以继续补充，也可以写下一个新的理解；原型不会替你自动采用判断。')
   else rows = row('clock','上次停在','我还无法判断，自己想保留的是个人表达，还是文章中的原始现场。') + row('message','为什么现在回来','你刚刚收藏了一篇相关回答，其中再次出现了收藏之后很少重新使用的问题。') + row('sprout','此刻的变化','之前关注的是怎样保存，现在可能真正的问题是：什么情形会让它重新出现。')
   return `<div class="detail-topline"><span class="detail-status ${work?'warm-status':''}"><i></i>${work?'正在接续工作':'正在接续'}</span><button type="button" class="detail-close" data-action="home" aria-label="收起详情">${icon('close')}</button></div>
     <h2 id="detail-title">${escape(title)}</h2>
@@ -115,7 +213,7 @@ function render(immediate=false, oldState=null) {
   $('#capture-form').hidden=expanded
   $('.scene-back').hidden=state.mode==='overview'
   const layout=LAYOUTS[state.mode]
-  for (const el of document.querySelectorAll('[data-entry]')) {
+  for (const el of mount.querySelectorAll('[data-entry]')) {
     const id=el.dataset.entry, box=layout[id]
     if(!box || (product&&!entries[id])){ el.hidden=true; continue }
     const wasHidden=el.hidden; el.hidden=false
@@ -163,7 +261,15 @@ function render(immediate=false, oldState=null) {
   for(let i=0;i<5;i++) for(const selector of [`[data-path="${i}"]`,`[data-light="${i}"]`]) {
     const path=$(selector),d=PATHS[state.mode][i]
     if(immediate) path.setAttribute('d',d)
-    else track(animate(path,{d,duration:duration(760),ease:'out(3)'}))
+    else {
+      // Anime's raw SVG `d` tween pads paths with missing commands as
+      // `C 0 0 …`, which paints the exact stray diagonals seen from (0,0).
+      // morphTo normalizes command lists before interpolating and keeps every
+      // frame inside the authored scene coordinates.
+      const target = $(`#home-path-target-${i}`)
+      if (!target) path.setAttribute('d', d)
+      else { target.setAttribute('d', d); track(animate(path,{d:animeSvg.morphTo(target,.05),duration:duration(760),ease:'out(3)'})) }
+    }
   }
   NODE_POSITIONS[state.mode].forEach(([x,y],i)=>{
     const dot=$(`[data-dot="${i}"]`)
@@ -172,8 +278,10 @@ function render(immediate=false, oldState=null) {
     else track(animate(dot,{translateX:x,translateY:y,duration:duration(760),ease:'out(3)'}))
   })
   const end=foot[state.mode]
+  const oldExpanded = ['thinking','work'].includes(oldState?.mode)
+  const motionTransition = !immediate && typeof createSceneMotion === 'function' && oldState && (expanded !== oldExpanded || (expanded && oldState.active !== state.active))
   if(immediate) {bird.style.transform=`translate(${end[0]}px,${end[1]}px)`}
-  else {
+  else if(!motionTransition) {
     const start=foot[oldState?.mode||'overview']
     $('#bird-route').setAttribute('d',`M${start[0]} ${start[1]} Q${(start[0]+end[0])/2} ${Math.min(start[1],end[1])-100} ${end[0]} ${end[1]}`)
     bird.classList.add('flying')
@@ -191,10 +299,15 @@ function dispatch(action) {
   if(next===state)return
   actionRevision++; cancelAnimations(); state=next
   render(false,old)
+  syncSceneMotion(old,next)
   const revision=actionRevision
   if(state.mode==='overview') setTimeout(()=>{ if(revision!==actionRevision||!$('#utility-panel').hidden)return; lastFocus?.isConnected?lastFocus.focus({preventScroll:true}):$('#capture-input').focus({preventScroll:true}) },duration(780))
 }
-function openEntry(id) { if(!prototypePreview&&onOpen){onOpen(id);return} lastFocus=$(`[data-entry="${id}"]`); dispatch({type:'OPEN',id}) }
+// Product bubbles stay on the home scene for the first interaction.  The
+// explicit actions in the expanded card own the transition to the canonical
+// matter route; this keeps the visual wake-up reversible and avoids turning a
+// hover/click into an implicit navigation.
+function openEntry(id) { lastFocus=$(`[data-entry="${id}"]`); if(!product&& !prototypePreview&&onOpen){onOpen(id);return} dispatch({type:'OPEN',id}) }
 function discussion() {
   const url=new URL(location.href); url.search=''; url.searchParams.set('view','discussion'); url.searchParams.set('observationId',`home-${state.active}`); url.searchParams.set('text',currentTitle()); url.searchParams.set('source','Trace 首页 · 会话内原型'); location.assign(url.href)
 }
@@ -219,7 +332,7 @@ function updateSearch(query) {
   $('#search-results').innerHTML=entries.length?entries.map(([id,e])=>`<button type="button" class="search-result" data-open-entry="${id}">${icon(e.icon)}<span><strong>${escape(id==='thought'&&state.captured?state.captured:e.title)}</strong><small>${escape(e.subtitle)}</small></span></button>`).join(''):'<p class="empty-search">没有找到。试试换一个词，或者先留下一点。</p>'
 }
 
-listen(document,'click',event=>{
+listen(mount,'click',event=>{
   const button=event.target.closest('button'); if(!button)return
   if(button.dataset.entry){openEntry(button.dataset.entry);return}
   if(button.dataset.openEntry){openEntry(button.dataset.openEntry);return}
@@ -230,6 +343,10 @@ listen(document,'click',event=>{
   if(action==='about'&&onProfile){onProfile();return}
   if(action==='project'&&onWorks){onWorks();return}
   if(action==='matters'&&onMatters){onMatters();return}
+  if(product && action==='discuss' && onContinue){onContinue(state.active,'discussion');return}
+  if(product && action==='resume' && onContinue){onContinue(state.active,'resume');return}
+  if(product && action==='source' && onSource){onSource(state.active);return}
+  if(product && action==='work' && onWork){onWork(state.active);return}
   if(['search','all','project','source','about','preview'].includes(action)){openUtility(action);return}
   if(action==='home')dispatch({type:'CLOSE'})
   if(action==='close-utility')closeUtility()
@@ -240,7 +357,7 @@ listen(document,'click',event=>{
   if(action==='reconsider'){dispatch({type:'OPEN',id:'thought'});notify('把实践发现放回原判断，继续分清。')}
   if(action==='result-input'){$('#detail-input')?.focus();notify('写下真实发生的结果，再按箭头带回来。')}
 })
-listen(document,'submit',event=>{
+listen(mount,'submit',event=>{
   if(!['capture-form','detail-form'].includes(event.target.id))return
   event.preventDefault()
   const input=event.target.querySelector('textarea'),text=input.value.trim()
@@ -248,18 +365,18 @@ listen(document,'submit',event=>{
   if(event.target.id==='capture-form'){if(!prototypePreview&&onCapture){onCapture(text);return}input.value='';event.target.querySelector('[type=submit]').disabled=true;dispatch({type:'CAPTURE',text})}
   else{drafts.delete(draftKey());dispatch({type:state.mode==='work'?'RETURN':'GROW',text})}
 })
-listen(document,'input',event=>{
+listen(mount,'input',event=>{
   if(event.target.id==='home-search'){updateSearch(event.target.value);return}
   if(event.target.matches('textarea')){event.target.form.querySelector('[type=submit]').disabled=!event.target.value.trim();if(event.target.id==='detail-input')drafts.set(draftKey(),event.target.value)}
   if(event.target.id==='capture-input')onDraft?.(event.target.value)
 })
-listen(document,'keydown',event=>{
+listen(mount,'keydown',event=>{
   if((event.ctrlKey||event.metaKey)&&event.key.toLowerCase()==='k'){event.preventDefault();if(onSearch)onSearch();else openUtility('search');return}
   if(event.key==='Escape'){if(!$('#utility-panel').hidden)closeUtility();else if(state.mode!=='overview')dispatch({type:'CLOSE'});return}
   if(event.key==='Enter'&&!event.shiftKey&&!event.isComposing&&event.target.matches('textarea')){event.preventDefault();event.target.form.requestSubmit()}
 })
-listen(document,'pointerdown',event=>{if(!$('#utility-panel').hidden&&!event.target.closest('#utility-panel,.home-nav,.profile-button,.prototype-caption'))closeUtility()})
-for(const el of document.querySelectorAll('[data-entry]')) {
+listen(mount,'pointerdown',event=>{if(!$('#utility-panel').hidden&&!event.target.closest('#utility-panel,.home-nav,.profile-button,.prototype-caption'))closeUtility()})
+for(const el of mount.querySelectorAll('[data-entry]')) {
   el.addEventListener('pointerenter',()=>{scene.dataset.awake=el.dataset.entry})
   el.addEventListener('pointerleave',()=>{delete scene.dataset.awake})
   el.addEventListener('focus',()=>{scene.dataset.awake=el.dataset.entry})
@@ -275,9 +392,13 @@ function resizeScene(){
 listen(window,'resize',resizeScene)
 for(const image of bird.querySelectorAll('img')) image.addEventListener('error',()=>{image.hidden=true;bird.classList.add('asset-unavailable')})
 resizeScene();render(true)
+if (['thinking','work'].includes(state.mode)) {
+  mountSceneMotion(state.active, state.mode)?.setExpanded(true, { immediate: true })
+}
 if(snapshot?.captureDraft){$('#capture-input').value=snapshot.captureDraft;$('#capture-form [type=submit]').disabled=!snapshot.captureDraft.trim()}
 function destroy() {
   controller.abort();actionRevision++;cancelAnimations()
+  destroySceneMotion()
   for(const id of timers)window.clearTimeout(id)
   timers.clear()
   for(const material of materials.values())material.destroy()

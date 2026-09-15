@@ -1,5 +1,6 @@
 // Runtime derivative of artifacts/trace-worksite-v1-20260915/ui; original layout retained.
 import {icon, mark, escapeHTML as esc} from './worksite-icons.mjs';
+import {registerFont} from './resource-cache.mjs';
 
 const SCREENS=['overview','intake','impact','finding','results'];
 const ROLES={reference:'这次参考',trial:'这次先试',contrast:'这次只作对照',exclude:'这次不用'};
@@ -27,7 +28,7 @@ export function mountWorksiteScreen({root,view,onAction,onHome,onBack,onWorkspac
   const uid=`worksite-${++instanceCounter}`;
   let current=view||{},destroyed=false,localPanel='',previousFocus=null,toastTimer=0,birdAnimation=null,panelAnimation=null,panelTarget=null,pendingOrigin=null;
   let activeScreen='',activeWork='',lastLists='',lastWorkList='',lastMatterOptions='';
-  const composition=new WeakSet(),glass=[],fontFaces=[];
+  const composition=new WeakSet(),glass=[];
   const host=document.createElement('div'); host.className='worksite-root'; host.dataset.worksite=uid;
   const fieldId=name=>`${uid}-${name}`;
   host.innerHTML=`
@@ -85,13 +86,12 @@ export function mountWorksiteScreen({root,view,onAction,onHome,onBack,onWorkspac
   const setDisabled=(selector,value)=>qa(selector).forEach(el=>{el.disabled=Boolean(value);});
   const dispatch=action=>{if(!destroyed)onAction(action);};
 
-  // FontFace names are instance-scoped; consumers need not install fonts globally.
+  // Font faces use stable family names and the shared cache. Do not delete
+  // them when this adapter is destroyed: warm revisits should reuse them.
   for(const [kind,path] of [['serif',assets.serifFont],['sans',assets.sansFont]]) {
     if(path && typeof FontFace==='function') {
-      const family=`Trace Worksite ${kind} ${uid}`;
-      const face=new FontFace(family,`url(${JSON.stringify(String(path))})`,{weight:kind==='serif'?'250 900':'100 900',display:'swap'});
-      fontFaces.push(face);document.fonts.add(face);
-      face.load().catch(()=>{host.dataset.fontFallback='true';});
+      const family=`Trace Worksite ${kind==='serif'?'Serif':'Sans'}`;
+      registerFont({family,url:path,weight:kind==='serif'?'250 900':'100 900'}).catch(()=>{host.dataset.fontFallback='true';});
       host.style.setProperty(`--worksite-${kind}`,`"${family}", ${kind==='serif'?'"Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", SimSun, serif':'"Noto Sans CJK SC", "Microsoft YaHei", sans-serif'}`);
     }
   }
@@ -352,5 +352,5 @@ export function mountWorksiteScreen({root,view,onAction,onHome,onBack,onWorkspac
   host.addEventListener('click',onClick);host.addEventListener('input',input);host.addEventListener('change',input);host.addEventListener('submit',submit);host.addEventListener('keydown',keydown);host.addEventListener('compositionstart',startComposition);host.addEventListener('compositionend',endComposition);
   q('.worksite-panel-backdrop').addEventListener('click',()=>{if(localPanel)closePanel();});
   update(view);resize();
-  return {update,destroy(){if(destroyed)return;destroyed=true;clearTimeout(toastTimer);birdAnimation?.cancel?.();birdAnimation?.pause?.();panelAnimation?.cancel?.();panelAnimation?.pause?.();resizeObserver?.disconnect();window.removeEventListener('resize',resize);glass.forEach(item=>item.destroy());fontFaces.forEach(face=>document.fonts.delete(face));host.remove();}};
+  return {update,destroy(){if(destroyed)return;destroyed=true;clearTimeout(toastTimer);birdAnimation?.cancel?.();birdAnimation?.pause?.();panelAnimation?.cancel?.();panelAnimation?.pause?.();resizeObserver?.disconnect();window.removeEventListener('resize',resize);glass.forEach(item=>item.destroy());host.remove();}};
 }

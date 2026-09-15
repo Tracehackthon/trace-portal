@@ -1,5 +1,7 @@
-// Native, session-view-only scene. No persistence, network, or model inference.
+// Scene adapter: it renders the supplied canonical projection, while all
+// persistence and business decisions stay in the React runtime/bridge.
 import { mark, icon as homeIcon } from '../home-icons.js';
+import { registerFont } from '../product/resource-cache.mjs';
 const NS = 'http://www.w3.org/2000/svg';
 const W = 1672, H = 941;
 let instanceCounter = 0;
@@ -75,8 +77,9 @@ export function mountMattersScreen({ root, view: initialView, onAction, onHome =
   const header = el('header', 'matters-header');
   const sceneBody = el('main', 'matters-body');
   const brand = button('', 'matters-brand', onHome);
-  brand.innerHTML = mark; // Authored, local brand SVG; no user content.
-  brand.append(el('span', '', 'Trace'));
+  const brandTile = el('span', 'brand-tile');
+  brandTile.innerHTML = mark; // Authored, local brand SVG; no user content.
+  brand.append(brandTile, el('span', '', 'Trace'));
   brand.setAttribute('aria-label', 'Trace，返回首页');
   const breadcrumb = button('', 'matters-breadcrumb', () => send({ type: 'BACK' }));
   const utilities = el('nav', 'matters-utilities');
@@ -123,15 +126,15 @@ export function mountMattersScreen({ root, view: initialView, onAction, onHome =
     // This prevents a second, differently cropped photograph appearing at 880×620.
     shell.style.backgroundImage = background;
   }
-  const fontStyle = el('style');
-  const fontRules = [];
-  if (assets.serifFont) fontRules.push(`@font-face{font-family:"${id}-serif";src:url(${JSON.stringify(String(assets.serifFont))}) format("woff2");font-weight:250 900;font-display:swap;}`);
-  if (assets.sansFont) fontRules.push(`@font-face{font-family:"${id}-sans";src:url(${JSON.stringify(String(assets.sansFont))}) format("woff2");font-weight:100 900;font-display:swap;}`);
-  fontStyle.textContent = fontRules.join('\n'); shell.prepend(fontStyle);
-  shell.style.setProperty('--matters-serif', `"${id}-serif", "Noto Serif SC", "Songti SC", "SimSun", serif`);
-  shell.style.setProperty('--matters-sans', `"${id}-sans", "Microsoft YaHei", "PingFang SC", sans-serif`);
+  // Font faces are registered once per stable family by the app resource
+  // cache.  Instance-scoped @font-face rules caused duplicate face growth on
+  // every matters -> chain -> matters revisit.
+  if (assets.fullSerifFont || assets.serifFont) registerFont({ family: 'Trace Matters Serif', url: assets.fullSerifFont || assets.serifFont, weight: '250 900' }).catch(() => { shell.dataset.fontFallback = 'true'; });
+  if (assets.fullSansFont || assets.sansFont) registerFont({ family: 'Trace Matters Sans', url: assets.fullSansFont || assets.sansFont, weight: '100 900' }).catch(() => { shell.dataset.fontFallback = 'true'; });
+  shell.style.setProperty('--matters-serif', '"Trace Matters Serif", "Noto Serif SC", "Songti SC", "SimSun", serif');
+  shell.style.setProperty('--matters-sans', '"Trace Matters Sans", "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif');
   let view = initialView, lastFingerprint = '', destroyed = false;
-  let materials = [], animations = [], pendingEntry = null, growth = null, growthTimer = null;
+  let materials = [], animations = [], pendingEntry = null, growth = null, growthTimer = null, growthMotion = null, growthArt = null;
   let focusReturn = null, noticeTimer = null, lastNotice = '', materialOpen = false;
   const reducedQuery = window.matchMedia?.('(prefers-reduced-motion: reduce)');
   const reduced = () => Boolean(reducedQuery?.matches);
@@ -282,7 +285,7 @@ export function mountMattersScreen({ root, view: initialView, onAction, onHome =
     }
   }
   function textBlock(title, text, className) {
-    const section = el('section', className); section.append(el('h2', '', title), el('p', '', words(text))); return section;
+    const section = el('section', className); section.append(el('h2', '', title), el('p', '', words(text) || '还没有可回看的记录。')); return section;
   }
   function originalOf(matter) { return matter?.sources?.find(source => !source.id?.includes('comparison')) || matter?.sources?.[0]; }
   function showOriginal() { const source = originalOf(view.selected); if (source) showMaterial(source, 'source'); }
@@ -302,7 +305,8 @@ export function mountMattersScreen({ root, view: initialView, onAction, onHome =
     if (fresh) center.append(el('span', 'matters-context-note', '本次先不带回旧理解'));
     const right = textBlock('后来发生了什么', matter.laterChange, 'matters-lobe matters-lobe-change');
     right.prepend(icon('ideas', 'matters-lobe-icon'));
-    right.append(button('新的对照 ›', 'matters-inline-link', () => send({ type: 'CONTINUE', tab: 'comparison' })));
+    if (matter.comparison?.title) right.append(el('p', 'matters-reentry-source', `来源：${matter.comparison.title}`));
+    right.append(button(matter.comparison?.title ? '打开对照 ›' : '寻找对照 ›', 'matters-inline-link', () => send({ type: 'CONTINUE', tab: 'comparison' })));
     content.append(left, center, right);
     const footer = el('div', 'matters-reentry-actions');
     footer.append(button('查看原现场', 'matters-text-button', showOriginal), el('span', 'matters-action-divider', '|'), button('从这里接着', 'matters-text-button', () => send({ type: 'CONTINUE', tab: 'stop' })), el('span', 'matters-action-divider', '|'), button('先不带回旧理解', 'matters-text-button', () => send({ type: 'FRESH' })));
@@ -443,8 +447,11 @@ export function mountMattersScreen({ root, view: initialView, onAction, onHome =
     const close = button('', 'matters-material-close', () => closeMaterial()); close.append(icon('close')); close.setAttribute('aria-label', '关闭原现场');
     const title = el('h2', 'matters-material-title', kind === 'quote' ? '你曾经说过' : item.title); title.id = `${id}-material-title`;
     const owner = view.matters.find(matter => matter.id === item.matterId);
-    const kindLabel = kind === 'quote' ? item.example === false ? '本次输入' : '示例引文' : item.kind || '示例现场';
-    frame.append(close, el('p', 'matters-material-kind', `${kindLabel} · 仅本次会话`), title, el('p', 'matters-material-excerpt', kind === 'quote' ? item.text : item.excerpt), el('p', 'matters-material-owner', `关联「${owner?.title || view.selected?.title || '在意的事'}」`), el('p', 'matters-material-footnote', item.example === false ? '这是你在本次页面会话中留下的内容，刷新后重置。' : '这是用于演示交互的现场摘录，不是已连接的外部原文。'));
+    const persisted = view.example === false;
+    const kindLabel = kind === 'quote' ? item.example === false ? persisted ? '本机输入' : '本次输入' : '示例引文' : item.kind || '示例现场';
+    const sessionLabel = persisted ? '已保存在本机' : '仅本次会话';
+    const footnote = persisted ? '这是保存在本机的内容；来源链接不会被自动读取或伪造。' : item.example === false ? '这是你在本次页面会话中留下的内容，刷新后重置。' : '这是用于演示交互的现场摘录，不是已连接的外部原文。';
+    frame.append(close, el('p', 'matters-material-kind', `${kindLabel} · ${sessionLabel}`), title, el('p', 'matters-material-excerpt', kind === 'quote' ? item.text : item.excerpt), el('p', 'matters-material-owner', `关联「${owner?.title || view.selected?.title || '在意的事'}」`), el('p', 'matters-material-footnote', footnote));
     frame.append(button('回到这件事', 'matters-primary', () => closeMaterial()));
     dialog.replaceChildren(frame); materialOpen = true;
     if (typeof dialog.showModal === 'function') dialog.showModal();
@@ -464,20 +471,87 @@ export function mountMattersScreen({ root, view: initialView, onAction, onHome =
   function finishGrowth(restoreFocus = true) {
     if (!growth) return;
     clearTimeout(growthTimer); growthTimer = null; stopAnimations();
+    try { growthMotion?.destroy?.(); } catch { /* cleanup must not block the route */ }
+    growthMotion = null; growthArt?.remove?.(); growthArt = null;
     growth.remove(); growth = null; shell.classList.remove('matters-entering');
     sceneBody.inert = false;
     if (restoreFocus) (sceneBody.querySelector('button') || brand).focus({ preventScroll: true });
     for (const material of materials) { try { material.refresh?.(); } catch { /* settled fallback */ } }
   }
   function startGrowth(entry) {
-    if (reduced() || typeof services.animate !== 'function') return;
+    if (typeof services.animate !== 'function') return;
     shell.classList.add('matters-entering'); sceneBody.inert = true;
     growth = place(el('div', 'matters-growth'), entry.origin);
-    surface(growth, BUBBLE, { large: true });
+    const growthSurface = surface(growth, BUBBLE, { large: true });
     const copy = el('div', 'matters-growth-copy'); copy.append(icon(view.selected.id), el('h2', '', view.selected.title), el('p', '', `上次停在：${view.selected.lastStop}`), el('span', 'matters-growth-label', '正在展开这件事的脉络…'));
     const progress = el('span', 'matters-growth-progress'); copy.append(progress); growth.append(copy); stage.append(growth);
     const skip = button('跳过展开', 'matters-skip-growth', finishGrowth); growth.append(skip);
-    bird(growth, 243, 6, true);
+    const originX = Number(entry.origin?.[0]) || 0;
+    const originY = Number(entry.origin?.[1]) || 0;
+    const originW = Number(entry.origin?.[2]) || 1;
+    const originH = Number(entry.origin?.[3]) || 1;
+    const originNode = [originX + originW / 2, originY + originH / 2];
+    const targetNode = [800, 310];
+    // A sibling SVG keeps the thread, node, and two locked bird postures in
+    // the same 1672 × 941 scene coordinate system as the growth surface.
+    // The readable copy remains in `growth-copy`, never in the transformed
+    // group, so its glyphs do not stretch while the irregular outline grows.
+    if (typeof services.createSceneMotion === 'function') {
+      growthArt = svgNode('svg', { viewBox: `0 0 ${W} ${H}`, class: 'matters-growth-motion', 'aria-hidden': 'true' });
+      const artDefs = svgNode('defs');
+      const artTarget = svgNode('path', { d: MERGED }); artDefs.append(artTarget); growthArt.append(artDefs);
+      const artThread = svgNode('path', { class: 'matters-growth-thread', d: `M ${originNode[0]} ${originNode[1]} L ${originNode[0]} ${originNode[1]}` });
+      const artSignal = svgNode('path', { class: 'matters-growth-signal', d: `M ${originNode[0]} ${originNode[1]} L ${originNode[0]} ${originNode[1]}` });
+      const artNode = svgNode('circle', { class: 'matters-growth-node', cx: originNode[0], cy: originNode[1], r: 7 });
+      const artBird = svgNode('g', { class: 'matters-growth-bird', transform: `translate(${originNode[0]} ${originNode[1]})` });
+      const perched = svgNode('image', { href: assets.birdPerched || '', x: '-69', y: '-53', width: '98', height: '74' });
+      const takeoff = svgNode('image', { href: assets.birdTakeoff || '', x: '-68', y: '-86', width: '104', height: '84', opacity: '0' });
+      artBird.append(perched, takeoff); growthArt.append(artThread, artSignal, artNode, artBird); stage.append(growthArt);
+      const localShape = growthSurface.querySelector('.matters-surface-svg > path');
+      const localDefs = growthSurface.querySelector('.matters-surface-svg > defs');
+      const companionPaths = [...growthSurface.querySelectorAll('.matters-surface-svg > path')].slice(1);
+      if (localShape && localDefs) {
+        localDefs.append(svgNode('path', { d: MERGED }));
+        const startGeometry = { x: originX, y: originY, w: originW, h: originH, sx: originNode[0], sy: originNode[1], nx: originNode[0], ny: originNode[1] };
+        const endGeometry = { x: 475, y: 300, w: 743, h: 404, sx: originNode[0], sy: originNode[1], nx: targetNode[0], ny: targetNode[1] };
+        try {
+          growthMotion = services.createSceneMotion({
+            root: stage,
+            shape: localShape,
+            targetPath: localDefs.lastElementChild,
+            initialPath: BUBBLE,
+            expandedPath: MERGED,
+            initial: startGeometry,
+            expanded: endGeometry,
+            reducedMotion: reduced,
+            draw(geometry, opening) {
+              Object.assign(growth.style, { left: `${geometry.x}px`, top: `${geometry.y}px`, width: `${geometry.w}px`, height: `${geometry.h}px` });
+              const currentD = localShape.getAttribute('d') || BUBBLE;
+              companionPaths.forEach(path => path.setAttribute('d', currentD));
+              const sx = Number(geometry.sx) || originNode[0], sy = Number(geometry.sy) || originNode[1];
+              const nx = Number(geometry.nx) || sx, ny = Number(geometry.ny) || sy;
+              const route = `M ${sx} ${sy} C ${sx + (nx - sx) * .35} ${sy - 42} ${nx - (nx - sx) * .22} ${ny - 26} ${nx} ${ny}`;
+              artThread.setAttribute('d', route); artSignal.setAttribute('d', route);
+              artNode.setAttribute('cx', String(nx)); artNode.setAttribute('cy', String(ny));
+              artBird.setAttribute('transform', `translate(${nx} ${ny})`);
+              perched.setAttribute('opacity', opening ? '0' : '1'); takeoff.setAttribute('opacity', opening ? '1' : '0');
+            },
+            onSettled(opening) {
+              growthArt.dataset.motionState = opening ? 'open' : 'closed';
+              if (opening) growthTimer = window.setTimeout(() => finishGrowth(), 70);
+            },
+          });
+          // Schedule the copy before starting the immediate reduced-motion
+          // branch; its callback may settle in a microtask.
+          animations.push(services.animate(copy, { opacity: [0, 1], duration: 390, delay: 140, ease: 'out(3)' }));
+          animations.push(services.animate(progress, { scaleX: [0, 1], duration: 680, ease: 'linear' }));
+          growthMotion.setExpanded(true);
+          if (!reduced()) growthTimer = window.setTimeout(finishGrowth, 760);
+          skip.focus({ preventScroll: true });
+          return;
+        } catch { growthMotion?.destroy?.(); growthMotion = null; growthArt?.remove?.(); growthArt = null; }
+      }
+    }
     try {
       animations.push(services.animate(growth, { left: 475, top: 300, width: 743, height: 404, duration: 680, ease: 'out(4)' }));
       animations.push(services.animate(copy, { opacity: [0, 1], duration: 390, delay: 140, ease: 'out(3)' }));

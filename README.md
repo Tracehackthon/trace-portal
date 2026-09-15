@@ -4,6 +4,10 @@ Trace 的本机 Web：围绕同一件仍在变化的事，留下一点、接着�
 
 **当前可运行入口是 `apps/web`，不是根目录旧 ZIP，也不是 `artifacts` 中的单页原型。** 既有原型和资料原样保留；Web 复用已确认的背景、鸟、字体与组件，不重新生成视觉资产。
 
+## Vercel 部署
+
+浏览器本地保存版使用 `npm run build:vercel`，输出到独立 `apps/web/dist-vercel`，不会覆盖本机 SQLite 版本的 `dist`。已准备 Git 自动部署配置，**线上项目/Git 接入仍待完成**；状态、接入步骤与存储边界见 [Vercel 部署说明](docs/vercel-deployment.md)。
+
 ## 启动
 
 使用 **Node.js 22.23.1 或更新的兼容版本**（已实测 22.23.1）。运行时只依赖 Node 内置模块；启动无需安装第三方包。
