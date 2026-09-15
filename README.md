@@ -6,7 +6,7 @@ Trace 的本机 Web：围绕同一件仍在变化的事，留下一点、接着�
 
 ## Vercel 部署
 
-浏览器本地保存版使用 `npm run build:vercel`，输出到独立 `apps/web/dist-vercel`，不会覆盖本机 SQLite 版本的 `dist`。已准备 Git 自动部署配置，**线上项目/Git 接入仍待完成**；状态、接入步骤与存储边界见 [Vercel 部署说明](docs/vercel-deployment.md)。
+浏览器本地保存版已上线：[打开 Trace](https://trace-portal.vercel.app)。使用 `npm run build:vercel`，输出到独立 `apps/web/dist-vercel`，不会覆盖本机 SQLite 版本的 `dist`。GitHub Actions 工作流负责 push 后的测试、构建和部署：`main` 为正式站，其它分支为 Preview；首次自动触发验收状态、凭证要求与存储边界见 [Vercel 部署说明](docs/vercel-deployment.md)。
 
 ## 启动
 

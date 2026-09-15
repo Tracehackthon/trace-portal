@@ -4,7 +4,7 @@
   "private": true,
   "description": "Trace local-first Web workspace",
   "engines": {
-    "node": ">=22.23.1"
+    "node": "22.x"
   },
   "scripts": {
     "dev": "npm --prefix apps/web run dev",
