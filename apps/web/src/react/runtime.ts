@@ -7,6 +7,30 @@ const clone = <T>(value: T): T => structuredClone(value);
 const uid = (kind: string) => `${kind}-${crypto.randomUUID()}`;
 const allowed: ViewName[] = ['home', 'matters', 'chain', 'compare', 'worksite', 'works', 'search', 'all', 'discussion'];
 
+type HarnessHandoff = {
+  observationId: string | null;
+  text: string;
+  status: string | null;
+  source: string | null;
+};
+
+/**
+ * The Harness is only allowed to hand over an explicit observation.  It does
+ * not get to infer a conclusion or overwrite an existing Trace matter.
+ */
+function readHarnessHandoff(): HarnessHandoff | null {
+  const params = new URLSearchParams(location.search);
+  if (params.get('from') !== 'deepseek-harness') return null;
+  const text = (params.get('text') || '').trim();
+  if (!text) return null;
+  return {
+    observationId: params.get('observationId'),
+    text,
+    status: params.get('status'),
+    source: params.get('source'),
+  };
+}
+
 function urlFor(route: RouteMemory): URL {
   const url = new URL(location.href);
   url.search = '';
@@ -21,7 +45,10 @@ function urlFor(route: RouteMemory): URL {
 
 function fromUrl(): RouteMemory {
   const params = new URLSearchParams(location.search);
-  let view = (params.get('view') || (['from', 'observationId', 'text', 'status', 'source'].some((key) => params.has(key)) ? 'discussion' : 'home')) as ViewName;
+  // A DeepSeek Harness handoff is ingested into the canonical Trace model
+  // during startup below.  Other legacy query links retain their old route.
+  const isHarnessHandoff = Boolean(readHarnessHandoff());
+  let view = (params.get('view') || (!isHarnessHandoff && ['from', 'observationId', 'text', 'status', 'source'].some((key) => params.has(key)) ? 'discussion' : 'home')) as ViewName;
   if (!allowed.includes(view)) view = 'home';
   if (view === 'matters' && params.has('matter')) view = 'chain';
   if (view === 'matters' && params.has('q')) view = 'search';
@@ -129,10 +156,11 @@ export class WebRuntime {
         this.host = recovered;
         await this.save(this.host);
       }
+      this.route = fromUrl();
+      await this.resumeHarnessHandoff();
       this.ready = true;
       this.error = null;
       this.setPreferences();
-      this.route = fromUrl();
       this.setStatus('saved', `已连接${storageLabel}存储`);
       this.emit();
     } catch (cause) {
@@ -140,6 +168,59 @@ export class WebRuntime {
       this.setStatus('error', '本机内容未能读取，没有用空内容覆盖它。');
       throw cause;
     }
+  }
+
+  /**
+   * Turn a Harness observation into a normal Trace matter exactly once, then
+   * remove the transient query parameters so refresh cannot create a copy.
+   */
+  private async resumeHarnessHandoff(): Promise<void> {
+    const handoff = readHarnessHandoff();
+    if (!handoff || !this.host) return;
+
+    const existing = this.host.chain.matters.find((item: any) => {
+      const marker = item.externalHandoff;
+      if (marker?.origin !== 'deepseek-harness') return false;
+      return handoff.observationId
+        ? marker.observationId === handoff.observationId
+        : marker.text === handoff.text && marker.source === handoff.source;
+    });
+
+    let matterId: string;
+    if (existing) {
+      matterId = existing.id;
+    } else {
+      matterId = uid('matter');
+      const sourceTitle = handoff.source || 'DeepSeek Harness';
+      const next = B.captureInput(this.host, {
+        matterId,
+        text: handoff.text,
+        source: {
+          id: uid('source'),
+          title: sourceTitle,
+          excerpt: handoff.text,
+          context: '从 DeepSeek Harness 接续的原始现场。',
+        },
+      });
+      if (next.error) throw new Error(next.error.message || '未能接住来自 Harness 的观察。');
+      const captured = next.chain.matters.find((item: any) => item.id === matterId);
+      // This is provenance only. It never changes the user’s original text or
+      // assigns a judgement based on the mock Harness status.
+      captured.externalHandoff = {
+        origin: 'deepseek-harness',
+        observationId: handoff.observationId,
+        text: handoff.text,
+        source: handoff.source,
+        status: handoff.status,
+        receivedAt: new Date().toISOString(),
+      };
+      this.host = next;
+      await this.save(next);
+    }
+
+    this.route = { view: 'chain', matterId, screen: 'resume' };
+    history.replaceState({ traceRoute: this.route }, '', urlFor(this.route));
+    try { sessionStorage.setItem(`trace:${location.search}`, JSON.stringify(this.route)); } catch { /* storage can be disabled */ }
   }
 
   private async save(value: any, commandId = uid('command')): Promise<any> {
