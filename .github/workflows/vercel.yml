@@ -2,26 +2,27 @@ name: Vercel Deploy
 
 on:
   push:
-    branches: ['**']
+    branches: [chore/vercel-actions]
   workflow_dispatch:
 
 permissions:
   contents: read
 
-# Do not cancel an upload that may already be promoting a production alias.
+# Do not cancel an upload that may already be changing a Preview alias.
 # The pre-deploy branch-head check skips an obsolete queued build instead.
 concurrency:
-  group: vercel-${{ github.ref }}
+  group: vercel-preview-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   deploy:
+    if: github.ref == 'refs/heads/chore/vercel-actions'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
       VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-      VERCEL_ENV: ${{ github.ref == 'refs/heads/main' && 'production' || 'preview' }}
+      VERCEL_ENV: preview
       VERCEL_TELEMETRY_DISABLED: '1'
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -49,10 +50,8 @@ jobs:
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN || secrets.TRACEPORTAL }}
         run: |
-          flags=()
-          if [ "$VERCEL_ENV" = production ]; then flags+=(--prod); fi
           # vercel.json runs npm ci, the 96 tests, TypeScript, and Vite.
-          vercel build "${flags[@]}" --token="$VERCEL_TOKEN"
+          vercel build --token="$VERCEL_TOKEN"
       - name: Verify browser-local persistence before deployment
         run: |
           npx playwright install --with-deps chromium
@@ -75,7 +74,6 @@ jobs:
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN || secrets.TRACEPORTAL }}
         run: |
-          flags=()
-          if [ "$VERCEL_ENV" = production ]; then flags+=(--prod); fi
-          url=$(vercel deploy --prebuilt "${flags[@]}" --yes --token="$VERCEL_TOKEN" --meta gitCommitSha="$GITHUB_SHA")
+          # This command creates only a Preview deployment.
+          url=$(vercel deploy --prebuilt --yes --token="$VERCEL_TOKEN" --meta gitCommitSha="$GITHUB_SHA")
           printf '### Vercel deployment\n\n- Environment: %s\n- Commit: `%s`\n- URL: %s\n' "$VERCEL_ENV" "$GITHUB_SHA" "$url" >> "$GITHUB_STEP_SUMMARY"
