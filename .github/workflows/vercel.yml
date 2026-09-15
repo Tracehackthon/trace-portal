@@ -22,6 +22,7 @@ jobs:
     env:
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
       VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      VERCEL_SCOPE: neutronm
       VERCEL_ENV: preview
       VERCEL_TELEMETRY_DISABLED: '1'
     steps:
@@ -42,16 +43,24 @@ jobs:
           fi
       - name: Install pinned Vercel CLI
         run: npm install --global vercel@59.17.0
+      - name: Verify Vercel scope and project access
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN || secrets.TRACEPORTAL }}
+        run: |
+          # These commands print only the authenticated account and project metadata.
+          # They must succeed before this workflow pulls settings or creates a Preview.
+          vercel whoami --scope="$VERCEL_SCOPE" --token="$VERCEL_TOKEN"
+          vercel project inspect trace-portal --yes --scope="$VERCEL_SCOPE" --token="$VERCEL_TOKEN"
       - name: Pull project settings
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN || secrets.TRACEPORTAL }}
-        run: vercel pull --yes --environment="$VERCEL_ENV" --token="$VERCEL_TOKEN"
+        run: vercel pull --yes --environment="$VERCEL_ENV" --scope="$VERCEL_SCOPE" --token="$VERCEL_TOKEN"
       - name: Test and build once
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN || secrets.TRACEPORTAL }}
         run: |
           # vercel.json runs npm ci, the 96 tests, TypeScript, and Vite.
-          vercel build --token="$VERCEL_TOKEN"
+          vercel build --scope="$VERCEL_SCOPE" --token="$VERCEL_TOKEN"
       - name: Verify browser-local persistence before deployment
         run: |
           npx playwright install --with-deps chromium
@@ -75,5 +84,5 @@ jobs:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN || secrets.TRACEPORTAL }}
         run: |
           # This command creates only a Preview deployment.
-          url=$(vercel deploy --prebuilt --yes --token="$VERCEL_TOKEN" --meta gitCommitSha="$GITHUB_SHA")
+          url=$(vercel deploy --prebuilt --yes --scope="$VERCEL_SCOPE" --token="$VERCEL_TOKEN" --meta gitCommitSha="$GITHUB_SHA")
           printf '### Vercel deployment\n\n- Environment: %s\n- Commit: `%s`\n- URL: %s\n' "$VERCEL_ENV" "$GITHUB_SHA" "$url" >> "$GITHUB_STEP_SUMMARY"
